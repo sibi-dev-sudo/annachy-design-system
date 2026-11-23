@@ -1,0 +1,22 @@
+/*
+ * Annachy Design System — Compatibility tokens
+ * Layer: compat · Phase R1 (tokens)
+ * Source of truth: Figma file rM3ixSG6i3DFfKZFWuxzs4 — values copied exactly via
+ * docs/implementation/r1-token-mapping.md and src/tokens/tokens.json. Do not edit values by hand
+ * without updating both documents.
+ * Foreign (non-Annachy) variables bound by Checkbox/Radio in Figma. Kept for fidelity;
+ * pending owner decision D-19. Blur/blur-* values are Figma unitless numbers, kept as-is.
+ */
+
+:root {
+
+  /* Foreign compatibility variables */
+  --annachy-compat-color-surface-bg: #ffffff;  /* D-19 */
+  --annachy-compat-color-border-default: #e1e1e2;  /* D-19 */
+  --annachy-compat-color-alpha-50: #1a1a1a14;  /* D-19 */
+  --annachy-compat-blur-0: 0;  /* D-19 */
+  --annachy-compat-blur-2: 3;  /* D-19 */
+
+  /* Effect styles used by components (undocumented on Shadow page) */
+  --annachy-compat-shadow-sm: 0px 1px 3px 0px #1a1a1a14, 0px 0.5px 0px 0px #1a1a1a14;  /* D-19 */
+}

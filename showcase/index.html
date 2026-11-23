@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Annachy Design System — Showcase</title>
+  <link rel="stylesheet" href="../src/annachy.css">
+  <link rel="stylesheet" href="showcase.css">
+</head>
+<body>
+  <header class="sc-header">
+    <p class="sc-eyebrow">Annachy Design System · Showcase</p>
+    <h1>Annachy Design System</h1>
+  </header>
+  <main class="sc-main">
+    <p>A browser replica of the Figma design system (file <code>rM3ixSG6i3DFfKZFWuxzs4</code>, the single source of truth): foundations, every component variant, and the pattern screens. It is built with vanilla HTML, CSS and ES modules. The library is <code>src/annachy.css</code> + <code>src/annachy.js</code>; traceability is in <code>docs/replication/</code>.</p>
+
+    <div class="sc-catalogue-tools">
+      <div class="annachy-input annachy-input--outline annachy-input--size-46 annachy-input--radius-8 sc-catalogue-search">
+        <div class="annachy-input__top">
+          <div class="annachy-input__label-container"><label class="annachy-input__label" for="sc-q">Find in the design system</label></div>
+          <div class="annachy-input__field"><input class="annachy-input__control" id="sc-q" type="search" placeholder="Component, foundation, screen or Figma node" autocomplete="off" aria-describedby="sc-q-count"></div>
+        </div>
+        <div class="annachy-input__subtext-group"><span class="annachy-input__subtext" id="sc-q-count" role="status" aria-live="polite"></span></div>
+      </div>
+      <div class="sc-filters" role="group" aria-label="Filter by category">
+        <button type="button" class="annachy-button annachy-button--secondary-grey annachy-button--size-32" aria-pressed="true" data-filter="all"><span class="annachy-button__label">All</span></button>
+        <button type="button" class="annachy-button annachy-button--secondary-grey annachy-button--size-32" aria-pressed="false" data-filter="foundation"><span class="annachy-button__label">Foundations</span></button>
+        <button type="button" class="annachy-button annachy-button--secondary-grey annachy-button--size-32" aria-pressed="false" data-filter="component"><span class="annachy-button__label">Components</span></button>
+        <button type="button" class="annachy-button annachy-button--secondary-grey annachy-button--size-32" aria-pressed="false" data-filter="screen"><span class="annachy-button__label">Patterns &amp; screens</span></button>
+      </div>
+    </div>
+
+    <section class="sc-catalogue" data-group="foundation" aria-labelledby="h-found">
+      <h2 id="h-found">Foundations</h2>
+      <ul class="sc-cards">
+        <li class="sc-card" data-category="foundation" data-keywords="colour color palette primitives semantic brand dark mode 273:10649"><a href="foundations/colors.html">Colours</a><p>Primitives, semantic Light colours, partial Dark mode, Button, icon-state and compatibility colours.</p><span class="sc-card__meta">Figma <code>273:10649</code> · 169 colour tokens (+ 7 Dark re-maps)</span></li>
+        <li class="sc-card" data-category="foundation" data-keywords="typography type text styles font weight line height 220:10667"><a href="foundations/typography.html">Typography</a><p>The 28 Typography System styles (Mobile active, Desktop reference).</p><span class="sc-card__meta">Figma <code>220:10667</code> · 28 styles × 7 properties</span></li>
+        <li class="sc-card" data-category="foundation" data-keywords="iconography icons icon slot manifest iconly 375:10889"><a href="foundations/iconography.html">Iconography</a><p>Icon system model, every component icon slot, and the manifest status. <strong>Icon artwork is blocked</strong> on Iconly access.</p><span class="sc-card__meta">Figma <code>375:10889</code> · 15 slot cases</span></li>
+        <li class="sc-card" data-category="foundation" data-keywords="icons icon catalogue iconly outline filled sizes 1801:5142"><a href="icons/index.html">Icon catalogue</a><p>All 5,128 icon sets on the Figma Icons page: every style and size rendered, searchable by name, category or node ID. Internal use only.</p><span class="sc-card__meta">Figma <code>1801:5142</code> · 35,890 variants</span></li>
+        <li class="sc-card" data-category="foundation" data-keywords="effects shadow blur glass gradient elevation 1351:18308 1351:18312"><a href="foundations/effects.html">Effects</a><p>Shadow scale, component effect styles, blur, glass, gradient.</p><span class="sc-card__meta">Figma <code>1351:18308</code>, <code>1351:18312</code></span></li>
+        <li class="sc-card" data-category="foundation" data-keywords="grid layout columns margins gutter 317:12589"><a href="foundations/grid.html">Grid &amp; layout</a><p>Grid reference values (Figma defines no breakpoints).</p><span class="sc-card__meta">Figma <code>317:12589</code> · 13 values</span></li>
+        <li class="sc-card" data-category="foundation" data-keywords="dimensions radius height border width 365:11441"><a href="foundations/dimensions.html">Dimensions</a><p>Heights, radius scale, border widths.</p><span class="sc-card__meta">Figma <code>365:11441</code> · 12 heights · 11 radii</span></li>
+        <li class="sc-card" data-category="foundation" data-keywords="base reset document utilities text classes"><a href="foundations/base.html">Base &amp; utilities</a><p>Document defaults, text classes, utilities.</p><span class="sc-card__meta">R2</span></li>
+      </ul>
+    </section>
+
+    <section class="sc-catalogue" data-group="component" aria-labelledby="h-comp">
+      <h2 id="h-comp">Components <small>1,397 of 1,397 Figma variants</small></h2>
+      <ul class="sc-cards">
+        <li class="sc-card" data-category="component" data-keywords="button primary secondary tertiary link loading 887:2492"><a href="components/button.html">Button</a><p>6 types × 6 states × 12 sizes.</p><span class="sc-card__meta">Figma <code>887:2492</code> · 432 variants</span></li>
+        <li class="sc-card" data-category="component" data-keywords="button gradient 1153:3370"><a href="components/button-gradient.html">Button (gradient)</a><p>11 sizes × 5 states.</p><span class="sc-card__meta">Figma <code>1153:3370</code> · 55 variants</span></li>
+        <li class="sc-card" data-category="component" data-keywords="input field text outline filled error success 1066:37962 1066:40663"><a href="components/input.html">Input</a><p>Outline and Filled fields: states, sizes, radii.</p><span class="sc-card__meta">Figma <code>1066:37962</code>, <code>1066:40663</code> · 325 variants</span></li>
+        <li class="sc-card" data-category="component" data-keywords="checkbox multi-select indeterminate selection controls 1504:53300"><a href="components/checkbox.html">Checkbox</a><p>Checked, Multi-select, Unchecked, Focus, Pressed, Disabled.</p><span class="sc-card__meta">Figma <code>1504:53300</code> · 126 variants</span></li>
+        <li class="sc-card" data-category="component" data-keywords="radio selection controls 1504:52363"><a href="components/radio.html">Radio</a><p>Selected and unselected states, three sizes.</p><span class="sc-card__meta">Figma <code>1504:52363</code> · 108 variants</span></li>
+        <li class="sc-card" data-category="component" data-keywords="toggle switch selection controls wrapper 1504:54471 1504:57173"><a href="components/toggle.html">Toggle</a><p>On/Off × 5 states, three sizes. Also hosts the Selection Controls wrapper (3).</p><span class="sc-card__meta">Figma <code>1504:54471</code> · 180 + 3 variants</span></li>
+        <li class="sc-card" data-category="component" data-keywords="dropdown menu select listbox combobox search footer dark multi-select 1451:25521 1451:25092"><a href="components/dropdown.html">Dropdown</a><p>Menu (Single/Multiple, Desktop/Mobile, Light/Dark, Search, Footer) and Item rows.</p><span class="sc-card__meta">Figma <code>1451:25521</code>, <code>1451:25092</code> · 48 + 40 variants</span></li>
+        <li class="sc-card" data-category="component" data-keywords="tooltip hint arrow heading dark light 1448:16825"><a href="components/tooltip.html">Tooltip</a><p>10 arrows × 2 devices × 2 modes × 2 formats.</p><span class="sc-card__meta">Figma <code>1448:16825</code> · 80 variants</span></li>
+      </ul>
+      <p class="sc-note">Navigation (Mobile <code>1351:18314</code>, Desktop <code>1556:7200</code>): both Figma pages are <strong>empty</strong>, so there is nothing to reproduce.</p>
+    </section>
+
+    <section class="sc-catalogue" data-group="screen" aria-labelledby="h-screens">
+      <h2 id="h-screens">Patterns &amp; screens</h2>
+      <ul class="sc-cards" id="sc-screen-cards">
+        <li class="sc-card" data-category="screen" data-keywords="screen pattern page product detail pdp mobile desktop 1375:30858"><a href="screens/sample-screen/desktop-pdp-1375-30858.html">Sample Screen · Desktop PDP</a><p>Complete. Images and icons are exact-size placeholders (asset export and Iconly access are blocked).</p><span class="sc-card__meta">Figma <code>1375:30858</code> · 1440 × 3533</span></li>
+        <li class="sc-card" data-category="screen" data-keywords="screen pattern page product detail pdp mobile desktop 1608:9891"><a href="screens/sample-screen/desktop-1608-9891.html">Sample Screen · Desktop</a><p>Partial: Figma returns the frame with no readable children. Images and icons are exact-size placeholders (asset export and Iconly access are blocked).</p><span class="sc-card__meta">Figma <code>1608:9891</code> · 1440 × 1073</span></li>
+        <li class="sc-card" data-category="screen" data-keywords="screen pattern page product detail pdp mobile desktop 1608:7090"><a href="screens/sample-screen/mobile-pdp-1608-7090.html">Sample Screen · Mobile PDP</a><p>Complete. Images and icons are exact-size placeholders (asset export and Iconly access are blocked).</p><span class="sc-card__meta">Figma <code>1608:7090</code> · 360 × 4683</span></li>
+        <li class="sc-card" data-category="screen" data-keywords="screen pattern page product detail pdp mobile desktop 1627:11756"><a href="screens/sample-screen/mobile-putaway-1627-11756.html">Sample Screen · Mobile</a><p>Complete. Images and icons are exact-size placeholders (asset export and Iconly access are blocked).</p><span class="sc-card__meta">Figma <code>1627:11756</code> · 360 × 800</span></li>
+        <li class="sc-card" data-category="screen" data-keywords="screen pattern page product detail pdp mobile desktop 1629:11987"><a href="screens/sample-screen/job-listing-page-1629-11987.html">Sample Screen · Job listing</a><p>Complete. Images and icons are exact-size placeholders (asset export and Iconly access are blocked).</p><span class="sc-card__meta">Figma <code>1629:11987</code> · 360 × 800</span></li>
+        <li class="sc-card" data-category="screen" data-keywords="screen pattern page product detail pdp mobile desktop 605:17532"><a href="screens/pdp/desktop-bg-colours.html">PDP · Desktop / BG Colours</a><p>Complete. Images and icons are exact-size placeholders (asset export and Iconly access are blocked).</p><span class="sc-card__meta">Figma <code>605:17532</code> · 1440 × 1024</span></li>
+        <li class="sc-card" data-category="screen" data-keywords="screen pattern page product detail pdp mobile desktop 1171:9676"><a href="screens/pdp/mobile.html">PDP · Mobile</a><p>Complete. Images and icons are exact-size placeholders (asset export and Iconly access are blocked).</p><span class="sc-card__meta">Figma <code>1171:9676</code> · 360 × 1536</span></li>
+        <li class="sc-card" data-category="screen" data-keywords="screen pattern page product detail pdp mobile desktop 1280:10398"><a href="screens/pdp/pdp-v1.html">PDP · PDP V1 (latest)</a><p>Complete (2 earlier iterations superseded). Images and icons are exact-size placeholders (asset export and Iconly access are blocked).</p><span class="sc-card__meta">Figma <code>1280:10398</code> · 393 × 4683</span></li>
+        <li class="sc-card" data-category="prototype" data-keywords="prototype checkout cart delivery payment confirmation grocery brief new design"><a href="screens/checkout/index.html">Mixed-cart checkout · design brief (2 directions)</a><p>New design built only from Annachy tokens and core components: Cart, Delivery &amp; payment, Confirmation — mobile 390 and desktop 1440, interactive, with edge cases. Not a Figma reproduction.</p><span class="sc-card__meta">Prototype · round 1</span></li>
+      </ul>
+    </section>
+    <p class="sc-note" id="sc-empty" hidden>Nothing matches. Try a component name, a category or a Figma node ID such as <code>887:2492</code>.</p>
+  </main>
+  <script type="module" src="../src/annachy.js"></script>
+  <script type="module" src="index.js"></script>
+</body>
+</html>

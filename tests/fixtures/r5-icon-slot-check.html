@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>R5 icon-slot contract check — Annachy Design System</title>
+  <link rel="stylesheet" href="../../src/annachy.css">
+  <style>#stage { display: flex; flex-wrap: wrap; gap: 24px; padding: 16px; align-items: flex-start; } pre { white-space: pre-wrap; font: 12px/1.4 monospace; }
+    #stage .annachy-tooltip { position: relative; margin: 24px; }</style>
+</head>
+<body>
+  <h1>R5 — icon-slot contract (infrastructure, no icons)</h1>
+  <p>Fills every existing icon slot with a <strong>neutral test square</strong> (<code>&lt;svg viewBox="0 0 24 24"&gt;&lt;rect fill="currentColor"&gt;</code>,
+     no size attributes — the contract in <code>docs/implementation/r5-implementation-spec.md</code> §2). The square is a geometric test probe, not icon
+     artwork. Checks: slot size (confirmed values only), the SVG fills the slot, <code>currentColor</code> resolves to the slot colour, colour per state
+     where the component documents one, and <code>aria-hidden</code>. Serve the project root over HTTP.</p>
+  <pre id="result" data-status="running">running…</pre>
+  <div id="stage">
+    <button type="button" class="annachy-button annachy-button--primary annachy-button--size-40" id="btn">
+      <span class="annachy-button__icon" aria-hidden="true" data-slot="button.icon"></span><span class="annachy-button__label">Button</span></button>
+    <button type="button" class="annachy-button annachy-button--secondary annachy-button--size-24" id="btn2">
+      <span class="annachy-button__icon" aria-hidden="true" data-slot="button.icon (size 24)"></span><span class="annachy-button__label">Button</span></button>
+    <button type="button" class="annachy-button-gradient annachy-button-gradient--size-40" id="gb">
+      <span class="annachy-button-gradient__icon" aria-hidden="true" data-slot="button-gradient.icon"></span><span class="annachy-button-gradient__label">Button</span></button>
+
+    <div class="annachy-input annachy-input--outline annachy-input--size-48 annachy-input--radius-8" id="in-o">
+      <div class="annachy-input__top"><div class="annachy-input__field">
+        <span class="annachy-input__icon" aria-hidden="true" data-slot="input.icon (outline)"></span>
+        <input class="annachy-input__control" aria-label="Outline">
+      </div></div>
+      <div class="annachy-input__subtext-group"><span class="annachy-input__subtext">Sub</span>
+        <span class="annachy-input__subtext-icon" aria-hidden="true" data-slot="input.subtext-icon (outline)"></span></div>
+    </div>
+    <div class="annachy-input annachy-input--filled annachy-input--size-48 annachy-input--radius-8" id="in-f">
+      <div class="annachy-input__top"><div class="annachy-input__field">
+        <span class="annachy-input__icon" aria-hidden="true" data-slot="input.icon (filled)"></span>
+        <input class="annachy-input__control" aria-label="Filled">
+      </div></div>
+      <div class="annachy-input__subtext-group"><span class="annachy-input__subtext">Sub</span>
+        <span class="annachy-input__subtext-icon" aria-hidden="true" data-slot="input.subtext-icon (filled)"></span></div>
+    </div>
+
+    <div class="annachy-checkbox annachy-checkbox--small"><input class="annachy-checkbox__input" type="checkbox" id="cb-s" checked aria-label="s">
+      <span class="annachy-checkbox__box" aria-hidden="true"><span class="annachy-checkbox__glyph" data-slot="checkbox.glyph (small)"></span></span></div>
+    <div class="annachy-checkbox annachy-checkbox--medium"><input class="annachy-checkbox__input" type="checkbox" id="cb-m" checked aria-label="m">
+      <span class="annachy-checkbox__box" aria-hidden="true"><span class="annachy-checkbox__glyph" data-slot="checkbox.glyph (medium)"></span></span></div>
+
+    <div class="annachy-dropdown-menu annachy-dropdown-menu--desktop">
+      <div class="annachy-dropdown-menu__search"><div class="annachy-dropdown-menu__search-field">
+        <span class="annachy-dropdown-menu__search-icon" aria-hidden="true" data-slot="dropdown.search-icon"></span>
+        <input class="annachy-dropdown-menu__search-input" aria-label="Search"></div></div>
+      <ul class="annachy-dropdown-menu__options" role="listbox" aria-label="L">
+        <li class="annachy-dropdown-item annachy-dropdown-item--desktop" role="option" id="o-def" aria-selected="false"><span class="annachy-dropdown-item__indicator" aria-hidden="true" data-slot="dropdown.indicator (default)"></span><span class="annachy-dropdown-item__label">Default</span></li>
+        <li class="annachy-dropdown-item annachy-dropdown-item--desktop" role="option" id="o-sel" aria-selected="true"><span class="annachy-dropdown-item__indicator" aria-hidden="true" data-slot="dropdown.indicator (selected)"></span><span class="annachy-dropdown-item__label">Selected</span></li>
+        <li class="annachy-dropdown-item annachy-dropdown-item--desktop" role="option" id="o-dis" aria-selected="false" aria-disabled="true"><span class="annachy-dropdown-item__indicator" aria-hidden="true" data-slot="dropdown.indicator (disabled)"></span><span class="annachy-dropdown-item__label">Disabled</span></li>
+      </ul>
+    </div>
+
+    <div class="annachy-tooltip annachy-tooltip--desktop annachy-tooltip--dark annachy-tooltip--arrow-top" role="tooltip" id="tt-d">
+      <span class="annachy-tooltip__arrow" aria-hidden="true" data-slot="tooltip.arrow (dark)"></span><span class="annachy-tooltip__text">Dark</span></div>
+    <div class="annachy-tooltip annachy-tooltip--desktop annachy-tooltip--light annachy-tooltip--arrow-top" role="tooltip" id="tt-l">
+      <span class="annachy-tooltip__arrow" aria-hidden="true" data-slot="tooltip.arrow (light)"></span><span class="annachy-tooltip__text">Light</span></div>
+  </div>
+<script type="module">
+const tok = (n) => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const probe = document.createElement('div');
+document.body.append(probe);
+const rgb = (v) => { probe.style.color = ''; probe.style.color = v; return getComputedStyle(probe).color; };
+// Confirmed slot sizes (component CSS + evidence) and documented slot colours. null = inherits (no own colour).
+const EXPECT = {
+  'button.icon': [20, null], 'button.icon (size 24)': [20, null], 'button-gradient.icon': [20, null],
+  'input.icon (outline)': [24, null], 'input.subtext-icon (outline)': [16, null],
+  'input.icon (filled)': [24, '--annachy-color-icon-state-brand'], 'input.subtext-icon (filled)': [14, '--annachy-color-icon-state-brand'],
+  'checkbox.glyph (small)': [16, '--annachy-color-background-primary'], 'checkbox.glyph (medium)': [20, '--annachy-color-background-primary'],
+  'dropdown.search-icon': [24, null],
+  'dropdown.indicator (default)': [20, '--annachy-color-icon-secondary'], 'dropdown.indicator (selected)': [20, '--annachy-color-blue-500'],
+  'dropdown.indicator (disabled)': [20, '--annachy-color-border-primary'],
+  'tooltip.arrow (dark)': [20, null], 'tooltip.arrow (light)': [20, null],
+};
+const fails = [];
+let checks = 0;
+const ok = (name, cond, detail = '') => { checks++; if (!cond) fails.push(`FAIL ${name} ${detail}`); };
+const slots = [...document.querySelectorAll('[data-slot]')];
+ok('every expected slot rendered', slots.length === Object.keys(EXPECT).length, `${slots.length}`);
+for (const s of slots) {
+  const id = s.dataset.slot, [size, colour] = EXPECT[id];
+  s.innerHTML = '<svg viewBox="0 0 24 24" focusable="false"><rect width="24" height="24" fill="currentColor"/></svg>';
+  const r = s.getBoundingClientRect(), svg = s.querySelector('svg').getBoundingClientRect();
+  ok(`${id}: slot ${size}×${size}`, Math.abs(r.width - size) < 0.01 && Math.abs(r.height - size) < 0.01, `${r.width}×${r.height}`);
+  ok(`${id}: aria-hidden`, s.getAttribute('aria-hidden') === 'true' || !!s.closest('[aria-hidden="true"]'));
+  ok(`${id}: unsized SVG fills the slot`, Math.abs(svg.width - r.width) < 0.01 && Math.abs(svg.height - r.height) < 0.01, `${svg.width}×${svg.height}`);
+  const fill = getComputedStyle(s.querySelector('rect')).fill, col = getComputedStyle(s).color;
+  ok(`${id}: currentColor resolves to the slot colour`, fill === col, `${fill} vs ${col}`);
+  if (colour) ok(`${id}: colour = ${colour}`, col === rgb(tok(colour)), `${col} vs ${rgb(tok(colour))}`);
+  s.innerHTML = '';
+}
+// inheriting slots follow their component's text colour
+const inh = (sel, lbl) => getComputedStyle(document.querySelector(sel)).color === getComputedStyle(document.querySelector(lbl)).color;
+ok('button.icon inherits the label colour', inh('#btn .annachy-button__icon', '#btn .annachy-button__label'));
+ok('button-gradient.icon inherits the label colour', inh('#gb .annachy-button-gradient__icon', '#gb .annachy-button-gradient__label'));
+ok('tooltip.arrow colour = body background (dark)', getComputedStyle(document.querySelector('#tt-d .annachy-tooltip__arrow')).color === getComputedStyle(document.getElementById('tt-d')).backgroundColor);
+ok('tooltip.arrow colour = body background (light)', getComputedStyle(document.querySelector('#tt-l .annachy-tooltip__arrow')).color === getComputedStyle(document.getElementById('tt-l')).backgroundColor);
+ok('loading button hides its icon slot', (() => { const b = document.getElementById('btn'); b.setAttribute('aria-busy', 'true'); const d = getComputedStyle(b.querySelector('.annachy-button__icon')).display; b.removeAttribute('aria-busy'); return d === 'none'; })());
+probe.remove();
+const out = [`R5 ICON SLOTS: ${fails.length ? 'FAIL' : 'PASS'}`, `checks: ${checks} · failures: ${fails.length}`, ...fails];
+const el = document.getElementById('result'); el.textContent = out.join('\n'); el.dataset.status = fails.length ? 'fail' : 'pass';
+</script>
+</body>
+</html>

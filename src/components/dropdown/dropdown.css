@@ -1,0 +1,225 @@
+/*
+ * Annachy Design System — Dropdown (Menu + Item), Light + Dark, Footer None / Label / Icon + label
+ * Layer: annachy.components (assigned by src/annachy.css) · Phase R4-1, R6 (Dark + Footer)
+ * Source of truth: Figma file rM3ixSG6i3DFfKZFWuxzs4
+ *   Dropdown / Item 1451:25092 — implemented: 40 of 40
+ *   Dropdown / Menu 1451:25521 — implemented: 48 of 48
+ * Evidence: docs/figma-audit/components/dropdown.md; docs/figma-audit/r4-0-evidence.md §1–§3, §6; r6-0-evidence.md.
+ * Behaviour: docs/implementation/r4-behaviour-spec.md (approved R4-Q1/Q2/Q4/Q6) — implemented in dropdown.js.
+ *
+ * Figma property -> markup:
+ *   Platform  -> .annachy-dropdown-menu--desktop | --mobile ; .annachy-dropdown-item--desktop | --mobile
+ *   Selection -> listbox aria-multiselectable="true" (Multiple) ; item indicator slot (Single check / Multiple "checkbox")
+ *   Search    -> presence of .annachy-dropdown-menu__search
+ *   State     -> Default · Hover (:hover, .is-hover) · Focus (active option: .is-active, or .is-focus) ·
+ *                Selected (aria-selected="true") · Disabled (aria-disabled="true")
+ * *   Theme     -> data-annachy-theme="dark" on the menu / item (or an ancestor): Brand Dark mode (tokens/themes/dark.css)
+ *                plus the Dark-only Selected bindings below (r6-0-evidence.md §2)
+ *   Footer    -> .annachy-dropdown-menu__footer with an R3 Primary Button (size 40 Desktop / 48 Mobile) carrying
+ *                .annachy-dropdown-menu__footer-button (label typography override, D4); Icon + label = add the 20×20 icon slot
+ *
+ * NOT IMPLEMENTED (no Figma component): Select trigger (B4-1).
+ * Icon slots are EMPTY (research-page icons, G8/G9): Single check (Selected) and Multiple "checkbox" indicator keep
+ * their evidenced 20×20 box and state colour (currentColor) only.
+ * Reproduced, not fixed: D2 Menu has no shadow; D6 search placeholder Text/Secondary + Body M Regular.
+ * DD-1 (derived): the search field is an Input Field / Outline instance; its focus border uses that component's
+ * Focused state (raw #3a6ff7, IN2) — the dropdown itself does not design a focused search field.
+ */
+
+/* ---------------------------------------------------------------- Menu */
+.annachy-dropdown {                   /* optional positioning wrapper: trigger + menu */
+  position: relative;
+  display: inline-block;
+}
+.annachy-dropdown-menu {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 8px;                           /* 1451:25415 — between Search region and Options */
+  inline-size: var(--_dd-menu-width, 320px);
+  padding: 8px;
+  overflow: hidden;
+  border-radius: var(--annachy-radius-12);
+  background: var(--annachy-color-background-secondary);
+  /* 1px Border/Primary stroke, inside and outside layout (Figma META: 188 = 8 + content + 8) → inset box-shadow.
+     D2: no outer shadow / elevation in the design. */
+  box-shadow: inset 0 0 0 1px var(--annachy-color-border-primary);
+  font-family: var(--annachy-base-font-family-render);
+  letter-spacing: var(--annachy-font-letter-spacing);
+}
+.annachy-dropdown-menu[hidden] { display: none; }
+.annachy-dropdown-menu--desktop { --_dd-menu-width: 320px; }   /* 1451:25175 */
+.annachy-dropdown-menu--mobile  { --_dd-menu-width: 352px; }   /* 1451:25355 */
+.annachy-dropdown > .annachy-dropdown-menu {   /* popup placement below the trigger; flipped by JS (O12) */
+  position: absolute;
+  inset-block-start: 100%;            /* trigger↔menu spacing is not designed (G13) — none added */
+  inset-inline-start: 0;
+  z-index: 1;
+}
+.annachy-dropdown > .annachy-dropdown-menu[data-placement="top"] {
+  inset-block-start: auto;
+  inset-block-end: 100%;
+}
+
+/* Search region (Search=On) — 1451:24295 */
+.annachy-dropdown-menu__search {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-block-end: 8px;
+  overflow: hidden;
+}
+.annachy-dropdown-menu__search-field {   /* Input Field / Outline instance, 48, Radius/8 — I1451:24296;1066:38094 */
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  block-size: 48px;
+  padding: 0 14px;
+  overflow: hidden;
+  border: 1px solid var(--_dd-search-border, var(--annachy-color-border-primary));
+  border-radius: var(--annachy-radius-8);
+}
+.annachy-dropdown-menu__search-field:has(.annachy-dropdown-menu__search-input:focus-visible),
+.annachy-dropdown-menu__search-field.is-focus { --_dd-search-border: #3a6ff7; }   /* DD-1 derived from Input Outline Focused (1066:38544) */
+.annachy-dropdown-menu__search-icon {    /* User Curved 24 (slot, no asset) */
+  display: inline-flex;
+  flex: none;
+  inline-size: 24px;
+  block-size: 24px;
+}
+.annachy-dropdown-menu__search-input {
+  flex: 1 0 0;
+  min-inline-size: 1px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--annachy-color-text-secondary);                 /* D6: instance override */
+  font-family: inherit;
+  font-size: var(--annachy-type-body-m-font-size);
+  line-height: var(--annachy-type-body-m-line-height);
+  font-weight: var(--annachy-type-body-m-font-weight);
+  block-size: var(--annachy-type-body-m-line-height);
+  outline: none;                                              /* field border is the focus indicator (DD-1) */
+  appearance: none;
+  -webkit-appearance: none;
+}
+.annachy-dropdown-menu__search-input::placeholder { color: var(--annachy-color-text-secondary); opacity: 1; }
+.annachy-dropdown-menu__search-input::-webkit-search-cancel-button { display: none; }
+.annachy-dropdown-menu__divider {        /* 1451:24341 */
+  flex: none;
+  block-size: 1px;
+  background: var(--annachy-color-border-secondary);
+}
+
+/* Footer (Footer=Label / Icon + label) — 1451:23575 (Desktop), 1451:24210 (Mobile): padding-top 4, gap 12,
+   1px Border/Secondary divider, then the full-width "Footer button" (an R3 Primary Button instance). */
+.annachy-dropdown-menu__footer {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-block-start: 4px;
+}
+.annachy-dropdown-menu__footer-button {   /* on an .annachy-button--primary; D4: label typography overridden in Figma */
+  inline-size: 100%;
+  --_button-font-size: var(--annachy-type-label-small-font-size);       /* Desktop: Label Small — Medium 14/20 (I1451:24039;887:363) */
+  --_button-line-height: var(--annachy-type-label-small-line-height);
+  --_button-font-weight: var(--annachy-type-label-small-font-weight);
+}
+.annachy-dropdown-menu--mobile .annachy-dropdown-menu__footer-button {
+  --_button-font-size: var(--annachy-type-label-medium-font-size);      /* Mobile: Label Medium — Medium 16/21 (1451:24212) */
+  --_button-line-height: var(--annachy-type-label-medium-line-height);
+  --_button-font-weight: var(--annachy-type-label-medium-font-weight);
+}
+
+/* Options (listbox) — 1451:24342 */
+.annachy-dropdown-menu__options {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  list-style: none;
+}
+.annachy-dropdown-menu__options:focus { outline: none; }    /* focus stays on trigger/search; listbox not tabbable */
+.annachy-dropdown-menu__status {          /* polite live region (A8, R4-Q6) — visually hidden */
+  position: absolute;
+  inline-size: 1px;
+  block-size: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* ---------------------------------------------------------------- Item (option) — 1451:25092 */
+.annachy-dropdown-item {
+  --_dd-fill: var(--annachy-color-background-secondary);
+  --_dd-label: var(--annachy-color-text-primary);
+  --_dd-indicator: var(--annachy-color-icon-secondary);
+  --_dd-focus: none;
+
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  inline-size: 100%;
+  min-block-size: var(--_dd-min-h, 40px);
+  padding: var(--_dd-py, 10px) 12px;
+  overflow: hidden;
+  border-radius: var(--annachy-radius-8);
+  background: var(--_dd-fill);
+  box-shadow: var(--_dd-focus);
+  color: var(--_dd-label);
+  font-size: var(--_dd-fs, var(--annachy-type-label-small-font-size));
+  line-height: var(--_dd-lh, var(--annachy-type-label-small-line-height));
+  font-weight: var(--_dd-fw, var(--annachy-type-label-small-font-weight));
+  cursor: pointer;
+  user-select: none;
+}
+.annachy-dropdown-item--desktop {   /* 1451:25072 — 320 × 40, padding 12/10, Label Small — Medium 14/20 */
+  --_dd-min-h: 40px; --_dd-py: 10px;
+  --_dd-fs: var(--annachy-type-label-small-font-size); --_dd-lh: var(--annachy-type-label-small-line-height); --_dd-fw: var(--annachy-type-label-small-font-weight);
+}
+.annachy-dropdown-item--mobile {    /* 1451:25082 — 352 × 48, padding 12, Body M — Regular 16/24 */
+  --_dd-min-h: 48px; --_dd-py: 12px;
+  --_dd-fs: var(--annachy-type-body-m-font-size); --_dd-lh: var(--annachy-type-body-m-line-height); --_dd-fw: var(--annachy-type-body-m-font-weight);
+}
+.annachy-dropdown-item__indicator {  /* "Selection indicator" 20×20 — icon slot, EMPTY (G8/G9) */
+  display: inline-flex;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  inline-size: 20px;
+  block-size: 20px;
+  overflow: hidden;
+  color: var(--_dd-indicator);
+}
+.annachy-dropdown-item__indicator > svg { inline-size: 100%; block-size: 100%; }
+.annachy-dropdown-item__label { flex: 1 0 0; min-inline-size: 1px; overflow-wrap: break-word; }
+
+/* States — :where() → one-class specificity; precedence: Default < Hover < Selected < Disabled; Focus (active)
+   composes on top of the resulting fill (focus = inset 2px stroke + Button/Focus, stroke outside layout, §6). */
+.annachy-dropdown-item:where(:hover, .is-hover) {
+  --_dd-fill: var(--annachy-color-background-tertiary); --_dd-label: var(--annachy-color-text-primary); }   /* 1451:25073 */
+.annachy-dropdown-item:where([aria-selected="true"]) {
+  --_dd-fill: var(--annachy-color-blue-50); --_dd-label: var(--annachy-color-blue-500); --_dd-indicator: var(--annachy-color-blue-500); }   /* 1451:25075 · 1454:1199 · 1454:7212 */
+/* Theme=Dark Selected binds different variables (not mode values): Blue/500 fill, Base/White label + indicator */
+:where([data-annachy-theme="dark"]) .annachy-dropdown-item:where([aria-selected="true"]),
+.annachy-dropdown-item:where([data-annachy-theme="dark"][aria-selected="true"]) {
+  --_dd-fill: var(--annachy-color-blue-500); --_dd-label: var(--annachy-color-base-white); --_dd-indicator: var(--annachy-color-base-white); }   /* 1451:25080 · 1464:3069 · 1451:24822 · 1464:3071 */
+.annachy-dropdown-item:where([aria-disabled="true"]) {
+  --_dd-fill: var(--annachy-color-background-secondary); --_dd-label: var(--annachy-color-text-tertiary);
+  --_dd-indicator: var(--annachy-color-border-primary); cursor: not-allowed; }   /* 1451:25076 · 1454:7215 */
+.annachy-dropdown-item:where(.is-active, .is-focus) {
+  --_dd-focus: inset 0 0 0 2px var(--annachy-color-button-primary-border-focus), var(--annachy-effect-button-focus); }   /* 1451:25074 */
+/* Focus variant fill is Background/Secondary (not Hover) — when the active option is also hovered, Figma Focus wins */
+.annachy-dropdown-item:where(.is-active, .is-focus):where(:not([aria-selected="true"]):not([aria-disabled="true"])) {
+  --_dd-fill: var(--annachy-color-background-secondary); }
+/* Single: indicator holds the check icon only when Selected (1451:24796); otherwise an empty 20×20 box */

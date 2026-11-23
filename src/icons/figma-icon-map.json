@@ -1,0 +1,140 @@
+{
+ "description": "Identity map: component icon slot -> Figma icon component set on page 1801:5142 '② Icons' (local, built from Iconly artwork). No artwork here; artwork needs export authorisation. Evidence: docs/figma-audit/r7-0-iconography-evidence.md.",
+ "source": {
+  "fileKey": "rM3ixSG6i3DFfKZFWuxzs4",
+  "page": "1801:5142",
+  "sizes": {
+   "XS": 16,
+   "S": 20,
+   "M": 24,
+   "L": 32,
+   "XL": 40
+  },
+  "styles": [
+   "Outline",
+   "Filled"
+  ]
+ },
+ "slots": [
+  {
+   "id": "button.icon",
+   "slotClass": "annachy-button__icon",
+   "figmaIcon": "Home/Home 54",
+   "setNodeId": "1802:68148",
+   "iconSize": "S",
+   "px": 20,
+   "style": "Outline",
+   "usedIn": "Button 887:2492 (instance 887:364)",
+   "status": "MAPPED (artwork pending export)"
+  },
+  {
+   "id": "button-gradient.icon",
+   "slotClass": "annachy-button-gradient__icon",
+   "figmaIcon": "Home/Home 54",
+   "setNodeId": "1802:68148",
+   "iconSize": "S",
+   "px": 20,
+   "style": "Outline",
+   "usedIn": "Button gradient 1153:3370 (1777:12415 old)",
+   "status": "MAPPED (artwork pending export)"
+  },
+  {
+   "id": "dropdown.footer-icon",
+   "slotClass": "annachy-button__icon (footer)",
+   "figmaIcon": "Home/Home 54",
+   "setNodeId": "1802:68148",
+   "iconSize": "S",
+   "px": 20,
+   "style": "Outline",
+   "usedIn": "Dropdown footer 1451:23577",
+   "status": "MAPPED (artwork pending export)"
+  },
+  {
+   "id": "input.outline.leading",
+   "slotClass": "annachy-input__icon",
+   "figmaIcon": "User/User Curved",
+   "setNodeId": "1802:86130",
+   "iconSize": "M",
+   "px": 24,
+   "style": "Outline",
+   "usedIn": "Input Outline 1066:38089",
+   "status": "MAPPED (artwork pending export)"
+  },
+  {
+   "id": "dropdown.search-icon",
+   "slotClass": "annachy-dropdown-menu__search-icon",
+   "figmaIcon": "User/User Curved",
+   "setNodeId": "1802:86130",
+   "iconSize": "M",
+   "px": 24,
+   "style": "Outline",
+   "usedIn": "Dropdown search 1779:37533 (old)",
+   "status": "MAPPED (artwork pending export)"
+  },
+  {
+   "id": "input.outline.trailing-up",
+   "slotClass": "annachy-input__icon",
+   "figmaIcon": "Arrow/Chevron Up",
+   "setNodeId": "1802:211244",
+   "iconSize": "M",
+   "px": 24,
+   "style": "Filled",
+   "usedIn": "Input Outline 1066:38089",
+   "status": "MAPPED (artwork pending export)"
+  },
+  {
+   "id": "input.outline.trailing-down",
+   "slotClass": "annachy-input__icon",
+   "figmaIcon": "Arrow/Chevron Down",
+   "setNodeId": "1802:211124",
+   "iconSize": "M",
+   "px": 24,
+   "style": "Filled",
+   "usedIn": "Input Outline 1066:38089",
+   "status": "MAPPED (artwork pending export)"
+  },
+  {
+   "id": "input.outline.subtext",
+   "slotClass": "annachy-input__subtext-icon",
+   "figmaIcon": "Alerts/Error circle",
+   "setNodeId": "1802:155982",
+   "iconSize": "XS",
+   "px": 16,
+   "style": "Outline",
+   "usedIn": "Input Outline sub-text 1780:40128 (old)",
+   "status": "MAPPED (artwork pending export)"
+  }
+ ],
+ "unmapped": [
+  {
+   "id": "input.filled.icons",
+   "figmaIcon": "Cloud (Solar pilot)",
+   "node": "561:36135",
+   "status": "Input Filled 1066:40783 now shows the S5 icons instead of Cloud; re-inspect the variant before mapping"
+  },
+  {
+   "id": "dropdown.indicator.single",
+   "figmaIcon": "lucide:badge-check (Brainstorming master 5:15330)",
+   "node": "1451:24796",
+   "status": "NOT on the Icons page; owner decision E-2"
+  },
+  {
+   "id": "dropdown.indicator.multiple",
+   "figmaIcon": "'checkbox' (no main component exposed)",
+   "node": "1454:7202",
+   "status": "NOT on the Icons page; owner decision E-2"
+  },
+  {
+   "id": "checkbox.glyph",
+   "figmaIcon": "functional/check (local frame, not a component)",
+   "node": "1504:53703",
+   "status": "component geometry, D-27"
+  },
+  {
+   "id": "tooltip.arrow",
+   "figmaIcon": "polygon",
+   "node": "1446:32",
+   "status": "component geometry, G12"
+  }
+ ]
+}

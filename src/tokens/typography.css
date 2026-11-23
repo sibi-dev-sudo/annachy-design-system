@@ -1,0 +1,210 @@
+/*
+ * Annachy Design System — Typography style tokens (Typography System / Scale A)
+ * Layer: typography · Phase R1 (tokens)
+ * Source of truth: Figma file rM3ixSG6i3DFfKZFWuxzs4 — values copied exactly via
+ * docs/implementation/r1-token-mapping.md and src/tokens/tokens.json. Do not edit values by hand
+ * without updating both documents.
+ * Active size/line-height = Mobile values (as resolved by components in Figma).
+ * *-desktop tokens are reference values and are NOT activated: no approved breakpoint (D-05/D-07).
+ */
+
+:root {
+
+  /* r1-token-mapping.md §6.2 */
+  --annachy-type-h1-font-size: 32px;
+  --annachy-type-h1-line-height: 38px;
+  --annachy-type-h1-font-weight: 700;
+  --annachy-type-h1-font-size-mobile: 32px;
+  --annachy-type-h1-line-height-mobile: 38px;
+  --annachy-type-h1-font-size-desktop: 48px;
+  --annachy-type-h1-line-height-desktop: 58px;
+  --annachy-type-h2-font-size: 28px;
+  --annachy-type-h2-line-height: 36px;
+  --annachy-type-h2-font-weight: 700;
+  --annachy-type-h2-font-size-mobile: 28px;
+  --annachy-type-h2-line-height-mobile: 36px;
+  --annachy-type-h2-font-size-desktop: 40px;
+  --annachy-type-h2-line-height-desktop: 48px;
+  --annachy-type-h3-bold-font-size: 26px;  /* D-04 */
+  --annachy-type-h3-bold-line-height: 34px;  /* D-04 */
+  --annachy-type-h3-bold-font-weight: 700;  /* D-04 */
+  --annachy-type-h3-bold-font-size-mobile: 26px;  /* D-04 */
+  --annachy-type-h3-bold-line-height-mobile: 34px;  /* D-04 */
+  --annachy-type-h3-bold-font-size-desktop: 36px;  /* D-04 */
+  --annachy-type-h3-bold-line-height-desktop: 42px;  /* D-04 */
+  --annachy-type-h3-semibold-font-size: 26px;  /* D-04 */
+  --annachy-type-h3-semibold-line-height: 30px;  /* D-04 */
+  --annachy-type-h3-semibold-font-weight: 600;  /* D-04 */
+  --annachy-type-h3-semibold-font-size-mobile: 26px;  /* D-04 */
+  --annachy-type-h3-semibold-line-height-mobile: 30px;  /* D-04 */
+  --annachy-type-h3-semibold-font-size-desktop: 36px;  /* D-04 */
+  --annachy-type-h3-semibold-line-height-desktop: 42px;  /* D-04 */
+  --annachy-type-h4-font-size: 24px;
+  --annachy-type-h4-line-height: 26px;
+  --annachy-type-h4-font-weight: 600;
+  --annachy-type-h4-font-size-mobile: 24px;
+  --annachy-type-h4-line-height-mobile: 26px;
+  --annachy-type-h4-font-size-desktop: 32px;
+  --annachy-type-h4-line-height-desktop: 38px;
+  --annachy-type-h5-font-size: 20px;
+  --annachy-type-h5-line-height: 24px;
+  --annachy-type-h5-font-weight: 600;
+  --annachy-type-h5-font-size-mobile: 20px;
+  --annachy-type-h5-line-height-mobile: 24px;
+  --annachy-type-h5-font-size-desktop: 28px;
+  --annachy-type-h5-line-height-desktop: 34px;
+  --annachy-type-h6-font-size: 18px;
+  --annachy-type-h6-line-height: 20px;
+  --annachy-type-h6-font-weight: 600;
+  --annachy-type-h6-font-size-mobile: 18px;
+  --annachy-type-h6-line-height-mobile: 20px;
+  --annachy-type-h6-font-size-desktop: 24px;
+  --annachy-type-h6-line-height-desktop: 28px;
+  --annachy-type-h7-font-size: 16px;
+  --annachy-type-h7-line-height: 18px;
+  --annachy-type-h7-font-weight: 600;
+  --annachy-type-h7-font-size-mobile: 16px;
+  --annachy-type-h7-line-height-mobile: 18px;
+  --annachy-type-h7-font-size-desktop: 20px;
+  --annachy-type-h7-line-height-desktop: 24px;
+  --annachy-type-h8-font-size: 14px;
+  --annachy-type-h8-line-height: 18px;
+  --annachy-type-h8-font-weight: 700;
+  --annachy-type-h8-font-size-mobile: 14px;
+  --annachy-type-h8-line-height-mobile: 18px;
+  --annachy-type-h8-font-size-desktop: 14px;
+  --annachy-type-h8-line-height-desktop: 18px;
+  --annachy-type-subheading-l-font-size: 18px;
+  --annachy-type-subheading-l-line-height: 25px;
+  --annachy-type-subheading-l-font-weight: 600;
+  --annachy-type-subheading-l-font-size-mobile: 18px;
+  --annachy-type-subheading-l-line-height-mobile: 25px;
+  --annachy-type-subheading-l-font-size-desktop: 20px;
+  --annachy-type-subheading-l-line-height-desktop: 28px;
+  --annachy-type-body-l-font-size: 18px;
+  --annachy-type-body-l-line-height: 27px;
+  --annachy-type-body-l-font-weight: 400;
+  --annachy-type-body-l-font-size-mobile: 18px;
+  --annachy-type-body-l-line-height-mobile: 27px;
+  --annachy-type-body-l-font-size-desktop: 18px;
+  --annachy-type-body-l-line-height-desktop: 27px;
+  --annachy-type-body-m-font-size: 16px;
+  --annachy-type-body-m-line-height: 24px;
+  --annachy-type-body-m-font-weight: 400;
+  --annachy-type-body-m-font-size-mobile: 16px;
+  --annachy-type-body-m-line-height-mobile: 24px;
+  --annachy-type-body-m-font-size-desktop: 16px;
+  --annachy-type-body-m-line-height-desktop: 24px;
+  --annachy-type-body-m-medium-font-size: 16px;
+  --annachy-type-body-m-medium-line-height: 24px;
+  --annachy-type-body-m-medium-font-weight: 500;
+  --annachy-type-body-m-medium-font-size-mobile: 16px;
+  --annachy-type-body-m-medium-line-height-mobile: 24px;
+  --annachy-type-body-m-medium-font-size-desktop: 16px;
+  --annachy-type-body-m-medium-line-height-desktop: 24px;
+  --annachy-type-body-s-font-size: 14px;
+  --annachy-type-body-s-line-height: 20px;
+  --annachy-type-body-s-font-weight: 400;
+  --annachy-type-body-s-font-size-mobile: 14px;
+  --annachy-type-body-s-line-height-mobile: 20px;
+  --annachy-type-body-s-font-size-desktop: 14px;
+  --annachy-type-body-s-line-height-desktop: 21px;
+  --annachy-type-body-s-medium-font-size: 14px;
+  --annachy-type-body-s-medium-line-height: 20px;
+  --annachy-type-body-s-medium-font-weight: 500;
+  --annachy-type-body-s-medium-font-size-mobile: 14px;
+  --annachy-type-body-s-medium-line-height-mobile: 20px;
+  --annachy-type-body-s-medium-font-size-desktop: 14px;
+  --annachy-type-body-s-medium-line-height-desktop: 21px;
+  --annachy-type-body-s-semibold-font-size: 14px;  /* INC-57 */
+  --annachy-type-body-s-semibold-line-height: 18px;  /* INC-57 */
+  --annachy-type-body-s-semibold-font-weight: 600;  /* INC-57 */
+  --annachy-type-body-s-semibold-font-size-mobile: 14px;  /* INC-57 */
+  --annachy-type-body-s-semibold-line-height-mobile: 18px;  /* INC-57 */
+  --annachy-type-body-s-semibold-font-size-desktop: 14px;  /* INC-57 */
+  --annachy-type-body-s-semibold-line-height-desktop: 18px;  /* INC-57 */
+  --annachy-type-body-xs-font-size: 12px;
+  --annachy-type-body-xs-line-height: 18px;
+  --annachy-type-body-xs-font-weight: 500;
+  --annachy-type-body-xs-font-size-mobile: 12px;
+  --annachy-type-body-xs-line-height-mobile: 18px;
+  --annachy-type-body-xs-font-size-desktop: 12px;
+  --annachy-type-body-xs-line-height-desktop: 18px;
+  --annachy-type-body-xs-semibold-font-size: 12px;
+  --annachy-type-body-xs-semibold-line-height: 18px;
+  --annachy-type-body-xs-semibold-font-weight: 600;
+  --annachy-type-body-xs-semibold-font-size-mobile: 12px;
+  --annachy-type-body-xs-semibold-line-height-mobile: 18px;
+  --annachy-type-body-xs-semibold-font-size-desktop: 12px;
+  --annachy-type-body-xs-semibold-line-height-desktop: 18px;
+  --annachy-type-body-xxs-font-size: 10px;
+  --annachy-type-body-xxs-line-height: 15px;
+  --annachy-type-body-xxs-font-weight: 500;
+  --annachy-type-body-xxs-font-size-mobile: 10px;
+  --annachy-type-body-xxs-line-height-mobile: 15px;
+  --annachy-type-body-xxs-font-size-desktop: 10px;
+  --annachy-type-body-xxs-line-height-desktop: 15px;
+  --annachy-type-body-micro-font-size: 8px;
+  --annachy-type-body-micro-line-height: 12px;
+  --annachy-type-body-micro-font-weight: 600;
+  --annachy-type-body-micro-font-size-mobile: 8px;
+  --annachy-type-body-micro-line-height-mobile: 12px;
+  --annachy-type-body-micro-font-size-desktop: 8px;
+  --annachy-type-body-micro-line-height-desktop: 12px;
+  --annachy-type-label-large-font-size: 18px;
+  --annachy-type-label-large-line-height: 22px;
+  --annachy-type-label-large-font-weight: 500;
+  --annachy-type-label-large-font-size-mobile: 18px;
+  --annachy-type-label-large-line-height-mobile: 22px;
+  --annachy-type-label-large-font-size-desktop: 18px;
+  --annachy-type-label-large-line-height-desktop: 25px;
+  --annachy-type-label-medium-font-size: 16px;
+  --annachy-type-label-medium-line-height: 21px;
+  --annachy-type-label-medium-font-weight: 500;
+  --annachy-type-label-medium-font-size-mobile: 16px;
+  --annachy-type-label-medium-line-height-mobile: 21px;
+  --annachy-type-label-medium-font-size-desktop: 16px;
+  --annachy-type-label-medium-line-height-desktop: 22px;
+  --annachy-type-label-small-font-size: 14px;
+  --annachy-type-label-small-line-height: 20px;
+  --annachy-type-label-small-font-weight: 500;
+  --annachy-type-label-small-font-size-mobile: 14px;
+  --annachy-type-label-small-line-height-mobile: 20px;
+  --annachy-type-label-small-font-size-desktop: 14px;
+  --annachy-type-label-small-line-height-desktop: 20px;
+  --annachy-type-label-xsmall-font-size: 12px;
+  --annachy-type-label-xsmall-line-height: 17px;
+  --annachy-type-label-xsmall-font-weight: 400;
+  --annachy-type-label-xsmall-font-size-mobile: 12px;
+  --annachy-type-label-xsmall-line-height-mobile: 17px;
+  --annachy-type-label-xsmall-font-size-desktop: 12px;
+  --annachy-type-label-xsmall-line-height-desktop: 18px;
+  --annachy-type-label-xsmall-semibold-font-size: 12px;
+  --annachy-type-label-xsmall-semibold-line-height: 17px;
+  --annachy-type-label-xsmall-semibold-font-weight: 600;
+  --annachy-type-label-xsmall-semibold-font-size-mobile: 12px;
+  --annachy-type-label-xsmall-semibold-line-height-mobile: 17px;
+  --annachy-type-label-xsmall-semibold-font-size-desktop: 12px;
+  --annachy-type-label-xsmall-semibold-line-height-desktop: 18px;
+  --annachy-type-caption-small-font-size: 11px;
+  --annachy-type-caption-small-line-height: 15px;
+  --annachy-type-caption-small-font-weight: 600;
+  --annachy-type-caption-small-font-size-mobile: 11px;
+  --annachy-type-caption-small-line-height-mobile: 15px;
+  --annachy-type-caption-small-font-size-desktop: 11px;
+  --annachy-type-caption-small-line-height-desktop: 15px;
+  --annachy-type-caption-xsmall-font-size: 10px;
+  --annachy-type-caption-xsmall-line-height: 14px;
+  --annachy-type-caption-xsmall-font-weight: 400;
+  --annachy-type-caption-xsmall-font-size-mobile: 10px;
+  --annachy-type-caption-xsmall-line-height-mobile: 14px;
+  --annachy-type-caption-xsmall-font-size-desktop: 10px;
+  --annachy-type-caption-xsmall-line-height-desktop: 14px;
+  --annachy-type-caption-micro-font-size: 8px;
+  --annachy-type-caption-micro-line-height: 10px;
+  --annachy-type-caption-micro-font-weight: 500;
+  --annachy-type-caption-micro-font-size-mobile: 8px;
+  --annachy-type-caption-micro-line-height-mobile: 10px;
+  --annachy-type-caption-micro-font-size-desktop: 8px;
+  --annachy-type-caption-micro-line-height-desktop: 12px;
+}

@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>R7 icon fidelity check — Annachy Design System</title>
+  <style>pre { white-space: pre-wrap; font: 12px/1.4 monospace; }</style>
+</head>
+<body>
+  <h1>R7 — icon artwork fidelity (original Figma export vs normalised library asset)</h1>
+  <p>For a deterministic sample of variants:
+     <ul>
+       <li>every category;</li>
+       <li>both styles;</li>
+       <li>all five sizes;</li>
+       <li>every per-size file;</li>
+       <li>every 25th variant.</li>
+     </ul>
+     The fixture rasterises the original category export (<code>src/icons/originals/…</code>), cropped to the variant's Figma box, and the normalised asset at the same pixel size. The original is cropped as a <strong>vector</strong> (its own viewBox re-pointed at the box). Both are drawn on white at <strong>2× the icon's true pixel size</strong>. The scaled-down exports (Figma's 4,096 px cap) are therefore re-rasterised from their vectors, not compared at their tiny exported size. The fixture compares the <strong>ink masks</strong> (pixels darker than mid-grey), so colour normalisation does not matter. A variant passes when at most 2% of pixels disagree and the ink area differs by at most 3%. That tolerance covers antialiasing at shape edges; a wrong or shifted shape fails.</p>
+  <pre id="result" data-status="running">running…</pre>
+<script type="module">
+const out = document.getElementById('result');
+const fails = []; let checks = 0;
+const boxes = await fetch('../tools/icons_export/variant-boxes.json').then((r) => r.json());
+const ids = Object.keys(boxes).sort();
+const pick = new Map();
+const key = (b) => `${b.original}|${b.style}|${b.size}`;
+for (const id of ids) { const b = boxes[id]; if (!pick.has(key(b))) pick.set(key(b), id); }       // every category × style × size
+for (const id of ids) if (/--(xs|s|m|l|xl)\.svg$/.test(boxes[id].normalized)) pick.set(`per-size|${id}`, id); // every per-size file
+ids.forEach((id, i) => { if (i % 25 === 0) pick.set(`n|${id}`, id); });                          // every 25th variant
+const textCache = new Map();
+const text = (url) => { if (!textCache.has(url)) textCache.set(url, fetch(url).then((r) => r.text())); return textCache.get(url); };
+// Vector crop of the ORIGINAL: same file, root viewBox re-pointed at the variant box (no raster resampling).
+const crop = async (url, b, w, h) => {
+  const src = (await text(url)).replace(/<svg[^>]*>/, (tag) => tag.replace(/\s(width|height|viewBox)="[^"]*"/g, '').replace('<svg', `<svg width="${w}" height="${h}" viewBox="${b.x} ${b.y} ${b.w} ${b.h}" preserveAspectRatio="none"`));
+  const u = URL.createObjectURL(new Blob([src], { type: 'image/svg+xml' }));
+  try { return await new Promise((res, rej) => { const im = new Image(); im.onload = () => res(im); im.onerror = () => rej(new Error(`crop ${url}`)); im.src = u; }); } finally { setTimeout(() => URL.revokeObjectURL(u), 0); }
+};
+const imgCache = new Map();
+const load = (url) => { if (!imgCache.has(url)) imgCache.set(url, new Promise((res, rej) => { const im = new Image(); im.onload = () => res(im); im.onerror = () => rej(new Error(`load ${url}`)); im.src = url; })); return imgCache.get(url); };
+const PX = { XS: 16, S: 20, M: 24, L: 32, XL: 40 };
+const ink = (draw, w, h) => { const c = document.createElement('canvas'); c.width = w; c.height = h; const x = c.getContext('2d'); x.fillStyle = '#fff'; x.fillRect(0, 0, w, h); draw(x);
+  const d = x.getImageData(0, 0, w, h).data, m = new Uint8Array(w * h); for (let i = 0; i < m.length; i++) m[i] = (d[4 * i] * 0.299 + d[4 * i + 1] * 0.587 + d[4 * i + 2] * 0.114) < 128 ? 1 : 0; return m; };
+let n = 0;
+for (const id of new Set(pick.values())) {
+  const b = boxes[id];
+  const w = PX[b.size] * 2, h = w;
+  try {
+    const [orig, norm] = await Promise.all([crop(`../../${b.original}`, b, w, h), load(`../../src/icons/${b.normalized}`)]);
+    const A = ink((x) => x.drawImage(orig, 0, 0, w, h), w, h);
+    const B = ink((x) => x.drawImage(norm, 0, 0, w, h), w, h);
+    let diff = 0, ia = 0, ib = 0;
+    for (let i = 0; i < A.length; i++) { diff += A[i] !== B[i]; ia += A[i]; ib += B[i]; }
+    const px = w * h;
+    checks++;
+    if (!(diff <= px * 0.02 && Math.abs(ia - ib) <= Math.max(2, ia * 0.03))) fails.push(`FAIL ${id} ${b.normalized} ${b.size}: ${diff}/${px} px differ, ink ${ia} vs ${ib}`);
+    checks++;
+    if (ia === 0) fails.push(`FAIL ${id}: original crop has no ink (box misaligned?)`);
+  } catch (e) { checks++; fails.push(`FAIL ${id}: ${e.message}`); }
+  n++;
+}
+const lines = [`STATUS: ${fails.length ? 'FAIL' : 'PASS'}`, `variants compared: ${n} (of ${ids.length}) · checks: ${checks} · failures: ${fails.length}`, ...fails.slice(0, 40)];
+out.textContent = lines.join('\n'); out.dataset.status = fails.length ? 'fail' : 'pass';
+</script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>R6 Dropdown Footer interaction — Annachy Design System</title>
+  <link rel="stylesheet" href="../../src/annachy.css">
+  <style>body { padding: 24px; } .row { display: flex; gap: 400px; margin-block-end: 24px; }</style>
+</head>
+<body>
+  <h1>R6 — Footer (staged commit) and Dark Dropdown, driven by real input</h1>
+  <button type="button" id="before">Before</button>
+  <div class="row">
+    <div class="annachy-dropdown" data-annachy-dropdown id="dd-fm">
+      <button type="button" id="fm-trigger" class="annachy-button annachy-button--secondary-grey annachy-button--size-40" role="combobox" aria-haspopup="dialog" aria-controls="fm-menu" aria-label="Teams"><span class="annachy-button__label">Teams</span></button>
+      <div class="annachy-dropdown-menu annachy-dropdown-menu--desktop" id="fm-menu" role="dialog" aria-modal="false" aria-label="Teams">
+        <ul class="annachy-dropdown-menu__options" role="listbox" id="fm-list" aria-label="Teams" aria-multiselectable="true">
+          <li class="annachy-dropdown-item annachy-dropdown-item--desktop" role="option" id="fm-1" aria-selected="true" data-value="design"><span class="annachy-dropdown-item__indicator" aria-hidden="true"></span><span class="annachy-dropdown-item__label">Product design</span></li>
+          <li class="annachy-dropdown-item annachy-dropdown-item--desktop" role="option" id="fm-2" aria-selected="false" data-value="eng"><span class="annachy-dropdown-item__indicator" aria-hidden="true"></span><span class="annachy-dropdown-item__label">Engineering</span></li>
+          <li class="annachy-dropdown-item annachy-dropdown-item--desktop" role="option" id="fm-3" aria-selected="false" data-value="cs"><span class="annachy-dropdown-item__indicator" aria-hidden="true"></span><span class="annachy-dropdown-item__label">Customer success</span></li>
+        </ul>
+        <div class="annachy-dropdown-menu__footer"><div class="annachy-dropdown-menu__divider"></div>
+          <button type="button" id="fm-apply" class="annachy-button annachy-button--primary annachy-button--size-40 annachy-dropdown-menu__footer-button"><span class="annachy-button__label">Apply selection</span></button></div>
+        <div class="annachy-dropdown-menu__status" role="status" aria-live="polite"></div>
+      </div>
+    </div>
+    <div class="annachy-dropdown" data-annachy-dropdown id="dd-fs">
+      <button type="button" id="fs-trigger" class="annachy-button annachy-button--secondary-grey annachy-button--size-40" role="combobox" aria-haspopup="dialog" aria-controls="fs-menu" aria-label="Owner"><span class="annachy-button__label">Owner</span></button>
+      <div class="annachy-dropdown-menu annachy-dropdown-menu--desktop" id="fs-menu" role="dialog" aria-modal="false" aria-label="Owner" data-annachy-theme="dark">
+        <ul class="annachy-dropdown-menu__options" role="listbox" id="fs-list" aria-label="Owner">
+          <li class="annachy-dropdown-item annachy-dropdown-item--desktop" role="option" id="fs-1" aria-selected="true"><span class="annachy-dropdown-item__indicator" aria-hidden="true"></span><span class="annachy-dropdown-item__label">Asha</span></li>
+          <li class="annachy-dropdown-item annachy-dropdown-item--desktop" role="option" id="fs-2" aria-selected="false"><span class="annachy-dropdown-item__indicator" aria-hidden="true"></span><span class="annachy-dropdown-item__label">Bala</span></li>
+          <li class="annachy-dropdown-item annachy-dropdown-item--desktop" role="option" id="fs-3" aria-selected="false" aria-disabled="true"><span class="annachy-dropdown-item__indicator" aria-hidden="true"></span><span class="annachy-dropdown-item__label">Chitra</span></li>
+        </ul>
+        <div class="annachy-dropdown-menu__footer"><div class="annachy-dropdown-menu__divider"></div>
+          <button type="button" id="fs-apply" class="annachy-button annachy-button--primary annachy-button--size-40 annachy-dropdown-menu__footer-button"><span class="annachy-button__icon" aria-hidden="true"></span><span class="annachy-button__label">Apply selection</span></button></div>
+      </div>
+    </div>
+  </div>
+  <div class="annachy-dropdown" data-annachy-dropdown id="dd-fq">
+    <button type="button" id="fq-trigger" class="annachy-button annachy-button--secondary-grey annachy-button--size-40" aria-haspopup="dialog" aria-controls="fq-menu" aria-label="Find"><span class="annachy-button__label">Find</span></button>
+    <div class="annachy-dropdown-menu annachy-dropdown-menu--mobile" id="fq-menu" role="dialog" aria-modal="false" aria-label="Find">
+      <div class="annachy-dropdown-menu__search"><div class="annachy-dropdown-menu__search-field"><span class="annachy-dropdown-menu__search-icon" aria-hidden="true"></span>
+        <input class="annachy-dropdown-menu__search-input" id="fq-input" type="search" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="fq-list" aria-label="Search" placeholder="Search teams" autocomplete="off"></div>
+        <div class="annachy-dropdown-menu__divider"></div></div>
+      <ul class="annachy-dropdown-menu__options" role="listbox" id="fq-list" aria-label="Find" aria-multiselectable="true">
+        <li class="annachy-dropdown-item annachy-dropdown-item--mobile" role="option" id="fq-1" aria-selected="false"><span class="annachy-dropdown-item__indicator" aria-hidden="true"></span><span class="annachy-dropdown-item__label">Apples</span></li>
+        <li class="annachy-dropdown-item annachy-dropdown-item--mobile" role="option" id="fq-2" aria-selected="false"><span class="annachy-dropdown-item__indicator" aria-hidden="true"></span><span class="annachy-dropdown-item__label">Bananas</span></li>
+      </ul>
+      <div class="annachy-dropdown-menu__footer"><div class="annachy-dropdown-menu__divider"></div>
+        <button type="button" id="fq-apply" class="annachy-button annachy-button--primary annachy-button--size-48 annachy-dropdown-menu__footer-button"><span class="annachy-button__label">Apply selection</span></button></div>
+      <div class="annachy-dropdown-menu__status" role="status" aria-live="polite"></div>
+    </div>
+  </div>
+  <button type="button" id="after">After</button>
+  <script type="module">
+    import '../../src/annachy.js';
+    window.__changes = [];
+    document.addEventListener('annachy-change', (e) => window.__changes.push([e.target.id, e.detail.values.join(',')]));
+  </script>
+</body>
+</html>

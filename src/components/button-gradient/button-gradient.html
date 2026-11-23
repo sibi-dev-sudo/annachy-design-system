@@ -1,0 +1,18 @@
+<!--
+  Annachy Design System — Button (gradient) canonical markup (R3-2). Figma "Button" 1153:3370.
+  Classes: .annachy-button-gradient + size modifier .annachy-button-gradient--size-<24|26|28|32|36|40|42|46|48|52|56> (no 38).
+  States: native :hover / :focus-visible / :active / disabled (test classes .is-hover / .is-focus / .is-pressed).
+-->
+<button type="button" class="annachy-button-gradient annachy-button-gradient--size-40">
+  <span class="annachy-button-gradient__icon" aria-hidden="true"><!-- 20×20 inline SVG using currentColor --></span>
+  <span class="annachy-button-gradient__label">Button</span>
+  <span class="annachy-button-gradient__icon" aria-hidden="true"><!-- svg --></span>
+</button>
+
+<!-- labelText=false (icon only): accessible name required -->
+<button type="button" class="annachy-button-gradient annachy-button-gradient--size-40" aria-label="Home">
+  <span class="annachy-button-gradient__icon" aria-hidden="true"><!-- svg --></span>
+</button>
+
+<!-- State=Disabled -->
+<button type="button" class="annachy-button-gradient annachy-button-gradient--size-40" disabled><span class="annachy-button-gradient__label">Button</span></button>

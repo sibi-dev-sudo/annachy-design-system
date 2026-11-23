@@ -1,0 +1,2543 @@
+[
+ {
+  "file": "desktop-bg-colours.html",
+  "node": "605:17525",
+  "kind": "image",
+  "title": "Screenshot 2026-09-23 at 4.46.29 PM 1",
+  "status": "filled"
+ },
+ {
+  "file": "mobile.html",
+  "node": "1201:9772",
+  "kind": "image",
+  "title": "Image",
+  "status": "filled"
+ },
+ {
+  "file": "mobile.html",
+  "node": "1171:9682",
+  "kind": "icon",
+  "title": "Phone Camara",
+  "status": "N/A phone system UI"
+ },
+ {
+  "file": "mobile.html",
+  "node": "1171:9687",
+  "kind": "icon",
+  "title": "Wifi",
+  "status": "N/A phone system UI"
+ },
+ {
+  "file": "mobile.html",
+  "node": "1171:9692",
+  "kind": "icon",
+  "title": "Signal",
+  "status": "N/A phone system UI"
+ },
+ {
+  "file": "mobile.html",
+  "node": "1171:9695",
+  "kind": "icon",
+  "title": "Battery",
+  "status": "N/A phone system UI"
+ },
+ {
+  "file": "mobile.html",
+  "node": "1201:9776",
+  "kind": "icon",
+  "title": "Line Duotone / Arrows / Alt Arrow Left",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "mobile.html",
+  "node": "1201:9780",
+  "kind": "icon",
+  "title": "Linear / Search / Magnifer",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "mobile.html",
+  "node": "1201:9784",
+  "kind": "icon",
+  "title": "Outline / Shopping, Ecommerce / Cart Large 2",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "mobile.html",
+  "node": "1201:9789",
+  "kind": "icon",
+  "title": "Linear / Like / Heart",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "mobile.html",
+  "node": "1201:9800",
+  "kind": "icon",
+  "title": "Star",
+  "status": "filled"
+ },
+ {
+  "file": "mobile.html",
+  "node": "1201:9812",
+  "kind": "icon",
+  "title": "Line Duotone / Arrows / Alt Arrow Left (rotated)",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "mobile.html",
+  "node": "1201:9829",
+  "kind": "icon",
+  "title": "loyalty 1 [Vectorized]",
+  "status": "filled"
+ },
+ {
+  "file": "mobile.html",
+  "node": "1201:9835",
+  "kind": "icon",
+  "title": "Line Duotone / Arrows / Alt Arrow Left (rotated)",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1280:10399",
+  "kind": "image",
+  "title": "YL (product image instance; inner Image I1280:10399;1486:38899 394x524)",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1280:10402",
+  "kind": "icon",
+  "title": "Linear / Like / Heart",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "I1280:10408;1528:26138;1523:25927",
+  "kind": "icon",
+  "title": "Star",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "I1280:10417;1508:24970",
+  "kind": "icon",
+  "title": "Linear / Like / Heart",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1283:2695 left-icon",
+  "kind": "icon",
+  "title": "Home/Home 54 (Icon Size=S, Style=Outline) 1777:12415",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1283:2695 right-icon",
+  "kind": "icon",
+  "title": "Home/Home 54 (Icon Size=S, Style=Outline) 1777:12415",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1280:10422",
+  "kind": "icon",
+  "title": "Line Duotone / Arrows / Alt Arrow Left (rotated)",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1280:10436",
+  "kind": "icon",
+  "title": "loyalty 1 [Vectorized]",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1280:10442",
+  "kind": "icon",
+  "title": "Line Duotone / Arrows / Alt Arrow Left (rotated)",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "I1280:10445;1539:30179;1539:28349",
+  "kind": "image",
+  "title": "Component 102 / YL (Yellow)",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "I1280:10445;1539:30180;1539:28349",
+  "kind": "image",
+  "title": "Component 102 / YL (Green)",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "I1280:10445;1539:30181;1539:28349",
+  "kind": "image",
+  "title": "Component 102 / YL (Blue)",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "I1280:10445;1539:30182;1539:28349",
+  "kind": "image",
+  "title": "Component 102 / Component 103 / YL",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "I1280:10446;1546:27139",
+  "kind": "icon",
+  "title": "Line Duotone / Arrows / Alt Arrow Left (rotated)",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "I1280:10446;1546:27123;1546:27436;1010:22241",
+  "kind": "icon",
+  "title": "Line (diagonal strike, rotated 43.45 deg)",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1779:37533 (in I1280:10448)",
+  "kind": "icon",
+  "title": "User/User Curved (Icon Size=M, Outline)",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1779:38814 (in I1280:10448)",
+  "kind": "icon",
+  "title": "Arrow/Chevron Up (Icon Size=M, Filled)",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1779:39439 (in I1280:10448)",
+  "kind": "icon",
+  "title": "Arrow/Chevron Down (Icon Size=M, Filled)",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1780:40128 (in I1280:10448)",
+  "kind": "icon",
+  "title": "Alerts/Error circle (Icon Size=XS, Outline)",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "I1280:10449;1546:27825",
+  "kind": "icon",
+  "title": "Car (Group 1171275299)",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1280:10453",
+  "kind": "icon",
+  "title": "Group 1171275304 (inset-positioned, approx. 32.7x24.5)",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1280:10463",
+  "kind": "icon",
+  "title": "Line Duotone / Arrows / Alt Arrow Left (rotated)",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1280:10467",
+  "kind": "icon",
+  "title": "Group 1171275306 (inset-positioned, approx. 31x24.3)",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1280:10482",
+  "kind": "icon",
+  "title": "Line Duotone / Arrows / Alt Arrow Left (rotated)",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1280:10486",
+  "kind": "icon",
+  "title": "Group 1171275306 (inset-positioned, approx. 31x24.3)",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1280:10502",
+  "kind": "icon",
+  "title": "Line Duotone / Arrows / Alt Arrow Left (rotated)",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1280:10504",
+  "kind": "icon",
+  "title": "Line Duotone / Arrows / Alt Arrow Left (rotated)",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "I1280:10517;1548:31174",
+  "kind": "icon",
+  "title": "Icons / Group 1171275310",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "I1280:10518;1548:31174",
+  "kind": "icon",
+  "title": "Icons / Group 1171275308",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "I1280:10520;1548:31174",
+  "kind": "icon",
+  "title": "Icons / Group 1171275309",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "I1280:10521;1548:31174",
+  "kind": "icon",
+  "title": "Icons / Group 1171275312",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "I1280:10523;1548:31174",
+  "kind": "icon",
+  "title": "Icons / Group 1171275311",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "I1280:10524;1548:31174",
+  "kind": "icon",
+  "title": "Icons / Group 1171275313",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "I1280:10527;1548:31174",
+  "kind": "icon",
+  "title": "Icons / Group 1171275310",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "I1280:10528;1548:31174",
+  "kind": "icon",
+  "title": "Icons / Group 1171275308",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "I1280:10530;1548:31174",
+  "kind": "icon",
+  "title": "Icons / Group 1171275309",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "I1280:10531;1548:31174",
+  "kind": "icon",
+  "title": "Icons / Group 1171275312",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "I1280:10533;1548:31174",
+  "kind": "icon",
+  "title": "Icons / Group 1171275311",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "I1280:10534;1548:31174",
+  "kind": "icon",
+  "title": "Icons / Group 1171275313",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1280:10535 left-icon",
+  "kind": "icon",
+  "title": "Home/Home 54 (Icon Size=S, Style=Outline) 1777:12415",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1280:10535 right-icon",
+  "kind": "icon",
+  "title": "Home/Home 54 (Icon Size=S, Style=Outline) 1777:12415",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1280:10543 arrow",
+  "kind": "icon",
+  "title": "Line Duotone / Arrows / Alt Arrow Left (rotated 90 deg)",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1280:10546 left-icon",
+  "kind": "icon",
+  "title": "Home/Home 54 (Icon Size=S, Style=Outline) 1777:12415",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1280:10546 right-icon",
+  "kind": "icon",
+  "title": "Home/Home 54 (Icon Size=S, Style=Outline) 1777:12415",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1280:10547 left-icon",
+  "kind": "icon",
+  "title": "Home/Home 54 (Icon Size=S, Style=Outline) 1777:12415",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1280:10547 right-icon",
+  "kind": "icon",
+  "title": "Home/Home 54 (Icon Size=S, Style=Outline) 1777:12415",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1280:10548 left-icon",
+  "kind": "icon",
+  "title": "Home/Home 54 (Icon Size=S, Style=Outline) 1777:12415",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1280:10548 right-icon",
+  "kind": "icon",
+  "title": "Home/Home 54 (Icon Size=S, Style=Outline) 1777:12415",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1280:10615 left-icon",
+  "kind": "icon",
+  "title": "Home/Home 54 (Icon Size=S, Style=Outline) 1777:12415",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1280:10615 right-icon",
+  "kind": "icon",
+  "title": "Home/Home 54 (Icon Size=S, Style=Outline) 1777:12415",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1280:10617 arrow",
+  "kind": "icon",
+  "title": "Line Duotone / Arrows / Alt Arrow Left (rotated 90 deg)",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1280:10629",
+  "kind": "icon",
+  "title": "Star",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1280:10636",
+  "kind": "image",
+  "title": "Frame 2121454585 (review photo)",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1280:10640",
+  "kind": "image",
+  "title": "Product Image - 1",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1280:10643",
+  "kind": "icon",
+  "title": "Gallery Minimalistic",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1280:10649",
+  "kind": "image",
+  "title": "Product Image -2",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1280:10652",
+  "kind": "icon",
+  "title": "Outline / Video, Audio, Sound / Play Circle",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1280:10656 star",
+  "kind": "icon",
+  "title": "Star",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1280:10656 like",
+  "kind": "icon",
+  "title": "Outline / Like / Like",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1280:10657 left-icon",
+  "kind": "icon",
+  "title": "Home/Home 54 (Icon Size=S, Style=Outline) 1777:12415",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1280:10657 right-icon",
+  "kind": "icon",
+  "title": "Home/Home 54 (Icon Size=S, Style=Outline) 1777:12415",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1280:10664",
+  "kind": "icon",
+  "title": "Outline / Users / Users Group Two Rounded (24x24)",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1280:10669",
+  "kind": "icon",
+  "title": "Linear / Security / Shield Check (24x24)",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1280:10674",
+  "kind": "icon",
+  "title": "Frame 2121454395 (genuine product badge, one vector)",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1280:10681",
+  "kind": "icon",
+  "title": "Linear / Shopping, Ecommerce / Shop",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1280:10691",
+  "kind": "icon",
+  "title": "Line Duotone / Arrows / Alt Arrow Left (rotated)",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1280:10697 left-icon",
+  "kind": "icon",
+  "title": "Home/Home 54 (Icon Size=S, Style=Outline) 1777:12415",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1280:10697 right-icon",
+  "kind": "icon",
+  "title": "Home/Home 54 (Icon Size=S, Style=Outline) 1777:12415",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1281:7272 image",
+  "kind": "image",
+  "title": "Similar Products - Images",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1281:7272 star",
+  "kind": "icon",
+  "title": "Star",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1281:7272 heart",
+  "kind": "icon",
+  "title": "Linear / Like / Heart",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1283:2642 image",
+  "kind": "image",
+  "title": "Similar Products - Images",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1283:2642 star",
+  "kind": "icon",
+  "title": "Star",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1283:2642 heart",
+  "kind": "icon",
+  "title": "Linear / Like / Heart",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1281:7311 image",
+  "kind": "image",
+  "title": "Similar Products - Images",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1281:7311 star",
+  "kind": "icon",
+  "title": "Star",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1281:7311 heart",
+  "kind": "icon",
+  "title": "Linear / Like / Heart",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1280:10699 image",
+  "kind": "image",
+  "title": "Similar Products - Images",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1280:10699 star",
+  "kind": "icon",
+  "title": "Star",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1280:10699 heart",
+  "kind": "icon",
+  "title": "Linear / Like / Heart",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1280:10700 image",
+  "kind": "image",
+  "title": "Similar Products - Images",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1280:10700 star",
+  "kind": "icon",
+  "title": "Star",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1280:10700 heart",
+  "kind": "icon",
+  "title": "Linear / Like / Heart",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1280:10701 image",
+  "kind": "image",
+  "title": "Similar Products - Images",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1280:10701 star",
+  "kind": "icon",
+  "title": "Star",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1280:10701 heart",
+  "kind": "icon",
+  "title": "Linear / Like / Heart",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1280:10702 image",
+  "kind": "image",
+  "title": "Similar Products - Images",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1280:10702 star",
+  "kind": "icon",
+  "title": "Star",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1280:10702 heart",
+  "kind": "icon",
+  "title": "Linear / Like / Heart",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1280:10707",
+  "kind": "icon",
+  "title": "Linear / Arrows / Arrow Right",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "I1280:10723;1519:25227 (slot fill)",
+  "kind": "image",
+  "title": "BL / Orginal Image",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "I1280:10723;1519:25228 (slot fill)",
+  "kind": "image",
+  "title": "unnamed (6) 1",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "I1280:10723;1519:25229 (slot fill)",
+  "kind": "image",
+  "title": "unnamed (3) 1",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "I1280:10723;1519:25230 (slot fill)",
+  "kind": "image",
+  "title": "unnamed (7) 1",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "I1280:10723;1519:25233 (slot fill)",
+  "kind": "image",
+  "title": "unnamed (5) 1",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "I1280:10723;1519:25231 (slot fill)",
+  "kind": "image",
+  "title": "unnamed (4) 1",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "I1280:10723;1519:26498;1519:26469",
+  "kind": "icon",
+  "title": "Linear / Like / Heart",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "I1280:10736;1519:25227 (slot fill)",
+  "kind": "image",
+  "title": "Product Image",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "I1280:10736;1519:25228 (slot fill)",
+  "kind": "image",
+  "title": "Gemini_Generated_Image_1xd3lh1xd3lh1xd3 (1) 2",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "I1280:10736;1519:25229 (slot fill)",
+  "kind": "image",
+  "title": "Gemini_Generated_Image_1xd3lh1xd3lh1xd3 1",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "I1280:10736;1519:25230 (slot fill)",
+  "kind": "image",
+  "title": "Gemini_Generated_Image_1xd3lh1xd3lh1xd3 (4) 1",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "I1280:10736;1519:25233 (slot fill)",
+  "kind": "image",
+  "title": "Gemini_Generated_Image_4h4hcm4h4hcm4h4h 1",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "I1280:10736;1519:25231 (slot fill)",
+  "kind": "image",
+  "title": "unnamed (2) 1",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "I1280:10736;1519:26498;1519:26469",
+  "kind": "icon",
+  "title": "Linear / Like / Heart",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "I1280:10749;1519:25227 (slot fill)",
+  "kind": "image",
+  "title": "Image",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "I1280:10749;1519:25228 (slot fill)",
+  "kind": "image",
+  "title": "Gemini_Generated_Image_1xd3lh1xd3lh1xd3 (1) 2",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "I1280:10749;1519:25229 (slot fill)",
+  "kind": "image",
+  "title": "Gemini_Generated_Image_cfwholcfwholcfwh 1",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "I1280:10749;1519:25230 (slot fill)",
+  "kind": "image",
+  "title": "Gemini_Generated_Image_nwrqcfnwrqcfnwrq 1",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "I1280:10749;1519:25233 (slot fill)",
+  "kind": "image",
+  "title": "Gemini_Generated_Image_4h4hcm4h4hcm4h4h 1",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "I1280:10749;1519:25231 (slot fill)",
+  "kind": "image",
+  "title": "unnamed (2) 1",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "I1280:10749;1519:26498;1519:26469",
+  "kind": "icon",
+  "title": "Linear / Like / Heart",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "I1280:10762;1519:25227 (slot fill)",
+  "kind": "image",
+  "title": "Product Image",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "I1280:10762;1519:25228 (slot fill)",
+  "kind": "image",
+  "title": "Gemini_Generated_Image_1xd3lh1xd3lh1xd3 (1) 2",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "I1280:10762;1519:25229 (slot fill)",
+  "kind": "image",
+  "title": "Gemini_Generated_Image_1xd3lh1xd3lh1xd3 1",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "I1280:10762;1519:25230 (slot fill)",
+  "kind": "image",
+  "title": "Gemini_Generated_Image_1xd3lh1xd3lh1xd3 (4) 1",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "I1280:10762;1519:25233 (slot fill)",
+  "kind": "image",
+  "title": "Gemini_Generated_Image_4h4hcm4h4hcm4h4h 1",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "I1280:10762;1519:25231 (slot fill)",
+  "kind": "image",
+  "title": "unnamed (2) 1",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "I1280:10762;1519:26498;1519:26469",
+  "kind": "icon",
+  "title": "Linear / Like / Heart",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1280:10772",
+  "kind": "image",
+  "title": "_iPhone mockup status bar",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1280:10775",
+  "kind": "icon",
+  "title": "Line Duotone / Arrows / Alt Arrow Left",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1280:10779",
+  "kind": "icon",
+  "title": "Linear / Search / Magnifer",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1280:10783",
+  "kind": "icon",
+  "title": "Outline / Shopping, Ecommerce / Cart Large 2",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1280:10768 left-icon",
+  "kind": "icon",
+  "title": "Home/Home 54 (Icon Size=S, Style=Outline) 1777:12415",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1280:10768 right-icon",
+  "kind": "icon",
+  "title": "Home/Home 54 (Icon Size=S, Style=Outline) 1777:12415",
+  "status": "filled"
+ },
+ {
+  "file": "pdp-v1.html",
+  "node": "1280:10769 right-icon",
+  "kind": "icon",
+  "title": "Home/Home 54 (Icon Size=S, Style=Outline)",
+  "status": "filled"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1375:31293",
+  "kind": "logo",
+  "title": "Logotype (Group)",
+  "status": "filled"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1375:31338",
+  "kind": "icon",
+  "title": "Frame (location)",
+  "status": "filled"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1375:31344",
+  "kind": "icon",
+  "title": "Frame (chevron)",
+  "status": "filled"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1779:37533",
+  "kind": "icon",
+  "title": "User/User Curved",
+  "status": "filled"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1779:38814",
+  "kind": "icon",
+  "title": "Arrow/Chevron Up",
+  "status": "filled"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1779:39439",
+  "kind": "icon",
+  "title": "Arrow/Chevron Down",
+  "status": "filled"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1375:31350",
+  "kind": "icon",
+  "title": "Frame (profile)",
+  "status": "filled"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1375:31355",
+  "kind": "icon",
+  "title": "Frame (chevron)",
+  "status": "filled"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1375:31358",
+  "kind": "icon",
+  "title": "Frame (cart)",
+  "status": "filled"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1375:31369",
+  "kind": "icon",
+  "title": "Frame (category)",
+  "status": "filled"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "I1375:31375;17:1154",
+  "kind": "icon",
+  "title": "Frame (chevron)",
+  "status": "filled"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "I1375:31376;17:1154",
+  "kind": "icon",
+  "title": "Frame (chevron)",
+  "status": "filled"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "I1375:31377;17:1154",
+  "kind": "icon",
+  "title": "Frame (chevron)",
+  "status": "filled"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "I1375:31378;17:1154",
+  "kind": "icon",
+  "title": "Frame (chevron)",
+  "status": "filled"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1375:31381",
+  "kind": "icon",
+  "title": "Frame (deals)",
+  "status": "filled"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1375:31388",
+  "kind": "icon",
+  "title": "Frame (offers)",
+  "status": "filled"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1375:30863",
+  "kind": "image",
+  "title": "010834LBLU_1 1",
+  "status": "filled"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1375:30865",
+  "kind": "image",
+  "title": "010834LBLU_2 1",
+  "status": "filled"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1375:30868",
+  "kind": "image",
+  "title": "010834LBLU_3 1",
+  "status": "filled"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1375:30870",
+  "kind": "image",
+  "title": "010834LBLU_4 1",
+  "status": "filled"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1375:30871",
+  "kind": "icon",
+  "title": "View More",
+  "status": "filled"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1375:30900",
+  "kind": "icon",
+  "title": "Frame (share)",
+  "status": "filled"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1375:30902",
+  "kind": "icon",
+  "title": "Frame (wishlist)",
+  "status": "filled"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1375:30912",
+  "kind": "icon",
+  "title": "Frame (star)",
+  "status": "filled"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1375:30914",
+  "kind": "icon",
+  "title": "Frame (star)",
+  "status": "filled"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1375:30916",
+  "kind": "icon",
+  "title": "Frame (star)",
+  "status": "filled"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1375:30918",
+  "kind": "icon",
+  "title": "Frame (star)",
+  "status": "filled"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1375:30920",
+  "kind": "icon",
+  "title": "Frame (info)",
+  "status": "filled"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1375:30923",
+  "kind": "image",
+  "title": "Line 23 (stroke colour only in SVG asset)",
+  "status": "filled"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1375:30933",
+  "kind": "image",
+  "title": "Line 16 (vertical stroke, colour only in SVG asset)",
+  "status": "filled"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1375:30937",
+  "kind": "image",
+  "title": "Line 16 (vertical stroke, colour only in SVG asset)",
+  "status": "filled"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1375:30940",
+  "kind": "icon",
+  "title": "Frame (info)",
+  "status": "filled"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1375:30944",
+  "kind": "image",
+  "title": "Line 15 (stroke colour only in SVG asset)",
+  "status": "filled"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1375:30952",
+  "kind": "icon",
+  "title": "Frame (previous)",
+  "status": "filled"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1375:30955",
+  "kind": "icon",
+  "title": "Frame (next, mirrored)",
+  "status": "filled"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1375:30961",
+  "kind": "image",
+  "title": "010834LBLA_1 1",
+  "status": "filled"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1375:30965",
+  "kind": "image",
+  "title": "010834LOLI_1 1",
+  "status": "filled"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1375:30969",
+  "kind": "image",
+  "title": "010834LGRE_1 1",
+  "status": "filled"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1375:30974",
+  "kind": "image",
+  "title": "010834LBLUGRE_1 1",
+  "status": "filled"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1375:30978",
+  "kind": "image",
+  "title": "010834LRED2_1 1",
+  "status": "filled"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1375:31002",
+  "kind": "image",
+  "title": "Line 21 (stroke colour only in SVG asset)",
+  "status": "filled"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1375:31010",
+  "kind": "icon",
+  "title": "badge-percent",
+  "status": "filled"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1375:31020",
+  "kind": "icon",
+  "title": "badge-percent",
+  "status": "filled"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1375:31037",
+  "kind": "icon",
+  "title": "Outline / Map &amp; Location / Map Point",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1375:31051",
+  "kind": "icon",
+  "title": "Frame (perk icon)",
+  "status": "filled"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1375:31059",
+  "kind": "icon",
+  "title": "Frame (perk icon)",
+  "status": "filled"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1375:31069",
+  "kind": "icon",
+  "title": "Frame (perk icon)",
+  "status": "filled"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1375:31076",
+  "kind": "image",
+  "title": "Line 24 (stroke colour only in SVG asset)",
+  "status": "filled"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1375:31082",
+  "kind": "icon",
+  "title": "Frame (details)",
+  "status": "filled"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1375:31088",
+  "kind": "icon",
+  "title": "Frame (collapse, mirrored)",
+  "status": "filled"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1375:31116",
+  "kind": "icon",
+  "title": "Frame (specifications)",
+  "status": "filled"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1375:31127",
+  "kind": "image",
+  "title": "Line (stroke colour only in SVG asset)",
+  "status": "filled"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1375:31132",
+  "kind": "image",
+  "title": "Line (stroke colour only in SVG asset)",
+  "status": "filled"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1375:31138",
+  "kind": "image",
+  "title": "Line (stroke colour only in SVG asset)",
+  "status": "filled"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1375:31143",
+  "kind": "image",
+  "title": "Line (stroke colour only in SVG asset)",
+  "status": "filled"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1375:31149",
+  "kind": "image",
+  "title": "Line (stroke colour only in SVG asset)",
+  "status": "filled"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1375:31154",
+  "kind": "image",
+  "title": "Line (stroke colour only in SVG asset)",
+  "status": "filled"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1375:31159",
+  "kind": "icon",
+  "title": "Frame (chevron)",
+  "status": "filled"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1375:31393",
+  "kind": "image",
+  "title": "Line 18 (stroke colour only in SVG asset)",
+  "status": "filled"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1375:31227",
+  "kind": "icon",
+  "title": "Frame (arrow, rotated -90°)",
+  "status": "filled"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1375:31231",
+  "kind": "image",
+  "title": "003372XLOFFWHI_1 1",
+  "status": "filled"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1375:31233",
+  "kind": "image",
+  "title": "Vector 1 (offer ribbon)",
+  "status": "filled"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1375:31238",
+  "kind": "logo",
+  "title": "logo 2",
+  "status": "third-party logo (rights)"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1375:31240",
+  "kind": "image",
+  "title": "01135542DARGRE_1 1",
+  "status": "filled"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1375:31242",
+  "kind": "image",
+  "title": "Vector 1 (offer ribbon)",
+  "status": "filled"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1375:31247",
+  "kind": "logo",
+  "title": "logo 2",
+  "status": "third-party logo (rights)"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1375:31249",
+  "kind": "image",
+  "title": "01135542MUS_1 1",
+  "status": "filled"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1375:31251",
+  "kind": "image",
+  "title": "Vector 1 (offer ribbon)",
+  "status": "filled"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1375:31256",
+  "kind": "logo",
+  "title": "logo 2",
+  "status": "third-party logo (rights)"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1375:31258",
+  "kind": "image",
+  "title": "010834LOLI_1 1",
+  "status": "filled"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1375:31260",
+  "kind": "image",
+  "title": "Vector 1 (offer ribbon)",
+  "status": "filled"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1375:31265",
+  "kind": "logo",
+  "title": "logo 2",
+  "status": "third-party logo (rights)"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1375:31267",
+  "kind": "image",
+  "title": "01135542DARGRE_1 1",
+  "status": "filled"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1375:31269",
+  "kind": "image",
+  "title": "Vector 1 (offer ribbon)",
+  "status": "filled"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1375:31274",
+  "kind": "logo",
+  "title": "logo 2",
+  "status": "third-party logo (rights)"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1375:31283",
+  "kind": "icon",
+  "title": "Group 1000001479 (previous arrow)",
+  "status": "filled"
+ },
+ {
+  "file": "desktop-pdp-1375-30858.html",
+  "node": "1375:31286",
+  "kind": "icon",
+  "title": "Group 1000001482 (next arrow)",
+  "status": "filled"
+ },
+ {
+  "file": "job-listing-page-1629-11987.html",
+  "node": "1629:11992",
+  "kind": "icon",
+  "title": "ArrowLeft",
+  "status": "filled"
+ },
+ {
+  "file": "job-listing-page-1629-11987.html",
+  "node": "1629:12002",
+  "kind": "icon",
+  "title": "Frame",
+  "status": "filled"
+ },
+ {
+  "file": "job-listing-page-1629-11987.html",
+  "node": "1629:12007",
+  "kind": "icon",
+  "title": "Ellipse (status dot)",
+  "status": "filled"
+ },
+ {
+  "file": "job-listing-page-1629-11987.html",
+  "node": "1629:12009",
+  "kind": "icon",
+  "title": "Frame (chevron)",
+  "status": "filled"
+ },
+ {
+  "file": "job-listing-page-1629-11987.html",
+  "node": "1629:12011",
+  "kind": "image",
+  "title": "Line 1 (stroke colour only in SVG asset)",
+  "status": "filled"
+ },
+ {
+  "file": "job-listing-page-1629-11987.html",
+  "node": "1629:12566",
+  "kind": "image",
+  "title": "Line (stroke colour only in SVG asset)",
+  "status": "filled"
+ },
+ {
+  "file": "job-listing-page-1629-11987.html",
+  "node": "1629:12126",
+  "kind": "image",
+  "title": "Line (stroke colour only in SVG asset)",
+  "status": "filled"
+ },
+ {
+  "file": "job-listing-page-1629-11987.html",
+  "node": "1629:12203",
+  "kind": "image",
+  "title": "Line (stroke colour only in SVG asset)",
+  "status": "filled"
+ },
+ {
+  "file": "job-listing-page-1629-11987.html",
+  "node": "1629:12282",
+  "kind": "image",
+  "title": "Line (stroke colour only in SVG asset)",
+  "status": "filled"
+ },
+ {
+  "file": "job-listing-page-1629-11987.html",
+  "node": "1627:11654",
+  "kind": "icon",
+  "title": "Cellular Signal",
+  "status": "N/A phone system UI"
+ },
+ {
+  "file": "job-listing-page-1629-11987.html",
+  "node": "1627:11690",
+  "kind": "icon",
+  "title": "Wifi",
+  "status": "N/A phone system UI"
+ },
+ {
+  "file": "job-listing-page-1629-11987.html",
+  "node": "1627:11720",
+  "kind": "icon",
+  "title": "Battery",
+  "status": "N/A phone system UI"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "1608:7096",
+  "kind": "icon",
+  "title": "Phone Camara",
+  "status": "N/A phone system UI"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "1608:7101",
+  "kind": "icon",
+  "title": "Wifi",
+  "status": "N/A phone system UI"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "1608:7106",
+  "kind": "icon",
+  "title": "Signal",
+  "status": "N/A phone system UI"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "1608:7109",
+  "kind": "icon",
+  "title": "Battery",
+  "status": "N/A phone system UI"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "1608:7114",
+  "kind": "icon",
+  "title": "Line Duotone / Arrows / Alt Arrow Left",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "1608:7118",
+  "kind": "icon",
+  "title": "Linear / Search / Magnifer",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "1608:7122",
+  "kind": "icon",
+  "title": "Outline / Shopping, Ecommerce / Cart Large 2",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "1608:7124",
+  "kind": "image",
+  "title": "YL (product image I1608:7124;1486:38899)",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "1608:7129",
+  "kind": "icon",
+  "title": "Line Duotone / Arrows / Alt Arrow Left (rotated)",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "1608:7143",
+  "kind": "icon",
+  "title": "loyalty 1 [Vectorized]",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "1608:7149",
+  "kind": "icon",
+  "title": "Line Duotone / Arrows / Alt Arrow Left (rotated)",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7152;1539:30179;1539:28349",
+  "kind": "image",
+  "title": "Component 102 (colour variant image)",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7152;1539:30179;1539:28950",
+  "kind": "image",
+  "title": "Line 122 (stroke colour only in SVG asset)",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7152;1539:30180;1539:28349",
+  "kind": "image",
+  "title": "Component 102 (colour variant image)",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7152;1539:30180;1539:28950",
+  "kind": "image",
+  "title": "Line 122 (stroke colour only in SVG asset)",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7152;1539:30181;1539:28349",
+  "kind": "image",
+  "title": "Component 102 (colour variant image)",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7152;1539:30181;1539:28950",
+  "kind": "image",
+  "title": "Line 122 (stroke colour only in SVG asset)",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7152;1539:30182;1539:28349",
+  "kind": "image",
+  "title": "Component 102 (colour variant image)",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7152;1539:30182;1539:28950",
+  "kind": "image",
+  "title": "Line 122 (stroke colour only in SVG asset)",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7153;1546:27139",
+  "kind": "icon",
+  "title": "Line Duotone / Arrows / Alt Arrow Left (rotated)",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7153;1546:27123;1546:27436;1010:22241",
+  "kind": "image",
+  "title": "Line 1 (diagonal 78.518, rotated 43.45°) (stroke colour only in SVG asset)",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7155;1066:38868",
+  "kind": "icon",
+  "title": "User/User Curved (1779:37533)",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "1779:38814",
+  "kind": "icon",
+  "title": "Arrow/Chevron Up",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "1779:39439",
+  "kind": "icon",
+  "title": "Arrow/Chevron Down",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "1780:40128",
+  "kind": "icon",
+  "title": "Alerts/Error circle",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "1608:7160",
+  "kind": "image",
+  "title": "Car (Group 1171275299)",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "1608:7168",
+  "kind": "image",
+  "title": "AIR - 1 (decorative streaks)",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "1608:7171",
+  "kind": "image",
+  "title": "Air - 2 (decorative streaks)",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "1608:7174",
+  "kind": "image",
+  "title": "Air 3 (decorative streaks)",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "1608:7182",
+  "kind": "image",
+  "title": "Line 122 (stroke colour only in SVG asset)",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "1608:7186",
+  "kind": "icon",
+  "title": "Group (perk icon)",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "1608:7196",
+  "kind": "icon",
+  "title": "Line Duotone / Arrows / Alt Arrow Left (rotated)",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "1608:7200",
+  "kind": "icon",
+  "title": "Group (perk icon)",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "1608:7215",
+  "kind": "icon",
+  "title": "Line Duotone / Arrows / Alt Arrow Left (rotated)",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "1608:7219",
+  "kind": "icon",
+  "title": "Group (perk icon)",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "1608:7235",
+  "kind": "icon",
+  "title": "Line Duotone / Arrows / Alt Arrow Left (rotated)",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "1608:7237",
+  "kind": "icon",
+  "title": "Line Duotone / Arrows / Alt Arrow Left (rotated)",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7248;1548:31174",
+  "kind": "icon",
+  "title": "Icons",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7249;1548:31174",
+  "kind": "icon",
+  "title": "Icons",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7251;1548:31174",
+  "kind": "icon",
+  "title": "Icons",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7252;1548:31174",
+  "kind": "icon",
+  "title": "Icons",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7254;1548:31174",
+  "kind": "icon",
+  "title": "Icons",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7255;1548:31174",
+  "kind": "icon",
+  "title": "Icons",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7258;1548:31174",
+  "kind": "icon",
+  "title": "Icons",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7259;1548:31174",
+  "kind": "icon",
+  "title": "Icons",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7261;1548:31174",
+  "kind": "icon",
+  "title": "Icons",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7262;1548:31174",
+  "kind": "icon",
+  "title": "Icons",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7264;1548:31174",
+  "kind": "icon",
+  "title": "Icons",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7265;1548:31174",
+  "kind": "icon",
+  "title": "Icons",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "1608:7272",
+  "kind": "image",
+  "title": "Line 137 (stroke colour only in SVG asset)",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7274;1548:33548",
+  "kind": "icon",
+  "title": "Line Duotone / Arrows / Alt Arrow Left (rotated 90°)",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7274;1548:33550",
+  "kind": "image",
+  "title": "Line (stroke colour only in SVG asset)",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7348;1548:33548",
+  "kind": "icon",
+  "title": "Line Duotone / Arrows / Alt Arrow Left (rotated 90°)",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7348;1548:33550",
+  "kind": "image",
+  "title": "Line (stroke colour only in SVG asset)",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "1608:7360",
+  "kind": "icon",
+  "title": "Star",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "1608:7363",
+  "kind": "image",
+  "title": "Line (vertical 18, stroke colour only in SVG asset)",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "1608:7367",
+  "kind": "image",
+  "title": "Review photo (Frame 2121454585)",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "1608:7370",
+  "kind": "image",
+  "title": "Images",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "1608:7374",
+  "kind": "icon",
+  "title": "Gallery Minimalistic (out of scope: R9 'not required')",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "1608:7380",
+  "kind": "image",
+  "title": "Product Image -2",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "1608:7383",
+  "kind": "icon",
+  "title": "Outline / Video, Audio, Sound / Play Circle",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7387;1321:18884",
+  "kind": "icon",
+  "title": "Star",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7387;1363:26813;1363:25114",
+  "kind": "icon",
+  "title": "Outline / Like / Like",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "1608:7389",
+  "kind": "image",
+  "title": "Line 137 (stroke colour only in SVG asset)",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "1608:7390",
+  "kind": "image",
+  "title": "Line 143 (stroke colour only in SVG asset)",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "1608:7395",
+  "kind": "icon",
+  "title": "Outline / Users / Users Group Two Rounded",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "1608:7400",
+  "kind": "icon",
+  "title": "Linear / Security / Shield Check",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "1608:7405",
+  "kind": "image",
+  "title": "Frame 2121454395 (badge tile)",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "1608:7412",
+  "kind": "icon",
+  "title": "Linear / Shopping, Ecommerce / Shop",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "1608:7422",
+  "kind": "icon",
+  "title": "Line Duotone / Arrows / Alt Arrow Left (rotated)",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "1777:12415",
+  "kind": "icon",
+  "title": "Home/Home 54 (icon slot)",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "1777:12415",
+  "kind": "icon",
+  "title": "Home/Home 54 (icon slot)",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "1608:7433",
+  "kind": "image",
+  "title": "Similar Products - Images",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "1608:7439",
+  "kind": "icon",
+  "title": "Star",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7443;1548:40450",
+  "kind": "icon",
+  "title": "Linear / Like / Heart",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "1608:7465",
+  "kind": "image",
+  "title": "Similar Products - Images",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "1608:7471",
+  "kind": "icon",
+  "title": "Star",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7475;1548:40450",
+  "kind": "icon",
+  "title": "Linear / Like / Heart",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "1608:7497",
+  "kind": "image",
+  "title": "Similar Products - Images",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "1608:7503",
+  "kind": "icon",
+  "title": "Star",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7507;1548:40450",
+  "kind": "icon",
+  "title": "Linear / Like / Heart",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7526;1471:36949",
+  "kind": "image",
+  "title": "Similar Products - Images",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7526;1471:37248",
+  "kind": "icon",
+  "title": "Star",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7526;1548:40637;1548:40450",
+  "kind": "icon",
+  "title": "Linear / Like / Heart",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7527;1471:36949",
+  "kind": "image",
+  "title": "Similar Products - Images",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7527;1471:37248",
+  "kind": "icon",
+  "title": "Star",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7527;1548:40637;1548:40450",
+  "kind": "icon",
+  "title": "Linear / Like / Heart",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7528;1471:36949",
+  "kind": "image",
+  "title": "Similar Products - Images",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7528;1471:37248",
+  "kind": "icon",
+  "title": "Star",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7528;1548:40637;1548:40450",
+  "kind": "icon",
+  "title": "Linear / Like / Heart",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7529;1471:36949",
+  "kind": "image",
+  "title": "Similar Products - Images",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7529;1471:37248",
+  "kind": "icon",
+  "title": "Star",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7529;1548:40637;1548:40450",
+  "kind": "icon",
+  "title": "Linear / Like / Heart",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "1608:7534",
+  "kind": "icon",
+  "title": "Linear / Arrows / Arrow Right",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7550;1519:25227",
+  "kind": "image",
+  "title": "Images",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7550;1519:25228",
+  "kind": "image",
+  "title": "Image-2",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7550;1519:25229",
+  "kind": "image",
+  "title": "Image-3",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7550;1519:25230",
+  "kind": "image",
+  "title": "Image-4",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7550;1519:25233",
+  "kind": "image",
+  "title": "Image-5",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7550;1519:25231",
+  "kind": "image",
+  "title": "Image-6",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7550;1519:26498;1519:26469",
+  "kind": "icon",
+  "title": "Linear / Like / Heart",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7563;1519:25227",
+  "kind": "image",
+  "title": "Images",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7563;1519:25228",
+  "kind": "image",
+  "title": "Image-2",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7563;1519:25229",
+  "kind": "image",
+  "title": "Image-3",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7563;1519:25230",
+  "kind": "image",
+  "title": "Image-4",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7563;1519:25233",
+  "kind": "image",
+  "title": "Image-5",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7563;1519:25231",
+  "kind": "image",
+  "title": "Image-6",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7563;1519:26498;1519:26469",
+  "kind": "icon",
+  "title": "Linear / Like / Heart",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7576;1519:25227",
+  "kind": "image",
+  "title": "Images",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7576;1519:25228",
+  "kind": "image",
+  "title": "Image-2",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7576;1519:25229",
+  "kind": "image",
+  "title": "Image-3",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7576;1519:25230",
+  "kind": "image",
+  "title": "Image-4",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7576;1519:25233",
+  "kind": "image",
+  "title": "Image-5",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7576;1519:25231",
+  "kind": "image",
+  "title": "Image-6",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7576;1519:26498;1519:26469",
+  "kind": "icon",
+  "title": "Linear / Like / Heart",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7589;1519:25227",
+  "kind": "image",
+  "title": "Images",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7589;1519:25228",
+  "kind": "image",
+  "title": "Image-2",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7589;1519:25229",
+  "kind": "image",
+  "title": "Image-3",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7589;1519:25230",
+  "kind": "image",
+  "title": "Image-4",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7589;1519:25233",
+  "kind": "image",
+  "title": "Image-5",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7589;1519:25231",
+  "kind": "image",
+  "title": "Image-6",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "I1608:7589;1519:26498;1519:26469",
+  "kind": "icon",
+  "title": "Linear / Like / Heart",
+  "status": "out of scope (R9 not required)"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "1608:7092",
+  "kind": "image",
+  "title": "Bottom Edge",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-pdp-1608-7090.html",
+  "node": "1608:7093",
+  "kind": "image",
+  "title": "Home Indicator",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-putaway-1627-11756.html",
+  "node": "1627:11761",
+  "kind": "icon",
+  "title": "ArrowLeft",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-putaway-1627-11756.html",
+  "node": "1627:11771",
+  "kind": "icon",
+  "title": "Frame",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-putaway-1627-11756.html",
+  "node": "1627:11780",
+  "kind": "image",
+  "title": "Line 1 (stroke colour only in SVG asset)",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-putaway-1627-11756.html",
+  "node": "1627:11792",
+  "kind": "image",
+  "title": "Line 1 (stroke colour only in SVG asset)",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-putaway-1627-11756.html",
+  "node": "1627:11860",
+  "kind": "image",
+  "title": "🥽 Goggles (Swimming, Diving, Gear)",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-putaway-1627-11756.html",
+  "node": "1627:11876",
+  "kind": "image",
+  "title": "Line (stroke colour only in SVG asset)",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-putaway-1627-11756.html",
+  "node": "1627:11933",
+  "kind": "icon",
+  "title": "Vector (minus)",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-putaway-1627-11756.html",
+  "node": "1627:11938",
+  "kind": "icon",
+  "title": "Vector (plus)",
+  "status": "filled"
+ },
+ {
+  "file": "mobile-putaway-1627-11756.html",
+  "node": "1627:11654",
+  "kind": "icon",
+  "title": "Cellular Signal",
+  "status": "N/A phone system UI"
+ },
+ {
+  "file": "mobile-putaway-1627-11756.html",
+  "node": "1627:11690",
+  "kind": "icon",
+  "title": "Wifi",
+  "status": "N/A phone system UI"
+ },
+ {
+  "file": "mobile-putaway-1627-11756.html",
+  "node": "1627:11720",
+  "kind": "icon",
+  "title": "Battery",
+  "status": "N/A phone system UI"
+ }
+]

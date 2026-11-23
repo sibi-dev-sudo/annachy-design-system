@@ -1,0 +1,851 @@
+<canvas id="317:12589" name="  › ④ Grid &amp; Layout  ✓" x="0" y="0" width="0" height="0">
+  <rounded-rectangle id="317:12649" name="Screenshot 2026-09-15 at 2.20.59 PM 1" x="-82" y="-4279" width="727" height="816" />
+  <frame id="317:12802" name="Frame 2121455706" x="4056" y="10943" width="182" height="64.35294342041016">
+    <frame id="317:12821" name="Color identity" x="0" y="0" width="182" height="64.35294342041016">
+      <text id="317:12822" name="Color label" x="12" y="12" width="74" height="15" />
+      <text id="317:12823" name="Step" x="12" y="32.352943420410156" width="128" height="20" />
+    </frame>
+  </frame>
+  <section id="1558:51715" name="Grid System ( All Sizes)" x="-34754" y="50816" width="11033" height="5948">
+    <frame id="1558:53359" name="Desktop" x="3559" y="1244" width="2757" height="2161">
+      <frame id="1558:53360" name="Frame 2121455716" x="146" y="0" width="2466" height="140" />
+      <frame id="1558:53361" name="Frame 2121455722" x="0" y="0" width="2757" height="390.9971923828125">
+        <frame id="1558:53362" name="Frame 2121455721" x="61" y="81" width="2635" height="73.99717712402344">
+          <frame id="1558:53363" name="Logotype" x="0" y="0" width="2635" height="73.99717712402344">
+            <frame id="1558:53364" name="Group" x="2335.464599609375" y="0" width="299.5352478027344" height="73.99717712402344">
+              <vector id="1558:53365" name="Vector" x="2429.6637802124023" y="61.04088592529297" width="118.541748046875" height="12.958113670349121" />
+              <frame id="1558:53366" name="Group" x="2432.652503967285" y="62.9735221862793" width="12.336579322814941" height="8.597864151000977" />
+              <frame id="1558:53369" name="Group" x="2447.671157836914" y="62.95185089111328" width="97.42430877685547" height="8.867423057556152" />
+              <frame id="1558:53383" name="Group" x="2335.4645609479776" y="0" width="299.5352478027344" height="71.78019714355469">
+                <vector id="1558:53384" name="Vector" x="2335.46452228658" y="0" width="92.9480209350586" height="56.08863067626953" />
+                <frame id="1558:53385" name="Group" x="2552.2831186872354" y="7.469759464263916" width="82.71688079833984" height="64.31144714355469" />
+                <frame id="1558:53388" name="Group" x="2558.3715128522745" y="7.423394203186035" width="28.45973777770996" height="48.95656204223633" />
+                <frame id="1558:53391" name="Group" x="2495.9542765241495" y="20.571643829345703" width="28.026350021362305" height="36.302520751953125" />
+                <frame id="1558:53396" name="Group" x="2462.6149210553995" y="20.963871002197266" width="30.23380470275879" height="35.41405487060547" />
+                <frame id="1558:53399" name="Group" x="2428.337340794169" y="20.963871002197266" width="30.233793258666992" height="35.41405487060547" />
+                <frame id="1558:53402" name="Group" x="2527.7912363630167" y="20.642276763916016" width="27.83435821533203" height="36.263397216796875" />
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+        <frame id="1558:53405" name="Frame 2121455719" x="61" y="192.99717712402344" width="2635" height="117">
+          <text id="1558:53406" name="Grid System - Desktop" x="0" y="0" width="2635" height="93" />
+          <frame id="1558:53407" name="Frame 2121455718" x="0" y="117" width="2635" height="0">
+            <vector id="1558:53408" name="Line 144" x="0" y="0" width="2635" height="0" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="1558:53409" name="Introduction Section" x="61" y="604" width="2635" height="188">
+        <text id="1558:53410" name="Introduction" x="0" y="0" width="360" height="65" />
+        <text id="1558:53411" name="The desktop grid system provides a consistent structure for aligning and organizing content across the platform. Our desktop layout uses a 12-column grid with a 120px margin and 32px gutter within a 1440px frame. This grid helps maintain consistent spacing, alignment, and visual hierarchy across desktop interfaces." x="0" y="86" width="2635" height="102" />
+      </frame>
+      <frame id="1558:53412" name="settings-card" x="1849" y="1080" width="547.9996948242188" height="557.6664428710938">
+        <frame id="1558:53413" name="header" x="36.533329010009766" y="36.5333137512207" width="474.93304443359375" height="33">
+          <text id="1558:53414" name="title" x="0" y="0" width="149" height="33" />
+        </frame>
+        <frame id="1558:53415" name="form-grid" x="36.533329010009766" y="99.97773742675781" width="474.93304443359375" height="421.1553649902344">
+          <frame id="1558:53416" name="row-1" x="0" y="0" width="474.93304443359375" height="87.02218627929688">
+            <frame id="1558:53417" name="field-device" x="0" y="0" width="225.28875732421875" height="87.02218627929688">
+              <text id="1558:53418" name="label" x="0" y="0" width="52" height="17" />
+              <frame id="1558:53419" name="dropdown" x="0" y="26.13332748413086" width="225.28875732421875" height="60.88885498046875">
+                <text id="1558:53420" name="Desktop" x="18.26665687561035" y="19.944427490234375" width="80" height="21" />
+              </frame>
+            </frame>
+            <frame id="1558:53421" name="field-screen" x="249.64430236816406" y="0" width="225.28875732421875" height="87.02218627929688">
+              <text id="1558:53422" name="label" x="0" y="0" width="53" height="17" />
+              <frame id="1558:53423" name="dropdown" x="0" y="26.13332748413086" width="225.28875732421875" height="60.88885498046875">
+                <text id="1558:53424" name="1440px" x="18.26665687561035" y="19.944427490234375" width="69" height="21" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="1558:53425" name="row-2" x="0" y="111.37773132324219" width="474.93304443359375" height="87.02218627929688">
+            <frame id="1558:53426" name="field-column-count" x="-0.00000762939453125" y="0" width="225.28875732421875" height="87.02218627929688">
+              <text id="1558:53427" name="label" x="0" y="0" width="108" height="17" />
+              <frame id="1558:53428" name="dropdown" x="0" y="26.13332748413086" width="225.28875732421875" height="60.88885498046875">
+                <text id="1558:53429" name="12" x="18.26665687561035" y="19.944427490234375" width="21" height="21" />
+              </frame>
+            </frame>
+            <frame id="1558:53430" name="field-color" x="249.6441650390625" y="0.00006897561252117157" width="225.28875732421875" height="87.02218627929688">
+              <text id="1558:53431" name="label" x="0" y="0" width="41" height="17" />
+              <frame id="1558:53432" name="input-color" x="0" y="26.13332748413086" width="225.28875732421875" height="60.88885498046875">
+                <frame id="1558:53433" name="Frame" x="18.26665687561035" y="20.444427490234375" width="84" height="20">
+                  <text id="1558:53434" name="#004FEB" x="0" y="0" width="84" height="20" />
+                </frame>
+                <frame id="1558:53435" name="Frame 2121455723" x="128.75442504882812" y="13.699993133544922" width="84.35655975341797" height="33.488868713378906">
+                  <frame id="1558:53436" name="Frame" x="11.645478248596191" y="6.744434356689453" width="24" height="20">
+                    <text id="1558:53437" name="24" x="0" y="0" width="24" height="20" />
+                  </frame>
+                  <rounded-rectangle id="1558:53438" name="color-swatch" x="50.867801666259766" y="-0.0001606726145837456" width="33.488868713378906" height="33.488868713378906" />
+                </frame>
+              </frame>
+            </frame>
+          </frame>
+          <frame id="1558:53439" name="row-3" x="0" y="222.75546264648438" width="474.93304443359375" height="87.02218627929688">
+            <frame id="1558:53440" name="field-type" x="0" y="0" width="225.28875732421875" height="87.02218627929688">
+              <text id="1558:53441" name="label" x="0" y="0" width="36" height="17" />
+              <frame id="1558:53442" name="dropdown" x="0" y="26.13332748413086" width="225.28875732421875" height="60.88885498046875">
+                <text id="1558:53443" name="Stretch" x="18.26665687561035" y="19.944427490234375" width="68" height="21" />
+              </frame>
+            </frame>
+            <frame id="1558:53444" name="field-width" x="249.64430236816406" y="0" width="225.28875732421875" height="87.02218627929688">
+              <text id="1558:53445" name="label" x="0" y="0" width="44" height="17" />
+              <frame id="1558:53446" name="dropdown" x="0" y="26.13332748413086" width="225.28875732421875" height="60.88885498046875">
+                <text id="1558:53447" name="Auto" x="18.26665687561035" y="19.944427490234375" width="46" height="21" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="1558:53448" name="row-4" x="0" y="334.1331787109375" width="474.93304443359375" height="87.02218627929688">
+            <frame id="1558:53449" name="field-margin" x="0" y="0" width="225.28875732421875" height="87.02218627929688">
+              <text id="1558:53450" name="label" x="0" y="0" width="53" height="17" />
+              <frame id="1558:53451" name="dropdown" x="0" y="26.13332748413086" width="225.28875732421875" height="60.88885498046875">
+                <text id="1558:53452" name="120" x="18.26665687561035" y="19.944427490234375" width="34" height="21" />
+              </frame>
+            </frame>
+            <frame id="1558:53453" name="field-gutter" x="249.64430236816406" y="0" width="225.28875732421875" height="87.02218627929688">
+              <text id="1558:53454" name="label" x="0" y="0" width="48" height="17" />
+              <frame id="1558:53455" name="dropdown" x="0" y="26.13332748413086" width="225.28875732421875" height="60.88885498046875">
+                <text id="1558:53456" name="32" x="18.26665687561035" y="19.944427490234375" width="25" height="21" />
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+      <frame id="1558:53457" name="Frame 2121455721" x="61" y="907" width="1440" height="1024" />
+      <frame id="1558:53458" name="Frame 2121455724" x="0" y="2045" width="2757" height="116">
+        <frame id="1558:53459" name="Frame 2121455714" x="2592" y="14" width="88" height="88" />
+      </frame>
+    </frame>
+    <frame id="1558:53464" name="Large Desktop" x="6632" y="1244" width="2757" height="2161">
+      <frame id="1558:53465" name="Frame 2121455716" x="146" y="0" width="2466" height="140" />
+      <frame id="1558:53466" name="Frame 2121455722" x="0" y="0" width="2757" height="390.9971923828125">
+        <frame id="1558:53467" name="Frame 2121455721" x="61" y="81" width="2635" height="73.99717712402344">
+          <frame id="1558:53468" name="Logotype" x="0" y="0" width="2635" height="73.99717712402344">
+            <frame id="1558:53469" name="Group" x="2335.464599609375" y="0" width="299.5352478027344" height="73.99717712402344">
+              <vector id="1558:53470" name="Vector" x="2429.6637802124023" y="61.04088592529297" width="118.541748046875" height="12.958113670349121" />
+              <frame id="1558:53471" name="Group" x="2432.652503967285" y="62.9735221862793" width="12.336579322814941" height="8.597864151000977" />
+              <frame id="1558:53474" name="Group" x="2447.671157836914" y="62.95185089111328" width="97.42430877685547" height="8.867423057556152" />
+              <frame id="1558:53488" name="Group" x="2335.4645609479776" y="0" width="299.5352478027344" height="71.78019714355469">
+                <vector id="1558:53489" name="Vector" x="2335.46452228658" y="0" width="92.9480209350586" height="56.08863067626953" />
+                <frame id="1558:53490" name="Group" x="2552.2831186872354" y="7.469759464263916" width="82.71688079833984" height="64.31144714355469" />
+                <frame id="1558:53493" name="Group" x="2558.3715128522745" y="7.423394203186035" width="28.45973777770996" height="48.95656204223633" />
+                <frame id="1558:53496" name="Group" x="2495.9542765241495" y="20.571643829345703" width="28.026350021362305" height="36.302520751953125" />
+                <frame id="1558:53501" name="Group" x="2462.6149210553995" y="20.963871002197266" width="30.23380470275879" height="35.41405487060547" />
+                <frame id="1558:53504" name="Group" x="2428.337340794169" y="20.963871002197266" width="30.233793258666992" height="35.41405487060547" />
+                <frame id="1558:53507" name="Group" x="2527.7912363630167" y="20.642276763916016" width="27.83435821533203" height="36.263397216796875" />
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+        <frame id="1558:53510" name="Frame 2121455719" x="61" y="192.99717712402344" width="2635" height="117">
+          <text id="1558:53511" name="Grid System - Large Desktop" x="0" y="0" width="2635" height="93" />
+          <frame id="1558:53512" name="Frame 2121455718" x="0" y="117" width="2635" height="0">
+            <vector id="1558:53513" name="Line 144" x="0" y="0" width="2635" height="0" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="1558:53514" name="Introduction Section" x="61" y="604" width="2635" height="188">
+        <text id="1558:53515" name="Introduction" x="0" y="0" width="360" height="65" />
+        <text id="1558:53516" name="The large desktop grid system provides a consistent structure for organizing and aligning content across wider screens. Our large desktop layout uses a 12-column grid with a 140px margin and 32px gutter within a 1920px frame. This grid helps maintain consistent spacing, alignment, and visual hierarchy across large-screen interfaces." x="0" y="86" width="2635" height="102" />
+      </frame>
+      <frame id="1558:53517" name="settings-card" x="2069" y="1080" width="547.9996948242188" height="557.6664428710938">
+        <frame id="1558:53518" name="header" x="36.533329010009766" y="36.5333137512207" width="474.93304443359375" height="33">
+          <text id="1558:53519" name="title" x="0" y="0" width="149" height="33" />
+        </frame>
+        <frame id="1558:53520" name="form-grid" x="36.533329010009766" y="99.97773742675781" width="474.93304443359375" height="421.1553649902344">
+          <frame id="1558:53521" name="row-1" x="0" y="0" width="474.93304443359375" height="87.02218627929688">
+            <frame id="1558:53522" name="field-device" x="0" y="0" width="225.28875732421875" height="87.02218627929688">
+              <text id="1558:53523" name="label" x="0" y="0" width="52" height="17" />
+              <frame id="1558:53524" name="dropdown" x="0" y="26.13332748413086" width="225.28875732421875" height="60.88885498046875">
+                <text id="1558:53525" name="Desktop" x="18.26665687561035" y="19.944427490234375" width="80" height="21" />
+              </frame>
+            </frame>
+            <frame id="1558:53526" name="field-screen" x="249.64430236816406" y="0" width="225.28875732421875" height="87.02218627929688">
+              <text id="1558:53527" name="label" x="0" y="0" width="53" height="17" />
+              <frame id="1558:53528" name="dropdown" x="0" y="26.13332748413086" width="225.28875732421875" height="60.88885498046875">
+                <text id="1558:53529" name="1920px" x="18.26665687561035" y="19.944427490234375" width="70" height="21" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="1558:53530" name="row-2" x="0" y="111.37773132324219" width="474.93304443359375" height="87.02218627929688">
+            <frame id="1558:53531" name="field-column-count" x="-0.00000762939453125" y="0" width="225.28875732421875" height="87.02218627929688">
+              <text id="1558:53532" name="label" x="0" y="0" width="108" height="17" />
+              <frame id="1558:53533" name="dropdown" x="0" y="26.13332748413086" width="225.28875732421875" height="60.88885498046875">
+                <text id="1558:53534" name="12" x="18.26665687561035" y="19.944427490234375" width="21" height="21" />
+              </frame>
+            </frame>
+            <frame id="1558:53535" name="field-color" x="249.6441650390625" y="0.00006897561252117157" width="225.28875732421875" height="87.02218627929688">
+              <text id="1558:53536" name="label" x="0" y="0" width="41" height="17" />
+              <frame id="1558:53537" name="input-color" x="0" y="26.13332748413086" width="225.28875732421875" height="60.88885498046875">
+                <frame id="1558:53538" name="Frame" x="18.26665687561035" y="20.444427490234375" width="84" height="20">
+                  <text id="1558:53539" name="#004FEB" x="0" y="0" width="84" height="20" />
+                </frame>
+                <frame id="1558:53540" name="Frame 2121455723" x="128.75442504882812" y="13.699993133544922" width="84.35655975341797" height="33.488868713378906">
+                  <frame id="1558:53541" name="Frame" x="11.645478248596191" y="6.744434356689453" width="24" height="20">
+                    <text id="1558:53542" name="24" x="0" y="0" width="24" height="20" />
+                  </frame>
+                  <rounded-rectangle id="1558:53543" name="color-swatch" x="50.867801666259766" y="-0.0001606726145837456" width="33.488868713378906" height="33.488868713378906" />
+                </frame>
+              </frame>
+            </frame>
+          </frame>
+          <frame id="1558:53544" name="row-3" x="0" y="222.75546264648438" width="474.93304443359375" height="87.02218627929688">
+            <frame id="1558:53545" name="field-type" x="0" y="0" width="225.28875732421875" height="87.02218627929688">
+              <text id="1558:53546" name="label" x="0" y="0" width="36" height="17" />
+              <frame id="1558:53547" name="dropdown" x="0" y="26.13332748413086" width="225.28875732421875" height="60.88885498046875">
+                <text id="1558:53548" name="Stretch" x="18.26665687561035" y="19.944427490234375" width="68" height="21" />
+              </frame>
+            </frame>
+            <frame id="1558:53549" name="field-width" x="249.64430236816406" y="0" width="225.28875732421875" height="87.02218627929688">
+              <text id="1558:53550" name="label" x="0" y="0" width="44" height="17" />
+              <frame id="1558:53551" name="dropdown" x="0" y="26.13332748413086" width="225.28875732421875" height="60.88885498046875">
+                <text id="1558:53552" name="Auto" x="18.26665687561035" y="19.944427490234375" width="46" height="21" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="1558:53553" name="row-4" x="0" y="334.1331787109375" width="474.93304443359375" height="87.02218627929688">
+            <frame id="1558:53554" name="field-margin" x="0" y="0" width="225.28875732421875" height="87.02218627929688">
+              <text id="1558:53555" name="label" x="0" y="0" width="53" height="17" />
+              <frame id="1558:53556" name="dropdown" x="0" y="26.13332748413086" width="225.28875732421875" height="60.88885498046875">
+                <text id="1558:53557" name="140" x="18.26665687561035" y="19.944427490234375" width="34" height="21" />
+              </frame>
+            </frame>
+            <frame id="1558:53558" name="field-gutter" x="249.64430236816406" y="0" width="225.28875732421875" height="87.02218627929688">
+              <text id="1558:53559" name="label" x="0" y="0" width="48" height="17" />
+              <frame id="1558:53560" name="dropdown" x="0" y="26.13332748413086" width="225.28875732421875" height="60.88885498046875">
+                <text id="1558:53561" name="32" x="18.26665687561035" y="19.944427490234375" width="25" height="21" />
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+      <frame id="1558:53562" name="Frame 2121455721" x="61" y="907" width="1920" height="1080" />
+      <frame id="1558:53563" name="Frame 2121455724" x="0" y="2045" width="2757" height="116">
+        <frame id="1558:53564" name="Frame 2121455714" x="2592" y="14" width="88" height="88" />
+      </frame>
+    </frame>
+    <frame id="1558:53569" name="Mobile" x="486" y="1244" width="2757" height="2161">
+      <frame id="1558:53570" name="Frame 2121455716" x="146" y="0" width="2466" height="140" />
+      <frame id="1558:53571" name="Frame 2121455722" x="0" y="0" width="2757" height="390.9971923828125">
+        <frame id="1558:53572" name="Frame 2121455721" x="61" y="81" width="2635" height="73.99717712402344">
+          <frame id="1558:53573" name="Logotype" x="0" y="0" width="2635" height="73.99717712402344">
+            <frame id="1558:53574" name="Group" x="2335.464599609375" y="0" width="299.5352478027344" height="73.99717712402344">
+              <vector id="1558:53575" name="Vector" x="2429.6637802124023" y="61.04088592529297" width="118.541748046875" height="12.958113670349121" />
+              <frame id="1558:53576" name="Group" x="2432.652503967285" y="62.9735221862793" width="12.336579322814941" height="8.597864151000977" />
+              <frame id="1558:53579" name="Group" x="2447.671157836914" y="62.95185089111328" width="97.42430877685547" height="8.867423057556152" />
+              <frame id="1558:53593" name="Group" x="2335.4645609479776" y="0" width="299.5352478027344" height="71.78019714355469">
+                <vector id="1558:53594" name="Vector" x="2335.46452228658" y="0" width="92.9480209350586" height="56.08863067626953" />
+                <frame id="1558:53595" name="Group" x="2552.2831186872354" y="7.469759464263916" width="82.71688079833984" height="64.31144714355469" />
+                <frame id="1558:53598" name="Group" x="2558.3715128522745" y="7.423394203186035" width="28.45973777770996" height="48.95656204223633" />
+                <frame id="1558:53601" name="Group" x="2495.9542765241495" y="20.571643829345703" width="28.026350021362305" height="36.302520751953125" />
+                <frame id="1558:53606" name="Group" x="2462.6149210553995" y="20.963871002197266" width="30.23380470275879" height="35.41405487060547" />
+                <frame id="1558:53609" name="Group" x="2428.337340794169" y="20.963871002197266" width="30.233793258666992" height="35.41405487060547" />
+                <frame id="1558:53612" name="Group" x="2527.7912363630167" y="20.642276763916016" width="27.83435821533203" height="36.263397216796875" />
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+        <frame id="1558:53615" name="Frame 2121455719" x="61" y="192.99717712402344" width="2635" height="117">
+          <text id="1558:53616" name="Grid System - Mobile" x="0" y="0" width="2635" height="93" />
+          <frame id="1558:53617" name="Frame 2121455718" x="0" y="117" width="2635" height="0">
+            <vector id="1558:53618" name="Line 144" x="0" y="0" width="2635" height="0" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="1558:53619" name="Introduction Section" x="61" y="604" width="2635" height="188">
+        <text id="1558:53620" name="Introduction" x="0" y="0" width="360" height="65" />
+        <text id="1558:53621" name="The mobile grid system provides a flexible structure for organizing and aligning content across smaller screens. Our mobile layout uses a 4-column grid with a 16px margin and 16px gutter within a 360px frame. This grid helps maintain consistent spacing, alignment, and visual hierarchy across mobile interfaces." x="0" y="86" width="2635" height="102" />
+      </frame>
+      <frame id="1558:53622" name="settings-card" x="653" y="1028" width="547.9996948242188" height="557.6664428710938">
+        <frame id="1558:53623" name="header" x="36.533329010009766" y="36.5333137512207" width="474.93304443359375" height="33">
+          <text id="1558:53624" name="title" x="0" y="0" width="149" height="33" />
+        </frame>
+        <frame id="1558:53625" name="form-grid" x="36.533329010009766" y="99.97773742675781" width="474.93304443359375" height="421.1553649902344">
+          <frame id="1558:53626" name="row-1" x="0" y="0" width="474.93304443359375" height="87.02218627929688">
+            <frame id="1558:53627" name="field-device" x="0" y="0" width="225.28875732421875" height="87.02218627929688">
+              <text id="1558:53628" name="label" x="0" y="0" width="52" height="17" />
+              <frame id="1558:53629" name="dropdown" x="0" y="26.13332748413086" width="225.28875732421875" height="60.88885498046875">
+                <text id="1558:53630" name="Desktop" x="18.26665687561035" y="19.944427490234375" width="80" height="21" />
+              </frame>
+            </frame>
+            <frame id="1558:53631" name="field-screen" x="249.64430236816406" y="0" width="225.28875732421875" height="87.02218627929688">
+              <text id="1558:53632" name="label" x="0" y="0" width="53" height="17" />
+              <frame id="1558:53633" name="dropdown" x="0" y="26.13332748413086" width="225.28875732421875" height="60.88885498046875">
+                <text id="1558:53634" name="360px" x="18.26665687561035" y="19.944427490234375" width="61" height="21" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="1558:53635" name="row-2" x="0" y="111.37773132324219" width="474.93304443359375" height="87.02218627929688">
+            <frame id="1558:53636" name="field-column-count" x="-0.00000762939453125" y="0" width="225.28875732421875" height="87.02218627929688">
+              <text id="1558:53637" name="label" x="0" y="0" width="108" height="17" />
+              <frame id="1558:53638" name="dropdown" x="0" y="26.13332748413086" width="225.28875732421875" height="60.88885498046875">
+                <text id="1558:53639" name="4" x="18.26665687561035" y="19.944427490234375" width="13" height="21" />
+              </frame>
+            </frame>
+            <frame id="1558:53640" name="field-color" x="249.6441650390625" y="0.00006897561252117157" width="225.28875732421875" height="87.02218627929688">
+              <text id="1558:53641" name="label" x="0" y="0" width="41" height="17" />
+              <frame id="1558:53642" name="input-color" x="0" y="26.13332748413086" width="225.28875732421875" height="60.88885498046875">
+                <frame id="1558:53643" name="Frame" x="18.26665687561035" y="20.444427490234375" width="84" height="20">
+                  <text id="1558:53644" name="#004FEB" x="0" y="0" width="84" height="20" />
+                </frame>
+                <frame id="1558:53645" name="Frame 2121455723" x="128.75442504882812" y="13.699993133544922" width="84.35655975341797" height="33.488868713378906">
+                  <frame id="1558:53646" name="Frame" x="11.645478248596191" y="6.744434356689453" width="24" height="20">
+                    <text id="1558:53647" name="24" x="0" y="0" width="24" height="20" />
+                  </frame>
+                  <rounded-rectangle id="1558:53648" name="color-swatch" x="50.867801666259766" y="-0.0001606726145837456" width="33.488868713378906" height="33.488868713378906" />
+                </frame>
+              </frame>
+            </frame>
+          </frame>
+          <frame id="1558:53649" name="row-3" x="0" y="222.75546264648438" width="474.93304443359375" height="87.02218627929688">
+            <frame id="1558:53650" name="field-type" x="0" y="0" width="225.28875732421875" height="87.02218627929688">
+              <text id="1558:53651" name="label" x="0" y="0" width="36" height="17" />
+              <frame id="1558:53652" name="dropdown" x="0" y="26.13332748413086" width="225.28875732421875" height="60.88885498046875">
+                <text id="1558:53653" name="Stretch" x="18.26665687561035" y="19.944427490234375" width="68" height="21" />
+              </frame>
+            </frame>
+            <frame id="1558:53654" name="field-width" x="249.64430236816406" y="0" width="225.28875732421875" height="87.02218627929688">
+              <text id="1558:53655" name="label" x="0" y="0" width="44" height="17" />
+              <frame id="1558:53656" name="dropdown" x="0" y="26.13332748413086" width="225.28875732421875" height="60.88885498046875">
+                <text id="1558:53657" name="Auto" x="18.26665687561035" y="19.944427490234375" width="46" height="21" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="1558:53658" name="row-4" x="0" y="334.1331787109375" width="474.93304443359375" height="87.02218627929688">
+            <frame id="1558:53659" name="field-margin" x="0" y="0" width="225.28875732421875" height="87.02218627929688">
+              <text id="1558:53660" name="label" x="0" y="0" width="53" height="17" />
+              <frame id="1558:53661" name="dropdown" x="0" y="26.13332748413086" width="225.28875732421875" height="60.88885498046875">
+                <text id="1558:53662" name="16" x="18.26665687561035" y="19.944427490234375" width="21" height="21" />
+              </frame>
+            </frame>
+            <frame id="1558:53663" name="field-gutter" x="249.64430236816406" y="0" width="225.28875732421875" height="87.02218627929688">
+              <text id="1558:53664" name="label" x="0" y="0" width="48" height="17" />
+              <frame id="1558:53665" name="dropdown" x="0" y="26.13332748413086" width="225.28875732421875" height="60.88885498046875">
+                <text id="1558:53666" name="16" x="18.26665687561035" y="19.944427490234375" width="21" height="21" />
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+      <frame id="1558:53667" name="Frame 2121455721" x="61" y="907" width="360" height="800" />
+      <frame id="1558:53668" name="Frame 2121455724" x="0" y="2045" width="2757" height="116">
+        <frame id="1558:53669" name="Frame 2121455714" x="2592" y="14" width="88" height="88" />
+      </frame>
+    </frame>
+  </section>
+  <section id="1558:55670" name="Grid System ( All Sizes)" x="-23108" y="50816" width="3212" height="5948">
+    <frame id="1558:55994" name="Grid-system-documentation" x="543" y="886" width="2126" height="4175">
+      <frame id="1558:55995" name="grid-system-documentation" x="96" y="511" width="1934" height="3478">
+        <frame id="1558:55996" name="Header-Section" x="80" y="96" width="1774" height="176">
+          <frame id="1558:55997" name="Header-Left" x="0" y="0" width="760" height="176">
+            <text id="1558:55998" name="Eyebrow" x="0" y="0" width="193" height="17" />
+            <text id="1558:55999" name="Title" x="0" y="41" width="760" height="79" />
+            <text id="1558:56000" name="Subtitle" x="0" y="144" width="760" height="32" />
+          </frame>
+          <frame id="1558:56001" name="Header-Right" x="1670" y="0" width="104" height="115">
+            <text id="1558:56002" name="01" x="0" y="0" width="104" height="96" />
+            <text id="1558:56003" name="LAYOUT" x="38" y="100" width="66" height="15" />
+          </frame>
+        </frame>
+        <frame id="1558:56004" name="Metadata-Row" x="80" y="352" width="1774" height="84">
+          <frame id="1558:56005" name="Frame" x="0" y="24" width="166" height="36">
+            <text id="1558:56006" name="GRID TYPE" x="0" y="0" width="70" height="13" />
+            <text id="1558:56007" name="Responsive Column Grid" x="0" y="19" width="166" height="17" />
+          </frame>
+          <frame id="1558:56008" name="Frame" x="780.5" y="24" width="216" height="36">
+            <text id="1558:56009" name="BREAKPOINTS" x="0" y="0" width="95" height="13" />
+            <text id="1558:56010" name="Mobile, Desktop, Large Desktop" x="0" y="19" width="216" height="17" />
+          </frame>
+          <frame id="1558:56011" name="Frame" x="1611" y="24" width="163" height="36">
+            <text id="1558:56012" name="LAYOUT BEHAVIOUR" x="0" y="0" width="135" height="13" />
+            <text id="1558:56013" name="Fixed Margins &amp; Gutters" x="0" y="19" width="163" height="17" />
+          </frame>
+        </frame>
+        <frame id="1558:56014" name="Section-01" x="80" y="516" width="1774" height="200">
+          <frame id="1558:56015" name="Section-Left" x="0" y="0" width="280" height="200">
+            <text id="1558:56016" name="Number" x="0" y="0" width="22" height="24" />
+            <frame id="1558:56017" name="Text-Block" x="0" y="40" width="280" height="160">
+              <text id="1558:56018" name="Title" x="0" y="0" width="280" height="26" />
+              <text id="1558:56019" name="Description" x="0" y="34" width="280" height="126" />
+            </frame>
+          </frame>
+          <frame id="1558:56020" name="Overview-Content" x="320" y="0" width="1454" height="127">
+            <frame id="1558:56021" name="Mini-Grid-Preview" x="0" y="0" width="468.6666564941406" height="127">
+              <frame id="1558:56022" name="Visualizer-Box" x="0" y="0" width="468.6666564941406" height="100">
+                <rounded-rectangle id="1558:56023" name="Col" x="12" y="16" width="108.16666412353516" height="68" />
+                <rounded-rectangle id="1558:56024" name="Col" x="124.16666412353516" y="16" width="108.16666412353516" height="68" />
+                <rounded-rectangle id="1558:56025" name="Col" x="236.3333282470703" y="16" width="108.16667175292969" height="68" />
+                <rounded-rectangle id="1558:56026" name="Col" x="348.5" y="16" width="108.16667175292969" height="68" />
+              </frame>
+              <frame id="1558:56027" name="Labels" x="0" y="112" width="468.6666564941406" height="15">
+                <text id="1558:56028" name="Mobile Grid" x="0" y="0" width="73" height="15" />
+                <text id="1558:56029" name="4 Columns · 360px" x="361.6666564941406" y="0" width="107" height="15" />
+              </frame>
+            </frame>
+            <frame id="1558:56030" name="Mini-Grid-Preview" x="492.6666564941406" y="0" width="468.66668701171875" height="127">
+              <frame id="1558:56031" name="Visualizer-Box" x="0" y="0" width="468.66668701171875" height="100">
+                <rounded-rectangle id="1558:56032" name="Col" x="12" y="16" width="33.38888931274414" height="68" />
+                <rounded-rectangle id="1558:56033" name="Col" x="49.38888931274414" y="16" width="33.38888931274414" height="68" />
+                <rounded-rectangle id="1558:56034" name="Col" x="86.77777862548828" y="16" width="33.388893127441406" height="68" />
+                <rounded-rectangle id="1558:56035" name="Col" x="124.16667175292969" y="16" width="33.388893127441406" height="68" />
+                <rounded-rectangle id="1558:56036" name="Col" x="161.55557250976562" y="16" width="33.388893127441406" height="68" />
+                <rounded-rectangle id="1558:56037" name="Col" x="198.9444580078125" y="16" width="33.388893127441406" height="68" />
+                <rounded-rectangle id="1558:56038" name="Col" x="236.33334350585938" y="16" width="33.38889694213867" height="68" />
+                <rounded-rectangle id="1558:56039" name="Col" x="273.72222900390625" y="16" width="33.388893127441406" height="68" />
+                <rounded-rectangle id="1558:56040" name="Col" x="311.1111145019531" y="16" width="33.388893127441406" height="68" />
+                <rounded-rectangle id="1558:56041" name="Col" x="348.5" y="16" width="33.388893127441406" height="68" />
+                <rounded-rectangle id="1558:56042" name="Col" x="385.8888854980469" y="16" width="33.388893127441406" height="68" />
+                <rounded-rectangle id="1558:56043" name="Col" x="423.27777099609375" y="16" width="33.388893127441406" height="68" />
+              </frame>
+              <frame id="1558:56044" name="Labels" x="0" y="112" width="468.66668701171875" height="15">
+                <text id="1558:56045" name="Desktop Grid" x="0" y="0" width="83" height="15" />
+                <text id="1558:56046" name="12 Columns · 1440px" x="350.66668701171875" y="0" width="118" height="15" />
+              </frame>
+            </frame>
+            <frame id="1558:56047" name="Mini-Grid-Preview" x="985.3333740234375" y="0" width="468.66668701171875" height="127">
+              <frame id="1558:56048" name="Visualizer-Box" x="0" y="0" width="468.66668701171875" height="100">
+                <rounded-rectangle id="1558:56049" name="Col" x="12" y="16" width="33.38888931274414" height="68" />
+                <rounded-rectangle id="1558:56050" name="Col" x="49.38888931274414" y="16" width="33.38888931274414" height="68" />
+                <rounded-rectangle id="1558:56051" name="Col" x="86.77777862548828" y="16" width="33.388893127441406" height="68" />
+                <rounded-rectangle id="1558:56052" name="Col" x="124.16667175292969" y="16" width="33.388893127441406" height="68" />
+                <rounded-rectangle id="1558:56053" name="Col" x="161.55557250976562" y="16" width="33.388893127441406" height="68" />
+                <rounded-rectangle id="1558:56054" name="Col" x="198.9444580078125" y="16" width="33.388893127441406" height="68" />
+                <rounded-rectangle id="1558:56055" name="Col" x="236.33334350585938" y="16" width="33.38889694213867" height="68" />
+                <rounded-rectangle id="1558:56056" name="Col" x="273.72222900390625" y="16" width="33.388893127441406" height="68" />
+                <rounded-rectangle id="1558:56057" name="Col" x="311.1111145019531" y="16" width="33.388893127441406" height="68" />
+                <rounded-rectangle id="1558:56058" name="Col" x="348.5" y="16" width="33.388893127441406" height="68" />
+                <rounded-rectangle id="1558:56059" name="Col" x="385.8888854980469" y="16" width="33.388893127441406" height="68" />
+                <rounded-rectangle id="1558:56060" name="Col" x="423.27777099609375" y="16" width="33.388893127441406" height="68" />
+              </frame>
+              <frame id="1558:56061" name="Labels" x="0" y="112" width="468.66668701171875" height="15">
+                <text id="1558:56062" name="Large Desktop Grid" x="0" y="0" width="122" height="15" />
+                <text id="1558:56063" name="12 Columns · 1920px" x="350.66668701171875" y="0" width="118" height="15" />
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+        <line id="1558:56064" name="Line" x="80" y="796" width="1774" height="0" />
+        <frame id="1558:56065" name="Section-02" x="80" y="876" width="1774" height="206">
+          <frame id="1558:56066" name="Section-Left" x="0" y="0" width="280" height="179">
+            <text id="1558:56067" name="Number" x="0" y="0" width="26" height="24" />
+            <frame id="1558:56068" name="Text-Block" x="0" y="40" width="280" height="139">
+              <text id="1558:56069" name="Title" x="0" y="0" width="280" height="26" />
+              <text id="1558:56070" name="Description" x="0" y="34" width="280" height="105" />
+            </frame>
+          </frame>
+          <frame id="1558:56071" name="Variations-Table" x="320" y="0" width="1454" height="206">
+            <frame id="1558:56072" name="T-Header" x="0" y="0" width="1454" height="47">
+              <text id="1558:56073" name="Grid Class" x="24" y="16" width="220" height="15" />
+              <text id="1558:56074" name="Frame Width" x="244" y="16" width="180" height="15" />
+              <text id="1558:56075" name="Columns" x="424" y="16" width="120" height="15" />
+              <text id="1558:56076" name="Margin (L/R)" x="544" y="16" width="160" height="15" />
+              <text id="1558:56077" name="Gutter Width" x="704" y="16" width="160" height="15" />
+            </frame>
+            <frame id="1558:56078" name="T-Row" x="0" y="47" width="1454" height="53">
+              <text id="1558:56079" name="Mobile" x="24" y="18" width="220" height="17" />
+              <text id="1558:56080" name="360 px" x="244" y="18" width="180" height="17" />
+              <text id="1558:56081" name="4" x="424" y="18" width="120" height="17" />
+              <text id="1558:56082" name="16 px" x="544" y="18" width="160" height="17" />
+              <text id="1558:56083" name="16 px" x="704" y="18" width="160" height="17" />
+            </frame>
+            <frame id="1558:56084" name="T-Row" x="0" y="100" width="1454" height="53">
+              <text id="1558:56085" name="Desktop" x="24" y="18" width="220" height="17" />
+              <text id="1558:56086" name="1440 px" x="244" y="18" width="180" height="17" />
+              <text id="1558:56087" name="12" x="424" y="18" width="120" height="17" />
+              <text id="1558:56088" name="120 px" x="544" y="18" width="160" height="17" />
+              <text id="1558:56089" name="32 px" x="704" y="18" width="160" height="17" />
+            </frame>
+            <frame id="1558:56090" name="T-Row" x="0" y="153" width="1454" height="53">
+              <text id="1558:56091" name="Large Desktop" x="24" y="18" width="220" height="17" />
+              <text id="1558:56092" name="1920 px" x="244" y="18" width="180" height="17" />
+              <text id="1558:56093" name="12" x="424" y="18" width="120" height="17" />
+              <text id="1558:56094" name="140 px" x="544" y="18" width="160" height="17" />
+              <text id="1558:56095" name="32 px" x="704" y="18" width="160" height="17" />
+            </frame>
+          </frame>
+        </frame>
+        <line id="1558:56096" name="Line" x="80" y="1162" width="1774" height="0" />
+        <frame id="1558:56097" name="Section-03" x="80" y="1242" width="1774" height="320">
+          <frame id="1558:56098" name="Section-Left" x="0" y="0" width="280" height="158">
+            <text id="1558:56099" name="Number" x="0" y="0" width="26" height="24" />
+            <frame id="1558:56100" name="Text-Block" x="0" y="40" width="280" height="118">
+              <text id="1558:56101" name="Title" x="0" y="0" width="280" height="26" />
+              <text id="1558:56102" name="Description" x="0" y="34" width="280" height="84" />
+            </frame>
+          </frame>
+          <frame id="1558:56103" name="Content-Group" x="320" y="0" width="1454" height="320">
+            <frame id="1558:56104" name="Grid-Blueprint" x="0" y="0" width="480" height="320">
+              <frame id="1558:56105" name="Frame-Width-Label" x="80" y="21" width="320" height="11">
+                <text id="1558:56106" name="←" x="0" y="0" width="6" height="11" />
+                <text id="1558:56107" name="360px" x="145.5" y="0" width="29" height="11" />
+                <text id="1558:56108" name="→" x="314" y="0" width="6" height="11" />
+              </frame>
+              <frame id="1558:56109" name="Visualizer-Frame" x="80" y="40" width="320" height="220">
+                <rounded-rectangle id="1558:56110" name="Margin-Left" x="0" y="0" width="16" height="220" />
+                <rounded-rectangle id="1558:56111" name="Margin-Right" x="304" y="0" width="16" height="220" />
+                <frame id="1558:56112" name="Column-Track" x="0" y="0" width="320" height="220">
+                  <rounded-rectangle id="1558:56113" name="Col" x="16" y="8" width="66" height="204" />
+                  <rounded-rectangle id="1558:56114" name="Col" x="90" y="8" width="66" height="204" />
+                  <rounded-rectangle id="1558:56115" name="Col" x="164" y="8" width="66" height="204" />
+                  <rounded-rectangle id="1558:56116" name="Col" x="238" y="8" width="66" height="204" />
+                </frame>
+                <frame id="1558:56117" name="Margin-Label-Left" x="0" y="198" width="16" height="16">
+                  <text id="1558:56118" name="16" x="4" y="3.5" width="8" height="9" />
+                </frame>
+                <frame id="1558:56119" name="Margin-Label-Right" x="304" y="198" width="16" height="16">
+                  <text id="1558:56120" name="16" x="4" y="3.5" width="8" height="9" />
+                </frame>
+              </frame>
+              <frame id="1558:56121" name="Bottom-Labels" x="80" y="268" width="320" height="11">
+                <text id="1558:56122" name="Margin: 16px" x="0" y="0" width="58" height="11" />
+                <text id="1558:56123" name="Gutter: 16px" x="265" y="0" width="55" height="11" />
+              </frame>
+              <text id="1558:56124" name="360px Frame · 4 Columns · 16px Margins &amp; Gutters" x="120" y="287" width="240" height="12" />
+            </frame>
+            <frame id="1558:56125" name="Specs-Table" x="504" y="0" width="220" height="193">
+              <text id="1558:56126" name="Specifications" x="20" y="20" width="118" height="15" />
+              <frame id="1558:56127" name="Rows" x="20" y="47" width="180" height="126">
+                <frame id="1558:56128" name="Frame" x="0" y="0" width="180" height="24">
+                  <text id="1558:56129" name="Frame width" x="0" y="0" width="77" height="16" />
+                  <text id="1558:56130" name="360 px" x="136" y="0" width="44" height="16" />
+                </frame>
+                <frame id="1558:56131" name="Frame" x="0" y="34" width="180" height="24">
+                  <text id="1558:56132" name="Columns" x="0" y="0" width="54" height="16" />
+                  <text id="1558:56133" name="4" x="171" y="0" width="9" height="16" />
+                </frame>
+                <frame id="1558:56134" name="Frame" x="0" y="68" width="180" height="24">
+                  <text id="1558:56135" name="Margin (L/R)" x="0" y="0" width="76" height="16" />
+                  <text id="1558:56136" name="16 px" x="146" y="0" width="34" height="16" />
+                </frame>
+                <frame id="1558:56137" name="Frame" x="0" y="102" width="180" height="24">
+                  <text id="1558:56138" name="Gutter" x="0" y="0" width="39" height="16" />
+                  <text id="1558:56139" name="16 px" x="146" y="0" width="34" height="16" />
+                </frame>
+              </frame>
+            </frame>
+            <frame id="1558:56140" name="Usage" x="748" y="0" width="220" height="227">
+              <text id="1558:56141" name="Usage Guidelines" x="20" y="20" width="140" height="15" />
+              <text id="1558:56142" name="Use the mobile grid for compact app interfaces and standard responsive phone viewports. Align key content and interactive items to column boundaries while maintaining the defined safe margins." x="20" y="47" width="180" height="160" />
+            </frame>
+          </frame>
+        </frame>
+        <line id="1558:56143" name="Line" x="80" y="1642" width="1774" height="0" />
+        <frame id="1558:56144" name="Section-04" x="80" y="1722" width="1774" height="320">
+          <frame id="1558:56145" name="Section-Left" x="0" y="0" width="280" height="179">
+            <text id="1558:56146" name="Number" x="0" y="0" width="28" height="24" />
+            <frame id="1558:56147" name="Text-Block" x="0" y="40" width="280" height="139">
+              <text id="1558:56148" name="Title" x="0" y="0" width="280" height="26" />
+              <text id="1558:56149" name="Description" x="0" y="34" width="280" height="105" />
+            </frame>
+          </frame>
+          <frame id="1558:56150" name="Content-Group" x="320" y="0" width="1454" height="320">
+            <frame id="1558:56151" name="Grid-Blueprint" x="0" y="0" width="480" height="320">
+              <frame id="1558:56152" name="Frame-Width-Label" x="40" y="21" width="400" height="11">
+                <text id="1558:56153" name="←" x="0" y="0" width="6" height="11" />
+                <text id="1558:56154" name="1440px" x="183" y="0" width="34" height="11" />
+                <text id="1558:56155" name="→" x="394" y="0" width="6" height="11" />
+              </frame>
+              <frame id="1558:56156" name="Visualizer-Frame" x="40" y="40" width="400" height="220">
+                <rounded-rectangle id="1558:56157" name="Margin-Left" x="0" y="0" width="40" height="220" />
+                <rounded-rectangle id="1558:56158" name="Margin-Right" x="360" y="0" width="40" height="220" />
+                <frame id="1558:56159" name="Column-Track" x="0" y="0" width="400" height="220">
+                  <rounded-rectangle id="1558:56160" name="Col" x="40" y="8" width="23" height="204" />
+                  <rounded-rectangle id="1558:56161" name="Col" x="67" y="8" width="23" height="204" />
+                  <rounded-rectangle id="1558:56162" name="Col" x="94" y="8" width="23" height="204" />
+                  <rounded-rectangle id="1558:56163" name="Col" x="121" y="8" width="23" height="204" />
+                  <rounded-rectangle id="1558:56164" name="Col" x="148" y="8" width="23" height="204" />
+                  <rounded-rectangle id="1558:56165" name="Col" x="175" y="8" width="23" height="204" />
+                  <rounded-rectangle id="1558:56166" name="Col" x="202" y="8" width="23" height="204" />
+                  <rounded-rectangle id="1558:56167" name="Col" x="229" y="8" width="23" height="204" />
+                  <rounded-rectangle id="1558:56168" name="Col" x="256" y="8" width="23" height="204" />
+                  <rounded-rectangle id="1558:56169" name="Col" x="283" y="8" width="23" height="204" />
+                  <rounded-rectangle id="1558:56170" name="Col" x="310" y="8" width="23" height="204" />
+                  <rounded-rectangle id="1558:56171" name="Col" x="337" y="8" width="23" height="204" />
+                </frame>
+                <frame id="1558:56172" name="Margin-Label-Left" x="0" y="198" width="40" height="16">
+                  <text id="1558:56173" name="120" x="14" y="3.5" width="12" height="9" />
+                </frame>
+                <frame id="1558:56174" name="Margin-Label-Right" x="360" y="198" width="40" height="16">
+                  <text id="1558:56175" name="120" x="14" y="3.5" width="12" height="9" />
+                </frame>
+              </frame>
+              <frame id="1558:56176" name="Bottom-Labels" x="40" y="268" width="400" height="11">
+                <text id="1558:56177" name="Margin: 120px" x="0" y="0" width="64" height="11" />
+                <text id="1558:56178" name="Gutter: 32px" x="343" y="0" width="57" height="11" />
+              </frame>
+              <text id="1558:56179" name="1440px Frame · 12 Columns · 120px Margins · 32px Gutters" x="101" y="287" width="278" height="12" />
+            </frame>
+            <frame id="1558:56180" name="Specs-Table" x="504" y="0" width="220" height="193">
+              <text id="1558:56181" name="Specifications" x="20" y="20" width="118" height="15" />
+              <frame id="1558:56182" name="Rows" x="20" y="47" width="180" height="126">
+                <frame id="1558:56183" name="Frame" x="0" y="0" width="180" height="24">
+                  <text id="1558:56184" name="Frame width" x="0" y="0" width="77" height="16" />
+                  <text id="1558:56185" name="1440 px" x="129" y="0" width="51" height="16" />
+                </frame>
+                <frame id="1558:56186" name="Frame" x="0" y="34" width="180" height="24">
+                  <text id="1558:56187" name="Columns" x="0" y="0" width="54" height="16" />
+                  <text id="1558:56188" name="12" x="165" y="0" width="15" height="16" />
+                </frame>
+                <frame id="1558:56189" name="Frame" x="0" y="68" width="180" height="24">
+                  <text id="1558:56190" name="Margin (L/R)" x="0" y="0" width="76" height="16" />
+                  <text id="1558:56191" name="120 px" x="138" y="0" width="42" height="16" />
+                </frame>
+                <frame id="1558:56192" name="Frame" x="0" y="102" width="180" height="24">
+                  <text id="1558:56193" name="Gutter" x="0" y="0" width="39" height="16" />
+                  <text id="1558:56194" name="32 px" x="145" y="0" width="35" height="16" />
+                </frame>
+              </frame>
+            </frame>
+            <frame id="1558:56195" name="Usage" x="748" y="0" width="220" height="187">
+              <text id="1558:56196" name="Usage Guidelines" x="20" y="20" width="140" height="15" />
+              <text id="1558:56197" name="Use the desktop grid for web applications, landing pages, and content-dense tables. Use multiple columns to establish visual hierarchy and alignment." x="20" y="47" width="180" height="120" />
+            </frame>
+          </frame>
+        </frame>
+        <line id="1558:56198" name="Line" x="80" y="2122" width="1774" height="0" />
+        <frame id="1558:56199" name="Section-05" x="80" y="2202" width="1774" height="320">
+          <frame id="1558:56200" name="Section-Left" x="0" y="0" width="280" height="179">
+            <text id="1558:56201" name="Number" x="0" y="0" width="26" height="24" />
+            <frame id="1558:56202" name="Text-Block" x="0" y="40" width="280" height="139">
+              <text id="1558:56203" name="Title" x="0" y="0" width="280" height="26" />
+              <text id="1558:56204" name="Description" x="0" y="34" width="280" height="105" />
+            </frame>
+          </frame>
+          <frame id="1558:56205" name="Content-Group" x="320" y="0" width="1454" height="320">
+            <frame id="1558:56206" name="Grid-Blueprint" x="0" y="0" width="480" height="320">
+              <frame id="1558:56207" name="Frame-Width-Label" x="30" y="21" width="420" height="11">
+                <text id="1558:56208" name="←" x="0" y="0" width="6" height="11" />
+                <text id="1558:56209" name="1920px" x="193.5" y="0" width="33" height="11" />
+                <text id="1558:56210" name="→" x="414" y="0" width="6" height="11" />
+              </frame>
+              <frame id="1558:56211" name="Visualizer-Frame" x="30" y="40" width="420" height="220">
+                <rounded-rectangle id="1558:56212" name="Margin-Left" x="0" y="0" width="52" height="220" />
+                <rounded-rectangle id="1558:56213" name="Margin-Right" x="368" y="0" width="52" height="220" />
+                <frame id="1558:56214" name="Column-Track" x="0" y="0" width="420" height="220">
+                  <rounded-rectangle id="1558:56215" name="Col" x="52" y="8" width="22.66666603088379" height="204" />
+                  <rounded-rectangle id="1558:56216" name="Col" x="78.66666412353516" y="8" width="22.66666603088379" height="204" />
+                  <rounded-rectangle id="1558:56217" name="Col" x="105.33332824707031" y="8" width="22.66666603088379" height="204" />
+                  <rounded-rectangle id="1558:56218" name="Col" x="132" y="8" width="22.666664123535156" height="204" />
+                  <rounded-rectangle id="1558:56219" name="Col" x="158.66665649414062" y="8" width="22.666664123535156" height="204" />
+                  <rounded-rectangle id="1558:56220" name="Col" x="185.33331298828125" y="8" width="22.66666603088379" height="204" />
+                  <rounded-rectangle id="1558:56221" name="Col" x="211.99998474121094" y="8" width="22.66666603088379" height="204" />
+                  <rounded-rectangle id="1558:56222" name="Col" x="238.66665649414062" y="8" width="22.66666603088379" height="204" />
+                  <rounded-rectangle id="1558:56223" name="Col" x="265.33331298828125" y="8" width="22.66666603088379" height="204" />
+                  <rounded-rectangle id="1558:56224" name="Col" x="291.9999694824219" y="8" width="22.66666603088379" height="204" />
+                  <rounded-rectangle id="1558:56225" name="Col" x="318.6666259765625" y="8" width="22.666667938232422" height="204" />
+                  <rounded-rectangle id="1558:56226" name="Col" x="345.3332824707031" y="8" width="22.666667938232422" height="204" />
+                </frame>
+                <frame id="1558:56227" name="Margin-Label-Left" x="0" y="198" width="52" height="16">
+                  <text id="1558:56228" name="140" x="19.5" y="3.5" width="13" height="9" />
+                </frame>
+                <frame id="1558:56229" name="Margin-Label-Right" x="368" y="198" width="52" height="16">
+                  <text id="1558:56230" name="140" x="19.5" y="3.5" width="13" height="9" />
+                </frame>
+              </frame>
+              <frame id="1558:56231" name="Bottom-Labels" x="30" y="268" width="420" height="11">
+                <text id="1558:56232" name="Margin: 140px" x="0" y="0" width="65" height="11" />
+                <text id="1558:56233" name="Gutter: 32px" x="363" y="0" width="57" height="11" />
+              </frame>
+              <text id="1558:56234" name="1920px Frame · 12 Columns · 140px Margins · 32px Gutters" x="101" y="287" width="278" height="12" />
+            </frame>
+            <frame id="1558:56235" name="Specs-Table" x="504" y="0" width="220" height="193">
+              <text id="1558:56236" name="Specifications" x="20" y="20" width="118" height="15" />
+              <frame id="1558:56237" name="Rows" x="20" y="47" width="180" height="126">
+                <frame id="1558:56238" name="Frame" x="0" y="0" width="180" height="24">
+                  <text id="1558:56239" name="Frame width" x="0" y="0" width="77" height="16" />
+                  <text id="1558:56240" name="1920 px" x="130" y="0" width="50" height="16" />
+                </frame>
+                <frame id="1558:56241" name="Frame" x="0" y="34" width="180" height="24">
+                  <text id="1558:56242" name="Columns" x="0" y="0" width="54" height="16" />
+                  <text id="1558:56243" name="12" x="165" y="0" width="15" height="16" />
+                </frame>
+                <frame id="1558:56244" name="Frame" x="0" y="68" width="180" height="24">
+                  <text id="1558:56245" name="Margin (L/R)" x="0" y="0" width="76" height="16" />
+                  <text id="1558:56246" name="140 px" x="138" y="0" width="42" height="16" />
+                </frame>
+                <frame id="1558:56247" name="Frame" x="0" y="102" width="180" height="24">
+                  <text id="1558:56248" name="Gutter" x="0" y="0" width="39" height="16" />
+                  <text id="1558:56249" name="32 px" x="145" y="0" width="35" height="16" />
+                </frame>
+              </frame>
+            </frame>
+            <frame id="1558:56250" name="Usage" x="748" y="0" width="220" height="207">
+              <text id="1558:56251" name="Usage Guidelines" x="20" y="20" width="140" height="15" />
+              <text id="1558:56252" name="Apply to large-screen monitors where available space is available. Maintains defined column span content width and preserves visual focus on applications and content." x="20" y="47" width="180" height="140" />
+            </frame>
+          </frame>
+        </frame>
+        <line id="1558:56253" name="Line" x="80" y="2602" width="1774" height="0" />
+        <frame id="1558:56254" name="Section-06" x="80" y="2682" width="1774" height="232">
+          <frame id="1558:56255" name="Section-Left" x="0" y="0" width="280" height="137">
+            <text id="1558:56256" name="Number" x="0" y="0" width="27" height="24" />
+            <frame id="1558:56257" name="Text-Block" x="0" y="40" width="280" height="97">
+              <text id="1558:56258" name="Title" x="0" y="0" width="280" height="26" />
+              <text id="1558:56259" name="Description" x="0" y="34" width="280" height="63" />
+            </frame>
+          </frame>
+          <frame id="1558:56260" name="Scale-Visualizer" x="320" y="0" width="1454" height="232">
+            <frame id="1558:56261" name="Diagrams-Row" x="0" y="0" width="1454" height="124">
+              <frame id="1558:56262" name="Frame" x="0" y="0" width="160" height="124">
+                <frame id="1558:56263" name="Frame" x="20" y="0" width="120" height="80">
+                  <rounded-rectangle id="1558:56264" name="Rectangle" x="8" y="12" width="23.75" height="56" />
+                  <rounded-rectangle id="1558:56265" name="Rectangle" x="34.75" y="12" width="23.75" height="56" />
+                  <rounded-rectangle id="1558:56266" name="Rectangle" x="61.5" y="12" width="23.75" height="56" />
+                  <rounded-rectangle id="1558:56267" name="Rectangle" x="88.25" y="12" width="23.75" height="56" />
+                </frame>
+                <text id="1558:56268" name="Mobile (360px)" x="33.5" y="88" width="93" height="15" />
+                <text id="1558:56269" name="4 Columns" x="52" y="111" width="56" height="13" />
+              </frame>
+              <frame id="1558:56270" name="arrow-right" x="376.5" y="50" width="24" height="24" />
+              <frame id="1558:56272" name="Frame" x="617" y="0" width="180" height="124">
+                <frame id="1558:56273" name="Frame" x="15" y="0" width="150" height="80">
+                  <rounded-rectangle id="1558:56274" name="Rectangle" x="16" y="12" width="8" height="56" />
+                  <rounded-rectangle id="1558:56275" name="Rectangle" x="26" y="12" width="8" height="56" />
+                  <rounded-rectangle id="1558:56276" name="Rectangle" x="36" y="12" width="8" height="56" />
+                  <rounded-rectangle id="1558:56277" name="Rectangle" x="46" y="12" width="8" height="56" />
+                  <rounded-rectangle id="1558:56278" name="Rectangle" x="56" y="12" width="8" height="56" />
+                  <rounded-rectangle id="1558:56279" name="Rectangle" x="66" y="12" width="8" height="56" />
+                  <rounded-rectangle id="1558:56280" name="Rectangle" x="76" y="12" width="8" height="56" />
+                  <rounded-rectangle id="1558:56281" name="Rectangle" x="86" y="12" width="8" height="56" />
+                  <rounded-rectangle id="1558:56282" name="Rectangle" x="96" y="12" width="8" height="56" />
+                  <rounded-rectangle id="1558:56283" name="Rectangle" x="106" y="12" width="8" height="56" />
+                  <rounded-rectangle id="1558:56284" name="Rectangle" x="116" y="12" width="8" height="56" />
+                  <rounded-rectangle id="1558:56285" name="Rectangle" x="126" y="12" width="8" height="56" />
+                </frame>
+                <text id="1558:56286" name="Desktop (1440px)" x="35" y="88" width="110" height="15" />
+                <text id="1558:56287" name="12 Columns" x="59.5" y="111" width="61" height="13" />
+              </frame>
+              <frame id="1558:56288" name="arrow-right" x="1013.5" y="50" width="24" height="24" />
+              <frame id="1558:56290" name="Frame" x="1254" y="0" width="200" height="124">
+                <frame id="1558:56291" name="Frame" x="15" y="0" width="170" height="80">
+                  <rounded-rectangle id="1558:56292" name="Rectangle" x="20" y="12" width="9" height="56" />
+                  <rounded-rectangle id="1558:56293" name="Rectangle" x="31" y="12" width="9" height="56" />
+                  <rounded-rectangle id="1558:56294" name="Rectangle" x="42" y="12" width="9" height="56" />
+                  <rounded-rectangle id="1558:56295" name="Rectangle" x="53" y="12" width="9" height="56" />
+                  <rounded-rectangle id="1558:56296" name="Rectangle" x="64" y="12" width="9" height="56" />
+                  <rounded-rectangle id="1558:56297" name="Rectangle" x="75" y="12" width="9" height="56" />
+                  <rounded-rectangle id="1558:56298" name="Rectangle" x="86" y="12" width="9" height="56" />
+                  <rounded-rectangle id="1558:56299" name="Rectangle" x="97" y="12" width="9" height="56" />
+                  <rounded-rectangle id="1558:56300" name="Rectangle" x="108" y="12" width="9" height="56" />
+                  <rounded-rectangle id="1558:56301" name="Rectangle" x="119" y="12" width="9" height="56" />
+                  <rounded-rectangle id="1558:56302" name="Rectangle" x="130" y="12" width="9" height="56" />
+                  <rounded-rectangle id="1558:56303" name="Rectangle" x="141" y="12" width="9" height="56" />
+                </frame>
+                <text id="1558:56304" name="Large Desktop (1920px)" x="26.5" y="88" width="147" height="15" />
+                <text id="1558:56305" name="12 Columns (Max)" x="53" y="111" width="94" height="13" />
+              </frame>
+            </frame>
+            <frame id="1558:56306" name="Frame" x="0" y="148" width="1454" height="84">
+              <text id="1558:56307" name="Scaling Philosophy" x="20" y="20" width="152" height="15" />
+              <text id="1558:56308" name="More screen space provides greater layout flexibility while maintaining consistent alignment, spacing, and content structure." x="20" y="43" width="1414" height="21" />
+            </frame>
+          </frame>
+        </frame>
+        <line id="1558:56309" name="Line" x="80" y="2994" width="1774" height="0" />
+        <frame id="1558:56310" name="Section-07" x="80" y="3074" width="1774" height="228">
+          <frame id="1558:56311" name="Section-Left" x="0" y="0" width="280" height="158">
+            <text id="1558:56312" name="Number" x="0" y="0" width="26" height="24" />
+            <frame id="1558:56313" name="Text-Block" x="0" y="40" width="280" height="118">
+              <text id="1558:56314" name="Title" x="0" y="0" width="280" height="26" />
+              <text id="1558:56315" name="Description" x="0" y="34" width="280" height="84" />
+            </frame>
+          </frame>
+          <frame id="1558:56316" name="Rules-List" x="320" y="0" width="1454" height="228">
+            <frame id="1558:56317" name="Frame" x="0" y="0" width="711" height="27">
+              <frame id="1558:56318" name="Frame" x="0" y="0" width="33" height="27">
+                <text id="1558:56319" name="01" x="10" y="6" width="13" height="15" />
+              </frame>
+              <text id="1558:56320" name="Use the appropriate grid based on the target frame size." x="49" y="0" width="662" height="21" />
+            </frame>
+            <frame id="1558:56321" name="Frame" x="743" y="0" width="711" height="27">
+              <frame id="1558:56322" name="Frame" x="0" y="0" width="36" height="27">
+                <text id="1558:56323" name="02" x="10" y="6" width="16" height="15" />
+              </frame>
+              <text id="1558:56324" name="Align major page sections and components to the grid." x="52" y="0" width="659" height="21" />
+            </frame>
+            <frame id="1558:56325" name="Frame" x="0" y="67" width="711" height="27">
+              <frame id="1558:56326" name="Frame" x="0" y="0" width="36" height="27">
+                <text id="1558:56327" name="03" x="10" y="6" width="16" height="15" />
+              </frame>
+              <text id="1558:56328" name="Maintain the defined gutter between columns." x="52" y="0" width="659" height="21" />
+            </frame>
+            <frame id="1558:56329" name="Frame" x="743" y="67" width="711" height="27">
+              <frame id="1558:56330" name="Frame" x="0" y="0" width="37" height="27">
+                <text id="1558:56331" name="04" x="10" y="6" width="17" height="15" />
+              </frame>
+              <text id="1558:56332" name="Respect the defined left and right margins." x="53" y="0" width="658" height="21" />
+            </frame>
+            <frame id="1558:56333" name="Frame" x="0" y="134" width="711" height="27">
+              <frame id="1558:56334" name="Frame" x="0" y="0" width="36" height="27">
+                <text id="1558:56335" name="05" x="10" y="6" width="16" height="15" />
+              </frame>
+              <text id="1558:56336" name="Use column spans to establish content hierarchy." x="52" y="0" width="659" height="21" />
+            </frame>
+            <frame id="1558:56337" name="Frame" x="743" y="134" width="711" height="27">
+              <frame id="1558:56338" name="Frame" x="0" y="0" width="36" height="27">
+                <text id="1558:56339" name="06" x="10" y="6" width="16" height="15" />
+              </frame>
+              <text id="1558:56340" name="Keep component alignment consistent across sections." x="52" y="0" width="659" height="21" />
+            </frame>
+            <frame id="1558:56341" name="Frame" x="0" y="201" width="711" height="27">
+              <frame id="1558:56342" name="Frame" x="0" y="0" width="36" height="27">
+                <text id="1558:56343" name="07" x="10" y="6" width="16" height="15" />
+              </frame>
+              <text id="1558:56344" name="Preserve grid relationships when designing responsive layouts." x="52" y="0" width="659" height="21" />
+            </frame>
+            <frame id="1558:56345" name="Frame" x="743" y="201" width="711" height="27">
+              <frame id="1558:56346" name="Frame" x="0" y="0" width="37" height="27">
+                <text id="1558:56347" name="08" x="10" y="6" width="17" height="15" />
+              </frame>
+              <text id="1558:56348" name="Use the grid as a structural foundation, not a visual constraint." x="53" y="0" width="658" height="21" />
+            </frame>
+          </frame>
+        </frame>
+        <line id="1558:56349" name="Line" x="80" y="3382" width="1774" height="0" />
+      </frame>
+      <frame id="1558:56350" name="_Status" x="0" y="0" width="2126" height="114">
+        <text id="1558:56351" name="COLOUR SYSTEM" x="32" y="40.5" width="229" height="32" />
+        <text id="1558:56352" name="SEPTEMBER 2026" x="1858" y="40.5" width="236" height="32" />
+      </frame>
+      <frame id="1558:56353" name="Frame 2121455715" x="96" y="186" width="1934" height="156">
+        <frame id="1558:56354" name="Frame 2121455714" x="0" y="0" width="156" height="156" />
+        <frame id="1558:56359" name="Logotype" x="1634.9083251953125" y="41.00141143798828" width="299.0917053222656" height="73.99717712402344">
+          <frame id="1558:56360" name="Group" x="-0.221893310546875" y="0" width="299.5352478027344" height="73.99717712402344">
+            <vector id="1558:56361" name="Vector" x="93.97728729248047" y="61.04088592529297" width="118.541748046875" height="12.958113670349121" />
+            <frame id="1558:56362" name="Group" x="96.96601104736328" y="62.9735221862793" width="12.336579322814941" height="8.597864151000977" />
+            <frame id="1558:56365" name="Group" x="111.98466491699219" y="62.95185089111328" width="97.42430877685547" height="8.867423057556152" />
+            <frame id="1558:56379" name="Group" x="-0.2219319719442865" y="0" width="299.5352478027344" height="71.78019714355469">
+              <vector id="1558:56380" name="Vector" x="-0.22197063334169798" y="0" width="92.9480209350586" height="56.08863067626953" />
+              <frame id="1558:56381" name="Group" x="216.59662576731353" y="7.469759464263916" width="82.71688079833984" height="64.31144714355469" />
+              <frame id="1558:56384" name="Group" x="222.6850199323526" y="7.423394203186035" width="28.45973777770996" height="48.95656204223633" />
+              <frame id="1558:56387" name="Group" x="160.2677836042276" y="20.571643829345703" width="28.026350021362305" height="36.302520751953125" />
+              <frame id="1558:56392" name="Group" x="126.92842813547759" y="20.963871002197266" width="30.23380470275879" height="35.41405487060547" />
+              <frame id="1558:56395" name="Group" x="92.65084787424712" y="20.963871002197266" width="30.233793258666992" height="35.41405487060547" />
+              <frame id="1558:56398" name="Group" x="192.10474344309478" y="20.642276763916016" width="27.83435821533203" height="36.263397216796875" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+  </section>
+  <section id="1558:56469" name="Layout Frames" x="-40139" y="50816" width="5079" height="1952">
+    <frame id="1561:56879" name="Mobile" x="226" y="436" width="360" height="800">
+      <frame id="1561:56880" name="Home Indicator Bar" x="0" y="785" width="360" height="15">
+        <rounded-rectangle id="1561:56881" name="Bottom Edge" x="0" y="0" width="360" height="15" />
+        <rounded-rectangle id="1561:56882" name="Home Indicator" x="250" y="6" width="139" height="3" />
+      </frame>
+      <frame id="1561:56883" name="Status Bar" x="0" y="0" width="360" height="35">
+        <frame id="1561:56884" name="Time" x="16" y="7" width="77" height="18">
+          <frame id="1561:56885" name="Phone Camara" x="0" y="0" width="18" height="18" />
+          <text id="1561:56888" name=" Clock Text" x="26" y="1" width="51" height="17" />
+        </frame>
+        <frame id="1561:56889" name="Status Icons" x="298" y="7" width="46" height="18">
+          <frame id="1561:56890" name="Wifi" x="298" y="7" width="17" height="18" />
+          <frame id="1561:56895" name="Signal" x="314" y="7" width="17" height="18" />
+          <frame id="1561:56898" name="Battery" x="336" y="8.058823585510254" width="8" height="15.882352828979492" />
+        </frame>
+      </frame>
+    </frame>
+    <frame id="1561:56902" name="Desktop" x="969" y="436" width="1440" height="1024" />
+    <frame id="1561:56904" name="Desktop" x="2722" y="436" width="1920" height="1080" />
+  </section>
+</canvas>

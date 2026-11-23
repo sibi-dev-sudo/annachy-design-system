@@ -1,0 +1,144 @@
+/*
+ * Annachy Design System — Toggle (switch)
+ * Layer: annachy.components (assigned by src/annachy.css) · Phase R3-6
+ * Source of truth: Figma file rM3ixSG6i3DFfKZFWuxzs4, ".Selection Controls / Toggle" 1504:54471
+ *   (10 States × 3 Sizes × 2 Positions × 3 Alignments = 180 variants).
+ * Evidence: docs/figma-audit/components/toggle.md; docs/figma-audit/r3-0-evidence.md §11, §13, §19, §26.
+ *
+ * Figma property -> markup:
+ *   Size      -> .annachy-toggle--small | --medium | --large       (track 32×16 / 38×20 / 44×24, thumb 12 / 16 / 20)
+ *   Position  -> (Left) | .annachy-toggle--control-right
+ *   Alignment -> .annachy-toggle--align-top | (Center) | --align-bottom
+ *   State     -> On / Off (:checked) × Default · Hover (:hover, .is-hover) · Pressed (:active, .is-pressed)
+ *                · Focus (:focus-visible, .is-focus) · Disabled (:disabled)
+ *
+ * UNRESOLVED (D-27 — not invented, not drawn): track corner radius (the track renders square), thumb stroke
+ * width, track Focus border width. TG-1: Off / Disabled On / Disabled Off track fills are the only bound candidate
+ * (shared with the thumb) — derived, flagged. Reproduced: T2 thumb uses Button Loading colour; T3 Disabled On/Off
+ * near-identical; Focus thumb offsets (On −1.5px, Off +1px) as in Figma.
+ */
+
+.annachy-toggle {
+  --_tg-track-w: 38px;
+  --_tg-track-h: 20px;
+  --_tg-thumb: 16px;
+  --_tg-label-size: var(--annachy-type-label-medium-font-size);
+  --_tg-label-lh: var(--annachy-type-label-medium-line-height);
+  --_tg-label-weight: var(--annachy-type-label-medium-font-weight);
+  --_tg-label-max: none;
+  /* Off palette (§26) */
+  --_tg-c-default: var(--annachy-color-blue-grey-50);     /* TG-1 derived */
+  --_tg-c-hover: var(--annachy-color-blue-grey-200);
+  --_tg-c-focus: var(--annachy-color-blue-grey-200);
+  --_tg-c-pressed: var(--annachy-color-blue-grey-300);
+  --_tg-c-disabled: var(--annachy-color-blue-grey-50);    /* TG-1 derived */
+  --_tg-press-shadow: none;
+  --_tg-x-default: 2px;
+  --_tg-x-focus: 3px;
+  --_tg-thumb-shadow: var(--annachy-effect-toggle-off);
+  /* resolved state */
+  --_tg-track: var(--_tg-c-default);
+  --_tg-track-shadow: none;
+  --_tg-x: var(--_tg-x-default);
+  --_tg-label: var(--annachy-color-text-primary);
+  --_tg-subtext: var(--annachy-color-text-tertiary);
+
+  position: relative;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: var(--annachy-base-font-family-render);
+  letter-spacing: var(--annachy-font-letter-spacing);
+  cursor: pointer;
+}
+.annachy-toggle__input {
+  position: absolute;
+  inset-block-start: var(--_tg-input-top, 50%);
+  inset-inline-start: 0;
+  inline-size: var(--_tg-track-w);
+  block-size: var(--_tg-track-h);
+  margin: 0;
+  opacity: 0;
+  cursor: inherit;
+  transform: translateY(var(--_tg-input-shift, -50%));
+}
+.annachy-toggle__track {
+  position: relative;
+  flex: none;
+  inline-size: var(--_tg-track-w);
+  block-size: var(--_tg-track-h);
+  background: var(--_tg-track);
+  box-shadow: var(--_tg-track-shadow);
+  border-radius: 0;          /* D-27: track radius not readable — not invented */
+  pointer-events: none;
+}
+.annachy-toggle__thumb {     /* "Thumb" ellipse */
+  position: absolute;
+  inset-block-start: 2px;
+  inset-inline-start: var(--_tg-x);
+  inline-size: var(--_tg-thumb);
+  block-size: var(--_tg-thumb);
+  border-radius: 50%;
+  background: var(--annachy-color-button-primary-content-loading);   /* T2 */
+  box-shadow: var(--_tg-thumb-shadow);
+}
+.annachy-toggle__content { display: flex; flex-direction: column; align-items: flex-start; }
+.annachy-toggle__label {
+  display: block;
+  max-inline-size: var(--_tg-label-max);
+  padding-inline-start: 12px;
+  color: var(--_tg-label);
+  font-size: var(--_tg-label-size);
+  line-height: var(--_tg-label-lh);
+  font-weight: var(--_tg-label-weight);
+  white-space: nowrap;
+  cursor: inherit;
+}
+.annachy-toggle__subtext {
+  display: block;
+  box-sizing: content-box;
+  inline-size: 184px;
+  padding-inline-start: 12px;
+  color: var(--_tg-subtext);
+  font-size: var(--annachy-type-body-s-font-size);
+  line-height: var(--annachy-type-body-s-line-height);
+  font-weight: var(--annachy-type-body-s-font-weight);
+}
+
+/* ---------------------------------------------------------------- Sizes (§13) */
+.annachy-toggle--small  { --_tg-track-w: 32px; --_tg-track-h: 16px; --_tg-thumb: 12px;
+  --_tg-label-size: var(--annachy-type-label-small-font-size); --_tg-label-lh: var(--annachy-type-label-small-line-height); --_tg-label-weight: var(--annachy-type-label-small-font-weight); }   /* 1504:54472 */
+.annachy-toggle--medium { --_tg-track-w: 38px; --_tg-track-h: 20px; --_tg-thumb: 16px; --_tg-label-max: 240px;   /* max-width inspected at Medium only (1504:54630) */
+  --_tg-label-size: var(--annachy-type-label-medium-font-size); --_tg-label-lh: var(--annachy-type-label-medium-line-height); --_tg-label-weight: var(--annachy-type-label-medium-font-weight); }   /* 1504:54622 */
+.annachy-toggle--large  { --_tg-track-w: 44px; --_tg-track-h: 24px; --_tg-thumb: 20px;
+  --_tg-label-size: var(--annachy-type-label-large-font-size); --_tg-label-lh: var(--annachy-type-label-large-line-height); --_tg-label-weight: var(--annachy-type-label-large-font-weight); }   /* 1504:54772 */
+
+/* ---------------------------------------------------------------- Position / Alignment (§11, §19) */
+.annachy-toggle--control-right { flex-direction: row-reverse; }
+.annachy-toggle--control-right .annachy-toggle__input { inset-inline-start: auto; inset-inline-end: 0; }
+.annachy-toggle--control-right .annachy-toggle__label,
+.annachy-toggle--control-right .annachy-toggle__subtext { padding-inline-start: 0; padding-inline-end: 12px; }
+.annachy-toggle--align-top { align-items: flex-start; --_tg-input-top: 0px; --_tg-input-shift: 0px; }
+.annachy-toggle--align-bottom { align-items: flex-end; --_tg-input-top: 100%; --_tg-input-shift: -100%; }
+
+/* ---------------------------------------------------------------- On palette (§26) */
+.annachy-toggle:where(:has(.annachy-toggle__input:checked)) {
+  --_tg-c-default: var(--annachy-color-button-primary-background-default);
+  --_tg-c-hover: var(--annachy-color-button-primary-background-hover);
+  --_tg-c-focus: var(--annachy-color-button-primary-background-focus);
+  --_tg-c-pressed: var(--annachy-color-button-primary-background-pressed-active);
+  --_tg-c-disabled: var(--annachy-color-blue-grey-100);   /* TG-1 derived */
+  --_tg-press-shadow: var(--annachy-effect-toggle-press);
+  --_tg-x-default: calc(var(--_tg-track-w) - var(--_tg-thumb) - 2px);
+  --_tg-x-focus: calc(var(--_tg-track-w) - var(--_tg-thumb) - 3.5px);   /* Focus On 16.5 / 18.5 / 20.5 */
+  --_tg-thumb-shadow: var(--annachy-effect-toggle-on);
+}
+
+/* ---------------------------------------------------------------- Interaction states
+   :where() → one-class specificity; precedence: Default < Hover < Pressed < Focus < Disabled. */
+.annachy-toggle:where(:has(.annachy-toggle__input:hover), .is-hover) { --_tg-track: var(--_tg-c-hover); --_tg-track-shadow: none; --_tg-x: var(--_tg-x-default); }
+.annachy-toggle:where(:has(.annachy-toggle__input:active), .is-pressed) { --_tg-track: var(--_tg-c-pressed); --_tg-track-shadow: var(--_tg-press-shadow); --_tg-x: var(--_tg-x-default); }
+.annachy-toggle:where(:has(.annachy-toggle__input:focus-visible), .is-focus) { --_tg-track: var(--_tg-c-focus); --_tg-track-shadow: none; --_tg-x: var(--_tg-x-focus); }   /* Focus border width D-27 — not drawn */
+.annachy-toggle:where(:has(.annachy-toggle__input:disabled)) {
+  --_tg-track: var(--_tg-c-disabled); --_tg-track-shadow: none; --_tg-x: var(--_tg-x-default);
+  --_tg-label: var(--annachy-color-blue-grey-200); --_tg-subtext: var(--annachy-color-blue-grey-200); cursor: not-allowed; }   /* 1504:54742 / 54757 */

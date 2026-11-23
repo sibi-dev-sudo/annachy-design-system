@@ -1,0 +1,121 @@
+/*
+ * Annachy Design System — Tooltip
+ * Layer: annachy.components (assigned by src/annachy.css) · Phase R4-2
+ * Source of truth: Figma file rM3ixSG6i3DFfKZFWuxzs4, "tooltip" 1448:16825
+ *   (Device 2 × Mode 2 × Arrow 10 × Format 2 = 80 variants — all implemented).
+ * Evidence: docs/figma-audit/components/tooltip.md; docs/figma-audit/r4-0-evidence.md §4 (every variant's geometry).
+ * Behaviour: tooltip.js (APG tooltip + WCAG 1.4.13; approved R4-Q1/Q4/Q5).
+ *
+ * Figma property -> markup:
+ *   Device -> .annachy-tooltip--mobile | --desktop        Mode -> .annachy-tooltip--dark | --light
+ *   Format -> (Text only) | .annachy-tooltip--heading     Arrow -> .annachy-tooltip--arrow-<left|left-center|right|right-center|
+ *                                                                  top|top-left|top-right|bottom|bottom-left|bottom-right>
+ *
+ * ARROW: the 20×20 arrow box is positioned and transformed exactly per variant, but its glyph is EMPTY — the Figma
+ * regular-polygon's point count / corner rounding is not readable (G12). The slot's `color` is the body colour
+ * (the polygon fill binding) so a consumer-supplied SVG with currentColor matches.
+ * Reproduced, not fixed: TT1 / G5 light tooltip has no border or shadow (invisible on light surfaces);
+ * TT5 / G7 Heading format is fixed-size (Desktop 240×59, Mobile 260×62) — longer text overflows the body;
+ * TT3 raw radius 4; sub-pixel arrow centring offsets differ per variant (−1 / −0.5 / −0.43 / +0.07px).
+ */
+
+.annachy-tooltip {
+  --_tt-bg: var(--annachy-color-base-black);
+  --_tt-fg: var(--annachy-color-base-white);
+  --_tt-cx: 0px;              /* top / bottom centred arrow: horizontal offset from 50% */
+  --_tt-cy: 0px;              /* left / right centred arrow: vertical offset from 50% */
+
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  inline-size: max-content;   /* hug, wraps at the max width */
+  max-inline-size: 300px;     /* 1429:16131 */
+  padding: 10px;
+  border-radius: 4px;         /* TT3 raw radius (not Radius/4) */
+  background: var(--_tt-bg);
+  color: var(--_tt-fg);
+  font-family: var(--annachy-base-font-family-render);
+  letter-spacing: var(--annachy-font-letter-spacing);
+  overflow-wrap: break-word;
+  /* TT1 / G5: no border, no shadow in either mode */
+}
+.annachy-tooltip[hidden] { display: none; }
+.annachy-tooltip--dark  { --_tt-bg: var(--annachy-color-base-black); --_tt-fg: var(--annachy-color-base-white); }   /* 1429:16132 */
+.annachy-tooltip--light { --_tt-bg: var(--annachy-color-base-white); --_tt-fg: var(--annachy-color-base-black); }   /* 1429:16131 */
+
+/* ---------------------------------------------------------------- Text only */
+.annachy-tooltip__text { display: block; inline-size: 100%; }
+.annachy-tooltip--mobile .annachy-tooltip__text {    /* Body S - Semi (XS-Semibold vars) 14/18 600 — 1429:16129 */
+  font-size: var(--annachy-type-body-s-semibold-font-size);
+  line-height: var(--annachy-type-body-s-semibold-line-height);
+  font-weight: var(--annachy-type-body-s-semibold-font-weight);
+}
+.annachy-tooltip--desktop .annachy-tooltip__text {   /* Body XS — Medium 12/18 500 — 1446:34 */
+  font-size: var(--annachy-type-body-xs-font-size);
+  line-height: var(--annachy-type-body-xs-line-height);
+  font-weight: var(--annachy-type-body-xs-font-weight);
+}
+
+/* ---------------------------------------------------------------- Heading and description (fixed size, TT5) */
+.annachy-tooltip--heading { align-items: flex-start; gap: 4px; }
+.annachy-tooltip--heading.annachy-tooltip--desktop { inline-size: 240px; block-size: 59px; }   /* 1448:128 */
+.annachy-tooltip--heading.annachy-tooltip--mobile  { inline-size: 260px; block-size: 62px; }   /* 1448:48 */
+.annachy-tooltip__heading, .annachy-tooltip__description { display: block; inline-size: 100%; }
+.annachy-tooltip__description { flex: 1 0 0; min-block-size: 1px; }
+.annachy-tooltip--desktop .annachy-tooltip__heading {        /* Body S - Semi 14/18 600 — 1448:131 */
+  font-size: var(--annachy-type-body-s-semibold-font-size);
+  line-height: var(--annachy-type-body-s-semibold-line-height);
+  font-weight: var(--annachy-type-body-s-semibold-font-weight);
+}
+.annachy-tooltip--desktop .annachy-tooltip__description {    /* Label XSmall — Regular 12/17 400 — 1448:130 */
+  font-size: var(--annachy-type-label-xsmall-font-size);
+  line-height: var(--annachy-type-label-xsmall-line-height);
+  font-weight: var(--annachy-type-label-xsmall-font-weight);
+}
+.annachy-tooltip--mobile .annachy-tooltip__heading {         /* H7 — Semibold 16/18 600 — 1448:48 */
+  font-size: var(--annachy-type-h7-font-size);
+  line-height: var(--annachy-type-h7-line-height);
+  font-weight: var(--annachy-type-h7-font-weight);
+}
+.annachy-tooltip--mobile .annachy-tooltip__description {     /* Body S — Regular 14/20 400 — 1448:48 */
+  font-size: var(--annachy-type-body-s-font-size);
+  line-height: var(--annachy-type-body-s-line-height);
+  font-weight: var(--annachy-type-body-s-font-weight);
+}
+
+/* ---------------------------------------------------------------- Arrow (empty positioned slot, G12) */
+.annachy-tooltip__arrow {
+  position: absolute;
+  display: block;
+  inline-size: 20px;
+  block-size: 20px;
+  color: var(--_tt-bg);       /* polygon fill = body colour (1446:32 binding) */
+  pointer-events: none;
+}
+.annachy-tooltip__arrow > svg { inline-size: 100%; block-size: 100%; }
+/* left / right: anchored 9px from the top; rotate −90° (right additionally mirrored) — 1446:33 / 1446:39 */
+.annachy-tooltip--arrow-left  .annachy-tooltip__arrow { inset-inline-start: -13px; inset-block-start: 9px; transform: rotate(-90deg); }
+.annachy-tooltip--arrow-right .annachy-tooltip__arrow { inset-inline-end: -13px; inset-block-start: 9px; transform: rotate(-90deg) scaleY(-1); }
+.annachy-tooltip--arrow-left-center  .annachy-tooltip__arrow { inset-inline-start: -13px; inset-block-start: calc(50% + var(--_tt-cy)); transform: translateY(-50%) rotate(-90deg); }
+.annachy-tooltip--arrow-right-center .annachy-tooltip__arrow { inset-inline-end: -13px; inset-block-start: calc(50% + var(--_tt-cy)); transform: translateY(-50%) rotate(-90deg) scaleY(-1); }
+/* top: rotate 180° + mirror; bottom: rotate 180° — 1446:45 / 1446:54 */
+.annachy-tooltip--arrow-top        .annachy-tooltip__arrow { inset-block-start: -13px; inset-inline-start: calc(50% + var(--_tt-cx)); transform: translateX(-50%) scaleY(-1) rotate(180deg); }
+.annachy-tooltip--arrow-top-left   .annachy-tooltip__arrow { inset-block-start: -13px; inset-inline-start: 12px; transform: scaleY(-1) rotate(180deg); }
+.annachy-tooltip--arrow-top-right  .annachy-tooltip__arrow { inset-block-start: -13px; inset-inline-end: 12px; transform: scaleY(-1) rotate(180deg); }
+.annachy-tooltip--arrow-bottom       .annachy-tooltip__arrow { inset-block-end: -13px; inset-inline-start: calc(50% + var(--_tt-cx)); transform: translateX(-50%) rotate(180deg); }
+.annachy-tooltip--arrow-bottom-left  .annachy-tooltip__arrow { inset-block-end: -13px; inset-inline-start: 12px; transform: rotate(180deg); }
+.annachy-tooltip--arrow-bottom-right .annachy-tooltip__arrow { inset-block-end: -13px; inset-inline-end: 12px; transform: rotate(180deg); }
+
+/* Sub-pixel centring offsets, exactly as emitted per variant (r4-0-evidence §4.2) — reproduced, not normalised */
+.annachy-tooltip--mobile.annachy-tooltip--dark   { --_tt-cx: -0.43px; }   /* 1448:24 / 1429:16178 */
+.annachy-tooltip--mobile.annachy-tooltip--light  { --_tt-cx: -1px; }      /* 1448:64 / 1430:5150 */
+.annachy-tooltip--desktop.annachy-tooltip--light { --_tt-cx: -0.5px; }    /* 1446:44 */
+.annachy-tooltip--desktop.annachy-tooltip--dark  { --_tt-cx: 0.07px; }    /* 1446:14 */
+.annachy-tooltip--desktop.annachy-tooltip--light.annachy-tooltip--heading { --_tt-cx: -1px; }     /* 1448:144 */
+.annachy-tooltip--desktop.annachy-tooltip--dark.annachy-tooltip--heading  { --_tt-cx: -0.43px; }  /* 1448:104 */
+.annachy-tooltip--desktop.annachy-tooltip--heading { --_tt-cy: 0.5px; }   /* 1448:132 / 1448:92 */
+
+/* ---------------------------------------------------------------- Floating (set by tooltip.js) */
+.annachy-tooltip.is-floating { position: fixed; z-index: 2; margin: 0; }

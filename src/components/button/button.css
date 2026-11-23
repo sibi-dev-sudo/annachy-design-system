@@ -1,0 +1,202 @@
+/*
+ * Annachy Design System — Button ("All Buttons")
+ * Layer: annachy.components (assigned by src/annachy.css) · Phase R3-1
+ * Source of truth: Figma file rM3ixSG6i3DFfKZFWuxzs4, component set "All Buttons" 887:2492
+ *   (6 Types × 6 States × 12 Sizes = 432 variants).
+ * Evidence: docs/figma-audit/components/button.md, docs/figma-audit/r3-0-evidence.md §1–§4, §21.
+ *
+ * Values rule (docs/implementation/r3-components-spec.md §2.3):
+ *   colours, typography, heights, radii -> R1 tokens only;
+ *   padding, gap, border widths, loading-dot geometry -> component-local private properties (--_*)
+ *   whose literal values are Figma measurements (node IDs in comments). They are not tokens.
+ *
+ * Figma property -> markup:
+ *   Type   -> .annachy-button--primary | --secondary | --secondary-grey | --tertiary | --tertiary-grey | --link
+ *   Size   -> .annachy-button--size-24 … --size-56
+ *   State  -> Default (none) · Hover (:hover, .is-hover) · Focus (:focus-visible, .is-focus)
+ *             Pressed (:active, .is-pressed) · Disabled (:disabled, [aria-disabled="true"])
+ *             Loading ([aria-busy="true"])
+ *   showLeftIcon / showRightIcon / showLabel -> presence of the child element.
+ *
+ * Flags reproduced faithfully (not fixed): B1 Link Hover = Default · B4/D-22 Primary Pressed #3372ef
+ * lighter than Hover · SUS-03 Secondary Grey Pressed border bound to Border/Disabled · BTN-2 raw
+ * Secondary Grey Hover border #dcdfe5 · BTN-1 Primary Loading fill (see Loading section) ·
+ * D-21 focus = Figma 2px border only (browser outline removed while the Figma focus treatment shows).
+ */
+
+.annachy-button {
+  /* size (overridden by --size-N; default = Figma size 40, 887:364) */
+  --_button-height: var(--annachy-size-height-40);
+  --_button-radius: var(--annachy-radius-8);
+  --_button-padding-x: 16px;
+  --_button-padding-y: 12px;
+  --_button-gap: 6px;
+  --_button-font-size: var(--annachy-type-h7-font-size);
+  --_button-line-height: var(--annachy-type-h7-line-height);
+  --_button-font-weight: var(--annachy-type-h7-font-weight);
+  --_button-dot: 6px;        /* 887:2164 */
+  --_button-dot-gap: 5px;    /* 887:2164–2166 at x 0 / 11 / 22 */
+  /* state paint (set by type + state rules) */
+  --_button-bg: transparent;
+  --_button-fg: currentColor;
+  --_button-border-color: transparent;
+  --_button-border-width: 0px;
+  --_button-dot-color: currentColor;
+
+  box-sizing: border-box;
+  position: relative;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--_button-gap);
+  block-size: var(--_button-height);
+  padding: var(--_button-padding-y) var(--_button-padding-x);
+  margin: 0;
+  overflow: hidden;                         /* Figma: clip content */
+  border: var(--_button-border-width) solid var(--_button-border-color);
+  border-radius: var(--_button-radius);
+  background: var(--_button-bg);
+  color: var(--_button-fg);
+  font-family: var(--annachy-base-font-family-render);
+  font-size: var(--_button-font-size);
+  line-height: var(--_button-line-height);
+  font-weight: var(--_button-font-weight);
+  letter-spacing: var(--annachy-font-letter-spacing);
+  white-space: nowrap;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+.annachy-button__label { display: block; }
+
+/* Icon slot — Home/Home 54 instance is 20 × 20 at every size (button.md §1.2). Consumers supply the
+   icon (inline SVG using currentColor); no icon assets ship in R3 (D-12/D-13). */
+.annachy-button__icon {
+  display: inline-flex;
+  flex: none;
+  inline-size: 20px;
+  block-size: 20px;
+}
+.annachy-button__icon > svg { inline-size: 100%; block-size: 100%; }
+
+/* Loading dots (887:2163) — hidden unless Loading */
+.annachy-button__loading { display: none; flex: none; gap: var(--_button-dot-gap); align-items: center; }
+.annachy-button__dot {
+  display: block;
+  inline-size: var(--_button-dot);
+  block-size: var(--_button-dot);
+  border-radius: 50%;
+  background: var(--_button-dot-color);
+}
+
+/* ---------------------------------------------------------------- Sizes (r3-0-evidence §1, button.md §1.3) */
+.annachy-button--size-24 { --_button-height: var(--annachy-size-height-24); --_button-radius: var(--annachy-radius-4); --_button-padding-x: 10px; --_button-padding-y: 4px; --_button-gap: 4px;
+  --_button-font-size: var(--annachy-type-body-xs-semibold-font-size); --_button-line-height: var(--annachy-type-body-xs-semibold-line-height); --_button-font-weight: var(--annachy-type-body-xs-semibold-font-weight);
+  --_button-dot: 4px; --_button-dot-gap: 3px; }  /* 887:2132 dots 4×4 at 0/7/14 */
+.annachy-button--size-26 { --_button-height: var(--annachy-size-height-26); --_button-radius: var(--annachy-radius-4); --_button-padding-x: 10px; --_button-padding-y: 4px; --_button-gap: 4px;  /* 887:339 */
+  --_button-font-size: var(--annachy-type-body-xs-semibold-font-size); --_button-line-height: var(--annachy-type-body-xs-semibold-line-height); --_button-font-weight: var(--annachy-type-body-xs-semibold-font-weight);
+  --_button-dot: 4px; --_button-dot-gap: 3px; }  /* DERIVED: Loading width 38 = 18-wide dots frame */
+.annachy-button--size-28 { --_button-height: var(--annachy-size-height-28); --_button-radius: var(--annachy-radius-4); --_button-padding-x: 10px; --_button-padding-y: 8px; --_button-gap: 4px;  /* 887:344 */
+  --_button-font-size: var(--annachy-type-body-s-semibold-font-size); --_button-line-height: var(--annachy-type-body-s-semibold-line-height); --_button-font-weight: var(--annachy-type-body-s-semibold-font-weight);
+  --_button-dot: 4px; --_button-dot-gap: 3px; }  /* DERIVED: Loading width 38 */
+.annachy-button--size-32 { --_button-height: var(--annachy-size-height-32); --_button-radius: var(--annachy-radius-8); --_button-padding-x: 10px; --_button-padding-y: 12px; --_button-gap: 4px;
+  --_button-font-size: var(--annachy-type-body-s-semibold-font-size); --_button-line-height: var(--annachy-type-body-s-semibold-line-height); --_button-font-weight: var(--annachy-type-body-s-semibold-font-weight); }
+.annachy-button--size-36 { --_button-height: var(--annachy-size-height-36); --_button-radius: var(--annachy-radius-8); --_button-padding-x: 12px; --_button-padding-y: 10px; --_button-gap: 6px;  /* 887:354 */
+  --_button-font-size: var(--annachy-type-h7-font-size); --_button-line-height: var(--annachy-type-h7-line-height); --_button-font-weight: var(--annachy-type-h7-font-weight); }
+.annachy-button--size-38 { --_button-height: var(--annachy-size-height-38); --_button-radius: var(--annachy-radius-8); --_button-padding-x: 14px; --_button-padding-y: 10px; --_button-gap: 6px;  /* 887:359 */
+  --_button-font-size: var(--annachy-type-h7-font-size); --_button-line-height: var(--annachy-type-h7-line-height); --_button-font-weight: var(--annachy-type-h7-font-weight); }
+.annachy-button--size-40 { --_button-height: var(--annachy-size-height-40); --_button-radius: var(--annachy-radius-8); --_button-padding-x: 16px; --_button-padding-y: 12px; --_button-gap: 6px;
+  --_button-font-size: var(--annachy-type-h7-font-size); --_button-line-height: var(--annachy-type-h7-line-height); --_button-font-weight: var(--annachy-type-h7-font-weight); }
+.annachy-button--size-42 { --_button-height: var(--annachy-size-height-42); --_button-radius: var(--annachy-radius-12); --_button-padding-x: 16px; --_button-padding-y: 12px; --_button-gap: 6px;  /* 887:369 */
+  --_button-font-size: var(--annachy-type-h7-font-size); --_button-line-height: var(--annachy-type-h7-line-height); --_button-font-weight: var(--annachy-type-h7-font-weight); }
+.annachy-button--size-46 { --_button-height: var(--annachy-size-height-46); --_button-radius: var(--annachy-radius-12); --_button-padding-x: 16px; --_button-padding-y: 16px; --_button-gap: 8px;  /* 887:374 */
+  --_button-font-size: var(--annachy-type-h6-font-size); --_button-line-height: var(--annachy-type-h6-line-height); --_button-font-weight: var(--annachy-type-h6-font-weight); }
+.annachy-button--size-48 { --_button-height: var(--annachy-size-height-48); --_button-radius: var(--annachy-radius-12); --_button-padding-x: 16px; --_button-padding-y: 18px; --_button-gap: 8px;
+  --_button-font-size: var(--annachy-type-h6-font-size); --_button-line-height: var(--annachy-type-h6-line-height); --_button-font-weight: var(--annachy-type-h6-font-weight); }
+.annachy-button--size-52 { --_button-height: var(--annachy-size-height-52); --_button-radius: var(--annachy-radius-12); --_button-padding-x: 18px; --_button-padding-y: 18px; --_button-gap: 8px;  /* 887:384 */
+  --_button-font-size: var(--annachy-type-h5-font-size); --_button-line-height: var(--annachy-type-h5-line-height); --_button-font-weight: var(--annachy-type-h5-font-weight); }
+.annachy-button--size-56 { --_button-height: var(--annachy-size-height-56); --_button-radius: var(--annachy-radius-12); --_button-padding-x: 20px; --_button-padding-y: 20px; --_button-gap: 8px;
+  --_button-font-size: var(--annachy-type-h5-font-size); --_button-line-height: var(--annachy-type-h5-line-height); --_button-font-weight: var(--annachy-type-h5-font-weight); }
+/* Vertical padding + line-height exceeds the height at several sizes; Figma centres and clips — height governs (button.md §1.3). */
+
+/* ---------------------------------------------------------------- Types × States (button.md §1.4; widths §21.1)
+   Each state rule sets all four paint properties so states never mix. Order: Default, Hover, Focus,
+   Pressed, Disabled, Loading (later wins at equal specificity). */
+
+/* Primary */
+.annachy-button--primary { --_button-bg: var(--annachy-color-button-primary-background-default); --_button-fg: var(--annachy-color-button-primary-content-default); --_button-border-color: transparent; --_button-border-width: 0px; }
+.annachy-button--primary:hover, .annachy-button--primary.is-hover { --_button-bg: var(--annachy-color-button-primary-background-hover); --_button-fg: var(--annachy-color-button-primary-content-default); --_button-border-color: transparent; --_button-border-width: 0px; }
+.annachy-button--primary:focus-visible, .annachy-button--primary.is-focus { --_button-bg: var(--annachy-color-button-primary-background-focus); --_button-fg: var(--annachy-color-button-primary-content-default); --_button-border-color: var(--annachy-color-button-primary-border-focus); --_button-border-width: 2px; }  /* 887:484 */
+.annachy-button--primary:active, .annachy-button--primary.is-pressed { --_button-bg: var(--annachy-color-button-primary-background-pressed-active); --_button-fg: var(--annachy-color-button-primary-content-default); --_button-border-color: transparent; --_button-border-width: 0px; }  /* B4 / D-22: lighter than Hover, reproduced */
+.annachy-button--primary:disabled, .annachy-button--primary[aria-disabled="true"] { --_button-bg: var(--annachy-color-button-primary-background-disabled); --_button-fg: var(--annachy-color-button-primary-content-disabled); --_button-border-color: transparent; --_button-border-width: 0px; }
+.annachy-button--primary[aria-busy="true"] { --_button-bg: var(--annachy-color-button-primary-background-default); --_button-fg: var(--annachy-color-button-primary-content-loading); --_button-border-color: transparent; --_button-border-width: 0px; --_button-dot-color: var(--annachy-color-button-primary-content-loading); }  /* 887:2162; BTN-1: size 24 binds Primary/Background/Loading (same #004feb, not an R1 token) */
+
+/* Secondary — 1px border in every state except Focus (2px) */
+.annachy-button--secondary { --_button-bg: transparent; --_button-fg: var(--annachy-color-button-secondary-content-default); --_button-border-color: var(--annachy-color-button-secondary-border-default); --_button-border-width: 1px; }  /* 887:664 */
+.annachy-button--secondary:hover, .annachy-button--secondary.is-hover { --_button-bg: var(--annachy-color-button-secondary-background-hover); --_button-fg: var(--annachy-color-button-secondary-content-default); --_button-border-color: var(--annachy-color-button-secondary-border-default); --_button-border-width: 1px; }
+.annachy-button--secondary:focus-visible, .annachy-button--secondary.is-focus { --_button-bg: transparent; --_button-fg: var(--annachy-color-button-secondary-content-default); --_button-border-color: var(--annachy-color-button-secondary-border-default); --_button-border-width: 2px; }  /* 887:784 */
+.annachy-button--secondary:active, .annachy-button--secondary.is-pressed { --_button-bg: var(--annachy-color-button-secondary-background-pressed-active); --_button-fg: var(--annachy-color-button-secondary-content-default); --_button-border-color: var(--annachy-color-button-secondary-border-default); --_button-border-width: 1px; }
+.annachy-button--secondary:disabled, .annachy-button--secondary[aria-disabled="true"] { --_button-bg: transparent; --_button-fg: var(--annachy-color-button-secondary-content-disabled); --_button-border-color: var(--annachy-color-button-secondary-border-disabled); --_button-border-width: 1px; }
+.annachy-button--secondary[aria-busy="true"] { --_button-bg: var(--annachy-color-button-secondary-background-loading); --_button-fg: var(--annachy-color-button-secondary-content-loading); --_button-border-color: var(--annachy-color-button-secondary-border-default); --_button-border-width: 1px; --_button-dot-color: var(--annachy-color-button-secondary-content-loading); }  /* 887:2222 */
+
+/* Secondary Grey */
+.annachy-button--secondary-grey { --_button-bg: transparent; --_button-fg: var(--annachy-color-button-secondary-grey-content-default); --_button-border-color: var(--annachy-color-button-secondary-grey-border-default); --_button-border-width: 1px; }  /* 887:964 */
+.annachy-button--secondary-grey:hover, .annachy-button--secondary-grey.is-hover { --_button-bg: var(--annachy-color-button-secondary-grey-background-hover); --_button-fg: var(--annachy-color-button-secondary-grey-content-default); --_button-border-color: #dcdfe5; --_button-border-width: 1px; }  /* 887:1024 — BTN-2: raw #dcdfe5, no variable bound */
+.annachy-button--secondary-grey:focus-visible, .annachy-button--secondary-grey.is-focus { --_button-bg: transparent; --_button-fg: var(--annachy-color-button-secondary-grey-content-default); --_button-border-color: var(--annachy-color-button-secondary-grey-border-focus); --_button-border-width: 2px; }  /* 887:1084 */
+.annachy-button--secondary-grey:active, .annachy-button--secondary-grey.is-pressed { --_button-bg: var(--annachy-color-button-secondary-grey-background-pressed-active); --_button-fg: var(--annachy-color-button-secondary-grey-content-default); --_button-border-color: var(--annachy-color-button-secondary-grey-border-disabled); --_button-border-width: 1px; }  /* SUS-03: Pressed bound to Border/Disabled, reproduced */
+.annachy-button--secondary-grey:disabled, .annachy-button--secondary-grey[aria-disabled="true"] { --_button-bg: transparent; --_button-fg: var(--annachy-color-button-secondary-grey-content-disabled); --_button-border-color: var(--annachy-color-button-secondary-grey-border-disabled); --_button-border-width: 1px; }
+.annachy-button--secondary-grey[aria-busy="true"] { --_button-bg: var(--annachy-color-button-secondary-grey-background-loading); --_button-fg: var(--annachy-color-button-secondary-grey-content-loading); --_button-border-color: var(--annachy-color-button-secondary-grey-border-default); --_button-border-width: 1px; --_button-dot-color: var(--annachy-color-button-secondary-grey-content-loading); }  /* 887:2282 */
+
+/* Tertiary — no border except Focus */
+.annachy-button--tertiary { --_button-bg: transparent; --_button-fg: var(--annachy-color-button-tertiary-content-default); --_button-border-color: transparent; --_button-border-width: 0px; }
+.annachy-button--tertiary:hover, .annachy-button--tertiary.is-hover { --_button-bg: var(--annachy-color-button-tertiary-background-hover); --_button-fg: var(--annachy-color-button-tertiary-content-default); --_button-border-color: transparent; --_button-border-width: 0px; }
+.annachy-button--tertiary:focus-visible, .annachy-button--tertiary.is-focus { --_button-bg: transparent; --_button-fg: var(--annachy-color-button-tertiary-content-default); --_button-border-color: var(--annachy-color-button-tertiary-border-focus); --_button-border-width: 2px; }  /* 887:1384 */
+.annachy-button--tertiary:active, .annachy-button--tertiary.is-pressed { --_button-bg: var(--annachy-color-button-tertiary-background-pressed-active); --_button-fg: var(--annachy-color-button-tertiary-content-pressed-active); --_button-border-color: transparent; --_button-border-width: 0px; }
+.annachy-button--tertiary:disabled, .annachy-button--tertiary[aria-disabled="true"] { --_button-bg: transparent; --_button-fg: var(--annachy-color-button-tertiary-content-disabled); --_button-border-color: transparent; --_button-border-width: 0px; }
+.annachy-button--tertiary[aria-busy="true"] { --_button-bg: transparent; --_button-fg: var(--annachy-color-button-tertiary-content-loading); --_button-border-color: transparent; --_button-border-width: 0px; --_button-dot-color: var(--annachy-color-button-tertiary-content-loading); }  /* 887:2342 */
+
+/* Tertiary Grey */
+.annachy-button--tertiary-grey { --_button-bg: transparent; --_button-fg: var(--annachy-color-button-tertiary-grey-content-default); --_button-border-color: transparent; --_button-border-width: 0px; }
+.annachy-button--tertiary-grey:hover, .annachy-button--tertiary-grey.is-hover { --_button-bg: var(--annachy-color-button-tertiary-grey-background-hover); --_button-fg: var(--annachy-color-button-tertiary-grey-content-default); --_button-border-color: transparent; --_button-border-width: 0px; }
+.annachy-button--tertiary-grey:focus-visible, .annachy-button--tertiary-grey.is-focus { --_button-bg: transparent; --_button-fg: var(--annachy-color-button-tertiary-grey-content-default); --_button-border-color: var(--annachy-color-button-tertiary-grey-border-focus); --_button-border-width: 2px; }  /* 887:1684 */
+.annachy-button--tertiary-grey:active, .annachy-button--tertiary-grey.is-pressed { --_button-bg: var(--annachy-color-button-tertiary-grey-background-pressed-active); --_button-fg: var(--annachy-color-button-tertiary-grey-content-default); --_button-border-color: transparent; --_button-border-width: 0px; }
+.annachy-button--tertiary-grey:disabled, .annachy-button--tertiary-grey[aria-disabled="true"] { --_button-bg: transparent; --_button-fg: var(--annachy-color-button-tertiary-grey-content-disabled); --_button-border-color: transparent; --_button-border-width: 0px; }
+.annachy-button--tertiary-grey[aria-busy="true"] { --_button-bg: transparent; --_button-fg: var(--annachy-color-button-tertiary-grey-content-loading); --_button-border-color: transparent; --_button-border-width: 0px; --_button-dot-color: var(--annachy-color-button-tertiary-grey-content-loading); }  /* 887:2402 */
+
+/* Link — B1: Hover identical to Default (reproduced) */
+.annachy-button--link { --_button-bg: transparent; --_button-fg: var(--annachy-color-button-link-content-default); --_button-border-color: transparent; --_button-border-width: 0px; }
+.annachy-button--link:hover, .annachy-button--link.is-hover { --_button-bg: transparent; --_button-fg: var(--annachy-color-button-link-content-default); --_button-border-color: transparent; --_button-border-width: 0px; }
+.annachy-button--link:focus-visible, .annachy-button--link.is-focus { --_button-bg: transparent; --_button-fg: var(--annachy-color-button-link-content-default); --_button-border-color: var(--annachy-color-button-link-border-focus); --_button-border-width: 2px; }  /* 887:1984 */
+.annachy-button--link:active, .annachy-button--link.is-pressed { --_button-bg: transparent; --_button-fg: var(--annachy-color-button-link-content-pressed-active); --_button-border-color: transparent; --_button-border-width: 0px; }
+.annachy-button--link:disabled, .annachy-button--link[aria-disabled="true"] { --_button-bg: transparent; --_button-fg: var(--annachy-color-button-link-content-disabled); --_button-border-color: transparent; --_button-border-width: 0px; }
+.annachy-button--link[aria-busy="true"] { --_button-bg: transparent; --_button-fg: var(--annachy-color-button-link-content-loading); --_button-border-color: transparent; --_button-border-width: 0px; --_button-dot-color: var(--annachy-color-button-link-content-loading); }  /* 887:2462 */
+
+/* ---------------------------------------------------------------- Focus indicator (D-21: component-specific)
+   The Figma Focus variant (2px border) is the focus indicator, so the browser outline is suppressed
+   only while that treatment is shown. Loading buttons keep the browser default (no Figma Loading+Focus). */
+.annachy-button:focus-visible:not([aria-busy="true"]) { outline: none; }
+
+/* ---------------------------------------------------------------- Disabled / Loading behaviour */
+.annachy-button:disabled,
+.annachy-button[aria-disabled="true"] { cursor: not-allowed; }
+.annachy-button[aria-busy="true"] { cursor: progress; }
+/* Loading (887:2162): label and icons are replaced by the dots. The label stays in the accessibility
+   tree (visually hidden) so the button keeps its accessible name. */
+.annachy-button[aria-busy="true"] .annachy-button__icon { display: none; }
+.annachy-button[aria-busy="true"] .annachy-button__label {
+  position: absolute;
+  inline-size: 1px;
+  block-size: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+.annachy-button[aria-busy="true"] .annachy-button__loading { display: inline-flex; }

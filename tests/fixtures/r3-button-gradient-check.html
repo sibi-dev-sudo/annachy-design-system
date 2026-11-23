@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>R3-2 Button (gradient) check — Annachy Design System</title>
+  <link rel="stylesheet" href="../../src/annachy.css">
+  <style>#stage { display: flex; flex-wrap: wrap; gap: 12px; padding: 16px; } pre { white-space: pre-wrap; font: 12px/1.4 monospace; }</style>
+</head>
+<body>
+  <h1>R3-2 Button (gradient) — Figma parity check</h1>
+  <p>Renders all 55 variants of Figma set <code>1153:3370</code> and compares computed styles with the literal values recorded in
+     <code>docs/figma-audit/r3-0-evidence.md</code> §5, §17, §18, §22 (every variant inspected). Serve the project root over HTTP.</p>
+  <pre id="result" data-status="running">running…</pre>
+  <div id="stage"></div>
+<script type="module">
+const VARIANTS = [{"size": 24, "state": "Default", "node": "1153:3371", "px": 8, "gap": 4, "r": 4, "fs": 12, "lh": 18, "style": "Body XS \u2014 Semibold", "angle": 22.572274294652743, "fg": [250, 252, 255, 1.0]}, {"size": 24, "state": "Hover", "node": "1153:3381", "px": 8, "gap": 4, "r": 4, "fs": 12, "lh": 18, "style": "Body XS \u2014 Semibold", "angle": -16.114435203849098, "fg": [250, 252, 255, 1.0]}, {"size": 24, "state": "Focus", "node": "1153:3391", "px": 8, "gap": 4, "r": 4, "fs": 12, "lh": 17, "style": "Label XSmall Semibold", "angle": -3.5552594168066634, "fg": [250, 252, 255, 1.0]}, {"size": 24, "state": "Pressed", "node": "1153:3401", "px": 8, "gap": 4, "r": 4, "fs": 12, "lh": 18, "style": "Body XS \u2014 Semibold", "angle": 22.572274294652743, "fg": [250, 252, 255, 1.0]}, {"size": 24, "state": "Disabled", "node": "1153:3411", "px": 8, "gap": 4, "r": 4, "fs": 12, "lh": 18, "style": "Body XS \u2014 Semibold", "angle": 22.572274294652743, "fg": [250, 252, 255, 1.0]}, {"size": 26, "state": "Default", "node": "1153:3421", "px": 8, "gap": 4, "r": 4, "fs": 14, "lh": 18, "style": "Body S - Semi", "angle": 23.01785504830842, "fg": [250, 252, 255, 1.0]}, {"size": 26, "state": "Hover", "node": "1153:3431", "px": 8, "gap": 4, "r": 4, "fs": 14, "lh": 18, "style": "Body S - Semi", "angle": -16.45017005645677, "fg": [250, 252, 255, 1.0]}, {"size": 26, "state": "Focus", "node": "1153:3441", "px": 8, "gap": 4, "r": 4, "fs": 14, "lh": 18, "style": "Body S - Semi", "angle": -3.6333124582692164, "fg": [250, 252, 255, 1.0]}, {"size": 26, "state": "Pressed", "node": "1153:3451", "px": 8, "gap": 4, "r": 4, "fs": 14, "lh": 18, "style": "Body S - Semi", "angle": 23.01785504830842, "fg": [250, 252, 255, 1.0]}, {"size": 26, "state": "Disabled", "node": "1153:3461", "px": 8, "gap": 4, "r": 4, "fs": 14, "lh": 18, "style": "Body S - Semi", "angle": 23.01785504830842, "fg": [250, 252, 255, 1.0]}, {"size": 28, "state": "Default", "node": "1153:3471", "px": 8, "gap": 4, "r": 4, "fs": 14, "lh": 18, "style": "Body S - Semi", "angle": 24.585177137095087, "fg": [250, 252, 255, 1.0]}, {"size": 28, "state": "Hover", "node": "1153:3481", "px": 8, "gap": 4, "r": 4, "fs": 14, "lh": 18, "style": "Body S - Semi", "angle": -17.639656364416, "fg": [250, 252, 255, 1.0]}, {"size": 28, "state": "Focus", "node": "1153:3491", "px": 8, "gap": 4, "r": 4, "fs": 14, "lh": 18, "style": "Body S - Semi", "angle": -3.911961106090729, "fg": [250, 252, 255, 1.0]}, {"size": 28, "state": "Pressed", "node": "1153:3501", "px": 8, "gap": 4, "r": 4, "fs": 14, "lh": 18, "style": "Body S - Semi", "angle": 24.585177137095087, "fg": [250, 252, 255, 1.0]}, {"size": 28, "state": "Disabled", "node": "1153:3511", "px": 8, "gap": 4, "r": 4, "fs": 14, "lh": 18, "style": "Body S - Semi", "angle": 24.585177137095087, "fg": [250, 252, 255, 1.0]}, {"size": 32, "state": "Default", "node": "1153:3521", "px": 12, "gap": 8, "r": 8, "fs": 16, "lh": 18, "style": "H7 \u2014 Semibold", "angle": 23.413224071387774, "fg": [250, 252, 255, 1.0]}, {"size": 32, "state": "Hover", "node": "1153:3531", "px": 12, "gap": 8, "r": 8, "fs": 16, "lh": 18, "style": "H7 \u2014 Semibold", "angle": -16.74895550608987, "fg": [250, 252, 255, 1.0]}, {"size": 32, "state": "Focus", "node": "1153:3541", "px": 12, "gap": 8, "r": 8, "fs": 16, "lh": 18, "style": "H7 \u2014 Semibold", "angle": -3.7029912735815316, "fg": [250, 252, 255, 1.0]}, {"size": 32, "state": "Pressed", "node": "1153:3551", "px": 12, "gap": 8, "r": 8, "fs": 16, "lh": 18, "style": "H7 \u2014 Semibold", "angle": 23.413224071387774, "fg": [250, 252, 255, 1.0]}, {"size": 32, "state": "Disabled", "node": "1153:3561", "px": 12, "gap": 8, "r": 8, "fs": 16, "lh": 18, "style": "H7 \u2014 Semibold", "angle": 23.413224071387774, "fg": [250, 252, 255, 1.0]}, {"size": 36, "state": "Default", "node": "1153:3571", "px": 12, "gap": 8, "r": 8, "fs": 16, "lh": 18, "style": "H7 \u2014 Semibold", "angle": 25.97253216191386, "fg": [250, 252, 255, 1.0]}, {"size": 36, "state": "Hover", "node": "1153:3581", "px": 12, "gap": 8, "r": 8, "fs": 16, "lh": 18, "style": "H7 \u2014 Semibold", "angle": -18.704260289891423, "fg": [250, 252, 255, 1.0]}, {"size": 36, "state": "Focus", "node": "1153:3591", "px": 12, "gap": 8, "r": 8, "fs": 16, "lh": 18, "style": "H7 \u2014 Semibold", "angle": -4.164326810102466, "fg": [250, 252, 255, 1.0]}, {"size": 36, "state": "Pressed", "node": "1153:3601", "px": 12, "gap": 8, "r": 8, "fs": 16, "lh": 18, "style": "H7 \u2014 Semibold", "angle": 25.97253216191386, "fg": [250, 252, 255, 1.0]}, {"size": 36, "state": "Disabled", "node": "1153:3611", "px": 12, "gap": 8, "r": 8, "fs": 16, "lh": 18, "style": "H7 \u2014 Semibold", "angle": 25.97253216191386, "fg": [250, 252, 255, 1.0]}, {"size": 40, "state": "Default", "node": "1153:3621", "px": 12, "gap": 8, "r": 8, "fs": 16, "lh": 18, "style": "H7 \u2014 Semibold", "angle": 28.425170856311397, "fg": [250, 252, 255, 1.0]}, {"size": 40, "state": "Hover", "node": "1153:3631", "px": 12, "gap": 8, "r": 8, "fs": 16, "lh": 18, "style": "H7 \u2014 Semibold", "angle": -20.615418727966116, "fg": [250, 252, 255, 1.0]}, {"size": 40, "state": "Focus", "node": "1153:3641", "px": 12, "gap": 8, "r": 8, "fs": 16, "lh": 18, "style": "H7 \u2014 Semibold", "angle": -4.625122076747715, "fg": [250, 252, 255, 1.0]}, {"size": 40, "state": "Pressed", "node": "1153:3651", "px": 12, "gap": 8, "r": 8, "fs": 16, "lh": 18, "style": "H7 \u2014 Semibold", "angle": 28.425170856311397, "fg": [250, 252, 255, 1.0]}, {"size": 40, "state": "Disabled", "node": "1153:3661", "px": 12, "gap": 8, "r": 8, "fs": 16, "lh": 18, "style": "H7 \u2014 Semibold", "angle": 28.425170856311397, "fg": [250, 252, 255, 1.0]}, {"size": 42, "state": "Default", "node": "1153:3671", "px": 16, "gap": 12, "r": 12, "fs": 16, "lh": 18, "style": "H7 \u2014 Semibold", "angle": 26.80205998706895, "fg": [250, 252, 255, 1.0]}, {"size": 42, "state": "Hover", "node": "1153:3681", "px": 16, "gap": 12, "r": 12, "fs": 16, "lh": 18, "style": "H7 \u2014 Semibold", "angle": -19.346358798444285, "fg": [250, 252, 255, 1.0]}, {"size": 42, "state": "Focus", "node": "1153:3691", "px": 16, "gap": 12, "r": 12, "fs": 16, "lh": 18, "style": "H7 \u2014 Semibold", "angle": -4.317988162566095, "fg": [250, 252, 255, 1.0]}, {"size": 42, "state": "Pressed", "node": "1153:3701", "px": 16, "gap": 12, "r": 12, "fs": 16, "lh": 18, "style": "H7 \u2014 Semibold", "angle": 26.80205998706895, "fg": [250, 252, 255, 1.0]}, {"size": 42, "state": "Disabled", "node": "1153:3711", "px": 16, "gap": 12, "r": 12, "fs": 16, "lh": 18, "style": "H7 \u2014 Semibold", "angle": 26.80205998706895, "fg": [250, 252, 255, 1.0]}, {"size": 46, "state": "Default", "node": "1153:3721", "px": 16, "gap": 12, "r": 12, "fs": 18, "lh": 25, "style": "Subheading L \u2014 Semibold", "angle": 27.975552641534833, "fg": [250, 252, 255, 1.0]}, {"size": 46, "state": "Hover", "node": "1153:3731", "px": 16, "gap": 12, "r": 12, "fs": 18, "lh": 25, "style": "Subheading L \u2014 Semibold", "angle": -20.26214800625104, "fg": [250, 252, 255, 1.0]}, {"size": 46, "state": "Focus", "node": "1153:3741", "px": 16, "gap": 12, "r": 12, "fs": 18, "lh": 25, "style": "Subheading L \u2014 Semibold", "angle": -4.539150665223573, "fg": [250, 252, 255, 1.0]}, {"size": 46, "state": "Pressed", "node": "1153:3751", "px": 16, "gap": 12, "r": 12, "fs": 18, "lh": 25, "style": "Subheading L \u2014 Semibold", "angle": 27.975552641534833, "fg": [250, 252, 255, 1.0]}, {"size": 46, "state": "Disabled", "node": "1153:3761", "px": 16, "gap": 12, "r": 12, "fs": 18, "lh": 25, "style": "Subheading L \u2014 Semibold", "angle": 27.975552641534833, "fg": [250, 252, 255, 1.0]}, {"size": 48, "state": "Default", "node": "1153:3771", "px": 16, "gap": 12, "r": 12, "fs": 18, "lh": 25, "style": "Subheading L \u2014 Semibold", "angle": 28.99768564862803, "fg": [250, 252, 255, 1.0]}, {"size": 48, "state": "Hover", "node": "1153:3781", "px": 16, "gap": 12, "r": 12, "fs": 18, "lh": 25, "style": "Subheading L \u2014 Semibold", "angle": -21.0672249647522, "fg": [250, 252, 255, 1.0]}, {"size": 48, "state": "Focus", "node": "1153:3791", "px": 16, "gap": 12, "r": 12, "fs": 18, "lh": 25, "style": "Subheading L \u2014 Semibold", "angle": -4.735626034276493, "fg": [250, 252, 255, 1.0]}, {"size": 48, "state": "Pressed", "node": "1153:3801", "px": 16, "gap": 12, "r": 12, "fs": 18, "lh": 25, "style": "Subheading L \u2014 Semibold", "angle": 28.99768564862803, "fg": [250, 252, 255, 1.0]}, {"size": 48, "state": "Disabled", "node": "1153:3811", "px": 16, "gap": 12, "r": 12, "fs": 18, "lh": 25, "style": "Subheading L \u2014 Semibold", "angle": 28.99768564862803, "fg": [250, 252, 255, 1.0]}, {"size": 52, "state": "Default", "node": "1153:3821", "px": 16, "gap": 12, "r": 12, "fs": 20, "lh": 24, "style": "H5 \u2014 Semibold", "angle": 29.999999554707948, "fg": [250, 252, 255, 1.0]}, {"size": 52, "state": "Hover", "node": "1153:3831", "px": 16, "gap": 12, "r": 12, "fs": 20, "lh": 24, "style": "H5 \u2014 Semibold", "angle": -21.863680548366005, "fg": [250, 252, 255, 1.0]}, {"size": 52, "state": "Focus", "node": "1153:3841", "px": 16, "gap": 12, "r": 12, "fs": 20, "lh": 24, "style": "H5 \u2014 Semibold", "angle": -4.931989840246004, "fg": [250, 252, 255, 1.0]}, {"size": 52, "state": "Pressed", "node": "1153:3851", "px": 16, "gap": 12, "r": 12, "fs": 20, "lh": 24, "style": "H5 \u2014 Semibold", "angle": 29.999999554707948, "fg": [250, 252, 255, 1.0]}, {"size": 52, "state": "Disabled", "node": "1153:3861", "px": 16, "gap": 12, "r": 12, "fs": 20, "lh": 24, "style": "H5 \u2014 Semibold", "angle": 29.999999554707948, "fg": [250, 252, 255, 1.0]}, {"size": 56, "state": "Default", "node": "1153:3871", "px": 16, "gap": 12, "r": 12, "fs": 20, "lh": 24, "style": "H5 \u2014 Semibold", "angle": 31.87177113855379, "fg": [250, 252, 255, 1.0]}, {"size": 56, "state": "Hover", "node": "1153:3881", "px": 16, "gap": 12, "r": 12, "fs": 20, "lh": 24, "style": "H5 \u2014 Semibold", "angle": -23.370501918258, "fg": [250, 252, 255, 1.0]}, {"size": 56, "state": "Focus", "node": "1153:3891", "px": 16, "gap": 12, "r": 12, "fs": 20, "lh": 24, "style": "H5 \u2014 Semibold", "angle": -5.309282402526279, "fg": [250, 252, 255, 1.0]}, {"size": 56, "state": "Pressed", "node": "1153:3901", "px": 16, "gap": 12, "r": 12, "fs": 20, "lh": 24, "style": "H5 \u2014 Semibold", "angle": 31.87177113855379, "fg": [250, 252, 255, 1.0]}, {"size": 56, "state": "Disabled", "node": "1153:3911", "px": 16, "gap": 12, "r": 12, "fs": 20, "lh": 24, "style": "H5 \u2014 Semibold", "angle": 31.87177113855379, "fg": [250, 252, 255, 1.0]}];
+const PAINT = {"Default": {"stops": [[[58, 121, 247, 1.0], 13.397], [[23, 70, 162, 1.0], 86.603]], "stroke": [1.5, [153, 185, 247, 1.0]], "shadow": [[-2, 4, 2, [23, 25, 28, 0]], [-1, 3, 1, [23, 25, 28, 0.02]], [-1, 2, 1, [23, 25, 28, 0.08]], [0, 1, 1, [23, 25, 28, 0.13]]]}, "Hover": {"stops": [[[23, 70, 162, 0.85], 9.5862], [[58, 111, 247, 0.92], 76.342]], "stroke": [1.5, [153, 185, 247, 1.0]], "shadow": [[0, 0, 3, [50, 92, 179, 0.01]], [0, 0, 3, [50, 92, 179, 0.05]], [0, 0, 3, [50, 92, 179, 0.16]], [0, 0, 2, [50, 92, 179, 0.27]], [0, 0, 1, [50, 92, 179, 0.31]]]}, "Focus": {"stops": [[[0, 63, 188, 1.0], 43.833], [[51, 114, 239, 1.0], 94.947]], "stroke": [2, [0, 79, 235, 1.0]], "shadow": []}, "Pressed": {"stops": [[[0, 79, 235, 1.0], 13.397], [[23, 70, 162, 1.0], 86.603]], "stroke": [1.5, [153, 185, 247, 1.0]], "shadow": [[1, 2, 6, [0, 79, 235, 0.12]], [0, 4, 12, [0, 79, 235, 0.4]]]}, "Disabled": {"stops": [[[0, 79, 235, 0.19], 13.397], [[23, 70, 162, 0.19], 86.603]], "stroke": [1.5, [153, 185, 247, 1.0]], "shadow": []}};
+const fails = []; let checks = 0;
+const eq = (n, v, got, want) => { checks++; if (got !== want) fails.push(`${v} ${n}: got ${JSON.stringify(got)}, want ${JSON.stringify(want)}`); };
+const near = (n, v, got, want, tol) => { checks++; if (!(Math.abs(got - want) <= tol)) fails.push(`${v} ${n}: got ${got}, want ${want}`); };
+// split a CSS list on top-level commas
+const splitTop = s => { const out = []; let d = 0, cur = ''; for (const ch of s) { if (ch === '(') d++; if (ch === ')') d--; if (ch === ',' && d === 0) { out.push(cur.trim()); cur = ''; } else cur += ch; } if (cur.trim()) out.push(cur.trim()); return out; };
+// parse rgb()/rgba()/color(srgb …) into [r,g,b,a]
+const colour = s => {
+  let m = s.match(/^rgba?\(([^)]*)\)/);
+  if (m) { const p = m[1].split(/[ ,\/]+/).filter(Boolean).map(Number); return [p[0], p[1], p[2], p[3] ?? 1]; }
+  m = s.match(/^color\(srgb ([^)]*)\)/);
+  if (m) { const p = m[1].split(/[ \/]+/).filter(Boolean).map(Number); return [p[0] * 255, p[1] * 255, p[2] * 255, p[3] ?? 1]; }
+  return null;
+};
+const sameColour = (a, b) => a && b && a.slice(0, 3).every((x, i) => Math.abs(x - b[i]) <= 0.6) && Math.abs(a[3] - b[3]) <= 0.003;
+const stage = document.getElementById('stage');
+for (const V of VARIANTS) {
+  const b = document.createElement('button'); b.type = 'button';
+  b.className = `annachy-button-gradient annachy-button-gradient--size-${V.size}`;
+  if (V.state === 'Hover') b.classList.add('is-hover');
+  if (V.state === 'Focus') b.classList.add('is-focus');
+  if (V.state === 'Pressed') b.classList.add('is-pressed');
+  if (V.state === 'Disabled') b.disabled = true;
+  b.innerHTML = '<span class="annachy-button-gradient__icon" aria-hidden="true"></span><span class="annachy-button-gradient__label">Button</span><span class="annachy-button-gradient__icon" aria-hidden="true"></span>';
+  b.dataset.v = `${V.size}/${V.state} (${V.node})`; stage.appendChild(b); V.el = b;
+}
+await document.fonts.ready;
+for (const V of VARIANTS) {
+  const b = V.el, cs = getComputedStyle(b), v = b.dataset.v, P = PAINT[V.state];
+  const rect = b.getBoundingClientRect(), label = b.querySelector('.annachy-button-gradient__label'), icons = b.querySelectorAll('.annachy-button-gradient__icon');
+  // dimensions
+  eq('height', v, rect.height, V.size);
+  eq('padding-x', v, `${cs.paddingLeft}/${cs.paddingRight}`, `${V.px}px/${V.px}px`);
+  eq('padding-y', v, `${cs.paddingTop}/${cs.paddingBottom}`, '0px/0px');
+  eq('gap', v, cs.columnGap, `${V.gap}px`);
+  eq('radius', v, cs.borderTopLeftRadius, `${V.r}px`);
+  eq('border (stroke drawn inside via inset shadow)', v, cs.borderTopWidth, '0px');
+  for (const i of icons) eq('icon 20×20', v, `${i.getBoundingClientRect().width}x${i.getBoundingClientRect().height}`, '20x20');
+  near('width = 2·padding + 2·icon + 2·gap + label (stroke outside layout)', v, rect.width, 2 * V.px + 40 + 2 * V.gap + label.getBoundingClientRect().width, 0.01);
+  // typography
+  eq('font-size', v, cs.fontSize, `${V.fs}px`);
+  eq('line-height', v, cs.lineHeight, `${V.lh}px`);
+  eq('font-weight', v, cs.fontWeight, '600');
+  eq('font-family starts with Inter', v, /^"?Inter"?,/.test(cs.fontFamily), true);
+  eq('letter-spacing 0', v, ['0px', 'normal'].includes(cs.letterSpacing), true);
+  eq('white-space', v, cs.whiteSpace, 'nowrap');
+  // label colour
+  eq('label colour', v, sameColour(colour(cs.color), V.fg), true);
+  // gradient
+  const bg = cs.backgroundImage, gm = bg.match(/^linear-gradient\((.*)\)$/);
+  checks++; if (!gm) { fails.push(`${v} background-image not a linear-gradient: ${bg}`); continue; }
+  const parts = splitTop(gm[1]);
+  near('gradient angle (deg)', v, parseFloat(parts[0]), V.angle, 0.001);
+  eq('gradient stop count', v, parts.length - 1, P.stops.length);
+  P.stops.forEach(([c, pos], i) => {
+    const seg = parts[i + 1] || '', posGot = parseFloat(seg.match(/([\d.]+)%$/)?.[1]);
+    eq(`stop ${i} colour`, v, sameColour(colour(seg), c), true);
+    near(`stop ${i} position`, v, posGot, pos, 0.001);
+  });
+  // stroke + shadows (box-shadow)
+  const sh = cs.boxShadow === 'none' ? [] : splitTop(cs.boxShadow);
+  const inset = sh.find(x => x.endsWith('inset')), outer = sh.filter(x => !x.endsWith('inset'));
+  checks++; if (!inset) fails.push(`${v} no inset stroke`); else {
+    const nums = inset.replace(/^(rgba?\([^)]*\)|color\([^)]*\))/, '').trim().split(/\s+/).map(parseFloat);
+    near('stroke width', v, nums[3], P.stroke[0], 0.001);
+    eq('stroke colour', v, sameColour(colour(inset), P.stroke[1]), true);
+  }
+  const visibleOuter = outer.filter(x => { const c = colour(x); const n = x.replace(/^(rgba?\([^)]*\)|color\([^)]*\))/, '').trim().split(/\s+/).map(parseFloat); return !(c[3] === 0 && n.every(z => z === 0)); });
+  eq('shadow layer count', v, visibleOuter.length, P.shadow.length);
+  P.shadow.forEach(([x, y, blur, c], i) => {
+    const s = visibleOuter[i] || ''; const n = s.replace(/^(rgba?\([^)]*\)|color\([^)]*\))/, '').trim().split(/\s+/).map(parseFloat);
+    eq(`shadow ${i} offset/blur`, v, `${n[0]} ${n[1]} ${n[2]}`, `${x} ${y} ${blur}`);
+    eq(`shadow ${i} colour`, v, sameColour(colour(s), c), true);
+  });
+  // accessibility
+  eq('native button', v, `${b.tagName}/${b.type}`, 'BUTTON/button');
+  eq('accessible name', v, label.textContent.trim(), 'Button');
+  if (V.state === 'Disabled') eq('disabled', v, b.disabled, true);
+  if (V.state === 'Focus') eq('outline suppressed for Figma focus treatment', v, cs.outlineStyle, 'none');
+}
+// native :focus-visible on a real element (size 24 → typography exception must apply)
+const nb = document.createElement('button'); nb.type = 'button'; nb.className = 'annachy-button-gradient annachy-button-gradient--size-24';
+nb.innerHTML = '<span class="annachy-button-gradient__label">Native</span>'; stage.appendChild(nb); nb.focus();
+const ncs = getComputedStyle(nb);
+eq('native focus line-height (Label XSmall Semibold)', 'native', ncs.lineHeight, '17px');
+eq('native focus stroke', 'native', splitTop(ncs.boxShadow).some(x => x.endsWith('inset') && x.includes('2px inset')), true);
+nb.blur();
+eq('native blur line-height (Body XS — Semibold)', 'native', getComputedStyle(nb).lineHeight, '18px');
+// cascade layer + R3-1 untouched
+const entry = [...document.styleSheets].find(s => s.href && s.href.endsWith('/src/annachy.css'));
+const imp = [...entry.cssRules].filter(r => r.href && r.href.startsWith('components/')).map(r => `${r.href}@${r.layerName}`);
+eq('button + gradient imported in annachy.components', 'cascade', ['components/button/button.css@annachy.components', 'components/button-gradient/button-gradient.css@annachy.components'].every(x => imp.includes(x)), true);
+const out = [`STATUS: ${fails.length ? 'FAIL' : 'PASS'}`, `variants rendered: ${VARIANTS.length} (expected 55)`, `checks: ${checks} · failures: ${fails.length}`, ...fails.slice(0, 60)];
+if (VARIANTS.length !== 55) { out[0] = 'STATUS: FAIL'; }
+const el = document.getElementById('result'); el.textContent = out.join('\n'); el.dataset.status = out[0].endsWith('PASS') ? 'pass' : 'fail';
+</script>
+</body>
+</html>

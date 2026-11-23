@@ -1,0 +1,463 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "annachy/icons/manifest.schema.json",
+  "title": "Annachy icon manifest",
+  "description": "R7-1 extensions (2026-11-20, all optional / additive; R5 manifests stay valid): (E1) licence.redistribution adds 'internal-only' (local internal use, no redistribution) — accepted by policy P03 like 'allowed'; (E2) a decision gate may be {notApplicable:true, date, reference} for a gate that does not concern this source (counts as resolved for P02); (E3) status adds 'restricted' (same policy as 'active'; the manifest root must be under restricted/, e.g. third-party brand marks kept outside src/); (E4) optional top-level 'root' ('src/icons' default, or 'restricted/brands'): path convention N01 and the orphan scan I03 apply to that folder; (E5) file paths may be under src/icons/ or restricted/brands/; originals may be category files shared by many icons (hash checked once per file); (E6) icon 'name' may use '--' as a qualifier separator (iconName, max 128 chars), e.g. 'calendar--calender-date-2'; (E7) optional icon fields: 'variants' (Figma node id per size XS/S/M/L/XL), 'perSize' (separate files for sizes that are not scale-equivalent: <root>/svg/<style>/<name>--<size>.svg), 'knownProblems' (validator codes recorded for real artwork that breaks a normalisation rule, e.g. V08 for a clip-path def; listed codes are reported as recorded, not as failures); (E8) optional top-level 'originals' (every byte-preserved category export of this manifest, with Figma node id and SHA-256 — hash-checked; covers exports not referenced by an icon, e.g. a duplicate frame whose sets reuse other files). Original R5 description: Inventory, provenance, licence and integrity record for every icon shipped in src/icons/. R5 infrastructure (2026-11-20). An icon may only be listed once its source is approved (D-12), accessible (D-13), owned/attributed (D-14) and licensed (D-15). See docs/implementation/r5-implementation-spec.md §3.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "status",
+    "decisions",
+    "sizeScale",
+    "styles",
+    "categories",
+    "sources",
+    "icons"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": "1.0.0"
+    },
+    "status": {
+      "enum": [
+        "blocked",
+        "active",
+        "restricted"
+      ],
+      "description": "blocked = no approved source; icons MUST be empty. restricted = like active, but the files live under restricted/ (not shipped) (E3)"
+    },
+    "root": {
+      "enum": [
+        "src/icons",
+        "restricted/brands"
+      ],
+      "description": "Folder holding this manifest's originals/ and svg/ (E4); default src/icons"
+    },
+    "decisions": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "D-12",
+        "D-13",
+        "D-14",
+        "D-15",
+        "exportApproval"
+      ],
+      "description": "Gate record. Each value is 'open' or an approval reference (who, date, document).",
+      "properties": {
+        "D-12": {
+          "$ref": "#/$defs/gate"
+        },
+        "D-13": {
+          "$ref": "#/$defs/gate"
+        },
+        "D-14": {
+          "$ref": "#/$defs/gate"
+        },
+        "D-15": {
+          "$ref": "#/$defs/gate"
+        },
+        "exportApproval": {
+          "$ref": "#/$defs/gate"
+        }
+      }
+    },
+    "sizeScale": {
+      "type": "array",
+      "items": {
+        "type": "integer",
+        "minimum": 8,
+        "maximum": 64
+      },
+      "uniqueItems": true,
+      "description": "Approved px sizes (D-12). Empty until decided."
+    },
+    "styles": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/slug"
+      },
+      "uniqueItems": true,
+      "description": "Approved style slugs, e.g. 'linear', 'outline' (D-12). Empty until decided."
+    },
+    "categories": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/slug"
+      },
+      "uniqueItems": true
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/source"
+      }
+    },
+    "originals": {
+      "type": "array",
+      "description": "Category exports (E8)",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "path",
+          "sha256",
+          "figmaNodeId"
+        ],
+        "properties": {
+          "path": {
+            "$ref": "#/$defs/file/properties/path"
+          },
+          "sha256": {
+            "$ref": "#/$defs/sha256"
+          },
+          "figmaNodeId": {
+            "type": "string",
+            "pattern": "^\\d+:\\d+$"
+          },
+          "category": {
+            "type": "string"
+          },
+          "note": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "icons": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/icon"
+      }
+    }
+  },
+  "$defs": {
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "maxLength": 64
+    },
+    "sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "date": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "gate": {
+      "oneOf": [
+        {
+          "const": "open"
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "approvedBy",
+            "date",
+            "reference"
+          ],
+          "properties": {
+            "approvedBy": {
+              "type": "string",
+              "minLength": 1
+            },
+            "date": {
+              "$ref": "#/$defs/date"
+            },
+            "reference": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "notApplicable",
+            "date",
+            "reference"
+          ],
+          "properties": {
+            "notApplicable": {
+              "const": true
+            },
+            "date": {
+              "$ref": "#/$defs/date"
+            },
+            "reference": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        }
+      ]
+    },
+    "licence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "redistribution",
+        "attributionRequired"
+      ],
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "description": "SPDX id where one exists (e.g. 'MIT', 'ISC', 'CC-BY-4.0'), else the licence title"
+        },
+        "url": {
+          "type": "string"
+        },
+        "redistribution": {
+          "enum": [
+            "allowed",
+            "internal-only",
+            "prohibited",
+            "unknown"
+          ]
+        },
+        "attributionRequired": {
+          "type": "boolean"
+        },
+        "attributionText": {
+          "type": "string"
+        },
+        "evidence": {
+          "type": "string",
+          "description": "Where the licence was confirmed (document / ticket)"
+        }
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "name",
+        "kind",
+        "owner",
+        "licence",
+        "approved"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/slug"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "kind": {
+          "enum": [
+            "figma-file",
+            "figma-library",
+            "owner-supplied",
+            "open-source-package"
+          ]
+        },
+        "figmaFileKey": {
+          "type": "string"
+        },
+        "figmaLibraryKey": {
+          "type": "string"
+        },
+        "owner": {
+          "type": "string",
+          "minLength": 1
+        },
+        "licence": {
+          "$ref": "#/$defs/licence"
+        },
+        "approved": {
+          "$ref": "#/$defs/gate"
+        }
+      }
+    },
+    "file": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "path",
+        "sha256"
+      ],
+      "properties": {
+        "path": {
+          "type": "string",
+          "pattern": "^(src/icons|restricted/brands)/(originals|svg)/[a-z0-9/._-]+\\.svg$"
+        },
+        "sha256": {
+          "$ref": "#/$defs/sha256"
+        }
+      }
+    },
+    "icon": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "category",
+        "style",
+        "sizes",
+        "source",
+        "figmaNodeId",
+        "original",
+        "normalized",
+        "licence",
+        "attribution"
+      ],
+      "properties": {
+        "name": {
+          "$ref": "#/$defs/iconName"
+        },
+        "category": {
+          "$ref": "#/$defs/slug"
+        },
+        "style": {
+          "$ref": "#/$defs/slug"
+        },
+        "sizes": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "integer"
+          },
+          "uniqueItems": true
+        },
+        "source": {
+          "$ref": "#/$defs/slug",
+          "description": "sources[].id"
+        },
+        "sourceName": {
+          "type": "string",
+          "description": "Name exactly as in the source (e.g. Figma component name)"
+        },
+        "figmaNodeId": {
+          "type": "string",
+          "pattern": "^(\\d+:\\d+|n/a)$"
+        },
+        "original": {
+          "$ref": "#/$defs/file",
+          "description": "Byte-preserved export, never edited"
+        },
+        "normalized": {
+          "$ref": "#/$defs/file",
+          "description": "Pipeline output used by components"
+        },
+        "licence": {
+          "oneOf": [
+            {
+              "const": "inherit"
+            },
+            {
+              "$ref": "#/$defs/licence"
+            }
+          ]
+        },
+        "attribution": {
+          "type": "string",
+          "description": "Required text, or empty when none is required"
+        },
+        "multicolor": {
+          "type": "boolean",
+          "description": "true for duotone / multi-tone icons that must be inlined (no CSS mask)"
+        },
+        "usedBy": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "aliases": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/slug"
+          }
+        },
+        "deprecated": {
+          "type": "boolean"
+        },
+        "variants": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "XS": {
+              "type": "string",
+              "pattern": "^\\d+:\\d+$"
+            },
+            "S": {
+              "type": "string",
+              "pattern": "^\\d+:\\d+$"
+            },
+            "M": {
+              "type": "string",
+              "pattern": "^\\d+:\\d+$"
+            },
+            "L": {
+              "type": "string",
+              "pattern": "^\\d+:\\d+$"
+            },
+            "XL": {
+              "type": "string",
+              "pattern": "^\\d+:\\d+$"
+            }
+          },
+          "description": "Figma variant node id per size (E7)"
+        },
+        "perSize": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "XS": {
+              "$ref": "#/$defs/file"
+            },
+            "S": {
+              "$ref": "#/$defs/file"
+            },
+            "M": {
+              "$ref": "#/$defs/file"
+            },
+            "L": {
+              "$ref": "#/$defs/file"
+            },
+            "XL": {
+              "$ref": "#/$defs/file"
+            }
+          },
+          "description": "Files for sizes that are not scale-equivalent to the reference size (E7)"
+        },
+        "knownProblems": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "code",
+              "reason"
+            ],
+            "properties": {
+              "code": {
+                "type": "string",
+                "pattern": "^V\\d{2}$"
+              },
+              "reason": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          },
+          "description": "Recorded rule exceptions of real artwork (E7)"
+        }
+      }
+    },
+    "iconName": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-{1,2}[a-z0-9]+)*$",
+      "maxLength": 128
+    }
+  }
+}

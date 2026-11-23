@@ -1,0 +1,19 @@
+/* Icon catalogue (showcase only) — layout uses library tokens */
+.ic-tools { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 16px; margin-block: 16px; }
+.ic-search { inline-size: min(100%, 360px); }
+.ic-field { display: flex; flex-direction: column; gap: 4px; color: var(--annachy-color-text-secondary); font-size: 14px; }
+.ic-field select { block-size: 40px; padding-inline: 8px; border-radius: var(--annachy-radius-8); border: 1px solid var(--annachy-color-border-primary); background: var(--annachy-color-background-primary); color: var(--annachy-color-text-primary); }
+.ic-check { flex-direction: row; align-items: center; block-size: 40px; }
+.ic-restricted { color: var(--annachy-color-icon-state-error); }
+.ic-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 12px; margin: 0; padding: 0; list-style: none; }
+.ic-card { display: flex; flex-direction: column; gap: 8px; padding: 12px; border-radius: var(--annachy-radius-12);
+  background: var(--annachy-color-background-secondary); box-shadow: inset 0 0 0 1px var(--annachy-color-border-secondary); color: var(--annachy-color-icon-primary); }
+.ic-card__name { margin: 0; font-size: 14px; line-height: 20px; color: var(--annachy-color-text-primary); }
+.ic-card__meta { margin: 0; font-size: 12px; color: var(--annachy-color-text-tertiary); }
+.ic-row { display: flex; align-items: center; gap: 12px; }
+.ic-row__style { inline-size: 92px; font-size: 12px; color: var(--annachy-color-text-secondary); }
+.ic-icon { display: inline-flex; flex: none; }
+.ic-icon > svg { inline-size: 100%; block-size: 100%; }
+.ic-icon--missing { outline: 1px dashed var(--annachy-color-icon-state-error); }
+.ic-pager { display: flex; align-items: center; gap: 12px; margin-block: 16px; }
+.ic-icon--defect { outline: 1px dashed var(--annachy-color-icon-state-warning, #b54708); }   /* Figma defect FIG-ICON-1 (empty in its own frame) */

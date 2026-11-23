@@ -1,0 +1,17 @@
+{
+ "schemaVersion": "1.0.0",
+ "status": "blocked",
+ "decisions": {
+  "D-12": "open",
+  "D-13": "open",
+  "D-14": "open",
+  "D-15": "open",
+  "exportApproval": "open"
+ },
+ "sizeScale": [],
+ "styles": [],
+ "categories": [],
+ "sources": [],
+ "icons": [],
+ "$expect": []
+}

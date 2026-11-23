@@ -1,0 +1,13 @@
+<!--
+  Annachy Design System — Toggle canonical markup (R3-6). Figma ".Selection Controls / Toggle" 1504:54471.
+  Root: .annachy-toggle + --small|--medium|--large [+ --control-right] [+ --align-top|--align-bottom]
+  Native <input type="checkbox" role="switch">; checked = On.
+-->
+<div class="annachy-toggle annachy-toggle--medium">
+  <input class="annachy-toggle__input" type="checkbox" role="switch" id="notify" aria-describedby="notify-sub" checked>
+  <span class="annachy-toggle__track" aria-hidden="true"><span class="annachy-toggle__thumb"></span></span>
+  <span class="annachy-toggle__content">
+    <label class="annachy-toggle__label" for="notify">Title text goes here</label>
+    <span class="annachy-toggle__subtext" id="notify-sub">Secondary text line goes here</span>
+  </span>
+</div>

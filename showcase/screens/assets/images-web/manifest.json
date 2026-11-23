@@ -1,0 +1,862 @@
+{
+ "03aef": {
+  "original": "showcase/screens/assets/images/03aef.png",
+  "originalBytes": 6816583,
+  "originalPx": [
+   4094,
+   2512
+  ],
+  "originalSha256": "1ce87cb30401e767a359bda62a0b48051337ba699bf2da663293713c62d0affa",
+  "webPx": [
+   383,
+   235
+  ],
+  "scale": 0.0932,
+  "quality": 0.92,
+  "dpr": 3.0,
+  "kept": true,
+  "web": "showcase/screens/assets/images-web/03aef.webp",
+  "webBytes": 12850,
+  "webSha256": "d18c45c2aa3ae776f7ad10353713f7831c136ef6edd34ce51f602f4b137548e6"
+ },
+ "04813": {
+  "original": "showcase/screens/assets/images/04813.jpg",
+  "originalBytes": 213255,
+  "originalPx": [
+   896,
+   1195
+  ],
+  "originalSha256": "0d70398df3fcdf890c4e32615678c7501066b60a611a108aa3f3368a3896e63f",
+  "webPx": [
+   210,
+   280
+  ],
+  "scale": 0.2315,
+  "quality": 0.92,
+  "dpr": 3.0,
+  "kept": true,
+  "web": "showcase/screens/assets/images-web/04813.webp",
+  "webBytes": 23456,
+  "webSha256": "5caa331c6ad5dcd5088a3de7e480facb4751e7a6f7d024cde28a0d357e53ab23"
+ },
+ "073bd": {
+  "original": "showcase/screens/assets/images/073bd.png",
+  "originalBytes": 4936670,
+  "originalPx": [
+   1792,
+   2390
+  ],
+  "originalSha256": "d8f22843baed9f00a12c3930de8198fc564621329f96f9f9f71fc1dc73df31b2",
+  "webPx": [
+   186,
+   248
+  ],
+  "scale": 0.1023,
+  "quality": 0.92,
+  "dpr": 3.0,
+  "kept": true,
+  "web": "showcase/screens/assets/images-web/073bd.webp",
+  "webBytes": 9526,
+  "webSha256": "e15d92fd362c9bd6e21a7e946079d843d2331244bb15de0567d52514a4b99246"
+ },
+ "0fe59": {
+  "original": "showcase/screens/assets/images/0fe59.png",
+  "originalBytes": 269407,
+  "originalPx": [
+   640,
+   640
+  ],
+  "originalSha256": "291caccd5fcbe440429d026c30754085a2e776be26840de86cf5546dda3c515f",
+  "webPx": [
+   144,
+   144
+  ],
+  "scale": 0.225,
+  "quality": 0.92,
+  "dpr": 3.0,
+  "kept": true,
+  "web": "showcase/screens/assets/images-web/0fe59.webp",
+  "webBytes": 7166,
+  "webSha256": "a4c3f277065c7b95088d6d1f4ac284af163246fcdb196336ecf62d5cc5ac56eb"
+ },
+ "10735": {
+  "original": "showcase/screens/assets/images/10735.png",
+  "originalBytes": 826504,
+  "originalPx": [
+   800,
+   1200
+  ],
+  "originalSha256": "85f5e79bdcf3f4ec390dff6c068299688b7d41c7b4a0cf3846f278beb9e2a9e6",
+  "webPx": [
+   800,
+   1200
+  ],
+  "scale": 1.0,
+  "quality": 0.92,
+  "dpr": 3.0,
+  "kept": true,
+  "web": "showcase/screens/assets/images-web/10735.webp",
+  "webBytes": 73486,
+  "webSha256": "0f7f19999644c8acb83c9f29e7162b1c0527b304df75988ec8efd18b13e7621e"
+ },
+ "1a18a": {
+  "original": "showcase/screens/assets/images/1a18a.png",
+  "originalBytes": 8059074,
+  "originalPx": [
+   1792,
+   2390
+  ],
+  "originalSha256": "c770056ab0d8be06317ce5d87e7b384675b4e07fc5a6a5cb931f762c165190e5",
+  "webPx": [
+   198,
+   264
+  ],
+  "scale": 0.1105,
+  "quality": 0.92,
+  "dpr": 3.0,
+  "kept": true,
+  "web": "showcase/screens/assets/images-web/1a18a.webp",
+  "webBytes": 14276,
+  "webSha256": "43383bf1c1440991b9a8ee519d7c5ac0dd923ddbda4a627de9d5f34ae926cb22"
+ },
+ "1b7eb": {
+  "original": "showcase/screens/assets/images/1b7eb.png",
+  "originalBytes": 2418506,
+  "originalPx": [
+   842,
+   1122
+  ],
+  "originalSha256": "c0b524ece5cb78020d213290a691fcb53c8266182c528ca287d188911f4ed1d6",
+  "webPx": [
+   262,
+   349
+  ],
+  "scale": 0.2823,
+  "quality": 0.92,
+  "dpr": 3.0,
+  "kept": true,
+  "web": "showcase/screens/assets/images-web/1b7eb.webp",
+  "webBytes": 26910,
+  "webSha256": "c2f2ee83294cae44cf0ea4ce2c9a616ac2c5906785076fb84059f345c2bb7905"
+ },
+ "1c8d9": {
+  "original": "showcase/screens/assets/images/1c8d9.png",
+  "originalBytes": 634317,
+  "originalPx": [
+   800,
+   1200
+  ],
+  "originalSha256": "6a79f26fb3c4a10f646411adef68e01a1a3b968d450a8f30aed9b7655233ee42",
+  "webPx": [
+   772,
+   1158
+  ],
+  "scale": 0.965,
+  "quality": 0.92,
+  "dpr": 3.0,
+  "kept": true,
+  "web": "showcase/screens/assets/images-web/1c8d9.webp",
+  "webBytes": 58384,
+  "webSha256": "6ddb7d29b3a10f52db3e53a565f69ab693d453b33b5085dad07b1cc566c156da"
+ },
+ "1d5d1": {
+  "original": "showcase/screens/assets/images/1d5d1.png",
+  "originalBytes": 2570607,
+  "originalPx": [
+   848,
+   1131
+  ],
+  "originalSha256": "84cf8c0e38765ea5280b53fdc9d7b805e09aa97e1ef10bee8f47499227745dae",
+  "webPx": [
+   584,
+   779
+  ],
+  "scale": 0.6616,
+  "quality": 0.92,
+  "dpr": 3.0,
+  "kept": true,
+  "web": "showcase/screens/assets/images-web/1d5d1.webp",
+  "webBytes": 148900,
+  "webSha256": "8a37afbcf252d4bea1ce536e491d348daf7767dea8951a7a0849dd0c4caf6675"
+ },
+ "26d80": {
+  "original": "showcase/screens/assets/images/26d80.png",
+  "originalBytes": 2424833,
+  "originalPx": [
+   848,
+   1130
+  ],
+  "originalSha256": "01b3d9ba019e1525423faaf5bc0393ab842dd10f8add1296f6c447b30cf9549e",
+  "webPx": [
+   848,
+   1130
+  ],
+  "scale": 1.0,
+  "quality": 0.92,
+  "dpr": 3.0,
+  "kept": true,
+  "web": "showcase/screens/assets/images-web/26d80.webp",
+  "webBytes": 151656,
+  "webSha256": "b5d3fa28f44df6991353c56ea8919105dfe342b6cc0aed4977b6d6ea6ef45d7f"
+ },
+ "2aa70": {
+  "original": "showcase/screens/assets/images/2aa70.png",
+  "originalBytes": 777851,
+  "originalPx": [
+   800,
+   1200
+  ],
+  "originalSha256": "59d869921b9586f90250262440e49764d0818cd4dc33ca914a45276559b239f5",
+  "webPx": [
+   800,
+   1200
+  ],
+  "scale": 1.0,
+  "quality": 0.92,
+  "dpr": 3.0,
+  "kept": true,
+  "web": "showcase/screens/assets/images-web/2aa70.webp",
+  "webBytes": 66040,
+  "webSha256": "a03fce46c5587750d71fcb7125c01db104fe363aa4e5d7ca29c0647db3c5a5ef"
+ },
+ "2b984": {
+  "original": "showcase/screens/assets/images/2b984.png",
+  "originalBytes": 1968248,
+  "originalPx": [
+   848,
+   1131
+  ],
+  "originalSha256": "41a924501067347c821884d8f2ba289a73137bb1c8111bc129eebf8e00e9fcf4",
+  "webPx": [
+   186,
+   248
+  ],
+  "scale": 0.2161,
+  "quality": 0.92,
+  "dpr": 3.0,
+  "kept": true,
+  "web": "showcase/screens/assets/images-web/2b984.webp",
+  "webBytes": 9574,
+  "webSha256": "fdf44c226b661a0dbade28bcf147d26da66d408f8b641685d5e1910d7f660c5a"
+ },
+ "33dc1": {
+  "original": "showcase/screens/assets/images/33dc1.png",
+  "originalBytes": 5124897,
+  "originalPx": [
+   1792,
+   2390
+  ],
+  "originalSha256": "6a403365bd780e1c507cac80cc29795f190f2f0400c3f324513fcc86fce1723e",
+  "webPx": [
+   162,
+   216
+  ],
+  "scale": 0.0896,
+  "quality": 0.92,
+  "dpr": 3.0,
+  "kept": true,
+  "web": "showcase/screens/assets/images-web/33dc1.webp",
+  "webBytes": 12596,
+  "webSha256": "3acf885d4d0ea33d68dff902b7bf397703931c6df598068f814f715dc31bdd04"
+ },
+ "3fba2": {
+  "original": "showcase/screens/assets/images/3fba2.png",
+  "originalBytes": 2145363,
+  "originalPx": [
+   1158,
+   1196
+  ],
+  "originalSha256": "e07d90599701c3c07127e7f24d4f55f9e7a0a3b0897a9cc1b6cf49dc3e9f138d",
+  "webPx": [
+   396,
+   409
+  ],
+  "scale": 0.3234,
+  "quality": 0.92,
+  "dpr": 3.0,
+  "kept": true,
+  "web": "showcase/screens/assets/images-web/3fba2.webp",
+  "webBytes": 59326,
+  "webSha256": "fd9e3dba009a0ae1a6cf5234c154f797805817bbac1db46b1b5dfcc02f604865"
+ },
+ "402da": {
+  "original": "showcase/screens/assets/images/402da.png",
+  "originalBytes": 5424516,
+  "originalPx": [
+   2048,
+   2880
+  ],
+  "originalSha256": "1ffa82b4ba2c3074ef6ad3bf5df3ee805316cf9dd33b97ad39a42624120e7c64",
+  "webPx": [
+   448,
+   630
+  ],
+  "scale": 0.2089,
+  "quality": 0.92,
+  "dpr": 3.0,
+  "kept": true,
+  "web": "showcase/screens/assets/images-web/402da.webp",
+  "webBytes": 37026,
+  "webSha256": "1805a93a2b9535933d5c20a434e0a642f397ab8ced303608cd2d1ec89dfbe26c"
+ },
+ "414f3": {
+  "original": "showcase/screens/assets/images/414f3.png",
+  "originalBytes": 508172,
+  "originalPx": [
+   800,
+   1200
+  ],
+  "originalSha256": "d76a7d1f76a6fa53dde7f65396e40e348b96d0ccff5f1aeff27b4887c4161071",
+  "webPx": [
+   772,
+   1158
+  ],
+  "scale": 0.965,
+  "quality": 0.92,
+  "dpr": 3.0,
+  "kept": true,
+  "web": "showcase/screens/assets/images-web/414f3.webp",
+  "webBytes": 36096,
+  "webSha256": "e4051828a27e3a4d4db8eb26da3d6ab8693f766a93b10f150c3b090b0121e556"
+ },
+ "4fbd0": {
+  "original": "showcase/screens/assets/images/4fbd0.png",
+  "originalBytes": 2521147,
+  "originalPx": [
+   823,
+   1264
+  ],
+  "originalSha256": "2358150672c3efa909676da2bac6a257f51230631b67cb5222ffe22273570ea1",
+  "webPx": [
+   558,
+   857
+  ],
+  "scale": 0.6744,
+  "quality": 0.92,
+  "dpr": 3.0,
+  "kept": true,
+  "web": "showcase/screens/assets/images-web/4fbd0.webp",
+  "webBytes": 78454,
+  "webSha256": "dc79a19e9e2cf7d831b1fa3cd4ea194b38157588b861a0beca421da8f33fc078"
+ },
+ "58f8f": {
+  "original": "showcase/screens/assets/images/58f8f.jpg",
+  "originalBytes": 226653,
+  "originalPx": [
+   896,
+   1195
+  ],
+  "originalSha256": "b5fc9067c58c5240423f10198c5fa5ec7e6eac856b3b84e3c629e7beb0ac55a9",
+  "webPx": [
+   174,
+   232
+  ],
+  "scale": 0.1933,
+  "quality": 0.92,
+  "dpr": 3.0,
+  "kept": true,
+  "web": "showcase/screens/assets/images-web/58f8f.webp",
+  "webBytes": 17168,
+  "webSha256": "92f1d04b0e69514d761a093856d6c62dfc3d16a1d0c3a19af861ded02139b810"
+ },
+ "59c8b": {
+  "original": "showcase/screens/assets/images/59c8b.png",
+  "originalBytes": 1075171,
+  "originalPx": [
+   896,
+   1195
+  ],
+  "originalSha256": "490044977b0d6a285bdb360ead4313e37f60ff6be35a8071cf40b528d41cb6d7",
+  "webPx": [
+   162,
+   216
+  ],
+  "scale": 0.1808,
+  "quality": 0.92,
+  "dpr": 3.0,
+  "kept": true,
+  "web": "showcase/screens/assets/images-web/59c8b.webp",
+  "webBytes": 10302,
+  "webSha256": "983648cc1c7cb0f313f4b9765ee61e8a3a430571610ecfaeec381cb612c96bcd"
+ },
+ "6ee12": {
+  "original": "showcase/screens/assets/images/6ee12.png",
+  "originalBytes": 80749,
+  "originalPx": [
+   256,
+   384
+  ],
+  "originalSha256": "aebf73ee5a65116564004378682fa23f3687436de127ea57e9f72fb6cc033726",
+  "webPx": [
+   256,
+   384
+  ],
+  "scale": 1.0,
+  "quality": 0.92,
+  "dpr": 3.0,
+  "kept": true,
+  "web": "showcase/screens/assets/images-web/6ee12.webp",
+  "webBytes": 6512,
+  "webSha256": "d0b9591d7f8343d54151d4213f227f5dde0b96623e7f10cb78128ed952298ab8"
+ },
+ "7bc8a": {
+  "original": "showcase/screens/assets/images/7bc8a.png",
+  "originalBytes": 1063448,
+  "originalPx": [
+   576,
+   768
+  ],
+  "originalSha256": "4467a4c140bc3296d808dc48094dcd0e7e3d6e0eb3fe0599cd101d77a13cd242",
+  "webPx": [
+   534,
+   712
+  ],
+  "scale": 0.9271,
+  "quality": 0.92,
+  "dpr": 3.0,
+  "kept": true,
+  "web": "showcase/screens/assets/images-web/7bc8a.webp",
+  "webBytes": 67056,
+  "webSha256": "e5a80724fa31edff64aef197dc1d2afdb03c8024bbf666e8451b95cf53d0023c"
+ },
+ "7c131": {
+  "original": "showcase/screens/assets/images/7c131.png",
+  "originalBytes": 2487989,
+  "originalPx": [
+   848,
+   1131
+  ],
+  "originalSha256": "3d93614c52b2e2c7e497eddd1c9084f8fda7ed573a0877520ece30d652d69e1a",
+  "webPx": [
+   593,
+   791
+  ],
+  "scale": 0.6722,
+  "quality": 0.92,
+  "dpr": 3.0,
+  "kept": true,
+  "web": "showcase/screens/assets/images-web/7c131.webp",
+  "webBytes": 160480,
+  "webSha256": "900170f415735beb849f9ebfec0231e1809ba0c7095f5cd3059313e6ee9d40d5"
+ },
+ "80d72": {
+  "original": "showcase/screens/assets/images/80d72.png",
+  "originalBytes": 900582,
+  "originalPx": [
+   800,
+   1200
+  ],
+  "originalSha256": "12d2e1b04f129ff691e78596df398f27999d0881356d761e9146131cd6696852",
+  "webPx": [
+   318,
+   477
+  ],
+  "scale": 0.3975,
+  "quality": 0.92,
+  "dpr": 3.0,
+  "kept": true,
+  "web": "showcase/screens/assets/images-web/80d72.webp",
+  "webBytes": 24972,
+  "webSha256": "26f9b6e02cadaca15836fd8353c25d22bdb85644c6ccfaf55636e77b930abd1c"
+ },
+ "8b1ad": {
+  "original": "showcase/screens/assets/images/8b1ad.png",
+  "originalBytes": 2466224,
+  "originalPx": [
+   848,
+   1130
+  ],
+  "originalSha256": "c3ef0b8f8d0e27874767019d50367676269f2c66dba4442a82d20d82b4c505d4",
+  "webPx": [
+   259,
+   345
+  ],
+  "scale": 0.2763,
+  "quality": 0.92,
+  "dpr": 3.0,
+  "kept": true,
+  "web": "showcase/screens/assets/images-web/8b1ad.webp",
+  "webBytes": 29208,
+  "webSha256": "f030c2619490a938797def5872c3223e076da0d62feda68d5f577ae9413bf02a"
+ },
+ "8c432": {
+  "original": "showcase/screens/assets/images/8c432.jpg",
+  "originalBytes": 146252,
+  "originalPx": [
+   896,
+   1200
+  ],
+  "originalSha256": "251ef6cbb918a625e190db72dc3f34c3d9aa7e7335d095edf562a7454914b08a",
+  "webPx": [
+   896,
+   1200
+  ],
+  "scale": 1.0,
+  "quality": 0.92,
+  "dpr": 3.0,
+  "kept": true,
+  "web": "showcase/screens/assets/images-web/8c432.webp",
+  "webBytes": 145624,
+  "webSha256": "a2831ade7257155294a17cfe0e461b8e07e9cb43db3729cdb8f56f5ce8e9171c"
+ },
+ "8ced0": {
+  "original": "showcase/screens/assets/images/8ced0.png",
+  "originalBytes": 767558,
+  "originalPx": [
+   800,
+   1200
+  ],
+  "originalSha256": "f808e03e804761a046ae41ac77bcd12d214d358bf65c1bb9d54a37012c5272dc",
+  "webPx": [
+   772,
+   1158
+  ],
+  "scale": 0.965,
+  "quality": 0.92,
+  "dpr": 3.0,
+  "kept": true,
+  "web": "showcase/screens/assets/images-web/8ced0.webp",
+  "webBytes": 80844,
+  "webSha256": "3ca0ac94ed504b7d3eefa172b34b980fe85403948d87329554f3b615e2e8a1f8"
+ },
+ "90500": {
+  "original": "showcase/screens/assets/images/90500.png",
+  "originalBytes": 2447451,
+  "originalPx": [
+   848,
+   1130
+  ],
+  "originalSha256": "4d8dd6b3dd594fed4eaea6b434492d44ce665db7ce14c0325e03a77c87fbda52",
+  "webPx": [
+   259,
+   345
+  ],
+  "scale": 0.2763,
+  "quality": 0.92,
+  "dpr": 3.0,
+  "kept": true,
+  "web": "showcase/screens/assets/images-web/90500.webp",
+  "webBytes": 29070,
+  "webSha256": "1c7682be7b0608bc6b7794f99641397fc453cf7e5a821a7448599b06f5e24cb7"
+ },
+ "94028": {
+  "original": "showcase/screens/assets/images/94028.png",
+  "originalBytes": 781136,
+  "originalPx": [
+   800,
+   1200
+  ],
+  "originalSha256": "3ce67b73b7f6f0ae67637e2eac7b5ffb8b0361bce118f166dd9d371cc942ffac",
+  "webPx": [
+   800,
+   1200
+  ],
+  "scale": 1.0,
+  "quality": 0.92,
+  "dpr": 3.0,
+  "kept": true,
+  "web": "showcase/screens/assets/images-web/94028.webp",
+  "webBytes": 64734,
+  "webSha256": "621721dc7308dd15bd4c457376a2885bd2f8bc1841c7e57cf8707847632e84c7"
+ },
+ "9b5e5": {
+  "original": "showcase/screens/assets/images/9b5e5.png",
+  "originalBytes": 6643169,
+  "originalPx": [
+   2048,
+   2730
+  ],
+  "originalSha256": "3b30118b2d806ccadaa3cce7c73ef9dcda84a3a8b83327b8e1cc5e21fe10102e",
+  "webPx": [
+   580,
+   773
+  ],
+  "scale": 0.2714,
+  "quality": 0.92,
+  "dpr": 3.0,
+  "kept": true,
+  "web": "showcase/screens/assets/images-web/9b5e5.webp",
+  "webBytes": 80948,
+  "webSha256": "f429b95d7e5df2aee5661dd4ecbd3db864fe0306f98bd1e0165e2504924fe09d"
+ },
+ "9b8bc": {
+  "original": "showcase/screens/assets/images/9b8bc.png",
+  "originalBytes": 904698,
+  "originalPx": [
+   800,
+   1332
+  ],
+  "originalSha256": "9310adc50d7c1e8b947068a95896b8b23890c023da5b201c71dcb3d34c90c279",
+  "webPx": [
+   185,
+   308
+  ],
+  "scale": 0.2024,
+  "quality": 0.92,
+  "dpr": 3.0,
+  "kept": true,
+  "web": "showcase/screens/assets/images-web/9b8bc.webp",
+  "webBytes": 10644,
+  "webSha256": "b8557c0fd22e9b2ed81a0968e379d465cc02b694797f1ea5119697724a02f3be"
+ },
+ "a5d09": {
+  "original": "showcase/screens/assets/images/a5d09.png",
+  "originalBytes": 665592,
+  "originalPx": [
+   800,
+   1200
+  ],
+  "originalSha256": "d90159ac4c0ab361862f03990aba74a7f06b2737344735e1bff015bdaaddd43e",
+  "webPx": [
+   800,
+   1200
+  ],
+  "scale": 1.0,
+  "quality": 0.92,
+  "dpr": 3.0,
+  "kept": true,
+  "web": "showcase/screens/assets/images-web/a5d09.webp",
+  "webBytes": 53924,
+  "webSha256": "0671491a088c830b2e902c57c8f1c5bde4a5e3f294fccb75f564b25a079e9bb4"
+ },
+ "aa915": {
+  "original": "showcase/screens/assets/images/aa915.png",
+  "originalBytes": 2656498,
+  "originalPx": [
+   848,
+   1131
+  ],
+  "originalSha256": "057a05e20d33cafe9aaf38ed15884c9e9df027052de668c9e5b78e5197c71e90",
+  "webPx": [
+   554,
+   739
+  ],
+  "scale": 0.6257,
+  "quality": 0.92,
+  "dpr": 3.0,
+  "kept": true,
+  "web": "showcase/screens/assets/images-web/aa915.webp",
+  "webBytes": 133922,
+  "webSha256": "ba11c2aaa79a4c09a96bffe87d7252d8473386a2d3ffb6aefcb1afc506311b7f"
+ },
+ "b1e96": {
+  "original": "showcase/screens/assets/images/b1e96.png",
+  "originalBytes": 6237976,
+  "originalPx": [
+   2048,
+   2732
+  ],
+  "originalSha256": "fa60696fcd72ec493850ddb6e93fc0252bf8e4289e3719528db97ae6f2e41cf4",
+  "webPx": [
+   557,
+   743
+  ],
+  "scale": 0.2712,
+  "quality": 0.92,
+  "dpr": 3.0,
+  "kept": true,
+  "web": "showcase/screens/assets/images-web/b1e96.webp",
+  "webBytes": 60044,
+  "webSha256": "4c42ca5538f47385528fdaf20cdaaadcb638e3c5aec14e6a06824b24d1cbdbe1"
+ },
+ "ba181": {
+  "original": "showcase/screens/assets/images/ba181.png",
+  "originalBytes": 4688353,
+  "originalPx": [
+   1600,
+   2664
+  ],
+  "originalSha256": "5ee5a174fd1b92b13fc8dd7a1c22e62221cf3ed0b59aa52ca5618e7933883367",
+  "webPx": [
+   191,
+   318
+  ],
+  "scale": 0.105,
+  "quality": 0.92,
+  "dpr": 3.0,
+  "kept": true,
+  "web": "showcase/screens/assets/images-web/ba181.webp",
+  "webBytes": 8054,
+  "webSha256": "997e2ea4e4dc961a8a48884587abcd036cb3f4f9b42e016e6866acc744547b8a"
+ },
+ "bcdd6": {
+  "original": "showcase/screens/assets/images/bcdd6.jpg",
+  "originalBytes": 206414,
+  "originalPx": [
+   896,
+   1195
+  ],
+  "originalSha256": "b0e5b948194da67cb98c2cb56c3a49f45be574d95a368cb71d6e59b276105e58",
+  "webPx": [
+   189,
+   252
+  ],
+  "scale": 0.2105,
+  "quality": 0.92,
+  "dpr": 3.0,
+  "kept": true,
+  "web": "showcase/screens/assets/images-web/bcdd6.webp",
+  "webBytes": 19578,
+  "webSha256": "e9a1acd63c43c68d6269274eb42beab860e95cb3de8ad1726b969adaea5c4aee"
+ },
+ "cde73": {
+  "original": "showcase/screens/assets/images/cde73.png",
+  "originalBytes": 4860392,
+  "originalPx": [
+   1600,
+   2664
+  ],
+  "originalSha256": "5a665153dd68edd042a15b6790fac3a222c9e5fa1f366c4c142164978c03e949",
+  "webPx": [
+   179,
+   298
+  ],
+  "scale": 0.098,
+  "quality": 0.92,
+  "dpr": 3.0,
+  "kept": true,
+  "web": "showcase/screens/assets/images-web/cde73.webp",
+  "webBytes": 8914,
+  "webSha256": "20afd6e7d98460d9f9de0609abc7a7af40b888db41a36b675076886c34665189"
+ },
+ "d4119": {
+  "original": "showcase/screens/assets/images/d4119.png",
+  "originalBytes": 594706,
+  "originalPx": [
+   800,
+   1200
+  ],
+  "originalSha256": "b18236fb165c06810fcf0e5ba40e08b210bb95b064888f7780566ff5342c617f",
+  "webPx": [
+   772,
+   1158
+  ],
+  "scale": 0.965,
+  "quality": 0.92,
+  "dpr": 3.0,
+  "kept": true,
+  "web": "showcase/screens/assets/images-web/d4119.webp",
+  "webBytes": 45628,
+  "webSha256": "596e6fceb74a08d0b9fb3d76af151ada6c2b05cbae96c3c678b242da7f52ff2a"
+ },
+ "dccd6": {
+  "original": "showcase/screens/assets/images/dccd6.png",
+  "originalBytes": 784836,
+  "originalPx": [
+   800,
+   1200
+  ],
+  "originalSha256": "c116b8f11b2631cfe52ea367d34bd3f129a749dd477960ce3de5dcd892b98084",
+  "webPx": [
+   318,
+   477
+  ],
+  "scale": 0.3975,
+  "quality": 0.92,
+  "dpr": 3.0,
+  "kept": true,
+  "web": "showcase/screens/assets/images-web/dccd6.webp",
+  "webBytes": 16640,
+  "webSha256": "913093888767f7737209ceef6e8e8ff64316fab784da7afcc310239a9513442c"
+ },
+ "f0b93": {
+  "original": "showcase/screens/assets/images/f0b93.png",
+  "originalBytes": 2251686,
+  "originalPx": [
+   1967,
+   1195
+  ],
+  "originalSha256": "ba80d7d9987b51d18f40ddfd83885b82e5808c5a226e27f31a7c08178daf2be7",
+  "webPx": [
+   400,
+   243
+  ],
+  "scale": 0.1936,
+  "quality": 0.92,
+  "dpr": 3.0,
+  "kept": true,
+  "web": "showcase/screens/assets/images-web/f0b93.webp",
+  "webBytes": 23588,
+  "webSha256": "9a6b8dc1c76055b855dca57757a7a3cca2377e8be73db9875d54c4e245d63120"
+ },
+ "f5d4e": {
+  "original": "showcase/screens/assets/images/f5d4e.png",
+  "originalBytes": 712396,
+  "originalPx": [
+   800,
+   1200
+  ],
+  "originalSha256": "606b586651ea317cfdcf77e243439a9b3c23c5bd4aed1bbc454caf2a63edae67",
+  "webPx": [
+   318,
+   477
+  ],
+  "scale": 0.3975,
+  "quality": 0.92,
+  "dpr": 3.0,
+  "kept": true,
+  "web": "showcase/screens/assets/images-web/f5d4e.webp",
+  "webBytes": 15768,
+  "webSha256": "23861ad5e1fe1129d4335917c0fcaef4e3949012c22acf8dd3633ef129b529e2"
+ },
+ "f8cdd": {
+  "original": "showcase/screens/assets/images/f8cdd.png",
+  "originalBytes": 1681882,
+  "originalPx": [
+   3456,
+   2234
+  ],
+  "originalSha256": "e96c9e59023513f1ec9c4e76b21bda0fe13de721415e03424f35749570e345ef",
+  "webPx": [
+   3456,
+   2234
+  ],
+  "scale": 1.0,
+  "quality": 0.92,
+  "dpr": 3.0,
+  "kept": true,
+  "web": "showcase/screens/assets/images-web/f8cdd.webp",
+  "webBytes": 409990,
+  "webSha256": "8418e98b5d924dc35a20c999c84e45eae0a0c2af7d1b6407f4ea47b0be36e8e2"
+ },
+ "62f2c": {
+  "original": "showcase/screens/assets/images/62f2c.png",
+  "originalBytes": 9049395,
+  "originalPx": [
+   2048,
+   2732
+  ],
+  "originalSha256": "09d6a2de7178bb830e5bae874eb175c105a9121ccf7d792bae0fac6f49ccd8ac",
+  "webPx": [
+   743,
+   991
+  ],
+  "scale": 0.3617,
+  "quality": 0.97,
+  "dpr": 4.0,
+  "kept": true,
+  "web": "showcase/screens/assets/images-web/62f2c.webp",
+  "webBytes": 281792,
+  "webSha256": "90de57530f9b99c8d62f9bbbed553c7c2c15a626a498d1a779ca7e08b1aa359a"
+ },
+ "bf527": {
+  "original": "showcase/screens/assets/images/bf527.jpg",
+  "originalBytes": 225707,
+  "originalPx": [
+   896,
+   1195
+  ],
+  "originalSha256": "48d148f2a00493a02df1d5ad73b42f1c7181376411f01bb420dc0cbd068eed9d",
+  "webPx": [
+   387,
+   516
+  ],
+  "scale": 0.4313,
+  "quality": 0.97,
+  "dpr": 4.0,
+  "kept": true,
+  "web": "showcase/screens/assets/images-web/bf527.webp",
+  "webBytes": 90862,
+  "webSha256": "a1279a5ce44dc3ac89e0e8ac79026dc7df1b3e0125802a27f892fa9639307480"
+ }
+}

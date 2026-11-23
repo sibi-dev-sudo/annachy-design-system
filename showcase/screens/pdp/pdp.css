@@ -1,0 +1,366 @@
+/*
+ * Annachy — PDP screens (Figma page "② PDP" 581:11523, file rM3ixSG6i3DFfKZFWuxzs4).
+ * Static reproduction. Class prefix: scr-. Library components come from src/annachy.css (cascade layers),
+ * so the unlayered rules below win where a Figma instance override has to be reproduced.
+ * Values: R1 tokens where a Figma value equals a token; otherwise the literal Figma value with the node id.
+ * Typography uses the render stack (Proxima Nova is not licensed locally, D-06): text widths differ from Figma.
+ */
+
+/* ------------------------------------------------------------------ page + frame */
+.scr-page { margin: 0; padding: 0; background: var(--annachy-color-background-primary); }
+.scr-frame {
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+  flex: none;
+  font-family: var(--annachy-base-font-family-render);
+  letter-spacing: var(--annachy-font-letter-spacing);
+  color: var(--annachy-color-text-primary);
+}
+.scr-frame *, .scr-frame *::before, .scr-frame *::after { box-sizing: border-box; }
+.scr-frame p { margin: 0; }
+.scr-abs { position: absolute; }
+.scr-row { display: flex; flex-direction: row; align-items: center; }
+.scr-col { display: flex; flex-direction: column; align-items: flex-start; }
+.scr-nowrap { white-space: nowrap; }
+.scr-clip { overflow: hidden; }
+.scr-ellipsis { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.scr-strike { text-decoration: line-through; }
+.scr-transparent { color: transparent; }   /* Figma text fill is transparent (1280:10543, 1280:10617, 1201:9803) */
+
+/* ------------------------------------------------------------------ asset placeholders
+ * Images / icons / logos without an approved export (R7 icons, R10 vectors and R11 images are filled; see the rules at the
+ * end of this file) are empty elements sized exactly
+ * to its Figma layer. The fill / dashed outline below is placeholder chrome only, not a Figma value. */
+.scr-asset { display: block; flex: none; position: relative; }
+.scr-asset[data-asset="image"] { background: var(--annachy-color-background-tertiary); }
+.scr-asset[data-asset="icon"], .scr-asset[data-asset="logo"] { box-shadow: inset 0 0 0 1px var(--annachy-color-border-secondary); }
+
+/* ------------------------------------------------------------------ typography (render stack)
+ * Name = Figma text style; value = R1 token unless noted. */
+.scr-t-h3b    { font-size: var(--annachy-type-h3-bold-font-size); line-height: var(--annachy-type-h3-bold-line-height); font-weight: var(--annachy-type-h3-bold-font-weight); }        /* Heading/H3/Bold 26/34 */
+.scr-t-h5b    { font-size: var(--annachy-type-h5-font-size); line-height: var(--annachy-type-h5-line-height); font-weight: var(--annachy-font-weight-bold); }                       /* Heading-small/H5/Bold 20/24 700 */
+.scr-t-h6s    { font-size: var(--annachy-type-h6-font-size); line-height: var(--annachy-type-h6-line-height); font-weight: var(--annachy-type-h6-font-weight); }                   /* Heading/H6/Semibold 18/20 */
+.scr-t-h6b    { font-size: var(--annachy-type-h7-font-size); line-height: var(--annachy-type-h7-line-height); font-weight: var(--annachy-font-weight-bold); }                       /* Heading-small/H6/Bold 16/18 700 */
+.scr-t-h7s    { font-size: var(--annachy-type-h7-font-size); line-height: var(--annachy-type-h7-line-height); font-weight: var(--annachy-type-h7-font-weight); }                   /* Heading/H7/Semibold 16/18 */
+.scr-t-h8b    { font-size: var(--annachy-type-h8-font-size); line-height: var(--annachy-type-h8-line-height); font-weight: var(--annachy-type-h8-font-weight); }                   /* Heading-small/Caption/Bold 14/18 700 */
+.scr-t-sb12   { font-size: var(--annachy-type-body-xs-semibold-font-size); line-height: var(--annachy-type-body-xs-semibold-line-height); font-weight: var(--annachy-font-weight-bold); } /* Heading-small/Small-content/Bold 12/18 700 */
+.scr-t-s14sb  { font-size: var(--annachy-type-body-s-semibold-font-size); line-height: var(--annachy-type-body-s-semibold-line-height); font-weight: var(--annachy-type-body-s-semibold-font-weight); } /* Body/XS-Semibold (Figma 14/18 600) */
+.scr-t-bm     { font-size: var(--annachy-type-body-m-font-size); line-height: var(--annachy-type-body-m-line-height); font-weight: var(--annachy-type-body-m-font-weight); }       /* Body/M 16/24 */
+.scr-t-bs     { font-size: var(--annachy-type-body-s-font-size); line-height: var(--annachy-type-body-s-line-height); font-weight: var(--annachy-type-body-s-font-weight); }       /* Body/S 14/20 */
+.scr-t-bsm    { font-size: var(--annachy-type-body-s-medium-font-size); line-height: var(--annachy-type-body-s-medium-line-height); font-weight: var(--annachy-type-body-s-medium-font-weight); } /* Body/S-Medium 14/20 */
+.scr-t-bxs    { font-size: var(--annachy-type-body-xs-font-size); line-height: var(--annachy-type-body-xs-line-height); font-weight: var(--annachy-type-body-xs-font-weight); }     /* Body/XS 12/18 500 */
+.scr-t-bxxss  { font-size: var(--annachy-type-body-xs-semibold-font-size); line-height: var(--annachy-type-body-xs-semibold-line-height); font-weight: var(--annachy-type-body-xs-semibold-font-weight); } /* Body/XXS-Semibold (Figma 12/18 600) */
+.scr-t-micro  { font-size: var(--annachy-type-body-micro-font-size); line-height: var(--annachy-type-body-micro-line-height); font-weight: var(--annachy-type-body-micro-font-weight); } /* Body/Micro 8/12 600 */
+.scr-t-lm     { font-size: var(--annachy-type-label-medium-font-size); line-height: var(--annachy-type-label-medium-line-height); font-weight: var(--annachy-type-label-medium-font-weight); } /* Label/Medium 16/21 */
+.scr-t-lxs    { font-size: var(--annachy-type-label-xsmall-font-size); line-height: var(--annachy-type-label-xsmall-line-height); font-weight: var(--annachy-type-label-xsmall-font-weight); } /* Label/XSmall 12/17 400 */
+.scr-t-cxs    { font-size: var(--annachy-type-caption-xsmall-font-size); line-height: var(--annachy-type-caption-xsmall-line-height); font-weight: var(--annachy-type-caption-xsmall-font-weight); } /* Caption/XSmall 10/14 400 */
+
+/* ------------------------------------------------------------------ literal Figma colours (no R1 token) */
+.scr-c-ink    { color: #18191a; }                 /* 1280:10512 et al. */
+.scr-c-ink2   { color: #222426; }                 /* 1280:10425, 1280:10623 */
+.scr-c-grey   { color: #4c555c; }                 /* 1280:10481, I1280:10517;1548:30753 */
+.scr-c-grey2  { color: #575d62; }                 /* 1280:10690 */
+.scr-c-green  { color: #027a48; }                 /* 1280:10431, 1201:9824 */
+.scr-c-link   { color: #005aaa; }                 /* 1280:10501, I1280:10446;1546:27138 */
+.scr-c-mrp    { color: rgba(110, 118, 124, 0.7); } /* 1280:10430, 1201:9821 */
+.scr-c-white  { color: var(--annachy-color-text-white); }
+
+/* ------------------------------------------------------------------ shared pieces */
+/* Watchlist / Icons Frame 40×40 (1280:10401, 1280:10417): fill #fafdff, 1px #edeff0, radius 8, "Icons Shadow" */
+.scr-iconbtn {
+  position: relative; flex: none; display: flex; align-items: center; justify-content: center;
+  inline-size: 40px; block-size: 40px; overflow: hidden;
+  background: #fafdff; border: 1px solid #edeff0; border-radius: var(--annachy-radius-8);
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.01), 0 0 3px 0 rgba(0, 0, 0, 0.05), 0 0 2px 0 rgba(0, 0, 0, 0.18);
+}
+/* Nav icon frames 42×42, transparent fill rgba(250,253,255,0) (1280:10774) */
+.scr-navicon { position: relative; flex: none; display: flex; align-items: center; justify-content: center; inline-size: 42px; block-size: 42px; overflow: hidden; }
+/* Top Nav Bar (1280:10773 / 1201:9774): white, border-b #e0e2e4, px16 py8 */
+.scr-topnav {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 8px 16px; background: #fff; border-bottom: 1px solid #e0e2e4;
+}
+.scr-topnav__right { display: flex; align-items: center; gap: 8px; }   /* 1280:10777 */
+
+/* Review badge "Review /BT/ BIG" (I1280:10408;1528:26138, 1201:9796) */
+.scr-review { display: flex; align-items: center; inline-size: 53px; block-size: 28px; overflow: hidden; background: #eff1f0; border: 1px solid #d0d1d2; border-radius: var(--annachy-radius-8); }
+.scr-review__score { flex: none; display: flex; flex-direction: column; justify-content: center; align-items: center; block-size: 28px; padding: 4px 6px; overflow: hidden; background: #027a48; border: 1px solid #d0d1d2; border-radius: var(--annachy-radius-8); color: #f7f7f7; }
+.scr-review__in { display: flex; align-items: center; gap: 2px; }
+.scr-review__count { flex: none; display: flex; flex-direction: column; justify-content: center; block-size: 28px; padding: 0 6px; background: #eff1f0; }
+
+/* Icon box 42 with gradient (1280:10452, 1280:10663, 1280:10680) */
+.scr-ibox {
+  position: relative; flex: none; inline-size: 42px; block-size: 42px; overflow: hidden;
+  border: 1px solid #def0ff; border-radius: 9px;   /* radius 9: no R1 token */
+  background-image: linear-gradient(162.8596516811475deg, rgb(220, 238, 253) 18.401%, rgb(240, 248, 255) 88.214%);
+}
+
+/* Bonus Coins - Card (1280:10433 / 1201:9826) */
+.scr-bonus {
+  display: flex; align-items: center; justify-content: center; padding: 4px;
+  border: 1px solid #d17515; border-radius: var(--annachy-radius-4);
+  background-image: linear-gradient(110.40307283154195deg, rgb(220, 104, 3) 98.385%, rgb(249, 174, 60) 179.9%);
+}
+.scr-bonus__in { flex: 1 0 0; min-inline-size: 1px; display: flex; align-items: center; gap: 4px; padding: 0 10px; }
+.scr-bonus__txt { flex: 1 0 0; min-inline-size: 1px; color: #fff; }
+
+/* ================================================================== Desktop /BG Colours 605:17532 */
+.scr-desktop { inline-size: 1440px; block-size: 1024px; background: var(--annachy-color-background-primary); border: 1px solid #c0c5d2; border-radius: 12px; }  /* 605:17532 stroke #c0c5d2, radius 12 */
+.scr-desktop__shot { left: -1px; top: 45px; }                                   /* 605:17525 at 0,46 (inside the 1px stroke) */
+.scr-desktop__btn26 { left: 1075px; top: 857px; inline-size: 191px; block-size: 26px; display: flex; align-items: center; justify-content: center; padding: 10px; background: #ffe11a; color: #000; } /* 605:17549 */
+
+/* ================================================================== Mobile 1171:9676 */
+.scr-mobile { inline-size: 360px; block-size: 1536px; background: var(--annachy-color-background-primary); border: 1px solid #c0c5d2; border-radius: 10px; }  /* 1171:9676 */
+/* children: Figma frame coordinates minus the 1px stroke (absolute boxes are laid out in the padding box) */
+.scr-m-status { left: -1px; top: -1px; inline-size: 360px; block-size: 35px; display: flex; align-items: flex-end; justify-content: space-between; padding: 0 16px 10px; background: #fff; } /* 1171:9680 */
+.scr-m-time { display: flex; align-items: flex-end; gap: 8px; }                    /* 1171:9681 */
+.scr-m-clock { inline-size: 51px; block-size: 17px; font-size: var(--annachy-type-body-xs-semibold-font-size); line-height: var(--annachy-type-body-xs-semibold-line-height); font-weight: var(--annachy-font-weight-semibold); color: var(--annachy-color-blue-black-700); text-align: center; white-space: nowrap; } /* 1171:9685 12/18 semibold, Brand/Blue-Black/700 */
+.scr-m-icons { position: relative; inline-size: 46px; block-size: 18px; }          /* 1171:9686 */
+.scr-m-image { left: -1px; top: 92px; inline-size: 360px; block-size: 525px; overflow: hidden; background: #fff; } /* 1201:9771 */
+.scr-m-image > .scr-asset { position: absolute; left: -17.76458740234375px; top: 0; }  /* 1201:9772 */
+.scr-m-nav { left: -1px; top: 34px; inline-size: 360px; block-size: 58px; }     /* 1201:9774 */
+.scr-m-like { left: -1px; top: 550px; inline-size: 360px; block-size: 40px; display: flex; align-items: center; justify-content: space-between; padding: 0 16px; } /* 1201:9787 */
+.scr-m-offline { left: 15px; top: 646px; inline-size: 151px; block-size: 18px; display: flex; align-items: center; color: var(--annachy-color-blue-600); } /* 1201:9839, Brand/Blue/600 */
+.scr-m-title { left: 15px; top: 676px; inline-size: 328px; block-size: 18px; color: var(--annachy-color-text-primary); } /* 1201:9815 */
+.scr-m-price { left: 15px; top: 702px; inline-size: 158px; block-size: 34px; display: flex; align-items: center; gap: 5px; white-space: nowrap; } /* 1201:9848 */
+.scr-m-off { left: 190px; top: 702px; inline-size: 123px; block-size: 34px; white-space: nowrap; }   /* 1201:9824 */
+.scr-m-tax { left: 15px; top: 730px; inline-size: 328px; block-size: 20px; }      /* 1201:9825 */
+.scr-m-bonus { left: 15px; top: 762px; inline-size: 328px; block-size: 32px; background-image: linear-gradient(108.67299281800854deg, rgb(220, 104, 3) 98.385%, rgb(249, 174, 60) 179.9%); } /* 1201:9826 */
+.scr-m-bonus .scr-bonus__txt { font-size: var(--annachy-type-body-s-font-size); line-height: var(--annachy-type-body-s-line-height); font-weight: var(--annachy-font-weight-semibold); letter-spacing: 0.42px; } /* 1201:9834 Inter Semi Bold 14/20 +0.42 (Inter not available: render stack) */
+.scr-m-review .scr-review__score { font-size: 14px; line-height: 14px; font-weight: var(--annachy-font-weight-bold); }  /* 1201:9799 Inter Bold 14/14 */
+.scr-m-home { left: -1px; top: 1520px; inline-size: 360px; block-size: 15px; background: #0b0d0f; } /* 1171:9677/9678 Background/Inverse #0b0d0f (no R1 token) */
+.scr-m-home__ind { position: absolute; left: 111px; top: 6px; inline-size: 139px; block-size: 3px; border-radius: 100px; background: var(--annachy-color-background-primary); } /* 1171:9679 (rotated 180°, visual x 111) */
+
+/* ================================================================== PDP V1 1280:10398 */
+.scr-pdp { inline-size: 393px; block-size: 4683px; background: var(--annachy-color-background-primary); } /* root fill not returned by Figma for this frame — see README */
+.scr-p-topnav { left: 0; top: 0; inline-size: 393px; block-size: 97px; }        /* 1280:10770 */
+.scr-p-phonebar { block-size: 40px; background: #fff; }                         /* 1280:10771 */
+.scr-p-topnav .scr-topnav { position: absolute; left: 0; top: 39px; inline-size: 393px; block-size: 58px; }  /* 1280:10773 */
+.scr-p-hero { left: 0; top: 98px; }                                              /* 1280:10399 */
+.scr-p-like { left: 0; top: 551px; inline-size: 393px; block-size: 40px; display: flex; align-items: center; justify-content: space-between; padding: 0 16px; } /* 1280:10400 */
+.scr-p-side { left: 337px; top: 122px; inline-size: 40px; block-size: 96px; display: flex; flex-direction: column; gap: 16px; } /* 1280:10409 */
+.scr-p-side .annachy-button { inline-size: 40px; padding: 12px; }                /* 1283:2695 instance: width 40, p 12 */
+.scr-p-review .scr-review__score { font-size: var(--annachy-type-h8-font-size); line-height: var(--annachy-type-h8-line-height); font-weight: var(--annachy-type-h8-font-weight); }
+
+/* Product info 1280:10418 */
+.scr-p-info { left: 16px; top: 647px; inline-size: 361px; block-size: 132px; display: flex; flex-direction: column; gap: 10px; }
+.scr-p-info__head { block-size: 90px; display: flex; flex-direction: column; gap: 4px; inline-size: 100%; }   /* 1280:10419 */
+.scr-p-offline { display: flex; align-items: center; gap: 2px; block-size: 20px; color: var(--annachy-color-blue-500); }   /* 1280:10420/10421 Brand/Blue/500 */
+.scr-p-info__body { display: flex; flex-direction: column; gap: 2px; inline-size: 100%; block-size: 66px; }   /* 1280:10424 */
+.scr-p-info__title { block-size: 21px; }                                                                      /* 1280:10425 */
+.scr-p-info__prices { display: flex; flex-direction: column; gap: 2px; block-size: 43px; }                     /* 1280:10426 */
+.scr-p-info__pricerow { display: flex; align-items: center; gap: 12px; block-size: 24px; }                    /* 1280:10427 */
+.scr-p-info__now { display: flex; align-items: center; gap: 5px; }                                            /* 1280:10428 */
+.scr-p-info__price { inline-size: 63px; block-size: 20px; overflow: visible; white-space: nowrap; }            /* 1280:10429 */
+.scr-p-info__mrp { font-size: 15px; line-height: 24px; font-weight: var(--annachy-font-weight-regular); }    /* 1280:10430 Proxima Regular 15/24 (no token) */
+.scr-p-info__tax { block-size: 17px; }                                                                       /* 1280:10432 */
+.scr-p-bonus { block-size: 32px; inline-size: 361px; }
+
+/* Colour + size 1280:10444 */
+.scr-p-variants { left: 0; top: 797px; inline-size: 393px; block-size: 288px; display: flex; flex-direction: column; align-items: center; gap: 24px; }
+.scr-colours { inline-size: 361px; block-size: 172px; display: flex; align-items: center; }   /* 1280:10445 */
+.scr-colours__in { inline-size: 337px; display: flex; flex-direction: column; gap: 12px; }  /* I1280:10445;1546:26671 */
+.scr-colours__head { display: flex; align-items: flex-end; gap: 2px; white-space: nowrap; block-size: 21px; }
+.scr-colours__cards { display: flex; align-items: center; gap: 12px; }
+.scr-vcard { position: relative; flex: none; inline-size: 75px; block-size: 139px; overflow: hidden; border-radius: 6px; background: #f0f2f3; border: 1px solid rgba(235, 237, 238, 0.6); padding: 0; font: inherit; cursor: pointer; } /* I1280:10445;1539:30180 */
+.scr-vcard--active { border-color: #131415; box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.01), 0 0 3px 0 rgba(0, 0, 0, 0.04), 0 0 2px 0 rgba(0, 0, 0, 0.15), 0 0 2px 0 rgba(0, 0, 0, 0.26), 0 0 1px 0 rgba(0, 0, 0, 0.29); } /* I1280:10445;1539:30179 */
+.scr-vcard__img { position: absolute; left: -0.97px; top: -1.64px; }
+.scr-vcard--active .scr-vcard__img { left: -1.97px; top: -2.64px; }
+.scr-vcard__foot { position: absolute; left: 0; bottom: 0; inline-size: 75px; display: flex; flex-direction: column; align-items: flex-start; padding: 4px 8px 8px; background: #fff; border-top: 1px solid #eeeded; text-align: left; } /* 1010:21647 */
+.scr-vcard--active .scr-vcard__foot { left: -1px; bottom: -1px; }
+.scr-vcard__price { block-size: 17px; inline-size: 100%; color: #18191a; }
+.scr-vcard__mrp { position: relative; block-size: 10px; inline-size: 100%; display: flex; flex-direction: column; justify-content: center; color: #575d62; }  /* 1539:28948 */
+.scr-vcard__mrp::after { content: ""; position: absolute; left: 0; top: 6px; inline-size: 30px; border-top: 1px solid currentColor; } /* Line 122: stroke colour not returned (SVG) — currentColor */
+.scr-vcard__badge { position: absolute; left: -1px; top: 83px; inline-size: 75px; block-size: 16px; display: flex; align-items: center; justify-content: center; padding: 2px 8px; background: #027a48; color: #fefefe; } /* 1010:21645 */
+.scr-sizes { inline-size: 393px; block-size: 92px; display: flex; flex-direction: column; gap: 18px; padding: 0 16px; }   /* 1280:10446 */
+.scr-sizes__head { display: flex; align-items: center; justify-content: space-between; block-size: 18px; }
+.scr-sizes__guide { display: flex; align-items: center; gap: 2px; }
+.scr-sizes__row { display: flex; align-items: center; gap: 14px; }
+.scr-size { position: relative; flex: none; display: flex; flex-direction: column; align-items: center; justify-content: center; block-size: 56px; min-inline-size: 56px; padding: 10px 12px; border: 1px solid rgba(172, 177, 180, 0.5); border-radius: 6px; background: transparent; color: #131415; font: inherit; overflow: hidden; cursor: pointer; } /* 1546:26984 */
+.scr-size--oos { border-color: #f0f0f0; color: #c2c2c2; }                             /* 1546:27436 */
+.scr-size__oos { position: absolute; left: -1px; top: 39px; inline-size: 57px; block-size: 16px; display: flex; align-items: center; justify-content: center; padding: 10px 8px; background: #b42318; border-top: 1px solid rgba(251, 195, 191, 0.86); color: #fff; white-space: nowrap; } /* 1546:27405 */
+.scr-size__strike { position: absolute; left: -1px; top: 1px; }                       /* 1010:22241 diagonal line vector */
+
+/* Delivery 1280:10447 */
+.scr-p-delivery { left: 0; top: 1111px; inline-size: 394px; block-size: 127px; display: flex; flex-direction: column; align-items: center; gap: 18px; }
+.scr-p-delivery .annachy-input { inline-size: 360px; block-size: 71px; flex: none; }          /* 1280:10448 instance: 360×71, clipped */
+.scr-p-delivery .annachy-input__top { block-size: auto; gap: 7px; }                          /* I1280:10448;1066:38864 instance override: gap 7, hug */
+.scr-p-delivery .annachy-input__label { color: var(--annachy-color-blue-black-500); }      /* I1280:10448;1066:38866 Brand/Blue-Black/500 */
+.scr-p-delivery .annachy-input__field { border-radius: var(--annachy-radius-4); } /* I1280:10448;1066:38868 */
+/* Closure fix: the instance's black border applies only while unfocused, so keyboard focus shows the component's Figma
+   Focused border (it was overridden: no visible focus). Default rendering unchanged. */
+.scr-p-delivery .annachy-input:not(:has(.annachy-input__control:focus-visible)) .annachy-input__field { border-color: var(--annachy-color-base-black); }
+.scr-p-delivery .annachy-input__control { color: var(--annachy-color-base-grey); text-overflow: ellipsis; }  /* I1280:10448;1066:38871 */
+.scr-dlv { position: relative; flex: none; inline-size: 394px; block-size: 38px; overflow: hidden; background-image: linear-gradient(3.1871398737867196deg, rgb(58, 111, 247) 13.397%, rgb(23, 70, 162) 86.603%); } /* 1280:10449 */
+.scr-dlv__txt { position: absolute; left: 16px; top: 9px; inline-size: 212px; text-align: right; color: #fff; }   /* I1280:10449;1546:27817 */
+.scr-dlv__car { position: absolute; left: 6px; top: 8px; }
+.scr-dlv__price { position: absolute; left: 264px; top: 9px; inline-size: 114px; block-size: 20px; display: flex; align-items: center; gap: 6px; color: #fff; }  /* I1280:10449;1548:27922 */
+.scr-dlv__mrp { position: relative; color: #dbe1e4; }
+.scr-dlv__mrp::after { content: ""; position: absolute; left: 50%; top: 50%; inline-size: 54px; transform: translate(-50%, -50%); border-top: 1px solid currentColor; } /* I1280:10449;1548:27927 Line 122: colour not returned (SVG) */
+
+/* Services 1280:10450 */
+.scr-p-services { left: 0; top: 1238px; inline-size: 393px; block-size: 231px; display: flex; flex-direction: column; justify-content: center; gap: 24px; padding: 24px 16px; background-image: linear-gradient(to bottom, #fafdff 50.213%, #005aaa 960.47%); } /* 1280:10450 (Figma stops #005aaa@960.47%, #fafdff@50.213% — written in ascending order) */
+.scr-svc { display: flex; gap: 16px; block-size: 45px; inline-size: 361px; }
+.scr-svc--c { align-items: center; }
+.scr-svc--e { align-items: flex-end; }
+.scr-svc__body { flex: 1 0 0; min-inline-size: 1px; display: flex; align-items: center; justify-content: space-between; }
+.scr-svc__text { flex: 1 0 0; min-inline-size: 1px; display: flex; flex-direction: column; gap: 4px; }
+.scr-svc__title { block-size: 20px; }
+.scr-svc__more { display: flex; align-items: center; gap: 2px; }
+.scr-ibox__glyph { position: absolute; inset: calc(22.41% - 0.55px) calc(13.78% - 0.72px) calc(21.91% - 0.56px) calc(11.9% - 0.76px); }   /* 1280:10453 */
+.scr-ibox__glyph--b { inset: calc(21.77% - 0.56px) calc(14.28% - 0.71px) calc(21.24% - 0.58px) calc(12.41% - 0.75px); }                 /* 1280:10467 / 10486 */
+.scr-ibox__glyph--c { inset: calc(21.68% - 0.57px) calc(22.37% - 0.55px) calc(21.17% - 0.58px) calc(20.49% - 0.59px); }                 /* 1280:10664 / 10669 */
+.scr-ibox__glyph--m { inset: 0; margin: auto; }                                                                                        /* 1280:10681 centred 24 */
+
+/* Content wrapper 1280:10506 → 10507 → 10508 */
+.scr-p-content { left: 0; top: 1469px; inline-size: 393px; block-size: 3081.00048828125px; }
+.scr-p-main { position: absolute; left: 16px; top: 30px; inline-size: 361px; block-size: 1969.0006103515625px; }   /* 1280:10509 */
+
+/* Top Highlights 1280:10510 */
+.scr-hl { position: absolute; left: 0; top: 0; inline-size: 361px; block-size: 632.0006103515625px; display: flex; flex-direction: column; gap: 26px; }
+.scr-hl__title { block-size: 24px; }
+.scr-hl__body { inline-size: 362px; display: flex; flex-direction: column; align-items: flex-end; gap: 24px; }     /* 1280:10513 */
+.scr-hl__grid { inline-size: 100%; display: flex; flex-direction: column; gap: 26px; overflow: hidden; }          /* 1280:10514 */
+.scr-hl__group { display: flex; flex-direction: column; gap: 26px; block-size: 250.00030517578125px; }           /* 1280:10515 / 10525 */
+.scr-hl__row { display: flex; align-items: flex-start; justify-content: space-between; block-size: 60.000099182128906px; }
+.scr-hl__row--tall { block-size: 78.0000991821289px; }
+.scr-lab { inline-size: 170px; display: flex; flex-direction: column; gap: 8px; }                                 /* Lab Card */
+.scr-lab__head { inline-size: 100%; block-size: 34px; display: flex; align-items: center; gap: 4px; padding: 0 8px; background: #f5faff; } /* 1548:30745 */
+.scr-lab__name { inline-size: 124.788px; color: #18191a; }
+.scr-lab__val { inline-size: 100%; padding: 0 6px; color: #4c555c; max-block-size: 36px; overflow: hidden; }   /* 1548:30752 (2 lines in Figma) */
+.scr-lab__val--fit { color: #525a61; }                                                                            /* I1280:10518;1548:30753 */
+
+/* Product Information 1280:10536 */
+.scr-pi { position: absolute; left: 0; top: 668.0006103515625px; inline-size: 361px; block-size: 1301px; display: flex; flex-direction: column; gap: 26px; }
+.scr-pi__title { block-size: 24px; }
+.scr-pi__list { display: flex; flex-direction: column; gap: 18px; inline-size: 100%; }   /* 1280:10538 */
+.scr-pds { inline-size: 362px; block-size: 688px; padding-bottom: 18px; border-bottom: 1px solid #e5e7e8; }   /* 1280:10539 */
+.scr-pds__in { position: relative; inline-size: 362px; block-size: 670px; display: flex; flex-direction: column; gap: 8px; }  /* 1280:10540/10542 */
+.scr-line { display: block; inline-size: 100%; block-size: 0; border-top: 1px solid #e5e7e8; flex: none; }   /* Line 137/143 vectors: stroke colour not returned (SVG); #e5e7e8 from 1280:10539 border — unverified */
+.scr-pds__in > .scr-line:first-child { position: absolute; left: 0; top: 0; }
+.scr-sechead { display: flex; flex-direction: column; gap: 8px; inline-size: 100%; block-size: 32px; }  /* Product Details Sections header 1280:10543 / 10617 */
+.scr-sechead__row { display: flex; align-items: flex-start; justify-content: space-between; block-size: 24px; overflow: visible; }
+.scr-sechead__text { inline-size: 236px; display: flex; flex-direction: column; gap: 10px; }
+.scr-sechead__sub { block-size: 22px; }
+.scr-tabs { display: flex; align-items: center; gap: 12px; block-size: 36px; inline-size: 100%; overflow: hidden; }   /* 1280:10545 */
+.scr-tabs .annachy-button { flex: none; }
+.scr-tab--dark { --_button-bg: var(--annachy-color-base-black); }   /* 1280:10546 instance: fill Brand/Base/Black, label Primary/Content/Default */
+.scr-pds__body { display: flex; flex-direction: column; gap: 18px; block-size: 630px; }   /* 1280:10544 */
+.scr-pds__specs { display: flex; flex-direction: column; align-items: flex-end; gap: 16px; inline-size: 362px; block-size: 576px; }  /* 1280:10549 */
+.scr-specs { inline-size: 100%; block-size: 528px; display: flex; flex-direction: column; gap: 26px; overflow: hidden; }   /* 1280:10550 */
+.scr-specs__row { display: flex; gap: 20px; align-items: stretch; flex: none; }
+.scr-specs__row--66 { block-size: 66px; }
+.scr-specs__row--48 { block-size: 48px; }
+.scr-spec { inline-size: 172px; flex: none; display: flex; flex-direction: column; gap: 4px; }
+.scr-spec__k { margin: 0; padding: 0 0 0 21px; list-style: disc; color: #18191a; block-size: 20px; }
+.scr-spec__v { flex: 1 0 0; padding: 0 6px 6px; border-bottom: 1px dashed #e5e7e8; color: #4c555c; overflow: hidden; }
+
+/* Rating & Reviews — Component 106 1280:10616 */
+.scr-rr { inline-size: 361px; block-size: 545px; display: flex; flex-direction: column; gap: 12px; }
+.scr-rr__body { position: relative; inline-size: 361px; block-size: 496px; display: flex; flex-direction: column; gap: 18px; }  /* 1280:10618 */
+.scr-rr__slot { block-size: 491px; inline-size: 100%; overflow: hidden; display: flex; flex-direction: column; gap: 24px; }        /* 1280:10619/10620 */
+.scr-rr__top { block-size: 219px; display: flex; flex-direction: column; gap: 20px; }   /* 1280:10621 */
+.scr-rr__summary { display: flex; flex-direction: column; gap: 16px; block-size: 181px; }
+.scr-rbar { display: flex; align-items: center; gap: 16px; block-size: 35px; padding-right: 10px; background: #fff; border: 1px solid #f3f4f4; border-radius: 6px; overflow: hidden; align-self: flex-start; }  /* 1280:10625 */
+.scr-rbar__score { display: flex; align-items: center; justify-content: center; gap: 4.453px; block-size: 35px; padding: 4px 8px; background: #027a48; border-radius: 6px 0 0 6px; color: #f7f7f7; }
+.scr-rbar__meta { inline-size: 173px; display: flex; align-items: center; justify-content: center; gap: 8px; color: #3a4044; }
+.scr-rbar__sep { inline-size: 0; block-size: 18px; border-left: 1px solid #e5e7e8; }   /* Line 142: colour not returned (SVG) — unverified */
+.scr-media { display: flex; gap: 8px; block-size: 130px; inline-size: 100%; }      /* 1280:10634 */
+.scr-media__tile { position: relative; flex: 1 0 0; min-inline-size: 1px; overflow: hidden; border: 1px solid #f1f1f1; border-radius: 6px; }
+.scr-media__col { flex: 1 0 0; min-inline-size: 1px; display: flex; flex-direction: column; gap: 8px; }
+.scr-media__col .scr-media__tile { flex: 1 0 0; min-block-size: 1px; inline-size: 100%; }
+.scr-media__veil { position: absolute; left: -2px; top: -2px; inline-size: 180px; block-size: 65px; background: rgba(22, 24, 25, 0.8); }   /* Rectangle 1954 1280:10641/10650 */
+.scr-media__more { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; gap: 2px; color: #f2f8fc; }
+.scr-rr__reviews { block-size: 248px; display: flex; flex-direction: column; gap: 16px; }   /* 1280:10655 */
+.scr-rev { block-size: 186px; inline-size: 100%; display: flex; flex-direction: column; gap: 20px; padding: 8px 0; overflow: hidden; }   /* 1280:10656 */
+.scr-rev__top { display: flex; flex-direction: column; gap: 16px; }
+.scr-rev__meta { display: flex; flex-direction: column; gap: 14px; }
+.scr-rev__line1 { display: flex; align-items: center; justify-content: space-between; }
+.scr-rev__score { position: relative; inline-size: 57px; block-size: 26px; display: flex; align-items: center; justify-content: center; gap: 4.453px; background: #027a48; border: 1.113px solid #eaebec; border-radius: 6.679px; color: #f7f7f7; overflow: hidden; }
+.scr-rev__date { inline-size: 73px; color: #999fa3; }
+.scr-rev__cards { display: flex; gap: 8px; align-items: center; }
+.scr-rcard { position: relative; display: flex; align-items: center; gap: 6px; block-size: 26px; padding: 2px 6px; border: 1px solid #f3f4f5; border-radius: 4px; overflow: hidden; white-space: nowrap; }  /* Rating Card */
+.scr-rcard__bar { position: absolute; left: -1px; top: 22px; block-size: 2px; background: #027a48; }
+.scr-rcard__bar--low { background: #e6190a; }
+.scr-rev__text { color: #4c555c; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.scr-rev__user { display: flex; align-items: center; justify-content: space-between; }
+.scr-rev__who { display: flex; align-items: center; gap: 4px; }
+.scr-avatar { inline-size: 24px; block-size: 24px; border-radius: 50px; background: #005aaa; color: #fafdff; display: flex; align-items: center; justify-content: center; }
+.scr-helpful { display: flex; align-items: center; gap: 4px; padding: 4px 10px; border: 1px solid #f3f4f5; border-radius: 4px; background: transparent; color: #575d62; font: inherit; cursor: pointer; }
+.scr-rr__body > .scr-line--mid { position: absolute; left: 0; top: 240px; inline-size: 362px; }   /* Line 143 1280:10659 */
+.scr-rr__body > .scr-line--end { position: absolute; left: 0; top: 509px; inline-size: 361px; }   /* Line 137 1280:10658 */
+
+/* Trust + brand 1280:10660 */
+.scr-trust { position: absolute; left: 0; top: 2017.0006103515625px; inline-size: 393px; block-size: 198px; display: flex; flex-direction: column; }
+.scr-trust__row { inline-size: 393px; block-size: 122px; display: flex; align-items: center; justify-content: center; gap: 14px; padding: 20px 16px; border: 1px solid #d7ebfb; background-image: linear-gradient(to bottom, #f6fbff 84.016%, #fff 960.47%); }  /* 1280:10661 (Figma stops white@960.47%, #f6fbff@84.016%) */
+.scr-trust__item { inline-size: 110px; display: flex; flex-direction: column; align-items: center; gap: 8px; text-align: center; color: #464a4e; }
+.scr-brand { inline-size: 393px; block-size: 76px; display: flex; align-items: center; justify-content: center; gap: 20px; padding: 16px; background: rgba(252, 252, 253, 0.98); }  /* 1280:10679 */
+.scr-brand__title { block-size: 20px; color: #1e2022; }
+
+/* Similar products 1280:10694 */
+.scr-similar { position: absolute; left: 0; top: 2239.00048828125px; inline-size: 393px; block-size: 477px; display: flex; flex-direction: column; gap: 18px; padding: 24px 16px; border-top: 1px solid #e4f2fd; background-image: linear-gradient(to bottom, #f5faff 3.445%, #f7fbff 360.96%); }
+.scr-sechd { display: flex; align-items: center; justify-content: space-between; block-size: 40px; inline-size: 100%; flex: none; }
+.scr-similar__row { display: flex; align-items: center; gap: 14px; inline-size: 361px; block-size: 371px; flex: none; }  /* 1280:10698 (cards overflow to x 1288, clipped by the frame) */
+.scr-sp { flex: none; inline-size: 172px; display: flex; flex-direction: column; align-items: center; gap: 8px; }   /* Similar Products- Card */
+.scr-sp__media { position: relative; inline-size: 172px; block-size: 240px; border-radius: 6px; overflow: hidden; }
+.scr-sp__img { position: absolute; left: -7px; top: 1px; }
+.scr-sp__rate { position: absolute; left: 0; bottom: 0; inline-size: 172px; display: flex; flex-direction: column; align-items: flex-end; padding: 15px 10px; }
+.scr-rbt { display: flex; align-items: center; overflow: hidden; background: #eff1f0; border: 1px solid #d0d1d2; border-radius: 5px; }   /* Review BT */
+.scr-rbt__score { display: flex; align-items: center; gap: 2px; padding: 4px 6px; background: #027a48; border: 1px solid #d0d1d2; border-radius: 5px; color: #f7f7f7; }
+.scr-rbt__count { padding: 4px 4px 4px 2px; color: #788186; }
+.scr-wl-s { position: absolute; left: 134px; top: 13px; inline-size: 32px; block-size: 32px; display: flex; align-items: center; justify-content: center; padding: 0; background: #fafdff; border: 0.68px solid #edeff0; border-radius: 6px; overflow: hidden; box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.01), 0 0 3px 0 rgba(0, 0, 0, 0.05), 0 0 2px 0 rgba(0, 0, 0, 0.18); cursor: pointer; }  /* Watchlist/Small Button */
+.scr-sp__info { inline-size: 100%; display: flex; flex-direction: column; gap: 7px; padding: 0 3px; }
+.scr-sp__tag { opacity: 0.9; color: #18191a; }
+.scr-sp__name { block-size: 19px; color: #4c555c; }
+.scr-sp__prices { display: flex; align-items: center; gap: 4px; }
+.scr-sp__mrp { color: rgba(110, 118, 124, 0.7); }
+.scr-sp__off { inline-size: 62px; color: #027a48; }
+.scr-sp__tax { color: #999fa3; }
+.scr-sp .annachy-button { inline-size: 100%; }
+
+/* New collections 1280:10703 */
+.scr-coll { position: absolute; left: 0; top: 2716.00048828125px; inline-size: 393px; block-size: 365px; display: flex; flex-direction: column; gap: 18px; padding: 24px 16px; border-top: 1px solid #e4f2fd; }
+.scr-coll__arrow { inline-size: 38px; block-size: 38px; display: flex; align-items: center; justify-content: center; border: 1px solid #def0ff; border-radius: 9px; background-image: linear-gradient(162.8596516811475deg, rgb(220, 238, 253) 18.401%, rgb(240, 248, 255) 88.214%); filter: drop-shadow(0 0 1px rgba(0, 0, 0, 0)) drop-shadow(0 0 1px rgba(0, 0, 0, 0.03)); } /* 1280:10706 */
+.scr-coll__row { display: flex; align-items: flex-end; gap: 8px; inline-size: 100%; block-size: 259px; flex: none; }  /* 1280:10709 */
+.scr-ccard { flex: none; inline-size: 195px; block-size: 259px; display: flex; align-items: flex-end; border-radius: 6px; }
+.scr-ccard--short { block-size: 238px; }                                    /* 1280:10723 instance is 195×238 */
+.scr-ccard__in { position: relative; display: flex; gap: 10px; align-items: flex-end; inline-size: 187px; block-size: 238px; }
+.scr-ccard__left { inline-size: 125px; display: flex; flex-direction: column; gap: 10px; }
+.scr-ccard__right { position: relative; inline-size: 52px; display: flex; flex-direction: column; align-items: center; gap: 4px; }
+.scr-tile { position: relative; overflow: hidden; background: #fff; border: 1px solid #edeff0; border-radius: 6px; flex: none; }
+.scr-wl-w { position: absolute; left: 0; top: -39px; inline-size: 52px; block-size: 32px; display: flex; align-items: center; justify-content: center; padding: 0; background: #fafdff; border: 0.85px solid #edeff0; border-radius: 6px; box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.01), 0 0 3px 0 rgba(0, 0, 0, 0.05), 0 0 2px 0 rgba(0, 0, 0, 0.18); cursor: pointer; }  /* Watchlist/ Width Big Button */
+.scr-toplabel { position: absolute; left: 0; top: -21px; inline-size: 125px; block-size: 28px; display: flex; align-items: center; justify-content: center; padding: 8px 6px; border-radius: 6px 6px 0 0; overflow: hidden; color: #18191a; text-align: center; }  /* Top Lablel */
+.scr-toplabel--blue { background: #005aaa; color: #fafdff; text-align: left; }                                                  /* I1280:10723;1519:26199 */
+.scr-toplabel--gold { background-image: radial-gradient(circle 66px at 63px 4.5px, #ffeac1 0%, #ffde9f 50%, #ffd27c 100%); }   /* I1280:10736;1519:26199 (SVG radial r = 10 × 6.6) */
+.scr-toplabel--pale { background-image: radial-gradient(circle 104px at 63px 4.5px, #f6f6f6 0%, #ffeac1 100%); }               /* I1280:10749;1519:26199 (r = 10 × 10.4) */
+.scr-toplabel > p { flex: 1 0 0; min-inline-size: 1px; }
+
+/* Bottom nav 1280:10763 */
+.scr-bnav { left: 0; top: 4563px; inline-size: 393px; block-size: 120px; display: flex; justify-content: center; padding: 32px 16px 40px; background: #fff; border-top: 1px solid rgba(153, 159, 163, 0.2); filter: drop-shadow(-1px -3px 0.5px rgba(24, 25, 26, 0)) drop-shadow(-1px -2px 0.5px rgba(24, 25, 26, 0.01)) drop-shadow(0 -1px 0.5px rgba(24, 25, 26, 0.02)); }  /* 1280:10764 */
+.scr-bnav__row { display: flex; align-items: center; gap: 14px; inline-size: 361px; block-size: 48px; }   /* 1280:10767 */
+.scr-bnav__row > .annachy-button { flex: 1 0 0; min-inline-size: 1px; }                                      /* 1280:10768 fill width (144) */
+.scr-bnav__row > .annachy-button-gradient { flex: none; inline-size: 203px; }                                 /* 1280:10769 */
+.scr-bnav__home { position: absolute; left: 131px; top: 102px; inline-size: 140.4320068359375px; block-size: 5px; border-radius: 100px; background: #000; }  /* 1280:10766 */
+
+/* R7: icon placeholders filled from src/icons (data-annachy-icon) */
+.scr-asset > svg { display: block; inline-size: 100%; block-size: 100%; }
+
+/* R10: structural vectors — original Figma SVGs placed with Figma's own wrapper (inset / rotation); the placeholder keeps
+   its exact Figma node box, its preview styling is removed, and overflow stays visible (e.g. V38's shadow). */
+.scr-asset[data-annachy-vector] { position: relative; overflow: visible; background: transparent; outline: 0; border: 0; box-shadow: none; }
+.scr-vec__inset { position: absolute; display: block; }
+.scr-vec--rotated { position: absolute; left: 50%; top: 50%; display: block; }
+.scr-vec__art { display: block; inline-size: 100%; block-size: 100%; max-inline-size: none; }
+
+/* R11: product imagery — ORIGINAL Figma images (byte-identical copies in ../assets/images/, INTERNAL USE ONLY: see
+   that folder's README for each file's source and unresolved rights) placed with Figma's own wrappers: crop boxes,
+   offsets, clipping and stacked colour-variant layers are inline styles converted from the node's design context.
+   The placeholder keeps its exact Figma node box; its preview styling is removed. */
+.scr-asset[data-annachy-image], .scr-asset[data-annachy-css] { background: transparent; outline: 0; box-shadow: none; }
+.scr-img__box { display: block; }
+.scr-img__art { display: block; }
+
+/* Closure: a filled library icon (data-annachy-icon) is real artwork, so the placeholder preview chrome (dashed outline /
+   inset border) is removed, as for R10 vectors and R11 images. Pre-existing gap since R7; box size unchanged. */
+.scr-asset[data-annachy-icon] { outline: 0; box-shadow: none; background: transparent; }

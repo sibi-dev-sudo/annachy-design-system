@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mixed-cart checkout — review board (2 directions) · Annachy</title>
+  <link rel="stylesheet" href="../../../src/annachy.css">
+  <style>
+    body { margin: 0; padding: 24px 32px 64px; background: var(--annachy-color-background-tertiary); color: var(--annachy-color-text-primary); font-family: var(--annachy-base-font-family-render); }
+    h1, h2, h3, p { margin: 0; }
+    header { display: grid; gap: 8px; max-width: 1200px; margin-bottom: 24px; }
+    nav { display: flex; flex-wrap: wrap; gap: 8px 16px; margin: 16px 0 24px; }
+    nav a, .open a { color: var(--annachy-color-text-brand); }
+    .dir { margin-bottom: 48px; }
+    .dir > p { margin: 4px 0 16px; max-width: 900px; color: var(--annachy-color-text-secondary); }
+    .screen { display: grid; grid-template-columns: 390px 1fr; gap: 24px; align-items: start; margin-bottom: 32px; }
+    .frame { display: grid; gap: 8px; }
+    .frame iframe { border: 1px solid var(--annachy-color-border-secondary); border-radius: var(--annachy-radius-8); background: #fff; }
+    .mobile iframe { width: 390px; height: 844px; }
+    .desktop .clip { width: 720px; height: 512px; overflow: hidden; border-radius: var(--annachy-radius-8); }
+    .desktop iframe { width: 1440px; height: 1024px; transform: scale(0.5); transform-origin: 0 0; }
+    .open { display: flex; gap: 12px; }
+  </style>
+</head>
+<body>
+  <header>
+    <p class="annachy-text-caption-small" style="color:var(--annachy-color-text-brand)">Design brief: Mixed-Cart Checkout · round 1</p>
+    <h1 class="annachy-text-h3-bold">Two directions × 3 screens × mobile (390) and desktop (1440)</h1>
+    <p class="annachy-text-body-s">Built with Annachy tokens, core components (Button, Button Gradient, Radio, Toggle), library icons, the Annachy logotype and the Derkley product photo from the PDP screens (internal-use image). Every screen is
+      interactive: quantities, totals, per-group free delivery (₹299), slots and payment. Pick a direction to refine — see <code>README.md</code>.</p>
+  </header>
+  <nav aria-label="Edge-case scenarios">
+    <strong class="annachy-text-body-s-semibold">Scenario:</strong>
+    <a href="?scenario=default">One group below ₹299 (default)</a><a href="?scenario=both-free">Both free</a><a href="?scenario=unavailable">Item unavailable</a>
+    <a href="?scenario=slot-soldout">Slot sells out</a><a href="?scenario=payment-fail">Payment fails</a>
+  </nav>
+  <main id="board"></main>
+  <script type="module">
+    const sc = new URLSearchParams(location.search).get('scenario') || 'default';
+    const q = sc === 'default' ? '' : `?scenario=${sc}`;
+    const D = { a: ['Direction A — Classic marketplace', 'The pattern shoppers already know: app header, delivery address bar, one card per shipment with product photo, price, MRP and % off, its own free-delivery meter, a price-details card and a sticky thumb-zone bar. Radio tiles with defaults.'],
+                b: ['Direction B — Quick commerce', 'Delivery promise first: a banner says how the order arrives, everything sits in one compact sheet with grey shipment headers, the bill folds away on mobile; numbered one-decision steps, toggles over defaults, brand gradient actions and a delivery timeline at the end.'] };
+    const S = [['cart', 'Cart'], ['delivery', 'Delivery & payment'], ['confirmation', 'Confirmation']];
+    document.getElementById('board').innerHTML = Object.entries(D).map(([d, [t, p]]) => `<section class="dir"><h2 class="annachy-text-h5">${t}</h2><p class="annachy-text-body-s">${p}</p>
+      ${S.map(([s, n]) => `<div class="screen"><div class="frame mobile"><h3 class="annachy-text-body-s-semibold">${n} · mobile 390</h3><iframe title="${t}: ${n}, mobile" src="${d}-${s}.html${q}" loading="lazy" tabindex="-1"></iframe></div>
+        <div class="frame desktop"><h3 class="annachy-text-body-s-semibold">${n} · desktop 1440 (shown at 50 %)</h3><div class="clip"><iframe title="${t}: ${n}, desktop" src="${d}-${s}.html${q}" loading="lazy" tabindex="-1"></iframe></div>
+        <p class="open annachy-text-caption-small"><a aria-label="Open :  full size" href="${d}-${s}.html${q}">Open full size</a></p></div></div>`).join('')}</section>`).join('');
+  </script>
+</body>
+</html>

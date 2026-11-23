@@ -1,0 +1,131 @@
+/*
+ * Annachy Design System — Radio Button
+ * Layer: annachy.components (assigned by src/annachy.css) · Phase R3-5
+ * Source of truth: Figma file rM3ixSG6i3DFfKZFWuxzs4, ".Selection Controls / Radio Button" 1504:52363
+ *   (6 States × 3 Sizes × 2 Positions × 3 Alignments = 108 variants).
+ * Evidence: docs/figma-audit/components/radio.md; docs/figma-audit/r3-0-evidence.md §11, §12, §19, §25.
+ *
+ * Figma property -> markup:
+ *   Size      -> .annachy-radio--small | --medium | --large      (circle 20/24/28, dot 8/10/12)
+ *   Position  -> (Left: default) | .annachy-radio--control-right
+ *   Alignment -> .annachy-radio--align-top | (Center) | --align-bottom
+ *   State     -> Unselected (default) · Selected (:checked) · Pressed (:active, .is-pressed) · Focus (:focus-visible, .is-focus)
+ *                · Disabled Unselected / Disabled Selected (:disabled)
+ *
+ * UNRESOLVED (D-27 — not invented): the Selected / Pressed ring is bound to Blue/300 but its stroke width is
+ * image-only in Figma. No ring is drawn; fill, dot and shadow are drawn.
+ * D-20 RECOMMENDATION (not a confirmed Figma specification): Focus + Selected keeps the selected fill and dot
+ * and adds the Figma focus treatment.
+ * Reproduced: R2 foreign surface-bg / border-default / shadow/sm (compat) · no Hover · no Error.
+ */
+
+.annachy-radio {
+  --_rb-size: 24px;
+  --_rb-radius: 12px;
+  --_rb-dot: 10px;
+  --_rb-fill: var(--annachy-compat-color-surface-bg);
+  --_rb-border-width: 2px;
+  --_rb-border-color: var(--annachy-compat-color-border-default);
+  --_rb-shadow: none;
+  --_rb-dot-color: var(--annachy-color-background-primary);
+  --_rb-dot-display: none;
+  --_rb-label: var(--annachy-color-text-primary);
+  --_rb-subtext: var(--annachy-color-text-tertiary);
+
+  position: relative;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: var(--annachy-base-font-family-render);
+  letter-spacing: var(--annachy-font-letter-spacing);
+  cursor: pointer;
+}
+.annachy-radio__input {
+  position: absolute;
+  inset-block-start: var(--_rb-input-top, 50%);
+  inset-inline-start: 0;
+  inline-size: var(--_rb-size);
+  block-size: var(--_rb-size);
+  margin: 0;
+  opacity: 0;
+  cursor: inherit;
+  transform: translateY(var(--_rb-input-shift, -50%));
+}
+.annachy-radio__circle {
+  box-sizing: border-box;
+  display: flex;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  inline-size: var(--_rb-size);
+  block-size: var(--_rb-size);
+  border: var(--_rb-border-width) solid var(--_rb-border-color);
+  border-radius: var(--_rb-radius);
+  background: var(--_rb-fill);
+  box-shadow: var(--_rb-shadow);
+  pointer-events: none;
+}
+.annachy-radio__dot {               /* "Selection Dot" ellipse */
+  display: var(--_rb-dot-display);
+  flex: none;
+  inline-size: var(--_rb-dot);
+  block-size: var(--_rb-dot);
+  border-radius: 50%;
+  background: var(--_rb-dot-color);
+}
+.annachy-radio__content { display: flex; flex-direction: column; align-items: flex-start; }
+.annachy-radio__label {
+  display: block;
+  padding-inline-start: 12px;
+  color: var(--_rb-label);
+  font-size: var(--annachy-type-label-medium-font-size);
+  line-height: var(--annachy-type-label-medium-line-height);
+  font-weight: var(--annachy-type-label-medium-font-weight);
+  white-space: nowrap;
+  cursor: inherit;
+}
+.annachy-radio__subtext {
+  display: block;
+  box-sizing: content-box;
+  inline-size: 184px;
+  padding-inline-start: 12px;
+  color: var(--_rb-subtext);
+  font-size: var(--annachy-type-body-s-font-size);
+  line-height: var(--annachy-type-body-s-line-height);
+  font-weight: var(--annachy-type-body-s-font-weight);
+}
+
+/* ---------------------------------------------------------------- Size (§12, §25) */
+.annachy-radio--small  { --_rb-size: 20px; --_rb-radius: 10px; --_rb-dot: 8px; }    /* 1504:52426 / 52375 */
+.annachy-radio--medium { --_rb-size: 24px; --_rb-radius: 12px; --_rb-dot: 10px; }   /* 1504:52738 / 52687 */
+.annachy-radio--large  { --_rb-size: 28px; --_rb-radius: 14px; --_rb-dot: 12px; }   /* 1504:53050 / 52999 */
+
+/* ---------------------------------------------------------------- Position / Alignment (§11, §19) */
+.annachy-radio--control-right { flex-direction: row-reverse; }
+.annachy-radio--control-right .annachy-radio__input { inset-inline-start: auto; inset-inline-end: 0; }
+.annachy-radio--control-right .annachy-radio__label,
+.annachy-radio--control-right .annachy-radio__subtext { padding-inline-start: 0; padding-inline-end: 12px; }
+.annachy-radio--align-top { align-items: flex-start; --_rb-input-top: 0px; --_rb-input-shift: 0px; }
+.annachy-radio--align-bottom { align-items: flex-end; --_rb-input-top: 100%; --_rb-input-shift: -100%; }
+
+/* ---------------------------------------------------------------- States (§25)
+   :where() → one-class specificity; precedence: Unselected < Selected < Pressed < Focus < Disabled Unselected < Disabled Selected. */
+.annachy-radio:where(:has(.annachy-radio__input:checked)) {
+  --_rb-fill: var(--annachy-color-button-primary-background-default); --_rb-border-width: 0px; --_rb-border-color: transparent;
+  --_rb-shadow: var(--annachy-effect-button-default); --_rb-dot-display: block; --_rb-dot-color: var(--annachy-color-background-primary); }   /* 1504:52686 — ring width D-27, not drawn */
+.annachy-radio:where(:has(.annachy-radio__input:active), .is-pressed) {
+  --_rb-fill: var(--annachy-color-button-primary-background-pressed-active); --_rb-border-width: 0px; --_rb-border-color: transparent;
+  --_rb-shadow: var(--annachy-effect-button-hover); --_rb-dot-display: block; --_rb-dot-color: var(--annachy-color-background-primary); }   /* 1504:52943 — ring width D-27, not drawn */
+.annachy-radio:where(:has(.annachy-radio__input:focus-visible), .is-focus) {
+  --_rb-fill: var(--annachy-color-blue-white-300); --_rb-border-width: 2px; --_rb-border-color: var(--annachy-color-button-primary-background-focus);
+  --_rb-shadow: var(--annachy-compat-shadow-sm), var(--annachy-effect-button-focus); --_rb-dot-display: none; }   /* 1504:52889 */
+/* D-20 recommendation: focus on a selected radio keeps the selected fill and dot. */
+.annachy-radio:where(:has(.annachy-radio__input:focus-visible), .is-focus):where(:has(.annachy-radio__input:checked)) {
+  --_rb-fill: var(--annachy-color-button-primary-background-default); --_rb-dot-display: block; --_rb-dot-color: var(--annachy-color-background-primary); }
+.annachy-radio:where(:has(.annachy-radio__input:disabled)) {
+  --_rb-fill: var(--annachy-color-blue-grey-100); --_rb-border-width: 2px; --_rb-border-color: var(--annachy-color-blue-grey-200);
+  --_rb-shadow: none; --_rb-dot-display: none; --_rb-label: var(--annachy-color-blue-grey-200); --_rb-subtext: var(--annachy-color-blue-grey-200);
+  cursor: not-allowed; }   /* 1504:52786 */
+.annachy-radio:where(:has(.annachy-radio__input:disabled:checked)) {
+  --_rb-fill: var(--annachy-color-button-primary-background-disabled); --_rb-border-width: 0px; --_rb-border-color: transparent;
+  --_rb-shadow: none; --_rb-dot-display: block; --_rb-dot-color: var(--annachy-color-button-primary-content-disabled); }   /* 1504:52835 */

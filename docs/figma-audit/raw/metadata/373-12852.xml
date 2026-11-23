@@ -1,0 +1,1127 @@
+<canvas id="373:12852" name="  › ⑤ Quantitative · Product Analytics  ✓" x="0" y="0" width="0" height="0">
+  <section id="373:12853" name="Annachy Analytics Overview" x="-1693" y="-5130" width="3386" height="10259">
+    <text id="373:12854" name="Annachy Analytics Overview" x="1342" y="112" width="702.000019192692" height="47.99999713897705" />
+    <section id="373:12855" name="Age Group: Active vs New Users" x="217" y="4950" width="2952" height="1881">
+      <frame id="373:12856" name="Age Group: Active vs New Users" x="80" y="157" width="1049" height="1034">
+        <frame id="373:12857" name="card-header" x="21" y="41" width="1007" height="54">
+          <text id="373:12858" name="Age Group: Active vs New Users" x="16" y="17" width="268" height="20" />
+        </frame>
+        <frame id="373:12859" name="Frame 2121455491" x="21" y="107" width="1007" height="886">
+          <frame id="373:12860" name="Frame 2121455490" x="20" y="20" width="967" height="120">
+            <frame id="373:12861" name="Frame 2121455478" x="0" y="0" width="130" height="48">
+              <text id="373:12862" name="Age Group" x="0" y="0" width="107" height="18" />
+              <text id="373:12863" name="unknown" x="0" y="30" width="130" height="18" />
+            </frame>
+            <frame id="373:12864" name="Frame 2121455489" x="329" y="0" width="638" height="120">
+              <frame id="373:12865" name="Frame 2121455487" x="0" y="0" width="289" height="120">
+                <frame id="373:12866" name="Frame 2121455479" x="0" y="0" width="130" height="48">
+                  <text id="373:12867" name="Active Users" x="0" y="0" width="130" height="18" />
+                  <text id="373:12868" name="1,372,330 (92.93%)" x="0" y="30" width="130" height="18" />
+                </frame>
+                <frame id="373:12869" name="Frame 2121455480" x="159" y="0" width="130" height="120">
+                  <text id="373:12870" name="Words" x="0" y="0" width="130" height="18" />
+                  <text id="373:12871" name="One Million Three Hundred Seventy-Two Thousand Three Hundred Thirty" x="0" y="30" width="130" height="90" />
+                </frame>
+              </frame>
+              <frame id="373:12872" name="Frame 2121455488" x="323" y="0" width="315" height="102">
+                <frame id="373:12873" name="Frame 2121455481" x="0" y="0" width="130" height="48">
+                  <text id="373:12874" name="New Users" x="0" y="0" width="130" height="18" />
+                  <text id="373:12875" name="924,215 (91.05%)" x="0" y="30" width="130" height="18" />
+                </frame>
+                <frame id="373:12876" name="Frame 2121455482" x="185" y="0" width="130" height="102">
+                  <text id="373:12877" name="Words" x="0" y="0" width="130" height="18" />
+                  <text id="373:12878" name="Nine Hundred Twenty-Four Thousand Two Hundred Fifteen" x="0" y="30" width="130" height="72" />
+                </frame>
+              </frame>
+            </frame>
+          </frame>
+          <frame id="373:12879" name="Frame 2121455486" x="20" y="170" width="967" height="85">
+            <text id="373:12880" name="18–24" x="0" y="0" width="130" height="18" />
+            <frame id="373:12881" name="Frame 2121455485" x="329" y="0" width="638" height="72">
+              <frame id="373:12882" name="Frame 2121455483" x="0" y="0" width="289" height="54">
+                <text id="373:12883" name="30,133 (2.04%)" x="0" y="0" width="130" height="18" />
+                <text id="373:12884" name="Thirty Thousand One Hundred Thirty-Three" x="159" y="0" width="130" height="54" />
+              </frame>
+              <frame id="373:12885" name="Frame 2121455484" x="323" y="0" width="315" height="72">
+                <text id="373:12886" name="22,463 (2.21%)" x="0" y="0" width="130" height="18" />
+                <text id="373:12887" name="Twenty-Two Thousand Four Hundred Sixty-Three" x="185" y="0" width="130" height="72" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="373:12888" name="Web Users (%)" x="20" y="285" width="967" height="85">
+            <text id="373:12889" name="25–34" x="0" y="0" width="130" height="18" />
+            <frame id="373:12890" name="Frame" x="329" y="0" width="638" height="72">
+              <frame id="373:12891" name="Frame" x="0" y="0" width="289" height="72">
+                <text id="373:12892" name="38,596 (2.61%)" x="0" y="0" width="130" height="18" />
+                <text id="373:12893" name="Thirty-Eight Thousand Five Hundred Ninety-Six" x="159" y="0" width="130" height="72" />
+              </frame>
+              <frame id="373:12894" name="Frame" x="323" y="0" width="315" height="36">
+                <text id="373:12895" name="28,009 (2.76%)" x="0" y="0" width="130" height="18" />
+                <text id="373:12896" name="Twenty-Eight Thousand Nine" x="185" y="0" width="130" height="36" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="373:12897" name="PWA Users (%)" x="20" y="400" width="967" height="85">
+            <text id="373:12898" name="35–44" x="0" y="0" width="130" height="18" />
+            <frame id="373:12899" name="Frame" x="329" y="0" width="638" height="72">
+              <frame id="373:12900" name="Frame" x="0" y="0" width="289" height="72">
+                <text id="373:12901" name="24,576 (1.66%)" x="0" y="0" width="130" height="18" />
+                <text id="373:12902" name="Twenty-Four Thousand Five Hundred Seventy-Six" x="159" y="0" width="130" height="72" />
+              </frame>
+              <frame id="373:12903" name="Frame" x="323" y="0" width="315" height="72">
+                <text id="373:12904" name="17,596 (1.73%)" x="0" y="0" width="130" height="18" />
+                <text id="373:12905" name="Seventeen Thousand Five Hundred Ninety-Six" x="185" y="0" width="130" height="72" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="373:12906" name="45–54" x="20" y="515" width="967" height="67">
+            <text id="373:12907" name="45–54" x="0" y="0" width="93" height="18" />
+            <frame id="373:12908" name="Frame" x="292" y="0" width="667" height="54">
+              <frame id="373:12909" name="Frame" x="0" y="0" width="318" height="54">
+                <text id="373:12910" name="11,385 (0.77%)" x="0" y="0" width="159" height="18" />
+                <text id="373:12911" name="Eleven Thousand Three Hundred Eighty-Five" x="188" y="0" width="130" height="54" />
+              </frame>
+              <frame id="373:12912" name="Frame" x="352" y="0" width="315" height="54">
+                <text id="373:12913" name="8,556 (0.84%)" x="0" y="0" width="130" height="18" />
+                <text id="373:12914" name="Eight Thousand Five Hundred Fifty-Six" x="185" y="0" width="130" height="54" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="373:12915" name="55–64" x="20" y="612" width="967" height="67">
+            <text id="373:12916" name="55–64" x="0" y="0" width="93" height="18" />
+            <frame id="373:12917" name="Frame" x="292" y="0" width="667" height="54">
+              <frame id="373:12918" name="Frame" x="0" y="0" width="318" height="54">
+                <text id="373:12919" name="9,855 (0.67%)" x="0" y="0" width="159" height="18" />
+                <text id="373:12920" name="Nine Thousand Eight Hundred Fifty-Five" x="188" y="0" width="130" height="54" />
+              </frame>
+              <frame id="373:12921" name="Frame" x="352" y="0" width="315" height="54">
+                <text id="373:12922" name="8,316 (0.82%)" x="0" y="0" width="130" height="18" />
+                <text id="373:12923" name="Eight Thousand Three Hundred Sixteen" x="185" y="0" width="130" height="54" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="373:12924" name="65+" x="20" y="709" width="967" height="67">
+            <text id="373:12925" name="65+" x="0" y="0" width="93" height="18" />
+            <frame id="373:12926" name="Frame" x="292" y="0" width="667" height="54">
+              <frame id="373:12927" name="Frame" x="0" y="0" width="318" height="54">
+                <text id="373:12928" name="7,241 (0.49%)" x="0" y="0" width="159" height="18" />
+                <text id="373:12929" name="Seven Thousand Two Hundred Forty-One" x="188" y="0" width="130" height="54" />
+              </frame>
+              <frame id="373:12930" name="Frame" x="352" y="0" width="315" height="54">
+                <text id="373:12931" name="5,875 (0.58%)" x="0" y="0" width="130" height="18" />
+                <text id="373:12932" name="Five Thousand Eight Hundred Seventy-Five" x="185" y="0" width="130" height="54" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="373:12933" name="Insight" x="20" y="806" width="967" height="60">
+            <text id="373:12934" name="Key Insight:" x="0" y="16" width="967" height="18" />
+            <text id="373:12935" name="unknown represents the largest user segment, with 1,372,330 active users (92.93%) and 924,215 new users (91.05%)." x="0" y="42" width="967" height="18" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="373:12936" name="Frame 2121455511" x="1203" y="942" width="712" height="74">
+        <frame id="373:12937" name="Frame 2121455468" x="1" y="1" width="710" height="34">
+          <text id="373:12938" name="Age Group — Active vs New Users" x="4" y="4" width="702" height="26" />
+        </frame>
+        <text id="373:12939" name="This section shows the age groups of active and new users." x="1" y="47" width="710" height="26" />
+      </frame>
+      <frame id="373:12940" name="Frame 2121455512" x="1203" y="1092" width="712" height="178">
+        <frame id="373:12941" name="Frame 2121455468" x="1" y="1" width="710" height="34">
+          <text id="373:12942" name="Key Findings" x="4" y="4" width="702" height="26" />
+        </frame>
+        <text id="373:12943" name="More than 90% of users have no age information. Among users with known ages, 25–34 is the largest group. The next larger groups are 18–24 and 35–44. Users aged 45+ represent a smaller portion of the known data. The 25–34 age group also matches the findings from the separate user survey." x="1" y="47" width="710" height="130" />
+      </frame>
+      <frame id="373:12944" name="Frame 2121455513" x="1203" y="1360" width="712" height="152">
+        <frame id="373:12945" name="Frame 2121455468" x="1" y="1" width="710" height="34">
+          <text id="373:12946" name="UX Opportunities" x="4" y="4" width="702" height="26" />
+        </frame>
+        <text id="373:12947" name="Continue designing for a fast, convenient, mobile-friendly shopping experience. Use the existing 25–34 persona as a useful reference for current UX work. Keep accessibility in mind for older users as well. Continue improving the quality of age data." x="1" y="47" width="710" height="104" />
+      </frame>
+      <frame id="373:12948" name="Age Group: Active vs New Users — Chart" x="1203" y="190" width="1102" height="590">
+        <text id="373:12949" name="Age Group: Active vs New Users" x="30" y="24" width="301" height="22" />
+        <text id="373:12950" name="% of Users" x="30" y="52" width="68" height="16" />
+        <rounded-rectangle id="373:12951" name="Rectangle" x="75" y="490" width="982" height="1" />
+        <text id="373:12952" name="0" x="35" y="483" width="35" height="14" />
+        <rounded-rectangle id="373:12953" name="Rectangle" x="75" y="450" width="982" height="1" />
+        <text id="373:12954" name="10" x="35" y="443" width="35" height="14" />
+        <rounded-rectangle id="373:12955" name="Rectangle" x="75" y="410" width="982" height="1" />
+        <text id="373:12956" name="20" x="35" y="403" width="35" height="14" />
+        <rounded-rectangle id="373:12957" name="Rectangle" x="75" y="370" width="982" height="1" />
+        <text id="373:12958" name="30" x="35" y="363" width="35" height="14" />
+        <rounded-rectangle id="373:12959" name="Rectangle" x="75" y="330" width="982" height="1" />
+        <text id="373:12960" name="40" x="35" y="323" width="35" height="14" />
+        <rounded-rectangle id="373:12961" name="Rectangle" x="75" y="290" width="982" height="1" />
+        <text id="373:12962" name="50" x="35" y="283" width="35" height="14" />
+        <rounded-rectangle id="373:12963" name="Rectangle" x="75" y="250" width="982" height="1" />
+        <text id="373:12964" name="60" x="35" y="243" width="35" height="14" />
+        <rounded-rectangle id="373:12965" name="Rectangle" x="75" y="210" width="982" height="1" />
+        <text id="373:12966" name="70" x="35" y="203" width="35" height="14" />
+        <rounded-rectangle id="373:12967" name="Rectangle" x="75" y="170" width="982" height="1" />
+        <text id="373:12968" name="80" x="35" y="163" width="35" height="14" />
+        <rounded-rectangle id="373:12969" name="Rectangle" x="75" y="130" width="982" height="1" />
+        <text id="373:12970" name="90" x="35" y="123" width="35" height="14" />
+        <rounded-rectangle id="373:12971" name="Rectangle" x="75" y="90" width="982" height="1" />
+        <text id="373:12972" name="100" x="35" y="83" width="35" height="14" />
+        <rounded-rectangle id="373:12973" name="Rectangle" x="80" y="118.27999877929688" width="40" height="371.7200012207031" />
+        <text id="373:12974" name="92.93%" x="82" y="102.27999877929688" width="35" height="13" />
+        <rounded-rectangle id="373:12975" name="Rectangle" x="126" y="125.80000305175781" width="40" height="364.20001220703125" />
+        <text id="373:12976" name="91.05%" x="128" y="109.80000305175781" width="36" height="13" />
+        <text id="373:12977" name="unknown" x="98.5" y="504" width="54" height="15" />
+        <rounded-rectangle id="373:12978" name="Rectangle" x="226" y="481.8399963378906" width="40" height="8.15999984741211" />
+        <text id="373:12979" name="2.04%" x="228" y="465.8399963378906" width="31" height="13" />
+        <rounded-rectangle id="373:12980" name="Rectangle" x="272" y="481.1600036621094" width="40" height="8.84000015258789" />
+        <text id="373:12981" name="2.21%" x="274" y="465.1600036621094" width="29" height="13" />
+        <text id="373:12982" name="18–24" x="251.5" y="504" width="34" height="15" />
+        <rounded-rectangle id="373:12983" name="Rectangle" x="372" y="479.55999755859375" width="40" height="10.4399995803833" />
+        <text id="373:12984" name="2.61%" x="374" y="463.55999755859375" width="29" height="13" />
+        <rounded-rectangle id="373:12985" name="Rectangle" x="418" y="478.9599914550781" width="40" height="11.039999961853027" />
+        <text id="373:12986" name="2.76%" x="420" y="462.9599914550781" width="29" height="13" />
+        <text id="373:12987" name="25–34" x="397.5" y="504" width="35" height="15" />
+        <rounded-rectangle id="373:12988" name="Rectangle" x="518" y="483.3599853515625" width="40" height="6.639999866485596" />
+        <text id="373:12989" name="1.66%" x="520" y="467.3599853515625" width="29" height="13" />
+        <rounded-rectangle id="373:12990" name="Rectangle" x="564" y="483.0799865722656" width="40" height="6.920000076293945" />
+        <text id="373:12991" name="1.73%" x="566" y="467.0799865722656" width="29" height="13" />
+        <text id="373:12992" name="35–44" x="543.5" y="504" width="36" height="15" />
+        <rounded-rectangle id="373:12993" name="Rectangle" x="664" y="486.9200134277344" width="40" height="3.0799999237060547" />
+        <text id="373:12994" name="0.77%" x="666" y="470.9200134277344" width="30" height="13" />
+        <rounded-rectangle id="373:12995" name="Rectangle" x="710" y="486.6400146484375" width="40" height="3.359999895095825" />
+        <text id="373:12996" name="0.84%" x="712" y="470.6400146484375" width="31" height="13" />
+        <text id="373:12997" name="45–54" x="689.5" y="504" width="36" height="15" />
+        <rounded-rectangle id="373:12998" name="Rectangle" x="810" y="487" width="40" height="3" />
+        <text id="373:12999" name="0.67%" x="812" y="471" width="30" height="13" />
+        <rounded-rectangle id="373:13000" name="Rectangle" x="856" y="486.7200012207031" width="40" height="3.2799999713897705" />
+        <text id="373:13001" name="0.82%" x="858" y="470.7200012207031" width="30" height="13" />
+        <text id="373:13002" name="55–64" x="835.5" y="504" width="35" height="15" />
+        <rounded-rectangle id="373:13003" name="Rectangle" x="956" y="487" width="40" height="3" />
+        <text id="373:13004" name="0.49%" x="958" y="471" width="31" height="13" />
+        <rounded-rectangle id="373:13005" name="Rectangle" x="1002" y="487" width="40" height="3" />
+        <text id="373:13006" name="0.58%" x="1004" y="471" width="31" height="13" />
+        <text id="373:13007" name="65+" x="988.5" y="504" width="21" height="15" />
+        <rounded-rectangle id="373:13008" name="Rectangle" x="80" y="558" width="14" height="14" />
+        <text id="373:13009" name="Active Users %" x="102" y="558" width="88" height="15" />
+        <rounded-rectangle id="373:13010" name="Rectangle" x="240" y="558" width="14" height="14" />
+        <text id="373:13011" name="New Users %" x="262" y="558" width="77" height="15" />
+      </frame>
+      <frame id="373:13012" name="Frame 2121455514" x="1989" y="942" width="712" height="856">
+        <frame id="373:13013" name="Frame 2121455468" x="1" y="1" width="710" height="34">
+          <text id="373:13014" name="UX Opportunities" x="4" y="4" width="702" height="26" />
+        </frame>
+        <frame id="373:13015" name="Frame 2121455515" x="1" y="35" width="710" height="820">
+          <text id="373:13016" name="Most Users Are Still Guests The difference between registered users and active users is significant. This likely explains why age and gender information is missing for more than 90% of users. So, these are not necessarily separate problems. They may be connected to the same issue: most users are not identified. 2. Web and Android Have Different Roles New users mainly come through Web, while active users are more heavily represented on Android. This suggests that Web may be the main entry point, while Android may play a bigger role in continued usage. However, this should be tested before assuming that moving users from Web to Android will automatically improve retention. 3. The 25–34 Age Group Is a Useful Direction The 25–34 group is the largest known age group in the analytics data. This is also similar to the separate survey findings, so we can use the existing 25–34 persona as a reasonable reference for current design work. 4. Tamil Nadu Is the Core Market The user data clearly shows that Annachy has a strong Tamil Nadu customer base, with Chennai leading by a large margin. This means regional needs should be considered when planning UX improvements. 5. Some Data Needs to Be Cleaned Up There are differences between some of the reported user numbers. There are also users with “Not Set” locations. Before using this data for major business decisions, the analytics team should confirm that all sections are using the same definitions and date ranges." x="20" y="20" width="670" height="780" />
+        </frame>
+      </frame>
+    </section>
+    <section id="373:13017" name="Device Usage: Active vs New Users" x="191" y="3540" width="3004" height="1136">
+      <frame id="373:13018" name="Device Usage: Active vs New Users" x="80" y="157" width="1049" height="707">
+        <frame id="373:13019" name="card-header" x="21" y="41" width="1007" height="54">
+          <text id="373:13020" name="Device Usage: Active vs New Users" x="16" y="17" width="292" height="20" />
+        </frame>
+        <frame id="373:13021" name="Frame 2121455491" x="21" y="107" width="1007" height="559">
+          <frame id="373:13022" name="Frame 2121455490" x="20" y="20" width="967" height="120">
+            <frame id="373:13023" name="Frame 2121455478" x="0" y="0" width="130" height="48">
+              <text id="373:13024" name="Data Required" x="0" y="0" width="107" height="18" />
+              <text id="373:13025" name="Android Users (%)" x="0" y="30" width="130" height="18" />
+            </frame>
+            <frame id="373:13026" name="Frame 2121455489" x="329" y="0" width="638" height="120">
+              <frame id="373:13027" name="Frame 2121455487" x="0" y="0" width="289" height="84">
+                <frame id="373:13028" name="Frame 2121455479" x="0" y="0" width="130" height="48">
+                  <text id="373:13029" name="Active Users" x="0" y="0" width="130" height="18" />
+                  <text id="373:13030" name="816,502 (55.29%)" x="0" y="30" width="130" height="18" />
+                </frame>
+                <frame id="373:13031" name="Frame 2121455480" x="159" y="0" width="130" height="84">
+                  <text id="373:13032" name="Words" x="0" y="0" width="130" height="18" />
+                  <text id="373:13033" name="Eight Hundred Sixteen Thousand Five Hundred Two" x="0" y="30" width="130" height="54" />
+                </frame>
+              </frame>
+              <frame id="373:13034" name="Frame 2121455488" x="323" y="0" width="315" height="120">
+                <frame id="373:13035" name="Frame 2121455481" x="0" y="0" width="130" height="48">
+                  <text id="373:13036" name="New Users" x="0" y="0" width="130" height="18" />
+                  <text id="373:13037" name="386,793 (38.11%)" x="0" y="30" width="130" height="18" />
+                </frame>
+                <frame id="373:13038" name="Frame 2121455482" x="185" y="0" width="130" height="120">
+                  <text id="373:13039" name="Words" x="0" y="0" width="130" height="18" />
+                  <text id="373:13040" name="Three Hundred Eighty-Six Thousand Seven Hundred Ninety-Three" x="0" y="30" width="130" height="90" />
+                </frame>
+              </frame>
+            </frame>
+          </frame>
+          <frame id="373:13041" name="Frame 2121455486" x="20" y="170" width="967" height="67">
+            <text id="373:13042" name="iOS Users (%)" x="0" y="0" width="130" height="18" />
+            <frame id="373:13043" name="Frame 2121455485" x="329" y="0" width="638" height="54">
+              <frame id="373:13044" name="Frame 2121455483" x="0" y="0" width="289" height="54">
+                <text id="373:13045" name="10,532 (0.71%)" x="0" y="0" width="130" height="18" />
+                <text id="373:13046" name="Ten Thousand Five Hundred Thirty-Two" x="159" y="0" width="130" height="54" />
+              </frame>
+              <frame id="373:13047" name="Frame 2121455484" x="323" y="0" width="315" height="54">
+                <text id="373:13048" name="5,752 (0.57%)" x="0" y="0" width="130" height="18" />
+                <text id="373:13049" name="Five Thousand Seven Hundred Fifty-Two" x="185" y="0" width="130" height="54" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="373:13050" name="Web Users (%)" x="20" y="267" width="967" height="103">
+            <text id="373:13051" name="Web Users (%)" x="0" y="0" width="130" height="18" />
+            <frame id="373:13052" name="Frame" x="329" y="0" width="638" height="90">
+              <frame id="373:13053" name="Frame" x="0" y="0" width="289" height="72">
+                <text id="373:13054" name="668,228 (45.25%)" x="0" y="0" width="130" height="18" />
+                <text id="373:13055" name="Six Hundred Sixty-Eight Thousand Two Hundred Twenty-Eight" x="159" y="0" width="130" height="72" />
+              </frame>
+              <frame id="373:13056" name="Frame" x="323" y="0" width="315" height="90">
+                <text id="373:13057" name="622,485 (61.33%)" x="0" y="0" width="130" height="18" />
+                <text id="373:13058" name="Six Hundred Twenty-Two Thousand Four Hundred Eighty-Five" x="185" y="0" width="130" height="90" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="373:13059" name="PWA Users (%)" x="20" y="400" width="967" height="31">
+            <text id="373:13060" name="PWA Users (%)" x="0" y="0" width="130" height="18" />
+            <frame id="373:13061" name="Frame" x="329" y="0" width="638" height="18">
+              <frame id="373:13062" name="Frame" x="0" y="0" width="289" height="18">
+                <text id="373:13063" name="NA" x="0" y="0" width="130" height="18" />
+                <text id="373:13064" name="NA" x="159" y="0" width="130" height="18" />
+              </frame>
+              <frame id="373:13065" name="Frame" x="323" y="0" width="315" height="18">
+                <text id="373:13066" name="NA" x="0" y="0" width="130" height="18" />
+                <text id="373:13067" name="NA" x="185" y="0" width="130" height="18" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="373:13068" name="Insight" x="20" y="461" width="967" height="78">
+            <text id="373:13069" name="Which Audience segment from the above has the highest number of orders" x="0" y="16" width="967" height="18" />
+            <text id="373:13070" name="Web Users have the highest New Users at 622,485 (61.33%), while Android Users have the highest Active Users at 816,502 (55.29%). Order volume cannot be determined from the provided data." x="0" y="42" width="967" height="36" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="373:13071" name="Device Split: Active vs New Users — Chart" x="1238" y="157" width="784" height="570">
+        <text id="373:13072" name="Device Split: Active vs New Users" x="30" y="24" width="312" height="22" />
+        <text id="373:13073" name="% of Users" x="30" y="52" width="68" height="16" />
+        <rounded-rectangle id="373:13074" name="Rectangle" x="75" y="470" width="644" height="1" />
+        <text id="373:13075" name="0" x="35" y="462" width="35" height="15" />
+        <rounded-rectangle id="373:13076" name="Rectangle" x="75" y="415.71429443359375" width="644" height="1" />
+        <text id="373:13077" name="10" x="35" y="407.71429443359375" width="35" height="15" />
+        <rounded-rectangle id="373:13078" name="Rectangle" x="75" y="361.4285583496094" width="644" height="1" />
+        <text id="373:13079" name="20" x="35" y="353.4285583496094" width="35" height="15" />
+        <rounded-rectangle id="373:13080" name="Rectangle" x="75" y="307.1428527832031" width="644" height="1" />
+        <text id="373:13081" name="30" x="35" y="299.1428527832031" width="35" height="15" />
+        <rounded-rectangle id="373:13082" name="Rectangle" x="75" y="252.85714721679688" width="644" height="1" />
+        <text id="373:13083" name="40" x="35" y="244.85714721679688" width="35" height="15" />
+        <rounded-rectangle id="373:13084" name="Rectangle" x="75" y="198.57142639160156" width="644" height="1" />
+        <text id="373:13085" name="50" x="35" y="190.57142639160156" width="35" height="15" />
+        <rounded-rectangle id="373:13086" name="Rectangle" x="75" y="144.2857208251953" width="644" height="1" />
+        <text id="373:13087" name="60" x="35" y="136.2857208251953" width="35" height="15" />
+        <rounded-rectangle id="373:13088" name="Rectangle" x="75" y="90" width="644" height="1" />
+        <text id="373:13089" name="70" x="35" y="82" width="35" height="15" />
+        <rounded-rectangle id="373:13090" name="Rectangle" x="80" y="169.85427856445312" width="60" height="300.1457214355469" />
+        <text id="373:13091" name="55.29%" x="85" y="151.85427856445312" width="39" height="14" />
+        <rounded-rectangle id="373:13092" name="Rectangle" x="148" y="263.1171569824219" width="60" height="206.8828582763672" />
+        <text id="373:13093" name="38.11%" x="153" y="245.1171417236328" width="38" height="14" />
+        <text id="373:13094" name="Android" x="116" y="486" width="55" height="18" />
+        <rounded-rectangle id="373:13095" name="Rectangle" x="328" y="466.1457214355469" width="60" height="3.854285717010498" />
+        <text id="373:13096" name="0.71%" x="333" y="448.1457214355469" width="32" height="14" />
+        <rounded-rectangle id="373:13097" name="Rectangle" x="396" y="466.90570068359375" width="60" height="3.094285726547241" />
+        <text id="373:13098" name="0.57%" x="401" y="448.90570068359375" width="33" height="14" />
+        <text id="373:13099" name="iOS" x="380" y="486" width="24" height="18" />
+        <rounded-rectangle id="373:13100" name="Rectangle" x="576" y="224.35714721679688" width="60" height="245.64285278320312" />
+        <text id="373:13101" name="45.25%" x="581" y="206.35714721679688" width="39" height="14" />
+        <rounded-rectangle id="373:13102" name="Rectangle" x="644" y="137.0657196044922" width="60" height="332.9342956542969" />
+        <text id="373:13103" name="61.33%" x="649" y="119.06571197509766" width="38" height="14" />
+        <text id="373:13104" name="Web" x="628" y="486" width="31" height="18" />
+        <rounded-rectangle id="373:13105" name="Rectangle" x="80" y="538" width="14" height="14" />
+        <text id="373:13106" name="Active Users %" x="102" y="538" width="88" height="15" />
+        <rounded-rectangle id="373:13107" name="Rectangle" x="240" y="538" width="14" height="14" />
+        <text id="373:13108" name="New Users %" x="262" y="538" width="77" height="15" />
+      </frame>
+      <frame id="373:13109" name="Device Usage — Active vs New Users" x="2131" y="157" width="712" height="74">
+        <frame id="373:13110" name="Frame 2121455468" x="1" y="1" width="710" height="34">
+          <text id="373:13111" name="Device Usage — Active vs New Users" x="4" y="4" width="702" height="26" />
+        </frame>
+        <text id="373:13112" name="This section shows which platforms users are using: Android, Web, iOS, and PWA." x="1" y="47" width="710" height="26" />
+      </frame>
+      <frame id="373:13113" name="Key Findings" x="2131" y="302" width="712" height="178">
+        <frame id="373:13114" name="Frame 2121455468" x="1" y="1" width="710" height="34">
+          <text id="373:13115" name="Key Findings" x="4" y="4" width="702" height="26" />
+        </frame>
+        <text id="373:13116" name="Web accounts for 61.33% of new users. Android accounts for 55.29% of active users. This shows a clear difference between new users and active users. iOS usage is currently very low. PWA data is not available." x="1" y="47" width="710" height="130" />
+      </frame>
+      <frame id="373:13117" name="UX Opportunities" x="2131" y="551" width="712" height="204">
+        <frame id="373:13118" name="Frame 2121455468" x="1" y="1" width="710" height="34">
+          <text id="373:13119" name="UX Opportunities" x="4" y="4" width="702" height="26" />
+        </frame>
+        <text id="373:13120" name="Improve the Web experience for first-time users. Make product discovery and first purchase easier on Web. Test an app-install message for users who are already engaged on Web. Check whether Android users have better retention than Web users. Understand why iOS usage is very low. Check whether PWA could be useful for users who don&#39;t want to install an app." x="1" y="47" width="710" height="156" />
+      </frame>
+      <frame id="373:13121" name="Key UX Insight" x="2131" y="826" width="712" height="256">
+        <frame id="373:13122" name="Frame 2121455468" x="1" y="1" width="710" height="34">
+          <text id="373:13123" name="Key UX Insight" x="4" y="4" width="702" height="26" />
+        </frame>
+        <text id="373:13124" name="Observation: New users mainly come through Web, while active users are mainly on Android. User Impact: The first experience happens mainly on Web, but continued engagement appears stronger on Android. UX Opportunity: Improve the Web-to-Android journey and test whether moving engaged users to the app improves retention." x="1" y="47" width="710" height="208" />
+      </frame>
+    </section>
+    <section id="373:13125" name="Active Users" x="191" y="2130" width="3004" height="1136">
+      <frame id="373:13126" name="Frame 2121455496" x="100" y="148" width="822" height="701">
+        <frame id="373:13127" name="card-header" x="21" y="41" width="780" height="54">
+          <text id="373:13128" name="User Summary Data" x="16" y="17" width="168" height="20" />
+        </frame>
+        <frame id="373:13129" name="Frame 2121455491" x="21" y="107" width="780" height="553">
+          <frame id="373:13130" name="header-row" x="20" y="20" width="740" height="30">
+            <frame id="373:13131" name="Frame" x="0" y="0" width="200" height="19">
+              <text id="373:13132" name="Data Required" x="0" y="0" width="200" height="18" />
+              <text id="373:13133" name="Total Registered Users" x="0" y="30" width="200" height="18" />
+            </frame>
+            <frame id="373:13134" name="Frame" x="240" y="0" width="160" height="19">
+              <text id="373:13135" name="Response" x="0" y="0" width="160" height="18" />
+              <text id="373:13136" name="2,71,962" x="0" y="30" width="160" height="18" />
+            </frame>
+            <frame id="373:13137" name="Frame" x="440" y="0" width="300" height="26">
+              <text id="373:13138" name="Words" x="0" y="0" width="300" height="18" />
+              <text id="373:13139" name="Two Lakh Seventy-One Thousand Nine Hundred Sixty-Two" x="0" y="30" width="300" height="36" />
+            </frame>
+          </frame>
+          <frame id="373:13140" name="Active Users" x="20" y="76.66666412353516" width="740" height="49">
+            <text id="373:13141" name="Active Users" x="0" y="0" width="200" height="18" />
+            <text id="373:13142" name="17,23,225" x="240" y="0" width="160" height="18" />
+            <text id="373:13143" name="Seventeen Lakh Twenty-Three Thousand Two Hundred Twenty-Five" x="440" y="0" width="300" height="36" />
+          </frame>
+          <frame id="373:13144" name="New Users" x="20" y="152.3333282470703" width="740" height="49">
+            <text id="373:13145" name="New Users" x="0" y="0" width="200" height="18" />
+            <text id="373:13146" name="12,09,717" x="240" y="0" width="160" height="18" />
+            <text id="373:13147" name="Twelve Lakh Nine Thousand Seven Hundred Seventeen" x="440" y="0" width="300" height="36" />
+          </frame>
+          <frame id="373:13148" name="Returning Users" x="20" y="228" width="740" height="49">
+            <text id="373:13149" name="Returning Users" x="0" y="0" width="200" height="18" />
+            <text id="373:13150" name="8,09,947" x="240" y="0" width="160" height="18" />
+            <text id="373:13151" name="Eight Lakh Nine Thousand Nine Hundred Forty-Seven" x="440" y="0" width="300" height="36" />
+          </frame>
+          <frame id="373:13152" name="Total Users" x="20" y="303.6666564941406" width="740" height="49">
+            <text id="373:13153" name="Total Users" x="0" y="0" width="200" height="18" />
+            <text id="373:13154" name="19,23,843" x="240" y="0" width="160" height="18" />
+            <text id="373:13155" name="Nineteen Lakh Twenty-Three Thousand Eight Hundred Forty-Three" x="440" y="0" width="300" height="36" />
+          </frame>
+          <frame id="373:13156" name="First-Time Users" x="20" y="379.33331298828125" width="740" height="49">
+            <text id="373:13157" name="First-Time Users" x="0" y="0" width="200" height="18" />
+            <text id="373:13158" name="11,13,896" x="240" y="0" width="160" height="18" />
+            <text id="373:13159" name="Eleven Lakh Thirteen Thousand Eight Hundred Ninety-Six" x="440" y="0" width="300" height="36" />
+          </frame>
+          <frame id="373:13160" name="Insight" x="20" y="455" width="740" height="78">
+            <text id="373:13161" name="Which Audience segment from the above has the highest number of orders" x="0" y="16" width="740" height="18" />
+            <text id="373:13162" name="Order data is not provided, so the audience segment with the highest number of orders cannot be determined from this dataset." x="0" y="42" width="740" height="36" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="373:13163" name="User Summary Data — Chart" x="1097" y="148" width="850" height="570">
+        <text id="373:13164" name="User Summary Data" x="30" y="24" width="189" height="22" />
+        <text id="373:13165" name="User Count (in Lakhs)" x="30" y="52" width="138" height="16" />
+        <rounded-rectangle id="373:13166" name="Rectangle" x="95" y="470" width="630" height="1" />
+        <text id="373:13167" name="0L" x="45" y="463" width="45" height="14" />
+        <rounded-rectangle id="373:13168" name="Rectangle" x="95" y="432" width="630" height="1" />
+        <text id="373:13169" name="2L" x="45" y="425" width="45" height="14" />
+        <rounded-rectangle id="373:13170" name="Rectangle" x="95" y="394" width="630" height="1" />
+        <text id="373:13171" name="4L" x="45" y="387" width="45" height="14" />
+        <rounded-rectangle id="373:13172" name="Rectangle" x="95" y="356" width="630" height="1" />
+        <text id="373:13173" name="6L" x="45" y="349" width="45" height="14" />
+        <rounded-rectangle id="373:13174" name="Rectangle" x="95" y="318" width="630" height="1" />
+        <text id="373:13175" name="8L" x="45" y="311" width="45" height="14" />
+        <rounded-rectangle id="373:13176" name="Rectangle" x="95" y="280" width="630" height="1" />
+        <text id="373:13177" name="10L" x="45" y="273" width="45" height="14" />
+        <rounded-rectangle id="373:13178" name="Rectangle" x="95" y="242" width="630" height="1" />
+        <text id="373:13179" name="12L" x="45" y="235" width="45" height="14" />
+        <rounded-rectangle id="373:13180" name="Rectangle" x="95" y="204" width="630" height="1" />
+        <text id="373:13181" name="14L" x="45" y="197" width="45" height="14" />
+        <rounded-rectangle id="373:13182" name="Rectangle" x="95" y="166" width="630" height="1" />
+        <text id="373:13183" name="16L" x="45" y="159" width="45" height="14" />
+        <rounded-rectangle id="373:13184" name="Rectangle" x="95" y="128" width="630" height="1" />
+        <text id="373:13185" name="18L" x="45" y="121" width="45" height="14" />
+        <rounded-rectangle id="373:13186" name="Rectangle" x="95" y="90" width="630" height="1" />
+        <text id="373:13187" name="20L" x="45" y="83" width="45" height="14" />
+        <rounded-rectangle id="373:13188" name="Rectangle" x="100" y="418.32720947265625" width="60" height="51.67277908325195" />
+        <text id="373:13189" name="2,71,962" x="98" y="400.32720947265625" width="43" height="14" />
+        <text id="373:13190" name="Total Registered Users" x="90" y="480" width="80" height="39" />
+        <rounded-rectangle id="373:13191" name="Rectangle" x="210" y="142.58724975585938" width="60" height="327.4127502441406" />
+        <text id="373:13192" name="17,23,225" x="208" y="124.58724975585938" width="48" height="14" />
+        <text id="373:13193" name="Active Users" x="200" y="480" width="80" height="26" />
+        <rounded-rectangle id="373:13194" name="Rectangle" x="320" y="240.1537628173828" width="60" height="229.8462371826172" />
+        <text id="373:13195" name="12,09,717" x="318" y="222.1537628173828" width="50" height="14" />
+        <text id="373:13196" name="New Users" x="310" y="480" width="80" height="26" />
+        <rounded-rectangle id="373:13197" name="Rectangle" x="430" y="316.1100769042969" width="60" height="153.88992309570312" />
+        <text id="373:13198" name="8,09,947" x="428" y="298.1100769042969" width="46" height="14" />
+        <text id="373:13199" name="Returning Users" x="420" y="480" width="80" height="26" />
+        <rounded-rectangle id="373:13200" name="Rectangle" x="540" y="104.46983337402344" width="60" height="365.5301818847656" />
+        <text id="373:13201" name="19,23,843" x="538" y="86.46983337402344" width="51" height="14" />
+        <text id="373:13202" name="Total Users" x="530" y="480" width="80" height="26" />
+        <rounded-rectangle id="373:13203" name="Rectangle" x="650" y="258.3597717285156" width="60" height="211.64024353027344" />
+        <text id="373:13204" name="11,13,896" x="648" y="240.35975646972656" width="50" height="14" />
+        <text id="373:13205" name="First-Time Users" x="640" y="480" width="80" height="26" />
+      </frame>
+      <frame id="373:13206" name="User Summary Data" x="2081" y="148" width="712" height="122">
+        <frame id="373:13207" name="Frame 2121455468" x="1" y="1" width="710" height="34">
+          <text id="373:13208" name="User Summary Data" x="4" y="4" width="702" height="26" />
+        </frame>
+        <text id="373:13209" name="This section gives us an overall view of Annachy’s users during the 90-day period from 19 May to 18 August 2026. It covers registered users, active users, new users, returning users, total users, and first-time users." x="1" y="43" width="710" height="78" />
+      </frame>
+      <frame id="373:13210" name="Key Findings" x="2081" y="372" width="712" height="278">
+        <frame id="373:13211" name="Frame 2121455468" x="1" y="1" width="710" height="34">
+          <text id="373:13212" name="Key Findings" x="4" y="4" width="702" height="26" />
+        </frame>
+        <text id="373:13213" name="Annachy has 2.72 lakh registered users, compared with 17.23 lakh active users." x="1" y="47" width="710" height="26" />
+        <text id="373:13214" name="This means a large number of people are using Annachy without creating an account." x="1" y="85" width="710" height="26" />
+        <text id="373:13215" name="There is a small mismatch between the New Users + Returning Users and the reported Total Users." x="1" y="123" width="710" height="52" />
+        <text id="373:13216" name="There is also a difference between New Users and First-Time Users." x="1" y="187" width="710" height="26" />
+        <text id="373:13217" name="These differences should be checked with the analytics/data team before using the numbers for important business decisions." x="1" y="225" width="710" height="52" />
+      </frame>
+      <frame id="373:13218" name="UX Opportunities" x="2081" y="752" width="712" height="318">
+        <frame id="373:13219" name="Frame 2121455468" x="1" y="1" width="710" height="34">
+          <text id="373:13220" name="UX Opportunities" x="4" y="4" width="702" height="26" />
+        </frame>
+        <text id="373:13221" name="Show registration at useful moments, such as after adding a product to the cart." x="1" y="47" width="710" height="26" />
+        <text id="373:13222" name="Explain the benefit of signing in instead of simply asking users to register." x="1" y="85" width="710" height="26" />
+        <text id="373:13223" name="Benefits could include: Saving the cart Faster checkout Order tracking Saved addresses Viewing order history" x="1" y="123" width="710" height="156" />
+        <text id="373:13224" name="Keep the registration process short and simple." x="1" y="291" width="710" height="26" />
+      </frame>
+    </section>
+    <section id="373:13225" name="User Demographics" x="191" y="948" width="3004" height="907">
+      <frame id="373:13226" name="User Demographics" x="80" y="205" width="1109" height="438">
+        <frame id="373:13227" name="card-header" x="21" y="41" width="1067" height="54">
+          <text id="373:13228" name="User Demographics" x="16" y="17" width="166" height="20" />
+        </frame>
+        <frame id="373:13229" name="Frame 2121455491" x="21" y="107" width="1067" height="290">
+          <frame id="373:13230" name="header-row" x="20" y="20" width="1027" height="116">
+            <frame id="373:13231" name="Frame" x="0" y="0" width="130" height="48">
+              <text id="373:13232" name="Data Required" x="0" y="0" width="130" height="18" />
+              <text id="373:13233" name="unknown" x="0" y="30" width="130" height="18" />
+            </frame>
+            <frame id="373:13234" name="Frame" x="329" y="0" width="698" height="102">
+              <frame id="373:13235" name="Frame" x="0" y="0" width="319" height="102">
+                <frame id="373:13236" name="Frame" x="0" y="0" width="140" height="48">
+                  <text id="373:13237" name="Active Users" x="0" y="0" width="140" height="18" />
+                  <text id="373:13238" name="1,354,452 (91.72%)" x="0" y="30" width="140" height="18" />
+                </frame>
+                <frame id="373:13239" name="Frame" x="169" y="0" width="150" height="102">
+                  <text id="373:13240" name="Words" x="0" y="0" width="150" height="18" />
+                  <text id="373:13241" name="One Million Three Hundred Fifty-Four Thousand Four Hundred Fifty-Two" x="0" y="30" width="150" height="72" />
+                </frame>
+              </frame>
+              <frame id="373:13242" name="Frame" x="353" y="0" width="345" height="84">
+                <frame id="373:13243" name="Frame" x="0" y="0" width="140" height="48">
+                  <text id="373:13244" name="New Users" x="0" y="0" width="140" height="18" />
+                  <text id="373:13245" name="910,880 (89.74%)" x="0" y="30" width="140" height="18" />
+                </frame>
+                <frame id="373:13246" name="Frame" x="195" y="0" width="150" height="84">
+                  <text id="373:13247" name="Words" x="0" y="0" width="150" height="18" />
+                  <text id="373:13248" name="Nine Hundred Ten Thousand Eight Hundred Eighty" x="0" y="30" width="150" height="54" />
+                </frame>
+              </frame>
+            </frame>
+          </frame>
+          <frame id="373:13249" name="male" x="20" y="136" width="1027" height="67">
+            <text id="373:13250" name="Male" x="0" y="0" width="130" height="18" />
+            <frame id="373:13251" name="Frame" x="329" y="0" width="698" height="54">
+              <frame id="373:13252" name="Frame" x="0" y="0" width="319" height="54">
+                <text id="373:13253" name="83,109 (5.63%)" x="0" y="0" width="140" height="18" />
+                <text id="373:13254" name="Eighty-Three Thousand One Hundred Nine" x="169" y="0" width="150" height="54" />
+              </frame>
+              <frame id="373:13255" name="Frame" x="353" y="0" width="345" height="54">
+                <text id="373:13256" name="64,528 (6.36%)" x="0" y="0" width="140" height="18" />
+                <text id="373:13257" name="Sixty-Four Thousand Five Hundred Twenty-Eight" x="195" y="0" width="150" height="54" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="373:13258" name="female" x="20" y="203" width="1027" height="67">
+            <text id="373:13259" name="Female" x="0" y="0" width="130" height="18" />
+            <frame id="373:13260" name="Frame" x="329" y="0" width="698" height="54">
+              <frame id="373:13261" name="Frame" x="0" y="0" width="319" height="54">
+                <text id="373:13262" name="53,535 (3.63%)" x="0" y="0" width="140" height="18" />
+                <text id="373:13263" name="Fifty-Three Thousand Five Hundred Thirty-Five" x="169" y="0" width="150" height="54" />
+              </frame>
+              <frame id="373:13264" name="Frame" x="353" y="0" width="345" height="54">
+                <text id="373:13265" name="39,622 (3.9%)" x="0" y="0" width="140" height="18" />
+                <text id="373:13266" name="Thirty-Nine Thousand Six Hundred Twenty-Two" x="195" y="0" width="150" height="54" />
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+      <frame id="373:13267" name="User Demographics — Chart" x="1284" y="205" width="784" height="570">
+        <text id="373:13268" name="User Demographics: Active vs New Users" x="30" y="24" width="386" height="22" />
+        <text id="373:13269" name="% of Users" x="30" y="52" width="68" height="16" />
+        <rounded-rectangle id="373:13270" name="Rectangle" x="75" y="470" width="644" height="1" />
+        <text id="373:13271" name="0" x="35" y="463" width="35" height="14" />
+        <rounded-rectangle id="373:13272" name="Rectangle" x="75" y="432" width="644" height="1" />
+        <text id="373:13273" name="10" x="35" y="425" width="35" height="14" />
+        <rounded-rectangle id="373:13274" name="Rectangle" x="75" y="394" width="644" height="1" />
+        <text id="373:13275" name="20" x="35" y="387" width="35" height="14" />
+        <rounded-rectangle id="373:13276" name="Rectangle" x="75" y="356" width="644" height="1" />
+        <text id="373:13277" name="30" x="35" y="349" width="35" height="14" />
+        <rounded-rectangle id="373:13278" name="Rectangle" x="75" y="318" width="644" height="1" />
+        <text id="373:13279" name="40" x="35" y="311" width="35" height="14" />
+        <rounded-rectangle id="373:13280" name="Rectangle" x="75" y="280" width="644" height="1" />
+        <text id="373:13281" name="50" x="35" y="273" width="35" height="14" />
+        <rounded-rectangle id="373:13282" name="Rectangle" x="75" y="242" width="644" height="1" />
+        <text id="373:13283" name="60" x="35" y="235" width="35" height="14" />
+        <rounded-rectangle id="373:13284" name="Rectangle" x="75" y="204" width="644" height="1" />
+        <text id="373:13285" name="70" x="35" y="197" width="35" height="14" />
+        <rounded-rectangle id="373:13286" name="Rectangle" x="75" y="166" width="644" height="1" />
+        <text id="373:13287" name="80" x="35" y="159" width="35" height="14" />
+        <rounded-rectangle id="373:13288" name="Rectangle" x="75" y="128" width="644" height="1" />
+        <text id="373:13289" name="90" x="35" y="121" width="35" height="14" />
+        <rounded-rectangle id="373:13290" name="Rectangle" x="75" y="90" width="644" height="1" />
+        <text id="373:13291" name="100" x="35" y="83" width="35" height="14" />
+        <rounded-rectangle id="373:13292" name="Rectangle" x="80" y="121.46399688720703" width="60" height="348.5360107421875" />
+        <text id="373:13293" name="91.72%" x="85" y="103.46399688720703" width="37" height="14" />
+        <rounded-rectangle id="373:13294" name="Rectangle" x="148" y="128.98800659179688" width="60" height="341.0119934082031" />
+        <text id="373:13295" name="89.74%" x="153" y="110.98799896240234" width="39" height="14" />
+        <text id="373:13296" name="unknown" x="116" y="484" width="63" height="18" />
+        <rounded-rectangle id="373:13297" name="Rectangle" x="328" y="448.6059875488281" width="60" height="21.393999099731445" />
+        <text id="373:13298" name="5.63%" x="333" y="430.6059875488281" width="32" height="14" />
+        <rounded-rectangle id="373:13299" name="Rectangle" x="396" y="445.8320007324219" width="60" height="24.167999267578125" />
+        <text id="373:13300" name="6.36%" x="401" y="427.8320007324219" width="32" height="14" />
+        <text id="373:13301" name="male" x="376" y="484" width="34" height="18" />
+        <rounded-rectangle id="373:13302" name="Rectangle" x="576" y="456.20599365234375" width="60" height="13.793999671936035" />
+        <text id="373:13303" name="3.63%" x="581" y="438.20599365234375" width="32" height="14" />
+        <rounded-rectangle id="373:13304" name="Rectangle" x="644" y="455.17999267578125" width="60" height="14.819999694824219" />
+        <text id="373:13305" name="3.90%" x="649" y="437.17999267578125" width="33" height="14" />
+        <text id="373:13306" name="female" x="616" y="484" width="48" height="18" />
+        <rounded-rectangle id="373:13307" name="Rectangle" x="80" y="538" width="14" height="14" />
+        <text id="373:13308" name="Active Users %" x="102" y="538" width="88" height="15" />
+        <rounded-rectangle id="373:13309" name="Rectangle" x="240" y="538" width="14" height="14" />
+        <text id="373:13310" name="New Users %" x="262" y="538" width="77" height="15" />
+      </frame>
+      <frame id="373:13311" name="User Demographics — Gender" x="2163" y="205" width="712" height="70">
+        <frame id="373:13312" name="Frame 2121455468" x="1" y="1" width="710" height="34">
+          <text id="373:13313" name="User Demographics — Gender" x="4" y="4" width="702" height="26" />
+        </frame>
+        <text id="373:13314" name="This section shows the gender distribution between active users and new users." x="1" y="43" width="710" height="26" />
+      </frame>
+      <frame id="373:13315" name="Key Findings" x="2163" y="333" width="712" height="148">
+        <frame id="373:13316" name="Frame 2121455468" x="1" y="1" width="710" height="34">
+          <text id="373:13317" name="Key Findings" x="4" y="4" width="702" height="26" />
+        </frame>
+        <text id="373:13318" name="91.72% of active users have their gender marked as unknown. 89.74% of new users also have their gender marked as unknown. Among users whose gender is known, male users are higher than female users. The male/female pattern is fairly similar between new and active users" x="1" y="43" width="710" height="104" />
+      </frame>
+      <frame id="373:13319" name="UX Opportunities" x="2163" y="548" width="712" height="148">
+        <frame id="373:13320" name="Frame 2121455468" x="1" y="1" width="710" height="34">
+          <text id="373:13321" name="UX Opportunities" x="4" y="4" width="702" height="26" />
+        </frame>
+        <text id="373:13322" name="Don&#39;t create separate male/female experiences based only on this data. If gender information is needed, collect it optionally during profile completion. Give users a clear reason for providing the information. Explore why female users appear lower among identified users." x="1" y="43" width="710" height="104" />
+      </frame>
+    </section>
+    <section id="373:13323" name="Top Cities by Users" x="237" y="7105" width="2912" height="2950">
+      <frame id="373:13324" name="Top Cities by Users" x="98" y="121" width="1012" height="2708">
+        <frame id="373:13325" name="card-header" x="21" y="41" width="970" height="54">
+          <text id="373:13326" name="Top Cities by Users" x="16" y="17" width="158" height="20" />
+        </frame>
+        <frame id="373:13327" name="Frame 2121455491" x="21" y="107" width="970" height="2560">
+          <frame id="373:13328" name="Frame 2121455490" x="20" y="20" width="930" height="102">
+            <frame id="373:13329" name="Frame 2121455478" x="0" y="0" width="93" height="48">
+              <text id="373:13330" name="City / Market" x="0" y="0" width="93" height="18" />
+              <text id="373:13331" name="Chennai" x="0" y="30" width="93" height="18" />
+            </frame>
+            <frame id="373:13332" name="Frame 2121455489" x="292" y="0" width="638" height="102">
+              <frame id="373:13333" name="Frame 2121455487" x="0" y="0" width="289" height="102">
+                <frame id="373:13334" name="Frame 2121455479" x="0" y="0" width="130" height="48">
+                  <text id="373:13335" name="Active Users" x="0" y="0" width="130" height="18" />
+                  <text id="373:13336" name="910,372 (66.5%)" x="0" y="30" width="130" height="18" />
+                </frame>
+                <frame id="373:13337" name="Frame 2121455480" x="159" y="0" width="130" height="102">
+                  <text id="373:13338" name="Words" x="0" y="0" width="130" height="18" />
+                  <text id="373:13339" name="Nine Hundred Ten Thousand Three Hundred Seventy-Two" x="0" y="30" width="130" height="72" />
+                </frame>
+              </frame>
+              <frame id="373:13340" name="Frame 2121455488" x="323" y="0" width="315" height="84">
+                <frame id="373:13341" name="Frame 2121455481" x="0" y="0" width="130" height="48">
+                  <text id="373:13342" name="New Users" x="0" y="0" width="130" height="18" />
+                  <text id="373:13343" name="511,700 (56.67%)" x="0" y="30" width="130" height="18" />
+                </frame>
+                <frame id="373:13344" name="Frame 2121455482" x="185" y="0" width="130" height="84">
+                  <text id="373:13345" name="Words" x="0" y="0" width="130" height="18" />
+                  <text id="373:13346" name="Five Hundred Eleven Thousand Seven Hundred" x="0" y="30" width="130" height="54" />
+                </frame>
+              </frame>
+            </frame>
+          </frame>
+          <frame id="373:13347" name="Frame 2121455486" x="20" y="152" width="930" height="103">
+            <text id="373:13348" name="Coimbatore" x="0" y="0" width="93" height="18" />
+            <frame id="373:13349" name="Frame 2121455485" x="292" y="0" width="638" height="90">
+              <frame id="373:13350" name="Frame 2121455483" x="0" y="0" width="289" height="90">
+                <text id="373:13351" name="225,873 (16.5%)" x="0" y="0" width="130" height="18" />
+                <text id="373:13352" name="Two Hundred Twenty-Five Thousand Eight Hundred Seventy-Three" x="159" y="0" width="130" height="90" />
+              </frame>
+              <frame id="373:13353" name="Frame 2121455484" x="323" y="0" width="315" height="72">
+                <text id="373:13354" name="93,844 (10.39%)" x="0" y="0" width="130" height="18" />
+                <text id="373:13355" name="Ninety-Three Thousand Eight Hundred Forty-Four" x="185" y="0" width="130" height="72" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="373:13356" name="Madurai" x="20" y="285" width="930" height="85">
+            <text id="373:13357" name="Madurai" x="0" y="0" width="93" height="18" />
+            <frame id="373:13358" name="Frame" x="292" y="0" width="638" height="72">
+              <frame id="373:13359" name="Frame" x="0" y="0" width="289" height="72">
+                <text id="373:13360" name="91,273 (6.67%)" x="0" y="0" width="130" height="18" />
+                <text id="373:13361" name="Ninety-One Thousand Two Hundred Seventy-Three" x="159" y="0" width="130" height="72" />
+              </frame>
+              <frame id="373:13362" name="Frame" x="323" y="0" width="315" height="72">
+                <text id="373:13363" name="37,462 (4.15%)" x="0" y="0" width="130" height="18" />
+                <text id="373:13364" name="Thirty-Seven Thousand Four Hundred Sixty-Two" x="185" y="0" width="130" height="72" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="373:13365" name="Salem" x="20" y="400" width="930" height="67">
+            <text id="373:13366" name="Salem" x="0" y="0" width="93" height="18" />
+            <frame id="373:13367" name="Frame" x="292" y="0" width="638" height="54">
+              <frame id="373:13368" name="Frame" x="0" y="0" width="289" height="54">
+                <text id="373:13369" name="71,118 (5.2%)" x="0" y="0" width="130" height="18" />
+                <text id="373:13370" name="Seventy-One Thousand One Hundred Eighteen" x="159" y="0" width="130" height="54" />
+              </frame>
+              <frame id="373:13371" name="Frame" x="323" y="0" width="315" height="36">
+                <text id="373:13372" name="33,010 (3.66%)" x="0" y="0" width="130" height="18" />
+                <text id="373:13373" name="Thirty-Three Thousand Ten" x="185" y="0" width="130" height="36" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="373:13374" name="(not set)" x="20" y="497" width="930" height="85">
+            <text id="373:13375" name="(not set)" x="0" y="0" width="93" height="18" />
+            <frame id="373:13376" name="Frame" x="292" y="0" width="638" height="72">
+              <frame id="373:13377" name="Frame" x="0" y="0" width="289" height="54">
+                <text id="373:13378" name="70,280 (5.13%)" x="0" y="0" width="130" height="18" />
+                <text id="373:13379" name="Seventy Thousand Two Hundred Eighty" x="159" y="0" width="130" height="54" />
+              </frame>
+              <frame id="373:13380" name="Frame" x="323" y="0" width="315" height="72">
+                <text id="373:13381" name="17,569 (1.95%)" x="0" y="0" width="130" height="18" />
+                <text id="373:13382" name="Seventeen Thousand Five Hundred Sixty-Nine" x="185" y="0" width="130" height="72" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="373:13383" name="Bengaluru" x="20" y="612" width="930" height="85">
+            <text id="373:13384" name="Bengaluru" x="0" y="0" width="93" height="18" />
+            <frame id="373:13385" name="Frame" x="292" y="0" width="638" height="72">
+              <frame id="373:13386" name="Frame" x="0" y="0" width="289" height="72">
+                <text id="373:13387" name="65,432 (4.78%)" x="0" y="0" width="130" height="18" />
+                <text id="373:13388" name="Sixty-Five Thousand Four Hundred Thirty-Two" x="159" y="0" width="130" height="72" />
+              </frame>
+              <frame id="373:13389" name="Frame" x="323" y="0" width="315" height="72">
+                <text id="373:13390" name="52,999 (5.87%)" x="0" y="0" width="130" height="18" />
+                <text id="373:13391" name="Fifty-Two Thousand Nine Hundred Ninety-Nine" x="185" y="0" width="130" height="72" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="373:13392" name="Hyderabad" x="20" y="727" width="930" height="85">
+            <text id="373:13393" name="Hyderabad" x="0" y="0" width="93" height="18" />
+            <frame id="373:13394" name="Frame" x="292" y="0" width="638" height="72">
+              <frame id="373:13395" name="Frame" x="0" y="0" width="289" height="36">
+                <text id="373:13396" name="30,110 (2.2%)" x="0" y="0" width="130" height="18" />
+                <text id="373:13397" name="Thirty Thousand One Hundred Ten" x="159" y="0" width="130" height="36" />
+              </frame>
+              <frame id="373:13398" name="Frame" x="323" y="0" width="315" height="72">
+                <text id="373:13399" name="22,742 (2.52%)" x="0" y="0" width="130" height="18" />
+                <text id="373:13400" name="Twenty-Two Thousand Seven Hundred Forty-Two" x="185" y="0" width="130" height="72" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="373:13401" name="Tiruchirappalli" x="20" y="842" width="930" height="67">
+            <text id="373:13402" name="Tiruchirappalli" x="0" y="0" width="93" height="36" />
+            <frame id="373:13403" name="Frame" x="292" y="0" width="638" height="54">
+              <frame id="373:13404" name="Frame" x="0" y="0" width="289" height="54">
+                <text id="373:13405" name="17,916 (1.31%)" x="0" y="0" width="130" height="18" />
+                <text id="373:13406" name="Seventeen Thousand Nine Hundred Sixteen" x="159" y="0" width="130" height="54" />
+              </frame>
+              <frame id="373:13407" name="Frame" x="323" y="0" width="315" height="54">
+                <text id="373:13408" name="5,119 (0.57%)" x="0" y="0" width="130" height="18" />
+                <text id="373:13409" name="Five Thousand One Hundred Nineteen" x="185" y="0" width="130" height="54" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="373:13410" name="Kochi" x="20" y="939" width="930" height="67">
+            <text id="373:13411" name="Kochi" x="0" y="0" width="93" height="18" />
+            <frame id="373:13412" name="Frame" x="292" y="0" width="638" height="54">
+              <frame id="373:13413" name="Frame" x="0" y="0" width="289" height="54">
+                <text id="373:13414" name="12,811 (0.94%)" x="0" y="0" width="130" height="18" />
+                <text id="373:13415" name="Twelve Thousand Eight Hundred Eleven" x="159" y="0" width="130" height="54" />
+              </frame>
+              <frame id="373:13416" name="Frame" x="323" y="0" width="315" height="54">
+                <text id="373:13417" name="7,612 (0.84%)" x="0" y="0" width="130" height="18" />
+                <text id="373:13418" name="Seven Thousand Six Hundred Twelve" x="185" y="0" width="130" height="54" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="373:13419" name="Tirunelveli" x="20" y="1036" width="930" height="49">
+            <text id="373:13420" name="Tirunelveli" x="0" y="0" width="93" height="18" />
+            <frame id="373:13421" name="Frame" x="292" y="0" width="638" height="36">
+              <frame id="373:13422" name="Frame" x="0" y="0" width="289" height="36">
+                <text id="373:13423" name="11,012 (0.8%)" x="0" y="0" width="130" height="18" />
+                <text id="373:13424" name="Eleven Thousand Twelve" x="159" y="0" width="130" height="36" />
+              </frame>
+              <frame id="373:13425" name="Frame" x="323" y="0" width="315" height="36">
+                <text id="373:13426" name="2,620 (0.29%)" x="0" y="0" width="130" height="18" />
+                <text id="373:13427" name="Two Thousand Six Hundred Twenty" x="185" y="0" width="130" height="36" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="373:13428" name="Hosur" x="20" y="1115" width="930" height="67">
+            <text id="373:13429" name="Hosur" x="0" y="0" width="93" height="18" />
+            <frame id="373:13430" name="Frame" x="292" y="0" width="638" height="54">
+              <frame id="373:13431" name="Frame" x="0" y="0" width="289" height="54">
+                <text id="373:13432" name="10,985 (0.8%)" x="0" y="0" width="130" height="18" />
+                <text id="373:13433" name="Ten Thousand Nine Hundred Eighty-Five" x="159" y="0" width="130" height="54" />
+              </frame>
+              <frame id="373:13434" name="Frame" x="323" y="0" width="315" height="36">
+                <text id="373:13435" name="2,652 (0.29%)" x="0" y="0" width="130" height="18" />
+                <text id="373:13436" name="Two Thousand Six Hundred Fifty-Two" x="185" y="0" width="130" height="36" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="373:13437" name="Tiruppur" x="20" y="1212" width="930" height="67">
+            <text id="373:13438" name="Tiruppur" x="0" y="0" width="93" height="18" />
+            <frame id="373:13439" name="Frame" x="292" y="0" width="638" height="54">
+              <frame id="373:13440" name="Frame" x="0" y="0" width="289" height="54">
+                <text id="373:13441" name="10,754 (0.79%)" x="0" y="0" width="130" height="18" />
+                <text id="373:13442" name="Ten Thousand Seven Hundred Fifty-Four" x="159" y="0" width="130" height="54" />
+              </frame>
+              <frame id="373:13443" name="Frame" x="323" y="0" width="315" height="54">
+                <text id="373:13444" name="2,155 (0.24%)" x="0" y="0" width="130" height="18" />
+                <text id="373:13445" name="Two Thousand One Hundred Fifty-Five" x="185" y="0" width="130" height="54" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="373:13446" name="Thoothukudi" x="20" y="1309" width="930" height="67">
+            <text id="373:13447" name="Thoothukudi" x="0" y="0" width="93" height="18" />
+            <frame id="373:13448" name="Frame" x="292" y="0" width="638" height="54">
+              <frame id="373:13449" name="Frame" x="0" y="0" width="289" height="54">
+                <text id="373:13450" name="10,463 (0.76%)" x="0" y="0" width="130" height="18" />
+                <text id="373:13451" name="Ten Thousand Four Hundred Sixty-Three" x="159" y="0" width="130" height="54" />
+              </frame>
+              <frame id="373:13452" name="Frame" x="323" y="0" width="315" height="54">
+                <text id="373:13453" name="2,166 (0.24%)" x="0" y="0" width="130" height="18" />
+                <text id="373:13454" name="Two Thousand One Hundred Sixty-Six" x="185" y="0" width="130" height="54" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="373:13455" name="Thanjavur" x="20" y="1406" width="930" height="67">
+            <text id="373:13456" name="Thanjavur" x="0" y="0" width="93" height="18" />
+            <frame id="373:13457" name="Frame" x="292" y="0" width="638" height="54">
+              <frame id="373:13458" name="Frame" x="0" y="0" width="289" height="54">
+                <text id="373:13459" name="8,472 (0.62%)" x="0" y="0" width="130" height="18" />
+                <text id="373:13460" name="Eight Thousand Four Hundred Seventy-Two" x="159" y="0" width="130" height="54" />
+              </frame>
+              <frame id="373:13461" name="Frame" x="323" y="0" width="315" height="54">
+                <text id="373:13462" name="1,986 (0.22%)" x="0" y="0" width="130" height="18" />
+                <text id="373:13463" name="One Thousand Nine Hundred Eighty-Six" x="185" y="0" width="130" height="54" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="373:13464" name="Nagercoil" x="20" y="1503" width="930" height="67">
+            <text id="373:13465" name="Nagercoil" x="0" y="0" width="93" height="18" />
+            <frame id="373:13466" name="Frame" x="292" y="0" width="638" height="54">
+              <frame id="373:13467" name="Frame" x="0" y="0" width="289" height="54">
+                <text id="373:13468" name="8,270 (0.6%)" x="0" y="0" width="130" height="18" />
+                <text id="373:13469" name="Eight Thousand Two Hundred Seventy" x="159" y="0" width="130" height="54" />
+              </frame>
+              <frame id="373:13470" name="Frame" x="323" y="0" width="315" height="54">
+                <text id="373:13471" name="2,466 (0.27%)" x="0" y="0" width="130" height="18" />
+                <text id="373:13472" name="Two Thousand Four Hundred Sixty-Six" x="185" y="0" width="130" height="54" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="373:13473" name="Mumbai" x="20" y="1600" width="930" height="67">
+            <text id="373:13474" name="Mumbai" x="0" y="0" width="93" height="18" />
+            <frame id="373:13475" name="Frame" x="292" y="0" width="638" height="54">
+              <frame id="373:13476" name="Frame" x="0" y="0" width="289" height="54">
+                <text id="373:13477" name="5,996 (0.44%)" x="0" y="0" width="130" height="18" />
+                <text id="373:13478" name="Five Thousand Nine Hundred Ninety-Six" x="159" y="0" width="130" height="54" />
+              </frame>
+              <frame id="373:13479" name="Frame" x="323" y="0" width="315" height="54">
+                <text id="373:13480" name="4,659 (0.52%)" x="0" y="0" width="130" height="18" />
+                <text id="373:13481" name="Four Thousand Six Hundred Fifty-Nine" x="185" y="0" width="130" height="54" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="373:13482" name="Erode" x="20" y="1697" width="930" height="67">
+            <text id="373:13483" name="Erode" x="0" y="0" width="93" height="18" />
+            <frame id="373:13484" name="Frame" x="292" y="0" width="638" height="54">
+              <frame id="373:13485" name="Frame" x="0" y="0" width="289" height="36">
+                <text id="373:13486" name="5,612 (0.41%)" x="0" y="0" width="130" height="18" />
+                <text id="373:13487" name="Five Thousand Six Hundred Twelve" x="159" y="0" width="130" height="36" />
+              </frame>
+              <frame id="373:13488" name="Frame" x="323" y="0" width="315" height="54">
+                <text id="373:13489" name="1,421 (0.16%)" x="0" y="0" width="130" height="18" />
+                <text id="373:13490" name="One Thousand Four Hundred Twenty-One" x="185" y="0" width="130" height="54" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="373:13491" name="Puducherry" x="20" y="1794" width="930" height="67">
+            <text id="373:13492" name="Puducherry" x="0" y="0" width="93" height="18" />
+            <frame id="373:13493" name="Frame" x="292" y="0" width="638" height="54">
+              <frame id="373:13494" name="Frame" x="0" y="0" width="289" height="54">
+                <text id="373:13495" name="5,598 (0.41%)" x="0" y="0" width="130" height="18" />
+                <text id="373:13496" name="Five Thousand Five Hundred Ninety-Eight" x="159" y="0" width="130" height="54" />
+              </frame>
+              <frame id="373:13497" name="Frame" x="323" y="0" width="315" height="54">
+                <text id="373:13498" name="1,564 (0.17%)" x="0" y="0" width="130" height="18" />
+                <text id="373:13499" name="One Thousand Five Hundred Sixty-Four" x="185" y="0" width="130" height="54" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="373:13500" name="Vellore" x="20" y="1891" width="930" height="67">
+            <text id="373:13501" name="Vellore" x="0" y="0" width="93" height="18" />
+            <frame id="373:13502" name="Frame" x="292" y="0" width="638" height="54">
+              <frame id="373:13503" name="Frame" x="0" y="0" width="289" height="54">
+                <text id="373:13504" name="5,422 (0.4%)" x="0" y="0" width="130" height="18" />
+                <text id="373:13505" name="Five Thousand Four Hundred Twenty-Two" x="159" y="0" width="130" height="54" />
+              </frame>
+              <frame id="373:13506" name="Frame" x="323" y="0" width="315" height="54">
+                <text id="373:13507" name="1,555 (0.17%)" x="0" y="0" width="130" height="18" />
+                <text id="373:13508" name="One Thousand Five Hundred Fifty-Five" x="185" y="0" width="130" height="54" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="373:13509" name="Delhi" x="20" y="1988" width="930" height="67">
+            <text id="373:13510" name="Delhi" x="0" y="0" width="93" height="18" />
+            <frame id="373:13511" name="Frame" x="292" y="0" width="638" height="54">
+              <frame id="373:13512" name="Frame" x="0" y="0" width="289" height="54">
+                <text id="373:13513" name="4,959 (0.36%)" x="0" y="0" width="130" height="18" />
+                <text id="373:13514" name="Four Thousand Nine Hundred Fifty-Nine" x="159" y="0" width="130" height="54" />
+              </frame>
+              <frame id="373:13515" name="Frame" x="323" y="0" width="315" height="54">
+                <text id="373:13516" name="4,245 (0.47%)" x="0" y="0" width="130" height="18" />
+                <text id="373:13517" name="Four Thousand Two Hundred Forty-Five" x="185" y="0" width="130" height="54" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="373:13518" name="Thiruvananthapuram" x="20" y="2085" width="930" height="67">
+            <text id="373:13519" name="Thiruvananthapuram" x="0" y="0" width="93" height="36" />
+            <frame id="373:13520" name="Frame" x="292" y="0" width="638" height="54">
+              <frame id="373:13521" name="Frame" x="0" y="0" width="289" height="54">
+                <text id="373:13522" name="4,673 (0.34%)" x="0" y="0" width="130" height="18" />
+                <text id="373:13523" name="Four Thousand Six Hundred Seventy-Three" x="159" y="0" width="130" height="54" />
+              </frame>
+              <frame id="373:13524" name="Frame" x="323" y="0" width="315" height="54">
+                <text id="373:13525" name="2,671 (0.3%)" x="0" y="0" width="130" height="18" />
+                <text id="373:13526" name="Two Thousand Six Hundred Seventy-One" x="185" y="0" width="130" height="54" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="373:13527" name="Patna" x="20" y="2182" width="930" height="67">
+            <text id="373:13528" name="Patna" x="0" y="0" width="93" height="18" />
+            <frame id="373:13529" name="Frame" x="292" y="0" width="638" height="54">
+              <frame id="373:13530" name="Frame" x="0" y="0" width="289" height="54">
+                <text id="373:13531" name="4,507 (0.33%)" x="0" y="0" width="130" height="18" />
+                <text id="373:13532" name="Four Thousand Five Hundred Seven" x="159" y="0" width="130" height="54" />
+              </frame>
+              <frame id="373:13533" name="Frame" x="323" y="0" width="315" height="54">
+                <text id="373:13534" name="3,548 (0.39%)" x="0" y="0" width="130" height="18" />
+                <text id="373:13535" name="Three Thousand Five Hundred Forty-Eight" x="185" y="0" width="130" height="54" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="373:13536" name="Pune" x="20" y="2279" width="930" height="67">
+            <text id="373:13537" name="Pune" x="0" y="0" width="93" height="18" />
+            <frame id="373:13538" name="Frame" x="292" y="0" width="638" height="54">
+              <frame id="373:13539" name="Frame" x="0" y="0" width="289" height="54">
+                <text id="373:13540" name="4,113 (0.3%)" x="0" y="0" width="130" height="18" />
+                <text id="373:13541" name="Four Thousand One Hundred Thirteen" x="159" y="0" width="130" height="54" />
+              </frame>
+              <frame id="373:13542" name="Frame" x="323" y="0" width="315" height="54">
+                <text id="373:13543" name="3,182 (0.35%)" x="0" y="0" width="130" height="18" />
+                <text id="373:13544" name="Three Thousand One Hundred Eighty-Two" x="185" y="0" width="130" height="54" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="373:13545" name="Sivakasi" x="20" y="2376" width="930" height="67">
+            <text id="373:13546" name="Sivakasi" x="0" y="0" width="93" height="18" />
+            <frame id="373:13547" name="Frame" x="292" y="0" width="638" height="54">
+              <frame id="373:13548" name="Frame" x="0" y="0" width="289" height="54">
+                <text id="373:13549" name="3,647 (0.27%)" x="0" y="0" width="130" height="18" />
+                <text id="373:13550" name="Three Thousand Six Hundred Forty-Seven" x="159" y="0" width="130" height="54" />
+              </frame>
+              <frame id="373:13551" name="Frame" x="323" y="0" width="315" height="36">
+                <text id="373:13552" name="923 (0.1%)" x="0" y="0" width="130" height="18" />
+                <text id="373:13553" name="Nine Hundred Twenty-Three" x="185" y="0" width="130" height="36" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="373:13554" name="Kumbakonam" x="20" y="2473" width="930" height="67">
+            <text id="373:13555" name="Kumbakonam" x="0" y="0" width="93" height="36" />
+            <frame id="373:13556" name="Frame" x="292" y="0" width="638" height="54">
+              <frame id="373:13557" name="Frame" x="0" y="0" width="289" height="54">
+                <text id="373:13558" name="3,463 (0.25%)" x="0" y="0" width="130" height="18" />
+                <text id="373:13559" name="Three Thousand Four Hundred Sixty-Three" x="159" y="0" width="130" height="54" />
+              </frame>
+              <frame id="373:13560" name="Frame" x="323" y="0" width="315" height="36">
+                <text id="373:13561" name="811 (0.09%)" x="0" y="0" width="130" height="18" />
+                <text id="373:13562" name="Eight Hundred Eleven" x="185" y="0" width="130" height="36" />
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+      <frame id="373:13563" name="Frame 2121455509" x="1181" y="883" width="712" height="74">
+        <frame id="373:13564" name="Frame 2121455468" x="1" y="1" width="710" height="34">
+          <text id="373:13565" name="Top Cities by Users" x="4" y="4" width="702" height="26" />
+        </frame>
+        <text id="373:13566" name="This section shows where Annachy users are located based on active and new users." x="1" y="47" width="710" height="26" />
+      </frame>
+      <frame id="373:13567" name="Frame 2121455500" x="1181" y="1033" width="712" height="230">
+        <frame id="373:13568" name="Frame 2121455468" x="1" y="1" width="710" height="34">
+          <text id="373:13569" name="Key Findings" x="4" y="4" width="702" height="26" />
+        </frame>
+        <text id="373:13570" name="Chennai is the largest market by a significant margin. Coimbatore is the second-largest city. Madurai and Salem also have a strong presence. Most of the major cities in the data are in Tamil Nadu. Bengaluru and Hyderabad are the main markets outside Tamil Nadu. Bengaluru has a slightly stronger share of new users compared with its active-user share." x="1" y="47" width="710" height="182" />
+      </frame>
+      <frame id="373:13571" name="Frame 2121455510" x="1181" y="1301" width="712" height="204">
+        <frame id="373:13572" name="Frame 2121455468" x="1" y="1" width="710" height="34">
+          <text id="373:13573" name="UX Opportunities" x="4" y="4" width="702" height="26" />
+        </frame>
+        <text id="373:13574" name="Prioritize Tamil Nadu when planning regional UX improvements. Consider local language and communication needs. Look at regional delivery expectations. Explore city-specific offers or product recommendations. Understand whether Bengaluru and Hyderabad users behave differently. Fix the “Not Set” location data so future analysis becomes more accurate." x="1" y="47" width="710" height="156" />
+      </frame>
+      <frame id="373:13575" name="Top Cities — Vertical Bar Chart" x="1181" y="153" width="1681" height="630">
+        <text id="373:13576" name="Top Cities by Users" x="30" y="24" width="178" height="22" />
+        <text id="373:13577" name="% of Users" x="30" y="52" width="68" height="16" />
+        <rounded-rectangle id="373:13578" name="Rectangle" x="85" y="510" width="1561" height="1" />
+        <text id="373:13579" name="0" x="50" y="503" width="30" height="14" />
+        <rounded-rectangle id="373:13580" name="Rectangle" x="85" y="450" width="1561" height="1" />
+        <text id="373:13581" name="10" x="50" y="443" width="30" height="14" />
+        <rounded-rectangle id="373:13582" name="Rectangle" x="85" y="390" width="1561" height="1" />
+        <text id="373:13583" name="20" x="50" y="383" width="30" height="14" />
+        <rounded-rectangle id="373:13584" name="Rectangle" x="85" y="330" width="1561" height="1" />
+        <text id="373:13585" name="30" x="50" y="323" width="30" height="14" />
+        <rounded-rectangle id="373:13586" name="Rectangle" x="85" y="270" width="1561" height="1" />
+        <text id="373:13587" name="40" x="50" y="263" width="30" height="14" />
+        <rounded-rectangle id="373:13588" name="Rectangle" x="85" y="210" width="1561" height="1" />
+        <text id="373:13589" name="50" x="50" y="203" width="30" height="14" />
+        <rounded-rectangle id="373:13590" name="Rectangle" x="85" y="150" width="1561" height="1" />
+        <text id="373:13591" name="60" x="50" y="143" width="30" height="14" />
+        <rounded-rectangle id="373:13592" name="Rectangle" x="85" y="90" width="1561" height="1" />
+        <text id="373:13593" name="70" x="50" y="83" width="30" height="14" />
+        <rounded-rectangle id="373:13594" name="Rectangle" x="90" y="111" width="18" height="399" />
+        <rounded-rectangle id="373:13595" name="Rectangle" x="111" y="169.97999572753906" width="18" height="340.0199890136719" />
+        <text id="373:13596" name="Chennai" x="92" y="520" width="33.94112777709961" height="33.94112777709961" />
+        <rounded-rectangle id="373:13597" name="Rectangle" x="153" y="411" width="18" height="99" />
+        <rounded-rectangle id="373:13598" name="Rectangle" x="174" y="447.6600036621094" width="18" height="62.34000015258789" />
+        <text id="373:13599" name="Coimbatore" x="155" y="520" width="45.25483703613281" height="45.25483703613281" />
+        <rounded-rectangle id="373:13600" name="Rectangle" x="216" y="469.9800109863281" width="18" height="40.02000045776367" />
+        <rounded-rectangle id="373:13601" name="Rectangle" x="237" y="485.1000061035156" width="18" height="24.899999618530273" />
+        <text id="373:13602" name="Madurai" x="218" y="520" width="34.648234605789185" height="34.648234605789185" />
+        <rounded-rectangle id="373:13603" name="Rectangle" x="279" y="478.79998779296875" width="18" height="31.200000762939453" />
+        <rounded-rectangle id="373:13604" name="Rectangle" x="300" y="488.0400085449219" width="18" height="21.959999084472656" />
+        <text id="373:13605" name="Salem" x="281" y="520" width="27.577166318893433" height="27.577166318893433" />
+        <rounded-rectangle id="373:13606" name="Rectangle" x="342" y="479.2200012207031" width="18" height="30.780000686645508" />
+        <rounded-rectangle id="373:13607" name="Rectangle" x="363" y="498.29998779296875" width="18" height="11.699999809265137" />
+        <text id="373:13608" name="(not set)" x="344" y="520" width="34.648234605789185" height="34.648234605789185" />
+        <rounded-rectangle id="373:13609" name="Rectangle" x="405" y="481.32000732421875" width="18" height="28.68000030517578" />
+        <rounded-rectangle id="373:13610" name="Rectangle" x="426" y="474.7799987792969" width="18" height="35.220001220703125" />
+        <text id="373:13611" name="Bengaluru" x="407" y="520" width="40.305089235305786" height="40.305089235305786" />
+        <rounded-rectangle id="373:13612" name="Rectangle" x="468" y="496.79998779296875" width="18" height="13.199999809265137" />
+        <rounded-rectangle id="373:13613" name="Rectangle" x="489" y="494.8800048828125" width="18" height="15.119999885559082" />
+        <text id="373:13614" name="Hyderabad" x="470" y="520" width="43.13351655006409" height="43.13351655006409" />
+        <rounded-rectangle id="373:13615" name="Rectangle" x="531" y="502.1400146484375" width="18" height="7.860000133514404" />
+        <rounded-rectangle id="373:13616" name="Rectangle" x="552" y="506.5799865722656" width="18" height="3.4200000762939453" />
+        <text id="373:13617" name="Tiruchirappalli" x="533" y="520" width="53.740118980407715" height="53.740118980407715" />
+        <rounded-rectangle id="373:13618" name="Rectangle" x="594" y="504.3599853515625" width="18" height="5.639999866485596" />
+        <rounded-rectangle id="373:13619" name="Rectangle" x="615" y="504.9599914550781" width="18" height="5.039999961853027" />
+        <text id="373:13620" name="Kochi" x="596" y="520" width="25.455845832824707" height="25.455845832824707" />
+        <rounded-rectangle id="373:13621" name="Rectangle" x="657" y="505.20001220703125" width="18" height="4.800000190734863" />
+        <rounded-rectangle id="373:13622" name="Rectangle" x="678" y="508" width="18" height="2" />
+        <text id="373:13623" name="Tirunelveli" x="659" y="520" width="40.305089235305786" height="40.305089235305786" />
+        <rounded-rectangle id="373:13624" name="Rectangle" x="720" y="505.20001220703125" width="18" height="4.800000190734863" />
+        <rounded-rectangle id="373:13625" name="Rectangle" x="741" y="508" width="18" height="2" />
+        <text id="373:13626" name="Hosur" x="722" y="520" width="26.870059490203857" height="26.870059490203857" />
+        <rounded-rectangle id="373:13627" name="Rectangle" x="783" y="505.260009765625" width="18" height="4.739999771118164" />
+        <rounded-rectangle id="373:13628" name="Rectangle" x="804" y="508" width="18" height="2" />
+        <text id="373:13629" name="Tiruppur" x="785" y="520" width="35.35534143447876" height="35.35534143447876" />
+        <rounded-rectangle id="373:13630" name="Rectangle" x="846" y="505.44000244140625" width="18" height="4.559999942779541" />
+        <rounded-rectangle id="373:13631" name="Rectangle" x="867" y="508" width="18" height="2" />
+        <text id="373:13632" name="Thoothukudi" x="848" y="520" width="47.37615752220154" height="47.37615752220154" />
+        <rounded-rectangle id="373:13633" name="Rectangle" x="909" y="506.2799987792969" width="18" height="3.7200000286102295" />
+        <rounded-rectangle id="373:13634" name="Rectangle" x="930" y="508" width="18" height="2" />
+        <text id="373:13635" name="Thanjavur" x="911" y="520" width="39.59798240661621" height="39.59798240661621" />
+        <rounded-rectangle id="373:13636" name="Rectangle" x="972" y="506.3999938964844" width="18" height="3.5999999046325684" />
+        <rounded-rectangle id="373:13637" name="Rectangle" x="993" y="508" width="18" height="2" />
+        <text id="373:13638" name="Nagercoil" x="974" y="520" width="38.890875577926636" height="38.890875577926636" />
+        <rounded-rectangle id="373:13639" name="Rectangle" x="1035" y="507.3599853515625" width="18" height="2.640000104904175" />
+        <rounded-rectangle id="373:13640" name="Rectangle" x="1056" y="506.8800048828125" width="18" height="3.119999885559082" />
+        <text id="373:13641" name="Mumbai" x="1037" y="520" width="33.234020948410034" height="33.234020948410034" />
+        <rounded-rectangle id="373:13642" name="Rectangle" x="1098" y="507.5400085449219" width="18" height="2.4600000381469727" />
+        <rounded-rectangle id="373:13643" name="Rectangle" x="1119" y="508" width="18" height="2" />
+        <text id="373:13644" name="Erode" x="1100" y="520" width="26.162952661514282" height="26.162952661514282" />
+        <rounded-rectangle id="373:13645" name="Rectangle" x="1161" y="507.5400085449219" width="18" height="2.4600000381469727" />
+        <rounded-rectangle id="373:13646" name="Rectangle" x="1182" y="508" width="18" height="2" />
+        <text id="373:13647" name="Puducherry" x="1163" y="520" width="44.54773020744324" height="44.54773020744324" />
+        <rounded-rectangle id="373:13648" name="Rectangle" x="1224" y="507.6000061035156" width="18" height="2.4000000953674316" />
+        <rounded-rectangle id="373:13649" name="Rectangle" x="1245" y="508" width="18" height="2" />
+        <text id="373:13650" name="Vellore" x="1226" y="520" width="29.698486804962158" height="29.698486804962158" />
+        <rounded-rectangle id="373:13651" name="Rectangle" x="1287" y="507.8399963378906" width="18" height="2.1600000858306885" />
+        <rounded-rectangle id="373:13652" name="Rectangle" x="1308" y="507.17999267578125" width="18" height="2.819999933242798" />
+        <text id="373:13653" name="Delhi" x="1289" y="520" width="24.041632175445557" height="24.041632175445557" />
+        <rounded-rectangle id="373:13654" name="Rectangle" x="1350" y="507.9599914550781" width="18" height="2.0399999618530273" />
+        <rounded-rectangle id="373:13655" name="Rectangle" x="1371" y="508" width="18" height="2" />
+        <text id="373:13656" name="T.puram" x="1352" y="520" width="33.234020948410034" height="33.234020948410034" />
+        <rounded-rectangle id="373:13657" name="Rectangle" x="1413" y="508" width="18" height="2" />
+        <rounded-rectangle id="373:13658" name="Rectangle" x="1434" y="507.6600036621094" width="18" height="2.3399999141693115" />
+        <text id="373:13659" name="Patna" x="1415" y="520" width="26.870059490203857" height="26.870059490203857" />
+        <rounded-rectangle id="373:13660" name="Rectangle" x="1476" y="508" width="18" height="2" />
+        <rounded-rectangle id="373:13661" name="Rectangle" x="1497" y="507.8999938964844" width="18" height="2.0999999046325684" />
+        <text id="373:13662" name="Pune" x="1478" y="520" width="24.041632175445557" height="24.041632175445557" />
+        <rounded-rectangle id="373:13663" name="Rectangle" x="1539" y="508" width="18" height="2" />
+        <rounded-rectangle id="373:13664" name="Rectangle" x="1560" y="508" width="18" height="2" />
+        <text id="373:13665" name="Sivakasi" x="1541" y="520" width="34.648234605789185" height="34.648234605789185" />
+        <rounded-rectangle id="373:13666" name="Rectangle" x="1602" y="508" width="18" height="2" />
+        <rounded-rectangle id="373:13667" name="Rectangle" x="1623" y="508" width="18" height="2" />
+        <text id="373:13668" name="Kumbakonam" x="1604" y="520" width="52.325905323028564" height="52.325905323028564" />
+        <rounded-rectangle id="373:13669" name="Rectangle" x="90" y="594" width="14" height="14" />
+        <text id="373:13670" name="Active Users %" x="110" y="594" width="88" height="15" />
+        <rounded-rectangle id="373:13671" name="Rectangle" x="250" y="594" width="14" height="14" />
+        <text id="373:13672" name="New Users %" x="270" y="594" width="77" height="15" />
+      </frame>
+    </section>
+    <frame id="373:13673" name="section-header" x="191" y="313" width="2880" height="124.85713958740234">
+      <frame id="373:13674" name="header-text-group" x="0" y="0" width="1928.5714111328125" height="124.85713958740234">
+        <text id="373:13675" name="section-title" x="0" y="0" width="1928.5714111328125" height="69" />
+        <text id="373:13676" name="section-description" x="0" y="81.85713958740234" width="1928.5714111328125" height="43" />
+      </frame>
+      <frame id="373:13677" name="date-selector" x="2437.28564453125" y="21.5" width="442.71429443359375" height="81.85713958740234">
+        <frame id="373:13678" name="calendar-icon-container" x="30" y="23.78571319580078" width="34.28571319580078" height="34.28571319580078">
+          <frame id="373:13679" name="calendar-range" x="2.1428565979003906" y="2.1428565979003906" width="30" height="30" />
+        </frame>
+        <text id="373:13681" name="date-range-text" x="81.42857360839844" y="21.428569793701172" width="327" height="39" />
+      </frame>
+    </frame>
+    <frame id="373:13682" name="Frame" x="191" y="505.85693359375" width="2880" height="288.5714111328125">
+      <frame id="373:13683" name="kpi-card-total-registered-users" x="0" y="0" width="437.1428527832031" height="288.5714111328125">
+        <frame id="373:13684" name="card-header" x="42.85714340209961" y="42.85735321044922" width="351.4285583496094" height="133.85714721679688">
+          <text id="373:13685" name="kpi-label" x="0" y="0" width="351.4285583496094" height="43" />
+          <text id="373:13686" name="kpi-value" x="0" y="55.85714340209961" width="351.4285583496094" height="78" />
+        </frame>
+        <text id="373:13687" name="kpi-supporting" x="42.857154846191406" y="206.71429443359375" width="351.4285583496094" height="39" />
+      </frame>
+      <frame id="373:13688" name="kpi-card-active-users" x="488.5714111328125" y="0" width="437.1428527832031" height="288.5714111328125">
+        <frame id="373:13689" name="card-header" x="42.857154846191406" y="42.857139587402344" width="351.4285583496094" height="133.85714721679688">
+          <text id="373:13690" name="kpi-label" x="0" y="0" width="351.4285583496094" height="43" />
+          <text id="373:13691" name="kpi-value" x="0" y="55.85714340209961" width="351.4285583496094" height="78" />
+        </frame>
+        <text id="373:13692" name="kpi-supporting" x="42.857154846191406" y="206.71429443359375" width="351.4285583496094" height="39" />
+      </frame>
+      <frame id="373:13693" name="kpi-card-new-users" x="977.142822265625" y="0" width="437.1428527832031" height="288.5714111328125">
+        <frame id="373:13694" name="card-header" x="42.857154846191406" y="42.857139587402344" width="351.4285583496094" height="133.85714721679688">
+          <text id="373:13695" name="kpi-label" x="0" y="0" width="351.4285583496094" height="43" />
+          <text id="373:13696" name="kpi-value" x="0" y="55.85714340209961" width="351.4285583496094" height="78" />
+        </frame>
+        <text id="373:13697" name="kpi-supporting" x="42.857154846191406" y="206.71429443359375" width="351.4285583496094" height="39" />
+      </frame>
+      <frame id="373:13698" name="kpi-card-returning-users" x="1465.7142333984375" y="0" width="437.1428527832031" height="288.5714111328125">
+        <frame id="373:13699" name="card-header" x="42.857154846191406" y="42.857139587402344" width="351.4285583496094" height="133.85714721679688">
+          <text id="373:13700" name="kpi-label" x="0" y="0" width="351.4285583496094" height="43" />
+          <text id="373:13701" name="kpi-value" x="0" y="55.85714340209961" width="351.4285583496094" height="78" />
+        </frame>
+        <text id="373:13702" name="kpi-supporting" x="42.857154846191406" y="206.71429443359375" width="351.4285583496094" height="39" />
+      </frame>
+      <frame id="373:13703" name="kpi-card-first-time-users" x="1954.28564453125" y="0" width="437.1428527832031" height="288.5714111328125">
+        <frame id="373:13704" name="card-header" x="42.857154846191406" y="42.857139587402344" width="351.4285583496094" height="133.85714721679688">
+          <text id="373:13705" name="kpi-label" x="0" y="0" width="351.4285583496094" height="43" />
+          <text id="373:13706" name="kpi-value" x="0" y="55.85714340209961" width="351.4285583496094" height="78" />
+        </frame>
+        <text id="373:13707" name="kpi-supporting" x="42.857154846191406" y="206.71429443359375" width="351.4285583496094" height="39" />
+      </frame>
+      <frame id="373:13708" name="kpi-card-total-users" x="2442.857177734375" y="0" width="437.1428527832031" height="288.5714111328125">
+        <frame id="373:13709" name="card-header" x="42.857154846191406" y="42.857139587402344" width="351.4285583496094" height="133.85714721679688">
+          <text id="373:13710" name="kpi-label" x="0" y="0" width="351.4285583496094" height="43" />
+          <text id="373:13711" name="kpi-value" x="0" y="55.85714340209961" width="351.4285583496094" height="78" />
+        </frame>
+        <text id="373:13712" name="kpi-supporting" x="42.857154846191406" y="206.71429443359375" width="351.4285583496094" height="39" />
+      </frame>
+    </frame>
+  </section>
+</canvas>

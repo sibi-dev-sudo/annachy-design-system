@@ -1,0 +1,1144 @@
+{
+ "sets": 5128,
+ "metaVariants": 35890,
+ "paired": 35890,
+ "missing": [],
+ "fits": [
+  {
+   "category": "airports",
+   "nodeId": "1802:154541",
+   "scale": 1.0,
+   "frameOffset": 6.0,
+   "scaleFrom": "unscaled export",
+   "fitScale": 0.9999422173393521,
+   "fitOffset": [
+    5.598791190876833,
+    6.019674962350121
+   ],
+   "medianCentreResidualPx": 0.46249999999997726,
+   "p95CentreResidualPx": 1.1548008486314825,
+   "pairedInExport": 190,
+   "owned": 190,
+   "alsoInOtherCategory": 0
+  },
+  {
+   "category": "alerts",
+   "nodeId": "1802:155436",
+   "scale": 0.5339593023255814,
+   "frameOffset": 6.0,
+   "scaleFrom": "bgRectW/(W+2*off)",
+   "fitScale": 0.5339595762097306,
+   "fitOffset": [
+    3.2070107394249,
+    3.1925458753832454
+   ],
+   "medianCentreResidualPx": 0.0035185654842756703,
+   "p95CentreResidualPx": 0.33403615986162755,
+   "pairedInExport": 1070,
+   "owned": 660,
+   "alsoInOtherCategory": 410
+  },
+  {
+   "category": "arrow",
+   "nodeId": "1802:210466",
+   "scale": 0.15948913636009657,
+   "frameOffset": 0.0,
+   "scaleFrom": "4096/(H+2*off)",
+   "fitScale": 0.15949197028111928,
+   "fitOffset": [
+    -0.01790133927220058,
+    -0.051364155350323855
+   ],
+   "medianCentreResidualPx": 0.020597373788391944,
+   "p95CentreResidualPx": 0.41700966766688846,
+   "pairedInExport": 4195,
+   "owned": 4195,
+   "alsoInOtherCategory": 0
+  },
+  {
+   "category": "audio",
+   "nodeId": "1802:168218",
+   "scale": 0.8218298555377207,
+   "frameOffset": 6.0,
+   "scaleFrom": "4096/(H+2*off)",
+   "fitScale": 0.8218325878833628,
+   "fitOffset": [
+    4.932361713160691,
+    4.89859730831563
+   ],
+   "medianCentreResidualPx": 0.006228754172631593,
+   "p95CentreResidualPx": 0.2677245324967446,
+   "pairedInExport": 1170,
+   "owned": 1170,
+   "alsoInOtherCategory": 0
+  },
+  {
+   "category": "banking",
+   "nodeId": "1802:175229",
+   "scale": 1.0,
+   "frameOffset": 6.0,
+   "scaleFrom": "unscaled export",
+   "fitScale": 0.9999997732596233,
+   "fitOffset": [
+    5.99591877361671,
+    5.993624807983254
+   ],
+   "medianCentreResidualPx": 0.0011180339887234569,
+   "p95CentreResidualPx": 0.15499999999997272,
+   "pairedInExport": 730,
+   "owned": 730,
+   "alsoInOtherCategory": 0
+  },
+  {
+   "category": "bath-wc",
+   "nodeId": "1802:160705",
+   "scale": 1.0,
+   "frameOffset": 6.0,
+   "scaleFrom": "unscaled export",
+   "fitScale": 0.9999566714448372,
+   "fitOffset": [
+    5.629479467465723,
+    6.035421027973468
+   ],
+   "medianCentreResidualPx": 0.46100000000001273,
+   "p95CentreResidualPx": 1.1549999999999727,
+   "pairedInExport": 270,
+   "owned": 270,
+   "alsoInOtherCategory": 0
+  },
+  {
+   "category": "bookmark",
+   "nodeId": "1802:158845",
+   "scale": 1.0,
+   "frameOffset": 6.0,
+   "scaleFrom": "unscaled export",
+   "fitScale": 0.9999945738870798,
+   "fitOffset": [
+    6.005363109387612,
+    6.020383568374028
+   ],
+   "medianCentreResidualPx": 0.03999999999996362,
+   "p95CentreResidualPx": 0.15100082781236768,
+   "pairedInExport": 410,
+   "owned": 410,
+   "alsoInOtherCategory": 0
+  },
+  {
+   "category": "brands",
+   "nodeId": "1802:185706",
+   "scale": 0.29074389551391255,
+   "frameOffset": 6.0,
+   "scaleFrom": "4096/(H+2*off)",
+   "fitScale": 0.29074416000514725,
+   "fitOffset": [
+    1.7442676203728151,
+    1.7412672656313464
+   ],
+   "medianCentreResidualPx": 0.006729410275064112,
+   "p95CentreResidualPx": 0.2614361517021757,
+   "pairedInExport": 3930,
+   "owned": 3930,
+   "alsoInOtherCategory": 0
+  },
+  {
+   "category": "building",
+   "nodeId": "1802:119276",
+   "scale": 1.0,
+   "frameOffset": 0.0,
+   "scaleFrom": "unscaled export",
+   "fitScale": 0.9999961863462792,
+   "fitOffset": [
+    0.001187523953245468,
+    -0.003940966856892406
+   ],
+   "medianCentreResidualPx": 0.0004999999999881766,
+   "p95CentreResidualPx": 0.04753945729601388,
+   "pairedInExport": 280,
+   "owned": 280,
+   "alsoInOtherCategory": 0
+  },
+  {
+   "category": "calender-date",
+   "nodeId": "1802:121134",
+   "scale": 0.424192212096106,
+   "frameOffset": 0.0,
+   "scaleFrom": "4096/(H+2*off)",
+   "fitScale": 0.42419183563259943,
+   "fitOffset": [
+    -0.0036326982061786655,
+    0.002016508649548466
+   ],
+   "medianCentreResidualPx": 0.005282687652341726,
+   "p95CentreResidualPx": 0.25693726283177026,
+   "pairedInExport": 1460,
+   "owned": 1460,
+   "alsoInOtherCategory": 0
+  },
+  {
+   "category": "calender-date-2",
+   "nodeId": "1802:138448",
+   "scale": 0.424192212096106,
+   "frameOffset": 0.0,
+   "scaleFrom": "4096/(H+2*off)",
+   "fitScale": 0.4241918397750096,
+   "fitOffset": [
+    -0.0036358581056209855,
+    0.002012789885149296
+   ],
+   "medianCentreResidualPx": 0.005282687652341726,
+   "p95CentreResidualPx": 0.25693726283177026,
+   "pairedInExport": 1460,
+   "owned": 1460,
+   "alsoInOtherCategory": 0
+  },
+  {
+   "category": "call",
+   "nodeId": "1802:152856",
+   "scale": 1.0,
+   "frameOffset": 0.0,
+   "scaleFrom": "unscaled export",
+   "fitScale": 1.0000036971171131,
+   "fitOffset": [
+    -0.0012285198529420427,
+    -0.012272010423079677
+   ],
+   "medianCentreResidualPx": 0.006800735254348999,
+   "p95CentreResidualPx": 0.061905169412685375,
+   "pairedInExport": 300,
+   "owned": 300,
+   "alsoInOtherCategory": 0
+  },
+  {
+   "category": "chart-analytics",
+   "nodeId": "1802:96820",
+   "scale": 0.5903718650908043,
+   "frameOffset": 0.0,
+   "scaleFrom": "4096/(H+2*off)",
+   "fitScale": 0.5903724675357701,
+   "fitOffset": [
+    -0.10128639974685863,
+    -0.0027090468473783104
+   ],
+   "medianCentreResidualPx": 0.03841030405533745,
+   "p95CentreResidualPx": 0.7692026842941356,
+   "pairedInExport": 1110,
+   "owned": 1110,
+   "alsoInOtherCategory": 0
+  },
+  {
+   "category": "delivery",
+   "nodeId": "1802:104425",
+   "scale": 1.0,
+   "frameOffset": 0.0,
+   "scaleFrom": "unscaled export",
+   "fitScale": 1.0000114630338026,
+   "fitOffset": [
+    -0.024452161692618338,
+    -0.032967137577081224
+   ],
+   "medianCentreResidualPx": 0.0015000000000782165,
+   "p95CentreResidualPx": 0.33349999999995816,
+   "pairedInExport": 530,
+   "owned": 530,
+   "alsoInOtherCategory": 0
+  },
+  {
+   "category": "design",
+   "nodeId": "1802:71034",
+   "scale": 0.7428333333333333,
+   "frameOffset": 0.0,
+   "scaleFrom": "bgRectW/(W+2*off)",
+   "fitScale": 0.7428433682498661,
+   "fitOffset": [
+    -0.0012498016503025222,
+    -0.03203344701014741
+   ],
+   "medianCentreResidualPx": 0.017075429742172854,
+   "p95CentreResidualPx": 0.4218573193761183,
+   "pairedInExport": 1020,
+   "owned": 1020,
+   "alsoInOtherCategory": 0
+  },
+  {
+   "category": "documentation",
+   "nodeId": "1802:77823",
+   "scale": 0.8088467614533965,
+   "frameOffset": 0.0,
+   "scaleFrom": "4096/(H+2*off)",
+   "fitScale": 0.8088464313949701,
+   "fitOffset": [
+    0.0013312690519854723,
+    -0.000417734916113631
+   ],
+   "medianCentreResidualPx": 0.0022006538548612832,
+   "p95CentreResidualPx": 0.06502181177971869,
+   "pairedInExport": 980,
+   "owned": 980,
+   "alsoInOtherCategory": 0
+  },
+  {
+   "category": "editor",
+   "nodeId": "1802:55641",
+   "scale": 0.6115258286055539,
+   "frameOffset": 0.0,
+   "scaleFrom": "4096/(H+2*off)",
+   "fitScale": 0.6115272444537639,
+   "fitOffset": [
+    -0.004290778946079056,
+    -0.005372388053414684
+   ],
+   "medianCentreResidualPx": 0.003374163841661076,
+   "p95CentreResidualPx": 0.18358760447513328,
+   "pairedInExport": 1370,
+   "owned": 1370,
+   "alsoInOtherCategory": 0
+  },
+  {
+   "category": "email",
+   "nodeId": "1802:63411",
+   "scale": 1.0,
+   "frameOffset": 0.0,
+   "scaleFrom": "unscaled export",
+   "fitScale": 1.0000036093910447,
+   "fitOffset": [
+    0.009122169030411518,
+    -0.013853016153877054
+   ],
+   "medianCentreResidualPx": 0.008631338250731296,
+   "p95CentreResidualPx": 0.1382244551445089,
+   "pairedInExport": 375,
+   "owned": 375,
+   "alsoInOtherCategory": 0
+  },
+  {
+   "category": "fashion",
+   "nodeId": "1802:91157",
+   "scale": 0.8681664411366712,
+   "frameOffset": 0.0,
+   "scaleFrom": "bgRectW/(W+2*off)",
+   "fitScale": 0.8682092346380405,
+   "fitOffset": [
+    -0.021487682905469874,
+    -0.06794195739304074
+   ],
+   "medianCentreResidualPx": 0.06278682283226564,
+   "p95CentreResidualPx": 0.5605112059650629,
+   "pairedInExport": 680,
+   "owned": 680,
+   "alsoInOtherCategory": 0
+  },
+  {
+   "category": "filters-setting",
+   "nodeId": "1802:43168",
+   "scale": 1.0,
+   "frameOffset": 0.0,
+   "scaleFrom": "unscaled export",
+   "fitScale": 0.9999806884596611,
+   "fitOffset": [
+    0.016978319797849976,
+    0.0471022021449527
+   ],
+   "medianCentreResidualPx": 0.0015000000000213731,
+   "p95CentreResidualPx": 0.30500000000006366,
+   "pairedInExport": 655,
+   "owned": 655,
+   "alsoInOtherCategory": 0
+  },
+  {
+   "category": "hand",
+   "nodeId": "1802:46777",
+   "scale": 1.0,
+   "frameOffset": 0.0,
+   "scaleFrom": "unscaled export",
+   "fitScale": 1.000005933411544,
+   "fitOffset": [
+    -0.0025632198412946037,
+    0.07418889843337959
+   ],
+   "medianCentreResidualPx": 0.11001818031569964,
+   "p95CentreResidualPx": 0.5453854141796012,
+   "pairedInExport": 550,
+   "owned": 550,
+   "alsoInOtherCategory": 0
+  },
+  {
+   "category": "heart-love",
+   "nodeId": "1802:50041",
+   "scale": 1.0,
+   "frameOffset": 0.0,
+   "scaleFrom": "unscaled export",
+   "fitScale": 0.9999773170933157,
+   "fitOffset": [
+    -0.02378424037359587,
+    -0.017481181010706056
+   ],
+   "medianCentreResidualPx": 0.06500769185263423,
+   "p95CentreResidualPx": 0.427889296430742,
+   "pairedInExport": 390,
+   "owned": 390,
+   "alsoInOtherCategory": 0
+  },
+  {
+   "category": "home",
+   "nodeId": "1802:65556",
+   "scale": 1.0,
+   "frameOffset": 0.0,
+   "scaleFrom": "unscaled export",
+   "fitScale": 0.9999835692383344,
+   "fitOffset": [
+    0.011928267238699717,
+    -0.07946767849914499
+   ],
+   "medianCentreResidualPx": 0.11000113635743931,
+   "p95CentreResidualPx": 0.2300000000000182,
+   "pairedInExport": 620,
+   "owned": 620,
+   "alsoInOtherCategory": 0
+  },
+  {
+   "category": "home-and-applances",
+   "nodeId": "1802:107304",
+   "scale": 1.0,
+   "frameOffset": 0.0,
+   "scaleFrom": "unscaled export",
+   "fitScale": 0.9999800479858864,
+   "fitOffset": [
+    -0.054499964562471886,
+    0.015379206919394954
+   ],
+   "medianCentreResidualPx": 0.0045276925690746345,
+   "p95CentreResidualPx": 0.5925002109703993,
+   "pairedInExport": 380,
+   "owned": 380,
+   "alsoInOtherCategory": 0
+  },
+  {
+   "category": "locations",
+   "nodeId": "1802:162401",
+   "scale": 0.7807866666666667,
+   "frameOffset": 0.0,
+   "scaleFrom": "bgRectW/(W+2*off)",
+   "fitScale": 0.7807880705625778,
+   "fitOffset": [
+    -0.007814535951393661,
+    -0.010907141508061527
+   ],
+   "medianCentreResidualPx": 0.014494854058422312,
+   "p95CentreResidualPx": 0.4242338884100778,
+   "pairedInExport": 1040,
+   "owned": 1040,
+   "alsoInOtherCategory": 0
+  },
+  {
+   "category": "message",
+   "nodeId": "1802:83",
+   "scale": 0.12034316605946645,
+   "frameOffset": 0.0,
+   "scaleFrom": "4096/(H+2*off)",
+   "fitScale": 0.12034412213938234,
+   "fitOffset": [
+    -3.944617306878971e-05,
+    -0.014817582260657713
+   ],
+   "medianCentreResidualPx": 0.036215984883630016,
+   "p95CentreResidualPx": 0.5392112295557007,
+   "pairedInExport": 5275,
+   "owned": 5275,
+   "alsoInOtherCategory": 0
+  },
+  {
+   "category": "search",
+   "nodeId": "1802:135542",
+   "scale": 1.0,
+   "frameOffset": 0.0,
+   "scaleFrom": "unscaled export",
+   "fitScale": 1.0000001118344377,
+   "fitOffset": [
+    0.017686633463746444,
+    0.0002712923888593715
+   ],
+   "medianCentreResidualPx": 0.043846322536836436,
+   "p95CentreResidualPx": 0.2899999999999636,
+   "pairedInExport": 565,
+   "owned": 565,
+   "alsoInOtherCategory": 0
+  },
+  {
+   "category": "security",
+   "nodeId": "1802:109815",
+   "scale": 0.5499462943071965,
+   "frameOffset": 0.0,
+   "scaleFrom": "4096/(H+2*off)",
+   "fitScale": 0.5499485303132873,
+   "fitOffset": [
+    -0.005338320768115068,
+    -0.016321472798183547
+   ],
+   "medianCentreResidualPx": 0.0050300992983046125,
+   "p95CentreResidualPx": 0.2994967153938887,
+   "pairedInExport": 1400,
+   "owned": 1400,
+   "alsoInOtherCategory": 0
+  },
+  {
+   "category": "shopping",
+   "nodeId": "1802:179912",
+   "scale": 0.998051663747811,
+   "frameOffset": 6.0,
+   "scaleFrom": "bgRectW/(W+2*off)",
+   "fitScale": 0.9980720226351444,
+   "fitOffset": [
+    5.969084246625226,
+    5.914410126364577
+   ],
+   "medianCentreResidualPx": 0.009663310900627057,
+   "p95CentreResidualPx": 0.29298035626374647,
+   "pairedInExport": 910,
+   "owned": 910,
+   "alsoInOtherCategory": 0
+  },
+  {
+   "category": "star",
+   "nodeId": "1802:52385",
+   "scale": 1.0,
+   "frameOffset": 0.0,
+   "scaleFrom": "unscaled export",
+   "fitScale": 1.0000247970590015,
+   "fitOffset": [
+    0.013530715410076824,
+    -0.0161956488059662
+   ],
+   "medianCentreResidualPx": 0.022299103120916947,
+   "p95CentreResidualPx": 0.23500000000012733,
+   "pairedInExport": 415,
+   "owned": 415,
+   "alsoInOtherCategory": 0
+  },
+  {
+   "category": "time",
+   "nodeId": "1802:68739",
+   "scale": 1.0,
+   "frameOffset": 0.0,
+   "scaleFrom": "unscaled export",
+   "fitScale": 0.9999814443518378,
+   "fitOffset": [
+    -0.005928245082075919,
+    -0.028852707349552715
+   ],
+   "medianCentreResidualPx": 0.0060000000000854925,
+   "p95CentreResidualPx": 0.5038424853066691,
+   "pairedInExport": 350,
+   "owned": 350,
+   "alsoInOtherCategory": 0
+  },
+  {
+   "category": "transport",
+   "nodeId": "1802:34747",
+   "scale": 0.6140929535232383,
+   "frameOffset": 0.0,
+   "scaleFrom": "4096/(H+2*off)",
+   "fitScale": 0.6140928468053553,
+   "fitOffset": [
+    0.003020220115294306,
+    -0.014078908118622927
+   ],
+   "medianCentreResidualPx": 0.020083293323471155,
+   "p95CentreResidualPx": 0.41295504382517706,
+   "pairedInExport": 1045,
+   "owned": 1045,
+   "alsoInOtherCategory": 0
+  },
+  {
+   "category": "user",
+   "nodeId": "1802:83547",
+   "scale": 0.6113432835820896,
+   "frameOffset": 0.0,
+   "scaleFrom": "4096/(H+2*off)",
+   "fitScale": 0.6113425940365196,
+   "fitOffset": [
+    0.011439411381540303,
+    0.0011131077769217157
+   ],
+   "medianCentreResidualPx": 0.005103999024710935,
+   "p95CentreResidualPx": 0.16040044682892876,
+   "pairedInExport": 1175,
+   "owned": 1175,
+   "alsoInOtherCategory": 0
+  }
+ ],
+ "slugRules": {
+  "plain": 4825,
+  "category": 299,
+  "nodeId": 4
+ },
+ "perCategory": {
+  "airports": {
+   "sets": 19,
+   "variants": 190
+  },
+  "alerts": {
+   "sets": 66,
+   "variants": 660
+  },
+  "arrow": {
+   "sets": 707,
+   "variants": 4195
+  },
+  "audio": {
+   "sets": 117,
+   "variants": 1170
+  },
+  "banking": {
+   "sets": 73,
+   "variants": 730
+  },
+  "bath-wc": {
+   "sets": 27,
+   "variants": 270
+  },
+  "bookmark": {
+   "sets": 44,
+   "variants": 410
+  },
+  "brands": {
+   "sets": 624,
+   "variants": 3930
+  },
+  "building": {
+   "sets": 29,
+   "variants": 280
+  },
+  "calender-date": {
+   "sets": 259,
+   "variants": 1460
+  },
+  "calender-date-2": {
+   "sets": 259,
+   "variants": 1460
+  },
+  "call": {
+   "sets": 31,
+   "variants": 300
+  },
+  "chart-analytics": {
+   "sets": 179,
+   "variants": 1110
+  },
+  "delivery": {
+   "sets": 55,
+   "variants": 530
+  },
+  "design": {
+   "sets": 102,
+   "variants": 1020
+  },
+  "documentation": {
+   "sets": 98,
+   "variants": 980
+  },
+  "editor": {
+   "sets": 147,
+   "variants": 1370
+  },
+  "email": {
+   "sets": 42,
+   "variants": 375
+  },
+  "fashion": {
+   "sets": 136,
+   "variants": 680
+  },
+  "filters-setting": {
+   "sets": 66,
+   "variants": 655
+  },
+  "hand": {
+   "sets": 61,
+   "variants": 550
+  },
+  "heart-love": {
+   "sets": 45,
+   "variants": 390
+  },
+  "home": {
+   "sets": 70,
+   "variants": 620
+  },
+  "home-and-applances": {
+   "sets": 43,
+   "variants": 380
+  },
+  "locations": {
+   "sets": 106,
+   "variants": 1040
+  },
+  "message": {
+   "sets": 977,
+   "variants": 5275
+  },
+  "search": {
+   "sets": 69,
+   "variants": 565
+  },
+  "security": {
+   "sets": 163,
+   "variants": 1400
+  },
+  "shopping": {
+   "sets": 94,
+   "variants": 910
+  },
+  "star": {
+   "sets": 58,
+   "variants": 415
+  },
+  "time": {
+   "sets": 36,
+   "variants": 350
+  },
+  "transport": {
+   "sets": 168,
+   "variants": 1045
+  },
+  "user": {
+   "sets": 158,
+   "variants": 1175
+  }
+ },
+ "duplicateFrame": {
+  "calender-date-2": {
+   "of": "1802:121134",
+   "verifiedDuplicateSets": 259,
+   "numericallyIdenticalSets": 180
+  }
+ },
+ "assetsSetStyle": 7178,
+ "assetsWritten": 6886,
+ "equivalence": {
+  "equivalent": 7174,
+  "not-equivalent": 4
+ },
+ "equivalenceWritten": {
+  "equivalent": 6882,
+  "not-equivalent": 4
+ },
+ "pairComparisons": {
+  "rounded-different": 28167,
+  "rounded-equal": 545
+ },
+ "maxDiffHistogram": {
+  "<=1e-3": 21017,
+  "<=2e-3": 3347,
+  "<=1e-2": 4344,
+  "structure differs": 4
+ },
+ "notEquivalent": [
+  {
+   "set": "Arrow/Buttons",
+   "nodeId": "1802:222020",
+   "category": "arrow",
+   "style": "outline",
+   "ref": "M",
+   "differs": [
+    "XS"
+   ],
+   "maxDiff": {
+    "XS": null
+   }
+  },
+  {
+   "set": "Brands/npm circle",
+   "nodeId": "1802:204307",
+   "category": "brands",
+   "style": "outline",
+   "ref": "M",
+   "differs": [
+    "XS"
+   ],
+   "maxDiff": {
+    "XS": null
+   }
+  },
+  {
+   "set": "Design/Icon 11",
+   "nodeId": "1802:73857",
+   "category": "design",
+   "style": "outline",
+   "ref": "M",
+   "differs": [
+    "XS"
+   ],
+   "maxDiff": {
+    "XS": null
+   }
+  },
+  {
+   "set": "Design/Icon 11",
+   "nodeId": "1802:73857",
+   "category": "design",
+   "style": "filled",
+   "ref": "M",
+   "differs": [
+    "XS"
+   ],
+   "maxDiff": {
+    "XS": null
+   }
+  }
+ ],
+ "files": 6890,
+ "perSizeFiles": {
+  "XS": 4
+ },
+ "filesSrc": 6103,
+ "filesRestricted": 787,
+ "uniqueAssetsNeeded": 6890,
+ "duplicates": {
+  "groups": 38,
+  "redundantAssets": 42,
+  "groupsAcrossCategories": 1,
+  "groupsAcrossStyles": 1,
+  "largest": [
+   [
+    "Arrow/Left Circle Load [outline]",
+    "Arrow/Right Circle Load [outline]",
+    "Arrow/Up Circle Load 2 [outline]"
+   ],
+   [
+    "Arrow/Down Polygon [outline]",
+    "Arrow/Right Polygon [outline]",
+    "Arrow/Up Polygon [outline]"
+   ],
+   [
+    "Arrow/Down Scan 2 [outline]",
+    "Arrow/Left Scan [outline]",
+    "Arrow/Up Scan 2 [outline]"
+   ],
+   [
+    "Message/Square Message 3 Alert [outline]",
+    "Message/Square Message 3 Information [outline]",
+    "Message/Square Message 3 Line [outline]"
+   ],
+   [
+    "Arrow/Chevron Right [outline]",
+    "Arrow/Chevron Right MD 2 [filled]"
+   ],
+   [
+    "Arrow/Arrow Right Round Left Right [outline]",
+    "Arrow/Arrow Round Right 2 [outline]"
+   ],
+   [
+    "Arrow/Arrow Right Round Top Bottom [outline]",
+    "Arrow/Arrow Round Right [outline]"
+   ],
+   [
+    "Arrow/Expand Resize [outline]",
+    "Arrow/Expand Resize 3 [outline]"
+   ],
+   [
+    "Arrow/Full Out Square Vertical [outline]",
+    "Arrow/Unfold More Square Vertical [outline]"
+   ],
+   [
+    "Arrow/Replay square-7 [outline]",
+    "Arrow/Swap Square Horizontal [outline]"
+   ],
+   [
+    "Arrow/Swap [outline]",
+    "Arrow/Swap Vertical 4 [outline]"
+   ],
+   [
+    "Arrow/Arrow Down Right MD [filled]",
+    "Arrow/Arrow Down Right SM [filled]"
+   ],
+   [
+    "Brands/Meta Messenger Square [outline]",
+    "Chart & Analytics/Graph Line Box [outline]"
+   ],
+   [
+    "Brands/zapier [outline]",
+    "Brands/zapier 1 [outline]"
+   ],
+   [
+    "Brands/zapier circle [outline]",
+    "Brands/zapier circle 1 [outline]"
+   ]
+  ]
+ },
+ "styles": {
+  "outline": 4852,
+  "filled": 2326
+ },
+ "implicitAssets": {
+  "outline": 462,
+  "filled": 12
+ },
+ "validator": {
+  "filesChecked": 6890,
+  "withProblems": [
+   {
+    "file": "src/icons/svg/outline/arrow-buttons--xs.svg",
+    "problems": [
+     [
+      "V08",
+      "id=arrow-buttons-outline-xs-clippath0"
+     ]
+    ],
+    "set": "Arrow/Buttons",
+    "style": "outline",
+    "size": "XS"
+   },
+   {
+    "file": "restricted/brands/svg/outline/brands-npm-circle--xs.svg",
+    "problems": [
+     [
+      "V08",
+      "id=brands-npm-circle-outline-xs-clippath0"
+     ]
+    ],
+    "set": "Brands/npm circle",
+    "style": "outline",
+    "size": "XS"
+   },
+   {
+    "file": "src/icons/svg/outline/design-icon-11--xs.svg",
+    "problems": [
+     [
+      "V08",
+      "id=design-icon-11-outline-xs-clippath0"
+     ]
+    ],
+    "set": "Design/Icon 11",
+    "style": "outline",
+    "size": "XS"
+   },
+   {
+    "file": "src/icons/svg/filled/design-icon-11--xs.svg",
+    "problems": [
+     [
+      "V08",
+      "id=design-icon-11-filled-xs-clippath0"
+     ]
+    ],
+    "set": "Design/Icon 11",
+    "style": "filled",
+    "size": "XS"
+   }
+  ],
+  "multitone": [],
+  "withDefs": [
+   "src/icons/svg/outline/arrow-buttons--xs.svg",
+   "restricted/brands/svg/outline/brands-npm-circle--xs.svg",
+   "src/icons/svg/outline/design-icon-11--xs.svg",
+   "src/icons/svg/filled/design-icon-11--xs.svg"
+  ]
+ },
+ "precision": {
+  "airports": {
+   "≤0.05px": 47,
+   "max": 0.5,
+   "≤0.005px": 33,
+   ">0.05px": 109,
+   "≤0.0005px": 1
+  },
+  "alerts": {
+   "≤0.05px": 123,
+   "max": 0.936400953822367,
+   ">0.05px": 529,
+   "≤0.005px": 8
+  },
+  "arrow": {
+   "≤0.005px": 59,
+   "max": 3.1350097656250004,
+   "≤0.05px": 814,
+   ">0.05px": 3322
+  },
+  "audio": {
+   ">0.05px": 1132,
+   "max": 0.6083984375,
+   "≤0.05px": 38
+  },
+  "banking": {
+   "≤0.05px": 210,
+   "max": 0.5,
+   "≤0.005px": 22,
+   ">0.05px": 495,
+   "≤0.0005px": 3
+  },
+  "bath-wc": {
+   "≤0.05px": 94,
+   "max": 0.5,
+   ">0.05px": 165,
+   "≤0.005px": 11
+  },
+  "bookmark": {
+   "≤0.05px": 160,
+   "max": 0.5,
+   ">0.05px": 228,
+   "≤0.005px": 22
+  },
+  "brands": {
+   ">0.05px": 3520,
+   "max": 1.7197265625,
+   "≤0.05px": 406,
+   "≤0.005px": 4
+  },
+  "building": {
+   ">0.05px": 205,
+   "max": 0.5,
+   "≤0.05px": 62,
+   "≤0.005px": 12,
+   "≤0.0005px": 1
+  },
+  "calender-date": {
+   "≤0.005px": 1,
+   "max": 1.1787109375,
+   ">0.05px": 1342,
+   "≤0.05px": 117
+  },
+  "calender-date-2": {
+   "≤0.005px": 1,
+   "max": 1.1787109375,
+   ">0.05px": 1339,
+   "≤0.05px": 120
+  },
+  "call": {
+   "≤0.05px": 94,
+   "max": 0.5,
+   ">0.05px": 186,
+   "≤0.0005px": 1,
+   "≤0.005px": 19
+  },
+  "chart-analytics": {
+   "≤0.05px": 189,
+   "max": 0.846923828125,
+   ">0.05px": 918,
+   "≤0.005px": 3
+  },
+  "delivery": {
+   ">0.05px": 350,
+   "max": 0.5,
+   "≤0.005px": 24,
+   "≤0.05px": 155,
+   "≤0.0005px": 1
+  },
+  "design": {
+   ">0.05px": 947,
+   "max": 0.6730984967466906,
+   "≤0.05px": 73
+  },
+  "documentation": {
+   ">0.05px": 895,
+   "max": 0.6181640625,
+   "≤0.05px": 83,
+   "≤0.005px": 2
+  },
+  "editor": {
+   "≤0.005px": 6,
+   "max": 0.817626953125,
+   "≤0.05px": 210,
+   ">0.05px": 1154
+  },
+  "email": {
+   ">0.05px": 257,
+   "max": 0.5,
+   "≤0.05px": 105,
+   "≤0.005px": 13
+  },
+  "fashion": {
+   ">0.05px": 672,
+   "max": 0.5759264310485914,
+   "≤0.05px": 8
+  },
+  "filters-setting": {
+   ">0.05px": 441,
+   "max": 0.5,
+   "≤0.05px": 184,
+   "≤0.005px": 30
+  },
+  "hand": {
+   ">0.05px": 364,
+   "max": 0.5,
+   "≤0.05px": 160,
+   "≤0.0005px": 1,
+   "≤0.005px": 25
+  },
+  "heart-love": {
+   ">0.05px": 269,
+   "max": 0.5,
+   "≤0.05px": 102,
+   "≤0.005px": 19
+  },
+  "home": {
+   "≤0.05px": 202,
+   "max": 0.5,
+   ">0.05px": 374,
+   "≤0.005px": 42,
+   "≤0.0005px": 2
+  },
+  "home-and-applances": {
+   ">0.05px": 235,
+   "max": 0.5,
+   "≤0.05px": 119,
+   "≤0.005px": 26
+  },
+  "locations": {
+   ">0.05px": 968,
+   "max": 0.6403797879062143,
+   "≤0.05px": 72
+  },
+  "message": {
+   "≤0.05px": 629,
+   "max": 4.15478515625,
+   ">0.05px": 4607,
+   "≤0.005px": 39
+  },
+  "search": {
+   "≤0.05px": 240,
+   "max": 0.5,
+   ">0.05px": 262,
+   "≤0.005px": 61,
+   "≤0.0005px": 2
+  },
+  "security": {
+   "≤0.05px": 121,
+   "max": 0.9091796875000001,
+   ">0.05px": 1279
+  },
+  "shopping": {
+   ">0.05px": 871,
+   "max": 0.5009760698383452,
+   "≤0.05px": 39
+  },
+  "star": {
+   "≤0.05px": 73,
+   "max": 0.5,
+   "≤0.005px": 12,
+   ">0.05px": 328,
+   "≤0.0005px": 2
+  },
+  "time": {
+   "≤0.05px": 95,
+   "max": 0.5,
+   ">0.05px": 237,
+   "≤0.005px": 18
+  },
+  "transport": {
+   ">0.05px": 997,
+   "max": 0.8142089843750001,
+   "≤0.05px": 47,
+   "≤0.005px": 1
+  },
+  "user": {
+   ">0.05px": 1068,
+   "max": 0.81787109375,
+   "≤0.05px": 106,
+   "≤0.005px": 1
+  }
+ },
+ "bytes": {
+  "normalisedSrc": 13960517,
+  "normalisedRestricted": 1721512,
+  "largestNormalised": 9435
+ }
+}

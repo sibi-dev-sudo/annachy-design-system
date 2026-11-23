@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>R6 Dropdown Dark + Footer check — Annachy Design System</title>
+  <link rel="stylesheet" href="../../src/annachy.css">
+  <style>#stage { display: flex; flex-wrap: wrap; gap: 24px; padding: 16px; align-items: flex-start; } pre { white-space: pre-wrap; font: 12px/1.4 monospace; }</style>
+</head>
+<body>
+  <h1>R6 Dropdown — Theme=Dark and Footer, Figma parity check</h1>
+  <p>Renders the 60 variants not covered by <code>r4-dropdown-check.html</code>:
+     <ul>
+       <li>20 Dropdown / Item Theme=Dark variants;</li>
+       <li>8 Menu variants with Theme=Dark and Footer=None;</li>
+       <li>32 Menu variants with Footer=Label or Icon + label (Light and Dark).</li>
+     </ul>
+     Values come from <code>docs/figma-audit/r6-0-evidence.md</code>. Menu sizes come from the saved Figma metadata (<code>raw/metadata/1351-18309.xml</code>).
+     Serve the project root over HTTP.</p>
+  <pre id="result" data-status="running">running…</pre>
+  <div id="stage"></div>
+<script type="module">
+import { initDropdowns } from '../../src/annachy.js';
+const FX = '0px 0px 2px 0px #0141c07d, 0px 1px 3px 0px #0141c06e, -1px 2px 4px 0px #0141c040, -2px 3px 4px 0px #0141c012, -3px 4px 5px 0px #0141c003';
+const PLAT = { desktop: { w: 320, h: 40, py: 10, fs: 14, lh: 20, fw: 500 }, mobile: { w: 352, h: 48, py: 12, fs: 16, lh: 24, fw: 400 } };
+// Dark item states (r6-0-evidence §1–§2)
+const DARK = {
+  Default:  { fill: '#181b21', label: '#fafcff', ind: '#98a0ae', focus: false, nodes: { 'single/desktop': '1451:25077', 'multiple/desktop': '1464:3057', 'single/mobile': '1464:3021', 'multiple/mobile': '1464:3097' } },
+  Hover:    { fill: '#1f242e', label: '#fafcff', ind: '#98a0ae', focus: false, nodes: { 'single/desktop': '1451:25078', 'multiple/desktop': '1464:3061', 'single/mobile': '1464:3024', 'multiple/mobile': '1464:3101' } },
+  Focus:    { fill: '#181b21', label: '#fafcff', ind: '#98a0ae', focus: true,  nodes: { 'single/desktop': '1451:25079', 'multiple/desktop': '1464:3065', 'single/mobile': '1464:3027', 'multiple/mobile': '1464:3105' } },
+  Selected: { fill: '#004feb', label: '#fafcff', ind: '#fafcff', focus: false, nodes: { 'single/desktop': '1451:25080', 'multiple/desktop': '1464:3069', 'single/mobile': '1464:3030', 'multiple/mobile': '1464:3109' } },
+  Disabled: { fill: '#181b21', label: '#707a8f', ind: '#171e2a', focus: false, nodes: { 'single/desktop': '1451:25081', 'multiple/desktop': '1464:3073', 'single/mobile': '1464:3034', 'multiple/mobile': '1464:3113' } },
+};
+const THEME = {
+  light: { fill: '#f6f7f9', stroke: '#bfc4cf', divider: '#dcdfe5', placeholder: '#555d6d', sel: { fill: '#f3f7ff', label: '#004feb' } },
+  dark:  { fill: '#181b21', stroke: '#171e2a', divider: '#1f242e', placeholder: '#98a0ae', sel: { fill: '#004feb', label: '#fafcff' } },
+};
+// Figma META sizes for every Menu variant (saved metadata 1351-18309.xml)
+const META = {"single/desktop/light/off/label":["1451:25190",253],"single/desktop/light/off/icon + label":["1451:25205",253],"single/desktop/light/on/label":["1451:25235",326],"single/desktop/light/on/icon + label":["1451:25250",326],"single/desktop/dark/off/none":["1451:25265",188],"single/desktop/dark/off/label":["1451:25280",253],"single/desktop/dark/off/icon + label":["1451:25295",253],"single/desktop/dark/on/none":["1451:25310",261],"single/desktop/dark/on/label":["1451:25325",326],"single/desktop/dark/on/icon + label":["1451:25340",326],"single/mobile/light/off/label":["1451:25370",293],"single/mobile/light/off/icon + label":["1451:25385",293],"single/mobile/light/on/label":["1451:25415",366],"single/mobile/light/on/icon + label":["1451:25430",366],"single/mobile/dark/off/none":["1451:25445",220],"single/mobile/dark/off/label":["1451:25460",293],"single/mobile/dark/off/icon + label":["1451:25475",293],"single/mobile/dark/on/none":["1451:25490",293],"single/mobile/dark/on/label":["1451:25505",366],"single/mobile/dark/on/icon + label":["1451:25520",366],"multiple/desktop/light/off/label":["1454:1283",253],"multiple/desktop/light/off/icon + label":["1454:1317",253],"multiple/desktop/light/on/label":["1454:1394",326],"multiple/desktop/light/on/icon + label":["1454:1441",326],"multiple/desktop/dark/off/none":["1454:1490",188],"multiple/desktop/dark/off/label":["1454:1519",253],"multiple/desktop/dark/off/icon + label":["1454:1553",253],"multiple/desktop/dark/on/none":["1454:1589",261],"multiple/desktop/dark/on/label":["1454:1630",326],"multiple/desktop/dark/on/icon + label":["1454:1677",326],"multiple/mobile/light/off/label":["1454:1755",293],"multiple/mobile/light/off/icon + label":["1454:1789",293],"multiple/mobile/light/on/label":["1454:1866",366],"multiple/mobile/light/on/icon + label":["1454:1913",366],"multiple/mobile/dark/off/none":["1454:1962",220],"multiple/mobile/dark/off/label":["1454:1991",293],"multiple/mobile/dark/off/icon + label":["1454:2025",293],"multiple/mobile/dark/on/none":["1454:2061",293],"multiple/mobile/dark/on/label":["1454:2102",366],"multiple/mobile/dark/on/icon + label":["1454:2149",366]};
+const FOOTER = { desktop: { h: 40, px: 16, py: 12, gap: 6, r: 8, type: '14px/20px/500' }, mobile: { h: 48, px: 16, py: 18, gap: 8, r: 12, type: '16px/21px/500' } };
+const fails = []; let checks = 0, items = 0, menus = 0;
+const eq = (k, v, got, want) => { checks++; if (got !== want) fails.push(`${v} ${k}: got ${JSON.stringify(got)}, want ${JSON.stringify(want)}`); };
+const rgb = h => `rgb(${[1, 3, 5].map(i => parseInt(h.slice(i, i + 2), 16)).join(', ')})`;
+const probe = document.createElement('div'); document.body.appendChild(probe);
+const shadowOf = lit => { probe.style.boxShadow = lit; return getComputedStyle(probe).boxShadow; };
+const stage = document.getElementById('stage'); let uid = 0;
+function item(plat, state, label = 'Product design') {
+  const li = document.createElement('li');
+  li.className = `annachy-dropdown-item annachy-dropdown-item--${plat}`;
+  li.setAttribute('role', 'option'); li.id = `opt-${++uid}`;
+  li.setAttribute('aria-selected', String(state === 'Selected'));
+  if (state === 'Disabled') li.setAttribute('aria-disabled', 'true');
+  if (state === 'Hover') li.classList.add('is-hover');
+  if (state === 'Focus') li.classList.add('is-focus');
+  li.innerHTML = `<span class="annachy-dropdown-item__indicator" aria-hidden="true"></span><span class="annachy-dropdown-item__label">${label}</span>`;
+  return li;
+}
+// ---------------------------------------------------------------- 20 Dark Item variants
+for (const sel of ['single', 'multiple']) for (const plat of ['desktop', 'mobile']) for (const state of Object.keys(DARK)) {
+  const ul = document.createElement('ul'); ul.setAttribute('role', 'listbox'); ul.setAttribute('aria-label', 'fixture');
+  ul.setAttribute('data-annachy-theme', 'dark');
+  if (sel === 'multiple') ul.setAttribute('aria-multiselectable', 'true');
+  ul.className = 'annachy-dropdown-menu__options'; ul.style.width = `${PLAT[plat].w}px`;
+  const li = item(plat, state); ul.appendChild(li); stage.appendChild(ul);
+  li.dataset.v = `${sel}/${plat}/${state} (${DARK[state].nodes[`${sel}/${plat}`]})`;
+}
+await document.fonts.ready;
+for (const li of stage.querySelectorAll('ul[data-annachy-theme] > .annachy-dropdown-item')) {
+  items++;
+  const [sel, plat, state] = li.dataset.v.split(' ')[0].split('/'), P = PLAT[plat], S = DARK[state], v = `dark ${li.dataset.v}`, cs = getComputedStyle(li);
+  const r = li.getBoundingClientRect(), ind = li.querySelector('.annachy-dropdown-item__indicator'), lab = li.querySelector('.annachy-dropdown-item__label');
+  const ir = ind.getBoundingClientRect(), lr = lab.getBoundingClientRect();
+  eq('size', v, `${r.width}x${r.height}`, `${P.w}x${P.h}`);
+  eq('padding', v, `${cs.paddingTop}/${cs.paddingRight}/${cs.paddingBottom}/${cs.paddingLeft}`, `${P.py}px/12px/${P.py}px/12px`);
+  eq('gap / radius', v, `${cs.columnGap}/${cs.borderTopLeftRadius}`, '12px/8px');
+  eq('indicator 20×20 at x 12, centred', v, `${ir.width}x${ir.height}@${ir.left - r.left},${ir.top - r.top}`, `20x20@12,${(P.h - 20) / 2}`);
+  eq('label x 44', v, lr.left - r.left, 44);
+  eq('typography', v, `${cs.fontSize}/${cs.lineHeight}/${cs.fontWeight}`, `${P.fs}px/${P.lh}px/${P.fw}`);
+  eq('fill', v, cs.backgroundColor, rgb(S.fill));
+  eq('label colour', v, getComputedStyle(lab).color, rgb(S.label));
+  eq('indicator colour', v, getComputedStyle(ind).color, rgb(S.ind));
+  eq('focus treatment', v, cs.boxShadow, S.focus ? shadowOf(`inset 0 0 0 2px #003fbc, ${FX}`) : 'none');
+}
+// ---------------------------------------------------------------- 40 Menu variants
+const ROWS = { single: ['Selected', 'Default', 'Default', 'Disabled'], multiple: ['Selected', 'Selected', 'Default', 'Disabled'] };
+const LABELS = ['Product design', 'Engineering', 'Customer success', 'Finance (unavailable)'];
+for (const key of Object.keys(META)) {
+  const [sel, plat, theme, search, footer] = key.split('/'), id = `m-${++uid}`, wrap = document.createElement('div');
+  const popup = search === 'on' || footer !== 'none';
+  wrap.className = 'annachy-dropdown'; wrap.setAttribute('data-annachy-dropdown', '');
+  wrap.innerHTML = `<button type="button" ${search === 'on' ? '' : 'role="combobox"'} aria-haspopup="${popup ? 'dialog' : 'listbox'}" aria-controls="${id}" aria-label="Team">Team</button>
+    <div class="annachy-dropdown-menu annachy-dropdown-menu--${plat}" id="${id}" ${theme === 'dark' ? 'data-annachy-theme="dark"' : ''} ${popup ? 'role="dialog" aria-modal="false" aria-label="Team"' : ''}>
+      ${search === 'on' ? `<div class="annachy-dropdown-menu__search"><div class="annachy-dropdown-menu__search-field"><span class="annachy-dropdown-menu__search-icon" aria-hidden="true"></span>
+        <input class="annachy-dropdown-menu__search-input" type="search" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="${id}-l" aria-label="Search" placeholder="Search teams"></div>
+        <div class="annachy-dropdown-menu__divider"></div></div>` : ''}
+      <ul class="annachy-dropdown-menu__options" role="listbox" id="${id}-l" aria-label="Team" ${sel === 'multiple' ? 'aria-multiselectable="true"' : ''}></ul>
+      ${footer !== 'none' ? `<div class="annachy-dropdown-menu__footer"><div class="annachy-dropdown-menu__divider"></div>
+        <button type="button" class="annachy-button annachy-button--primary annachy-button--size-${plat === 'desktop' ? 40 : 48} annachy-dropdown-menu__footer-button">
+        ${footer === 'icon + label' ? '<span class="annachy-button__icon" aria-hidden="true"></span>' : ''}<span class="annachy-button__label">Apply selection</span></button></div>` : ''}
+      <div class="annachy-dropdown-menu__status" role="status" aria-live="polite"></div></div>`;
+  const ul = wrap.querySelector('ul');
+  ROWS[sel].forEach((st, i) => ul.appendChild(item(plat, st, LABELS[i])));
+  wrap.dataset.v = key;
+  stage.appendChild(wrap);
+}
+initDropdowns(stage);
+for (const wrap of stage.querySelectorAll('.annachy-dropdown')) {
+  menus++;
+  const key = wrap.dataset.v, [sel, plat, theme, search, footer] = key.split('/'), [node, h] = META[key], P = PLAT[plat], T = THEME[theme], v = `${key} (${node})`;
+  const menu = wrap.querySelector('.annachy-dropdown-menu'), trig = wrap.querySelector('button');
+  trig.click();
+  const cs = getComputedStyle(menu), r = menu.getBoundingClientRect();
+  eq('menu size = Figma META', v, `${r.width}x${r.height}`, `${P.w}x${h}`);
+  eq('menu padding / radius / gap', v, `${cs.paddingTop}/${cs.borderTopLeftRadius}/${cs.rowGap}`, '8px/12px/8px');
+  eq('menu stroke (inset 1px Border/Primary)', v, cs.boxShadow, shadowOf(`inset 0 0 0 1px ${T.stroke}`));
+  eq('menu fill', v, cs.backgroundColor, rgb(T.fill));
+  const first = menu.querySelector('li');
+  eq('selected row fill / label', v, `${getComputedStyle(first).backgroundColor} ${getComputedStyle(first.querySelector('.annachy-dropdown-item__label')).color}`, `${rgb(T.sel.fill)} ${rgb(T.sel.label)}`);
+  if (search === 'on') {
+    const f = menu.querySelector('.annachy-dropdown-menu__search-field'), inp = menu.querySelector('input');
+    eq('search field 48 / stroke', v, `${f.getBoundingClientRect().height} ${getComputedStyle(f).borderTopWidth}`, '48 1px');
+    eq('placeholder Text/Secondary', v, getComputedStyle(inp, '::placeholder').color, rgb(T.placeholder));
+    eq('search divider', v, getComputedStyle(menu.querySelector('.annachy-dropdown-menu__search .annachy-dropdown-menu__divider')).backgroundColor, rgb(T.divider));
+  }
+  if (footer !== 'none') {
+    const F = FOOTER[plat], fr = menu.querySelector('.annachy-dropdown-menu__footer'), fcs = getComputedStyle(fr);
+    const b = fr.querySelector('.annachy-dropdown-menu__footer-button'), bcs = getComputedStyle(b), br = b.getBoundingClientRect(), lab = b.querySelector('.annachy-button__label');
+    const dv = fr.querySelector('.annachy-dropdown-menu__divider');
+    eq('footer padding-top 4 / gap 12', v, `${fcs.paddingTop}/${fcs.rowGap}`, '4px/12px');
+    eq('footer divider 1px Border/Secondary', v, `${dv.getBoundingClientRect().height} ${getComputedStyle(dv).backgroundColor}`, `1 ${rgb(T.divider)}`);
+    eq('footer button size (full width)', v, `${br.width}x${br.height}`, `${P.w - 16}x${F.h}`);
+    eq('footer button padding / gap / radius', v, `${bcs.paddingLeft}/${bcs.paddingTop}/${bcs.columnGap}/${bcs.borderTopLeftRadius}`, `${F.px}px/${F.py}px/${F.gap}px/${F.r}px`);
+    eq('footer button fill / content', v, `${bcs.backgroundColor} ${getComputedStyle(lab).color}`, `${rgb('#004feb')} ${rgb('#fafcff')}`);
+    eq('footer label typography (D4 override)', v, `${getComputedStyle(lab).fontSize}/${getComputedStyle(lab).lineHeight}/${getComputedStyle(lab).fontWeight}`, F.type);
+    const ic = b.querySelector('.annachy-button__icon');
+    eq('footer icon slot', v, ic ? `${ic.getBoundingClientRect().width}x${ic.getBoundingClientRect().height}` : 'none', footer === 'icon + label' ? '20x20' : 'none');
+    eq('dialog popup', v, `${menu.getAttribute('role')}/${trig.getAttribute('aria-haspopup')}`, 'dialog/dialog');
+  }
+  trig.click();
+  eq('second activation closes', v, menu.hidden, true);
+}
+const dark = [...document.styleSheets].find(s => s.href && s.href.endsWith('/src/annachy.css'));
+eq('dark.css imported in annachy.tokens', 'cascade', [...dark.cssRules].filter(r => r.href === 'tokens/themes/dark.css').map(r => r.layerName).join(), 'annachy.tokens');
+const out = [`STATUS: ${fails.length || items !== 20 || menus !== 40 ? 'FAIL' : 'PASS'}`, `dark item variants: ${items} (expected 20) · menu variants: ${menus} (expected 40)`,
+  `checks: ${checks} · failures: ${fails.length}`, ...fails.slice(0, 60)];
+const el = document.getElementById('result'); el.textContent = out.join('\n'); el.dataset.status = out[0].endsWith('PASS') ? 'pass' : 'fail';
+</script>
+</body>
+</html>

@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Typography — Annachy Design System</title>
+  <link rel="stylesheet" href="../../src/annachy.css">
+  <link rel="stylesheet" href="../showcase.css">
+</head>
+<body>
+  <header class="sc-header">
+    <p class="sc-eyebrow">Annachy Design System · Foundations · R1 tokens</p>
+    <h1>Typography</h1>
+    <nav class="sc-nav" aria-label="Foundations">
+      <a href="../index.html">Overview</a>
+      <a href="colors.html">Colours</a>
+      <a href="typography.html">Typography</a>
+      <a href="iconography.html">Iconography</a>
+      <a href="effects.html">Effects</a>
+      <a href="grid.html">Grid</a>
+      <a href="dimensions.html">Dimensions</a>
+      <a href="base.html">Base &amp; utilities</a>
+    </nav>
+  </header>
+  <main class="sc-main">
+    <p class="sc-alert"><strong>Font: Inter</strong> (confirmed by the design team, self-hosted under the SIL Open Font License). Samples use the <code>.annachy-text-*</code> classes. The token below still holds the Figma value &quot;Proxima Nova&quot; until the Figma style is updated. Sizes, line-heights and weights are exact token values.</p>
+    <section class="sc-section">
+      <h2>Typography primitives <small>(7)</small></h2>
+      <p class="sc-note"><code>primitives.css</code></p>
+      <div class="sc-row"><div class="sc-meta"><code class="sc-css">--annachy-font-family-sans</code><span class="sc-figma">Font Family/Sans Serif</span><code class="sc-value">&quot;Proxima Nova&quot;</code><span class="sc-ev">BIND</span> <span class="sc-flag">D-06</span></div></div>
+      <div class="sc-row"><div class="sc-meta"><code class="sc-css">--annachy-font-weight-regular</code><span class="sc-figma">Weight/Regular</span><code class="sc-value">400</code><span class="sc-ev">BIND</span></div></div>
+      <div class="sc-row"><div class="sc-meta"><code class="sc-css">--annachy-font-weight-medium</code><span class="sc-figma">Weight/Medium</span><code class="sc-value">500</code><span class="sc-ev">BIND</span></div></div>
+      <div class="sc-row"><div class="sc-meta"><code class="sc-css">--annachy-font-weight-semibold</code><span class="sc-figma">Weight/Semibold</span><code class="sc-value">600</code><span class="sc-ev">BIND</span></div></div>
+      <div class="sc-row"><div class="sc-meta"><code class="sc-css">--annachy-font-weight-bold</code><span class="sc-figma">Bold (Typography System)</span><code class="sc-value">700</code><span class="sc-ev">DOC</span></div></div>
+      <div class="sc-row"><div class="sc-meta"><code class="sc-css">--annachy-font-weight-light</code><span class="sc-figma">Light (Typography System)</span><code class="sc-value">300</code><span class="sc-ev">DOC</span></div></div>
+      <div class="sc-row"><div class="sc-meta"><code class="sc-css">--annachy-font-letter-spacing</code><span class="sc-figma">letterSpacing (all text styles)</span><code class="sc-value">0</code><span class="sc-ev">BIND</span></div></div>
+    </section>
+    <section class="sc-section">
+      <h2>Type styles — Typography System (Scale A) <small>(28)</small></h2>
+      <p class="sc-note">Active size/line-height = Mobile values (as resolved by components in Figma). Desktop values are reference tokens only — not activated (no approved breakpoint, D-05/D-07).</p>
+      <div class="sc-type">
+        <p class="sc-type-sample annachy-text-h1">H1 — Discover your style</p>
+        <p class="sc-type-meta"><code>--annachy-type-h1-*</code> · weight 700 · <strong>active (Mobile)</strong> 32px / 38px · desktop reference 48px / 58px</p>
+      </div>
+      <div class="sc-type">
+        <p class="sc-type-sample annachy-text-h2">H2 — Discover your style</p>
+        <p class="sc-type-meta"><code>--annachy-type-h2-*</code> · weight 700 · <strong>active (Mobile)</strong> 28px / 36px · desktop reference 40px / 48px</p>
+      </div>
+      <div class="sc-type">
+        <p class="sc-type-sample annachy-text-h3-bold">H3 (Bold) — Discover your style</p>
+        <p class="sc-type-meta"><code>--annachy-type-h3-bold-*</code> · weight 700 · <strong>active (Mobile)</strong> 26px / 34px · desktop reference 36px / 42px <span class="sc-flag">D-04</span></p>
+      </div>
+      <div class="sc-type">
+        <p class="sc-type-sample annachy-text-h3-semibold">H3 (Semibold) — Discover your style</p>
+        <p class="sc-type-meta"><code>--annachy-type-h3-semibold-*</code> · weight 600 · <strong>active (Mobile)</strong> 26px / 30px · desktop reference 36px / 42px <span class="sc-flag">D-04</span></p>
+      </div>
+      <div class="sc-type">
+        <p class="sc-type-sample annachy-text-h4">H4 — Discover your style</p>
+        <p class="sc-type-meta"><code>--annachy-type-h4-*</code> · weight 600 · <strong>active (Mobile)</strong> 24px / 26px · desktop reference 32px / 38px</p>
+      </div>
+      <div class="sc-type">
+        <p class="sc-type-sample annachy-text-h5">H5 — Discover your style</p>
+        <p class="sc-type-meta"><code>--annachy-type-h5-*</code> · weight 600 · <strong>active (Mobile)</strong> 20px / 24px · desktop reference 28px / 34px</p>
+      </div>
+      <div class="sc-type">
+        <p class="sc-type-sample annachy-text-h6">H6 — Discover your style</p>
+        <p class="sc-type-meta"><code>--annachy-type-h6-*</code> · weight 600 · <strong>active (Mobile)</strong> 18px / 20px · desktop reference 24px / 28px</p>
+      </div>
+      <div class="sc-type">
+        <p class="sc-type-sample annachy-text-h7">H7 — Discover your style</p>
+        <p class="sc-type-meta"><code>--annachy-type-h7-*</code> · weight 600 · <strong>active (Mobile)</strong> 16px / 18px · desktop reference 20px / 24px</p>
+      </div>
+      <div class="sc-type">
+        <p class="sc-type-sample annachy-text-h8">H8 — Discover your style</p>
+        <p class="sc-type-meta"><code>--annachy-type-h8-*</code> · weight 700 · <strong>active (Mobile)</strong> 14px / 18px · desktop reference 14px / 18px</p>
+      </div>
+      <div class="sc-type">
+        <p class="sc-type-sample annachy-text-subheading-l">Subheading L — Discover your style</p>
+        <p class="sc-type-meta"><code>--annachy-type-subheading-l-*</code> · weight 600 · <strong>active (Mobile)</strong> 18px / 25px · desktop reference 20px / 28px</p>
+      </div>
+      <div class="sc-type">
+        <p class="sc-type-sample annachy-text-body-l">Body L — Discover your style</p>
+        <p class="sc-type-meta"><code>--annachy-type-body-l-*</code> · weight 400 · <strong>active (Mobile)</strong> 18px / 27px · desktop reference 18px / 27px</p>
+      </div>
+      <div class="sc-type">
+        <p class="sc-type-sample annachy-text-body-m">Body M — Discover your style</p>
+        <p class="sc-type-meta"><code>--annachy-type-body-m-*</code> · weight 400 · <strong>active (Mobile)</strong> 16px / 24px · desktop reference 16px / 24px</p>
+      </div>
+      <div class="sc-type">
+        <p class="sc-type-sample annachy-text-body-m-medium">Body M — Medium — Discover your style</p>
+        <p class="sc-type-meta"><code>--annachy-type-body-m-medium-*</code> · weight 500 · <strong>active (Mobile)</strong> 16px / 24px · desktop reference 16px / 24px</p>
+      </div>
+      <div class="sc-type">
+        <p class="sc-type-sample annachy-text-body-s">Body S — Discover your style</p>
+        <p class="sc-type-meta"><code>--annachy-type-body-s-*</code> · weight 400 · <strong>active (Mobile)</strong> 14px / 20px · desktop reference 14px / 21px</p>
+      </div>
+      <div class="sc-type">
+        <p class="sc-type-sample annachy-text-body-s-medium">Body S — Medium — Discover your style</p>
+        <p class="sc-type-meta"><code>--annachy-type-body-s-medium-*</code> · weight 500 · <strong>active (Mobile)</strong> 14px / 20px · desktop reference 14px / 21px</p>
+      </div>
+      <div class="sc-type">
+        <p class="sc-type-sample annachy-text-body-s-semibold">Body S (Semibold) — Discover your style</p>
+        <p class="sc-type-meta"><code>--annachy-type-body-s-semibold-*</code> · weight 600 · <strong>active (Mobile)</strong> 14px / 18px · desktop reference 14px / 18px <span class="sc-flag">INC-57</span></p>
+      </div>
+      <div class="sc-type">
+        <p class="sc-type-sample annachy-text-body-xs">Body XS — Discover your style</p>
+        <p class="sc-type-meta"><code>--annachy-type-body-xs-*</code> · weight 500 · <strong>active (Mobile)</strong> 12px / 18px · desktop reference 12px / 18px</p>
+      </div>
+      <div class="sc-type">
+        <p class="sc-type-sample annachy-text-body-xs-semibold">Body XS — Semibold — Discover your style</p>
+        <p class="sc-type-meta"><code>--annachy-type-body-xs-semibold-*</code> · weight 600 · <strong>active (Mobile)</strong> 12px / 18px · desktop reference 12px / 18px</p>
+      </div>
+      <div class="sc-type">
+        <p class="sc-type-sample annachy-text-body-xxs">Body XXS — Discover your style</p>
+        <p class="sc-type-meta"><code>--annachy-type-body-xxs-*</code> · weight 500 · <strong>active (Mobile)</strong> 10px / 15px · desktop reference 10px / 15px</p>
+      </div>
+      <div class="sc-type">
+        <p class="sc-type-sample annachy-text-body-micro">Body Micro — Discover your style</p>
+        <p class="sc-type-meta"><code>--annachy-type-body-micro-*</code> · weight 600 · <strong>active (Mobile)</strong> 8px / 12px · desktop reference 8px / 12px</p>
+      </div>
+      <div class="sc-type">
+        <p class="sc-type-sample annachy-text-label-large">Label Large — Discover your style</p>
+        <p class="sc-type-meta"><code>--annachy-type-label-large-*</code> · weight 500 · <strong>active (Mobile)</strong> 18px / 22px · desktop reference 18px / 25px</p>
+      </div>
+      <div class="sc-type">
+        <p class="sc-type-sample annachy-text-label-medium">Label Medium — Discover your style</p>
+        <p class="sc-type-meta"><code>--annachy-type-label-medium-*</code> · weight 500 · <strong>active (Mobile)</strong> 16px / 21px · desktop reference 16px / 22px</p>
+      </div>
+      <div class="sc-type">
+        <p class="sc-type-sample annachy-text-label-small">Label Small — Discover your style</p>
+        <p class="sc-type-meta"><code>--annachy-type-label-small-*</code> · weight 500 · <strong>active (Mobile)</strong> 14px / 20px · desktop reference 14px / 20px</p>
+      </div>
+      <div class="sc-type">
+        <p class="sc-type-sample annachy-text-label-xsmall">Label XSmall — Discover your style</p>
+        <p class="sc-type-meta"><code>--annachy-type-label-xsmall-*</code> · weight 400 · <strong>active (Mobile)</strong> 12px / 17px · desktop reference 12px / 18px</p>
+      </div>
+      <div class="sc-type">
+        <p class="sc-type-sample annachy-text-label-xsmall-semibold">Label XSmall — SB — Discover your style</p>
+        <p class="sc-type-meta"><code>--annachy-type-label-xsmall-semibold-*</code> · weight 600 · <strong>active (Mobile)</strong> 12px / 17px · desktop reference 12px / 18px</p>
+      </div>
+      <div class="sc-type">
+        <p class="sc-type-sample annachy-text-caption-small">Caption Small — Discover your style</p>
+        <p class="sc-type-meta"><code>--annachy-type-caption-small-*</code> · weight 600 · <strong>active (Mobile)</strong> 11px / 15px · desktop reference 11px / 15px</p>
+      </div>
+      <div class="sc-type">
+        <p class="sc-type-sample annachy-text-caption-xsmall">Caption XSmall — Discover your style</p>
+        <p class="sc-type-meta"><code>--annachy-type-caption-xsmall-*</code> · weight 400 · <strong>active (Mobile)</strong> 10px / 14px · desktop reference 10px / 14px</p>
+      </div>
+      <div class="sc-type">
+        <p class="sc-type-sample annachy-text-caption-micro">Caption Micro — Discover your style</p>
+        <p class="sc-type-meta"><code>--annachy-type-caption-micro-*</code> · weight 500 · <strong>active (Mobile)</strong> 8px / 10px · desktop reference 8px / 12px</p>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

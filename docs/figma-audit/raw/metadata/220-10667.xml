@@ -1,0 +1,1654 @@
+<canvas id="220:10667" name="  › ② Typography  ✓" x="0" y="0" width="0" height="0">
+  <section id="1557:39451" name="Typography System" x="-7755" y="-2551" width="6655" height="7511">
+    <frame id="1558:48034" name="Typography system" x="809" y="1285" width="2126" height="4209">
+      <frame id="1558:48035" name="Typography Overview" x="96" y="414" width="1934" height="3609">
+        <frame id="1558:48036" name="Header" x="80" y="96" width="1774" height="304">
+          <text id="1558:48037" name="TYPOGRAPHY" x="0" y="0" width="148" height="14" />
+          <text id="1558:48038" name="Proxima Nova" x="0" y="38" width="1774" height="88" />
+          <text id="1558:48039" name="Typography system, scale, hierarchy and usage guidelines." x="0" y="150" width="515" height="32" />
+          <frame id="1558:48040" name="Metadata" x="0" y="206" width="1774" height="98">
+            <frame id="1558:48041" name="Frame" x="0" y="32" width="413.5" height="34">
+              <text id="1558:48042" name="FONT FAMILY" x="0" y="0" width="83" height="11" />
+              <text id="1558:48043" name="Proxima Nova" x="0" y="19" width="92" height="15" />
+            </frame>
+            <frame id="1558:48044" name="Frame" x="453.5" y="32" width="413.5" height="34">
+              <text id="1558:48045" name="STYLES" x="0" y="0" width="46" height="11" />
+              <text id="1558:48046" name="26" x="0" y="19" width="18" height="15" />
+            </frame>
+            <frame id="1558:48047" name="Frame" x="907" y="32" width="413.5" height="34">
+              <text id="1558:48048" name="RESPONSIVE" x="0" y="0" width="79" height="11" />
+              <text id="1558:48049" name="Mobile + Desktop" x="0" y="19" width="116" height="15" />
+            </frame>
+            <frame id="1558:48050" name="Frame" x="1360.5" y="32" width="413.5" height="34">
+              <text id="1558:48051" name="LETTER SPACING" x="0" y="0" width="106" height="11" />
+              <text id="1558:48052" name="0" x="0" y="19" width="10" height="15" />
+            </frame>
+          </frame>
+        </frame>
+        <frame id="1558:48053" name="Hero-Specimen" x="80" y="480" width="1774" height="3033">
+          <frame id="1558:48054" name="Hero-FontName" x="0" y="0" width="1774" height="423">
+            <frame id="1558:48055" name="Hero-Label-Row" x="0" y="80" width="1774" height="35">
+              <text id="1558:48056" name="Type Specimen" x="4" y="0" width="132" height="11" />
+            </frame>
+            <text id="1558:48057" name="Proxima Nova" x="0" y="115" width="1774" height="180" />
+            <frame id="1558:48058" name="Hero-Tagline" x="0" y="295" width="1774" height="128">
+              <text id="1558:48059" name="Typeface by Mark Simonson Studio" x="4" y="39" width="274" height="18" />
+              <frame id="1558:48060" name="Frame" x="1543" y="32" width="227" height="32">
+                <frame id="1558:48061" name="Frame" x="0" y="0" width="45" height="32">
+                  <text id="1558:48062" name="Styles" x="0" y="0" width="45" height="10" />
+                  <text id="1558:48063" name="26" x="0" y="12" width="25" height="20" />
+                </frame>
+                <frame id="1558:48064" name="Frame" x="69" y="0" width="56" height="32">
+                  <text id="1558:48065" name="Weights" x="0" y="0" width="56" height="10" />
+                  <text id="1558:48066" name="5" x="0" y="12" width="13" height="20" />
+                </frame>
+                <frame id="1558:48067" name="Frame" x="149" y="0" width="78" height="32">
+                  <text id="1558:48068" name="Responsive" x="0" y="0" width="78" height="10" />
+                  <text id="1558:48069" name="Yes" x="0" y="12" width="31" height="20" />
+                </frame>
+              </frame>
+            </frame>
+          </frame>
+          <rounded-rectangle id="1558:48070" name="Rectangle" x="0" y="493" width="1774" height="3" />
+          <frame id="1558:48071" name="Numbers-Specimen" x="0" y="566" width="1774" height="371">
+            <frame id="1558:48072" name="Frame" x="0" y="64" width="131" height="11">
+              <rounded-rectangle id="1558:48073" name="Rectangle" x="4" y="4.5" width="24" height="2" />
+              <text id="1558:48074" name="Numerals" x="40" y="0" width="87" height="11" />
+            </frame>
+            <text id="1558:48075" name="0123456789" x="0" y="91" width="1774" height="136" />
+            <text id="1558:48076" name="0123456789" x="0" y="243" width="1774" height="64" />
+          </frame>
+          <rounded-rectangle id="1558:48077" name="Rectangle" x="0" y="1007" width="1774" height="1" />
+          <frame id="1558:48078" name="Alphabet-Specimen" x="0" y="1078" width="1774" height="299">
+            <frame id="1558:48079" name="Frame" x="0" y="64" width="177" height="11">
+              <rounded-rectangle id="1558:48080" name="Rectangle" x="4" y="4.5" width="24" height="2" />
+              <text id="1558:48081" name="Full Alphabet" x="40" y="0" width="133" height="11" />
+            </frame>
+            <text id="1558:48082" name="ABCDEFGHIJKLMNOPQRSTUVWXYZ" x="0" y="91" width="1774" height="64" />
+            <text id="1558:48083" name="abcdefghijklmnopqrstuvwxyz" x="0" y="171" width="1774" height="64" />
+          </frame>
+          <frame id="1558:48084" name="Weight-Specimens" x="0" y="1447" width="1774" height="992">
+            <frame id="1558:48085" name="Frame" x="0" y="0" width="198" height="123">
+              <rounded-rectangle id="1558:48086" name="Rectangle" x="0" y="68.5" width="24" height="2" />
+              <text id="1558:48087" name="Weight Variation" x="36" y="64" width="162" height="11" />
+            </frame>
+            <frame id="1558:48088" name="Frame" x="0" y="123" width="1774" height="169">
+              <frame id="1558:48089" name="Frame" x="0" y="40" width="1774" height="89">
+                <text id="1558:48090" name="Beautiful" x="0" y="0" width="336" height="88" />
+                <frame id="1558:48091" name="Frame" x="1622" y="61" width="152" height="28">
+                  <text id="1558:48092" name="Bold" x="0" y="0" width="152" height="11" />
+                  <text id="1558:48093" name="700 — Headings &amp; Display" x="0" y="15" width="152" height="13" />
+                </frame>
+              </frame>
+            </frame>
+            <frame id="1558:48094" name="Frame" x="0" y="292" width="1774" height="169">
+              <frame id="1558:48095" name="Frame" x="0" y="40" width="1774" height="89">
+                <text id="1558:48096" name="Beautiful" x="0" y="0" width="327" height="88" />
+                <frame id="1558:48097" name="Frame" x="1606" y="61" width="168" height="28">
+                  <text id="1558:48098" name="Semibold" x="0" y="0" width="168" height="11" />
+                  <text id="1558:48099" name="600 — Subheadings &amp; Labels" x="0" y="15" width="168" height="13" />
+                </frame>
+              </frame>
+            </frame>
+            <frame id="1558:48100" name="Frame" x="0" y="461" width="1774" height="169">
+              <frame id="1558:48101" name="Frame" x="0" y="40" width="1774" height="89">
+                <text id="1558:48102" name="Beautiful" x="0" y="0" width="321" height="88" />
+                <frame id="1558:48103" name="Frame" x="1645" y="61" width="129" height="28">
+                  <text id="1558:48104" name="Medium" x="0" y="0" width="129" height="11" />
+                  <text id="1558:48105" name="500 — Body Emphasis" x="0" y="15" width="129" height="13" />
+                </frame>
+              </frame>
+            </frame>
+            <frame id="1558:48106" name="Frame" x="0" y="630" width="1774" height="169">
+              <frame id="1558:48107" name="Frame" x="0" y="40" width="1774" height="89">
+                <text id="1558:48108" name="Beautiful" x="0" y="0" width="315" height="88" />
+                <frame id="1558:48109" name="Frame" x="1677" y="61" width="97" height="28">
+                  <text id="1558:48110" name="Regular" x="0" y="0" width="97" height="11" />
+                  <text id="1558:48111" name="400 — Body Text" x="0" y="15" width="97" height="13" />
+                </frame>
+              </frame>
+            </frame>
+            <frame id="1558:48112" name="Frame" x="0" y="799" width="1774" height="193">
+              <frame id="1558:48113" name="Frame" x="0" y="40" width="1774" height="89">
+                <text id="1558:48114" name="Beautiful" x="0" y="0" width="307" height="88" />
+                <frame id="1558:48115" name="Frame" x="1593" y="61" width="181" height="28">
+                  <text id="1558:48116" name="Light" x="0" y="0" width="181" height="11" />
+                  <text id="1558:48117" name="300 — Decorative &amp; Supporting" x="0" y="15" width="181" height="13" />
+                </frame>
+              </frame>
+            </frame>
+          </frame>
+          <frame id="1558:48118" name="Symbols-Specimen" x="0" y="2509" width="1774" height="451">
+            <frame id="1558:48119" name="Frame" x="0" y="64" width="334" height="11">
+              <rounded-rectangle id="1558:48120" name="Rectangle" x="4" y="4.5" width="24" height="2" />
+              <text id="1558:48121" name="Symbols &amp; Special Characters" x="40" y="0" width="290" height="11" />
+            </frame>
+            <text id="1558:48122" name="@#$%&amp;*!?" x="0" y="91" width="1774" height="108" />
+            <text id="1558:48123" name="+=&lt;&gt;{}[]" x="0" y="215" width="1774" height="108" />
+            <text id="1558:48124" name="( ) / \ | ~ ^ ° ™ © ® € £ ¥ • — – … &#39; &quot; „ «" x="0" y="339" width="1774" height="48" />
+          </frame>
+          <rounded-rectangle id="1558:48125" name="Rectangle" x="0" y="3030" width="1774" height="3" />
+        </frame>
+      </frame>
+      <frame id="1558:48126" name="_Status" x="0" y="0" width="2126" height="114">
+        <text id="1558:48127" name="Typography system" x="32" y="40.5" width="301" height="32" />
+        <text id="1558:48128" name="SEPTEMBER 2026" x="1858" y="40.5" width="236" height="32" />
+      </frame>
+      <frame id="1558:48129" name="Frame 2121455715" x="96" y="186" width="1934" height="156">
+        <frame id="1558:48130" name="Frame 2121455714" x="0" y="0" width="156" height="156" />
+        <frame id="1558:48135" name="Logotype" x="1634.9083251953125" y="41.00049591064453" width="299.0917053222656" height="73.99900817871094">
+          <frame id="1558:48136" name="Group" x="-0.221893310546875" y="0" width="299.5352478027344" height="73.99888610839844">
+            <vector id="1558:48137" name="Vector" x="93.97728729248047" y="61.04088592529297" width="118.541748046875" height="12.958113670349121" />
+            <frame id="1558:48138" name="Group" x="96.96601104736328" y="62.9735221862793" width="12.336579322814941" height="8.597864151000977" />
+            <frame id="1558:48141" name="Group" x="111.98466491699219" y="62.95185089111328" width="97.42334747314453" height="8.867423057556152" />
+            <frame id="1558:48155" name="Group" x="-0.2219319719442865" y="0" width="299.5352478027344" height="71.78117370605469">
+              <vector id="1558:48156" name="Vector" x="-0.22197063334169798" y="0" width="92.9480209350586" height="56.08863067626953" />
+              <frame id="1558:48157" name="Group" x="216.59662576731353" y="7.469759464263916" width="82.71688079833984" height="64.31144714355469" />
+              <frame id="1558:48160" name="Group" x="222.6850199323526" y="7.423394203186035" width="28.45973777770996" height="48.95656204223633" />
+              <frame id="1558:48163" name="Group" x="160.2677836042276" y="20.571643829345703" width="28.026350021362305" height="36.302520751953125" />
+              <frame id="1558:48168" name="Group" x="126.92842813547759" y="20.963871002197266" width="30.23380470275879" height="35.41405487060547" />
+              <frame id="1558:48171" name="Group" x="92.65084787424712" y="20.963871002197266" width="30.233793258666992" height="35.41405487060547" />
+              <frame id="1558:48174" name="Group" x="192.10474344309478" y="20.642276763916016" width="27.83435821533203" height="36.263397216796875" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="1558:48777" name="Typography system" x="3327" y="1285" width="2126" height="5575">
+      <frame id="1558:48778" name="Typography System" x="96" y="414" width="1934" height="5029">
+        <frame id="1558:48779" name="Header" x="80" y="96" width="1774" height="304">
+          <text id="1558:48780" name="TYPOGRAPHY" x="0" y="0" width="148" height="14" />
+          <text id="1558:48781" name="Proxima Nova" x="0" y="38" width="1774" height="88" />
+          <text id="1558:48782" name="Typography system, scale, hierarchy and usage guidelines." x="0" y="150" width="514" height="32" />
+          <frame id="1558:48783" name="Metadata" x="0" y="206" width="1774" height="98">
+            <frame id="1558:48784" name="Frame" x="0" y="32" width="413.5" height="34">
+              <text id="1558:48785" name="FONT FAMILY" x="0" y="0" width="83" height="11" />
+              <text id="1558:48786" name="Proxima Nova" x="0" y="19" width="92" height="15" />
+            </frame>
+            <frame id="1558:48787" name="Frame" x="453.5" y="32" width="413.5" height="34">
+              <text id="1558:48788" name="STYLES" x="0" y="0" width="46" height="11" />
+              <text id="1558:48789" name="26" x="0" y="19" width="18" height="15" />
+            </frame>
+            <frame id="1558:48790" name="Frame" x="907" y="32" width="413.5" height="34">
+              <text id="1558:48791" name="RESPONSIVE" x="0" y="0" width="79" height="11" />
+              <text id="1558:48792" name="Mobile + Desktop" x="0" y="19" width="116" height="15" />
+            </frame>
+            <frame id="1558:48793" name="Frame" x="1360.5" y="32" width="413.5" height="34">
+              <text id="1558:48794" name="LETTER SPACING" x="0" y="0" width="106" height="11" />
+              <text id="1558:48795" name="0" x="0" y="19" width="10" height="15" />
+            </frame>
+          </frame>
+        </frame>
+        <frame id="1558:48796" name="Section_01" x="80" y="480" width="1774" height="364">
+          <frame id="1558:48797" name="Frame" x="0" y="0" width="260" height="46">
+            <text id="1558:48798" name="01" x="0" y="0" width="18" height="14" />
+            <text id="1558:48799" name="Type System Overview" x="0" y="22" width="260" height="24" />
+          </frame>
+          <frame id="1558:48800" name="Frame" x="300" y="0" width="1474" height="364">
+            <frame id="1558:48801" name="Frame" x="0" y="0" width="1474" height="280">
+              <frame id="1558:48802" name="Frame" x="0" y="0" width="480.6666564941406" height="280">
+                <text id="1558:48803" name="8" x="32" y="32" width="34" height="56" />
+                <frame id="1558:48804" name="Frame" x="32" y="104" width="62" height="144">
+                  <text id="1558:48805" name="Heading" x="0" y="0" width="62" height="16" />
+                  <text id="1558:48806" name="Page titles, section titles, content hierarchy" x="0" y="24" width="62" height="120" />
+                </frame>
+              </frame>
+              <frame id="1558:48807" name="Frame" x="496.6666564941406" y="0" width="480.66668701171875" height="280">
+                <text id="1558:48808" name="10" x="32" y="32" width="58" height="56" />
+                <frame id="1558:48809" name="Frame" x="32" y="104" width="143" height="84">
+                  <text id="1558:48810" name="Subheading &amp; Body" x="0" y="0" width="143" height="16" />
+                  <text id="1558:48811" name="Paragraphs, supporting text, compact UI elements" x="0" y="24" width="143" height="60" />
+                </frame>
+              </frame>
+              <frame id="1558:48812" name="Frame" x="993.3333740234375" y="0" width="480.66668701171875" height="280">
+                <text id="1558:48813" name="8" x="32" y="32" width="34" height="56" />
+                <frame id="1558:48814" name="Frame" x="32" y="104" width="130" height="64">
+                  <text id="1558:48815" name="Labels &amp; Captions" x="0" y="0" width="130" height="16" />
+                  <text id="1558:48816" name="UI labels, button text, metadata, captions" x="0" y="24" width="130" height="40" />
+                </frame>
+              </frame>
+            </frame>
+            <frame id="1558:48817" name="Frame" x="0" y="304" width="1474" height="60">
+              <text id="1558:48818" name="TOTAL STYLES" x="20" y="20" width="96" height="11" />
+              <text id="1558:48819" name="26" x="593.5" y="20" width="25" height="20" />
+              <text id="1558:48820" name="Proxima Nova · 5 weights · Mobile + Desktop responsive" x="1096" y="20" width="358" height="14" />
+            </frame>
+          </frame>
+        </frame>
+        <line id="1558:48821" name="Line" x="80" y="924" width="1774" height="0" />
+        <frame id="1558:48822" name="Section_02" x="80" y="1004" width="1774" height="228">
+          <frame id="1558:48823" name="Frame" x="0" y="0" width="260" height="46">
+            <text id="1558:48824" name="02" x="0" y="0" width="21" height="14" />
+            <text id="1558:48825" name="Font Weights" x="0" y="22" width="260" height="24" />
+          </frame>
+          <frame id="1558:48826" name="Frame" x="300" y="0" width="1474" height="228">
+            <frame id="1558:48827" name="Frame" x="0" y="0" width="1474" height="117">
+              <frame id="1558:48828" name="Frame" x="0" y="0" width="85" height="93">
+                <text id="1558:48829" name="Aa" x="0" y="0" width="85" height="72" />
+                <text id="1558:48830" name="Light" x="0" y="80" width="29" height="13" />
+              </frame>
+              <frame id="1558:48831" name="Frame" x="344.5" y="0" width="86" height="93">
+                <text id="1558:48832" name="Aa" x="0" y="0" width="86" height="72" />
+                <text id="1558:48833" name="Regular" x="0" y="80" width="44" height="13" />
+              </frame>
+              <frame id="1558:48834" name="Frame" x="690" y="0" width="87" height="93">
+                <text id="1558:48835" name="Aa" x="0" y="0" width="87" height="72" />
+                <text id="1558:48836" name="Medium" x="0" y="80" width="46" height="13" />
+              </frame>
+              <frame id="1558:48837" name="Frame" x="1036.5" y="0" width="89" height="93">
+                <text id="1558:48838" name="Aa" x="0" y="0" width="89" height="72" />
+                <text id="1558:48839" name="Semibold" x="0" y="80" width="54" height="13" />
+              </frame>
+              <frame id="1558:48840" name="Frame" x="1385" y="0" width="89" height="93">
+                <text id="1558:48841" name="Aa" x="0" y="0" width="89" height="72" />
+                <text id="1558:48842" name="Bold" x="0" y="80" width="27" height="13" />
+              </frame>
+            </frame>
+            <frame id="1558:48843" name="Frame" x="0" y="165" width="1474" height="63">
+              <text id="1558:48844" name="WEIGHT DISTRIBUTION" x="0" y="0" width="153" height="11" />
+              <frame id="1558:48845" name="Frame" x="0" y="27" width="1474" height="36">
+                <frame id="1558:48846" name="Frame" x="0" y="0" width="464.6666564941406" height="36">
+                  <text id="1558:48847" name="Heading" x="0" y="0" width="53" height="14" />
+                  <text id="1558:48848" name="Bold, Semibold" x="0" y="22" width="93" height="14" />
+                </frame>
+                <frame id="1558:48849" name="Frame" x="504.6666564941406" y="0" width="464.66668701171875" height="36">
+                  <text id="1558:48850" name="Subheading &amp; Body" x="0" y="0" width="124" height="14" />
+                  <text id="1558:48851" name="Regular, Medium, Semibold" x="0" y="22" width="167" height="14" />
+                </frame>
+                <frame id="1558:48852" name="Frame" x="1009.3333740234375" y="0" width="464.66668701171875" height="36">
+                  <text id="1558:48853" name="Labels &amp; Captions" x="0" y="0" width="113" height="14" />
+                  <text id="1558:48854" name="Regular, Medium, Semibold" x="0" y="22" width="167" height="14" />
+                </frame>
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+        <line id="1558:48855" name="Line" x="80" y="1312" width="1774" height="0" />
+        <frame id="1558:48856" name="Section_03" x="80" y="1392" width="1774" height="705">
+          <frame id="1558:48857" name="Frame" x="0" y="0" width="260" height="90">
+            <text id="1558:48858" name="03" x="0" y="0" width="20" height="14" />
+            <text id="1558:48859" name="Heading" x="0" y="22" width="260" height="24" />
+            <text id="1558:48860" name="8 styles for page titles, section titles, and content hierarchy." x="0" y="54" width="260" height="36" />
+          </frame>
+          <frame id="1558:48861" name="Frame" x="300" y="0" width="1474" height="705">
+            <frame id="1558:48862" name="Frame" x="0" y="0" width="1474" height="198">
+              <frame id="1558:48863" name="Frame" x="24" y="24" width="1426" height="36">
+                <text id="1558:48864" name="H1" x="0" y="12.5" width="40" height="11" />
+                <text id="1558:48865" name="Discover your style" x="56" y="0" width="311" height="36" />
+              </frame>
+              <frame id="1558:48866" name="Frame" x="24" y="76" width="1426" height="28">
+                <text id="1558:48867" name="H3" x="0" y="8.5" width="40" height="11" />
+                <text id="1558:48868" name="Product details" x="56" y="0" width="191" height="28" />
+              </frame>
+              <frame id="1558:48869" name="Frame" x="24" y="120" width="1426" height="22">
+                <text id="1558:48870" name="H5" x="0" y="5.5" width="40" height="11" />
+                <text id="1558:48871" name="Related items" x="56" y="0" width="134" height="22" />
+              </frame>
+              <frame id="1558:48872" name="Frame" x="24" y="158" width="1426" height="16">
+                <text id="1558:48873" name="H7" x="0" y="2.5" width="40" height="11" />
+                <text id="1558:48874" name="View all categories" x="56" y="0" width="135" height="16" />
+              </frame>
+            </frame>
+            <frame id="1558:48875" name="Frame" x="0" y="238" width="1474" height="383">
+              <frame id="1558:48876" name="Frame" x="0" y="0" width="1474" height="23">
+                <text id="1558:48877" name="STYLE" x="0" y="0" width="100" height="11" />
+                <text id="1558:48878" name="WEIGHT" x="100" y="0" width="120" height="11" />
+                <text id="1558:48879" name="MOBILE" x="220" y="0" width="80" height="11" />
+                <text id="1558:48880" name="LH" x="300" y="0" width="100" height="11" />
+                <text id="1558:48881" name="DESKTOP" x="400" y="0" width="80" height="11" />
+                <text id="1558:48882" name="LH" x="480" y="0" width="100" height="11" />
+                <text id="1558:48883" name="USAGE" x="580" y="0" width="894" height="11" />
+              </frame>
+              <frame id="1558:48884" name="Frame" x="0" y="23" width="1474" height="40">
+                <text id="1558:48885" name="H1" x="0" y="12" width="100" height="13" />
+                <text id="1558:48886" name="Bold" x="100" y="12" width="120" height="13" />
+                <text id="1558:48887" name="32px" x="220" y="12" width="80" height="13" />
+                <text id="1558:48888" name="38px" x="300" y="12" width="100" height="13" />
+                <text id="1558:48889" name="48px" x="400" y="12" width="80" height="13" />
+                <text id="1558:48890" name="58px" x="480" y="12" width="100" height="13" />
+                <text id="1558:48891" name="Main page title" x="580" y="12" width="894" height="16" />
+              </frame>
+              <frame id="1558:48892" name="Frame" x="0" y="63" width="1474" height="40">
+                <text id="1558:48893" name="H2" x="0" y="12" width="100" height="13" />
+                <text id="1558:48894" name="Bold" x="100" y="12" width="120" height="13" />
+                <text id="1558:48895" name="28px" x="220" y="12" width="80" height="13" />
+                <text id="1558:48896" name="36px" x="300" y="12" width="100" height="13" />
+                <text id="1558:48897" name="40px" x="400" y="12" width="80" height="13" />
+                <text id="1558:48898" name="48px" x="480" y="12" width="100" height="13" />
+                <text id="1558:48899" name="Section heading" x="580" y="12" width="894" height="16" />
+              </frame>
+              <frame id="1558:48900" name="Frame" x="0" y="103" width="1474" height="40">
+                <text id="1558:48901" name="H3" x="0" y="12" width="100" height="13" />
+                <text id="1558:48902" name="Bold" x="100" y="12" width="120" height="13" />
+                <text id="1558:48903" name="26px" x="220" y="12" width="80" height="13" />
+                <text id="1558:48904" name="34px" x="300" y="12" width="100" height="13" />
+                <text id="1558:48905" name="36px" x="400" y="12" width="80" height="13" />
+                <text id="1558:48906" name="42px" x="480" y="12" width="100" height="13" />
+                <text id="1558:48907" name="Subsection heading" x="580" y="12" width="894" height="16" />
+              </frame>
+              <frame id="1558:48908" name="Frame" x="0" y="143" width="1474" height="40">
+                <text id="1558:48909" name="H3" x="0" y="12" width="100" height="13" />
+                <text id="1558:48910" name="Semibold" x="100" y="12" width="120" height="13" />
+                <text id="1558:48911" name="26px" x="220" y="12" width="80" height="13" />
+                <text id="1558:48912" name="30px" x="300" y="12" width="100" height="13" />
+                <text id="1558:48913" name="36px" x="400" y="12" width="80" height="13" />
+                <text id="1558:48914" name="42px" x="480" y="12" width="100" height="13" />
+                <text id="1558:48915" name="Secondary emphasis" x="580" y="12" width="894" height="16" />
+              </frame>
+              <frame id="1558:48916" name="Frame" x="0" y="183" width="1474" height="40">
+                <text id="1558:48917" name="H4" x="0" y="12" width="100" height="13" />
+                <text id="1558:48918" name="Semibold" x="100" y="12" width="120" height="13" />
+                <text id="1558:48919" name="24px" x="220" y="12" width="80" height="13" />
+                <text id="1558:48920" name="26px" x="300" y="12" width="100" height="13" />
+                <text id="1558:48921" name="32px" x="400" y="12" width="80" height="13" />
+                <text id="1558:48922" name="38px" x="480" y="12" width="100" height="13" />
+                <text id="1558:48923" name="Component heading" x="580" y="12" width="894" height="16" />
+              </frame>
+              <frame id="1558:48924" name="Frame" x="0" y="223" width="1474" height="40">
+                <text id="1558:48925" name="H5" x="0" y="12" width="100" height="13" />
+                <text id="1558:48926" name="Semibold" x="100" y="12" width="120" height="13" />
+                <text id="1558:48927" name="20px" x="220" y="12" width="80" height="13" />
+                <text id="1558:48928" name="24px" x="300" y="12" width="100" height="13" />
+                <text id="1558:48929" name="28px" x="400" y="12" width="80" height="13" />
+                <text id="1558:48930" name="34px" x="480" y="12" width="100" height="13" />
+                <text id="1558:48931" name="Small section heading" x="580" y="12" width="894" height="16" />
+              </frame>
+              <frame id="1558:48932" name="Frame" x="0" y="263" width="1474" height="40">
+                <text id="1558:48933" name="H6" x="0" y="12" width="100" height="13" />
+                <text id="1558:48934" name="Semibold" x="100" y="12" width="120" height="13" />
+                <text id="1558:48935" name="18px" x="220" y="12" width="80" height="13" />
+                <text id="1558:48936" name="20px" x="300" y="12" width="100" height="13" />
+                <text id="1558:48937" name="24px" x="400" y="12" width="80" height="13" />
+                <text id="1558:48938" name="28px" x="480" y="12" width="100" height="13" />
+                <text id="1558:48939" name="Compact heading" x="580" y="12" width="894" height="16" />
+              </frame>
+              <frame id="1558:48940" name="Frame" x="0" y="303" width="1474" height="40">
+                <text id="1558:48941" name="H7" x="0" y="12" width="100" height="13" />
+                <text id="1558:48942" name="Semibold" x="100" y="12" width="120" height="13" />
+                <text id="1558:48943" name="16px" x="220" y="12" width="80" height="13" />
+                <text id="1558:48944" name="18px" x="300" y="12" width="100" height="13" />
+                <text id="1558:48945" name="20px" x="400" y="12" width="80" height="13" />
+                <text id="1558:48946" name="24px" x="480" y="12" width="100" height="13" />
+                <text id="1558:48947" name="Smallest heading" x="580" y="12" width="894" height="16" />
+              </frame>
+              <frame id="1558:48948" name="Frame" x="0" y="343" width="1474" height="40">
+                <text id="1558:48949" name="H8" x="0" y="12" width="100" height="13" />
+                <text id="1558:48950" name="Bold" x="100" y="12" width="120" height="16" />
+                <text id="1558:48951" name="14px" x="220" y="12" width="80" height="16" />
+                <text id="1558:48952" name="18px" x="300" y="12" width="100" height="13" />
+                <text id="1558:48953" name="14px" x="400" y="12" width="80" height="16" />
+                <text id="1558:48954" name="18px" x="480" y="12" width="100" height="16" />
+                <text id="1558:48955" name="Smallest heading" x="580" y="12" width="894" height="16" />
+              </frame>
+            </frame>
+            <frame id="1558:48956" name="Frame" x="0" y="661" width="1474" height="44">
+              <text id="1558:48957" name="Heading Styles: 9" x="16" y="16" width="93" height="12" />
+              <text id="1558:48958" name="Bold: 4" x="732.5" y="16" width="38" height="12" />
+              <text id="1558:48959" name="Semibold: 5" x="1394" y="16" width="64" height="12" />
+            </frame>
+          </frame>
+        </frame>
+        <line id="1558:48960" name="Line" x="80" y="2177" width="1774" height="0" />
+        <frame id="1558:48961" name="Section_04" x="80" y="2257" width="1774" height="812">
+          <frame id="1558:48962" name="Frame" x="0" y="0" width="260" height="90">
+            <text id="1558:48963" name="04" x="0" y="0" width="21" height="14" />
+            <text id="1558:48964" name="Subheading &amp; Body" x="0" y="22" width="260" height="24" />
+            <text id="1558:48965" name="10 styles for paragraphs, supporting text, and compact interface elements." x="0" y="54" width="260" height="36" />
+          </frame>
+          <frame id="1558:48966" name="Frame" x="300" y="0" width="1474" height="812">
+            <frame id="1558:48967" name="Frame" x="0" y="0" width="1474" height="225">
+              <frame id="1558:48968" name="Frame" x="24" y="24" width="1426" height="34">
+                <text id="1558:48969" name="Subheading L" x="0" y="0" width="61" height="10" />
+                <text id="1558:48970" name="Start your journey today" x="0" y="14" width="215" height="20" />
+              </frame>
+              <frame id="1558:48971" name="Frame" x="24" y="74" width="1426" height="36">
+                <text id="1558:48972" name="Body L" x="0" y="0" width="31" height="10" />
+                <text id="1558:48973" name="Find everything you need with clear and simple information designed for everyday use." x="0" y="14" width="1426" height="22" />
+              </frame>
+              <frame id="1558:48974" name="Frame" x="24" y="126" width="1426" height="33">
+                <text id="1558:48975" name="Body M" x="0" y="0" width="34" height="10" />
+                <text id="1558:48976" name="Browse our curated selection of products handpicked for quality and value." x="0" y="14" width="1426" height="19" />
+              </frame>
+              <frame id="1558:48977" name="Frame" x="24" y="175" width="1426" height="26">
+                <text id="1558:48978" name="Body XS" x="0" y="0" width="38" height="10" />
+                <text id="1558:48979" name="Estimated delivery in 3–5 business days." x="0" y="14" width="1426" height="12" />
+              </frame>
+            </frame>
+            <frame id="1558:48980" name="Frame" x="0" y="265" width="1474" height="463">
+              <frame id="1558:48981" name="Frame" x="0" y="0" width="1474" height="23">
+                <text id="1558:48982" name="STYLE" x="0" y="0" width="140" height="11" />
+                <text id="1558:48983" name="WEIGHT" x="140" y="0" width="100" height="11" />
+                <text id="1558:48984" name="MOBILE" x="240" y="0" width="80" height="11" />
+                <text id="1558:48985" name="LH" x="320" y="0" width="100" height="11" />
+                <text id="1558:48986" name="DESKTOP" x="420" y="0" width="80" height="11" />
+                <text id="1558:48987" name="LH" x="500" y="0" width="100" height="11" />
+                <text id="1558:48988" name="USAGE" x="600" y="0" width="874" height="11" />
+              </frame>
+              <frame id="1558:48989" name="Frame" x="0" y="23" width="1474" height="40">
+                <text id="1558:48990" name="Subheading L" x="0" y="12" width="140" height="13" />
+                <text id="1558:48991" name="Semibold" x="140" y="12" width="100" height="13" />
+                <text id="1558:48992" name="18px" x="240" y="12" width="80" height="13" />
+                <text id="1558:48993" name="25px" x="320" y="12" width="100" height="13" />
+                <text id="1558:48994" name="20px" x="420" y="12" width="80" height="13" />
+                <text id="1558:48995" name="28px" x="500" y="12" width="100" height="13" />
+                <text id="1558:48996" name="Supporting heading" x="600" y="12" width="874" height="16" />
+              </frame>
+              <frame id="1558:48997" name="Frame" x="0" y="63" width="1474" height="40">
+                <text id="1558:48998" name="Body L" x="0" y="12" width="140" height="13" />
+                <text id="1558:48999" name="Regular" x="140" y="12" width="100" height="13" />
+                <text id="1558:49000" name="18px" x="240" y="12" width="80" height="13" />
+                <text id="1558:49001" name="27px" x="320" y="12" width="100" height="13" />
+                <text id="1558:49002" name="18px" x="420" y="12" width="80" height="13" />
+                <text id="1558:49003" name="27px" x="500" y="12" width="100" height="13" />
+                <text id="1558:49004" name="Large body text" x="600" y="12" width="874" height="16" />
+              </frame>
+              <frame id="1558:49005" name="Frame" x="0" y="103" width="1474" height="40">
+                <text id="1558:49006" name="Body M" x="0" y="12" width="140" height="13" />
+                <text id="1558:49007" name="Regular" x="140" y="12" width="100" height="13" />
+                <text id="1558:49008" name="16px" x="240" y="12" width="80" height="13" />
+                <text id="1558:49009" name="24px" x="320" y="12" width="100" height="13" />
+                <text id="1558:49010" name="16px" x="420" y="12" width="80" height="13" />
+                <text id="1558:49011" name="24px" x="500" y="12" width="100" height="13" />
+                <text id="1558:49012" name="Default body text" x="600" y="12" width="874" height="16" />
+              </frame>
+              <frame id="1558:49013" name="Frame" x="0" y="143" width="1474" height="40">
+                <text id="1558:49014" name="Body M — Medium" x="0" y="12" width="140" height="13" />
+                <text id="1558:49015" name="Medium" x="140" y="12" width="100" height="13" />
+                <text id="1558:49016" name="16px" x="240" y="12" width="80" height="13" />
+                <text id="1558:49017" name="24px" x="320" y="12" width="100" height="13" />
+                <text id="1558:49018" name="16px" x="420" y="12" width="80" height="13" />
+                <text id="1558:49019" name="24px" x="500" y="12" width="100" height="13" />
+                <text id="1558:49020" name="Emphasized body text" x="600" y="12" width="874" height="16" />
+              </frame>
+              <frame id="1558:49021" name="Frame" x="0" y="183" width="1474" height="40">
+                <text id="1558:49022" name="Body S" x="0" y="12" width="140" height="13" />
+                <text id="1558:49023" name="Regular" x="140" y="12" width="100" height="13" />
+                <text id="1558:49024" name="14px" x="240" y="12" width="80" height="13" />
+                <text id="1558:49025" name="20px" x="320" y="12" width="100" height="13" />
+                <text id="1558:49026" name="14px" x="420" y="12" width="80" height="13" />
+                <text id="1558:49027" name="21px" x="500" y="12" width="100" height="13" />
+                <text id="1558:49028" name="Small body text" x="600" y="12" width="874" height="16" />
+              </frame>
+              <frame id="1558:49029" name="Frame" x="0" y="223" width="1474" height="40">
+                <text id="1558:49030" name="Body S — Medium" x="0" y="12" width="140" height="13" />
+                <text id="1558:49031" name="Medium" x="140" y="12" width="100" height="13" />
+                <text id="1558:49032" name="14px" x="240" y="12" width="80" height="13" />
+                <text id="1558:49033" name="20px" x="320" y="12" width="100" height="13" />
+                <text id="1558:49034" name="14px" x="420" y="12" width="80" height="13" />
+                <text id="1558:49035" name="21px" x="500" y="12" width="100" height="13" />
+                <text id="1558:49036" name="Emphasized small text" x="600" y="12" width="874" height="16" />
+              </frame>
+              <frame id="1558:49037" name="Frame" x="0" y="263" width="1474" height="40">
+                <text id="1558:49038" name="Body XS" x="0" y="12" width="140" height="13" />
+                <text id="1558:49039" name="Medium" x="140" y="12" width="100" height="13" />
+                <text id="1558:49040" name="12px" x="240" y="12" width="80" height="13" />
+                <text id="1558:49041" name="18px" x="320" y="12" width="100" height="13" />
+                <text id="1558:49042" name="12px" x="420" y="12" width="80" height="13" />
+                <text id="1558:49043" name="18px" x="500" y="12" width="100" height="13" />
+                <text id="1558:49044" name="Compact UI text" x="600" y="12" width="874" height="16" />
+              </frame>
+              <frame id="1558:49045" name="Frame" x="0" y="303" width="1474" height="40">
+                <text id="1558:49046" name="Body XS — Semibold" x="0" y="12" width="140" height="13" />
+                <text id="1558:49047" name="Semibold" x="140" y="12" width="100" height="13" />
+                <text id="1558:49048" name="12px" x="240" y="12" width="80" height="13" />
+                <text id="1558:49049" name="18px" x="320" y="12" width="100" height="13" />
+                <text id="1558:49050" name="12px" x="420" y="12" width="80" height="13" />
+                <text id="1558:49051" name="18px" x="500" y="12" width="100" height="13" />
+                <text id="1558:49052" name="Emphasized compact text" x="600" y="12" width="874" height="16" />
+              </frame>
+              <frame id="1558:49053" name="Frame" x="0" y="343" width="1474" height="40">
+                <text id="1558:49054" name="Body XXS" x="0" y="12" width="140" height="13" />
+                <text id="1558:49055" name="Medium" x="140" y="12" width="100" height="13" />
+                <text id="1558:49056" name="10px" x="240" y="12" width="80" height="13" />
+                <text id="1558:49057" name="15px" x="320" y="12" width="100" height="13" />
+                <text id="1558:49058" name="10px" x="420" y="12" width="80" height="13" />
+                <text id="1558:49059" name="15px" x="500" y="12" width="100" height="13" />
+                <text id="1558:49060" name="Very small text" x="600" y="12" width="874" height="16" />
+              </frame>
+              <frame id="1558:49061" name="Frame" x="0" y="383" width="1474" height="40">
+                <text id="1558:49062" name="Body Micro" x="0" y="12" width="140" height="13" />
+                <text id="1558:49063" name="Semibold" x="140" y="12" width="100" height="13" />
+                <text id="1558:49064" name="8px" x="240" y="12" width="80" height="13" />
+                <text id="1558:49065" name="12px" x="320" y="12" width="100" height="13" />
+                <text id="1558:49066" name="8px" x="420" y="12" width="80" height="13" />
+                <text id="1558:49067" name="12px" x="500" y="12" width="100" height="13" />
+                <text id="1558:49068" name="Micro UI text" x="600" y="12" width="874" height="16" />
+              </frame>
+              <frame id="1558:49069" name="Frame" x="0" y="423" width="1474" height="40">
+                <text id="1558:49070" name="Body S" x="0" y="12" width="140" height="13" />
+                <text id="1558:49071" name="Semibold" x="140" y="12" width="100" height="13" />
+                <text id="1558:49072" name="14px" x="240" y="12" width="80" height="16" />
+                <text id="1558:49073" name="18px" x="320" y="12" width="100" height="16" />
+                <text id="1558:49074" name="14px" x="420" y="12" width="80" height="16" />
+                <text id="1558:49075" name="18px" x="500" y="12" width="100" height="16" />
+                <text id="1558:49076" name="Small body text" x="600" y="12" width="874" height="16" />
+              </frame>
+            </frame>
+            <frame id="1558:49077" name="Frame" x="0" y="768" width="1474" height="44">
+              <text id="1558:49078" name="Subheading &amp; Body Styles: 11" x="16" y="16" width="155" height="12" />
+              <text id="1558:49079" name="Regular: 3" x="542.3333740234375" y="16" width="54" height="12" />
+              <text id="1558:49080" name="Medium: 4" x="967.666748046875" y="16" width="56" height="12" />
+              <text id="1558:49081" name="Semibold: 4" x="1395.0001220703125" y="16" width="63" height="12" />
+            </frame>
+          </frame>
+        </frame>
+        <line id="1558:49082" name="Line" x="80" y="3149" width="1774" height="0" />
+        <frame id="1558:49083" name="Section_05" x="80" y="3229" width="1774" height="648">
+          <frame id="1558:49084" name="Frame" x="0" y="0" width="260" height="90">
+            <text id="1558:49085" name="05" x="0" y="0" width="21" height="14" />
+            <text id="1558:49086" name="Labels &amp; Captions" x="0" y="22" width="260" height="24" />
+            <text id="1558:49087" name="8 styles for UI labels, button text, form labels, captions, and supporting metadata." x="0" y="54" width="260" height="36" />
+          </frame>
+          <frame id="1558:49088" name="Frame" x="300" y="0" width="1474" height="648">
+            <frame id="1558:49089" name="Frame" x="0" y="0" width="1474" height="181">
+              <frame id="1558:49090" name="Frame" x="24" y="24" width="204" height="18">
+                <text id="1558:49091" name="Label Large" x="0" y="4" width="100" height="10" />
+                <text id="1558:49092" name="Add to cart" x="116" y="0" width="88" height="18" />
+              </frame>
+              <frame id="1558:49093" name="Frame" x="24" y="58" width="251" height="16">
+                <text id="1558:49094" name="Label Medium" x="0" y="3" width="100" height="10" />
+                <text id="1558:49095" name="Continue shopping" x="116" y="0" width="135" height="16" />
+              </frame>
+              <frame id="1558:49096" name="Frame" x="24" y="90" width="243" height="14">
+                <text id="1558:49097" name="Label Small" x="0" y="2" width="100" height="10" />
+                <text id="1558:49098" name="Apply discount code" x="116" y="0" width="127" height="14" />
+              </frame>
+              <frame id="1558:49099" name="Frame" x="24" y="120" width="211" height="11">
+                <text id="1558:49100" name="Caption Small" x="0" y="0.5" width="100" height="10" />
+                <text id="1558:49101" name="Updated 5 min ago" x="116" y="0" width="95" height="11" />
+              </frame>
+              <frame id="1558:49102" name="Frame" x="24" y="147" width="136" height="10">
+                <text id="1558:49103" name="Caption Micro" x="0" y="0" width="100" height="10" />
+                <text id="1558:49104" name="v2.4.1" x="116" y="1" width="20" height="8" />
+              </frame>
+            </frame>
+            <frame id="1558:49105" name="Frame" x="0" y="221" width="1474" height="343">
+              <frame id="1558:49106" name="Frame" x="0" y="0" width="1474" height="23">
+                <text id="1558:49107" name="STYLE" x="0" y="0" width="140" height="11" />
+                <text id="1558:49108" name="WEIGHT" x="140" y="0" width="100" height="11" />
+                <text id="1558:49109" name="MOBILE" x="240" y="0" width="80" height="11" />
+                <text id="1558:49110" name="LH" x="320" y="0" width="100" height="11" />
+                <text id="1558:49111" name="DESKTOP" x="420" y="0" width="80" height="11" />
+                <text id="1558:49112" name="LH" x="500" y="0" width="100" height="11" />
+                <text id="1558:49113" name="USAGE" x="600" y="0" width="874" height="11" />
+              </frame>
+              <frame id="1558:49114" name="Frame" x="0" y="23" width="1474" height="40">
+                <text id="1558:49115" name="Label Large" x="0" y="12" width="140" height="13" />
+                <text id="1558:49116" name="Medium" x="140" y="12" width="100" height="13" />
+                <text id="1558:49117" name="18px" x="240" y="12" width="80" height="13" />
+                <text id="1558:49118" name="22px" x="320" y="12" width="100" height="13" />
+                <text id="1558:49119" name="18px" x="420" y="12" width="80" height="13" />
+                <text id="1558:49120" name="25px" x="500" y="12" width="100" height="13" />
+                <text id="1558:49121" name="Large UI label" x="600" y="12" width="874" height="16" />
+              </frame>
+              <frame id="1558:49122" name="Frame" x="0" y="63" width="1474" height="40">
+                <text id="1558:49123" name="Label Medium" x="0" y="12" width="140" height="13" />
+                <text id="1558:49124" name="Medium" x="140" y="12" width="100" height="13" />
+                <text id="1558:49125" name="16px" x="240" y="12" width="80" height="13" />
+                <text id="1558:49126" name="21px" x="320" y="12" width="100" height="13" />
+                <text id="1558:49127" name="16px" x="420" y="12" width="80" height="13" />
+                <text id="1558:49128" name="22px" x="500" y="12" width="100" height="13" />
+                <text id="1558:49129" name="Default UI label" x="600" y="12" width="874" height="16" />
+              </frame>
+              <frame id="1558:49130" name="Frame" x="0" y="103" width="1474" height="40">
+                <text id="1558:49131" name="Label Small" x="0" y="12" width="140" height="13" />
+                <text id="1558:49132" name="Medium" x="140" y="12" width="100" height="13" />
+                <text id="1558:49133" name="14px" x="240" y="12" width="80" height="13" />
+                <text id="1558:49134" name="20px" x="320" y="12" width="100" height="13" />
+                <text id="1558:49135" name="14px" x="420" y="12" width="80" height="13" />
+                <text id="1558:49136" name="20px" x="500" y="12" width="100" height="13" />
+                <text id="1558:49137" name="Small UI label" x="600" y="12" width="874" height="16" />
+              </frame>
+              <frame id="1558:49138" name="Frame" x="0" y="143" width="1474" height="40">
+                <text id="1558:49139" name="Label XSmall" x="0" y="12" width="140" height="13" />
+                <text id="1558:49140" name="Regular" x="140" y="12" width="100" height="13" />
+                <text id="1558:49141" name="12px" x="240" y="12" width="80" height="13" />
+                <text id="1558:49142" name="17px" x="320" y="12" width="100" height="13" />
+                <text id="1558:49143" name="12px" x="420" y="12" width="80" height="13" />
+                <text id="1558:49144" name="18px" x="500" y="12" width="100" height="13" />
+                <text id="1558:49145" name="Compact UI label" x="600" y="12" width="874" height="16" />
+              </frame>
+              <frame id="1558:49146" name="Frame" x="0" y="183" width="1474" height="40">
+                <text id="1558:49147" name="Label XSmall — SB" x="0" y="12" width="140" height="13" />
+                <text id="1558:49148" name="Semibold" x="140" y="12" width="100" height="13" />
+                <text id="1558:49149" name="12px" x="240" y="12" width="80" height="13" />
+                <text id="1558:49150" name="17px" x="320" y="12" width="100" height="13" />
+                <text id="1558:49151" name="12px" x="420" y="12" width="80" height="13" />
+                <text id="1558:49152" name="18px" x="500" y="12" width="100" height="13" />
+                <text id="1558:49153" name="Emphasized label" x="600" y="12" width="874" height="16" />
+              </frame>
+              <frame id="1558:49154" name="Frame" x="0" y="223" width="1474" height="40">
+                <text id="1558:49155" name="Caption Small" x="0" y="12" width="140" height="13" />
+                <text id="1558:49156" name="Semibold" x="140" y="12" width="100" height="13" />
+                <text id="1558:49157" name="11px" x="240" y="12" width="80" height="13" />
+                <text id="1558:49158" name="15px" x="320" y="12" width="100" height="13" />
+                <text id="1558:49159" name="11px" x="420" y="12" width="80" height="13" />
+                <text id="1558:49160" name="15px" x="500" y="12" width="100" height="13" />
+                <text id="1558:49161" name="Supporting metadata" x="600" y="12" width="874" height="16" />
+              </frame>
+              <frame id="1558:49162" name="Frame" x="0" y="263" width="1474" height="40">
+                <text id="1558:49163" name="Caption XSmall" x="0" y="12" width="140" height="13" />
+                <text id="1558:49164" name="Regular" x="140" y="12" width="100" height="13" />
+                <text id="1558:49165" name="10px" x="240" y="12" width="80" height="13" />
+                <text id="1558:49166" name="14px" x="320" y="12" width="100" height="13" />
+                <text id="1558:49167" name="10px" x="420" y="12" width="80" height="13" />
+                <text id="1558:49168" name="14px" x="500" y="12" width="100" height="13" />
+                <text id="1558:49169" name="Secondary metadata" x="600" y="12" width="874" height="16" />
+              </frame>
+              <frame id="1558:49170" name="Frame" x="0" y="303" width="1474" height="40">
+                <text id="1558:49171" name="Caption Micro" x="0" y="12" width="140" height="13" />
+                <text id="1558:49172" name="Medium" x="140" y="12" width="100" height="13" />
+                <text id="1558:49173" name="8px" x="240" y="12" width="80" height="13" />
+                <text id="1558:49174" name="10px" x="320" y="12" width="100" height="13" />
+                <text id="1558:49175" name="8px" x="420" y="12" width="80" height="13" />
+                <text id="1558:49176" name="12px" x="500" y="12" width="100" height="13" />
+                <text id="1558:49177" name="Compact metadata" x="600" y="12" width="874" height="16" />
+              </frame>
+            </frame>
+            <frame id="1558:49178" name="Frame" x="0" y="604" width="1474" height="44">
+              <text id="1558:49179" name="Labels &amp; Captions Styles: 8" x="16" y="16" width="144" height="12" />
+              <text id="1558:49180" name="Regular: 2" x="534.6666259765625" y="16" width="54" height="12" />
+              <text id="1558:49181" name="Medium: 4" x="963.333251953125" y="16" width="56" height="12" />
+              <text id="1558:49182" name="Semibold: 2" x="1393.9998779296875" y="16" width="64" height="12" />
+            </frame>
+          </frame>
+        </frame>
+        <line id="1558:49183" name="Line" x="80" y="3957" width="1774" height="0" />
+        <frame id="1558:49184" name="Section_06" x="80" y="4037" width="1774" height="154">
+          <frame id="1558:49185" name="Frame" x="0" y="0" width="260" height="108">
+            <text id="1558:49186" name="06" x="0" y="0" width="21" height="14" />
+            <text id="1558:49187" name="Responsive Type Scale" x="0" y="22" width="260" height="24" />
+            <text id="1558:49188" name="Typography scales responsively between Mobile and Desktop while preserving hierarchy and readability." x="0" y="54" width="260" height="54" />
+          </frame>
+          <frame id="1558:49189" name="Frame" x="300" y="0" width="1474" height="154">
+            <frame id="1558:49190" name="Frame" x="24" y="24" width="1426" height="41">
+              <text id="1558:49191" name="MOBILE" x="0" y="0" width="51" height="11" />
+              <text id="1558:49192" name="32 → 28 → 26 → 24 → 20 → 18 → 16 → 14 → 12 → 11 → 10 → 8" x="0" y="23" width="1426" height="18" />
+            </frame>
+            <frame id="1558:49193" name="Frame" x="24" y="89" width="1426" height="41">
+              <text id="1558:49194" name="DESKTOP" x="0" y="0" width="62" height="11" />
+              <text id="1558:49195" name="48 → 40 → 36 → 32 → 28 → 24 → 20 → 18 → 16 → 14 → 12 → 11 → 10 → 8" x="0" y="23" width="1426" height="18" />
+            </frame>
+          </frame>
+        </frame>
+        <line id="1558:49196" name="Line" x="80" y="4271" width="1774" height="0" />
+        <frame id="1558:49197" name="Section_07" x="80" y="4351" width="1774" height="582">
+          <frame id="1558:49198" name="Frame" x="0" y="0" width="260" height="46">
+            <text id="1558:49199" name="07" x="0" y="0" width="20" height="14" />
+            <text id="1558:49200" name="Usage Rules" x="0" y="22" width="260" height="24" />
+          </frame>
+          <frame id="1558:49201" name="Frame" x="300" y="0" width="1474" height="582">
+            <frame id="1558:49202" name="Frame" x="0" y="0" width="1474" height="54">
+              <text id="1558:49203" name="01" x="16" y="16" width="15" height="14" />
+              <text id="1558:49204" name="Use Heading styles for page and section hierarchy." x="51" y="16" width="1407" height="22" />
+            </frame>
+            <frame id="1558:49205" name="Frame" x="0" y="66" width="1474" height="54">
+              <text id="1558:49206" name="02" x="16" y="16" width="18" height="14" />
+              <text id="1558:49207" name="Use Subheading for supporting headings." x="54" y="16" width="1404" height="22" />
+            </frame>
+            <frame id="1558:49208" name="Frame" x="0" y="132" width="1474" height="54">
+              <text id="1558:49209" name="03" x="16" y="16" width="17" height="14" />
+              <text id="1558:49210" name="Use Body styles for primary content and descriptions." x="53" y="16" width="1405" height="22" />
+            </frame>
+            <frame id="1558:49211" name="Frame" x="0" y="198" width="1474" height="54">
+              <text id="1558:49212" name="04" x="16" y="16" width="18" height="14" />
+              <text id="1558:49213" name="Use Labels for UI controls and interface elements." x="54" y="16" width="1404" height="22" />
+            </frame>
+            <frame id="1558:49214" name="Frame" x="0" y="264" width="1474" height="54">
+              <text id="1558:49215" name="05" x="16" y="16" width="18" height="14" />
+              <text id="1558:49216" name="Use Captions for supporting metadata and secondary information." x="54" y="16" width="1404" height="22" />
+            </frame>
+            <frame id="1558:49217" name="Frame" x="0" y="330" width="1474" height="54">
+              <text id="1558:49218" name="06" x="16" y="16" width="18" height="14" />
+              <text id="1558:49219" name="Use the predefined Typography Text Styles instead of manually setting font values." x="54" y="16" width="1404" height="22" />
+            </frame>
+            <frame id="1558:49220" name="Frame" x="0" y="396" width="1474" height="54">
+              <text id="1558:49221" name="07" x="16" y="16" width="17" height="14" />
+              <text id="1558:49222" name="Do not create one-off font sizes." x="53" y="16" width="1405" height="22" />
+            </frame>
+            <frame id="1558:49223" name="Frame" x="0" y="462" width="1474" height="54">
+              <text id="1558:49224" name="08" x="16" y="16" width="18" height="14" />
+              <text id="1558:49225" name="Keep Letter Spacing at 0." x="54" y="16" width="1404" height="22" />
+            </frame>
+            <frame id="1558:49226" name="Frame" x="0" y="528" width="1474" height="54">
+              <text id="1558:49227" name="09" x="16" y="16" width="18" height="14" />
+              <text id="1558:49228" name="Use the responsive Mobile/Desktop values defined by the system." x="54" y="16" width="1404" height="22" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+      <frame id="1558:49229" name="_Status" x="0" y="0" width="2126" height="114">
+        <text id="1558:49230" name="Typography system" x="32" y="40.5" width="301" height="32" />
+        <text id="1558:49231" name="SEPTEMBER 2026" x="1858" y="40.5" width="236" height="32" />
+      </frame>
+      <frame id="1558:49232" name="Frame 2121455715" x="96" y="186" width="1934" height="156">
+        <frame id="1558:49233" name="Frame 2121455714" x="0" y="0" width="156" height="156" />
+        <frame id="1558:49238" name="Logotype" x="1634.9083251953125" y="41.00049591064453" width="299.0917053222656" height="73.99900817871094">
+          <frame id="1558:49239" name="Group" x="-0.221893310546875" y="0" width="299.5354919433594" height="73.99900817871094">
+            <vector id="1558:49240" name="Vector" x="93.97728729248047" y="61.04088592529297" width="118.541748046875" height="12.958113670349121" />
+            <frame id="1558:49241" name="Group" x="96.96601104736328" y="62.9735221862793" width="12.336579322814941" height="8.597864151000977" />
+            <frame id="1558:49244" name="Group" x="111.98466491699219" y="62.95185089111328" width="97.42334747314453" height="8.867423057556152" />
+            <frame id="1558:49258" name="Group" x="-0.2219319719442865" y="0" width="299.5354919433594" height="71.78117370605469">
+              <vector id="1558:49259" name="Vector" x="-0.22197063334169798" y="0" width="92.9480209350586" height="56.08863067626953" />
+              <frame id="1558:49260" name="Group" x="216.59662576731353" y="7.469759464263916" width="82.71688079833984" height="64.31144714355469" />
+              <frame id="1558:49263" name="Group" x="222.6850199323526" y="7.423394203186035" width="28.45973777770996" height="48.95656204223633" />
+              <frame id="1558:49266" name="Group" x="160.2677836042276" y="20.571643829345703" width="28.026350021362305" height="36.302520751953125" />
+              <frame id="1558:49271" name="Group" x="126.92842813547759" y="20.963871002197266" width="30.23380470275879" height="35.41405487060547" />
+              <frame id="1558:49274" name="Group" x="92.65084787424712" y="20.963871002197266" width="30.233793258666992" height="35.41405487060547" />
+              <frame id="1558:49277" name="Group" x="192.10474344309478" y="20.642276763916016" width="27.83435821533203" height="36.263397216796875" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+  </section>
+  <section id="1558:51031" name="Screen - Layout" x="-12102" y="-2551" width="3744" height="7511">
+    <frame id="1558:51032" name="Typography Apply Screen" x="809" y="1285" width="2126" height="4209">
+      <frame id="1558:51126" name="_Status" x="0" y="0" width="2126" height="114">
+        <text id="1558:51127" name="Typography Apply Screen" x="32" y="40.5" width="392" height="32" />
+        <text id="1558:51128" name="SEPTEMBER 2026" x="1858" y="40.5" width="236" height="32" />
+      </frame>
+      <frame id="1558:51129" name="Frame 2121455715" x="96" y="186" width="1934" height="156">
+        <frame id="1558:51130" name="Frame 2121455714" x="0" y="0" width="156" height="156" />
+        <frame id="1558:51135" name="Logotype" x="1634.9083251953125" y="41.00049591064453" width="299.0917053222656" height="73.99900817871094">
+          <frame id="1558:51136" name="Group" x="-0.221893310546875" y="0" width="299.5352478027344" height="73.99888610839844">
+            <vector id="1558:51137" name="Vector" x="93.97728729248047" y="61.04088592529297" width="118.541748046875" height="12.958113670349121" />
+            <frame id="1558:51138" name="Group" x="96.96601104736328" y="62.9735221862793" width="12.336579322814941" height="8.597864151000977" />
+            <frame id="1558:51141" name="Group" x="111.98466491699219" y="62.95185089111328" width="97.42334747314453" height="8.867423057556152" />
+            <frame id="1558:51155" name="Group" x="-0.2219319719442865" y="0" width="299.5352478027344" height="71.78117370605469">
+              <vector id="1558:51156" name="Vector" x="-0.22197063334169798" y="0" width="92.9480209350586" height="56.08863067626953" />
+              <frame id="1558:51157" name="Group" x="216.59662576731353" y="7.469759464263916" width="82.71688079833984" height="64.31144714355469" />
+              <frame id="1558:51160" name="Group" x="222.6850199323526" y="7.423394203186035" width="28.45973777770996" height="48.95656204223633" />
+              <frame id="1558:51163" name="Group" x="160.2677836042276" y="20.571643829345703" width="28.026350021362305" height="36.302520751953125" />
+              <frame id="1558:51168" name="Group" x="126.92842813547759" y="20.963871002197266" width="30.23380470275879" height="35.41405487060547" />
+              <frame id="1558:51171" name="Group" x="92.65084787424712" y="20.963871002197266" width="30.233793258666992" height="35.41405487060547" />
+              <frame id="1558:51174" name="Group" x="192.10474344309478" y="20.642276763916016" width="27.83435821533203" height="36.263397216796875" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+      <frame id="1558:51682" name="Mobile" x="174" y="504" width="360" height="800">
+        <frame id="1558:51683" name="Home Indicator Bar" x="0" y="785" width="360" height="15">
+          <rounded-rectangle id="1558:51684" name="Bottom Edge" x="0" y="0" width="360" height="15" />
+          <rounded-rectangle id="1558:51685" name="Home Indicator" x="250" y="6" width="139" height="3" />
+        </frame>
+        <frame id="1558:51686" name="Status Bar" x="0" y="0" width="360" height="35">
+          <frame id="1558:51687" name="Time" x="16" y="7" width="77" height="18">
+            <frame id="1558:51688" name="Phone Camara" x="0" y="0" width="18" height="18" />
+            <text id="1558:51691" name=" Clock Text" x="26" y="1" width="51" height="17" />
+          </frame>
+          <frame id="1558:51692" name="Status Icons" x="298" y="7" width="46" height="18">
+            <frame id="1558:51693" name="Wifi" x="298" y="7" width="17" height="18" />
+            <frame id="1558:51698" name="Signal" x="314" y="7" width="17" height="18" />
+            <frame id="1558:51701" name="Battery" x="336" y="8.058823585510254" width="8" height="15.882352828979492" />
+          </frame>
+        </frame>
+        <text id="1558:51707" name="Annachy" x="112" y="384" width="128" height="38" />
+      </frame>
+      <frame id="1558:51704" name="Desktop" x="118" y="1694" width="1440" height="1024">
+        <text id="1558:51711" name="Annachy" x="630.5" y="485" width="191" height="58" />
+      </frame>
+    </frame>
+  </section>
+  <section id="1557:44867" name="Typography Documentation" x="-279" y="-2551" width="3082" height="13724">
+    <frame id="1558:50383" name="Typography Documentation" x="478" y="397" width="2126" height="13122">
+      <frame id="1558:50384" name="Typography Documentation" x="96" y="414" width="1934" height="12522">
+        <frame id="1558:50385" name="masthead" x="0" y="96" width="1934" height="111">
+          <frame id="1558:50386" name="Frame" x="80" y="0" width="1774" height="86">
+            <text id="1558:50387" name="PROXIMA NOVA" x="0" y="0" width="737" height="86" />
+            <frame id="1558:50388" name="Frame" x="1621" y="56" width="153" height="30">
+              <text id="1558:50389" name="SPECIMEN SHEET" x="35" y="0" width="118" height="14" />
+              <text id="1558:50390" name="VERSION 2.0 • 14 SECTIONS" x="0" y="18" width="153" height="12" />
+            </frame>
+          </frame>
+          <rounded-rectangle id="1558:50391" name="Rectangle" x="80" y="110" width="1774" height="1" />
+        </frame>
+        <frame id="1558:50392" name="section-01" x="0" y="303" width="1934" height="429">
+          <frame id="1558:50393" name="header-01" x="80" y="0" width="1774" height="56">
+            <frame id="1558:50394" name="Frame" x="0" y="0" width="344" height="32">
+              <text id="1558:50395" name="02" x="0" y="0" width="40" height="32" />
+              <text id="1558:50396" name="Typeface Personality" x="56" y="6" width="288" height="24" />
+            </frame>
+            <text id="1558:50397" name="PROXIMA NOVA SPECIMEN" x="1636" y="21" width="138" height="11" />
+          </frame>
+          <frame id="1558:50398" name="Frame" x="80" y="88" width="1774" height="341">
+            <frame id="1558:50399" name="Frame" x="0" y="0" width="400" height="341">
+              <frame id="1558:50400" name="Frame" x="0" y="0" width="400" height="35">
+                <text id="1558:50401" name="Designer" x="0" y="0" width="54" height="11" />
+                <text id="1558:50402" name="Mark Simonson" x="0" y="19" width="113" height="16" />
+              </frame>
+              <frame id="1558:50403" name="Frame" x="0" y="51" width="400" height="35">
+                <text id="1558:50404" name="Foundry" x="0" y="0" width="53" height="11" />
+                <text id="1558:50405" name="Mark Simonson Studio" x="0" y="19" width="164" height="16" />
+              </frame>
+              <frame id="1558:50406" name="Frame" x="0" y="102" width="400" height="35">
+                <text id="1558:50407" name="Predecessor" x="0" y="0" width="78" height="11" />
+                <text id="1558:50408" name="Proxima Sans 1994 (via FontHaus)" x="0" y="19" width="247" height="16" />
+              </frame>
+              <frame id="1558:50409" name="Frame" x="0" y="153" width="400" height="35">
+                <text id="1558:50410" name="Released" x="0" y="0" width="55" height="11" />
+                <text id="1558:50411" name="2005 (announced June 30)" x="0" y="19" width="197" height="16" />
+              </frame>
+              <frame id="1558:50412" name="Frame" x="0" y="204" width="400" height="35">
+                <text id="1558:50413" name="Original family" x="0" y="0" width="91" height="11" />
+                <text id="1558:50414" name="42 fonts: 7 weights × 3 widths + italics" x="0" y="19" width="274" height="16" />
+              </frame>
+              <frame id="1558:50415" name="Frame" x="0" y="255" width="400" height="35">
+                <text id="1558:50416" name="Current family" x="0" y="0" width="91" height="11" />
+                <text id="1558:50417" name="80 fonts: 8 weights × 5 widths + italics" x="0" y="19" width="276" height="16" />
+              </frame>
+              <frame id="1558:50418" name="Frame" x="0" y="306" width="400" height="35">
+                <text id="1558:50419" name="Variable" x="0" y="0" width="52" height="11" />
+                <text id="1558:50420" name="Proxima Vara (released 2021)" x="0" y="19" width="212" height="16" />
+              </frame>
+            </frame>
+            <frame id="1558:50421" name="Frame" x="440" y="0" width="840" height="180">
+              <text id="1558:50422" name="Analyzing the aesthetic vector of Proxima Nova. The typeface balances structural clarity with highly legible curves." x="0" y="0" width="840" height="22" />
+              <frame id="1558:50423" name="Frame" x="0" y="38" width="840" height="63">
+                <text id="1558:50424" name="GOALS" x="0" y="0" width="37" height="11" />
+                <text id="1558:50425" name="• Geometric construction with humanist proportions • High legibility in both print and digital media • A versatile family that supports a wide range of weights and widths" x="0" y="19" width="840" height="44" />
+              </frame>
+              <frame id="1558:50426" name="Frame" x="0" y="117" width="840" height="63">
+                <text id="1558:50427" name="NOTES" x="0" y="0" width="36" height="11" />
+                <text id="1558:50428" name="• Proxima Nova is not an open-source typeface; it is a commercial family available through licensing. • The &quot;Nova&quot; naming indicates the 2005 redesign, which significantly expanded the family and refined the character set." x="0" y="19" width="840" height="44" />
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+        <frame id="1558:50429" name="section-02" x="0" y="828" width="1934" height="334">
+          <frame id="1558:50430" name="header-02" x="80" y="0" width="1774" height="56">
+            <frame id="1558:50431" name="Frame" x="0" y="0" width="369" height="32">
+              <text id="1558:50432" name="03" x="0" y="0" width="40" height="32" />
+              <text id="1558:50433" name="Uppercase &amp; Lowercase" x="56" y="6" width="313" height="24" />
+            </frame>
+            <text id="1558:50434" name="PROXIMA NOVA SPECIMEN" x="1636" y="21" width="138" height="11" />
+          </frame>
+          <frame id="1558:50435" name="Frame" x="80" y="88" width="1774" height="246">
+            <frame id="1558:50436" name="Frame" x="32" y="32" width="1710" height="39">
+              <text id="1558:50437" name="CLASSIFICATION" x="0" y="0" width="89" height="11" />
+              <text id="1558:50438" name="Hybrid sans-serif - geometric construction, grotesque/humanist proportions." x="0" y="19" width="1710" height="20" />
+            </frame>
+            <frame id="1558:50439" name="Frame" x="32" y="95" width="1710" height="41">
+              <frame id="1558:50440" name="Frame" x="0" y="0" width="554" height="41">
+                <text id="1558:50441" name="Geometric side" x="0" y="0" width="91" height="11" />
+                <text id="1558:50442" name="Circular bowls, consistent stroke modulation, and a focus on optical clarity." x="0" y="19" width="554" height="22" />
+              </frame>
+              <frame id="1558:50443" name="Frame" x="578" y="0" width="554" height="41">
+                <text id="1558:50444" name="Grotesque side" x="0" y="0" width="94" height="11" />
+                <text id="1558:50445" name="Humanist proportions, generous x-height, and subtle rounding that improves legibility." x="0" y="19" width="554" height="22" />
+              </frame>
+              <frame id="1558:50446" name="Frame" x="1156" y="0" width="554" height="41">
+                <text id="1558:50447" name="Not (strict geometric)" x="0" y="0" width="137" height="11" />
+                <text id="1558:50448" name="Avoids the rigid, mechanical feel of pure geometric sans-serifs like Futura." x="0" y="19" width="554" height="22" />
+              </frame>
+            </frame>
+            <rounded-rectangle id="1558:50449" name="Rectangle" x="32" y="160" width="1710" height="1" />
+            <text id="1558:50450" name="&quot;Proxima Nova is built for simple, clear letter shapes that work at small sizes without losing character.&quot;" x="32" y="185" width="1710" height="29" />
+          </frame>
+        </frame>
+        <frame id="1558:50451" name="section-03" x="0" y="1258" width="1934" height="316">
+          <frame id="1558:50452" name="header-03" x="80" y="0" width="1774" height="56">
+            <frame id="1558:50453" name="Frame" x="0" y="0" width="360" height="32">
+              <text id="1558:50454" name="04" x="0" y="0" width="40" height="32" />
+              <text id="1558:50455" name="Numbers &amp; Characters" x="56" y="6" width="304" height="24" />
+            </frame>
+            <text id="1558:50456" name="PROXIMA NOVA SPECIMEN" x="1636" y="21" width="138" height="11" />
+          </frame>
+          <frame id="1558:50457" name="Frame" x="80" y="88" width="1774" height="228">
+            <frame id="1558:50458" name="Frame" x="32" y="32" width="1710" height="39">
+              <text id="1558:50459" name="KEYWORDS" x="0" y="0" width="62" height="11" />
+              <text id="1558:50460" name="Versatile, Neutral, Contemporary, Approachable, Unfussy, Balanced, Unobtrusive." x="0" y="19" width="1710" height="20" />
+            </frame>
+            <frame id="1558:50461" name="Frame" x="32" y="95" width="1710" height="23">
+              <frame id="1558:50462" name="Frame" x="0" y="0" width="82" height="23">
+                <text id="1558:50463" name="Versatile" x="12" y="6" width="58" height="11" />
+              </frame>
+              <frame id="1558:50464" name="Frame" x="94" y="0" width="74" height="23">
+                <text id="1558:50465" name="Neutral" x="12" y="6" width="50" height="11" />
+              </frame>
+              <frame id="1558:50466" name="Frame" x="180" y="0" width="116" height="23">
+                <text id="1558:50467" name="Contemporary" x="12" y="6" width="92" height="11" />
+              </frame>
+              <frame id="1558:50468" name="Frame" x="308" y="0" width="112" height="23">
+                <text id="1558:50469" name="Approachable" x="12" y="6" width="88" height="11" />
+              </frame>
+              <frame id="1558:50470" name="Frame" x="432" y="0" width="76" height="23">
+                <text id="1558:50471" name="Unfussy" x="12" y="6" width="52" height="11" />
+              </frame>
+              <frame id="1558:50472" name="Frame" x="520" y="0" width="83" height="23">
+                <text id="1558:50473" name="Balanced" x="12" y="6" width="59" height="11" />
+              </frame>
+              <frame id="1558:50474" name="Frame" x="615" y="0" width="102" height="23">
+                <text id="1558:50475" name="Unobtrusive" x="12" y="6" width="78" height="11" />
+              </frame>
+            </frame>
+            <rounded-rectangle id="1558:50476" name="Rectangle" x="32" y="142" width="1710" height="1" />
+            <text id="1558:50477" name="&quot;Proxima Nova works best when it is invisible - when the message is delivered clearly and the typeface doesn&#39;t compete for attention.&quot;" x="32" y="167" width="1710" height="29" />
+          </frame>
+        </frame>
+        <frame id="1558:50478" name="section-04" x="0" y="1670" width="1934" height="832">
+          <frame id="1558:50479" name="header-04" x="80" y="0" width="1774" height="56">
+            <frame id="1558:50480" name="Frame" x="0" y="0" width="249" height="32">
+              <text id="1558:50481" name="05" x="0" y="0" width="40" height="32" />
+              <text id="1558:50482" name="Weight System" x="56" y="6" width="193" height="24" />
+            </frame>
+            <text id="1558:50483" name="PROXIMA NOVA SPECIMEN" x="1636" y="21" width="138" height="11" />
+          </frame>
+          <frame id="1558:50484" name="Frame" x="80" y="88" width="1774" height="744">
+            <frame id="1558:50485" name="Frame" x="0" y="0" width="1774" height="79">
+              <text id="1558:50486" name="x-height" x="20" y="20" width="51" height="11" />
+              <text id="1558:50487" name="Generous x-height improves readability at small sizes." x="20" y="43" width="1734" height="16" />
+            </frame>
+            <frame id="1558:50488" name="Frame" x="0" y="95" width="1774" height="79">
+              <text id="1558:50489" name="Proportions" x="20" y="20" width="79" height="11" />
+              <text id="1558:50490" name="Balanced between geometric precision and humanist warmth." x="20" y="43" width="1734" height="16" />
+            </frame>
+            <frame id="1558:50491" name="Frame" x="0" y="190" width="1774" height="79">
+              <text id="1558:50492" name="Stroke" x="20" y="20" width="43" height="11" />
+              <text id="1558:50493" name="Smooth, consistent modulation with no abrupt transitions." x="20" y="43" width="1734" height="16" />
+            </frame>
+            <frame id="1558:50494" name="Frame" x="0" y="285" width="1774" height="79">
+              <text id="1558:50495" name="Apertures" x="20" y="20" width="64" height="11" />
+              <text id="1558:50496" name="Moderate apertures keep counters open for better screen legibility." x="20" y="43" width="1734" height="16" />
+            </frame>
+            <frame id="1558:50497" name="Frame" x="0" y="380" width="1774" height="79">
+              <text id="1558:50498" name="Terminals" x="20" y="20" width="62" height="11" />
+              <text id="1558:50499" name="VERIFY - terminals are rounded and consistent across the family." x="20" y="43" width="1734" height="16" />
+            </frame>
+            <frame id="1558:50500" name="Frame" x="0" y="475" width="1774" height="79">
+              <text id="1558:50501" name="Lowercase a" x="20" y="20" width="77" height="11" />
+              <text id="1558:50502" name="Double-story construction with an OpenType alternate single-story option." x="20" y="43" width="1734" height="16" />
+            </frame>
+            <frame id="1558:50503" name="Frame" x="0" y="570" width="1774" height="79">
+              <text id="1558:50504" name="Alternate glyphs" x="20" y="20" width="105" height="11" />
+              <text id="1558:50505" name="Includes stylistic alternates for a, g, and other characters." x="20" y="43" width="1734" height="16" />
+            </frame>
+            <frame id="1558:50506" name="Frame" x="0" y="665" width="1774" height="79">
+              <text id="1558:50507" name="OpenType features" x="20" y="20" width="116" height="11" />
+              <text id="1558:50508" name="Small caps, figures, ligatures, fractions, and more." x="20" y="43" width="1734" height="16" />
+            </frame>
+          </frame>
+        </frame>
+        <frame id="1558:50509" name="section-05" x="0" y="2598" width="1934" height="863">
+          <frame id="1558:50510" name="header-05" x="80" y="0" width="1774" height="56">
+            <frame id="1558:50511" name="Frame" x="0" y="0" width="235" height="32">
+              <text id="1558:50512" name="06" x="0" y="0" width="40" height="32" />
+              <text id="1558:50513" name="Display Scale" x="56" y="6" width="179" height="24" />
+            </frame>
+            <text id="1558:50514" name="PROXIMA NOVA SPECIMEN" x="1636" y="21" width="138" height="11" />
+          </frame>
+          <frame id="1558:50515" name="Frame" x="80" y="88" width="1774" height="775">
+            <frame id="1558:50516" name="Frame" x="0" y="0" width="1774" height="101">
+              <text id="1558:50517" name="UPPERCASE" x="20" y="20" width="65" height="11" />
+              <text id="1558:50518" name="A B C D E F G H I J K L M N O P Q R S T U V W X Y Z" x="20" y="43" width="1734" height="38" />
+            </frame>
+            <frame id="1558:50519" name="Frame" x="0" y="117" width="1774" height="101">
+              <text id="1558:50520" name="LOWERCASE" x="20" y="20" width="67" height="11" />
+              <text id="1558:50521" name="a b c d e f g h i j k l m n o p q r s t u v w x y z" x="20" y="43" width="1734" height="38" />
+            </frame>
+            <frame id="1558:50522" name="Frame" x="0" y="234" width="1774" height="101">
+              <text id="1558:50523" name="NUMERALS" x="20" y="20" width="60" height="11" />
+              <text id="1558:50524" name="0123456789" x="20" y="43" width="1734" height="38" />
+            </frame>
+            <frame id="1558:50525" name="Frame" x="0" y="351" width="1774" height="94">
+              <text id="1558:50526" name="PUNCTUATION" x="20" y="20" width="79" height="11" />
+              <text id="1558:50527" name="! @ # $ % ^ &amp; * ( ) _ + [ ] { } ; : &#39; &quot; , . / ? ~ ± §" x="20" y="43" width="1734" height="31" />
+            </frame>
+            <frame id="1558:50528" name="Frame" x="0" y="461" width="1774" height="94">
+              <text id="1558:50529" name="SYMBOLS" x="20" y="20" width="52" height="11" />
+              <text id="1558:50530" name="© ® ™ ° ± ≠ ≈ ≤ ≥ × ÷ ← → ↑ ↓" x="20" y="43" width="1734" height="31" />
+            </frame>
+            <frame id="1558:50531" name="Frame" x="0" y="571" width="1774" height="94">
+              <text id="1558:50532" name="CURRENCY" x="20" y="20" width="60" height="11" />
+              <text id="1558:50533" name="$ € £ ¥ ₹ ₺ ₽" x="20" y="43" width="1734" height="31" />
+            </frame>
+            <frame id="1558:50534" name="Frame" x="0" y="681" width="1774" height="94">
+              <text id="1558:50535" name="MATHEMATICAL" x="20" y="20" width="86" height="11" />
+              <text id="1558:50536" name="π ∞ ∑ √ ∫ ≈" x="20" y="43" width="1734" height="31" />
+            </frame>
+          </frame>
+        </frame>
+        <frame id="1558:50537" name="section-06" x="0" y="3557" width="1934" height="1306">
+          <frame id="1558:50538" name="header-06" x="80" y="0" width="1774" height="56">
+            <frame id="1558:50539" name="Frame" x="0" y="0" width="249" height="32">
+              <text id="1558:50540" name="06" x="0" y="0" width="40" height="32" />
+              <text id="1558:50541" name="WEIGHT SYSTEM" x="56" y="6" width="193" height="24" />
+            </frame>
+            <text id="1558:50542" name="PROXIMA NOVA SPECIMEN" x="1636" y="21" width="138" height="11" />
+          </frame>
+          <frame id="1558:50543" name="Frame" x="80" y="88" width="1774" height="1168">
+            <frame id="1558:50544" name="Frame" x="0" y="0" width="1774" height="131">
+              <frame id="1558:50545" name="Frame" x="20" y="20" width="1734" height="11">
+                <text id="1558:50546" name="Thin" x="0" y="0" width="23" height="11" />
+                <text id="1558:50547" name="~100" x="1710" y="0" width="24" height="11" />
+              </frame>
+              <text id="1558:50548" name="Thin" x="20" y="43" width="1734" height="36" />
+              <text id="1558:50549" name="The clarity of geometric air." x="20" y="91" width="1734" height="20" />
+            </frame>
+            <frame id="1558:50550" name="Frame" x="0" y="147" width="1774" height="131">
+              <frame id="1558:50551" name="Frame" x="20" y="20" width="1734" height="11">
+                <text id="1558:50552" name="Light" x="0" y="0" width="26" height="11" />
+                <text id="1558:50553" name="~300" x="1708" y="0" width="26" height="11" />
+              </frame>
+              <text id="1558:50554" name="Light" x="20" y="43" width="1734" height="36" />
+              <text id="1558:50555" name="Elegant thin lines with precision." x="20" y="91" width="1734" height="20" />
+            </frame>
+            <frame id="1558:50556" name="Frame" x="0" y="294" width="1774" height="139">
+              <frame id="1558:50557" name="Frame" x="20" y="20" width="1734" height="11">
+                <text id="1558:50558" name="Regular" x="0" y="0" width="40" height="11" />
+                <text id="1558:50559" name="400" x="1714" y="0" width="20" height="11" />
+              </frame>
+              <text id="1558:50560" name="Regular" x="20" y="43" width="1734" height="44" />
+              <text id="1558:50561" name="The absolute standard for body." x="20" y="99" width="1734" height="20" />
+            </frame>
+            <frame id="1558:50562" name="Frame" x="0" y="449" width="1774" height="131">
+              <frame id="1558:50563" name="Frame" x="20" y="20" width="1734" height="11">
+                <text id="1558:50564" name="Medium" x="0" y="0" width="42" height="11" />
+                <text id="1558:50565" name="500" x="1713" y="0" width="21" height="11" />
+              </frame>
+              <text id="1558:50566" name="Medium" x="20" y="43" width="1734" height="36" />
+              <text id="1558:50567" name="Perfect contrast for small labels." x="20" y="91" width="1734" height="20" />
+            </frame>
+            <frame id="1558:50568" name="Frame" x="0" y="596" width="1774" height="131">
+              <frame id="1558:50569" name="Frame" x="20" y="20" width="1734" height="11">
+                <text id="1558:50570" name="Semibold" x="0" y="0" width="48" height="11" />
+                <text id="1558:50571" name="600" x="1713" y="0" width="21" height="11" />
+              </frame>
+              <text id="1558:50572" name="Semibold" x="20" y="43" width="1734" height="36" />
+              <text id="1558:50573" name="Distinct headers and subtitles." x="20" y="91" width="1734" height="20" />
+            </frame>
+            <frame id="1558:50574" name="Frame" x="0" y="743" width="1774" height="131">
+              <frame id="1558:50575" name="Frame" x="20" y="20" width="1734" height="11">
+                <text id="1558:50576" name="Bold" x="0" y="0" width="24" height="11" />
+                <text id="1558:50577" name="700" x="1714" y="0" width="20" height="11" />
+              </frame>
+              <text id="1558:50578" name="Bold" x="20" y="43" width="1734" height="36" />
+              <text id="1558:50579" name="Confident punchy announcements." x="20" y="91" width="1734" height="20" />
+            </frame>
+            <frame id="1558:50580" name="Frame" x="0" y="890" width="1774" height="131">
+              <frame id="1558:50581" name="Frame" x="20" y="20" width="1734" height="11">
+                <text id="1558:50582" name="Extrabold" x="0" y="0" width="49" height="11" />
+                <text id="1558:50583" name="800" x="1714" y="0" width="20" height="11" />
+              </frame>
+              <text id="1558:50584" name="Extrabold" x="20" y="43" width="1734" height="36" />
+              <text id="1558:50585" name="Commanding screen presence." x="20" y="91" width="1734" height="20" />
+            </frame>
+            <frame id="1558:50586" name="Frame" x="0" y="1037" width="1774" height="131">
+              <frame id="1558:50587" name="Frame" x="20" y="20" width="1734" height="11">
+                <text id="1558:50588" name="Black" x="0" y="0" width="28" height="11" />
+                <text id="1558:50589" name="900" x="1713" y="0" width="21" height="11" />
+              </frame>
+              <text id="1558:50590" name="Black" x="20" y="43" width="1734" height="36" />
+              <text id="1558:50591" name="Maximum typographic volume." x="20" y="91" width="1734" height="20" />
+            </frame>
+          </frame>
+          <text id="1558:50592" name="Footnote: Microsoft Office sub-families (e.g., &quot;Proxima Nova Condensed&quot;) are not the same as the full Mark Simonson Studio family." x="80" y="1288" width="1774" height="18" />
+        </frame>
+        <frame id="1558:50593" name="section-07" x="0" y="4959" width="1934" height="833">
+          <frame id="1558:50594" name="header-07" x="80" y="0" width="1774" height="56">
+            <frame id="1558:50595" name="Frame" x="0" y="0" width="302" height="32">
+              <text id="1558:50596" name="08" x="0" y="0" width="40" height="32" />
+              <text id="1558:50597" name="Paragraph System" x="56" y="6" width="246" height="24" />
+            </frame>
+            <text id="1558:50598" name="PROXIMA NOVA SPECIMEN" x="1636" y="21" width="138" height="11" />
+          </frame>
+          <frame id="1558:50599" name="Frame" x="80" y="88" width="1774" height="695">
+            <frame id="1558:50600" name="Frame" x="0" y="0" width="1774" height="88">
+              <frame id="1558:50601" name="Frame" x="0" y="38" width="280" height="12">
+                <text id="1558:50602" name="72px" x="0" y="0" width="27" height="12" />
+                <text id="1558:50603" name="Display XL" x="43" y="0" width="57" height="12" />
+              </frame>
+              <text id="1558:50604" name="Display Proxima Nova Style" x="280" y="8" width="1374" height="72" />
+              <text id="1558:50605" name="LH: 80px" x="1654" y="38" width="120" height="12" />
+            </frame>
+            <frame id="1558:50606" name="Frame" x="0" y="104" width="1774" height="72">
+              <frame id="1558:50607" name="Frame" x="0" y="30" width="280" height="12">
+                <text id="1558:50608" name="56px" x="0" y="0" width="28" height="12" />
+                <text id="1558:50609" name="Display L" x="44" y="0" width="49" height="12" />
+              </frame>
+              <text id="1558:50610" name="Display Proxima Nova Style" x="280" y="8" width="1374" height="56" />
+              <text id="1558:50611" name="LH: 64px" x="1654" y="30" width="120" height="12" />
+            </frame>
+            <frame id="1558:50612" name="Frame" x="0" y="192" width="1774" height="64">
+              <frame id="1558:50613" name="Frame" x="0" y="26" width="280" height="12">
+                <text id="1558:50614" name="48px" x="0" y="0" width="28" height="12" />
+                <text id="1558:50615" name="Heading 1" x="44" y="0" width="53" height="12" />
+              </frame>
+              <text id="1558:50616" name="Heading 1 Proxima Nova Style" x="280" y="8" width="1374" height="48" />
+              <text id="1558:50617" name="LH: 56px" x="1654" y="26" width="120" height="12" />
+            </frame>
+            <frame id="1558:50618" name="Frame" x="0" y="272" width="1774" height="56">
+              <frame id="1558:50619" name="Frame" x="0" y="22" width="280" height="12">
+                <text id="1558:50620" name="40px" x="0" y="0" width="28" height="12" />
+                <text id="1558:50621" name="Heading 2" x="44" y="0" width="56" height="12" />
+              </frame>
+              <text id="1558:50622" name="Heading 2 Proxima Nova Style" x="280" y="8" width="1374" height="40" />
+              <text id="1558:50623" name="LH: 48px" x="1654" y="22" width="120" height="12" />
+            </frame>
+            <frame id="1558:50624" name="Frame" x="0" y="344" width="1774" height="48">
+              <frame id="1558:50625" name="Frame" x="0" y="18" width="280" height="12">
+                <text id="1558:50626" name="32px" x="0" y="0" width="28" height="12" />
+                <text id="1558:50627" name="Heading 3" x="44" y="0" width="55" height="12" />
+              </frame>
+              <text id="1558:50628" name="Heading 3 Proxima Nova Style" x="280" y="8" width="1374" height="32" />
+              <text id="1558:50629" name="LH: 40px" x="1654" y="18" width="120" height="12" />
+            </frame>
+            <frame id="1558:50630" name="Frame" x="0" y="408" width="1774" height="40">
+              <frame id="1558:50631" name="Frame" x="0" y="14" width="280" height="12">
+                <text id="1558:50632" name="24px" x="0" y="0" width="28" height="12" />
+                <text id="1558:50633" name="Subtitle" x="44" y="0" width="41" height="12" />
+              </frame>
+              <text id="1558:50634" name="Subtitle Proxima Nova Style" x="280" y="8" width="1374" height="24" />
+              <text id="1558:50635" name="LH: 32px" x="1654" y="14" width="120" height="12" />
+            </frame>
+            <frame id="1558:50636" name="Frame" x="0" y="464" width="1774" height="40">
+              <frame id="1558:50637" name="Frame" x="0" y="14" width="280" height="12">
+                <text id="1558:50638" name="20px" x="0" y="0" width="28" height="12" />
+                <text id="1558:50639" name="Body Large" x="44" y="0" width="61" height="12" />
+              </frame>
+              <text id="1558:50640" name="Body Large Proxima Nova Style" x="280" y="8" width="1374" height="24" />
+              <text id="1558:50641" name="LH: 28px" x="1654" y="14" width="120" height="12" />
+            </frame>
+            <frame id="1558:50642" name="Frame" x="0" y="520" width="1774" height="35">
+              <frame id="1558:50643" name="Frame" x="0" y="11.5" width="280" height="12">
+                <text id="1558:50644" name="16px" x="0" y="0" width="26" height="12" />
+                <text id="1558:50645" name="Body" x="42" y="0" width="28" height="12" />
+              </frame>
+              <text id="1558:50646" name="Body Proxima Nova Style" x="280" y="8" width="1374" height="19" />
+              <text id="1558:50647" name="LH: 24px" x="1654" y="11.5" width="120" height="12" />
+            </frame>
+            <frame id="1558:50648" name="Frame" x="0" y="571" width="1774" height="33">
+              <frame id="1558:50649" name="Frame" x="0" y="10.5" width="280" height="12">
+                <text id="1558:50650" name="14px" x="0" y="0" width="26" height="12" />
+                <text id="1558:50651" name="Body Small" x="42" y="0" width="60" height="12" />
+              </frame>
+              <text id="1558:50652" name="Body Small Proxima Nova Style" x="280" y="8" width="1374" height="17" />
+              <text id="1558:50653" name="LH: 20px" x="1654" y="10.5" width="120" height="12" />
+            </frame>
+            <frame id="1558:50654" name="Frame" x="0" y="620" width="1774" height="31">
+              <frame id="1558:50655" name="Frame" x="0" y="9.5" width="280" height="12">
+                <text id="1558:50656" name="12px" x="0" y="0" width="26" height="12" />
+                <text id="1558:50657" name="Caption" x="42" y="0" width="42" height="12" />
+              </frame>
+              <text id="1558:50658" name="Caption Proxima Nova Style" x="280" y="8" width="1374" height="15" />
+              <text id="1558:50659" name="LH: 16px" x="1654" y="9.5" width="120" height="12" />
+            </frame>
+            <frame id="1558:50660" name="Frame" x="0" y="667" width="1774" height="28">
+              <frame id="1558:50661" name="Frame" x="0" y="8" width="280" height="12">
+                <text id="1558:50662" name="11px" x="0" y="0" width="24" height="12" />
+                <text id="1558:50663" name="Label" x="40" y="0" width="29" height="12" />
+              </frame>
+              <text id="1558:50664" name="Label Proxima Nova Style" x="280" y="8.5" width="1374" height="11" />
+              <text id="1558:50665" name="LH: 14px" x="1654" y="8" width="120" height="12" />
+            </frame>
+          </frame>
+          <text id="1558:50666" name="Note: Proxima Nova is available in 5 widths (Extra Condensed through Extra Wide), making it suitable for both dense UI and expansive display layouts." x="80" y="815" width="1774" height="18" />
+        </frame>
+        <frame id="1558:50667" name="section-08" x="0" y="5888" width="1934" height="604">
+          <frame id="1558:50668" name="header-08" x="80" y="0" width="1774" height="56">
+            <frame id="1558:50669" name="Frame" x="0" y="0" width="245" height="32">
+              <text id="1558:50670" name="09" x="0" y="0" width="40" height="32" />
+              <text id="1558:50671" name="Font Anatomy" x="56" y="6" width="189" height="24" />
+            </frame>
+            <text id="1558:50672" name="PROXIMA NOVA SPECIMEN" x="1636" y="21" width="138" height="11" />
+          </frame>
+          <frame id="1558:50673" name="Frame" x="80" y="88" width="1774" height="516">
+            <frame id="1558:50674" name="Frame" x="32" y="32" width="1710" height="116">
+              <text id="1558:50675" name="HIERARCHY DEMO" x="0" y="0" width="99" height="11" />
+              <text id="1558:50676" name="Building a robust digital brand." x="0" y="19" width="1710" height="59" />
+              <text id="1558:50677" name="With Proxima Nova, complex user interfaces and oversized marketing statements coexist harmoniously." x="0" y="86" width="1710" height="30" />
+            </frame>
+            <frame id="1558:50678" name="Frame" x="32" y="172" width="1710" height="312">
+              <frame id="1558:50679" name="Frame" x="0" y="0" width="160" height="38">
+                <text id="1558:50680" name="ACTION BUTTON" x="24" y="12" width="112" height="14" />
+              </frame>
+              <frame id="1558:50681" name="Frame" x="0" y="50" width="1710" height="91">
+                <text id="1558:50682" name="Quote" x="0" y="0" width="38" height="11" />
+                <frame id="1558:50683" name="Frame" x="0" y="19" width="1710" height="72">
+                  <rounded-rectangle id="1558:50684" name="Rectangle" x="0" y="0" width="4" height="72" />
+                  <text id="1558:50685" name="&quot;We chose Proxima Nova because it delivers pure versatility. It&#39;s clean enough for deep dashboard analytics, yet carries the premium character needed for high-end commerce.&quot;" x="20" y="0" width="1690" height="32" />
+                </frame>
+              </frame>
+              <frame id="1558:50686" name="Frame" x="0" y="153" width="1710" height="32">
+                <text id="1558:50687" name="Navigation" x="0" y="0" width="68" height="11" />
+                <text id="1558:50688" name="Work / Pricing / About" x="0" y="19" width="127" height="13" />
+              </frame>
+              <frame id="1558:50689" name="Frame" x="0" y="197" width="1710" height="30">
+                <text id="1558:50690" name="Label" x="0" y="0" width="34" height="11" />
+                <text id="1558:50691" name="NEW RELEASE" x="0" y="19" width="75" height="11" />
+              </frame>
+              <frame id="1558:50692" name="Frame" x="0" y="239" width="1710" height="31">
+                <text id="1558:50693" name="Caption" x="0" y="0" width="49" height="11" />
+                <text id="1558:50694" name="Caption text for supporting metadata." x="0" y="19" width="196" height="12" />
+              </frame>
+              <frame id="1558:50695" name="Frame" x="0" y="282" width="1710" height="30">
+                <text id="1558:50696" name="Metadata" x="0" y="0" width="58" height="11" />
+                <text id="1558:50697" name="Metadata text for timestamps and tags." x="0" y="19" width="241" height="11" />
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+        <frame id="1558:50698" name="section-09" x="0" y="6588" width="1934" height="576">
+          <frame id="1558:50699" name="header-09" x="80" y="0" width="1774" height="56">
+            <frame id="1558:50700" name="Frame" x="0" y="0" width="246" height="32">
+              <text id="1558:50701" name="10" x="0" y="0" width="35" height="32" />
+              <text id="1558:50702" name="Best Use Cases" x="51" y="6" width="195" height="24" />
+            </frame>
+            <text id="1558:50703" name="PROXIMA NOVA SPECIMEN" x="1636" y="21" width="138" height="11" />
+          </frame>
+          <frame id="1558:50704" name="Frame" x="80" y="88" width="1774" height="488">
+            <frame id="1558:50705" name="Frame" x="0" y="0" width="1774" height="132">
+              <text id="1558:50706" name="Editorial" x="24" y="24" width="93" height="18" />
+              <text id="1558:50707" name="Proxima Nova excels in body copy layouts due to its generous counter-spaces and humanistic curves. When set at 16px with a 1.6x (26px) line height, long paragraphs remain fatigue-free on screens. Keeping line lengths around 60-70 characters optimizes eye tracking." x="24" y="54" width="1726" height="54" />
+            </frame>
+            <frame id="1558:50708" name="Frame" x="0" y="148" width="1774" height="99">
+              <text id="1558:50709" name="Digital Product" x="24" y="24" width="160" height="18" />
+              <text id="1558:50710" name="For high-density dashboard layouts, scale down to 13px with a tight 1.4x line height. Proxima Nova&#39;s geometric clarity ensures that tiny letters remain perfectly sharp and readable, even when nestled within small cards, tables, or navigation headers." x="24" y="54" width="1726" height="21" />
+            </frame>
+            <frame id="1558:50711" name="Frame" x="0" y="263" width="1774" height="102">
+              <text id="1558:50712" name="Corporate" x="24" y="24" width="109" height="18" />
+              <text id="1558:50713" name="A balanced reading system for reports and internal communications. Use 15px with a 1.5x line height for clear, professional flow." x="24" y="54" width="1726" height="24" />
+            </frame>
+            <frame id="1558:50714" name="Frame" x="0" y="381" width="1774" height="107">
+              <text id="1558:50715" name="Marketing" x="24" y="24" width="105" height="18" />
+              <text id="1558:50716" name="Bold headlines for campaigns and landing pages. Use 22px+ with generous spacing to create confident, premium statements." x="24" y="54" width="1726" height="29" />
+            </frame>
+          </frame>
+        </frame>
+        <frame id="1558:50717" name="section-10" x="0" y="7260" width="1934" height="383">
+          <frame id="1558:50718" name="header-10" x="80" y="0" width="1774" height="56">
+            <frame id="1558:50719" name="Frame" x="0" y="0" width="295" height="32">
+              <text id="1558:50720" name="10" x="0" y="0" width="35" height="32" />
+              <text id="1558:50721" name="TYPEFACE ANATOMY" x="51" y="6" width="244" height="24" />
+            </frame>
+            <text id="1558:50722" name="PROXIMA NOVA SPECIMEN" x="1636" y="21" width="138" height="11" />
+          </frame>
+          <frame id="1558:50723" name="Frame" x="80" y="88" width="1774" height="295">
+            <frame id="1558:50724" name="Frame" x="40" y="40" width="1694" height="120">
+              <text id="1558:50725" name="a e g R Q S" x="0" y="0" width="601" height="120" />
+              <frame id="1558:50726" name="Frame" x="1294" y="25.5" width="400" height="69">
+                <text id="1558:50727" name="Anatomical Highlights" x="0" y="0" width="140" height="11" />
+                <text id="1558:50728" name="Moderate apertures, geometric proportions with warm humanist curves. The bowl shapes are circular yet balanced for screen contrast." x="0" y="27" width="400" height="42" />
+              </frame>
+            </frame>
+            <rounded-rectangle id="1558:50729" name="Rectangle" x="40" y="200" width="1694" height="1" />
+            <frame id="1558:50730" name="Frame" x="40" y="241" width="1694" height="14">
+              <frame id="1558:50731" name="Frame" x="0" y="0" width="94" height="14">
+                <frame id="1558:50732" name="Frame" x="0" y="3" width="8" height="8" />
+                <text id="1558:50733" name="x-height" x="16" y="0" width="64" height="14" />
+              </frame>
+              <frame id="1558:50734" name="Frame" x="110" y="0" width="94" height="14">
+                <frame id="1558:50735" name="Frame" x="0" y="3" width="8" height="8" />
+                <text id="1558:50736" name="cap height" x="16" y="0" width="83" height="14" />
+              </frame>
+              <frame id="1558:50737" name="Frame" x="220" y="0" width="94" height="14">
+                <frame id="1558:50738" name="Frame" x="0" y="3" width="8" height="8" />
+                <text id="1558:50739" name="ascender" x="16" y="0" width="74" height="14" />
+              </frame>
+              <frame id="1558:50740" name="Frame" x="330" y="0" width="94" height="14">
+                <frame id="1558:50741" name="Frame" x="0" y="3" width="8" height="8" />
+                <text id="1558:50742" name="descender" x="16" y="0" width="82" height="14" />
+              </frame>
+              <frame id="1558:50743" name="Frame" x="440" y="0" width="94" height="14">
+                <frame id="1558:50744" name="Frame" x="0" y="3" width="8" height="8" />
+                <text id="1558:50745" name="counter" x="16" y="0" width="67" height="14" />
+              </frame>
+              <frame id="1558:50746" name="Frame" x="550" y="0" width="94" height="14">
+                <frame id="1558:50747" name="Frame" x="0" y="3" width="8" height="8" />
+                <text id="1558:50748" name="aperture" x="16" y="0" width="71" height="14" />
+              </frame>
+              <frame id="1558:50749" name="Frame" x="660" y="0" width="94" height="14">
+                <frame id="1558:50750" name="Frame" x="0" y="3" width="8" height="8" />
+                <text id="1558:50751" name="terminal" x="16" y="0" width="69" height="14" />
+              </frame>
+              <frame id="1558:50752" name="Frame" x="770" y="0" width="94" height="14">
+                <frame id="1558:50753" name="Frame" x="0" y="3" width="8" height="8" />
+                <text id="1558:50754" name="bowl" x="16" y="0" width="40" height="14" />
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+        <frame id="1558:50755" name="section-11" x="0" y="7739" width="1934" height="642">
+          <frame id="1558:50756" name="header-11" x="80" y="0" width="1774" height="56">
+            <frame id="1558:50757" name="Frame" x="0" y="0" width="297" height="32">
+              <text id="1558:50758" name="12" x="0" y="0" width="34" height="32" />
+              <text id="1558:50759" name="Brand Application" x="50" y="6" width="247" height="24" />
+            </frame>
+            <text id="1558:50760" name="PROXIMA NOVA SPECIMEN" x="1636" y="21" width="138" height="11" />
+          </frame>
+          <frame id="1558:50761" name="Frame" x="80" y="88" width="1774" height="554">
+            <frame id="1558:50762" name="Frame" x="0" y="0" width="1774" height="98">
+              <text id="1558:50763" name="SaaS / Digital Products" x="24" y="24" width="233" height="18" />
+              <text id="1558:50764" name="Clean, technical yet human. It commands layouts where complex dashboards and data tables require absolute readability under tight spaces." x="24" y="54" width="1726" height="20" />
+            </frame>
+            <frame id="1558:50765" name="Frame" x="0" y="114" width="1774" height="98">
+              <text id="1558:50766" name="Editorial / Digital Media" x="24" y="24" width="238" height="18" />
+              <text id="1558:50767" name="Strong headlines and comfortable body copy make it ideal for blogs, news sites, and editorial platforms." x="24" y="54" width="1726" height="20" />
+            </frame>
+            <frame id="1558:50768" name="Frame" x="0" y="228" width="1774" height="98">
+              <text id="1558:50769" name="Brand Identity / Marketing" x="24" y="24" width="269" height="18" />
+              <text id="1558:50770" name="Adds premium brand weight to product descriptions and large discount statements. Highly polished and modern." x="24" y="54" width="1726" height="20" />
+            </frame>
+            <frame id="1558:50771" name="Frame" x="0" y="342" width="1774" height="98">
+              <text id="1558:50772" name="Corporate Communication" x="24" y="24" width="270" height="18" />
+              <text id="1558:50773" name="Professional, neutral, and highly legible for reports, presentations, and internal documentation." x="24" y="54" width="1726" height="20" />
+            </frame>
+            <frame id="1558:50774" name="Frame" x="0" y="456" width="1774" height="98">
+              <text id="1558:50775" name="E-commerce / Mobile Apps" x="24" y="24" width="254" height="18" />
+              <text id="1558:50776" name="Maintains clear distinction between system labels and main text flows, elevating digital UI with supreme elegance." x="24" y="54" width="1726" height="20" />
+            </frame>
+          </frame>
+        </frame>
+        <frame id="1558:50777" name="section-12" x="0" y="8477" width="1934" height="528">
+          <frame id="1558:50778" name="header-12" x="80" y="0" width="1774" height="56">
+            <frame id="1558:50779" name="Frame" x="0" y="0" width="379" height="32">
+              <text id="1558:50780" name="12" x="0" y="0" width="34" height="32" />
+              <text id="1558:50781" name="REAL-WORLD BRAND USAGE" x="50" y="6" width="329" height="24" />
+            </frame>
+            <text id="1558:50782" name="PROXIMA NOVA SPECIMEN" x="1636" y="21" width="138" height="11" />
+          </frame>
+          <frame id="1558:50783" name="Frame" x="80" y="88" width="1774" height="440">
+            <frame id="1558:50784" name="Frame" x="0" y="0" width="1774" height="98">
+              <text id="1558:50785" name="BuzzFeed (primary typeface)" x="24" y="24" width="283" height="18" />
+              <text id="1558:50786" name="Used across editorial and product surfaces for its clarity and versatility." x="24" y="54" width="1726" height="20" />
+            </frame>
+            <frame id="1558:50787" name="Frame" x="0" y="114" width="1774" height="98">
+              <text id="1558:50788" name="Mashable / NBC News / Wired / Mic" x="24" y="24" width="330" height="18" />
+              <text id="1558:50789" name="Commonly used in digital media for headlines, section headers, and body text." x="24" y="54" width="1726" height="20" />
+            </frame>
+            <frame id="1558:50790" name="Frame" x="0" y="228" width="1774" height="98">
+              <text id="1558:50791" name="Spotify (historical)" x="24" y="24" width="196" height="18" />
+              <text id="1558:50792" name="Used before the introduction of Spotify Circular. Remains a strong choice for music platforms." x="24" y="54" width="1726" height="20" />
+            </frame>
+            <frame id="1558:50793" name="Frame" x="0" y="342" width="1774" height="98">
+              <text id="1558:50794" name="Typekit / Adobe Fonts" x="24" y="24" width="214" height="18" />
+              <text id="1558:50795" name="One of the most popular fonts on the service, reflecting its broad suitability across web and print." x="24" y="54" width="1726" height="20" />
+            </frame>
+          </frame>
+        </frame>
+        <frame id="1558:50796" name="section-13" x="0" y="9101" width="1934" height="268">
+          <frame id="1558:50797" name="header-13" x="80" y="0" width="1774" height="56">
+            <frame id="1558:50798" name="Frame" x="0" y="0" width="399" height="32">
+              <text id="1558:50799" name="13" x="0" y="0" width="34" height="32" />
+              <text id="1558:50800" name="PLATFORM AND AVAILABILITY" x="50" y="6" width="349" height="24" />
+            </frame>
+            <text id="1558:50801" name="PROXIMA NOVA SPECIMEN" x="1636" y="21" width="138" height="11" />
+          </frame>
+          <frame id="1558:50802" name="Frame" x="80" y="88" width="1774" height="180">
+            <frame id="1558:50803" name="Frame" x="0" y="0" width="1774" height="82">
+              <frame id="1558:50804" name="Frame" x="0" y="0" width="431.5" height="82">
+                <text id="1558:50805" name="Adobe Fonts" x="20" y="20" width="76" height="11" />
+                <frame id="1558:50806" name="Frame" x="20" y="39" width="80" height="23">
+                  <text id="1558:50807" name="INCLUDED" x="12" y="6" width="56" height="11" />
+                </frame>
+              </frame>
+              <frame id="1558:50808" name="Frame" x="447.5" y="0" width="431.5" height="82">
+                <text id="1558:50809" name="Mark Simonson Studio" x="20" y="20" width="136" height="11" />
+                <frame id="1558:50810" name="Frame" x="20" y="39" width="77" height="23">
+                  <text id="1558:50811" name="LICENSED" x="12" y="6" width="53" height="11" />
+                </frame>
+              </frame>
+              <frame id="1558:50812" name="Frame" x="895" y="0" width="431.5" height="82">
+                <text id="1558:50813" name="MyFonts / Monotype / Fontspring" x="20" y="20" width="200" height="11" />
+                <frame id="1558:50814" name="Frame" x="20" y="39" width="77" height="23">
+                  <text id="1558:50815" name="LICENSED" x="12" y="6" width="53" height="11" />
+                </frame>
+              </frame>
+              <frame id="1558:50816" name="Frame" x="1342.5" y="0" width="431.5" height="82">
+                <text id="1558:50817" name="Figma" x="20" y="20" width="35" height="11" />
+                <frame id="1558:50818" name="Frame" x="20" y="39" width="77" height="23">
+                  <text id="1558:50819" name="LICENSED" x="12" y="6" width="53" height="11" />
+                </frame>
+              </frame>
+            </frame>
+            <frame id="1558:50820" name="Frame" x="0" y="98" width="1774" height="82">
+              <frame id="1558:50821" name="Frame" x="0" y="0" width="431.5" height="82">
+                <text id="1558:50822" name="Google Fonts" x="20" y="20" width="84" height="11" />
+                <frame id="1558:50823" name="Frame" x="20" y="39" width="44" height="23">
+                  <text id="1558:50824" name="N/A" x="12" y="6" width="20" height="11" />
+                </frame>
+              </frame>
+              <frame id="1558:50825" name="Frame" x="447.5" y="0" width="431.5" height="82">
+                <text id="1558:50826" name="Open-source" x="20" y="20" width="78" height="11" />
+                <frame id="1558:50827" name="Frame" x="20" y="39" width="44" height="23">
+                  <text id="1558:50828" name="N/A" x="12" y="6" width="20" height="11" />
+                </frame>
+              </frame>
+              <frame id="1558:50829" name="Frame" x="895" y="0" width="431.5" height="79">
+                <text id="1558:50830" name="Commercial licensing" x="20" y="20" width="132" height="11" />
+                <text id="1558:50831" name="Available via Mark Simonson Studio and authorized resellers." x="20" y="39" width="391.5" height="20" />
+              </frame>
+              <frame id="1558:50832" name="Frame" x="1342.5" y="0" width="431.5" height="79">
+                <text id="1558:50833" name="Figma note" x="20" y="20" width="66" height="11" />
+                <text id="1558:50834" name="Requires a local font install or a licensed web embed." x="20" y="39" width="391.5" height="20" />
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+        <frame id="1558:50835" name="section-14" x="0" y="9465" width="1934" height="226">
+          <frame id="1558:50836" name="header-14" x="80" y="0" width="1774" height="56">
+            <frame id="1558:50837" name="Frame" x="0" y="0" width="459" height="32">
+              <text id="1558:50838" name="14" x="0" y="0" width="35" height="32" />
+              <text id="1558:50839" name="PROXIMA SANS VS PROXIMA NOVA" x="51" y="6" width="408" height="24" />
+            </frame>
+            <text id="1558:50840" name="PROXIMA NOVA SPECIMEN" x="1636" y="21" width="138" height="11" />
+          </frame>
+          <frame id="1558:50841" name="Frame" x="80" y="88" width="1774" height="138">
+            <frame id="1558:50842" name="Frame" x="0" y="0" width="875" height="138">
+              <text id="1558:50843" name="Proxima Sans 1994" x="24" y="24" width="181" height="18" />
+              <text id="1558:50844" name="6 fonts • Discontinued • Original release via FontHaus." x="24" y="58" width="827" height="20" />
+              <text id="1558:50845" name="A precursor with a different character set and narrower proportions compared to the 2005 redesign." x="24" y="94" width="827" height="20" />
+            </frame>
+            <frame id="1558:50846" name="Frame" x="899" y="0" width="875" height="138">
+              <text id="1558:50847" name="Proxima Nova 2005" x="24" y="24" width="188" height="18" />
+              <text id="1558:50848" name="42 fonts (2005) → 80 fonts (current) • Near-total redesign • Mark Simonson Studio." x="24" y="58" width="827" height="20" />
+              <text id="1558:50849" name="The &quot;Nova&quot; naming indicates the 2005 release, which significantly expanded the family and refined the character set." x="24" y="94" width="827" height="20" />
+            </frame>
+          </frame>
+        </frame>
+        <frame id="1558:50850" name="section-15" x="0" y="9787" width="1934" height="576">
+          <frame id="1558:50851" name="header-15" x="80" y="0" width="1774" height="56">
+            <frame id="1558:50852" name="Frame" x="0" y="0" width="435" height="32">
+              <text id="1558:50853" name="15" x="0" y="0" width="35" height="32" />
+              <text id="1558:50854" name="PRACTICAL BRAND APPLICATION" x="51" y="6" width="384" height="24" />
+            </frame>
+            <text id="1558:50855" name="PROXIMA NOVA SPECIMEN" x="1636" y="21" width="138" height="11" />
+          </frame>
+          <frame id="1558:50856" name="Frame" x="80" y="88" width="1774" height="488">
+            <frame id="1558:50857" name="Frame" x="48" y="48" width="1678" height="28">
+              <text id="1558:50858" name="NORTHFIELD" x="0" y="4" width="125" height="20" />
+              <frame id="1558:50859" name="Frame" x="769.5" y="7.5" width="153" height="13">
+                <text id="1558:50860" name="Work" x="0" y="0" width="30" height="13" />
+                <text id="1558:50861" name="Pricing" x="54" y="0" width="40" height="13" />
+                <text id="1558:50862" name="About" x="118" y="0" width="35" height="13" />
+              </frame>
+              <frame id="1558:50863" name="Frame" x="1567" y="0" width="111" height="28">
+                <text id="1558:50864" name="GET STARTED" x="16" y="8" width="79" height="12" />
+              </frame>
+            </frame>
+            <frame id="1558:50865" name="Frame" x="48" y="108" width="640" height="133">
+              <text id="1558:50866" name="NEW RELEASE" x="0" y="0" width="75" height="11" />
+              <text id="1558:50867" name="Clear typography for products people trust." x="0" y="27" width="640" height="106" />
+            </frame>
+            <text id="1558:50868" name="A modern brand system built on Proxima Nova for clarity, confidence, and consistency across every touchpoint." x="48" y="273" width="1678" height="26" />
+            <frame id="1558:50869" name="Frame" x="48" y="331" width="1678" height="109">
+              <frame id="1558:50870" name="Frame" x="0" y="0" width="548.6666259765625" height="109">
+                <text id="1558:50871" name="42" x="20" y="20" width="15" height="12" />
+                <text id="1558:50872" name="Original fonts" x="20" y="44" width="99" height="16" />
+                <text id="1558:50873" name="The 2005 family foundation." x="20" y="72" width="508.6666259765625" height="17" />
+              </frame>
+              <frame id="1558:50874" name="Frame" x="564.6666259765625" y="0" width="548.6666870117188" height="109">
+                <text id="1558:50875" name="80" x="20" y="20" width="15" height="12" />
+                <text id="1558:50876" name="Current fonts" x="20" y="44" width="97" height="16" />
+                <text id="1558:50877" name="Expanded widths and weights." x="20" y="72" width="508.66668701171875" height="17" />
+              </frame>
+              <frame id="1558:50878" name="Frame" x="1129.333251953125" y="0" width="548.6666870117188" height="109">
+                <text id="1558:50879" name="2005" x="20" y="20" width="30" height="12" />
+                <text id="1558:50880" name="Redesign year" x="20" y="44" width="103" height="16" />
+                <text id="1558:50881" name="The year Proxima Nova was announced." x="20" y="72" width="508.66668701171875" height="17" />
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+        <frame id="1558:50882" name="section-16" x="0" y="10459" width="1934" height="477">
+          <frame id="1558:50883" name="header-16" x="80" y="0" width="1774" height="56">
+            <frame id="1558:50884" name="Frame" x="0" y="0" width="217" height="32">
+              <text id="1558:50885" name="16" x="0" y="0" width="35" height="32" />
+              <text id="1558:50886" name="FONT PAIRING" x="51" y="6" width="166" height="24" />
+            </frame>
+            <text id="1558:50887" name="PROXIMA NOVA SPECIMEN" x="1636" y="21" width="138" height="11" />
+          </frame>
+          <frame id="1558:50888" name="Frame" x="80" y="88" width="1774" height="389">
+            <frame id="1558:50889" name="Frame" x="0" y="0" width="1774" height="119">
+              <text id="1558:50890" name="Proxima Nova + Merriweather" x="24" y="24" width="1726" height="16" />
+              <text id="1558:50891" name="Serif Contrast" x="24" y="52" width="91" height="11" />
+              <text id="1558:50892" name="Merriweather&#39;s warm, robust editorial rhythm balances perfectly with Proxima&#39;s clean geometric cleanliness." x="24" y="75" width="1726" height="20" />
+            </frame>
+            <frame id="1558:50893" name="Frame" x="0" y="135" width="1774" height="119">
+              <text id="1558:50894" name="Proxima Nova + Georgia" x="24" y="24" width="1726" height="16" />
+              <text id="1558:50895" name="Classic Synergy" x="24" y="52" width="98" height="11" />
+              <text id="1558:50896" name="A timeless combination for publications, matching precise technology with Georgia&#39;s classic literary curves." x="24" y="75" width="1726" height="20" />
+            </frame>
+            <frame id="1558:50897" name="Frame" x="0" y="270" width="1774" height="119">
+              <text id="1558:50898" name="Proxima Nova + Source Code Pro" x="24" y="24" width="1726" height="16" />
+              <text id="1558:50899" name="Mono Alignment" x="24" y="52" width="100" height="11" />
+              <text id="1558:50900" name="Best for software dashboards and developer tools where monospace accents require clean sans headers." x="24" y="75" width="1726" height="20" />
+            </frame>
+          </frame>
+        </frame>
+        <frame id="1558:50901" name="section-17" x="0" y="11032" width="1934" height="264">
+          <frame id="1558:50902" name="header-17" x="80" y="0" width="1774" height="56">
+            <frame id="1558:50903" name="Frame" x="0" y="0" width="222" height="32">
+              <text id="1558:50904" name="17" x="0" y="0" width="33" height="32" />
+              <text id="1558:50905" name="ACCESSIBILITY" x="49" y="6" width="173" height="24" />
+            </frame>
+            <text id="1558:50906" name="PROXIMA NOVA SPECIMEN" x="1636" y="21" width="138" height="11" />
+          </frame>
+          <frame id="1558:50907" name="Frame" x="80" y="88" width="1774" height="176">
+            <frame id="1558:50908" name="Frame" x="0" y="0" width="1774" height="74">
+              <frame id="1558:50909" name="Frame" x="0" y="0" width="431.5" height="74">
+                <text id="1558:50910" name="Min 12px UI / 14px Body" x="20" y="20" width="391.5" height="14" />
+                <text id="1558:50911" name="Mandatory for visual hierarchy." x="20" y="42" width="163" height="12" />
+              </frame>
+              <frame id="1558:50912" name="Frame" x="447.5" y="0" width="431.5" height="74">
+                <text id="1558:50913" name="1.5x Line Height on Body" x="20" y="20" width="391.5" height="14" />
+                <text id="1558:50914" name="Ensures screen legibility." x="20" y="42" width="131" height="12" />
+              </frame>
+              <frame id="1558:50915" name="Frame" x="895" y="0" width="431.5" height="74">
+                <text id="1558:50916" name="Avoid Thin below 16px" x="20" y="20" width="391.5" height="14" />
+                <text id="1558:50917" name="Thin weights lose contrast rapidly." x="20" y="42" width="180" height="12" />
+              </frame>
+              <frame id="1558:50918" name="Frame" x="1342.5" y="0" width="431.5" height="74">
+                <text id="1558:50919" name="Medium for small Labels" x="20" y="20" width="391.5" height="14" />
+                <text id="1558:50920" name="Improves readability at tiny sizes." x="20" y="42" width="176" height="12" />
+              </frame>
+            </frame>
+            <frame id="1558:50921" name="Frame" x="0" y="90" width="1774" height="86">
+              <frame id="1558:50922" name="Frame" x="0" y="0" width="431.5" height="74">
+                <text id="1558:50923" name="Line length 60-70 chars" x="20" y="20" width="391.5" height="14" />
+                <text id="1558:50924" name="Optimizes eye tracking." x="20" y="42" width="125" height="12" />
+              </frame>
+              <frame id="1558:50925" name="Frame" x="447.5" y="0" width="431.5" height="74">
+                <text id="1558:50926" name="Contrast ≥ 4.5:1" x="20" y="20" width="391.5" height="14" />
+                <text id="1558:50927" name="Ensure text remains readable on light backgrounds." x="20" y="42" width="391.5" height="12" />
+              </frame>
+              <frame id="1558:50928" name="Frame" x="895" y="0" width="431.5" height="74">
+                <text id="1558:50929" name="UI labels ≥ 11px" x="20" y="20" width="391.5" height="14" />
+                <text id="1558:50930" name="Use Medium or Semibold for metadata." x="20" y="42" width="208" height="12" />
+              </frame>
+              <frame id="1558:50931" name="Frame" x="1342.5" y="0" width="431.5" height="86">
+                <text id="1558:50932" name="Responsive type (5 widths)" x="20" y="20" width="391.5" height="14" />
+                <text id="1558:50933" name="Use Extra Condensed for dense UI and Extra Wide for expansive display layouts." x="20" y="42" width="391.5" height="24" />
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+        <frame id="1558:50934" name="section-18" x="0" y="11392" width="1934" height="853">
+          <frame id="1558:50935" name="header-18" x="80" y="0" width="1774" height="56">
+            <frame id="1558:50936" name="Frame" x="0" y="0" width="248" height="32">
+              <text id="1558:50937" name="18" x="0" y="0" width="35" height="32" />
+              <text id="1558:50938" name="FINAL SUMMARY" x="51" y="6" width="197" height="24" />
+            </frame>
+            <text id="1558:50939" name="PROXIMA NOVA SPECIMEN" x="1636" y="21" width="138" height="11" />
+          </frame>
+          <frame id="1558:50940" name="Frame" x="80" y="88" width="1774" height="765">
+            <frame id="1558:50941" name="Frame" x="48" y="48" width="1678" height="39">
+              <text id="1558:50942" name="TYPEFACE" x="0" y="0" width="55" height="11" />
+              <text id="1558:50943" name="Proxima Nova" x="0" y="23" width="1678" height="16" />
+            </frame>
+            <frame id="1558:50944" name="Frame" x="48" y="111" width="1678" height="39">
+              <text id="1558:50945" name="CLASSIFICATION" x="0" y="0" width="89" height="11" />
+              <text id="1558:50946" name="Hybrid sans-serif - geometric construction, grotesque/humanist proportions" x="0" y="23" width="1678" height="16" />
+            </frame>
+            <frame id="1558:50947" name="Frame" x="48" y="174" width="1678" height="39">
+              <text id="1558:50948" name="DESIGNER" x="0" y="0" width="55" height="11" />
+              <text id="1558:50949" name="Mark Simonson" x="0" y="23" width="1678" height="16" />
+            </frame>
+            <frame id="1558:50950" name="Frame" x="48" y="237" width="1678" height="39">
+              <text id="1558:50951" name="FOUNDRY" x="0" y="0" width="54" height="11" />
+              <text id="1558:50952" name="Mark Simonson Studio" x="0" y="23" width="1678" height="16" />
+            </frame>
+            <frame id="1558:50953" name="Frame" x="48" y="300" width="1678" height="39">
+              <text id="1558:50954" name="ORIGINAL RELEASE" x="0" y="0" width="102" height="11" />
+              <text id="1558:50955" name="2005 (announced June 30)" x="0" y="23" width="1678" height="16" />
+            </frame>
+            <frame id="1558:50956" name="Frame" x="48" y="363" width="1678" height="39">
+              <text id="1558:50957" name="TYPEFACE HISTORY" x="0" y="0" width="105" height="11" />
+              <text id="1558:50958" name="42 fonts (2005) → 80 fonts (current)" x="0" y="23" width="1678" height="16" />
+            </frame>
+            <frame id="1558:50959" name="Frame" x="48" y="426" width="1678" height="39">
+              <text id="1558:50960" name="STYLE CHARACTER" x="0" y="0" width="102" height="11" />
+              <text id="1558:50961" name="Versatile, Neutral, Contemporary, Approachable, Unfussy, Balanced" x="0" y="23" width="1678" height="16" />
+            </frame>
+            <frame id="1558:50962" name="Frame" x="48" y="489" width="1678" height="39">
+              <text id="1558:50963" name="KEY STRENGTH" x="0" y="0" width="82" height="11" />
+              <text id="1558:50964" name="Works equally well in dense UI and large display typography." x="0" y="23" width="1678" height="16" />
+            </frame>
+            <frame id="1558:50965" name="Frame" x="48" y="552" width="1678" height="39">
+              <text id="1558:50966" name="SUITABLE APPLICATIONS" x="0" y="0" width="133" height="11" />
+              <text id="1558:50967" name="SaaS, editorial, brand identity, corporate, e-commerce, mobile apps" x="0" y="23" width="1678" height="16" />
+            </frame>
+            <frame id="1558:50968" name="Frame" x="48" y="615" width="1678" height="39">
+              <text id="1558:50969" name="LICENSING" x="0" y="0" width="58" height="11" />
+              <text id="1558:50970" name="Commercial only (via Mark Simonson Studio and authorized resellers)" x="0" y="23" width="1678" height="16" />
+            </frame>
+            <frame id="1558:50971" name="Frame" x="48" y="678" width="1678" height="39">
+              <text id="1558:50972" name="PLATFORM AVAILABILITY" x="0" y="0" width="134" height="11" />
+              <text id="1558:50973" name="Adobe Fonts (Included), Mark Simonson Studio (Licensed), Figma (Licensed with local install)" x="0" y="23" width="1678" height="16" />
+            </frame>
+          </frame>
+        </frame>
+        <frame id="1558:50974" name="footer" x="0" y="12341" width="1934" height="85">
+          <rounded-rectangle id="1558:50975" name="Rectangle" x="80" y="48" width="1774" height="1" />
+          <frame id="1558:50976" name="Frame" x="80" y="73" width="1774" height="12">
+            <text id="1558:50977" name="PROXIMA NOVA DIGITAL SPECIMEN SHEET" x="0" y="0" width="241" height="12" />
+            <text id="1558:50978" name="© 2025 ALL RIGHTS RESERVED • CRAFTED IN AUTO LAYOUT" x="1469" y="0.5" width="305" height="11" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="1558:50979" name="_Status" x="0" y="0" width="2126" height="114">
+        <text id="1558:50980" name="Typography system" x="32" y="40.5" width="301" height="32" />
+        <text id="1558:50981" name="SEPTEMBER 2026" x="1858" y="40.5" width="236" height="32" />
+      </frame>
+      <frame id="1558:50982" name="Frame 2121455715" x="96" y="186" width="1934" height="156">
+        <frame id="1558:50983" name="Frame 2121455714" x="0" y="0" width="156" height="156" />
+        <frame id="1558:50988" name="Logotype" x="1634.9083251953125" y="41.00049591064453" width="299.0917053222656" height="73.99900817871094">
+          <frame id="1558:50989" name="Group" x="-0.221893310546875" y="0" width="299.5352478027344" height="73.99913024902344">
+            <vector id="1558:50990" name="Vector" x="93.97728729248047" y="61.04088592529297" width="118.541748046875" height="12.958113670349121" />
+            <frame id="1558:50991" name="Group" x="96.96601104736328" y="62.9735221862793" width="12.336579322814941" height="8.597864151000977" />
+            <frame id="1558:50994" name="Group" x="111.98466491699219" y="62.95185089111328" width="97.42334747314453" height="8.867423057556152" />
+            <frame id="1558:51008" name="Group" x="-0.2219319719442865" y="0" width="299.5352478027344" height="71.78117370605469">
+              <vector id="1558:51009" name="Vector" x="-0.22197063334169798" y="0" width="92.9480209350586" height="56.08863067626953" />
+              <frame id="1558:51010" name="Group" x="216.59662576731353" y="7.469759464263916" width="82.71688079833984" height="64.31144714355469" />
+              <frame id="1558:51013" name="Group" x="222.6850199323526" y="7.423394203186035" width="28.45973777770996" height="48.95656204223633" />
+              <frame id="1558:51016" name="Group" x="160.2677836042276" y="20.571643829345703" width="28.026350021362305" height="36.302520751953125" />
+              <frame id="1558:51021" name="Group" x="126.92842813547759" y="20.963871002197266" width="30.23380470275879" height="35.41405487060547" />
+              <frame id="1558:51024" name="Group" x="92.65084787424712" y="20.963871002197266" width="30.233793258666992" height="35.41405487060547" />
+              <frame id="1558:51027" name="Group" x="192.10474344309478" y="20.642276763916016" width="27.83435821533203" height="36.263397216796875" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+  </section>
+</canvas>

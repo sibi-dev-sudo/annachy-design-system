@@ -1,0 +1,87 @@
+/*
+ * Annachy Design System — Utilities
+ * Layer: annachy.base · Phase R2
+ * Generated from src/tokens/tokens.json — one class per existing R1 token; no new design values.
+ * Groups: semantic text colour (7), semantic background (3), radius (11), shadow/effect (39),
+ * brand gradient (1), visually-hidden (1, technical accessibility utility).
+ * No spacing, layout, breakpoint or focus utilities (D-08, D-07, D-21).
+ */
+
+/* Semantic text colour */
+.annachy-color-text-primary { color: var(--annachy-color-text-primary); }
+.annachy-color-text-secondary { color: var(--annachy-color-text-secondary); }
+.annachy-color-text-tertiary { color: var(--annachy-color-text-tertiary); }
+.annachy-color-text-black { color: var(--annachy-color-text-black); }
+.annachy-color-text-brand { color: var(--annachy-color-text-brand); }
+.annachy-color-text-grey { color: var(--annachy-color-text-grey); }
+.annachy-color-text-white { color: var(--annachy-color-text-white); }
+/* Semantic background */
+.annachy-bg-primary { background-color: var(--annachy-color-background-primary); }
+.annachy-bg-secondary { background-color: var(--annachy-color-background-secondary); }
+.annachy-bg-tertiary { background-color: var(--annachy-color-background-tertiary); }
+/* Radius */
+.annachy-radius-4 { border-radius: var(--annachy-radius-4); }
+.annachy-radius-8 { border-radius: var(--annachy-radius-8); }
+.annachy-radius-12 { border-radius: var(--annachy-radius-12); }
+.annachy-radius-14 { border-radius: var(--annachy-radius-14); }
+.annachy-radius-16 { border-radius: var(--annachy-radius-16); }
+.annachy-radius-18 { border-radius: var(--annachy-radius-18); }
+.annachy-radius-24 { border-radius: var(--annachy-radius-24); }
+.annachy-radius-26 { border-radius: var(--annachy-radius-26); }
+.annachy-radius-28 { border-radius: var(--annachy-radius-28); }
+.annachy-radius-32 { border-radius: var(--annachy-radius-32); }
+.annachy-radius-34 { border-radius: var(--annachy-radius-34); }
+/* Shadows & component effect styles */
+.annachy-shadow-scale-sm-01 { box-shadow: var(--annachy-shadow-scale-sm-01); }
+.annachy-shadow-scale-sm-02 { box-shadow: var(--annachy-shadow-scale-sm-02); }
+.annachy-shadow-scale-sm-03 { box-shadow: var(--annachy-shadow-scale-sm-03); }
+.annachy-shadow-scale-sm-04 { box-shadow: var(--annachy-shadow-scale-sm-04); }
+.annachy-shadow-scale-sm-05 { box-shadow: var(--annachy-shadow-scale-sm-05); }
+.annachy-shadow-scale-md-01 { box-shadow: var(--annachy-shadow-scale-md-01); }
+.annachy-shadow-scale-md-02 { box-shadow: var(--annachy-shadow-scale-md-02); }
+.annachy-shadow-scale-md-03 { box-shadow: var(--annachy-shadow-scale-md-03); }
+.annachy-shadow-scale-lg-01 { box-shadow: var(--annachy-shadow-scale-lg-01); }
+.annachy-shadow-scale-lg-02 { box-shadow: var(--annachy-shadow-scale-lg-02); }
+.annachy-shadow-scale-lg-03 { box-shadow: var(--annachy-shadow-scale-lg-03); }
+.annachy-shadow-scale-xl-01 { box-shadow: var(--annachy-shadow-scale-xl-01); }
+.annachy-shadow-scale-xl-02 { box-shadow: var(--annachy-shadow-scale-xl-02); }
+.annachy-shadow-scale-xl-03 { box-shadow: var(--annachy-shadow-scale-xl-03); }
+.annachy-shadow-scale-xxl-01 { box-shadow: var(--annachy-shadow-scale-xxl-01); }
+.annachy-shadow-scale-xxl-02 { box-shadow: var(--annachy-shadow-scale-xxl-02); }
+.annachy-shadow-scale-xxl-03 { box-shadow: var(--annachy-shadow-scale-xxl-03); }
+.annachy-shadow-effects-sm-peck { box-shadow: var(--annachy-shadow-effects-sm-peck); }
+.annachy-shadow-effects-sm-stub { box-shadow: var(--annachy-shadow-effects-sm-stub); }
+.annachy-shadow-effects-sm-popup { box-shadow: var(--annachy-shadow-effects-sm-popup); }
+.annachy-shadow-effects-sm-raised { box-shadow: var(--annachy-shadow-effects-sm-raised); }
+.annachy-shadow-effects-sm-top-light { box-shadow: var(--annachy-shadow-effects-sm-top-light); }
+.annachy-shadow-effects-sm-bottom-light { box-shadow: var(--annachy-shadow-effects-sm-bottom-light); }
+.annachy-shadow-effects-sm-left-light { box-shadow: var(--annachy-shadow-effects-sm-left-light); }
+.annachy-shadow-effects-sm-right-light { box-shadow: var(--annachy-shadow-effects-sm-right-light); }
+.annachy-shadow-effects-md-lozenge { box-shadow: var(--annachy-shadow-effects-md-lozenge); }
+.annachy-shadow-effects-md-stub-inset { box-shadow: var(--annachy-shadow-effects-md-stub-inset); }
+.annachy-shadow-effects-lg-bubble { box-shadow: var(--annachy-shadow-effects-lg-bubble); }
+.annachy-shadow-effects-lg-hard-inset { box-shadow: var(--annachy-shadow-effects-lg-hard-inset); }
+.annachy-shadow-effects-lg-hard-lift { box-shadow: var(--annachy-shadow-effects-lg-hard-lift); }
+.annachy-shadow-effects-lg-soft-inset { box-shadow: var(--annachy-shadow-effects-lg-soft-inset); }
+.annachy-shadow-effects-xxl-dialog { box-shadow: var(--annachy-shadow-effects-xxl-dialog); }
+.annachy-shadow-swatch { box-shadow: var(--annachy-shadow-swatch); }
+.annachy-effect-button-default { box-shadow: var(--annachy-effect-button-default); }
+.annachy-effect-button-hover { box-shadow: var(--annachy-effect-button-hover); }
+.annachy-effect-button-focus { box-shadow: var(--annachy-effect-button-focus); }
+.annachy-effect-toggle-on { box-shadow: var(--annachy-effect-toggle-on); }
+.annachy-effect-toggle-off { box-shadow: var(--annachy-effect-toggle-off); }
+.annachy-effect-toggle-press { box-shadow: var(--annachy-effect-toggle-press); }
+/* Gradient */
+.annachy-bg-gradient-brand { background-image: var(--annachy-gradient-brand); }
+
+/* Accessibility (technical): hide visually, keep available to assistive technology */
+.annachy-visually-hidden {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}

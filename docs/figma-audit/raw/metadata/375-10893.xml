@@ -1,0 +1,1449 @@
+<canvas id="375:10893" name="  › ④ Checkbox /Radio/Toggle ✓" x="0" y="0" width="0" height="0">
+  <section id="1568:28311" name="Core (Radio/ Checkbox/ Toggle)" x="-4407" y="4860" width="6588" height="6949">
+    <frame id="1568:28312" name="(Radio/ Checkbox/ Toggle)" x="543" y="886" width="5502" height="4326">
+      <frame id="1568:28313" name="_Status" x="0" y="0" width="5770" height="114">
+        <text id="1568:28314" name="Core (Radio/ Checkbox/ Toggle)" x="32" y="40.5" width="478" height="32" />
+        <text id="1568:28315" name="SEPTEMBER 2026" x="5502" y="40.5" width="236" height="32" />
+      </frame>
+      <frame id="1568:28316" name="Frame 2121455715" x="123" y="186" width="5283" height="156">
+        <frame id="1568:28317" name="Frame 2121455714" x="0" y="0" width="156" height="156" />
+        <frame id="1568:28322" name="Logotype" x="4983.908203125" y="41.00049591064453" width="299.0917053222656" height="73.99900817871094">
+          <frame id="1568:28323" name="Group" x="-0.221893310546875" y="0" width="299.5354919433594" height="73.99888610839844">
+            <vector id="1568:28324" name="Vector" x="93.97728729248047" y="61.04088592529297" width="118.541748046875" height="12.958113670349121" />
+            <frame id="1568:28325" name="Group" x="96.96601104736328" y="62.9735221862793" width="12.336579322814941" height="8.597864151000977" />
+            <frame id="1568:28328" name="Group" x="111.98466491699219" y="62.95185089111328" width="97.42333221435547" height="8.867423057556152" />
+            <frame id="1568:28342" name="Group" x="-0.2219319719442865" y="0" width="299.5354919433594" height="71.78117370605469">
+              <vector id="1568:28343" name="Vector" x="-0.22197063334169798" y="0" width="92.9480209350586" height="56.08863067626953" />
+              <frame id="1568:28344" name="Group" x="216.59662576731353" y="7.469759464263916" width="82.71688079833984" height="64.31144714355469" />
+              <frame id="1568:28347" name="Group" x="222.6850199323526" y="7.423394203186035" width="28.45973777770996" height="48.95656204223633" />
+              <frame id="1568:28350" name="Group" x="160.2677836042276" y="20.571643829345703" width="28.026350021362305" height="36.302520751953125" />
+              <frame id="1568:28355" name="Group" x="126.92842813547759" y="20.963871002197266" width="30.23380470275879" height="35.41405487060547" />
+              <frame id="1568:28358" name="Group" x="92.65084787424712" y="20.963871002197266" width="30.233793258666992" height="35.41405487060547" />
+              <frame id="1568:28361" name="Group" x="192.10474344309478" y="20.642276763916016" width="27.83435821533203" height="36.263397216796875" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <section id="1568:30661" name="(Radio/ Checkbox/ Toggle)" x="586" y="1341" width="5332" height="3196">
+      <frame id="1504:52363" name=".Selection Controls / Radio Button" x="81" y="265" width="1600" height="1737.8458251953125">
+        <symbol id="1504:52364" name="State=Selected, Size=Small, Position=Left, Alignment=Top" x="0" y="0" width="216" height="41" />
+        <symbol id="1504:52373" name="State=Selected, Size=Small, Position=Left, Alignment=Center" x="260" y="0" width="216" height="41" />
+        <symbol id="1504:52382" name="State=Selected, Size=Small, Position=Left, Alignment=Bottom" x="520" y="0" width="216" height="41" />
+        <symbol id="1504:52391" name="State=Selected, Size=Small, Position=Right, Alignment=Top" x="780" y="0" width="216" height="41" />
+        <symbol id="1504:52400" name="State=Selected, Size=Small, Position=Right, Alignment=Center" x="1040" y="0" width="216" height="41" />
+        <symbol id="1504:52409" name="State=Selected, Size=Small, Position=Right, Alignment=Bottom" x="1300" y="0" width="216" height="41" />
+        <symbol id="1504:52418" name="State=Unselected, Size=Small, Position=Left, Alignment=Top" x="0" y="94.32476806640625" width="216" height="41" />
+        <symbol id="1504:52426" name="State=Unselected, Size=Small, Position=Left, Alignment=Center" x="260" y="94.32476806640625" width="216" height="41" />
+        <symbol id="1504:52434" name="State=Unselected, Size=Small, Position=Left, Alignment=Bottom" x="520" y="94.32476806640625" width="216" height="41" />
+        <symbol id="1504:52442" name="State=Unselected, Size=Small, Position=Right, Alignment=Top" x="780" y="94.32476806640625" width="216" height="41" />
+        <symbol id="1504:52450" name="State=Unselected, Size=Small, Position=Right, Alignment=Center" x="1040" y="94.32476806640625" width="216" height="41" />
+        <symbol id="1504:52458" name="State=Unselected, Size=Small, Position=Right, Alignment=Bottom" x="1300" y="94.32476806640625" width="216" height="41" />
+        <symbol id="1504:52466" name="State=Disabled Unselected, Size=Small, Position=Left, Alignment=Top" x="0" y="188.6495361328125" width="216" height="41" />
+        <symbol id="1504:52474" name="State=Disabled Unselected, Size=Small, Position=Left, Alignment=Center" x="260" y="188.6495361328125" width="216" height="41" />
+        <symbol id="1504:52482" name="State=Disabled Unselected, Size=Small, Position=Left, Alignment=Bottom" x="520" y="188.6495361328125" width="216" height="41" />
+        <symbol id="1504:52490" name="State=Disabled Unselected, Size=Small, Position=Right, Alignment=Top" x="780" y="188.6495361328125" width="216" height="41" />
+        <symbol id="1504:52498" name="State=Disabled Unselected, Size=Small, Position=Right, Alignment=Center" x="1040" y="188.6495361328125" width="216" height="41" />
+        <symbol id="1504:52506" name="State=Disabled Unselected, Size=Small, Position=Right, Alignment=Bottom" x="1300" y="188.6495361328125" width="216" height="41" />
+        <symbol id="1504:52514" name="State=Disabled Selected, Size=Small, Position=Left, Alignment=Top" x="0" y="282.97430419921875" width="216" height="41" />
+        <symbol id="1504:52523" name="State=Disabled Selected, Size=Small, Position=Left, Alignment=Center" x="260" y="282.97430419921875" width="216" height="41" />
+        <symbol id="1504:52532" name="State=Disabled Selected, Size=Small, Position=Left, Alignment=Bottom" x="520" y="282.97430419921875" width="216" height="41" />
+        <symbol id="1504:52541" name="State=Disabled Selected, Size=Small, Position=Right, Alignment=Top" x="780" y="282.97430419921875" width="216" height="41" />
+        <symbol id="1504:52550" name="State=Disabled Selected, Size=Small, Position=Right, Alignment=Center" x="1040" y="282.97430419921875" width="216" height="41" />
+        <symbol id="1504:52559" name="State=Disabled Selected, Size=Small, Position=Right, Alignment=Bottom" x="1300" y="282.97430419921875" width="216" height="41" />
+        <symbol id="1504:52568" name="State=Focus, Size=Small, Position=Left, Alignment=Top" x="0" y="377.299072265625" width="216" height="41" />
+        <symbol id="1504:52577" name="State=Focus, Size=Small, Position=Left, Alignment=Center" x="260" y="377.299072265625" width="216" height="41" />
+        <symbol id="1504:52586" name="State=Focus, Size=Small, Position=Left, Alignment=Bottom" x="520" y="377.299072265625" width="216" height="41" />
+        <symbol id="1504:52595" name="State=Focus, Size=Small, Position=Right, Alignment=Top" x="780" y="377.299072265625" width="216" height="41" />
+        <symbol id="1504:52604" name="State=Focus, Size=Small, Position=Right, Alignment=Center" x="1040" y="377.299072265625" width="216" height="41" />
+        <symbol id="1504:52613" name="State=Focus, Size=Small, Position=Right, Alignment=Bottom" x="1300" y="377.299072265625" width="216" height="41" />
+        <symbol id="1504:52622" name="State=Pressed, Size=Small, Position=Left, Alignment=Top" x="0" y="471.62384033203125" width="216" height="41" />
+        <symbol id="1504:52631" name="State=Pressed, Size=Small, Position=Left, Alignment=Center" x="260" y="471.62384033203125" width="216" height="41" />
+        <symbol id="1504:52640" name="State=Pressed, Size=Small, Position=Left, Alignment=Bottom" x="520" y="471.62384033203125" width="216" height="41" />
+        <symbol id="1504:52649" name="State=Pressed, Size=Small, Position=Right, Alignment=Top" x="780" y="471.62384033203125" width="216" height="41" />
+        <symbol id="1504:52658" name="State=Pressed, Size=Small, Position=Right, Alignment=Center" x="1040" y="471.62384033203125" width="216" height="41" />
+        <symbol id="1504:52667" name="State=Pressed, Size=Small, Position=Right, Alignment=Bottom" x="1300" y="471.62384033203125" width="216" height="41" />
+        <symbol id="1504:52676" name="State=Selected, Size=Medium, Position=Left, Alignment=Top" x="0" y="565.9486083984375" width="220.00001525878906" height="41" />
+        <symbol id="1504:52685" name="State=Selected, Size=Medium, Position=Left, Alignment=Center" x="260" y="565.9486083984375" width="220.00001525878906" height="41" />
+        <symbol id="1504:52694" name="State=Selected, Size=Medium, Position=Left, Alignment=Bottom" x="520" y="565.9486083984375" width="220.00001525878906" height="41" />
+        <symbol id="1504:52703" name="State=Selected, Size=Medium, Position=Right, Alignment=Top" x="780" y="565.9486083984375" width="220.00001525878906" height="41" />
+        <symbol id="1504:52712" name="State=Selected, Size=Medium, Position=Right, Alignment=Center" x="1040" y="565.9486083984375" width="220.00001525878906" height="41" />
+        <symbol id="1504:52721" name="State=Selected, Size=Medium, Position=Right, Alignment=Bottom" x="1300" y="565.9486083984375" width="220.00001525878906" height="41" />
+        <symbol id="1504:52730" name="State=Unselected, Size=Medium, Position=Left, Alignment=Top" x="0" y="660.2733764648438" width="220.00001525878906" height="41" />
+        <symbol id="1504:52738" name="State=Unselected, Size=Medium, Position=Left, Alignment=Center" x="260" y="660.2733764648438" width="220.00001525878906" height="41" />
+        <symbol id="1504:52746" name="State=Unselected, Size=Medium, Position=Left, Alignment=Bottom" x="520" y="660.2733764648438" width="220.00001525878906" height="41" />
+        <symbol id="1504:52754" name="State=Unselected, Size=Medium, Position=Right, Alignment=Top" x="780" y="660.2733764648438" width="220.00001525878906" height="41" />
+        <symbol id="1504:52762" name="State=Unselected, Size=Medium, Position=Right, Alignment=Center" x="1040" y="660.2733764648438" width="220.00001525878906" height="41" />
+        <symbol id="1504:52770" name="State=Unselected, Size=Medium, Position=Right, Alignment=Bottom" x="1300" y="660.2733764648438" width="220.00001525878906" height="41" />
+        <symbol id="1504:52778" name="State=Disabled Unselected, Size=Medium, Position=Left, Alignment=Top" x="0" y="754.59814453125" width="220.00001525878906" height="41" />
+        <symbol id="1504:52786" name="State=Disabled Unselected, Size=Medium, Position=Left, Alignment=Center" x="260" y="754.59814453125" width="220.00001525878906" height="41" />
+        <symbol id="1504:52794" name="State=Disabled Unselected, Size=Medium, Position=Left, Alignment=Bottom" x="520" y="754.59814453125" width="220.00001525878906" height="41" />
+        <symbol id="1504:52802" name="State=Disabled Unselected, Size=Medium, Position=Right, Alignment=Top" x="780" y="754.59814453125" width="220.00001525878906" height="41" />
+        <symbol id="1504:52810" name="State=Disabled Unselected, Size=Medium, Position=Right, Alignment=Center" x="1040" y="754.59814453125" width="220.00001525878906" height="41" />
+        <symbol id="1504:52818" name="State=Disabled Unselected, Size=Medium, Position=Right, Alignment=Bottom" x="1300" y="754.59814453125" width="220.00001525878906" height="41" />
+        <symbol id="1504:52826" name="State=Disabled Selected, Size=Medium, Position=Left, Alignment=Top" x="0" y="848.9229125976562" width="220.00001525878906" height="41" />
+        <symbol id="1504:52835" name="State=Disabled Selected, Size=Medium, Position=Left, Alignment=Center" x="260" y="848.9229125976562" width="220.00001525878906" height="41" />
+        <symbol id="1504:52844" name="State=Disabled Selected, Size=Medium, Position=Left, Alignment=Bottom" x="520" y="848.9229125976562" width="220.00001525878906" height="41" />
+        <symbol id="1504:52853" name="State=Disabled Selected, Size=Medium, Position=Right, Alignment=Top" x="780" y="848.9229125976562" width="220.00001525878906" height="41" />
+        <symbol id="1504:52862" name="State=Disabled Selected, Size=Medium, Position=Right, Alignment=Center" x="1040" y="848.9229125976562" width="220.00001525878906" height="41" />
+        <symbol id="1504:52871" name="State=Disabled Selected, Size=Medium, Position=Right, Alignment=Bottom" x="1300" y="848.9229125976562" width="220.00001525878906" height="41" />
+        <symbol id="1504:52880" name="State=Focus, Size=Medium, Position=Left, Alignment=Top" x="0" y="943.2476806640625" width="220.00001525878906" height="41" />
+        <symbol id="1504:52889" name="State=Focus, Size=Medium, Position=Left, Alignment=Center" x="260" y="943.2476806640625" width="220.00001525878906" height="41" />
+        <symbol id="1504:52898" name="State=Focus, Size=Medium, Position=Left, Alignment=Bottom" x="520" y="943.2476806640625" width="220.00001525878906" height="41" />
+        <symbol id="1504:52907" name="State=Focus, Size=Medium, Position=Right, Alignment=Top" x="780" y="943.2476806640625" width="220.00001525878906" height="41" />
+        <symbol id="1504:52916" name="State=Focus, Size=Medium, Position=Right, Alignment=Center" x="1040" y="943.2476806640625" width="220.00001525878906" height="41" />
+        <symbol id="1504:52925" name="State=Focus, Size=Medium, Position=Right, Alignment=Bottom" x="1300" y="943.2476806640625" width="220.00001525878906" height="41" />
+        <symbol id="1504:52934" name="State=Pressed, Size=Medium, Position=Left, Alignment=Top" x="0" y="1037.572509765625" width="220.00001525878906" height="41" />
+        <symbol id="1504:52943" name="State=Pressed, Size=Medium, Position=Left, Alignment=Center" x="260" y="1037.572509765625" width="220.00001525878906" height="41" />
+        <symbol id="1504:52952" name="State=Pressed, Size=Medium, Position=Left, Alignment=Bottom" x="520" y="1037.572509765625" width="220.00001525878906" height="41" />
+        <symbol id="1504:52961" name="State=Pressed, Size=Medium, Position=Right, Alignment=Top" x="780" y="1037.572509765625" width="220.00001525878906" height="41" />
+        <symbol id="1504:52970" name="State=Pressed, Size=Medium, Position=Right, Alignment=Center" x="1040" y="1037.572509765625" width="220.00001525878906" height="41" />
+        <symbol id="1504:52979" name="State=Pressed, Size=Medium, Position=Right, Alignment=Bottom" x="1300" y="1037.572509765625" width="220.00001525878906" height="41" />
+        <symbol id="1504:52988" name="State=Selected, Size=Large, Position=Left, Alignment=Top" x="0" y="1131.897216796875" width="224" height="41" />
+        <symbol id="1504:52997" name="State=Selected, Size=Large, Position=Left, Alignment=Center" x="260" y="1131.897216796875" width="224" height="41" />
+        <symbol id="1504:53006" name="State=Selected, Size=Large, Position=Left, Alignment=Bottom" x="520" y="1131.897216796875" width="224" height="41" />
+        <symbol id="1504:53015" name="State=Selected, Size=Large, Position=Right, Alignment=Top" x="780" y="1131.897216796875" width="224" height="41" />
+        <symbol id="1504:53024" name="State=Selected, Size=Large, Position=Right, Alignment=Center" x="1040" y="1131.897216796875" width="224" height="41" />
+        <symbol id="1504:53033" name="State=Selected, Size=Large, Position=Right, Alignment=Bottom" x="1300" y="1131.897216796875" width="224" height="41" />
+        <symbol id="1504:53042" name="State=Unselected, Size=Large, Position=Left, Alignment=Top" x="0" y="1226.221923828125" width="224" height="41" />
+        <symbol id="1504:53050" name="State=Unselected, Size=Large, Position=Left, Alignment=Center" x="260" y="1226.221923828125" width="224" height="41" />
+        <symbol id="1504:53058" name="State=Unselected, Size=Large, Position=Left, Alignment=Bottom" x="520" y="1226.221923828125" width="224" height="41" />
+        <symbol id="1504:53066" name="State=Unselected, Size=Large, Position=Right, Alignment=Top" x="780" y="1226.221923828125" width="224" height="41" />
+        <symbol id="1504:53074" name="State=Unselected, Size=Large, Position=Right, Alignment=Center" x="1040" y="1226.221923828125" width="224" height="41" />
+        <symbol id="1504:53082" name="State=Unselected, Size=Large, Position=Right, Alignment=Bottom" x="1300" y="1226.221923828125" width="224" height="41" />
+        <symbol id="1504:53090" name="State=Disabled Unselected, Size=Large, Position=Left, Alignment=Top" x="0" y="1320.5467529296875" width="224" height="41" />
+        <symbol id="1504:53098" name="State=Disabled Unselected, Size=Large, Position=Left, Alignment=Center" x="260" y="1320.5467529296875" width="224" height="41" />
+        <symbol id="1504:53106" name="State=Disabled Unselected, Size=Large, Position=Left, Alignment=Bottom" x="520" y="1320.5467529296875" width="224" height="41" />
+        <symbol id="1504:53114" name="State=Disabled Unselected, Size=Large, Position=Right, Alignment=Top" x="780" y="1320.5467529296875" width="224" height="41" />
+        <symbol id="1504:53122" name="State=Disabled Unselected, Size=Large, Position=Right, Alignment=Center" x="1040" y="1320.5467529296875" width="224" height="41" />
+        <symbol id="1504:53130" name="State=Disabled Unselected, Size=Large, Position=Right, Alignment=Bottom" x="1300" y="1320.5467529296875" width="224" height="41" />
+        <symbol id="1504:53138" name="State=Disabled Selected, Size=Large, Position=Left, Alignment=Top" x="0" y="1414.87158203125" width="224" height="41" />
+        <symbol id="1504:53147" name="State=Disabled Selected, Size=Large, Position=Left, Alignment=Center" x="260" y="1414.87158203125" width="224" height="41" />
+        <symbol id="1504:53156" name="State=Disabled Selected, Size=Large, Position=Left, Alignment=Bottom" x="520" y="1414.87158203125" width="224" height="41" />
+        <symbol id="1504:53165" name="State=Disabled Selected, Size=Large, Position=Right, Alignment=Top" x="780" y="1414.87158203125" width="224" height="41" />
+        <symbol id="1504:53174" name="State=Disabled Selected, Size=Large, Position=Right, Alignment=Center" x="1040" y="1414.87158203125" width="224" height="41" />
+        <symbol id="1504:53183" name="State=Disabled Selected, Size=Large, Position=Right, Alignment=Bottom" x="1300" y="1414.87158203125" width="224" height="41" />
+        <symbol id="1504:53192" name="State=Focus, Size=Large, Position=Left, Alignment=Top" x="0" y="1509.1962890625" width="224" height="41" />
+        <symbol id="1504:53201" name="State=Focus, Size=Large, Position=Left, Alignment=Center" x="260" y="1509.1962890625" width="224" height="41" />
+        <symbol id="1504:53210" name="State=Focus, Size=Large, Position=Left, Alignment=Bottom" x="520" y="1509.1962890625" width="224" height="41" />
+        <symbol id="1504:53219" name="State=Focus, Size=Large, Position=Right, Alignment=Top" x="780" y="1509.1962890625" width="224" height="41" />
+        <symbol id="1504:53228" name="State=Focus, Size=Large, Position=Right, Alignment=Center" x="1040" y="1509.1962890625" width="224" height="41" />
+        <symbol id="1504:53237" name="State=Focus, Size=Large, Position=Right, Alignment=Bottom" x="1300" y="1509.1962890625" width="224" height="41" />
+        <symbol id="1504:53246" name="State=Pressed, Size=Large, Position=Left, Alignment=Top" x="0" y="1603.52099609375" width="224" height="41" />
+        <symbol id="1504:53255" name="State=Pressed, Size=Large, Position=Left, Alignment=Center" x="260" y="1603.52099609375" width="224" height="41" />
+        <symbol id="1504:53264" name="State=Pressed, Size=Large, Position=Left, Alignment=Bottom" x="520" y="1603.52099609375" width="224" height="41" />
+        <symbol id="1504:53273" name="State=Pressed, Size=Large, Position=Right, Alignment=Top" x="780" y="1603.52099609375" width="224" height="41" />
+        <symbol id="1504:53282" name="State=Pressed, Size=Large, Position=Right, Alignment=Center" x="1040" y="1603.52099609375" width="224" height="41" />
+        <symbol id="1504:53291" name="State=Pressed, Size=Large, Position=Right, Alignment=Bottom" x="1300" y="1603.52099609375" width="224" height="41" />
+      </frame>
+      <frame id="1504:53300" name=".Selection Controls / Checkbox" x="1861" y="265" width="1600" height="2020.820068359375">
+        <symbol id="1504:53301" name="State=Checked, Size=Small, Position=Left, Alignment=Top" x="0" y="0" width="216" height="41" />
+        <symbol id="1504:53311" name="State=Checked, Size=Small, Position=Left, Alignment=Center" x="260" y="0" width="216" height="41" />
+        <symbol id="1504:53321" name="State=Checked, Size=Small, Position=Left, Alignment=Bottom" x="520" y="0" width="216" height="41" />
+        <symbol id="1504:53331" name="State=Checked, Size=Small, Position=Right, Alignment=Top" x="780" y="0" width="216" height="41" />
+        <symbol id="1504:53341" name="State=Checked, Size=Small, Position=Right, Alignment=Center" x="1040" y="0" width="216" height="41" />
+        <symbol id="1504:53351" name="State=Checked, Size=Small, Position=Right, Alignment=Bottom" x="1300" y="0" width="216" height="41" />
+        <symbol id="1504:53361" name="State=Multi-select, Size=Small, Position=Left, Alignment=Top" x="0" y="94.32476806640625" width="216" height="41" />
+        <symbol id="1504:53371" name="State=Multi-select, Size=Small, Position=Left, Alignment=Center" x="260" y="94.32476806640625" width="216" height="41" />
+        <symbol id="1504:53381" name="State=Multi-select, Size=Small, Position=Left, Alignment=Bottom" x="520" y="94.32476806640625" width="216" height="41" />
+        <symbol id="1504:53391" name="State=Multi-select, Size=Small, Position=Right, Alignment=Top" x="780" y="94.32476806640625" width="216" height="41" />
+        <symbol id="1504:53401" name="State=Multi-select, Size=Small, Position=Right, Alignment=Center" x="1040" y="94.32476806640625" width="216" height="41" />
+        <symbol id="1504:53411" name="State=Multi-select, Size=Small, Position=Right, Alignment=Bottom" x="1300" y="94.32476806640625" width="216" height="41" />
+        <symbol id="1504:53421" name="State=Unchecked, Size=Small, Position=Left, Alignment=Top" x="0" y="188.6495361328125" width="216" height="41" />
+        <symbol id="1504:53429" name="State=Unchecked, Size=Small, Position=Left, Alignment=Center" x="260" y="188.6495361328125" width="216" height="41" />
+        <symbol id="1504:53437" name="State=Unchecked, Size=Small, Position=Left, Alignment=Bottom" x="520" y="188.6495361328125" width="216" height="41" />
+        <symbol id="1504:53445" name="State=Unchecked, Size=Small, Position=Right, Alignment=Top" x="780" y="188.6495361328125" width="216" height="41" />
+        <symbol id="1504:53453" name="State=Unchecked, Size=Small, Position=Right, Alignment=Center" x="1040" y="188.6495361328125" width="216" height="41" />
+        <symbol id="1504:53461" name="State=Unchecked, Size=Small, Position=Right, Alignment=Bottom" x="1300" y="188.6495361328125" width="216" height="41" />
+        <symbol id="1504:53469" name="State=Disabled, Size=Small, Position=Left, Alignment=Top" x="0" y="282.97430419921875" width="216" height="41" />
+        <symbol id="1504:53477" name="State=Disabled, Size=Small, Position=Left, Alignment=Center" x="260" y="282.97430419921875" width="216" height="41" />
+        <symbol id="1504:53485" name="State=Disabled, Size=Small, Position=Left, Alignment=Bottom" x="520" y="282.97430419921875" width="216" height="41" />
+        <symbol id="1504:53493" name="State=Disabled, Size=Small, Position=Right, Alignment=Top" x="780" y="282.97430419921875" width="216" height="41" />
+        <symbol id="1504:53501" name="State=Disabled, Size=Small, Position=Right, Alignment=Center" x="1040" y="282.97430419921875" width="216" height="41" />
+        <symbol id="1504:53509" name="State=Disabled, Size=Small, Position=Right, Alignment=Bottom" x="1300" y="282.97430419921875" width="216" height="41" />
+        <symbol id="1504:53517" name="State=Disabled On, Size=Small, Position=Left, Alignment=Top" x="0" y="377.299072265625" width="216" height="41" />
+        <symbol id="1504:53527" name="State=Disabled On, Size=Small, Position=Left, Alignment=Center" x="260" y="377.299072265625" width="216" height="41" />
+        <symbol id="1504:53537" name="State=Disabled On, Size=Small, Position=Left, Alignment=Bottom" x="520" y="377.299072265625" width="216" height="41" />
+        <symbol id="1504:53547" name="State=Disabled On, Size=Small, Position=Right, Alignment=Top" x="780" y="377.299072265625" width="216" height="41" />
+        <symbol id="1504:53557" name="State=Disabled On, Size=Small, Position=Right, Alignment=Center" x="1040" y="377.299072265625" width="216" height="41" />
+        <symbol id="1504:53567" name="State=Disabled On, Size=Small, Position=Right, Alignment=Bottom" x="1300" y="377.299072265625" width="216" height="41" />
+        <symbol id="1504:53577" name="State=Focus, Size=Small, Position=Left, Alignment=Top" x="0" y="471.62384033203125" width="216" height="41" />
+        <symbol id="1504:53586" name="State=Focus, Size=Small, Position=Left, Alignment=Center" x="260" y="471.62384033203125" width="216" height="41" />
+        <symbol id="1504:53595" name="State=Focus, Size=Small, Position=Left, Alignment=Bottom" x="520" y="471.62384033203125" width="216" height="41" />
+        <symbol id="1504:53604" name="State=Focus, Size=Small, Position=Right, Alignment=Top" x="780" y="471.62384033203125" width="216" height="41" />
+        <symbol id="1504:53613" name="State=Focus, Size=Small, Position=Right, Alignment=Center" x="1040" y="471.62384033203125" width="216" height="41" />
+        <symbol id="1504:53622" name="State=Focus, Size=Small, Position=Right, Alignment=Bottom" x="1300" y="471.62384033203125" width="216" height="41" />
+        <symbol id="1504:53631" name="State=Pressed, Size=Small, Position=Left, Alignment=Top" x="0" y="565.9486083984375" width="216" height="41" />
+        <symbol id="1504:53641" name="State=Pressed, Size=Small, Position=Left, Alignment=Center" x="260" y="565.9486083984375" width="216" height="41" />
+        <symbol id="1504:53651" name="State=Pressed, Size=Small, Position=Left, Alignment=Bottom" x="520" y="565.9486083984375" width="216" height="41" />
+        <symbol id="1504:53661" name="State=Pressed, Size=Small, Position=Right, Alignment=Top" x="780" y="565.9486083984375" width="216" height="41" />
+        <symbol id="1504:53671" name="State=Pressed, Size=Small, Position=Right, Alignment=Center" x="1040" y="565.9486083984375" width="216" height="41" />
+        <symbol id="1504:53681" name="State=Pressed, Size=Small, Position=Right, Alignment=Bottom" x="1300" y="565.9486083984375" width="216" height="41" />
+        <symbol id="1504:53691" name="State=Checked, Size=Medium, Position=Left, Alignment=Top" x="0" y="660.2733764648438" width="220.00001525878906" height="41" />
+        <symbol id="1504:53701" name="State=Checked, Size=Medium, Position=Left, Alignment=Center" x="260" y="660.2733764648438" width="220.00001525878906" height="41" />
+        <symbol id="1504:53711" name="State=Checked, Size=Medium, Position=Left, Alignment=Bottom" x="520" y="660.2733764648438" width="220.00001525878906" height="41" />
+        <symbol id="1504:53721" name="State=Checked, Size=Medium, Position=Right, Alignment=Top" x="780" y="660.2733764648438" width="220.00001525878906" height="41" />
+        <symbol id="1504:53731" name="State=Checked, Size=Medium, Position=Right, Alignment=Center" x="1040" y="660.2733764648438" width="220.00001525878906" height="41" />
+        <symbol id="1504:53741" name="State=Checked, Size=Medium, Position=Right, Alignment=Bottom" x="1300" y="660.2733764648438" width="220.00001525878906" height="41" />
+        <symbol id="1504:53751" name="State=Multi-select, Size=Medium, Position=Left, Alignment=Top" x="0" y="754.59814453125" width="220.00001525878906" height="41" />
+        <symbol id="1504:53761" name="State=Multi-select, Size=Medium, Position=Left, Alignment=Center" x="260" y="754.59814453125" width="220.00001525878906" height="41" />
+        <symbol id="1504:53771" name="State=Multi-select, Size=Medium, Position=Left, Alignment=Bottom" x="520" y="754.59814453125" width="220.00001525878906" height="41" />
+        <symbol id="1504:53781" name="State=Multi-select, Size=Medium, Position=Right, Alignment=Top" x="780" y="754.59814453125" width="220.00001525878906" height="41" />
+        <symbol id="1504:53791" name="State=Multi-select, Size=Medium, Position=Right, Alignment=Center" x="1040" y="754.59814453125" width="220.00001525878906" height="41" />
+        <symbol id="1504:53801" name="State=Multi-select, Size=Medium, Position=Right, Alignment=Bottom" x="1300" y="754.59814453125" width="220.00001525878906" height="41" />
+        <symbol id="1504:53811" name="State=Unchecked, Size=Medium, Position=Left, Alignment=Top" x="0" y="848.9229125976562" width="220.00001525878906" height="41" />
+        <symbol id="1504:53819" name="State=Unchecked, Size=Medium, Position=Left, Alignment=Center" x="260" y="848.9229125976562" width="220.00001525878906" height="41" />
+        <symbol id="1504:53827" name="State=Unchecked, Size=Medium, Position=Left, Alignment=Bottom" x="520" y="848.9229125976562" width="220.00001525878906" height="41" />
+        <symbol id="1504:53835" name="State=Unchecked, Size=Medium, Position=Right, Alignment=Top" x="780" y="848.9229125976562" width="220.00001525878906" height="41" />
+        <symbol id="1504:53843" name="State=Unchecked, Size=Medium, Position=Right, Alignment=Center" x="1040" y="848.9229125976562" width="220.00001525878906" height="41" />
+        <symbol id="1504:53851" name="State=Unchecked, Size=Medium, Position=Right, Alignment=Bottom" x="1300" y="848.9229125976562" width="220.00001525878906" height="41" />
+        <symbol id="1504:53859" name="State=Disabled, Size=Medium, Position=Left, Alignment=Top" x="0" y="943.2476806640625" width="220.00001525878906" height="41" />
+        <symbol id="1504:53867" name="State=Disabled, Size=Medium, Position=Left, Alignment=Center" x="260" y="943.2476806640625" width="220.00001525878906" height="41" />
+        <symbol id="1504:53875" name="State=Disabled, Size=Medium, Position=Left, Alignment=Bottom" x="520" y="943.2476806640625" width="220.00001525878906" height="41" />
+        <symbol id="1504:53883" name="State=Disabled, Size=Medium, Position=Right, Alignment=Top" x="780" y="943.2476806640625" width="220.00001525878906" height="41" />
+        <symbol id="1504:53891" name="State=Disabled, Size=Medium, Position=Right, Alignment=Center" x="1040" y="943.2476806640625" width="220.00001525878906" height="41" />
+        <symbol id="1504:53899" name="State=Disabled, Size=Medium, Position=Right, Alignment=Bottom" x="1300" y="943.2476806640625" width="220.00001525878906" height="41" />
+        <symbol id="1504:53907" name="State=Disabled On, Size=Medium, Position=Left, Alignment=Top" x="0" y="1037.572509765625" width="220.00001525878906" height="41" />
+        <symbol id="1504:53917" name="State=Disabled On, Size=Medium, Position=Left, Alignment=Center" x="260" y="1037.572509765625" width="220.00001525878906" height="41" />
+        <symbol id="1504:53927" name="State=Disabled On, Size=Medium, Position=Left, Alignment=Bottom" x="520" y="1037.572509765625" width="220.00001525878906" height="41" />
+        <symbol id="1504:53937" name="State=Disabled On, Size=Medium, Position=Right, Alignment=Top" x="780" y="1037.572509765625" width="220.00001525878906" height="41" />
+        <symbol id="1504:53947" name="State=Disabled On, Size=Medium, Position=Right, Alignment=Center" x="1040" y="1037.572509765625" width="220.00001525878906" height="41" />
+        <symbol id="1504:53957" name="State=Disabled On, Size=Medium, Position=Right, Alignment=Bottom" x="1300" y="1037.572509765625" width="220.00001525878906" height="41" />
+        <symbol id="1504:53967" name="State=Focus, Size=Medium, Position=Left, Alignment=Top" x="0" y="1131.897216796875" width="220.00001525878906" height="41" />
+        <symbol id="1504:53976" name="State=Focus, Size=Medium, Position=Left, Alignment=Center" x="260" y="1131.897216796875" width="220.00001525878906" height="41" />
+        <symbol id="1504:53985" name="State=Focus, Size=Medium, Position=Left, Alignment=Bottom" x="520" y="1131.897216796875" width="220.00001525878906" height="41" />
+        <symbol id="1504:53994" name="State=Focus, Size=Medium, Position=Right, Alignment=Top" x="780" y="1131.897216796875" width="220.00001525878906" height="41" />
+        <symbol id="1504:54003" name="State=Focus, Size=Medium, Position=Right, Alignment=Center" x="1040" y="1131.897216796875" width="220.00001525878906" height="41" />
+        <symbol id="1504:54012" name="State=Focus, Size=Medium, Position=Right, Alignment=Bottom" x="1300" y="1131.897216796875" width="220.00001525878906" height="41" />
+        <symbol id="1504:54021" name="State=Pressed, Size=Medium, Position=Left, Alignment=Top" x="0" y="1226.221923828125" width="220.00001525878906" height="41" />
+        <symbol id="1504:54031" name="State=Pressed, Size=Medium, Position=Left, Alignment=Center" x="260" y="1226.221923828125" width="220.00001525878906" height="41" />
+        <symbol id="1504:54041" name="State=Pressed, Size=Medium, Position=Left, Alignment=Bottom" x="520" y="1226.221923828125" width="220.00001525878906" height="41" />
+        <symbol id="1504:54051" name="State=Pressed, Size=Medium, Position=Right, Alignment=Top" x="780" y="1226.221923828125" width="220.00001525878906" height="41" />
+        <symbol id="1504:54061" name="State=Pressed, Size=Medium, Position=Right, Alignment=Center" x="1040" y="1226.221923828125" width="220.00001525878906" height="41" />
+        <symbol id="1504:54071" name="State=Pressed, Size=Medium, Position=Right, Alignment=Bottom" x="1300" y="1226.221923828125" width="220.00001525878906" height="41" />
+        <symbol id="1504:54081" name="State=Checked, Size=Large, Position=Left, Alignment=Top" x="0" y="1320.5467529296875" width="224" height="41" />
+        <symbol id="1504:54091" name="State=Checked, Size=Large, Position=Left, Alignment=Center" x="260" y="1320.5467529296875" width="224" height="41" />
+        <symbol id="1504:54101" name="State=Checked, Size=Large, Position=Left, Alignment=Bottom" x="520" y="1320.5467529296875" width="224" height="41" />
+        <symbol id="1504:54111" name="State=Checked, Size=Large, Position=Right, Alignment=Top" x="780" y="1320.5467529296875" width="224" height="41" />
+        <symbol id="1504:54121" name="State=Checked, Size=Large, Position=Right, Alignment=Center" x="1040" y="1320.5467529296875" width="224" height="41" />
+        <symbol id="1504:54131" name="State=Checked, Size=Large, Position=Right, Alignment=Bottom" x="1300" y="1320.5467529296875" width="224" height="41" />
+        <symbol id="1504:54141" name="State=Multi-select, Size=Large, Position=Left, Alignment=Top" x="0" y="1414.87158203125" width="224" height="41" />
+        <symbol id="1504:54151" name="State=Multi-select, Size=Large, Position=Left, Alignment=Center" x="260" y="1414.87158203125" width="224" height="41" />
+        <symbol id="1504:54161" name="State=Multi-select, Size=Large, Position=Left, Alignment=Bottom" x="520" y="1414.87158203125" width="224" height="41" />
+        <symbol id="1504:54171" name="State=Multi-select, Size=Large, Position=Right, Alignment=Top" x="780" y="1414.87158203125" width="224" height="41" />
+        <symbol id="1504:54181" name="State=Multi-select, Size=Large, Position=Right, Alignment=Center" x="1040" y="1414.87158203125" width="224" height="41" />
+        <symbol id="1504:54191" name="State=Multi-select, Size=Large, Position=Right, Alignment=Bottom" x="1300" y="1414.87158203125" width="224" height="41" />
+        <symbol id="1504:54201" name="State=Unchecked, Size=Large, Position=Left, Alignment=Top" x="0" y="1509.1962890625" width="224" height="41" />
+        <symbol id="1504:54209" name="State=Unchecked, Size=Large, Position=Left, Alignment=Center" x="260" y="1509.1962890625" width="224" height="41" />
+        <symbol id="1504:54217" name="State=Unchecked, Size=Large, Position=Left, Alignment=Bottom" x="520" y="1509.1962890625" width="224" height="41" />
+        <symbol id="1504:54225" name="State=Unchecked, Size=Large, Position=Right, Alignment=Top" x="780" y="1509.1962890625" width="224" height="41" />
+        <symbol id="1504:54233" name="State=Unchecked, Size=Large, Position=Right, Alignment=Center" x="1040" y="1509.1962890625" width="224" height="41" />
+        <symbol id="1504:54241" name="State=Unchecked, Size=Large, Position=Right, Alignment=Bottom" x="1300" y="1509.1962890625" width="224" height="41" />
+        <symbol id="1504:54249" name="State=Disabled, Size=Large, Position=Left, Alignment=Top" x="0" y="1603.52099609375" width="224" height="41" />
+        <symbol id="1504:54257" name="State=Disabled, Size=Large, Position=Left, Alignment=Center" x="260" y="1603.52099609375" width="224" height="41" />
+        <symbol id="1504:54265" name="State=Disabled, Size=Large, Position=Left, Alignment=Bottom" x="520" y="1603.52099609375" width="224" height="41" />
+        <symbol id="1504:54273" name="State=Disabled, Size=Large, Position=Right, Alignment=Top" x="780" y="1603.52099609375" width="224" height="41" />
+        <symbol id="1504:54281" name="State=Disabled, Size=Large, Position=Right, Alignment=Center" x="1040" y="1603.52099609375" width="224" height="41" />
+        <symbol id="1504:54289" name="State=Disabled, Size=Large, Position=Right, Alignment=Bottom" x="1300" y="1603.52099609375" width="224" height="41" />
+        <symbol id="1504:54297" name="State=Disabled On, Size=Large, Position=Left, Alignment=Top" x="0" y="1697.8458251953125" width="224" height="41" />
+        <symbol id="1504:54307" name="State=Disabled On, Size=Large, Position=Left, Alignment=Center" x="260" y="1697.8458251953125" width="224" height="41" />
+        <symbol id="1504:54317" name="State=Disabled On, Size=Large, Position=Left, Alignment=Bottom" x="520" y="1697.8458251953125" width="224" height="41" />
+        <symbol id="1504:54327" name="State=Disabled On, Size=Large, Position=Right, Alignment=Top" x="780" y="1697.8458251953125" width="224" height="41" />
+        <symbol id="1504:54337" name="State=Disabled On, Size=Large, Position=Right, Alignment=Center" x="1040" y="1697.8458251953125" width="224" height="41" />
+        <symbol id="1504:54347" name="State=Disabled On, Size=Large, Position=Right, Alignment=Bottom" x="1300" y="1697.8458251953125" width="224" height="41" />
+        <symbol id="1504:54357" name="State=Focus, Size=Large, Position=Left, Alignment=Top" x="0" y="1792.170654296875" width="224" height="41" />
+        <symbol id="1504:54366" name="State=Focus, Size=Large, Position=Left, Alignment=Center" x="260" y="1792.170654296875" width="224" height="41" />
+        <symbol id="1504:54375" name="State=Focus, Size=Large, Position=Left, Alignment=Bottom" x="520" y="1792.170654296875" width="224" height="41" />
+        <symbol id="1504:54384" name="State=Focus, Size=Large, Position=Right, Alignment=Top" x="780" y="1792.170654296875" width="224" height="41" />
+        <symbol id="1504:54393" name="State=Focus, Size=Large, Position=Right, Alignment=Center" x="1040" y="1792.170654296875" width="224" height="41" />
+        <symbol id="1504:54402" name="State=Focus, Size=Large, Position=Right, Alignment=Bottom" x="1300" y="1792.170654296875" width="224" height="41" />
+        <symbol id="1504:54411" name="State=Pressed, Size=Large, Position=Left, Alignment=Top" x="0" y="1886.495361328125" width="224" height="41" />
+        <symbol id="1504:54421" name="State=Pressed, Size=Large, Position=Left, Alignment=Center" x="260" y="1886.495361328125" width="224" height="41" />
+        <symbol id="1504:54431" name="State=Pressed, Size=Large, Position=Left, Alignment=Bottom" x="520" y="1886.495361328125" width="224" height="41" />
+        <symbol id="1504:54441" name="State=Pressed, Size=Large, Position=Right, Alignment=Top" x="780" y="1886.495361328125" width="224" height="41" />
+        <symbol id="1504:54451" name="State=Pressed, Size=Large, Position=Right, Alignment=Center" x="1040" y="1886.495361328125" width="224" height="41" />
+        <symbol id="1504:54461" name="State=Pressed, Size=Large, Position=Right, Alignment=Bottom" x="1300" y="1886.495361328125" width="224" height="41" />
+      </frame>
+      <frame id="1504:54471" name=".Selection Controls / Toggle" x="3641" y="265" width="1610" height="2850">
+        <symbol id="1504:54472" name="State=On, Size=Small, Position=Left, Alignment=Center" x="295" y="20" width="228" height="40" />
+        <symbol id="1504:54487" name="State=Off, Size=Small, Position=Left, Alignment=Center" x="295" y="114.32470703125" width="228" height="40" />
+        <symbol id="1504:54502" name="State=Hover On, Size=Small, Position=Left, Alignment=Center" x="295" y="208.6494140625" width="228" height="40" />
+        <symbol id="1504:54517" name="State=Hover Off, Size=Small, Position=Left, Alignment=Center" x="295" y="302.97412109375" width="228" height="40" />
+        <symbol id="1504:54532" name="State=Focus On, Size=Small, Position=Left, Alignment=Center" x="295" y="397.298828125" width="228" height="40" />
+        <symbol id="1504:54547" name="State=Focus Off, Size=Small, Position=Left, Alignment=Center" x="295" y="491.6240234375" width="228" height="40" />
+        <symbol id="1504:54562" name="State=Pressed On, Size=Small, Position=Left, Alignment=Center" x="295" y="585.94873046875" width="228" height="40" />
+        <symbol id="1504:54577" name="State=Pressed Off, Size=Small, Position=Left, Alignment=Center" x="295" y="680.2734375" width="228" height="40" />
+        <symbol id="1504:54592" name="State=Disabled On, Size=Small, Position=Left, Alignment=Center" x="295" y="774.59814453125" width="228" height="40" />
+        <symbol id="1504:54607" name="State=Disabled Off, Size=Small, Position=Left, Alignment=Center" x="295" y="868.9228515625" width="228" height="40" />
+        <symbol id="1504:54622" name="State=On, Size=Medium, Position=Left, Alignment=Center" x="295" y="963.24755859375" width="234" height="41" />
+        <symbol id="1504:54637" name="State=Off, Size=Medium, Position=Left, Alignment=Center" x="295" y="1057.572265625" width="234" height="41" />
+        <symbol id="1504:54652" name="State=Hover On, Size=Medium, Position=Left, Alignment=Center" x="295" y="1151.8974609375" width="234" height="41" />
+        <symbol id="1504:54667" name="State=Hover Off, Size=Medium, Position=Left, Alignment=Center" x="295" y="1246.2216796875" width="234" height="41" />
+        <symbol id="1504:54682" name="State=Focus On, Size=Medium, Position=Left, Alignment=Center" x="295" y="1340.546875" width="234" height="41" />
+        <symbol id="1504:54697" name="State=Focus Off, Size=Medium, Position=Left, Alignment=Center" x="295" y="1434.87158203125" width="234" height="41" />
+        <symbol id="1504:54712" name="State=Pressed On, Size=Medium, Position=Left, Alignment=Center" x="295" y="1529.1962890625" width="234" height="41" />
+        <symbol id="1504:54727" name="State=Pressed Off, Size=Medium, Position=Left, Alignment=Center" x="295" y="1623.52099609375" width="234" height="41" />
+        <symbol id="1504:54742" name="State=Disabled On, Size=Medium, Position=Left, Alignment=Center" x="295" y="1717.845703125" width="234" height="41" />
+        <symbol id="1504:54757" name="State=Disabled Off, Size=Medium, Position=Left, Alignment=Center" x="295" y="1812.1708984375" width="234" height="41" />
+        <symbol id="1504:54772" name="State=On, Size=Large, Position=Left, Alignment=Center" x="295" y="1906.4951171875" width="240" height="42" />
+        <symbol id="1504:54787" name="State=Off, Size=Large, Position=Left, Alignment=Center" x="295" y="2000.8203125" width="240" height="42" />
+        <symbol id="1504:54802" name="State=Hover On, Size=Large, Position=Left, Alignment=Center" x="295" y="2095.14453125" width="240" height="42" />
+        <symbol id="1504:54817" name="State=Hover Off, Size=Large, Position=Left, Alignment=Center" x="295" y="2189.4697265625" width="240" height="42" />
+        <symbol id="1504:54832" name="State=Focus On, Size=Large, Position=Left, Alignment=Center" x="295" y="2283.794921875" width="240" height="42" />
+        <symbol id="1504:54847" name="State=Focus Off, Size=Large, Position=Left, Alignment=Center" x="295" y="2378.119140625" width="240" height="42" />
+        <symbol id="1504:54862" name="State=Pressed On, Size=Large, Position=Left, Alignment=Center" x="295" y="2472.443359375" width="240" height="42" />
+        <symbol id="1504:54877" name="State=Pressed Off, Size=Large, Position=Left, Alignment=Center" x="295" y="2566.7685546875" width="240" height="42" />
+        <symbol id="1504:54892" name="State=Disabled On, Size=Large, Position=Left, Alignment=Center" x="295" y="2661.09375" width="240" height="42" />
+        <symbol id="1504:54907" name="State=Disabled Off, Size=Large, Position=Left, Alignment=Center" x="295" y="2755.41796875" width="240" height="42" />
+        <symbol id="1504:54922" name="State=On, Size=Small, Position=Left, Alignment=Top" x="35" y="20" width="228" height="40" />
+        <symbol id="1504:54937" name="State=On, Size=Small, Position=Left, Alignment=Bottom" x="555" y="20" width="228" height="40" />
+        <symbol id="1504:54952" name="State=On, Size=Small, Position=Right, Alignment=Top" x="815" y="20" width="228" height="40" />
+        <symbol id="1504:54967" name="State=On, Size=Small, Position=Right, Alignment=Center" x="1075" y="20" width="228" height="40" />
+        <symbol id="1504:54982" name="State=On, Size=Small, Position=Right, Alignment=Bottom" x="1335" y="20" width="228" height="40" />
+        <symbol id="1504:54997" name="State=Off, Size=Small, Position=Left, Alignment=Top" x="35" y="114.32470703125" width="228" height="40" />
+        <symbol id="1504:55012" name="State=Off, Size=Small, Position=Left, Alignment=Bottom" x="555" y="114.32470703125" width="228" height="40" />
+        <symbol id="1504:55027" name="State=Off, Size=Small, Position=Right, Alignment=Top" x="815" y="114.32470703125" width="228" height="40" />
+        <symbol id="1504:55042" name="State=Off, Size=Small, Position=Right, Alignment=Center" x="1075" y="114.32470703125" width="228" height="40" />
+        <symbol id="1504:55057" name="State=Off, Size=Small, Position=Right, Alignment=Bottom" x="1335" y="114.32470703125" width="228" height="40" />
+        <symbol id="1504:55072" name="State=Hover On, Size=Small, Position=Left, Alignment=Top" x="35" y="208.6494140625" width="228" height="40" />
+        <symbol id="1504:55087" name="State=Hover On, Size=Small, Position=Left, Alignment=Bottom" x="555" y="208.6494140625" width="228" height="40" />
+        <symbol id="1504:55102" name="State=Hover On, Size=Small, Position=Right, Alignment=Top" x="815" y="208.6494140625" width="228" height="40" />
+        <symbol id="1504:55117" name="State=Hover On, Size=Small, Position=Right, Alignment=Center" x="1075" y="208.6494140625" width="228" height="40" />
+        <symbol id="1504:55132" name="State=Hover On, Size=Small, Position=Right, Alignment=Bottom" x="1335" y="208.6494140625" width="228" height="40" />
+        <symbol id="1504:55147" name="State=Hover Off, Size=Small, Position=Left, Alignment=Top" x="35" y="302.97412109375" width="228" height="40" />
+        <symbol id="1504:55162" name="State=Hover Off, Size=Small, Position=Left, Alignment=Bottom" x="555" y="302.97412109375" width="228" height="40" />
+        <symbol id="1504:55177" name="State=Hover Off, Size=Small, Position=Right, Alignment=Top" x="815" y="302.97412109375" width="228" height="40" />
+        <symbol id="1504:55192" name="State=Hover Off, Size=Small, Position=Right, Alignment=Center" x="1075" y="302.97412109375" width="228" height="40" />
+        <symbol id="1504:55207" name="State=Hover Off, Size=Small, Position=Right, Alignment=Bottom" x="1335" y="302.97412109375" width="228" height="40" />
+        <symbol id="1504:55222" name="State=Focus On, Size=Small, Position=Left, Alignment=Top" x="35" y="397.298828125" width="228" height="40" />
+        <symbol id="1504:55237" name="State=Focus On, Size=Small, Position=Left, Alignment=Bottom" x="555" y="397.298828125" width="228" height="40" />
+        <symbol id="1504:55252" name="State=Focus On, Size=Small, Position=Right, Alignment=Top" x="815" y="397.298828125" width="228" height="40" />
+        <symbol id="1504:55267" name="State=Focus On, Size=Small, Position=Right, Alignment=Center" x="1075" y="397.298828125" width="228" height="40" />
+        <symbol id="1504:55282" name="State=Focus On, Size=Small, Position=Right, Alignment=Bottom" x="1335" y="397.298828125" width="228" height="40" />
+        <symbol id="1504:55297" name="State=Focus Off, Size=Small, Position=Left, Alignment=Top" x="35" y="491.6240234375" width="228" height="40" />
+        <symbol id="1504:55312" name="State=Focus Off, Size=Small, Position=Left, Alignment=Bottom" x="555" y="491.6240234375" width="228" height="40" />
+        <symbol id="1504:55327" name="State=Focus Off, Size=Small, Position=Right, Alignment=Top" x="815" y="491.6240234375" width="228" height="40" />
+        <symbol id="1504:55342" name="State=Focus Off, Size=Small, Position=Right, Alignment=Center" x="1075" y="491.6240234375" width="228" height="40" />
+        <symbol id="1504:55357" name="State=Focus Off, Size=Small, Position=Right, Alignment=Bottom" x="1335" y="491.6240234375" width="228" height="40" />
+        <symbol id="1504:55372" name="State=Pressed On, Size=Small, Position=Left, Alignment=Top" x="35" y="585.94873046875" width="228" height="40" />
+        <symbol id="1504:55387" name="State=Pressed On, Size=Small, Position=Left, Alignment=Bottom" x="555" y="585.94873046875" width="228" height="40" />
+        <symbol id="1504:55402" name="State=Pressed On, Size=Small, Position=Right, Alignment=Top" x="815" y="585.94873046875" width="228" height="40" />
+        <symbol id="1504:55417" name="State=Pressed On, Size=Small, Position=Right, Alignment=Center" x="1075" y="585.94873046875" width="228" height="40" />
+        <symbol id="1504:55432" name="State=Pressed On, Size=Small, Position=Right, Alignment=Bottom" x="1335" y="585.94873046875" width="228" height="40" />
+        <symbol id="1504:55447" name="State=Pressed Off, Size=Small, Position=Left, Alignment=Top" x="35" y="680.2734375" width="228" height="40" />
+        <symbol id="1504:55462" name="State=Pressed Off, Size=Small, Position=Left, Alignment=Bottom" x="555" y="680.2734375" width="228" height="40" />
+        <symbol id="1504:55477" name="State=Pressed Off, Size=Small, Position=Right, Alignment=Top" x="815" y="680.2734375" width="228" height="40" />
+        <symbol id="1504:55492" name="State=Pressed Off, Size=Small, Position=Right, Alignment=Center" x="1075" y="680.2734375" width="228" height="40" />
+        <symbol id="1504:55507" name="State=Pressed Off, Size=Small, Position=Right, Alignment=Bottom" x="1335" y="680.2734375" width="228" height="40" />
+        <symbol id="1504:55522" name="State=Disabled On, Size=Small, Position=Left, Alignment=Top" x="35" y="774.59814453125" width="228" height="40" />
+        <symbol id="1504:55537" name="State=Disabled On, Size=Small, Position=Left, Alignment=Bottom" x="555" y="774.59814453125" width="228" height="40" />
+        <symbol id="1504:55552" name="State=Disabled On, Size=Small, Position=Right, Alignment=Top" x="815" y="774.59814453125" width="228" height="40" />
+        <symbol id="1504:55567" name="State=Disabled On, Size=Small, Position=Right, Alignment=Center" x="1075" y="774.59814453125" width="228" height="40" />
+        <symbol id="1504:55582" name="State=Disabled On, Size=Small, Position=Right, Alignment=Bottom" x="1335" y="774.59814453125" width="228" height="40" />
+        <symbol id="1504:55597" name="State=Disabled Off, Size=Small, Position=Left, Alignment=Top" x="35" y="868.9228515625" width="228" height="40" />
+        <symbol id="1504:55612" name="State=Disabled Off, Size=Small, Position=Left, Alignment=Bottom" x="555" y="868.9228515625" width="228" height="40" />
+        <symbol id="1504:55627" name="State=Disabled Off, Size=Small, Position=Right, Alignment=Top" x="815" y="868.9228515625" width="228" height="40" />
+        <symbol id="1504:55642" name="State=Disabled Off, Size=Small, Position=Right, Alignment=Center" x="1075" y="868.9228515625" width="228" height="40" />
+        <symbol id="1504:55657" name="State=Disabled Off, Size=Small, Position=Right, Alignment=Bottom" x="1335" y="868.9228515625" width="228" height="40" />
+        <symbol id="1504:55672" name="State=On, Size=Medium, Position=Left, Alignment=Top" x="35" y="963.24755859375" width="234" height="41" />
+        <symbol id="1504:55687" name="State=On, Size=Medium, Position=Left, Alignment=Bottom" x="555" y="963.24755859375" width="234" height="41" />
+        <symbol id="1504:55702" name="State=On, Size=Medium, Position=Right, Alignment=Top" x="815" y="963.24755859375" width="234" height="41" />
+        <symbol id="1504:55717" name="State=On, Size=Medium, Position=Right, Alignment=Center" x="1075" y="963.24755859375" width="234" height="41" />
+        <symbol id="1504:55732" name="State=On, Size=Medium, Position=Right, Alignment=Bottom" x="1335" y="963.24755859375" width="234" height="41" />
+        <symbol id="1504:55747" name="State=Off, Size=Medium, Position=Left, Alignment=Top" x="35" y="1057.572265625" width="234" height="41" />
+        <symbol id="1504:55762" name="State=Off, Size=Medium, Position=Left, Alignment=Bottom" x="555" y="1057.572265625" width="234" height="41" />
+        <symbol id="1504:55777" name="State=Off, Size=Medium, Position=Right, Alignment=Top" x="815" y="1057.572265625" width="234" height="41" />
+        <symbol id="1504:55792" name="State=Off, Size=Medium, Position=Right, Alignment=Center" x="1075" y="1057.572265625" width="234" height="41" />
+        <symbol id="1504:55807" name="State=Off, Size=Medium, Position=Right, Alignment=Bottom" x="1335" y="1057.572265625" width="234" height="41" />
+        <symbol id="1504:55822" name="State=Hover On, Size=Medium, Position=Left, Alignment=Top" x="35" y="1151.8974609375" width="234" height="41" />
+        <symbol id="1504:55837" name="State=Hover On, Size=Medium, Position=Left, Alignment=Bottom" x="555" y="1151.8974609375" width="234" height="41" />
+        <symbol id="1504:55852" name="State=Hover On, Size=Medium, Position=Right, Alignment=Top" x="815" y="1151.8974609375" width="234" height="41" />
+        <symbol id="1504:55867" name="State=Hover On, Size=Medium, Position=Right, Alignment=Center" x="1075" y="1151.8974609375" width="234" height="41" />
+        <symbol id="1504:55882" name="State=Hover On, Size=Medium, Position=Right, Alignment=Bottom" x="1335" y="1151.8974609375" width="234" height="41" />
+        <symbol id="1504:55897" name="State=Hover Off, Size=Medium, Position=Left, Alignment=Top" x="35" y="1246.2216796875" width="234" height="41" />
+        <symbol id="1504:55912" name="State=Hover Off, Size=Medium, Position=Left, Alignment=Bottom" x="555" y="1246.2216796875" width="234" height="41" />
+        <symbol id="1504:55927" name="State=Hover Off, Size=Medium, Position=Right, Alignment=Top" x="815" y="1246.2216796875" width="234" height="41" />
+        <symbol id="1504:55942" name="State=Hover Off, Size=Medium, Position=Right, Alignment=Center" x="1075" y="1246.2216796875" width="234" height="41" />
+        <symbol id="1504:55957" name="State=Hover Off, Size=Medium, Position=Right, Alignment=Bottom" x="1335" y="1246.2216796875" width="234" height="41" />
+        <symbol id="1504:55972" name="State=Focus On, Size=Medium, Position=Left, Alignment=Top" x="35" y="1340.546875" width="234" height="41" />
+        <symbol id="1504:55987" name="State=Focus On, Size=Medium, Position=Left, Alignment=Bottom" x="555" y="1340.546875" width="234" height="41" />
+        <symbol id="1504:56002" name="State=Focus On, Size=Medium, Position=Right, Alignment=Top" x="815" y="1340.546875" width="234" height="41" />
+        <symbol id="1504:56017" name="State=Focus On, Size=Medium, Position=Right, Alignment=Center" x="1075" y="1340.546875" width="234" height="41" />
+        <symbol id="1504:56032" name="State=Focus On, Size=Medium, Position=Right, Alignment=Bottom" x="1335" y="1340.546875" width="234" height="41" />
+        <symbol id="1504:56047" name="State=Focus Off, Size=Medium, Position=Left, Alignment=Top" x="35" y="1434.87158203125" width="234" height="41" />
+        <symbol id="1504:56062" name="State=Focus Off, Size=Medium, Position=Left, Alignment=Bottom" x="555" y="1434.87158203125" width="234" height="41" />
+        <symbol id="1504:56077" name="State=Focus Off, Size=Medium, Position=Right, Alignment=Top" x="815" y="1434.87158203125" width="234" height="41" />
+        <symbol id="1504:56092" name="State=Focus Off, Size=Medium, Position=Right, Alignment=Center" x="1075" y="1434.87158203125" width="234" height="41" />
+        <symbol id="1504:56107" name="State=Focus Off, Size=Medium, Position=Right, Alignment=Bottom" x="1335" y="1434.87158203125" width="234" height="41" />
+        <symbol id="1504:56122" name="State=Pressed On, Size=Medium, Position=Left, Alignment=Top" x="35" y="1529.1962890625" width="234" height="41" />
+        <symbol id="1504:56137" name="State=Pressed On, Size=Medium, Position=Left, Alignment=Bottom" x="555" y="1529.1962890625" width="234" height="41" />
+        <symbol id="1504:56152" name="State=Pressed On, Size=Medium, Position=Right, Alignment=Top" x="815" y="1529.1962890625" width="234" height="41" />
+        <symbol id="1504:56167" name="State=Pressed On, Size=Medium, Position=Right, Alignment=Center" x="1075" y="1529.1962890625" width="234" height="41" />
+        <symbol id="1504:56182" name="State=Pressed On, Size=Medium, Position=Right, Alignment=Bottom" x="1335" y="1529.1962890625" width="234" height="41" />
+        <symbol id="1504:56197" name="State=Pressed Off, Size=Medium, Position=Left, Alignment=Top" x="35" y="1623.52099609375" width="234" height="41" />
+        <symbol id="1504:56212" name="State=Pressed Off, Size=Medium, Position=Left, Alignment=Bottom" x="555" y="1623.52099609375" width="234" height="41" />
+        <symbol id="1504:56227" name="State=Pressed Off, Size=Medium, Position=Right, Alignment=Top" x="815" y="1623.52099609375" width="234" height="41" />
+        <symbol id="1504:56242" name="State=Pressed Off, Size=Medium, Position=Right, Alignment=Center" x="1075" y="1623.52099609375" width="234" height="41" />
+        <symbol id="1504:56257" name="State=Pressed Off, Size=Medium, Position=Right, Alignment=Bottom" x="1335" y="1623.52099609375" width="234" height="41" />
+        <symbol id="1504:56272" name="State=Disabled On, Size=Medium, Position=Left, Alignment=Top" x="35" y="1717.845703125" width="234" height="41" />
+        <symbol id="1504:56287" name="State=Disabled On, Size=Medium, Position=Left, Alignment=Bottom" x="555" y="1717.845703125" width="234" height="41" />
+        <symbol id="1504:56302" name="State=Disabled On, Size=Medium, Position=Right, Alignment=Top" x="815" y="1717.845703125" width="234" height="41" />
+        <symbol id="1504:56317" name="State=Disabled On, Size=Medium, Position=Right, Alignment=Center" x="1075" y="1717.845703125" width="234" height="41" />
+        <symbol id="1504:56332" name="State=Disabled On, Size=Medium, Position=Right, Alignment=Bottom" x="1335" y="1717.845703125" width="234" height="41" />
+        <symbol id="1504:56347" name="State=Disabled Off, Size=Medium, Position=Left, Alignment=Top" x="35" y="1812.1708984375" width="234" height="41" />
+        <symbol id="1504:56362" name="State=Disabled Off, Size=Medium, Position=Left, Alignment=Bottom" x="555" y="1812.1708984375" width="234" height="41" />
+        <symbol id="1504:56377" name="State=Disabled Off, Size=Medium, Position=Right, Alignment=Top" x="815" y="1812.1708984375" width="234" height="41" />
+        <symbol id="1504:56392" name="State=Disabled Off, Size=Medium, Position=Right, Alignment=Center" x="1075" y="1812.1708984375" width="234" height="41" />
+        <symbol id="1504:56407" name="State=Disabled Off, Size=Medium, Position=Right, Alignment=Bottom" x="1335" y="1812.1708984375" width="234" height="41" />
+        <symbol id="1504:56422" name="State=On, Size=Large, Position=Left, Alignment=Top" x="35" y="1906.4951171875" width="240" height="42" />
+        <symbol id="1504:56437" name="State=On, Size=Large, Position=Left, Alignment=Bottom" x="555" y="1906.4951171875" width="240" height="42" />
+        <symbol id="1504:56452" name="State=On, Size=Large, Position=Right, Alignment=Top" x="815" y="1906.4951171875" width="240" height="42" />
+        <symbol id="1504:56467" name="State=On, Size=Large, Position=Right, Alignment=Center" x="1075" y="1906.4951171875" width="240" height="42" />
+        <symbol id="1504:56482" name="State=On, Size=Large, Position=Right, Alignment=Bottom" x="1335" y="1906.4951171875" width="240" height="42" />
+        <symbol id="1504:56497" name="State=Off, Size=Large, Position=Left, Alignment=Top" x="35" y="2000.8203125" width="240" height="42" />
+        <symbol id="1504:56512" name="State=Off, Size=Large, Position=Left, Alignment=Bottom" x="555" y="2000.8203125" width="240" height="42" />
+        <symbol id="1504:56527" name="State=Off, Size=Large, Position=Right, Alignment=Top" x="815" y="2000.8203125" width="240" height="42" />
+        <symbol id="1504:56542" name="State=Off, Size=Large, Position=Right, Alignment=Center" x="1075" y="2000.8203125" width="240" height="42" />
+        <symbol id="1504:56557" name="State=Off, Size=Large, Position=Right, Alignment=Bottom" x="1335" y="2000.8203125" width="240" height="42" />
+        <symbol id="1504:56572" name="State=Hover On, Size=Large, Position=Left, Alignment=Top" x="35" y="2095.14453125" width="240" height="42" />
+        <symbol id="1504:56587" name="State=Hover On, Size=Large, Position=Left, Alignment=Bottom" x="555" y="2095.14453125" width="240" height="42" />
+        <symbol id="1504:56602" name="State=Hover On, Size=Large, Position=Right, Alignment=Top" x="815" y="2095.14453125" width="240" height="42" />
+        <symbol id="1504:56617" name="State=Hover On, Size=Large, Position=Right, Alignment=Center" x="1075" y="2095.14453125" width="240" height="42" />
+        <symbol id="1504:56632" name="State=Hover On, Size=Large, Position=Right, Alignment=Bottom" x="1335" y="2095.14453125" width="240" height="42" />
+        <symbol id="1504:56647" name="State=Hover Off, Size=Large, Position=Left, Alignment=Top" x="35" y="2189.4697265625" width="240" height="42" />
+        <symbol id="1504:56662" name="State=Hover Off, Size=Large, Position=Left, Alignment=Bottom" x="555" y="2189.4697265625" width="240" height="42" />
+        <symbol id="1504:56677" name="State=Hover Off, Size=Large, Position=Right, Alignment=Top" x="815" y="2189.4697265625" width="240" height="42" />
+        <symbol id="1504:56692" name="State=Hover Off, Size=Large, Position=Right, Alignment=Center" x="1075" y="2189.4697265625" width="240" height="42" />
+        <symbol id="1504:56707" name="State=Hover Off, Size=Large, Position=Right, Alignment=Bottom" x="1335" y="2189.4697265625" width="240" height="42" />
+        <symbol id="1504:56722" name="State=Focus On, Size=Large, Position=Left, Alignment=Top" x="35" y="2283.794921875" width="240" height="42" />
+        <symbol id="1504:56737" name="State=Focus On, Size=Large, Position=Left, Alignment=Bottom" x="555" y="2283.794921875" width="240" height="42" />
+        <symbol id="1504:56752" name="State=Focus On, Size=Large, Position=Right, Alignment=Top" x="815" y="2283.794921875" width="240" height="42" />
+        <symbol id="1504:56767" name="State=Focus On, Size=Large, Position=Right, Alignment=Center" x="1075" y="2283.794921875" width="240" height="42" />
+        <symbol id="1504:56782" name="State=Focus On, Size=Large, Position=Right, Alignment=Bottom" x="1335" y="2283.794921875" width="240" height="42" />
+        <symbol id="1504:56797" name="State=Focus Off, Size=Large, Position=Left, Alignment=Top" x="35" y="2378.119140625" width="240" height="42" />
+        <symbol id="1504:56812" name="State=Focus Off, Size=Large, Position=Left, Alignment=Bottom" x="555" y="2378.119140625" width="240" height="42" />
+        <symbol id="1504:56827" name="State=Focus Off, Size=Large, Position=Right, Alignment=Top" x="815" y="2378.119140625" width="240" height="42" />
+        <symbol id="1504:56842" name="State=Focus Off, Size=Large, Position=Right, Alignment=Center" x="1075" y="2378.119140625" width="240" height="42" />
+        <symbol id="1504:56857" name="State=Focus Off, Size=Large, Position=Right, Alignment=Bottom" x="1335" y="2378.119140625" width="240" height="42" />
+        <symbol id="1504:56872" name="State=Pressed On, Size=Large, Position=Left, Alignment=Top" x="35" y="2472.443359375" width="240" height="42" />
+        <symbol id="1504:56887" name="State=Pressed On, Size=Large, Position=Left, Alignment=Bottom" x="555" y="2472.443359375" width="240" height="42" />
+        <symbol id="1504:56902" name="State=Pressed On, Size=Large, Position=Right, Alignment=Top" x="815" y="2472.443359375" width="240" height="42" />
+        <symbol id="1504:56917" name="State=Pressed On, Size=Large, Position=Right, Alignment=Center" x="1075" y="2472.443359375" width="240" height="42" />
+        <symbol id="1504:56932" name="State=Pressed On, Size=Large, Position=Right, Alignment=Bottom" x="1335" y="2472.443359375" width="240" height="42" />
+        <symbol id="1504:56947" name="State=Pressed Off, Size=Large, Position=Left, Alignment=Top" x="35" y="2566.7685546875" width="240" height="42" />
+        <symbol id="1504:56962" name="State=Pressed Off, Size=Large, Position=Left, Alignment=Bottom" x="555" y="2566.7685546875" width="240" height="42" />
+        <symbol id="1504:56977" name="State=Pressed Off, Size=Large, Position=Right, Alignment=Top" x="815" y="2566.7685546875" width="240" height="42" />
+        <symbol id="1504:56992" name="State=Pressed Off, Size=Large, Position=Right, Alignment=Center" x="1075" y="2566.7685546875" width="240" height="42" />
+        <symbol id="1504:57007" name="State=Pressed Off, Size=Large, Position=Right, Alignment=Bottom" x="1335" y="2566.7685546875" width="240" height="42" />
+        <symbol id="1504:57022" name="State=Disabled On, Size=Large, Position=Left, Alignment=Top" x="35" y="2661.09375" width="240" height="42" />
+        <symbol id="1504:57037" name="State=Disabled On, Size=Large, Position=Left, Alignment=Bottom" x="555" y="2661.09375" width="240" height="42" />
+        <symbol id="1504:57052" name="State=Disabled On, Size=Large, Position=Right, Alignment=Top" x="815" y="2661.09375" width="240" height="42" />
+        <symbol id="1504:57067" name="State=Disabled On, Size=Large, Position=Right, Alignment=Center" x="1075" y="2661.09375" width="240" height="42" />
+        <symbol id="1504:57082" name="State=Disabled On, Size=Large, Position=Right, Alignment=Bottom" x="1335" y="2661.09375" width="240" height="42" />
+        <symbol id="1504:57097" name="State=Disabled Off, Size=Large, Position=Left, Alignment=Top" x="35" y="2755.41796875" width="240" height="42" />
+        <symbol id="1504:57112" name="State=Disabled Off, Size=Large, Position=Left, Alignment=Bottom" x="555" y="2755.41796875" width="240" height="42" />
+        <symbol id="1504:57127" name="State=Disabled Off, Size=Large, Position=Right, Alignment=Top" x="815" y="2755.41796875" width="240" height="42" />
+        <symbol id="1504:57142" name="State=Disabled Off, Size=Large, Position=Right, Alignment=Center" x="1075" y="2755.41796875" width="240" height="42" />
+        <symbol id="1504:57157" name="State=Disabled Off, Size=Large, Position=Right, Alignment=Bottom" x="1335" y="2755.41796875" width="240" height="42" />
+      </frame>
+    </section>
+  </section>
+  <section id="1568:30663" name="Pilot Documentation (Radio/ Checkbox/ Toggle)" x="-13503" y="4860" width="8424" height="6949">
+    <frame id="1568:30664" name="(Radio/ Checkbox/ Toggle)" x="543" y="886" width="6526" height="3031">
+      <frame id="1568:30667" name="_Status" x="0" y="0" width="6526" height="114">
+        <text id="1568:30668" name="Core (Radio/ Checkbox/ Toggle)" x="32" y="40.5" width="478" height="32" />
+        <text id="1568:30669" name="SEPTEMBER 2026" x="6258" y="40.5" width="236" height="32" />
+      </frame>
+      <frame id="1568:30670" name="Frame 2121455715" x="123" y="186" width="6288" height="156">
+        <frame id="1568:30671" name="Frame 2121455714" x="0" y="0" width="156" height="156" />
+        <frame id="1568:30676" name="Logotype" x="5988.908203125" y="41.00049591064453" width="299.0917053222656" height="73.99900817871094">
+          <frame id="1568:30677" name="Group" x="-0.221893310546875" y="0" width="299.5354919433594" height="73.99913024902344">
+            <vector id="1568:30678" name="Vector" x="93.97728729248047" y="61.04088592529297" width="118.541748046875" height="12.958113670349121" />
+            <frame id="1568:30679" name="Group" x="96.96601104736328" y="62.9735221862793" width="12.336579322814941" height="8.597864151000977" />
+            <frame id="1568:30682" name="Group" x="111.98466491699219" y="62.95185089111328" width="97.42333221435547" height="8.867423057556152" />
+            <frame id="1568:30696" name="Group" x="-0.2219319719442865" y="0" width="299.5354919433594" height="71.78117370605469">
+              <vector id="1568:30697" name="Vector" x="-0.22197063334169798" y="0" width="92.9480209350586" height="56.08863067626953" />
+              <frame id="1568:30698" name="Group" x="216.59662576731353" y="7.469759464263916" width="82.71688079833984" height="64.31144714355469" />
+              <frame id="1568:30701" name="Group" x="222.6850199323526" y="7.423394203186035" width="28.45973777770996" height="48.95656204223633" />
+              <frame id="1568:30704" name="Group" x="160.2677836042276" y="20.571643829345703" width="28.026350021362305" height="36.302520751953125" />
+              <frame id="1568:30709" name="Group" x="126.92842813547759" y="20.963871002197266" width="30.23380470275879" height="35.41405487060547" />
+              <frame id="1568:30712" name="Group" x="92.65084787424712" y="20.963871002197266" width="30.233793258666992" height="35.41405487060547" />
+              <frame id="1568:30715" name="Group" x="192.10474344309478" y="20.642276763916016" width="27.83435821533203" height="36.263397216796875" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+      <frame id="1568:35528" name="Pilot documentation / Toggle Button" x="123" y="588" width="1814" height="2257">
+        <frame id="1568:35529" name="Title block" x="70" y="80" width="1312" height="148">
+          <text id="1568:35530" name="Toggle" x="0" y="20" width="122" height="40" />
+          <text id="1568:35531" name="Toggle buttons allow users to select one option from a set. Use radio buttons when the user needs to see all available options. If available options can be collapsed, consider using a dropdown menu instead." x="0" y="72" width="1312" height="48" />
+        </frame>
+        <frame id="1568:35532" name="Section heading" x="70" y="288" width="1312" height="48">
+          <text id="1568:35533" name="State comparison" x="0" y="11" width="206" height="26" />
+        </frame>
+        <frame id="1568:35534" name="Table header" x="70" y="348" width="1312" height="48">
+          <frame id="1568:35535" name="State label header" x="0" y="0" width="240" height="48">
+            <text id="1568:35536" name="State" x="24" y="13" width="37" height="22" />
+          </frame>
+          <frame id="1568:35537" name="Size header small" x="240" y="0" width="357.6666564941406" height="48">
+            <text id="1568:35538" name="Small 32 × 16" x="125.33332824707031" y="18" width="107" height="12" />
+          </frame>
+          <frame id="1568:35539" name="Size header medium" x="597.6666259765625" y="0" width="357.66668701171875" height="48">
+            <text id="1568:35540" name="Medium · 38 × 20" x="112.33334350585938" y="13" width="133" height="22" />
+          </frame>
+          <frame id="1568:35541" name="Size header large" x="955.3333129882812" y="0" width="356.66668701171875" height="48">
+            <text id="1568:35542" name="Large · 44 × 24" x="120.83334350585938" y="13" width="115" height="22" />
+          </frame>
+        </frame>
+        <frame id="1568:35543" name="Frame 2121455839" x="70" y="396" width="1312" height="640">
+          <frame id="1568:35544" name="Frame 2121455835" x="0" y="0" width="240" height="640">
+            <frame id="1568:35545" name="State label" x="0" y="0" width="240" height="64">
+              <text id="1568:35546" name="On" x="24" y="23" width="20" height="18" />
+            </frame>
+            <frame id="1568:35547" name="State label" x="0" y="64" width="240" height="64">
+              <text id="1568:35548" name="Off" x="24" y="23" width="20" height="18" />
+            </frame>
+            <frame id="1568:35549" name="State label" x="0" y="128" width="240" height="64">
+              <text id="1568:35550" name="Hover On" x="24" y="23" width="64" height="18" />
+            </frame>
+            <frame id="1568:35551" name="State label" x="0" y="192" width="240" height="64">
+              <text id="1568:35552" name="Label" x="24" y="23" width="64" height="18" />
+            </frame>
+            <frame id="1568:35553" name="State label" x="0" y="256" width="240" height="64">
+              <text id="1568:35554" name="Label" x="24" y="23" width="64" height="18" />
+            </frame>
+            <frame id="1568:35555" name="State label" x="0" y="320" width="240" height="64">
+              <text id="1568:35556" name="Label" x="24" y="23" width="64" height="18" />
+            </frame>
+            <frame id="1568:35557" name="State label" x="0" y="384" width="240" height="64">
+              <text id="1568:35558" name="Label" x="24" y="23" width="77" height="18" />
+            </frame>
+            <frame id="1568:35559" name="State label" x="0" y="448" width="240" height="64">
+              <text id="1568:35560" name="Label" x="24" y="23" width="78" height="18" />
+            </frame>
+            <frame id="1568:35561" name="State label" x="0" y="512" width="240" height="64">
+              <text id="1568:35562" name="Label" x="24" y="23" width="82" height="18" />
+            </frame>
+            <frame id="1568:35563" name="State label" x="0" y="576" width="240" height="64">
+              <text id="1568:35564" name="Label" x="24" y="23" width="82" height="18" />
+            </frame>
+          </frame>
+          <frame id="1568:35565" name="Frame 2121455832" x="240" y="0" width="357.3333435058594" height="640">
+            <frame id="1568:35566" name="Size sample" x="0" y="0" width="357.3333435058594" height="64">
+              <instance id="1568:35567" name="Selection Controls" x="162.6666717529297" y="24" width="32" height="16" />
+            </frame>
+            <frame id="1568:35568" name="Size sample" x="0" y="64" width="357.3333435058594" height="64">
+              <instance id="1568:35569" name="Selection Controls" x="162.6666717529297" y="24" width="32" height="16" />
+            </frame>
+            <frame id="1568:35570" name="Size sample" x="0" y="128" width="357.3333435058594" height="64">
+              <instance id="1568:35571" name="Selection Controls" x="162.6666717529297" y="24" width="32" height="16" />
+            </frame>
+            <frame id="1568:35572" name="Size sample" x="0" y="192" width="357.3333435058594" height="64">
+              <instance id="1568:35573" name="Selection Controls" x="162.6666717529297" y="24" width="32" height="16" />
+            </frame>
+            <frame id="1568:35574" name="Size sample" x="0" y="256" width="357.3333435058594" height="64">
+              <instance id="1568:35575" name="Selection Controls" x="162.6666717529297" y="24" width="32" height="16" />
+            </frame>
+            <frame id="1568:35576" name="Size sample" x="0" y="320" width="357.3333435058594" height="64">
+              <instance id="1568:35577" name="Selection Controls" x="162.6666717529297" y="24" width="32" height="16" />
+            </frame>
+            <frame id="1568:35578" name="Size sample" x="0" y="384" width="357.3333435058594" height="64">
+              <instance id="1568:35579" name="Selection Controls" x="162.6666717529297" y="24" width="32" height="16" />
+            </frame>
+            <frame id="1568:35580" name="Size sample" x="0" y="448" width="357.3333435058594" height="64">
+              <instance id="1568:35581" name="Selection Controls" x="162.6666717529297" y="24" width="32" height="16" />
+            </frame>
+            <frame id="1568:35582" name="Size sample" x="0" y="512" width="357.3333435058594" height="64">
+              <instance id="1568:35583" name="Selection Controls" x="162.6666717529297" y="24" width="32" height="16" />
+            </frame>
+            <frame id="1568:35584" name="Size sample" x="0" y="576" width="357.3333435058594" height="64">
+              <instance id="1568:35585" name="Selection Controls" x="162.6666717529297" y="24" width="32" height="16" />
+            </frame>
+          </frame>
+          <frame id="1568:35586" name="Frame 2121455838" x="597.3333740234375" y="0" width="357.3333435058594" height="640">
+            <frame id="1568:35587" name="Size sample" x="0" y="0" width="357.3333435058594" height="64">
+              <instance id="1568:35588" name="Selection Controls" x="159.6666717529297" y="22" width="38" height="20" />
+            </frame>
+            <frame id="1568:35589" name="Size sample" x="0" y="64" width="357.3333435058594" height="64">
+              <instance id="1568:35590" name="Selection Controls" x="159.6666717529297" y="22" width="38" height="20" />
+            </frame>
+            <frame id="1568:35591" name="Size sample" x="0" y="128" width="357.3333435058594" height="64">
+              <instance id="1568:35592" name="Selection Controls" x="159.6666717529297" y="22" width="38" height="20" />
+            </frame>
+            <frame id="1568:35593" name="Size sample" x="0" y="192" width="357.3333435058594" height="64">
+              <instance id="1568:35594" name="Selection Controls" x="159.6666717529297" y="22" width="38" height="20" />
+            </frame>
+            <frame id="1568:35595" name="Size sample" x="0" y="256" width="357.3333435058594" height="64">
+              <instance id="1568:35596" name="Selection Controls" x="159.6666717529297" y="22" width="38" height="20" />
+            </frame>
+            <frame id="1568:35597" name="Size sample" x="0" y="320" width="357.3333435058594" height="64">
+              <instance id="1568:35598" name="Selection Controls" x="159.6666717529297" y="22" width="38" height="20" />
+            </frame>
+            <frame id="1568:35599" name="Size sample" x="0" y="384" width="357.3333435058594" height="64">
+              <instance id="1568:35600" name="Selection Controls" x="159.6666717529297" y="22" width="38" height="20" />
+            </frame>
+            <frame id="1568:35601" name="Size sample" x="0" y="448" width="357.3333435058594" height="64">
+              <instance id="1568:35602" name="Selection Controls" x="159.6666717529297" y="22" width="38" height="20" />
+            </frame>
+            <frame id="1568:35603" name="Size sample" x="0" y="512" width="357.3333435058594" height="64">
+              <instance id="1568:35604" name="Selection Controls" x="159.6666717529297" y="22" width="38" height="20" />
+            </frame>
+            <frame id="1568:35605" name="Size sample" x="0" y="576" width="357.3333435058594" height="64">
+              <instance id="1568:35606" name="Selection Controls" x="159.6666717529297" y="22" width="38" height="20" />
+            </frame>
+          </frame>
+          <frame id="1568:35607" name="Frame 2121455839" x="954.666748046875" y="0" width="357.3333435058594" height="640">
+            <frame id="1568:35608" name="Size sample" x="0" y="0" width="357.3333435058594" height="64">
+              <instance id="1568:35609" name="Selection Controls" x="156.6666717529297" y="20" width="44" height="24" />
+            </frame>
+            <frame id="1568:35610" name="Size sample" x="0" y="64" width="357.3333435058594" height="64">
+              <instance id="1568:35611" name="Selection Controls" x="156.6666717529297" y="20" width="44" height="24" />
+            </frame>
+            <frame id="1568:35612" name="Size sample" x="0" y="128" width="357.3333435058594" height="64">
+              <instance id="1568:35613" name="Selection Controls" x="156.6666717529297" y="20" width="44" height="24" />
+            </frame>
+            <frame id="1568:35614" name="Size sample" x="0" y="192" width="357.3333435058594" height="64">
+              <instance id="1568:35615" name="Selection Controls" x="156.6666717529297" y="20" width="44" height="24" />
+            </frame>
+            <frame id="1568:35616" name="Size sample" x="0" y="256" width="357.3333435058594" height="64">
+              <instance id="1568:35617" name="Selection Controls" x="156.6666717529297" y="20" width="44" height="24" />
+            </frame>
+            <frame id="1568:35618" name="Size sample" x="0" y="320" width="357.3333435058594" height="64">
+              <instance id="1568:35619" name="Selection Controls" x="156.6666717529297" y="20" width="44" height="24" />
+            </frame>
+            <frame id="1568:35620" name="Size sample" x="0" y="384" width="357.3333435058594" height="64">
+              <instance id="1568:35621" name="Selection Controls" x="156.6666717529297" y="20" width="44" height="24" />
+            </frame>
+            <frame id="1568:35622" name="Size sample" x="0" y="448" width="357.3333435058594" height="64">
+              <instance id="1568:35623" name="Selection Controls" x="156.6666717529297" y="20" width="44" height="24" />
+            </frame>
+            <frame id="1568:35624" name="Size sample" x="0" y="512" width="357.3333435058594" height="64">
+              <instance id="1568:35625" name="Selection Controls" x="156.6666717529297" y="20" width="44" height="24" />
+            </frame>
+            <frame id="1568:35626" name="Size sample" x="0" y="576" width="357.3333435058594" height="64">
+              <instance id="1568:35627" name="Selection Controls" x="156.6666717529297" y="20" width="44" height="24" />
+            </frame>
+          </frame>
+        </frame>
+        <frame id="1568:35628" name="Section heading" x="70" y="1183" width="1312" height="48">
+          <text id="1568:35629" name="Section title" x="0" y="11" width="272" height="26" />
+        </frame>
+        <frame id="1568:35630" name="Configuration card" x="70" y="1248" width="320" height="280">
+          <frame id="1568:35631" name="Card heading" x="0" y="0" width="320" height="56">
+            <text id="1568:35632" name="Configuration title" x="16" y="19" width="76" height="18" />
+          </frame>
+          <frame id="1568:35633" name="Card examples" x="0" y="56" width="320" height="64">
+            <instance id="1568:35634" name="Selection Controls" x="144" y="24" width="32" height="16" />
+          </frame>
+        </frame>
+        <frame id="1568:35635" name="Configuration card" x="409" y="1248" width="320" height="280">
+          <frame id="1568:35636" name="Card heading" x="0" y="0" width="320" height="56">
+            <text id="1568:35637" name="Configuration title" x="16" y="19" width="288" height="18" />
+          </frame>
+          <frame id="1568:35638" name="Card examples" x="0" y="56" width="320" height="68">
+            <instance id="1568:35639" name="Selection Controls" x="16" y="24" width="164" height="20" />
+          </frame>
+        </frame>
+        <frame id="1568:35640" name="Configuration card" x="748" y="1248" width="320" height="280">
+          <frame id="1568:35641" name="Card heading" x="0" y="0" width="320" height="56">
+            <text id="1568:35642" name="Configuration title" x="16" y="19" width="288" height="18" />
+          </frame>
+          <frame id="1568:35643" name="Card examples" x="0" y="56" width="320" height="88">
+            <instance id="1568:35644" name="Selection Controls" x="16" y="24" width="228" height="40" />
+          </frame>
+        </frame>
+        <frame id="1568:35645" name="Configuration card" x="1087" y="1248" width="320" height="320">
+          <frame id="1568:35646" name="Card heading" x="0" y="0" width="320" height="56">
+            <text id="1568:35647" name="Configuration title" x="16" y="10" width="288" height="36" />
+          </frame>
+          <frame id="1568:35648" name="Card examples" x="0" y="56" width="320" height="88">
+            <instance id="1568:35649" name="Selection Controls" x="16" y="24" width="228" height="40" />
+          </frame>
+          <frame id="1568:35650" name="Card examples" x="0" y="144" width="320" height="88">
+            <instance id="1568:35651" name="Selection Controls" x="16" y="24" width="228" height="40" />
+          </frame>
+          <frame id="1568:35652" name="Card examples" x="0" y="232" width="320" height="88">
+            <instance id="1568:35653" name="Selection Controls" x="16" y="24" width="228" height="40" />
+          </frame>
+        </frame>
+        <frame id="1568:35654" name="Configuration card" x="1440" y="1248" width="320" height="144">
+          <frame id="1568:35655" name="Card heading" x="0" y="0" width="320" height="56">
+            <text id="1568:35656" name="Configuration title" x="16" y="19" width="288" height="18" />
+          </frame>
+          <frame id="1568:35657" name="Card examples" x="0" y="56" width="320" height="88">
+            <instance id="1568:35658" name="Selection Controls" x="16" y="24" width="228" height="40" />
+          </frame>
+        </frame>
+        <frame id="1568:35659" name="Configuration card" x="1440" y="1421" width="320" height="210">
+          <frame id="1568:35660" name="Card heading" x="0" y="0" width="320" height="56">
+            <text id="1568:35661" name="Configuration title" x="16" y="10" width="288" height="36" />
+          </frame>
+          <frame id="1568:35662" name="Card examples" x="0" y="56" width="320" height="88">
+            <instance id="1568:35663" name="Selection Controls" x="16" y="24" width="228" height="40" />
+          </frame>
+        </frame>
+        <frame id="1568:35664" name="Component properties" x="76" y="1749" width="1684" height="428">
+          <frame id="1568:35665" name="Section heading" x="0" y="0" width="1684" height="48">
+            <text id="1568:35666" name="Section title" x="0" y="11" width="266" height="26" />
+          </frame>
+          <frame id="1568:35667" name="Property definitions" x="0" y="60" width="1684" height="368">
+            <frame id="1568:35668" name="Table header" x="0" y="0" width="1684" height="48">
+              <frame id="1568:35669" name="Property cell" x="0" y="0" width="180" height="48">
+                <text id="1568:35670" name="Column title" x="20" y="13.5" width="140" height="21" />
+              </frame>
+              <frame id="1568:35671" name="Property cell" x="180" y="0" width="140" height="48">
+                <text id="1568:35672" name="Column title" x="20" y="13.5" width="100" height="21" />
+              </frame>
+              <frame id="1568:35673" name="Property cell" x="320" y="0" width="1024" height="48">
+                <text id="1568:35674" name="Column title" x="20" y="13.5" width="984" height="21" />
+              </frame>
+              <frame id="1568:35675" name="Property cell" x="1344" y="0" width="340" height="48">
+                <text id="1568:35676" name="Column title" x="20" y="13.5" width="300" height="21" />
+              </frame>
+            </frame>
+            <frame id="1568:35677" name="Property row" x="0" y="48" width="1684" height="56">
+              <frame id="1568:35678" name="Property cell" x="0" y="0" width="180" height="56">
+                <text id="1568:35679" name="Property value" x="20" y="17.5" width="140" height="21" />
+              </frame>
+              <frame id="1568:35680" name="Property cell" x="180" y="0" width="140" height="56">
+                <text id="1568:35681" name="Property value" x="20" y="17.5" width="100" height="21" />
+              </frame>
+              <frame id="1568:35682" name="Property cell" x="320" y="0" width="1024" height="56">
+                <text id="1568:35683" name="Property value" x="20" y="7" width="984" height="42" />
+              </frame>
+              <frame id="1568:35684" name="Property cell" x="1344" y="0" width="340" height="56">
+                <text id="1568:35685" name="Property value" x="20" y="17.5" width="300" height="21" />
+              </frame>
+            </frame>
+            <frame id="1568:35686" name="Property row" x="0" y="104" width="1684" height="44">
+              <frame id="1568:35687" name="Property cell" x="0" y="0" width="180" height="44">
+                <text id="1568:35688" name="Property value" x="20" y="11.5" width="140" height="21" />
+              </frame>
+              <frame id="1568:35689" name="Property cell" x="180" y="0" width="140" height="44">
+                <text id="1568:35690" name="Property value" x="20" y="11.5" width="100" height="21" />
+              </frame>
+              <frame id="1568:35691" name="Property cell" x="320" y="0" width="1024" height="44">
+                <text id="1568:35692" name="Property value" x="20" y="11.5" width="984" height="21" />
+              </frame>
+              <frame id="1568:35693" name="Property cell" x="1344" y="0" width="340" height="44">
+                <text id="1568:35694" name="Property value" x="20" y="11.5" width="300" height="21" />
+              </frame>
+            </frame>
+            <frame id="1568:35695" name="Property row" x="0" y="148" width="1684" height="44">
+              <frame id="1568:35696" name="Property cell" x="0" y="0" width="180" height="44">
+                <text id="1568:35697" name="Property value" x="20" y="11.5" width="140" height="21" />
+              </frame>
+              <frame id="1568:35698" name="Property cell" x="180" y="0" width="140" height="44">
+                <text id="1568:35699" name="Property value" x="20" y="11.5" width="100" height="21" />
+              </frame>
+              <frame id="1568:35700" name="Property cell" x="320" y="0" width="1024" height="44">
+                <text id="1568:35701" name="Property value" x="20" y="11.5" width="984" height="21" />
+              </frame>
+              <frame id="1568:35702" name="Property cell" x="1344" y="0" width="340" height="44">
+                <text id="1568:35703" name="Property value" x="20" y="11.5" width="300" height="21" />
+              </frame>
+            </frame>
+            <frame id="1568:35704" name="Property row" x="0" y="192" width="1684" height="44">
+              <frame id="1568:35705" name="Property cell" x="0" y="0" width="180" height="44">
+                <text id="1568:35706" name="Property value" x="20" y="11.5" width="140" height="21" />
+              </frame>
+              <frame id="1568:35707" name="Property cell" x="180" y="0" width="140" height="44">
+                <text id="1568:35708" name="Property value" x="20" y="11.5" width="100" height="21" />
+              </frame>
+              <frame id="1568:35709" name="Property cell" x="320" y="0" width="1024" height="44">
+                <text id="1568:35710" name="Property value" x="20" y="11.5" width="984" height="21" />
+              </frame>
+              <frame id="1568:35711" name="Property cell" x="1344" y="0" width="340" height="44">
+                <text id="1568:35712" name="Property value" x="20" y="11.5" width="300" height="21" />
+              </frame>
+            </frame>
+            <frame id="1568:35713" name="Property row" x="0" y="236" width="1684" height="44">
+              <frame id="1568:35714" name="Property cell" x="0" y="0" width="180" height="44">
+                <text id="1568:35715" name="Property value" x="20" y="11.5" width="140" height="21" />
+              </frame>
+              <frame id="1568:35716" name="Property cell" x="180" y="0" width="140" height="44">
+                <text id="1568:35717" name="Property value" x="20" y="11.5" width="100" height="21" />
+              </frame>
+              <frame id="1568:35718" name="Property cell" x="320" y="0" width="1024" height="44">
+                <text id="1568:35719" name="Property value" x="20" y="11.5" width="984" height="21" />
+              </frame>
+              <frame id="1568:35720" name="Property cell" x="1344" y="0" width="340" height="44">
+                <text id="1568:35721" name="Property value" x="20" y="11.5" width="300" height="21" />
+              </frame>
+            </frame>
+            <frame id="1568:35722" name="Property row" x="0" y="280" width="1684" height="44">
+              <frame id="1568:35723" name="Property cell" x="0" y="0" width="180" height="44">
+                <text id="1568:35724" name="Property value" x="20" y="11.5" width="140" height="21" />
+              </frame>
+              <frame id="1568:35725" name="Property cell" x="180" y="0" width="140" height="44">
+                <text id="1568:35726" name="Property value" x="20" y="11.5" width="100" height="21" />
+              </frame>
+              <frame id="1568:35727" name="Property cell" x="320" y="0" width="1024" height="44">
+                <text id="1568:35728" name="Property value" x="20" y="11.5" width="984" height="21" />
+              </frame>
+              <frame id="1568:35729" name="Property cell" x="1344" y="0" width="340" height="44">
+                <text id="1568:35730" name="Property value" x="20" y="11.5" width="300" height="21" />
+              </frame>
+            </frame>
+            <frame id="1568:35731" name="Property row" x="0" y="324" width="1684" height="44">
+              <frame id="1568:35732" name="Property cell" x="0" y="0" width="180" height="44">
+                <text id="1568:35733" name="Property value" x="20" y="11.5" width="140" height="21" />
+              </frame>
+              <frame id="1568:35734" name="Property cell" x="180" y="0" width="140" height="44">
+                <text id="1568:35735" name="Property value" x="20" y="11.5" width="100" height="21" />
+              </frame>
+              <frame id="1568:35736" name="Property cell" x="320" y="0" width="1024" height="44">
+                <text id="1568:35737" name="Property value" x="20" y="11.5" width="984" height="21" />
+              </frame>
+              <frame id="1568:35738" name="Property cell" x="1344" y="0" width="340" height="44">
+                <text id="1568:35739" name="Property value" x="20" y="11.5" width="300" height="21" />
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+        <line id="1568:35740" name="Line 6" x="70" y="1123" width="1690" height="0.0001477444920965354" />
+        <line id="1568:35741" name="Line 7" x="70" y="1691" width="1690" height="0.0001477444920965354" />
+      </frame>
+      <frame id="1568:35742" name="Pilot documentation /Checkbox Button" x="2360" y="599" width="1814" height="2246">
+        <frame id="1568:35743" name="Title block" x="70" y="80" width="1312" height="148">
+          <text id="1568:35744" name="Checkbox Button" x="0" y="20" width="323" height="40" />
+          <text id="1568:35745" name="Radio buttons allow users to select one option from a set. Use radio buttons when the user needs to see all available options. If available options can be collapsed, consider using a dropdown menu instead." x="0" y="72" width="1312" height="48" />
+        </frame>
+        <frame id="1568:35746" name="Section heading" x="70" y="288" width="1312" height="48">
+          <text id="1568:35747" name="State comparison" x="0" y="11" width="206" height="26" />
+        </frame>
+        <frame id="1568:35748" name="Table header" x="70" y="348" width="1312" height="48">
+          <frame id="1568:35749" name="State label header" x="0" y="0" width="240" height="48">
+            <text id="1568:35750" name="State" x="24" y="13" width="37" height="22" />
+          </frame>
+          <frame id="1568:35751" name="Size header small" x="240" y="0" width="357.6666564941406" height="48">
+            <text id="1568:35752" name="Small 20 × 20" x="129.3333282470703" y="13" width="99" height="22" />
+          </frame>
+          <frame id="1568:35753" name="Size header medium" x="597.6666259765625" y="0" width="357.66668701171875" height="48">
+            <text id="1568:35754" name="Medium · 24 × 24" x="112.33334350585938" y="13" width="133" height="22" />
+          </frame>
+          <frame id="1568:35755" name="Size header large" x="955.3333129882812" y="0" width="356.66668701171875" height="48">
+            <text id="1568:35756" name="Large · 28 × 28" x="120.33334350585938" y="13" width="116" height="22" />
+          </frame>
+        </frame>
+        <frame id="1568:35757" name="Frame 2121455835" x="70" y="396" width="240" height="448">
+          <frame id="1568:35758" name="State label" x="0" y="0" width="240" height="64">
+            <text id="1568:35759" name="Checked" x="24" y="23" width="60" height="18" />
+          </frame>
+          <frame id="1568:35760" name="State label" x="0" y="64" width="240" height="64">
+            <text id="1568:35761" name="Multi-selected" x="24" y="23" width="93" height="18" />
+          </frame>
+          <frame id="1568:35762" name="State label" x="0" y="128" width="240" height="64">
+            <text id="1568:35763" name="Unchecked" x="24" y="23" width="76" height="18" />
+          </frame>
+          <frame id="1568:35764" name="State label" x="0" y="192" width="240" height="64">
+            <text id="1568:35765" name="Label" x="24" y="23" width="58" height="18" />
+          </frame>
+          <frame id="1568:35766" name="State label" x="0" y="256" width="240" height="64">
+            <text id="1568:35767" name="Label" x="24" y="23" width="82" height="18" />
+          </frame>
+          <frame id="1568:35768" name="State label" x="0" y="320" width="240" height="64">
+            <text id="1568:35769" name="Label" x="24" y="23" width="40" height="18" />
+          </frame>
+          <frame id="1568:35770" name="State label" x="0" y="384" width="240" height="64">
+            <text id="1568:35771" name="Label" x="24" y="23" width="54" height="18" />
+          </frame>
+        </frame>
+        <frame id="1568:35772" name="Frame 2121455832" x="310" y="396" width="357.3333435058594" height="448">
+          <frame id="1568:35773" name="Size sample" x="0" y="0" width="357.3333435058594" height="64">
+            <instance id="1568:35774" name="Checkbox" x="168.6666717529297" y="22" width="20" height="20" />
+          </frame>
+          <frame id="1568:35775" name="Size sample" x="0" y="64" width="357.3333435058594" height="64">
+            <instance id="1568:35776" name="Checkbox" x="168.6666717529297" y="22" width="20" height="20" />
+          </frame>
+          <frame id="1568:35777" name="Size sample" x="0" y="128" width="357.3333435058594" height="64">
+            <instance id="1568:35778" name="Checkbox" x="168.6666717529297" y="22" width="20" height="20" />
+          </frame>
+          <frame id="1568:35779" name="Size sample" x="0" y="192" width="357.3333435058594" height="64">
+            <instance id="1568:35780" name="Checkbox" x="168.6666717529297" y="22" width="20" height="20" />
+          </frame>
+          <frame id="1568:35781" name="Size sample" x="0" y="256" width="357.3333435058594" height="64">
+            <instance id="1568:35782" name="Checkbox" x="168.6666717529297" y="22" width="20" height="20" />
+          </frame>
+          <frame id="1568:35783" name="Size sample" x="0" y="320" width="357.3333435058594" height="64">
+            <instance id="1568:35784" name="Checkbox" x="168.6666717529297" y="22" width="20" height="20" />
+          </frame>
+          <frame id="1568:35785" name="Size sample" x="0" y="384" width="357.3333435058594" height="64">
+            <instance id="1568:35786" name="Checkbox" x="168.6666717529297" y="22" width="20" height="20" />
+          </frame>
+        </frame>
+        <frame id="1568:35787" name="Frame 2121455836" x="667.33349609375" y="396" width="357.3333435058594" height="448">
+          <frame id="1568:35788" name="Size sample" x="0" y="0" width="357.3333435058594" height="64">
+            <instance id="1568:35789" name="Checkbox" x="166.6666717529297" y="19.99999237060547" width="24.00001335144043" height="24.000015258789062" />
+          </frame>
+          <frame id="1568:35790" name="Size sample" x="0" y="64" width="357.3333435058594" height="64">
+            <instance id="1568:35791" name="Checkbox" x="166.6666717529297" y="19.99999237060547" width="24.00001335144043" height="24.000015258789062" />
+          </frame>
+          <frame id="1568:35792" name="Size sample" x="0" y="128" width="357.3333435058594" height="64">
+            <instance id="1568:35793" name="Checkbox" x="166.6666717529297" y="19.99999237060547" width="24.00001335144043" height="24.000015258789062" />
+          </frame>
+          <frame id="1568:35794" name="Size sample" x="0" y="192" width="357.3333435058594" height="64">
+            <instance id="1568:35795" name="Checkbox" x="166.6666717529297" y="19.99999237060547" width="24.00001335144043" height="24.000015258789062" />
+          </frame>
+          <frame id="1568:35796" name="Size sample" x="0" y="256" width="357.3333435058594" height="64">
+            <instance id="1568:35797" name="Checkbox" x="166.6666717529297" y="19.99999237060547" width="24.00001335144043" height="24.000015258789062" />
+          </frame>
+          <frame id="1568:35798" name="Size sample" x="0" y="320" width="357.3333435058594" height="64">
+            <instance id="1568:35799" name="Checkbox" x="166.6666717529297" y="19.99999237060547" width="24.00001335144043" height="24.000015258789062" />
+          </frame>
+          <frame id="1568:35800" name="Size sample" x="0" y="384" width="357.3333435058594" height="64">
+            <instance id="1568:35801" name="Checkbox" x="166.6666717529297" y="19.99999237060547" width="24.00001335144043" height="24.000015258789062" />
+          </frame>
+        </frame>
+        <frame id="1568:35802" name="Frame 2121455837" x="1024.666748046875" y="396" width="357.3333435058594" height="448">
+          <frame id="1568:35803" name="Size sample" x="0" y="0" width="357.3333435058594" height="64">
+            <instance id="1568:35804" name="Checkbox" x="164.6666717529297" y="18" width="28" height="28" />
+          </frame>
+          <frame id="1568:35805" name="Size sample" x="0" y="64" width="357.3333435058594" height="64">
+            <instance id="1568:35806" name="Checkbox" x="164.6666717529297" y="18" width="28" height="28" />
+          </frame>
+          <frame id="1568:35807" name="Size sample" x="0" y="128" width="357.3333435058594" height="64">
+            <instance id="1568:35808" name="Checkbox" x="164.6666717529297" y="18" width="28" height="28" />
+          </frame>
+          <frame id="1568:35809" name="Size sample" x="0" y="192" width="357.3333435058594" height="64">
+            <instance id="1568:35810" name="Checkbox" x="164.6666717529297" y="18" width="28" height="28" />
+          </frame>
+          <frame id="1568:35811" name="Size sample" x="0" y="256" width="357.3333435058594" height="64">
+            <instance id="1568:35812" name="Checkbox" x="164.6666717529297" y="18" width="28" height="28" />
+          </frame>
+          <frame id="1568:35813" name="Size sample" x="0" y="320" width="357.3333435058594" height="64">
+            <instance id="1568:35814" name="Checkbox" x="164.6666717529297" y="18" width="28" height="28" />
+          </frame>
+          <frame id="1568:35815" name="Size sample" x="0" y="384" width="357.3333435058594" height="64">
+            <instance id="1568:35816" name="Checkbox" x="164.6666717529297" y="18" width="28" height="28" />
+          </frame>
+        </frame>
+        <frame id="1568:35817" name="Section heading" x="70" y="987" width="1312" height="48">
+          <text id="1568:35818" name="Section title" x="0" y="11" width="272" height="26" />
+        </frame>
+        <frame id="1568:35819" name="Configuration card" x="70" y="1052" width="320" height="280">
+          <frame id="1568:35820" name="Card heading" x="0" y="0" width="320" height="56">
+            <text id="1568:35821" name="Configuration title" x="16" y="19" width="96" height="18" />
+          </frame>
+          <frame id="1568:35822" name="Card examples" x="0" y="56" width="320" height="68">
+            <instance id="1568:35823" name="Checkbox" x="150" y="24" width="20" height="20" />
+          </frame>
+        </frame>
+        <frame id="1568:35824" name="Configuration card" x="409" y="1052" width="320" height="280">
+          <frame id="1568:35825" name="Card heading" x="0" y="0" width="320" height="56">
+            <text id="1568:35826" name="Configuration title" x="16" y="19" width="288" height="18" />
+          </frame>
+          <frame id="1568:35827" name="Card examples" x="0" y="56" width="320" height="69">
+            <instance id="1568:35828" name="Checkbox" x="16" y="24" width="169" height="21" />
+          </frame>
+        </frame>
+        <frame id="1568:35829" name="Configuration card" x="748" y="1052" width="320" height="280">
+          <frame id="1568:35830" name="Card heading" x="0" y="0" width="320" height="56">
+            <text id="1568:35831" name="Configuration title" x="16" y="19" width="288" height="18" />
+          </frame>
+          <frame id="1568:35832" name="Card examples" x="0" y="56" width="320" height="89">
+            <instance id="1568:35833" name="Checkbox" x="16" y="24" width="216" height="41" />
+          </frame>
+        </frame>
+        <frame id="1568:35834" name="Configuration card" x="1087" y="1052" width="320" height="323">
+          <frame id="1568:35835" name="Card heading" x="0" y="0" width="320" height="56">
+            <text id="1568:35836" name="Configuration title" x="16" y="10" width="288" height="36" />
+          </frame>
+          <frame id="1568:35837" name="Card examples" x="0" y="56" width="320" height="89">
+            <instance id="1568:35838" name="Checkbox" x="16" y="24" width="216" height="41" />
+          </frame>
+          <frame id="1568:35839" name="Card examples" x="0" y="145" width="320" height="89">
+            <instance id="1568:35840" name="Checkbox" x="16" y="24" width="216" height="41" />
+          </frame>
+          <frame id="1568:35841" name="Card examples" x="0" y="234" width="320" height="89">
+            <instance id="1568:35842" name="Checkbox" x="16" y="24" width="216" height="41" />
+          </frame>
+        </frame>
+        <frame id="1568:35843" name="Configuration card" x="1440" y="1052" width="320" height="145">
+          <frame id="1568:35844" name="Card heading" x="0" y="0" width="320" height="56">
+            <text id="1568:35845" name="Configuration title" x="16" y="19" width="288" height="18" />
+          </frame>
+          <frame id="1568:35846" name="Card examples" x="0" y="56" width="320" height="89">
+            <instance id="1568:35847" name="Checkbox" x="16" y="24" width="216" height="41" />
+          </frame>
+        </frame>
+        <frame id="1568:35848" name="Configuration card" x="1440" y="1225" width="320" height="210">
+          <frame id="1568:35849" name="Card heading" x="0" y="0" width="320" height="56">
+            <text id="1568:35850" name="Configuration title" x="16" y="10" width="288" height="36" />
+          </frame>
+          <frame id="1568:35851" name="Card examples" x="0" y="56" width="320" height="89">
+            <instance id="1568:35852" name="Checkbox" x="16" y="24" width="216" height="41" />
+          </frame>
+        </frame>
+        <frame id="1568:35853" name="Component properties" x="76" y="1590" width="1684" height="428">
+          <frame id="1568:35854" name="Section heading" x="0" y="0" width="1684" height="48">
+            <text id="1568:35855" name="Section title" x="0" y="11" width="266" height="26" />
+          </frame>
+          <frame id="1568:35856" name="Property definitions" x="0" y="60" width="1684" height="368">
+            <frame id="1568:35857" name="Table header" x="0" y="0" width="1684" height="48">
+              <frame id="1568:35858" name="Property cell" x="0" y="0" width="180" height="48">
+                <text id="1568:35859" name="Column title" x="20" y="13.5" width="140" height="21" />
+              </frame>
+              <frame id="1568:35860" name="Property cell" x="180" y="0" width="140" height="48">
+                <text id="1568:35861" name="Column title" x="20" y="13.5" width="100" height="21" />
+              </frame>
+              <frame id="1568:35862" name="Property cell" x="320" y="0" width="1024" height="48">
+                <text id="1568:35863" name="Column title" x="20" y="13.5" width="984" height="21" />
+              </frame>
+              <frame id="1568:35864" name="Property cell" x="1344" y="0" width="340" height="48">
+                <text id="1568:35865" name="Column title" x="20" y="13.5" width="300" height="21" />
+              </frame>
+            </frame>
+            <frame id="1568:35866" name="Property row" x="0" y="48" width="1684" height="56">
+              <frame id="1568:35867" name="Property cell" x="0" y="0" width="180" height="56">
+                <text id="1568:35868" name="Property value" x="20" y="17.5" width="140" height="21" />
+              </frame>
+              <frame id="1568:35869" name="Property cell" x="180" y="0" width="140" height="56">
+                <text id="1568:35870" name="Property value" x="20" y="17.5" width="100" height="21" />
+              </frame>
+              <frame id="1568:35871" name="Property cell" x="320" y="0" width="1024" height="56">
+                <text id="1568:35872" name="Property value" x="20" y="7" width="984" height="42" />
+              </frame>
+              <frame id="1568:35873" name="Property cell" x="1344" y="0" width="340" height="56">
+                <text id="1568:35874" name="Property value" x="20" y="17.5" width="300" height="21" />
+              </frame>
+            </frame>
+            <frame id="1568:35875" name="Property row" x="0" y="104" width="1684" height="44">
+              <frame id="1568:35876" name="Property cell" x="0" y="0" width="180" height="44">
+                <text id="1568:35877" name="Property value" x="20" y="11.5" width="140" height="21" />
+              </frame>
+              <frame id="1568:35878" name="Property cell" x="180" y="0" width="140" height="44">
+                <text id="1568:35879" name="Property value" x="20" y="11.5" width="100" height="21" />
+              </frame>
+              <frame id="1568:35880" name="Property cell" x="320" y="0" width="1024" height="44">
+                <text id="1568:35881" name="Property value" x="20" y="11.5" width="984" height="21" />
+              </frame>
+              <frame id="1568:35882" name="Property cell" x="1344" y="0" width="340" height="44">
+                <text id="1568:35883" name="Property value" x="20" y="11.5" width="300" height="21" />
+              </frame>
+            </frame>
+            <frame id="1568:35884" name="Property row" x="0" y="148" width="1684" height="44">
+              <frame id="1568:35885" name="Property cell" x="0" y="0" width="180" height="44">
+                <text id="1568:35886" name="Property value" x="20" y="11.5" width="140" height="21" />
+              </frame>
+              <frame id="1568:35887" name="Property cell" x="180" y="0" width="140" height="44">
+                <text id="1568:35888" name="Property value" x="20" y="11.5" width="100" height="21" />
+              </frame>
+              <frame id="1568:35889" name="Property cell" x="320" y="0" width="1024" height="44">
+                <text id="1568:35890" name="Property value" x="20" y="11.5" width="984" height="21" />
+              </frame>
+              <frame id="1568:35891" name="Property cell" x="1344" y="0" width="340" height="44">
+                <text id="1568:35892" name="Property value" x="20" y="11.5" width="300" height="21" />
+              </frame>
+            </frame>
+            <frame id="1568:35893" name="Property row" x="0" y="192" width="1684" height="44">
+              <frame id="1568:35894" name="Property cell" x="0" y="0" width="180" height="44">
+                <text id="1568:35895" name="Property value" x="20" y="11.5" width="140" height="21" />
+              </frame>
+              <frame id="1568:35896" name="Property cell" x="180" y="0" width="140" height="44">
+                <text id="1568:35897" name="Property value" x="20" y="11.5" width="100" height="21" />
+              </frame>
+              <frame id="1568:35898" name="Property cell" x="320" y="0" width="1024" height="44">
+                <text id="1568:35899" name="Property value" x="20" y="11.5" width="984" height="21" />
+              </frame>
+              <frame id="1568:35900" name="Property cell" x="1344" y="0" width="340" height="44">
+                <text id="1568:35901" name="Property value" x="20" y="11.5" width="300" height="21" />
+              </frame>
+            </frame>
+            <frame id="1568:35902" name="Property row" x="0" y="236" width="1684" height="44">
+              <frame id="1568:35903" name="Property cell" x="0" y="0" width="180" height="44">
+                <text id="1568:35904" name="Property value" x="20" y="11.5" width="140" height="21" />
+              </frame>
+              <frame id="1568:35905" name="Property cell" x="180" y="0" width="140" height="44">
+                <text id="1568:35906" name="Property value" x="20" y="11.5" width="100" height="21" />
+              </frame>
+              <frame id="1568:35907" name="Property cell" x="320" y="0" width="1024" height="44">
+                <text id="1568:35908" name="Property value" x="20" y="11.5" width="984" height="21" />
+              </frame>
+              <frame id="1568:35909" name="Property cell" x="1344" y="0" width="340" height="44">
+                <text id="1568:35910" name="Property value" x="20" y="11.5" width="300" height="21" />
+              </frame>
+            </frame>
+            <frame id="1568:35911" name="Property row" x="0" y="280" width="1684" height="44">
+              <frame id="1568:35912" name="Property cell" x="0" y="0" width="180" height="44">
+                <text id="1568:35913" name="Property value" x="20" y="11.5" width="140" height="21" />
+              </frame>
+              <frame id="1568:35914" name="Property cell" x="180" y="0" width="140" height="44">
+                <text id="1568:35915" name="Property value" x="20" y="11.5" width="100" height="21" />
+              </frame>
+              <frame id="1568:35916" name="Property cell" x="320" y="0" width="1024" height="44">
+                <text id="1568:35917" name="Property value" x="20" y="11.5" width="984" height="21" />
+              </frame>
+              <frame id="1568:35918" name="Property cell" x="1344" y="0" width="340" height="44">
+                <text id="1568:35919" name="Property value" x="20" y="11.5" width="300" height="21" />
+              </frame>
+            </frame>
+            <frame id="1568:35920" name="Property row" x="0" y="324" width="1684" height="44">
+              <frame id="1568:35921" name="Property cell" x="0" y="0" width="180" height="44">
+                <text id="1568:35922" name="Property value" x="20" y="11.5" width="140" height="21" />
+              </frame>
+              <frame id="1568:35923" name="Property cell" x="180" y="0" width="140" height="44">
+                <text id="1568:35924" name="Property value" x="20" y="11.5" width="100" height="21" />
+              </frame>
+              <frame id="1568:35925" name="Property cell" x="320" y="0" width="1024" height="44">
+                <text id="1568:35926" name="Property value" x="20" y="11.5" width="984" height="21" />
+              </frame>
+              <frame id="1568:35927" name="Property cell" x="1344" y="0" width="340" height="44">
+                <text id="1568:35928" name="Property value" x="20" y="11.5" width="300" height="21" />
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+        <line id="1568:35929" name="Line 6" x="70" y="929" width="1690" height="0.0001477444920965354" />
+        <line id="1568:35930" name="Line 7" x="70" y="1532" width="1690" height="0.0001477444920965354" />
+      </frame>
+      <frame id="1568:35931" name="Pilot documentation / Radio Button" x="4597" y="517" width="1814" height="2328">
+        <frame id="1568:35932" name="Title block" x="70" y="80" width="1312" height="148">
+          <text id="1568:35933" name="Radio Button" x="0" y="20" width="237" height="40" />
+          <text id="1568:35934" name="Radio buttons allow users to select one option from a set. Use radio buttons when the user needs to see all available options. If available options can be collapsed, consider using a dropdown menu instead." x="0" y="72" width="1312" height="48" />
+        </frame>
+        <frame id="1568:35935" name="Section heading" x="70" y="288" width="1312" height="48">
+          <text id="1568:35936" name="State comparison" x="0" y="11" width="206" height="26" />
+        </frame>
+        <frame id="1568:35937" name="Table header" x="70" y="348" width="1312" height="48">
+          <frame id="1568:35938" name="State label header" x="0" y="0" width="240" height="48">
+            <text id="1568:35939" name="State" x="24" y="13" width="37" height="22" />
+          </frame>
+          <frame id="1568:35940" name="Size header small" x="240" y="0" width="357.6666564941406" height="48">
+            <text id="1568:35941" name="Small 20 × 20" x="129.3333282470703" y="13" width="99" height="22" />
+          </frame>
+          <frame id="1568:35942" name="Size header medium" x="597.6666259765625" y="0" width="357.66668701171875" height="48">
+            <text id="1568:35943" name="Medium · 24 × 24" x="112.33334350585938" y="13" width="133" height="22" />
+          </frame>
+          <frame id="1568:35944" name="Size header large" x="955.3333129882812" y="0" width="356.66668701171875" height="48">
+            <text id="1568:35945" name="Large · 28 × 28" x="120.33334350585938" y="13" width="116" height="22" />
+          </frame>
+        </frame>
+        <frame id="1568:35946" name="Table header" x="70" y="1571" width="1312" height="48">
+          <frame id="1568:35947" name="State label header" x="0" y="0" width="240" height="48">
+            <text id="1568:35948" name="Sizes" x="24" y="13" width="38" height="22" />
+          </frame>
+          <frame id="1568:35949" name="Size header small" x="240" y="0" width="357.6666564941406" height="48">
+            <text id="1568:35950" name="Small 20 × 20" x="129.3333282470703" y="13" width="99" height="22" />
+          </frame>
+          <frame id="1568:35951" name="Size header medium" x="597.6666259765625" y="0" width="357.66668701171875" height="48">
+            <text id="1568:35952" name="Medium · 24 × 24" x="112.33334350585938" y="13" width="133" height="22" />
+          </frame>
+          <frame id="1568:35953" name="Size header large" x="955.3333129882812" y="0" width="356.66668701171875" height="48">
+            <text id="1568:35954" name="Large · 28 × 28" x="120.33334350585938" y="13" width="116" height="22" />
+          </frame>
+        </frame>
+        <frame id="1568:35955" name="State label" x="70" y="396" width="240" height="64">
+          <text id="1568:35956" name="Selected" x="24" y="23" width="58" height="18" />
+        </frame>
+        <frame id="1568:35957" name="State label" x="70" y="1619" width="240" height="64">
+          <text id="1568:35958" name="Selected" x="24" y="23" width="58" height="18" />
+        </frame>
+        <frame id="1568:35959" name="Size sample" x="310" y="396" width="357.3333435058594" height="64">
+          <instance id="1568:35960" name="Radio Button" x="168.6666717529297" y="22" width="20" height="20" />
+        </frame>
+        <frame id="1568:35961" name="Size sample" x="310" y="1619" width="357.3333435058594" height="64">
+          <instance id="1568:35962" name="Radio Button" x="158.1666717529297" y="22" width="20" height="20" />
+          <frame id="1568:35963" name="Frame 2121455831" x="183.1666717529297" y="12.5" width="16" height="39">
+            <text id="1568:35964" name="Size" x="0" y="0" width="16" height="11" />
+            <frame id="1568:35965" name="Group 1" x="2.5" y="15" width="11" height="24" />
+          </frame>
+        </frame>
+        <frame id="1568:35969" name="Size sample" x="667.33349609375" y="396" width="357.33331298828125" height="64">
+          <instance id="1568:35970" name="Radio Button" x="166.66665649414062" y="19.99999237060547" width="24.00001335144043" height="24.000015258789062" />
+        </frame>
+        <frame id="1568:35971" name="Size sample" x="667.33349609375" y="1619" width="357.33331298828125" height="64">
+          <instance id="1568:35972" name="Radio Button" x="156.16665649414062" y="19.99999237060547" width="24.00001335144043" height="24.000015258789062" />
+          <frame id="1568:35973" name="Frame 2121455831" x="185.1666717529297" y="12.5" width="16" height="39">
+            <text id="1568:35974" name="Size" x="0" y="0" width="16" height="11" />
+            <frame id="1568:35975" name="Group 1" x="2.5" y="15" width="11" height="24" />
+          </frame>
+        </frame>
+        <frame id="1568:35979" name="Size sample" x="1024.666748046875" y="396" width="357.33331298828125" height="64">
+          <instance id="1568:35980" name="Radio Button" x="164.66665649414062" y="18" width="28" height="28" />
+        </frame>
+        <frame id="1568:35981" name="Size sample" x="1024.666748046875" y="1619" width="357.33331298828125" height="64">
+          <instance id="1568:35982" name="Radio Button" x="154.16665649414062" y="18" width="28" height="28" />
+          <frame id="1568:35983" name="Frame 2121455831" x="187.16665649414062" y="12.5" width="16" height="39">
+            <text id="1568:35984" name="Size" x="0" y="0" width="16" height="11" />
+            <frame id="1568:35985" name="Group 1" x="2.5" y="15" width="11" height="24" />
+          </frame>
+        </frame>
+        <frame id="1568:35989" name="State label" x="70" y="460" width="240" height="64">
+          <text id="1568:35990" name="Unselected" x="24" y="23" width="75" height="18" />
+        </frame>
+        <frame id="1568:35991" name="Size sample" x="310" y="460" width="357.3333435058594" height="64">
+          <instance id="1568:35992" name="Radio Button" x="168.6666717529297" y="22" width="20" height="20" />
+        </frame>
+        <frame id="1568:35993" name="Size sample" x="667.33349609375" y="460" width="357.33331298828125" height="64">
+          <instance id="1568:35994" name="Radio Button" x="166.66665649414062" y="19.99999237060547" width="24.00001335144043" height="24.000015258789062" />
+        </frame>
+        <frame id="1568:35995" name="Size sample" x="1024.666748046875" y="460" width="357.33331298828125" height="64">
+          <instance id="1568:35996" name="Radio Button" x="164.66665649414062" y="18" width="28" height="28" />
+        </frame>
+        <frame id="1568:35997" name="State label" x="70" y="524" width="240" height="64">
+          <text id="1568:35998" name="Disabled Unselected" x="24" y="23" width="137" height="18" />
+        </frame>
+        <frame id="1568:35999" name="Size sample" x="310" y="524" width="357.3333435058594" height="64">
+          <instance id="1568:36000" name="Radio Button" x="168.6666717529297" y="22" width="20" height="20" />
+        </frame>
+        <frame id="1568:36001" name="Size sample" x="667.33349609375" y="524" width="357.33331298828125" height="64">
+          <instance id="1568:36002" name="Radio Button" x="166.66665649414062" y="19.99999237060547" width="24.00001335144043" height="24.000015258789062" />
+        </frame>
+        <frame id="1568:36003" name="Size sample" x="1024.666748046875" y="524" width="357.33331298828125" height="64">
+          <instance id="1568:36004" name="Radio Button" x="164.66665649414062" y="18" width="28" height="28" />
+        </frame>
+        <frame id="1568:36005" name="State label" x="70" y="588" width="240" height="64">
+          <text id="1568:36006" name="Label" x="24" y="23" width="120" height="18" />
+        </frame>
+        <frame id="1568:36007" name="Size sample" x="310" y="588" width="357.3333435058594" height="64">
+          <instance id="1568:36008" name="Radio Button" x="168.6666717529297" y="22" width="20" height="20" />
+        </frame>
+        <frame id="1568:36009" name="Size sample" x="667.33349609375" y="588" width="357.33331298828125" height="64">
+          <instance id="1568:36010" name="Radio Button" x="166.66665649414062" y="19.99999237060547" width="24.00001335144043" height="24.000015258789062" />
+        </frame>
+        <frame id="1568:36011" name="Size sample" x="1024.666748046875" y="588" width="357.33331298828125" height="64">
+          <instance id="1568:36012" name="Radio Button" x="164.66665649414062" y="18" width="28" height="28" />
+        </frame>
+        <frame id="1568:36013" name="State label" x="70" y="652" width="240" height="64">
+          <text id="1568:36014" name="Label" x="24" y="23" width="40" height="18" />
+        </frame>
+        <frame id="1568:36015" name="Size sample" x="310" y="652" width="357.3333435058594" height="64">
+          <instance id="1568:36016" name="Radio Button" x="168.6666717529297" y="22" width="20" height="20" />
+        </frame>
+        <frame id="1568:36017" name="Size sample" x="667.33349609375" y="652" width="357.33331298828125" height="64">
+          <instance id="1568:36018" name="Radio Button" x="166.66665649414062" y="19.99999237060547" width="24.00001335144043" height="24.000015258789062" />
+        </frame>
+        <frame id="1568:36019" name="Size sample" x="1024.666748046875" y="652" width="357.33331298828125" height="64">
+          <instance id="1568:36020" name="Radio Button" x="164.66665649414062" y="18" width="28" height="28" />
+        </frame>
+        <frame id="1568:36021" name="State label" x="70" y="716" width="240" height="64">
+          <text id="1568:36022" name="Label" x="24" y="23" width="54" height="18" />
+        </frame>
+        <frame id="1568:36023" name="Size sample" x="310" y="716" width="357.3333435058594" height="64">
+          <instance id="1568:36024" name="Radio Button" x="168.6666717529297" y="22" width="20" height="20" />
+        </frame>
+        <frame id="1568:36025" name="Size sample" x="667.33349609375" y="716" width="357.33331298828125" height="64">
+          <instance id="1568:36026" name="Radio Button" x="166.66665649414062" y="19.99999237060547" width="24.00001335144043" height="24.000015258789062" />
+        </frame>
+        <frame id="1568:36027" name="Size sample" x="1024.666748046875" y="716" width="357.33331298828125" height="64">
+          <instance id="1568:36028" name="Radio Button" x="164.66665649414062" y="18" width="28" height="28" />
+        </frame>
+        <frame id="1568:36029" name="Section heading" x="70" y="916" width="1312" height="48">
+          <text id="1568:36030" name="Section title" x="0" y="11" width="272" height="26" />
+        </frame>
+        <frame id="1568:36031" name="Section heading" x="70" y="1509" width="1312" height="48">
+          <text id="1568:36032" name="Section title" x="0" y="11" width="62" height="26" />
+        </frame>
+        <frame id="1568:36033" name="Configuration card" x="70" y="981" width="320" height="280">
+          <frame id="1568:36034" name="Card heading" x="0" y="0" width="320" height="56">
+            <text id="1568:36035" name="Configuration title" x="16" y="19" width="66" height="18" />
+          </frame>
+          <frame id="1568:36036" name="Card examples" x="0" y="56" width="320" height="72.00001525878906">
+            <instance id="1568:36037" name="Radio Button" x="148" y="24" width="24.00001335144043" height="24.000015258789062" />
+          </frame>
+        </frame>
+        <frame id="1568:36038" name="Configuration card" x="409" y="981" width="320" height="280">
+          <frame id="1568:36039" name="Card heading" x="0" y="0" width="320" height="56">
+            <text id="1568:36040" name="Configuration title" x="16" y="19" width="288" height="18" />
+          </frame>
+          <frame id="1568:36041" name="Card examples" x="0" y="56" width="320" height="72.00001525878906">
+            <instance id="1568:36042" name="Radio Button" x="16" y="24" width="75.00001525878906" height="24.000015258789062" />
+          </frame>
+        </frame>
+        <frame id="1568:36043" name="Configuration card" x="748" y="981" width="320" height="280">
+          <frame id="1568:36044" name="Card heading" x="0" y="0" width="320" height="56">
+            <text id="1568:36045" name="Configuration title" x="16" y="19" width="288" height="18" />
+          </frame>
+          <frame id="1568:36046" name="Card examples" x="0" y="56" width="320" height="89">
+            <instance id="1568:36047" name="Radio Button" x="16" y="24" width="220.00001525878906" height="41" />
+          </frame>
+        </frame>
+        <frame id="1568:36048" name="Configuration card" x="1087" y="981" width="320" height="383">
+          <frame id="1568:36049" name="Card heading" x="0" y="0" width="320" height="56">
+            <text id="1568:36050" name="Configuration title" x="16" y="10" width="288" height="36" />
+          </frame>
+          <frame id="1568:36051" name="Card examples" x="0" y="56" width="320" height="109">
+            <instance id="1568:36052" name="Top alignment · multiline" x="16" y="24" width="220.00001525878906" height="61" />
+          </frame>
+          <frame id="1568:36053" name="Card examples" x="0" y="165" width="320" height="109">
+            <instance id="1568:36054" name="Center alignment · multiline" x="16" y="24" width="220.00001525878906" height="61" />
+          </frame>
+          <frame id="1568:36055" name="Card examples" x="0" y="274" width="320" height="109">
+            <instance id="1568:36056" name="Bottom alignment · multiline" x="16" y="24" width="220.00001525878906" height="61" />
+          </frame>
+        </frame>
+        <frame id="1568:36057" name="Configuration card" x="1440" y="981" width="320" height="145">
+          <frame id="1568:36058" name="Card heading" x="0" y="0" width="320" height="56">
+            <text id="1568:36059" name="Configuration title" x="16" y="19" width="288" height="18" />
+          </frame>
+          <frame id="1568:36060" name="Card examples" x="0" y="56" width="320" height="89">
+            <instance id="1568:36061" name="Radio Button" x="16" y="24" width="220.00001525878906" height="41" />
+          </frame>
+        </frame>
+        <frame id="1568:36062" name="Configuration card" x="1440" y="1154" width="320" height="210">
+          <frame id="1568:36063" name="Card heading" x="0" y="0" width="320" height="56">
+            <text id="1568:36064" name="Configuration title" x="16" y="10" width="288" height="36" />
+          </frame>
+          <frame id="1568:36065" name="Card examples" x="0" y="56" width="320" height="89">
+            <instance id="1568:36066" name="Radio Button" x="16" y="24" width="220.00001525878906" height="41" />
+          </frame>
+        </frame>
+        <frame id="1568:36067" name="Component properties" x="76" y="1820" width="1684" height="428">
+          <frame id="1568:36068" name="Section heading" x="0" y="0" width="1684" height="48">
+            <text id="1568:36069" name="Section title" x="0" y="11" width="266" height="26" />
+          </frame>
+          <frame id="1568:36070" name="Property definitions" x="0" y="60" width="1684" height="368">
+            <frame id="1568:36071" name="Table header" x="0" y="0" width="1684" height="48">
+              <frame id="1568:36072" name="Property cell" x="0" y="0" width="180" height="48">
+                <text id="1568:36073" name="Column title" x="20" y="13.5" width="140" height="21" />
+              </frame>
+              <frame id="1568:36074" name="Property cell" x="180" y="0" width="140" height="48">
+                <text id="1568:36075" name="Column title" x="20" y="13.5" width="100" height="21" />
+              </frame>
+              <frame id="1568:36076" name="Property cell" x="320" y="0" width="1024" height="48">
+                <text id="1568:36077" name="Column title" x="20" y="13.5" width="984" height="21" />
+              </frame>
+              <frame id="1568:36078" name="Property cell" x="1344" y="0" width="340" height="48">
+                <text id="1568:36079" name="Column title" x="20" y="13.5" width="300" height="21" />
+              </frame>
+            </frame>
+            <frame id="1568:36080" name="Property row" x="0" y="48" width="1684" height="56">
+              <frame id="1568:36081" name="Property cell" x="0" y="0" width="180" height="56">
+                <text id="1568:36082" name="Property value" x="20" y="17.5" width="140" height="21" />
+              </frame>
+              <frame id="1568:36083" name="Property cell" x="180" y="0" width="140" height="56">
+                <text id="1568:36084" name="Property value" x="20" y="17.5" width="100" height="21" />
+              </frame>
+              <frame id="1568:36085" name="Property cell" x="320" y="0" width="1024" height="56">
+                <text id="1568:36086" name="Property value" x="20" y="7" width="984" height="42" />
+              </frame>
+              <frame id="1568:36087" name="Property cell" x="1344" y="0" width="340" height="56">
+                <text id="1568:36088" name="Property value" x="20" y="17.5" width="300" height="21" />
+              </frame>
+            </frame>
+            <frame id="1568:36089" name="Property row" x="0" y="104" width="1684" height="44">
+              <frame id="1568:36090" name="Property cell" x="0" y="0" width="180" height="44">
+                <text id="1568:36091" name="Property value" x="20" y="11.5" width="140" height="21" />
+              </frame>
+              <frame id="1568:36092" name="Property cell" x="180" y="0" width="140" height="44">
+                <text id="1568:36093" name="Property value" x="20" y="11.5" width="100" height="21" />
+              </frame>
+              <frame id="1568:36094" name="Property cell" x="320" y="0" width="1024" height="44">
+                <text id="1568:36095" name="Property value" x="20" y="11.5" width="984" height="21" />
+              </frame>
+              <frame id="1568:36096" name="Property cell" x="1344" y="0" width="340" height="44">
+                <text id="1568:36097" name="Property value" x="20" y="11.5" width="300" height="21" />
+              </frame>
+            </frame>
+            <frame id="1568:36098" name="Property row" x="0" y="148" width="1684" height="44">
+              <frame id="1568:36099" name="Property cell" x="0" y="0" width="180" height="44">
+                <text id="1568:36100" name="Property value" x="20" y="11.5" width="140" height="21" />
+              </frame>
+              <frame id="1568:36101" name="Property cell" x="180" y="0" width="140" height="44">
+                <text id="1568:36102" name="Property value" x="20" y="11.5" width="100" height="21" />
+              </frame>
+              <frame id="1568:36103" name="Property cell" x="320" y="0" width="1024" height="44">
+                <text id="1568:36104" name="Property value" x="20" y="11.5" width="984" height="21" />
+              </frame>
+              <frame id="1568:36105" name="Property cell" x="1344" y="0" width="340" height="44">
+                <text id="1568:36106" name="Property value" x="20" y="11.5" width="300" height="21" />
+              </frame>
+            </frame>
+            <frame id="1568:36107" name="Property row" x="0" y="192" width="1684" height="44">
+              <frame id="1568:36108" name="Property cell" x="0" y="0" width="180" height="44">
+                <text id="1568:36109" name="Property value" x="20" y="11.5" width="140" height="21" />
+              </frame>
+              <frame id="1568:36110" name="Property cell" x="180" y="0" width="140" height="44">
+                <text id="1568:36111" name="Property value" x="20" y="11.5" width="100" height="21" />
+              </frame>
+              <frame id="1568:36112" name="Property cell" x="320" y="0" width="1024" height="44">
+                <text id="1568:36113" name="Property value" x="20" y="11.5" width="984" height="21" />
+              </frame>
+              <frame id="1568:36114" name="Property cell" x="1344" y="0" width="340" height="44">
+                <text id="1568:36115" name="Property value" x="20" y="11.5" width="300" height="21" />
+              </frame>
+            </frame>
+            <frame id="1568:36116" name="Property row" x="0" y="236" width="1684" height="44">
+              <frame id="1568:36117" name="Property cell" x="0" y="0" width="180" height="44">
+                <text id="1568:36118" name="Property value" x="20" y="11.5" width="140" height="21" />
+              </frame>
+              <frame id="1568:36119" name="Property cell" x="180" y="0" width="140" height="44">
+                <text id="1568:36120" name="Property value" x="20" y="11.5" width="100" height="21" />
+              </frame>
+              <frame id="1568:36121" name="Property cell" x="320" y="0" width="1024" height="44">
+                <text id="1568:36122" name="Property value" x="20" y="11.5" width="984" height="21" />
+              </frame>
+              <frame id="1568:36123" name="Property cell" x="1344" y="0" width="340" height="44">
+                <text id="1568:36124" name="Property value" x="20" y="11.5" width="300" height="21" />
+              </frame>
+            </frame>
+            <frame id="1568:36125" name="Property row" x="0" y="280" width="1684" height="44">
+              <frame id="1568:36126" name="Property cell" x="0" y="0" width="180" height="44">
+                <text id="1568:36127" name="Property value" x="20" y="11.5" width="140" height="21" />
+              </frame>
+              <frame id="1568:36128" name="Property cell" x="180" y="0" width="140" height="44">
+                <text id="1568:36129" name="Property value" x="20" y="11.5" width="100" height="21" />
+              </frame>
+              <frame id="1568:36130" name="Property cell" x="320" y="0" width="1024" height="44">
+                <text id="1568:36131" name="Property value" x="20" y="11.5" width="984" height="21" />
+              </frame>
+              <frame id="1568:36132" name="Property cell" x="1344" y="0" width="340" height="44">
+                <text id="1568:36133" name="Property value" x="20" y="11.5" width="300" height="21" />
+              </frame>
+            </frame>
+            <frame id="1568:36134" name="Property row" x="0" y="324" width="1684" height="44">
+              <frame id="1568:36135" name="Property cell" x="0" y="0" width="180" height="44">
+                <text id="1568:36136" name="Property value" x="20" y="11.5" width="140" height="21" />
+              </frame>
+              <frame id="1568:36137" name="Property cell" x="180" y="0" width="140" height="44">
+                <text id="1568:36138" name="Property value" x="20" y="11.5" width="100" height="21" />
+              </frame>
+              <frame id="1568:36139" name="Property cell" x="320" y="0" width="1024" height="44">
+                <text id="1568:36140" name="Property value" x="20" y="11.5" width="984" height="21" />
+              </frame>
+              <frame id="1568:36141" name="Property cell" x="1344" y="0" width="340" height="44">
+                <text id="1568:36142" name="Property value" x="20" y="11.5" width="300" height="21" />
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+        <line id="1568:36143" name="Line 6" x="70" y="858" width="1690" height="0.0001477444920965354" />
+        <line id="1568:36144" name="Line 7" x="70" y="1461" width="1690" height="0.0001477444920965354" />
+        <line id="1568:36145" name="Line 8" x="70" y="1752" width="1690" height="0.0001477444920965354" />
+      </frame>
+    </frame>
+  </section>
+  <section id="1568:36951" name="Button Master Components (Radio/ Checkbox/ Toggle)" x="-15762" y="4860" width="2022" height="1822">
+    <frame id="1568:38482" name="(Radio/ Checkbox/ Toggle)" x="420" y="315" width="1182" height="1191">
+      <frame id="1568:38483" name="_Status" x="0" y="0" width="6526" height="114">
+        <text id="1568:38484" name="Core (Radio/ Checkbox/ Toggle)" x="32" y="40.5" width="478" height="32" />
+        <text id="1568:38485" name="SEPTEMBER 2026" x="6258" y="40.5" width="236" height="32" />
+      </frame>
+      <frame id="1568:38486" name="Frame 2121455715" x="123" y="186" width="963" height="156">
+        <frame id="1568:38487" name="Frame 2121455714" x="0" y="0" width="156" height="156" />
+        <frame id="1568:38492" name="Logotype" x="663.908203125" y="41.00049591064453" width="299.0917053222656" height="73.99900817871094">
+          <frame id="1568:38493" name="Group" x="-0.221893310546875" y="0" width="299.5352478027344" height="73.99913024902344">
+            <vector id="1568:38494" name="Vector" x="93.97728729248047" y="61.04088592529297" width="118.541748046875" height="12.958113670349121" />
+            <frame id="1568:38495" name="Group" x="96.96601104736328" y="62.9735221862793" width="12.336579322814941" height="8.597864151000977" />
+            <frame id="1568:38498" name="Group" x="111.98466491699219" y="62.95185089111328" width="97.42333221435547" height="8.867423057556152" />
+            <frame id="1568:38512" name="Group" x="-0.2219319719442865" y="0" width="299.5352478027344" height="71.78117370605469">
+              <vector id="1568:38513" name="Vector" x="-0.22197063334169798" y="0" width="92.9480209350586" height="56.08863067626953" />
+              <frame id="1568:38514" name="Group" x="216.59662576731353" y="7.469759464263916" width="82.71688079833984" height="64.31144714355469" />
+              <frame id="1568:38517" name="Group" x="222.6850199323526" y="7.423394203186035" width="28.45973777770996" height="48.95656204223633" />
+              <frame id="1568:38520" name="Group" x="160.2677836042276" y="20.571643829345703" width="28.026350021362305" height="36.302520751953125" />
+              <frame id="1568:38525" name="Group" x="126.92842813547759" y="20.963871002197266" width="30.23380470275879" height="35.41405487060547" />
+              <frame id="1568:38528" name="Group" x="92.65084787424712" y="20.963871002197266" width="30.233793258666992" height="35.41405487060547" />
+              <frame id="1568:38531" name="Group" x="192.10474344309478" y="20.642276763916016" width="27.83435821533203" height="36.263397216796875" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+      <frame id="1504:57173" name="Selection Controls" x="163" y="490" width="838" height="106">
+        <symbol id="1504:57174" name="Control Type=Radio Button" x="19" y="33" width="216" height="41" />
+        <symbol id="1504:57176" name="Control Type=Checkbox" x="296" y="33" width="216" height="41" />
+        <symbol id="1504:57178" name="Control Type=Toggle" x="582" y="35" width="228" height="40" />
+      </frame>
+    </frame>
+  </section>
+</canvas>

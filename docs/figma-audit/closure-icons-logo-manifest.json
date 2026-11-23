@@ -1,0 +1,947 @@
+{
+ "date": "2026-11-20",
+ "status": "IMPLEMENTED (closure; owner-approved export of genuine missing screen icons and the Annachy logotype)",
+ "figmaCalls": {
+  "subagent": {
+   "mcp__figma__get_design_context": 51,
+   "mcp__figma__get_metadata": 52,
+   "forceCodeRetries": 0,
+   "other_figma_tools": 0
+  },
+  "main": {
+   "get_design_context": 3,
+   "nodes": [
+    "1375:30951",
+    "1375:31080",
+    "1375:31225"
+   ],
+   "purpose": "parent transforms"
+  }
+ },
+ "evidence": "verbatim design context per node (one call per node; no derived files), asset links removed; staging deleted after validation",
+ "libraryMatching": "tests/tools/closure_icon_match.py: raster mask IoU against 6,098 library SVGs; exact only at IoU >= 0.97 AND identical placement; 1 reused (editor-hamburger-menu), cac65 rejected (0.5 px offset at 16 px), filled discs rejected (silhouette coincidence)",
+ "reusedExisting": {
+  "1280:10674": "R11 artwork 73565 (copied as icon-73565.svg, byte-identical)",
+  "7 desktop card stars": "R10 artwork star-c6cc8-9_54x9_54.svg (Figma card code references c6cc8; same markup as the mobile cards)"
+ },
+ "elements": [
+  {
+   "screen": "pdp/mobile.html",
+   "node": "1201:9829",
+   "title": "loyalty 1 [Vectorized]",
+   "figmaSize": [
+    24.0,
+    24.0
+   ],
+   "figmaArtwork": "66f60",
+   "artworkSha256": "84cce298f5f6e8c237dbdc978b42add6f38a92a5b8b59dd73e1383286e7ea391",
+   "delivered": "showcase/screens/assets/vectors/icon-66f60.svg",
+   "transform": null,
+   "libraryBestIoU": [
+    "src/icons/svg/filled/message-circle-message-3-left.svg",
+    0.964
+   ],
+   "styleNote": null
+  },
+  {
+   "screen": "pdp/pdp-v1.html",
+   "node": "1280:10436",
+   "title": "loyalty 1 [Vectorized]",
+   "figmaSize": [
+    24.0,
+    24.0
+   ],
+   "figmaArtwork": "66f60",
+   "artworkSha256": "84cce298f5f6e8c237dbdc978b42add6f38a92a5b8b59dd73e1383286e7ea391",
+   "delivered": "showcase/screens/assets/vectors/icon-66f60.svg",
+   "transform": null,
+   "libraryBestIoU": [
+    "src/icons/svg/filled/message-circle-message-3-left.svg",
+    0.964
+   ],
+   "styleNote": null
+  },
+  {
+   "screen": "pdp/pdp-v1.html",
+   "node": "I1280:10449;1546:27825",
+   "title": "Car (Group 1171275299)",
+   "figmaSize": [
+    34.304386138916016,
+    22.0
+   ],
+   "figmaArtwork": "65d38",
+   "artworkSha256": "384cd17b6294aa6889c6d47b4135f23c4b4db8a4588871eb9f70e235bc83e0e5",
+   "delivered": "showcase/screens/assets/vectors/icon-65d38.svg",
+   "transform": null,
+   "libraryBestIoU": [
+    "src/icons/svg/filled/audio-backward.svg",
+    0.717
+   ],
+   "styleNote": null
+  },
+  {
+   "screen": "pdp/pdp-v1.html",
+   "node": "1280:10453",
+   "title": "Group 1171275304 (inset-positioned, approx. 32.7x24.5)",
+   "figmaSize": [
+    31.21156120300293,
+    23.38491439819336
+   ],
+   "figmaArtwork": "05b35",
+   "artworkSha256": "dc1078916fc3203796d57a4594a5501a1da84e495953685c8d5e4ec6aca8c86f",
+   "delivered": "showcase/screens/assets/vectors/icon-05b35.svg",
+   "transform": null,
+   "libraryBestIoU": [
+    "src/icons/svg/filled/editor-switch-button-off.svg",
+    0.497
+   ],
+   "styleNote": "These styles are contained in the design: Icon Centre Colour: ."
+  },
+  {
+   "screen": "pdp/pdp-v1.html",
+   "node": "1280:10467",
+   "title": "Group 1171275306 (inset-positioned, approx. 31x24.3)",
+   "figmaSize": [
+    30.78959083557129,
+    23.937753677368164
+   ],
+   "figmaArtwork": "f0734",
+   "artworkSha256": "011059a73f540667b3bd1e39683be51d55f92cbf472424c9adc2a406ca81fe24",
+   "delivered": "showcase/screens/assets/vectors/icon-f0734.svg",
+   "transform": null,
+   "libraryBestIoU": [
+    "src/icons/svg/filled/security-password.svg",
+    0.711
+   ],
+   "styleNote": "These styles are contained in the design: Icon Centre Colour: ."
+  },
+  {
+   "screen": "pdp/pdp-v1.html",
+   "node": "1280:10486",
+   "title": "Group 1171275306 (inset-positioned, approx. 31x24.3)",
+   "figmaSize": [
+    30.78959083557129,
+    23.937753677368164
+   ],
+   "figmaArtwork": "f0734",
+   "artworkSha256": "011059a73f540667b3bd1e39683be51d55f92cbf472424c9adc2a406ca81fe24",
+   "delivered": "showcase/screens/assets/vectors/icon-f0734.svg",
+   "transform": null,
+   "libraryBestIoU": [
+    "src/icons/svg/filled/security-password.svg",
+    0.711
+   ],
+   "styleNote": "These styles are contained in the design: Icon Centre Colour: ."
+  },
+  {
+   "screen": "pdp/pdp-v1.html",
+   "node": "1280:10674",
+   "title": "Frame 2121454395 (genuine product badge, one vector)",
+   "figmaSize": [
+    42.0,
+    42.0
+   ],
+   "figmaArtwork": "73565",
+   "artworkSha256": "7e66b372b33737b85bb596515c7d9b5f8e537528a2104756b0924855f076d347",
+   "delivered": "showcase/screens/assets/vectors/icon-73565.svg",
+   "transform": null,
+   "libraryBestIoU": [
+    "src/icons/svg/filled/editor-info-menu-2.svg",
+    0.953
+   ],
+   "styleNote": "These styles are contained in the design: Gray/900: #1A1A1A."
+  },
+  {
+   "screen": "sample-screen/desktop-pdp-1375-30858.html",
+   "node": "1375:31338",
+   "title": "Frame (location)",
+   "figmaSize": [
+    30.0,
+    30.0
+   ],
+   "figmaArtwork": "23ffe",
+   "artworkSha256": "28b27b46bfaf344bcb3a987478d74141d522e03f5512e978338330e6c7b4f8d1",
+   "delivered": "showcase/screens/assets/vectors/icon-23ffe.svg",
+   "transform": null,
+   "libraryBestIoU": [
+    "src/icons/svg/outline/security-touch-id.svg",
+    0.399
+   ],
+   "styleNote": null
+  },
+  {
+   "screen": "sample-screen/desktop-pdp-1375-30858.html",
+   "node": "1375:31344",
+   "title": "Frame (chevron)",
+   "figmaSize": [
+    20.0,
+    20.0
+   ],
+   "figmaArtwork": "a7ef6",
+   "artworkSha256": "ddd58bdfc5f4fb551b871792f9526d1bad0770f9f42d26a6cfa7d3d8eefe3c3e",
+   "delivered": "showcase/screens/assets/vectors/icon-a7ef6.svg",
+   "transform": null,
+   "libraryBestIoU": [
+    "src/icons/svg/filled/arrow-chevron-down.svg",
+    0.72
+   ],
+   "styleNote": null
+  },
+  {
+   "screen": "sample-screen/desktop-pdp-1375-30858.html",
+   "node": "1375:31350",
+   "title": "Frame (profile)",
+   "figmaSize": [
+    30.0,
+    30.0
+   ],
+   "figmaArtwork": "fecd1",
+   "artworkSha256": "4ff247f9519a5db141fe2910c969427c4f3810161580163a6985af53e80dee60",
+   "delivered": "showcase/screens/assets/vectors/icon-fecd1.svg",
+   "transform": null,
+   "libraryBestIoU": [
+    "src/icons/svg/outline/bookmark-bookmark-9.svg",
+    0.622
+   ],
+   "styleNote": null
+  },
+  {
+   "screen": "sample-screen/desktop-pdp-1375-30858.html",
+   "node": "1375:31355",
+   "title": "Frame (chevron)",
+   "figmaSize": [
+    20.0,
+    20.0
+   ],
+   "figmaArtwork": "f8078",
+   "artworkSha256": "fefb76e052d33472b24a5f29be5f881dd641d5deba95ef6f9046813713c95458",
+   "delivered": "showcase/screens/assets/vectors/icon-f8078.svg",
+   "transform": null,
+   "libraryBestIoU": [
+    "src/icons/svg/filled/arrow-chevron-down.svg",
+    0.72
+   ],
+   "styleNote": null
+  },
+  {
+   "screen": "sample-screen/desktop-pdp-1375-30858.html",
+   "node": "1375:31358",
+   "title": "Frame (cart)",
+   "figmaSize": [
+    30.0,
+    30.0
+   ],
+   "figmaArtwork": "dfeff",
+   "artworkSha256": "4388f1691d252d6049f313b9a20978771b34fd3d4e07b334ab64ff7e8344f255",
+   "delivered": "showcase/screens/assets/vectors/icon-dfeff.svg",
+   "transform": null,
+   "libraryBestIoU": [
+    "src/icons/svg/outline/shopping-shopping-cart-5.svg",
+    0.464
+   ],
+   "styleNote": null
+  },
+  {
+   "screen": "sample-screen/desktop-pdp-1375-30858.html",
+   "node": "1375:31369",
+   "title": "Frame (category)",
+   "figmaSize": [
+    24.0,
+    24.0
+   ],
+   "figmaArtwork": "b25e9",
+   "artworkSha256": "1529aed77a1e3cf83089c3f006d35d838462db05765664d8e956a08aedac447d",
+   "delivered": "library icon editor-hamburger-menu (outline)",
+   "transform": null,
+   "libraryBestIoU": [
+    "src/icons/svg/outline/editor-hamburger-menu.svg",
+    1
+   ],
+   "styleNote": null
+  },
+  {
+   "screen": "sample-screen/desktop-pdp-1375-30858.html",
+   "node": "I1375:31375;17:1154",
+   "title": "Frame (chevron)",
+   "figmaSize": [
+    20.0,
+    20.0
+   ],
+   "figmaArtwork": "92e22",
+   "artworkSha256": "ddd58bdfc5f4fb551b871792f9526d1bad0770f9f42d26a6cfa7d3d8eefe3c3e",
+   "delivered": "showcase/screens/assets/vectors/icon-92e22.svg",
+   "transform": null,
+   "libraryBestIoU": [
+    "src/icons/svg/filled/arrow-chevron-down.svg",
+    0.72
+   ],
+   "styleNote": null
+  },
+  {
+   "screen": "sample-screen/desktop-pdp-1375-30858.html",
+   "node": "I1375:31376;17:1154",
+   "title": "Frame (chevron)",
+   "figmaSize": [
+    20.0,
+    20.0
+   ],
+   "figmaArtwork": "92e22",
+   "artworkSha256": "ddd58bdfc5f4fb551b871792f9526d1bad0770f9f42d26a6cfa7d3d8eefe3c3e",
+   "delivered": "showcase/screens/assets/vectors/icon-92e22.svg",
+   "transform": null,
+   "libraryBestIoU": [
+    "src/icons/svg/filled/arrow-chevron-down.svg",
+    0.72
+   ],
+   "styleNote": null
+  },
+  {
+   "screen": "sample-screen/desktop-pdp-1375-30858.html",
+   "node": "I1375:31377;17:1154",
+   "title": "Frame (chevron)",
+   "figmaSize": [
+    20.0,
+    20.0
+   ],
+   "figmaArtwork": "92e22",
+   "artworkSha256": "ddd58bdfc5f4fb551b871792f9526d1bad0770f9f42d26a6cfa7d3d8eefe3c3e",
+   "delivered": "showcase/screens/assets/vectors/icon-92e22.svg",
+   "transform": null,
+   "libraryBestIoU": [
+    "src/icons/svg/filled/arrow-chevron-down.svg",
+    0.72
+   ],
+   "styleNote": null
+  },
+  {
+   "screen": "sample-screen/desktop-pdp-1375-30858.html",
+   "node": "I1375:31378;17:1154",
+   "title": "Frame (chevron)",
+   "figmaSize": [
+    20.0,
+    20.0
+   ],
+   "figmaArtwork": "92e22",
+   "artworkSha256": "ddd58bdfc5f4fb551b871792f9526d1bad0770f9f42d26a6cfa7d3d8eefe3c3e",
+   "delivered": "showcase/screens/assets/vectors/icon-92e22.svg",
+   "transform": null,
+   "libraryBestIoU": [
+    "src/icons/svg/filled/arrow-chevron-down.svg",
+    0.72
+   ],
+   "styleNote": null
+  },
+  {
+   "screen": "sample-screen/desktop-pdp-1375-30858.html",
+   "node": "1375:31381",
+   "title": "Frame (deals)",
+   "figmaSize": [
+    30.0,
+    30.0
+   ],
+   "figmaArtwork": "09a96",
+   "artworkSha256": "bc3d2f58a6e66f051221e026899c16fe3c755a409628f42f518ede5e373c1071",
+   "delivered": "showcase/screens/assets/vectors/icon-09a96.svg",
+   "transform": null,
+   "libraryBestIoU": [
+    "src/icons/svg/filled/design-painting-palette.svg",
+    0.787
+   ],
+   "styleNote": "These styles are contained in the design: Brand/Blue/Gradient/07: ."
+  },
+  {
+   "screen": "sample-screen/desktop-pdp-1375-30858.html",
+   "node": "1375:31388",
+   "title": "Frame (offers)",
+   "figmaSize": [
+    30.0,
+    30.0
+   ],
+   "figmaArtwork": "c7454",
+   "artworkSha256": "66f2b63b6d384ac3e1bf5d2c9a7ead291cc54aad680d1945e7c03937abe4f339",
+   "delivered": "showcase/screens/assets/vectors/icon-c7454.svg",
+   "transform": null,
+   "libraryBestIoU": [
+    "src/icons/svg/filled/alerts-error-badge.svg",
+    0.938
+   ],
+   "styleNote": "These styles are contained in the design: Brand/Blue/Gradient/08: ."
+  },
+  {
+   "screen": "sample-screen/desktop-pdp-1375-30858.html",
+   "node": "1375:30900",
+   "title": "Frame (share)",
+   "figmaSize": [
+    30.0,
+    30.0
+   ],
+   "figmaArtwork": "2e83b",
+   "artworkSha256": "0d782b169b859036b578ac3773eaa6174b0f5b9f3860532d517aed044d2f6de6",
+   "delivered": "showcase/screens/assets/vectors/icon-2e83b.svg",
+   "transform": null,
+   "libraryBestIoU": [
+    "src/icons/svg/outline/heart-love-heart-like.svg",
+    0.53
+   ],
+   "styleNote": null
+  },
+  {
+   "screen": "sample-screen/desktop-pdp-1375-30858.html",
+   "node": "1375:30902",
+   "title": "Frame (wishlist)",
+   "figmaSize": [
+    30.0,
+    30.0
+   ],
+   "figmaArtwork": "622db",
+   "artworkSha256": "50f50a5faa52ec3e8ed41158ecade8aa08818d447b9c6a276d835171974ecb69",
+   "delivered": "showcase/screens/assets/vectors/icon-622db.svg",
+   "transform": null,
+   "libraryBestIoU": [
+    "src/icons/svg/outline/home-and-applances-blanket.svg",
+    0.349
+   ],
+   "styleNote": null
+  },
+  {
+   "screen": "sample-screen/desktop-pdp-1375-30858.html",
+   "node": "1375:30912",
+   "title": "Frame (star)",
+   "figmaSize": [
+    12.0,
+    12.0
+   ],
+   "figmaArtwork": "292cb",
+   "artworkSha256": "1128561d6cefff5c9812475df0405dfc882e0a173ef4d6e56ab07edb7fd8d86b",
+   "delivered": "showcase/screens/assets/vectors/icon-292cb.svg",
+   "transform": null,
+   "libraryBestIoU": [
+    "src/icons/svg/filled/star-icon.svg",
+    0.945
+   ],
+   "styleNote": null
+  },
+  {
+   "screen": "sample-screen/desktop-pdp-1375-30858.html",
+   "node": "1375:30914",
+   "title": "Frame (star)",
+   "figmaSize": [
+    12.0,
+    12.0
+   ],
+   "figmaArtwork": "9a2c8",
+   "artworkSha256": "31fc596de4f58403ad8101d1a67e081433898c5f20a1d3b31f601621566c412f",
+   "delivered": "showcase/screens/assets/vectors/icon-9a2c8.svg",
+   "transform": null,
+   "libraryBestIoU": [
+    "src/icons/svg/filled/star-icon.svg",
+    0.945
+   ],
+   "styleNote": null
+  },
+  {
+   "screen": "sample-screen/desktop-pdp-1375-30858.html",
+   "node": "1375:30916",
+   "title": "Frame (star)",
+   "figmaSize": [
+    12.0,
+    12.0
+   ],
+   "figmaArtwork": "9a2c8",
+   "artworkSha256": "31fc596de4f58403ad8101d1a67e081433898c5f20a1d3b31f601621566c412f",
+   "delivered": "showcase/screens/assets/vectors/icon-9a2c8.svg",
+   "transform": null,
+   "libraryBestIoU": [
+    "src/icons/svg/filled/star-icon.svg",
+    0.945
+   ],
+   "styleNote": null
+  },
+  {
+   "screen": "sample-screen/desktop-pdp-1375-30858.html",
+   "node": "1375:30918",
+   "title": "Frame (star)",
+   "figmaSize": [
+    12.0,
+    12.0
+   ],
+   "figmaArtwork": "9a2c8",
+   "artworkSha256": "31fc596de4f58403ad8101d1a67e081433898c5f20a1d3b31f601621566c412f",
+   "delivered": "showcase/screens/assets/vectors/icon-9a2c8.svg",
+   "transform": null,
+   "libraryBestIoU": [
+    "src/icons/svg/filled/star-icon.svg",
+    0.945
+   ],
+   "styleNote": null
+  },
+  {
+   "screen": "sample-screen/desktop-pdp-1375-30858.html",
+   "node": "1375:30920",
+   "title": "Frame (info)",
+   "figmaSize": [
+    20.0,
+    20.0
+   ],
+   "figmaArtwork": "eee0a",
+   "artworkSha256": "645c42e53b3357fa3d186c68711f15fac1c99cf6d749887fc70cb06684940e65",
+   "delivered": "showcase/screens/assets/vectors/icon-eee0a.svg",
+   "transform": null,
+   "libraryBestIoU": [
+    "src/icons/svg/filled/arrow-chevron-down.svg",
+    0.72
+   ],
+   "styleNote": null
+  },
+  {
+   "screen": "sample-screen/desktop-pdp-1375-30858.html",
+   "node": "1375:30940",
+   "title": "Frame (info)",
+   "figmaSize": [
+    15.0,
+    15.0
+   ],
+   "figmaArtwork": "63b26",
+   "artworkSha256": "e7ffc18e0140a4e8fcf11b08d437d8ad0fd7e3bfc8014ad6769b521b609d6eda",
+   "delivered": "showcase/screens/assets/vectors/icon-63b26.svg",
+   "transform": null,
+   "libraryBestIoU": [
+    "src/icons/svg/filled/time-clock-dash-3.svg",
+    0.749
+   ],
+   "styleNote": null
+  },
+  {
+   "screen": "sample-screen/desktop-pdp-1375-30858.html",
+   "node": "1375:30952",
+   "title": "Frame (previous)",
+   "figmaSize": [
+    38.0,
+    38.0
+   ],
+   "figmaArtwork": "049f3",
+   "artworkSha256": "886bb8a13568bb13f8d7b595c1471bb442d6291b4bcd4a4b8c1bfa87729d6905",
+   "delivered": "showcase/screens/assets/vectors/icon-049f3.svg",
+   "transform": null,
+   "libraryBestIoU": [
+    "src/icons/svg/outline/arrow-left-circle.svg",
+    0.592
+   ],
+   "styleNote": null
+  },
+  {
+   "screen": "sample-screen/desktop-pdp-1375-30858.html",
+   "node": "1375:30955",
+   "title": "Frame (next, mirrored)",
+   "figmaSize": [
+    38.0,
+    38.0
+   ],
+   "figmaArtwork": "55cba",
+   "artworkSha256": "98fba901aeab4fcc209bd578f53875a54836a14984bc3de536116cbfcd54e2fd",
+   "delivered": "showcase/screens/assets/vectors/icon-55cba.svg",
+   "transform": "rotate(180deg) scaleY(-1)",
+   "libraryBestIoU": [
+    "src/icons/svg/filled/message-circle-message-3-left.svg",
+    0.969
+   ],
+   "styleNote": "These styles are contained in the design: Brand/Blue/Gradient/08: ."
+  },
+  {
+   "screen": "sample-screen/desktop-pdp-1375-30858.html",
+   "node": "1375:31010",
+   "title": "badge-percent",
+   "figmaSize": [
+    25.0,
+    25.0
+   ],
+   "figmaArtwork": "b0df9",
+   "artworkSha256": "496c1b3421d981d5a90ca667b2cc436f9a6e80291f5c1ad1c7e7f6150e4992c8",
+   "delivered": "showcase/screens/assets/vectors/icon-b0df9.svg",
+   "transform": null,
+   "libraryBestIoU": [
+    "src/icons/svg/outline/shopping-discount-badge.svg",
+    0.775
+   ],
+   "styleNote": "These styles are contained in the design: Brand/Blue/Gradient/08: ."
+  },
+  {
+   "screen": "sample-screen/desktop-pdp-1375-30858.html",
+   "node": "1375:31020",
+   "title": "badge-percent",
+   "figmaSize": [
+    25.0,
+    25.0
+   ],
+   "figmaArtwork": "b0df9",
+   "artworkSha256": "496c1b3421d981d5a90ca667b2cc436f9a6e80291f5c1ad1c7e7f6150e4992c8",
+   "delivered": "showcase/screens/assets/vectors/icon-b0df9.svg",
+   "transform": null,
+   "libraryBestIoU": [
+    "src/icons/svg/outline/shopping-discount-badge.svg",
+    0.775
+   ],
+   "styleNote": "These styles are contained in the design: Brand/Blue/Gradient/08: ."
+  },
+  {
+   "screen": "sample-screen/desktop-pdp-1375-30858.html",
+   "node": "1375:31051",
+   "title": "Frame (perk icon)",
+   "figmaSize": [
+    30.0,
+    30.0
+   ],
+   "figmaArtwork": "8264d",
+   "artworkSha256": "e95f2052db4a6bc823230c4b38481ed8f82692ad2cd5492b332cf4c02fa8a7eb",
+   "delivered": "showcase/screens/assets/vectors/icon-8264d.svg",
+   "transform": null,
+   "libraryBestIoU": [
+    "src/icons/svg/outline/delivery-delivery-4.svg",
+    0.686
+   ],
+   "styleNote": null
+  },
+  {
+   "screen": "sample-screen/desktop-pdp-1375-30858.html",
+   "node": "1375:31059",
+   "title": "Frame (perk icon)",
+   "figmaSize": [
+    30.0,
+    30.0
+   ],
+   "figmaArtwork": "50625",
+   "artworkSha256": "1e4f7f85de241665030f63047ecc77c2cd8b6dfc62ad8cf33d34d4472b4470e5",
+   "delivered": "showcase/screens/assets/vectors/icon-50625.svg",
+   "transform": null,
+   "libraryBestIoU": [
+    "src/icons/svg/outline/delivery-truck.svg",
+    0.421
+   ],
+   "styleNote": null
+  },
+  {
+   "screen": "sample-screen/desktop-pdp-1375-30858.html",
+   "node": "1375:31069",
+   "title": "Frame (perk icon)",
+   "figmaSize": [
+    30.0,
+    30.0
+   ],
+   "figmaArtwork": "96cb2",
+   "artworkSha256": "57f2d8c9803f8b811157fae95214e604a7c4fd2a442b80ea29d83b021a26dbf2",
+   "delivered": "showcase/screens/assets/vectors/icon-96cb2.svg",
+   "transform": null,
+   "libraryBestIoU": [
+    "src/icons/svg/outline/message-square-message-3-question.svg",
+    0.429
+   ],
+   "styleNote": null
+  },
+  {
+   "screen": "sample-screen/desktop-pdp-1375-30858.html",
+   "node": "1375:31082",
+   "title": "Frame (details)",
+   "figmaSize": [
+    30.0,
+    30.0
+   ],
+   "figmaArtwork": "3198d",
+   "artworkSha256": "137583272aed01ddb6c229492ac2aaff65e1f99a35a2deb94893b061a48ac261",
+   "delivered": "showcase/screens/assets/vectors/icon-3198d.svg",
+   "transform": null,
+   "libraryBestIoU": [
+    "src/icons/svg/filled/star-hexagonal-star--star.svg",
+    0.736
+   ],
+   "styleNote": null
+  },
+  {
+   "screen": "sample-screen/desktop-pdp-1375-30858.html",
+   "node": "1375:31088",
+   "title": "Frame (collapse, mirrored)",
+   "figmaSize": [
+    30.0,
+    30.0
+   ],
+   "figmaArtwork": "cbc6c",
+   "artworkSha256": "ea90a6e0bd7e6cf17eda796626920d0d3b00495c97fcb9aacf9fce622786d477",
+   "delivered": "showcase/screens/assets/vectors/icon-cbc6c.svg",
+   "transform": "scaleY(-1)",
+   "libraryBestIoU": [
+    "src/icons/svg/outline/arrow-chevron-down.svg",
+    0.757
+   ],
+   "styleNote": null
+  },
+  {
+   "screen": "sample-screen/desktop-pdp-1375-30858.html",
+   "node": "1375:31116",
+   "title": "Frame (specifications)",
+   "figmaSize": [
+    30.0,
+    30.0
+   ],
+   "figmaArtwork": "cbccb",
+   "artworkSha256": "694806c03b5159534cbea0c53662e323bef69e1fe662edf13a3cfd0818808d3b",
+   "delivered": "showcase/screens/assets/vectors/icon-cbccb.svg",
+   "transform": null,
+   "libraryBestIoU": [
+    "src/icons/svg/filled/locations-target-refresh.svg",
+    0.531
+   ],
+   "styleNote": null
+  },
+  {
+   "screen": "sample-screen/desktop-pdp-1375-30858.html",
+   "node": "1375:31159",
+   "title": "Frame (chevron)",
+   "figmaSize": [
+    30.0,
+    30.0
+   ],
+   "figmaArtwork": "61bfd",
+   "artworkSha256": "69ccfbd5d9d09f926df091d80e453b98350f434eb89be96e2a9ed1537f82d0d1",
+   "delivered": "showcase/screens/assets/vectors/icon-61bfd.svg",
+   "transform": null,
+   "libraryBestIoU": [
+    "src/icons/svg/outline/arrow-chevron-down.svg",
+    0.757
+   ],
+   "styleNote": null
+  },
+  {
+   "screen": "sample-screen/desktop-pdp-1375-30858.html",
+   "node": "1375:31227",
+   "title": "Frame (arrow, rotated -90°)",
+   "figmaSize": [
+    30.0,
+    30.0
+   ],
+   "figmaArtwork": "e7481",
+   "artworkSha256": "7e53741face29fced56aa6c4f77227b13413d2404c8acf0d9e763e54fb9cab73",
+   "delivered": "showcase/screens/assets/vectors/icon-e7481.svg",
+   "transform": "rotate(-90deg)",
+   "libraryBestIoU": [
+    "src/icons/svg/outline/arrow-chevron-down.svg",
+    0.757
+   ],
+   "styleNote": null
+  },
+  {
+   "screen": "sample-screen/desktop-pdp-1375-30858.html",
+   "node": "1375:31283",
+   "title": "Group 1000001479 (previous arrow)",
+   "figmaSize": [
+    66.66666412353516,
+    66.66666412353516
+   ],
+   "figmaArtwork": "e9d0f",
+   "artworkSha256": "8559a009ba6f04bc473fa45fed43f7a64c1e507ff6e4700733cd0d9f8befb894",
+   "delivered": "showcase/screens/assets/vectors/icon-e9d0f.svg",
+   "transform": null,
+   "libraryBestIoU": [
+    "src/icons/svg/filled/message-circle-message-3-left.svg",
+    0.97
+   ],
+   "styleNote": null
+  },
+  {
+   "screen": "sample-screen/desktop-pdp-1375-30858.html",
+   "node": "1375:31286",
+   "title": "Group 1000001482 (next arrow)",
+   "figmaSize": [
+    66.66666412353516,
+    66.66666412353516
+   ],
+   "figmaArtwork": "1f6fa",
+   "artworkSha256": "c8eaa62c6bec4a1394f0aac7e4a210a2e447311d0c77bc3ab7b4dbac8e33073a",
+   "delivered": "showcase/screens/assets/vectors/icon-1f6fa.svg",
+   "transform": null,
+   "libraryBestIoU": [
+    "src/icons/svg/filled/message-circle-message-3-left.svg",
+    0.97
+   ],
+   "styleNote": null
+  },
+  {
+   "screen": "sample-screen/desktop-pdp-1375-30858.html",
+   "node": "1375:31293",
+   "title": "Logotype (Group)",
+   "figmaSize": [
+    156.73989868164062,
+    38.72242736816406
+   ],
+   "figmaArtwork": "b8420",
+   "artworkSha256": "1d66aae3d2cf2726474197c2eab1b55c1fe9925bdfa18fedaf36ecf4d0b0e0ae",
+   "delivered": "showcase/screens/assets/vectors/logo-annachy-b8420.svg",
+   "transform": null,
+   "libraryBestIoU": [
+    "src/icons/svg/filled/editor-info-menu-5.svg",
+    0.278
+   ],
+   "styleNote": null
+  },
+  {
+   "screen": "sample-screen/job-listing-page-1629-11987.html",
+   "node": "1629:11992",
+   "title": "ArrowLeft",
+   "figmaSize": [
+    24.0,
+    24.0
+   ],
+   "figmaArtwork": "8d51b",
+   "artworkSha256": "d108de8fdcce2176bbb4dde72ac35b8d424f65acb12db7f9a34f360a6c3ea9ef",
+   "delivered": "showcase/screens/assets/vectors/icon-8d51b.svg",
+   "transform": null,
+   "libraryBestIoU": [
+    "src/icons/svg/outline/arrow-arrow-left-md.svg",
+    0.826
+   ],
+   "styleNote": null
+  },
+  {
+   "screen": "sample-screen/job-listing-page-1629-11987.html",
+   "node": "1629:12002",
+   "title": "Frame",
+   "figmaSize": [
+    24.0,
+    24.0
+   ],
+   "figmaArtwork": "f87a7",
+   "artworkSha256": "156b7feaa2c1e494f242f009023f2b8b5af147f876bc5e01574826e5e55f83a2",
+   "delivered": "showcase/screens/assets/vectors/icon-f87a7.svg",
+   "transform": null,
+   "libraryBestIoU": [
+    "src/icons/svg/outline/alerts-ringtone-4.svg",
+    0.603
+   ],
+   "styleNote": null
+  },
+  {
+   "screen": "sample-screen/job-listing-page-1629-11987.html",
+   "node": "1629:12009",
+   "title": "Frame (chevron)",
+   "figmaSize": [
+    16.0,
+    16.0
+   ],
+   "figmaArtwork": "cac65",
+   "artworkSha256": "8de50a416a10802a901f48c1df3a946f20281b616e9c1693577d62a4b2803e6e",
+   "delivered": "showcase/screens/assets/vectors/icon-cac65.svg",
+   "transform": null,
+   "libraryBestIoU": [
+    "src/icons/svg/outline/arrow-chevron-down.svg",
+    1
+   ],
+   "styleNote": null
+  },
+  {
+   "screen": "sample-screen/mobile-pdp-1608-7090.html",
+   "node": "1608:7143",
+   "title": "loyalty 1 [Vectorized]",
+   "figmaSize": [
+    24.0,
+    24.0
+   ],
+   "figmaArtwork": "66f60",
+   "artworkSha256": "84cce298f5f6e8c237dbdc978b42add6f38a92a5b8b59dd73e1383286e7ea391",
+   "delivered": "showcase/screens/assets/vectors/icon-66f60.svg",
+   "transform": null,
+   "libraryBestIoU": [
+    "src/icons/svg/filled/message-circle-message-3-left.svg",
+    0.964
+   ],
+   "styleNote": null
+  },
+  {
+   "screen": "sample-screen/mobile-pdp-1608-7090.html",
+   "node": "1608:7186",
+   "title": "Group (perk icon)",
+   "figmaSize": [
+    31.21156120300293,
+    23.38491439819336
+   ],
+   "figmaArtwork": "05b35",
+   "artworkSha256": "dc1078916fc3203796d57a4594a5501a1da84e495953685c8d5e4ec6aca8c86f",
+   "delivered": "showcase/screens/assets/vectors/icon-05b35.svg",
+   "transform": null,
+   "libraryBestIoU": [
+    "src/icons/svg/filled/editor-switch-button-off.svg",
+    0.497
+   ],
+   "styleNote": "These styles are contained in the design: Icon Centre Colour: ."
+  },
+  {
+   "screen": "sample-screen/mobile-pdp-1608-7090.html",
+   "node": "1608:7200",
+   "title": "Group (perk icon)",
+   "figmaSize": [
+    30.78959083557129,
+    23.937753677368164
+   ],
+   "figmaArtwork": "10b90",
+   "artworkSha256": "2532c4cf8a8d47bfa8277c3920d0b919f3878a4b2e6f2523f067e11a357541eb",
+   "delivered": "showcase/screens/assets/vectors/icon-10b90.svg",
+   "transform": null,
+   "libraryBestIoU": [
+    "src/icons/svg/filled/security-password.svg",
+    0.711
+   ],
+   "styleNote": "These styles are contained in the design: Icon Centre Colour: ."
+  },
+  {
+   "screen": "sample-screen/mobile-pdp-1608-7090.html",
+   "node": "1608:7219",
+   "title": "Group (perk icon)",
+   "figmaSize": [
+    30.78959083557129,
+    23.937753677368164
+   ],
+   "figmaArtwork": "10b90",
+   "artworkSha256": "2532c4cf8a8d47bfa8277c3920d0b919f3878a4b2e6f2523f067e11a357541eb",
+   "delivered": "showcase/screens/assets/vectors/icon-10b90.svg",
+   "transform": null,
+   "libraryBestIoU": [
+    "src/icons/svg/filled/security-password.svg",
+    0.711
+   ],
+   "styleNote": "These styles are contained in the design: Icon Centre Colour: ."
+  },
+  {
+   "screen": "sample-screen/mobile-putaway-1627-11756.html",
+   "node": "1627:11761",
+   "title": "ArrowLeft",
+   "figmaSize": [
+    24.0,
+    24.0
+   ],
+   "figmaArtwork": "8d51b",
+   "artworkSha256": "d108de8fdcce2176bbb4dde72ac35b8d424f65acb12db7f9a34f360a6c3ea9ef",
+   "delivered": "showcase/screens/assets/vectors/icon-8d51b.svg",
+   "transform": null,
+   "libraryBestIoU": [
+    "src/icons/svg/outline/arrow-arrow-left-md.svg",
+    0.826
+   ],
+   "styleNote": null
+  },
+  {
+   "screen": "sample-screen/mobile-putaway-1627-11756.html",
+   "node": "1627:11771",
+   "title": "Frame",
+   "figmaSize": [
+    24.0,
+    24.0
+   ],
+   "figmaArtwork": "f87a7",
+   "artworkSha256": "156b7feaa2c1e494f242f009023f2b8b5af147f876bc5e01574826e5e55f83a2",
+   "delivered": "showcase/screens/assets/vectors/icon-f87a7.svg",
+   "transform": null,
+   "libraryBestIoU": [
+    "src/icons/svg/outline/alerts-ringtone-4.svg",
+    0.603
+   ],
+   "styleNote": null
+  }
+ ]
+}

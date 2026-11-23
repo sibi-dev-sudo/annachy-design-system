@@ -1,0 +1,1561 @@
+<canvas id="1375:30857" name="  › ① Sample Screen" x="0" y="0" width="0" height="0">
+  <section id="1608:11615" name="Sample Screen" x="-1181" y="-440" width="5017" height="5688">
+    <frame id="1375:30858" name="Desktop" x="1265" y="530" width="1440" height="3533" />
+    <frame id="1608:7090" name="Mobile" x="557" y="530" width="360" height="4683">
+      <frame id="1608:7091" name="Home Indicator Bar" x="0" y="4668" width="360" height="15">
+        <rounded-rectangle id="1608:7092" name="Bottom Edge" x="0" y="0" width="360" height="15" />
+        <rounded-rectangle id="1608:7093" name="Home Indicator" x="250" y="6" width="139" height="3" />
+      </frame>
+      <frame id="1608:7112" name="Top Nav Bar" x="0" y="35" width="360" height="58">
+        <frame id="1608:7113" name="Icons Frame" x="16" y="8" width="42" height="42">
+          <frame id="1608:7114" name="Line Duotone / Arrows / Alt Arrow Left" x="7" y="7" width="28" height="28" />
+        </frame>
+        <frame id="1608:7116" name="Frame 2121454175" x="252" y="8" width="92" height="42">
+          <frame id="1608:7117" name="Icons Frame" x="0" y="0" width="42" height="42">
+            <frame id="1608:7118" name="Linear / Search / Magnifer" x="9" y="9" width="24" height="24" />
+          </frame>
+          <frame id="1608:7121" name="Icons Frame" x="50" y="0" width="42" height="42">
+            <frame id="1608:7122" name="Outline / Shopping, Ecommerce / Cart Large 2" x="7" y="7" width="28" height="28" />
+          </frame>
+        </frame>
+      </frame>
+      <instance id="1608:7124" name="YL" x="0" y="94" width="360" height="525" />
+      <frame id="1608:7125" name="Frame 2121454944" x="16" y="647" width="330" height="132">
+        <frame id="1608:7126" name="Frame 2121454844" x="0" y="0" width="330" height="90">
+          <frame id="1608:7127" name="Frame 2121454185" x="0" y="0" width="176" height="20">
+            <text id="1608:7128" name="OFFLINE SELECTION" x="0" y="1" width="154" height="18" />
+            <frame id="1608:7129" name="Line Duotone / Arrows / Alt Arrow Left" x="176" y="0" width="20" height="20" />
+          </frame>
+          <frame id="1608:7131" name="Frame 2121454843" x="0" y="24" width="330" height="66">
+            <text id="1608:7132" name="Cotton Blend Printed Kurti for Women" x="0" y="0" width="330" height="21" />
+            <frame id="1608:7133" name="Frame 2121454842" x="0" y="23" width="330" height="43">
+              <frame id="1608:7134" name="Frame 2121454841" x="0" y="0" width="226" height="24">
+                <frame id="1608:7135" name="Frame 2121454840" x="0" y="0" width="138" height="24">
+                  <text id="1608:7136" name="₹1,258" x="0" y="2" width="63" height="20" />
+                  <text id="1608:7137" name="MRP ₹999" x="68" y="0" width="70" height="24" />
+                </frame>
+                <text id="1608:7138" name="(24% OFF)" x="150" y="3" width="76" height="18" />
+              </frame>
+              <text id="1608:7139" name="Inclusive of all taxes" x="0" y="26" width="330" height="17" />
+            </frame>
+          </frame>
+        </frame>
+        <frame id="1608:7140" name="Bonus Coins - Card" x="0" y="100" width="330" height="32">
+          <frame id="1608:7141" name="Frame 2121454847" x="4" y="4" width="322" height="24">
+            <frame id="1608:7142" name="Group 1171275324" x="10" y="0" width="24" height="24">
+              <frame id="1608:7143" name="loyalty 1 [Vectorized]" x="10" y="0" width="24" height="24" />
+            </frame>
+            <frame id="1608:7147" name="Frame 2121454846" x="38" y="0" width="274" height="24">
+              <text id="1608:7148" name="Get 7 Bonus Coins on this order" x="0" y="3" width="252" height="18" />
+              <frame id="1608:7149" name="Line Duotone / Arrows / Alt Arrow Left" x="274" y="2" width="20" height="20" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+      <frame id="1608:7151" name="Frame 2121454869" x="0" y="797" width="360" height="288">
+        <instance id="1608:7152" name="Colour Change Tabs" x="0" y="0" width="360" height="172" />
+        <instance id="1608:7153" name="Normal Size" x="0" y="196" width="360" height="92" />
+      </frame>
+      <frame id="1608:7154" name="Frame 2121454872" x="16" y="1111" width="328" height="127">
+        <instance id="1608:7155" name="Input Field / Outline" x="0" y="0" width="328" height="71" />
+        <frame id="1608:7156" name="Delivery Animation" x="-16" y="89" width="360" height="38">
+          <text id="1608:7157" name="Delivery by Fri, 29 March" x="44" y="10" width="157" height="20" />
+          <frame id="1608:7158" name="Car" x="5.482177734375" y="8" width="31.344100952148438" height="22" />
+          <frame id="1608:7168" name="AIR - 1" x="90.98046875" y="-3" width="43.55659019947052" height="12.954507946968079">
+            <rounded-rectangle id="1608:7169" name="Rectangle 603" x="43" y="3.0000038146972656" width="42.99626222252846" height="8.993952184915543" />
+            <rounded-rectangle id="1608:7170" name="Rectangle 604" x="19" y="7.000002384185791" width="19.092822198730687" height="4.641839014058178" />
+          </frame>
+          <frame id="1608:7171" name="Air - 2" x="233" y="33.109375" width="20.657256819255224" height="4.4411013967908275">
+            <rounded-rectangle id="1608:7172" name="Rectangle 603" x="20.506877899169922" y="1.4307142496109009" width="20.554219898916074" height="2.536267719969146" />
+            <rounded-rectangle id="1608:7173" name="Rectangle 604" x="9.061179161071777" y="3.3383307456970215" width="9.099470132221086" height="1.441839211978504" />
+          </frame>
+          <frame id="1608:7174" name="Air 3" x="261" y="-8.1953125" width="43.123898062855005" height="7.806455750018358">
+            <rounded-rectangle id="1608:7175" name="Rectangle 603" x="43" y="3.0000038146972656" width="43.04876377619803" height="3.8071577046066523" />
+            <rounded-rectangle id="1608:7176" name="Rectangle 604" x="19" y="7.000002384185791" width="19.034214640352957" height="2.3565304226392527" />
+          </frame>
+          <frame id="1608:7177" name="Price Text" x="240" y="10" width="114" height="20">
+            <frame id="1608:7178" name="Frame 2121454870" x="0" y="0" width="105" height="18">
+              <text id="1608:7179" name="₹1,258" x="0" y="0" width="49" height="18" />
+              <frame id="1608:7180" name="Frame 2121454230" x="55" y="2" width="50" height="14">
+                <text id="1608:7181" name="MRP ₹1299" x="0" y="0" width="50" height="14" />
+                <line id="1608:7182" name="Line 122" x="-2" y="7" width="54" height="0.000004720835704574711" />
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+      <frame id="1608:7183" name="Frame 2121454878" x="0" y="1238" width="360" height="231">
+        <frame id="1608:7184" name="Frame 2121454349" x="16" y="24" width="328" height="45">
+          <frame id="1608:7185" name="Frame 2121454344" x="0" y="1.5" width="42" height="42" />
+          <frame id="1608:7193" name="Frame 2121454348" x="58" y="10.5" width="270" height="24">
+            <frame id="1608:7194" name="Frame 2121454347" x="0" y="2" width="246" height="20">
+              <text id="1608:7195" name="Free Delivery" x="0" y="0" width="246" height="20" />
+            </frame>
+            <frame id="1608:7196" name="Line Duotone / Arrows / Alt Arrow Left" x="270" y="0" width="24" height="24" />
+          </frame>
+        </frame>
+        <frame id="1608:7198" name="Frame 2121454350" x="16" y="93" width="328" height="45">
+          <frame id="1608:7199" name="Frame 2121454345" x="0" y="3" width="42" height="42" />
+          <frame id="1608:7211" name="Frame 2121454348" x="58" y="1" width="270" height="44">
+            <frame id="1608:7212" name="Frame 2121454347" x="0" y="0" width="246" height="44">
+              <text id="1608:7213" name="Cash on delivery Available" x="0" y="0" width="246" height="20" />
+              <text id="1608:7214" name="₹20 additional fee applicable" x="0" y="24" width="246" height="20" />
+            </frame>
+            <frame id="1608:7215" name="Line Duotone / Arrows / Alt Arrow Left" x="270" y="10" width="24" height="24" />
+          </frame>
+        </frame>
+        <frame id="1608:7217" name="Frame 2121454352" x="16" y="162" width="328" height="45">
+          <frame id="1608:7218" name="Frame 2121454345" x="0" y="3" width="42" height="42" />
+          <frame id="1608:7230" name="Frame 2121454348" x="58" y="3" width="270" height="42">
+            <frame id="1608:7231" name="Frame 2121454347" x="0" y="0" width="246" height="42">
+              <text id="1608:7232" name="7 days Return &amp; Replacement" x="0" y="0" width="246" height="20" />
+              <frame id="1608:7233" name="Frame 2121454185" x="0" y="24" width="246" height="18">
+                <text id="1608:7234" name="View more" x="0" y="0" width="68" height="18" />
+                <frame id="1608:7235" name="Line Duotone / Arrows / Alt Arrow Left" x="88" y="0" width="18" height="18" />
+              </frame>
+            </frame>
+            <frame id="1608:7237" name="Line Duotone / Arrows / Alt Arrow Left" x="270" y="9" width="24" height="24" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="1608:7239" name="Frame 2121454879" x="0" y="1469" width="360" height="2234">
+        <frame id="1608:7240" name="Frame 2121454740" x="16" y="30" width="328" height="1964">
+          <frame id="1608:7241" name="Frame 2121454475" x="0" y="0" width="328" height="632.0006103515625">
+            <frame id="1608:7242" name="Frame 2121454473" x="0" y="0" width="328" height="24">
+              <text id="1608:7243" name="Top Highlights" x="0" y="0" width="328" height="24" />
+            </frame>
+            <frame id="1608:7244" name="Frame 2121454890" x="0" y="50" width="328" height="582.0006103515625">
+              <frame id="1608:7245" name="Frame 2121454891" x="0" y="0" width="328" height="526.0006103515625">
+                <frame id="1608:7246" name="Frame 2121454887" x="0" y="0" width="328" height="250.00030517578125">
+                  <frame id="1608:7247" name="Frame 2121454884" x="0" y="0" width="328" height="78.0000991821289">
+                    <instance id="1608:7248" name="Lab Card " x="0" y="0" width="170" height="78.0000991821289" />
+                    <instance id="1608:7249" name="Lab Card " x="158" y="0" width="170" height="60.000099182128906" />
+                  </frame>
+                  <frame id="1608:7250" name="Frame 2121454885" x="0" y="104.0000991821289" width="328" height="60.000099182128906">
+                    <instance id="1608:7251" name="Lab Card " x="0" y="0" width="170" height="60.000099182128906" />
+                    <instance id="1608:7252" name="Lab Card " x="158" y="0" width="170" height="60.000099182128906" />
+                  </frame>
+                  <frame id="1608:7253" name="Frame 2121454886" x="0" y="190.0001983642578" width="328" height="60.000099182128906">
+                    <instance id="1608:7254" name="Lab Card " x="0" y="0" width="170" height="60.000099182128906" />
+                    <instance id="1608:7255" name="Lab Card " x="158" y="0" width="170" height="60.000099182128906" />
+                  </frame>
+                </frame>
+                <frame id="1608:7256" name="Frame 2121454890" x="0" y="276.00030517578125" width="328" height="250.00030517578125">
+                  <frame id="1608:7257" name="Frame 2121454884" x="0" y="0" width="328" height="78.0000991821289">
+                    <instance id="1608:7258" name="Lab Card " x="0" y="0" width="170" height="78.0000991821289" />
+                    <instance id="1608:7259" name="Lab Card " x="158" y="0" width="170" height="60.000099182128906" />
+                  </frame>
+                  <frame id="1608:7260" name="Frame 2121454885" x="0" y="104.0000991821289" width="328" height="60.000099182128906">
+                    <instance id="1608:7261" name="Lab Card " x="0" y="0" width="170" height="60.000099182128906" />
+                    <instance id="1608:7262" name="Lab Card " x="158" y="0" width="170" height="60.000099182128906" />
+                  </frame>
+                  <frame id="1608:7263" name="Frame 2121454886" x="0" y="190.0001983642578" width="328" height="60.000099182128906">
+                    <instance id="1608:7264" name="Lab Card " x="0" y="0" width="170" height="60.000099182128906" />
+                    <instance id="1608:7265" name="Lab Card " x="158" y="0" width="170" height="60.000099182128906" />
+                  </frame>
+                </frame>
+              </frame>
+              <instance id="1608:7266" name="All Buttons" x="202" y="550.0006103515625" width="126" height="32" />
+            </frame>
+          </frame>
+          <frame id="1608:7267" name="Frame 2121454739" x="0" y="668.0006103515625" width="328" height="1301">
+            <text id="1608:7268" name="Product Information" x="0" y="0" width="182" height="24" />
+            <frame id="1608:7269" name="Frame 2121454730" x="0" y="50" width="328" height="1251">
+              <frame id="1608:7270" name="Product Details Sections" x="0" y="0" width="328" height="688">
+                <frame id="1608:7271" name="Frame 2121454458" x="0" y="0" width="328" height="670">
+                  <line id="1608:7272" name="Line 137" x="0" y="0" width="328" height="0" />
+                  <frame id="1608:7273" name="Frame 2121454892" x="0" y="0" width="328" height="670">
+                    <instance id="1608:7274" name="Product Details Sections" x="0" y="0" width="362" height="32" />
+                    <frame id="1608:7275" name="Frame 2121454465" x="0" y="40" width="328" height="630">
+                      <frame id="1608:7276" name="Frame 2121454454" x="0" y="0" width="328" height="36">
+                        <instance id="1608:7277" name="All Buttons" x="0" y="0" width="176" height="36" />
+                        <instance id="1608:7278" name="All Buttons" x="188" y="0" width="178" height="36" />
+                        <instance id="1608:7279" name="All Buttons" x="378" y="0" width="173" height="36" />
+                      </frame>
+                      <frame id="1608:7280" name="Frame 2121454487" x="0" y="54" width="328" height="576">
+                        <frame id="1608:7281" name="Frame 2121454466" x="0" y="0" width="328" height="528">
+                          <frame id="1608:7282" name="Frame 2121454459" x="0" y="0" width="328" height="528">
+                            <frame id="1608:7283" name="Frame 2121454381" x="0" y="0" width="328" height="66">
+                              <frame id="1608:7284" name="Frame 2121454375" x="0" y="0" width="172" height="66">
+                                <text id="1608:7285" name="Fabric Care" x="0" y="0" width="172" height="20" />
+                                <frame id="1608:7286" name="Frame 2121454373" x="0" y="24" width="172" height="42">
+                                  <text id="1608:7287" name="Do not Iron on print/embroidery/embellishment" x="6" y="0" width="160" height="36" />
+                                </frame>
+                              </frame>
+                              <frame id="1608:7288" name="Frame 2121454377" x="192" y="0" width="172" height="66">
+                                <text id="1608:7289" name="Fit" x="0" y="0" width="172" height="20" />
+                                <frame id="1608:7290" name="Frame 2121454373" x="0" y="24" width="172" height="42">
+                                  <text id="1608:7291" name="Straight" x="6" y="0" width="160" height="18" />
+                                </frame>
+                              </frame>
+                            </frame>
+                            <frame id="1608:7292" name="Frame 2121454380" x="0" y="92" width="328" height="48">
+                              <frame id="1608:7293" name="Frame 2121454378" x="0" y="0" width="172" height="48">
+                                <text id="1608:7294" name="Length" x="0" y="0" width="172" height="20" />
+                                <frame id="1608:7295" name="Frame 2121454373" x="0" y="24" width="172" height="24">
+                                  <text id="1608:7296" name="Knee Length" x="6" y="0" width="160" height="18" />
+                                </frame>
+                              </frame>
+                              <frame id="1608:7297" name="Frame 2121454379" x="192" y="0" width="172" height="48">
+                                <text id="1608:7298" name="Neck Type" x="0" y="0" width="172" height="20" />
+                                <frame id="1608:7299" name="Frame 2121454373" x="0" y="24" width="172" height="24">
+                                  <text id="1608:7300" name="Round Neck" x="6" y="0" width="160" height="18" />
+                                </frame>
+                              </frame>
+                            </frame>
+                            <frame id="1608:7301" name="Frame 2121454382" x="0" y="166" width="328" height="48">
+                              <frame id="1608:7302" name="Frame 2121454378" x="0" y="0" width="172" height="48">
+                                <text id="1608:7303" name="Pattern" x="0" y="0" width="172" height="20" />
+                                <frame id="1608:7304" name="Frame 2121454373" x="0" y="24" width="172" height="24">
+                                  <text id="1608:7305" name="Embroidered" x="6" y="0" width="160" height="18" />
+                                </frame>
+                              </frame>
+                              <frame id="1608:7306" name="Frame 2121454379" x="192" y="0" width="172" height="48">
+                                <text id="1608:7307" name="Sleeve Length" x="0" y="0" width="172" height="20" />
+                                <frame id="1608:7308" name="Frame 2121454373" x="0" y="24" width="172" height="24">
+                                  <text id="1608:7309" name="3/4 Sleeve" x="6" y="0" width="160" height="18" />
+                                </frame>
+                              </frame>
+                            </frame>
+                            <frame id="1608:7310" name="Frame 2121454385" x="0" y="240" width="328" height="66">
+                              <frame id="1608:7311" name="Frame 2121454375" x="0" y="0" width="172" height="66">
+                                <text id="1608:7312" name="Fabric Care" x="0" y="0" width="172" height="20" />
+                                <frame id="1608:7313" name="Frame 2121454373" x="0" y="24" width="172" height="42">
+                                  <text id="1608:7314" name="Do not Iron on print/embroidery/embellishment" x="6" y="0" width="160" height="36" />
+                                </frame>
+                              </frame>
+                              <frame id="1608:7315" name="Frame 2121454377" x="192" y="0" width="172" height="66">
+                                <text id="1608:7316" name="Fit" x="0" y="0" width="172" height="20" />
+                                <frame id="1608:7317" name="Frame 2121454373" x="0" y="24" width="172" height="42">
+                                  <text id="1608:7318" name="Straight" x="6" y="0" width="160" height="18" />
+                                </frame>
+                              </frame>
+                            </frame>
+                            <frame id="1608:7319" name="Frame 2121454386" x="0" y="332" width="328" height="48">
+                              <frame id="1608:7320" name="Frame 2121454378" x="0" y="0" width="172" height="48">
+                                <text id="1608:7321" name="Pattern" x="0" y="0" width="172" height="20" />
+                                <frame id="1608:7322" name="Frame 2121454373" x="0" y="24" width="172" height="24">
+                                  <text id="1608:7323" name="Embroidered" x="6" y="0" width="160" height="18" />
+                                </frame>
+                              </frame>
+                              <frame id="1608:7324" name="Frame 2121454379" x="192" y="0" width="172" height="48">
+                                <text id="1608:7325" name="Sleeve Length" x="0" y="0" width="172" height="20" />
+                                <frame id="1608:7326" name="Frame 2121454373" x="0" y="24" width="172" height="24">
+                                  <text id="1608:7327" name="3/4 Sleeve" x="6" y="0" width="160" height="18" />
+                                </frame>
+                              </frame>
+                            </frame>
+                            <frame id="1608:7328" name="Frame 2121454384" x="0" y="406" width="328" height="48">
+                              <frame id="1608:7329" name="Frame 2121454378" x="0" y="0" width="172" height="48">
+                                <text id="1608:7330" name="Length" x="0" y="0" width="172" height="20" />
+                                <frame id="1608:7331" name="Frame 2121454373" x="0" y="24" width="172" height="24">
+                                  <text id="1608:7332" name="Knee Length" x="6" y="0" width="160" height="18" />
+                                </frame>
+                              </frame>
+                              <frame id="1608:7333" name="Frame 2121454379" x="192" y="0" width="172" height="48">
+                                <text id="1608:7334" name="Neck Type" x="0" y="0" width="172" height="20" />
+                                <frame id="1608:7335" name="Frame 2121454373" x="0" y="24" width="172" height="24">
+                                  <text id="1608:7336" name="Round Neck" x="6" y="0" width="160" height="18" />
+                                </frame>
+                              </frame>
+                            </frame>
+                            <frame id="1608:7337" name="Frame 2121454383" x="0" y="480" width="328" height="48">
+                              <frame id="1608:7338" name="Frame 2121454378" x="0" y="0" width="172" height="48">
+                                <text id="1608:7339" name="Pattern" x="0" y="0" width="172" height="20" />
+                                <frame id="1608:7340" name="Frame 2121454373" x="0" y="24" width="172" height="24">
+                                  <text id="1608:7341" name="Embroidered" x="6" y="0" width="160" height="18" />
+                                </frame>
+                              </frame>
+                              <frame id="1608:7342" name="Frame 2121454379" x="192" y="0" width="172" height="48">
+                                <text id="1608:7343" name="Sleeve Length" x="0" y="0" width="172" height="20" />
+                                <frame id="1608:7344" name="Frame 2121454373" x="0" y="24" width="172" height="24">
+                                  <text id="1608:7345" name="3/4 Sleeve" x="6" y="0" width="160" height="18" />
+                                </frame>
+                              </frame>
+                            </frame>
+                          </frame>
+                        </frame>
+                        <instance id="1608:7346" name="All Buttons" x="202" y="544" width="126" height="32" />
+                      </frame>
+                    </frame>
+                  </frame>
+                </frame>
+              </frame>
+              <frame id="1608:7347" name="Component 106" x="0" y="706" width="328" height="545">
+                <instance id="1608:7348" name="Product Details Sections" x="0" y="0" width="328" height="32" />
+                <frame id="1608:7349" name="Frame 2121454725" x="0" y="44" width="328" height="496">
+                  <frame id="1608:7350" name="Slot" x="0" y="0" width="328" height="491">
+                    <frame id="1608:7351" name="Frame 2121454727" x="0" y="0" width="328" height="491">
+                      <frame id="1608:7352" name="Frame 2121454714" x="0" y="0" width="328" height="219">
+                        <frame id="1608:7353" name="Frame 2121454694" x="0" y="0" width="328" height="18">
+                          <text id="1608:7354" name="Customer Review" x="0" y="0" width="236" height="18" />
+                        </frame>
+                        <frame id="1608:7355" name="Frame 2121454713" x="0" y="38" width="328" height="181">
+                          <frame id="1608:7356" name="Frame 2121454703" x="0" y="0" width="261.45281982421875" height="35">
+                            <frame id="1608:7357" name="Frame 2121454697" x="0" y="0" width="62.45283126831055" height="35">
+                              <frame id="1608:7358" name="Frame 2121454181" x="8" y="5.254716873168945" width="46.45283126831055" height="24.49056625366211">
+                                <text id="1608:7359" name="Heading" x="4.76837158203125e-7" y="3.2452831268310547" width="24" height="18" />
+                                <star id="1608:7360" name="Star" x="28.452831268310547" y="3.2452831268310547" width="18" height="18" />
+                              </frame>
+                            </frame>
+                            <frame id="1608:7361" name="Frame 2121454701" x="78.45283508300781" y="7.5" width="173" height="20">
+                              <text id="1608:7362" name="Heading" x="5.999999523162842" y="0" width="71" height="20" />
+                              <line id="1608:7363" name="Line 142" x="85" y="1" width="7.868184184189886e-7" height="18" />
+                              <text id="1608:7364" name="Heading" x="93" y="0" width="74" height="20" />
+                            </frame>
+                          </frame>
+                          <frame id="1608:7365" name="Frame 2121454707" x="0" y="51" width="328" height="130">
+                            <frame id="1608:7366" name="Frame 2121454705" x="0" y="0" width="160" height="130">
+                              <frame id="1608:7367" name="Frame 2121454585" x="-6" y="0" width="187" height="161" />
+                            </frame>
+                            <frame id="1608:7368" name="Frame 2121454711" x="168" y="0" width="160" height="130">
+                              <frame id="1608:7369" name="Frame 2121454709" x="0" y="0" width="160" height="61">
+                                <frame id="1608:7370" name="Images" x="-1" y="-48" width="178" height="237">
+                                  <rounded-rectangle id="1608:7371" name="Product Image - 1" x="0" y="0" width="178" height="237" />
+                                  <rounded-rectangle id="1608:7372" name="Rectangle 1954" x="-1" y="45" width="180" height="65" />
+                                  <frame id="1608:7373" name="Frame 2121454594" x="68.5" y="69" width="42" height="18">
+                                    <frame id="1608:7374" name="Gallery Minimalistic" x="0" y="0" width="18" height="18" />
+                                    <text id="1608:7378" name="+10" x="20" y="0" width="22" height="18" />
+                                  </frame>
+                                </frame>
+                              </frame>
+                              <frame id="1608:7379" name="Frame 2121454710" x="0" y="69" width="160" height="61">
+                                <rounded-rectangle id="1608:7380" name="Product Image -2" x="-6" y="-27" width="190" height="139" />
+                                <rounded-rectangle id="1608:7381" name="Rectangle 1954" x="-10" y="-2" width="180" height="65" />
+                                <frame id="1608:7382" name="Frame 2121454594" x="58.5" y="22" width="42" height="18">
+                                  <frame id="1608:7383" name="Outline / Video, Audio, Sound / Play Circle" x="0" y="0" width="18" height="18" />
+                                  <text id="1608:7385" name="+10" x="20" y="0" width="22" height="18" />
+                                </frame>
+                              </frame>
+                            </frame>
+                          </frame>
+                        </frame>
+                      </frame>
+                      <frame id="1608:7386" name="Frame 2121454712" x="0" y="243" width="328" height="248">
+                        <instance id="1608:7387" name="Frame 2121454563" x="0" y="0" width="328" height="186" />
+                        <instance id="1608:7388" name="All Buttons" x="0" y="202" width="328" height="46" />
+                      </frame>
+                    </frame>
+                  </frame>
+                  <line id="1608:7389" name="Line 137" x="0" y="509" width="328" height="0" />
+                  <line id="1608:7390" name="Line 143" x="0" y="240" width="362" height="0.00003164704776281724" />
+                </frame>
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+        <frame id="1608:7391" name="Frame 2121454749" x="0" y="2012" width="360" height="198">
+          <frame id="1608:7392" name="Frame 2121454747" x="0" y="0" width="360" height="122">
+            <frame id="1608:7393" name="Frame 2121454746" x="15" y="27" width="110" height="68">
+              <frame id="1608:7394" name="Frame 2121454344" x="34" y="0" width="42" height="42">
+                <frame id="1608:7395" name="Outline / Users / Users Group Two Rounded" x="8.605781555175781" y="9.10651969909668" width="24" height="24" />
+              </frame>
+              <text id="1608:7397" name="Happy customers" x="0" y="50" width="110" height="18" />
+            </frame>
+            <frame id="1608:7398" name="Frame 2121454745" x="125" y="27" width="110" height="68">
+              <frame id="1608:7399" name="Frame 2121454394" x="34" y="0" width="42" height="42">
+                <frame id="1608:7400" name="Linear / Security / Shield Check" x="8.60546875" y="9.109375" width="24" height="24" />
+              </frame>
+              <text id="1608:7403" name="Quality Checked" x="0" y="50" width="110" height="18" />
+            </frame>
+            <frame id="1608:7404" name="Frame 2121454744" x="235" y="27" width="110" height="68">
+              <frame id="1608:7405" name="Frame 2121454395" x="34" y="0" width="42" height="42" />
+              <text id="1608:7409" name="Genuine Product" x="0" y="50" width="110" height="18" />
+            </frame>
+          </frame>
+          <frame id="1608:7410" name="Frame 2121454748" x="0" y="122" width="360" height="76">
+            <frame id="1608:7411" name="Frame 2121454345" x="16" y="17" width="42" height="42">
+              <frame id="1608:7412" name="Linear / Shopping, Ecommerce / Shop" x="9.000022888183594" y="9.002571105957031" width="24" height="24" />
+            </frame>
+            <frame id="1608:7418" name="Frame 2121454348" x="78" y="16" width="266" height="44">
+              <frame id="1608:7419" name="Frame 2121454347" x="0" y="0" width="242" height="44">
+                <text id="1608:7420" name="OFFLINE SELECTION" x="0" y="0" width="242" height="20" />
+                <text id="1608:7421" name="Explore all from this brand" x="0" y="24" width="242" height="20" />
+              </frame>
+              <frame id="1608:7422" name="Line Duotone / Arrows / Alt Arrow Left" x="266" y="10" width="24" height="24" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+      <frame id="1608:7424" name="Frame 2121454905" x="0" y="3703" width="360" height="842">
+        <frame id="1608:7425" name="Frame 2121454899" x="0" y="0" width="360" height="477">
+          <frame id="1608:7426" name="Frame 2121454898" x="16" y="24" width="328" height="40">
+            <text id="1608:7427" name="Similar Products" x="0" y="8" width="149" height="24" />
+            <instance id="1608:7428" name="All Buttons" x="252" y="1" width="76" height="38" />
+          </frame>
+          <frame id="1608:7429" name="Frame 2121454897" x="16" y="82" width="328" height="371">
+            <frame id="1608:7430" name="Similar Products- Card" x="0" y="5.5" width="172" height="360">
+              <frame id="1608:7431" name="Frame 2121454768" x="0" y="0" width="172" height="360">
+                <frame id="1608:7432" name="Frame 2121454334" x="0" y="0" width="172" height="240">
+                  <instance id="1608:7433" name="Similar Products - Images" x="-7" y="1" width="185" height="247" />
+                  <frame id="1608:7434" name="Frame 2121454774" x="0" y="184" width="172" height="56">
+                    <frame id="1608:7435" name="Review BT" x="97.46464538574219" y="15" width="64.53535461425781" height="26">
+                      <frame id="1608:7436" name="Frame 2121454772" x="0" y="0" width="41.53535461425781" height="26">
+                        <frame id="1608:7437" name="Frame 2121454181" x="6" y="4" width="29.535354614257812" height="18">
+                          <text id="1608:7438" name="Heading" x="0" y="0" width="18" height="18" />
+                          <star id="1608:7439" name="Star" x="20" y="4.232323169708252" width="9.535353660583496" height="9.535353660583496" />
+                        </frame>
+                      </frame>
+                      <frame id="1608:7440" name="Frame 2121454773" x="41.53535461425781" y="2" width="23" height="22">
+                        <frame id="1608:7441" name="Frame 2121454181" x="2" y="4" width="17" height="14">
+                          <text id="1608:7442" name="Heading" x="0" y="0" width="17" height="14" />
+                        </frame>
+                      </frame>
+                    </frame>
+                  </frame>
+                  <instance id="1608:7443" name="Watchlist/Small Button" x="134" y="13" width="32" height="32" />
+                </frame>
+                <frame id="1608:7444" name="Frame 2121454765" x="0" y="248" width="172" height="112">
+                  <frame id="1608:7445" name="Frame 2121454763" x="3" y="0" width="166" height="69">
+                    <frame id="1608:7446" name="Frame 2121454762" x="0" y="0" width="166" height="37">
+                      <frame id="1608:7447" name="Frame 2121454185" x="0" y="0" width="59" height="18">
+                        <text id="1608:7448" name="TRENDING" x="0" y="0" width="59" height="18" />
+                      </frame>
+                      <text id="1608:7449" name="Floral Print Georgette Saree" x="0" y="18" width="166" height="19" />
+                    </frame>
+                    <frame id="1608:7450" name="Frame 2121454767" x="0" y="37" width="166" height="32">
+                      <frame id="1608:7451" name="Frame 2121454761" x="0" y="0" width="166" height="18">
+                        <frame id="1608:7452" name="Frame 2121454764" x="0" y="0" width="101" height="18">
+                          <frame id="1608:7453" name="Frame 2121454896" x="0" y="0" width="101" height="18">
+                            <text id="1608:7454" name="₹2,399" x="0" y="0" width="45" height="18" />
+                            <frame id="1608:7455" name="Frame 2121454839" x="47" y="2" width="54" height="14">
+                              <text id="1608:7456" name="MRP ₹3,999" x="0" y="0" width="54" height="14" />
+                              <frame id="1608:7457" name="Frame 2121454837" x="2" y="-3" width="50" height="20">
+                                <line id="1608:7458" name="Line 122" x="0" y="10" width="50" height="0.000004371137038106099" />
+                              </frame>
+                            </frame>
+                          </frame>
+                        </frame>
+                        <text id="1608:7459" name="(40% OFF)" x="105" y="0" width="62" height="18" />
+                      </frame>
+                      <text id="1608:7460" name="Prices include all taxes" x="0" y="18" width="166" height="14" />
+                    </frame>
+                  </frame>
+                  <instance id="1608:7461" name="All Buttons" x="3" y="76" width="166" height="36" />
+                </frame>
+              </frame>
+            </frame>
+            <frame id="1608:7462" name="Similar Products- Card" x="186" y="5.5" width="172" height="360">
+              <frame id="1608:7463" name="Frame 2121454768" x="0" y="0" width="172" height="360">
+                <frame id="1608:7464" name="Frame 2121454334" x="0" y="0" width="172" height="240">
+                  <instance id="1608:7465" name="Similar Products - Images" x="-7" y="1" width="185" height="247" />
+                  <frame id="1608:7466" name="Frame 2121454774" x="0" y="184" width="172" height="56">
+                    <frame id="1608:7467" name="Review BT" x="97.46464538574219" y="15" width="64.53535461425781" height="26">
+                      <frame id="1608:7468" name="Frame 2121454772" x="0" y="0" width="41.53535461425781" height="26">
+                        <frame id="1608:7469" name="Frame 2121454181" x="6" y="4" width="29.535354614257812" height="18">
+                          <text id="1608:7470" name="Heading" x="0" y="0" width="18" height="18" />
+                          <star id="1608:7471" name="Star" x="20" y="4.232323169708252" width="9.535353660583496" height="9.535353660583496" />
+                        </frame>
+                      </frame>
+                      <frame id="1608:7472" name="Frame 2121454773" x="41.53535461425781" y="2" width="23" height="22">
+                        <frame id="1608:7473" name="Frame 2121454181" x="2" y="4" width="17" height="14">
+                          <text id="1608:7474" name="Heading" x="0" y="0" width="17" height="14" />
+                        </frame>
+                      </frame>
+                    </frame>
+                  </frame>
+                  <instance id="1608:7475" name="Watchlist/Small Button" x="134" y="13" width="32" height="32" />
+                </frame>
+                <frame id="1608:7476" name="Frame 2121454765" x="0" y="248" width="172" height="112">
+                  <frame id="1608:7477" name="Frame 2121454763" x="3" y="0" width="166" height="69">
+                    <frame id="1608:7478" name="Frame 2121454762" x="0" y="0" width="166" height="37">
+                      <frame id="1608:7479" name="Frame 2121454185" x="0" y="0" width="59" height="18">
+                        <text id="1608:7480" name="TRENDING" x="0" y="0" width="59" height="18" />
+                      </frame>
+                      <text id="1608:7481" name="Floral Print Georgette Saree" x="0" y="18" width="166" height="19" />
+                    </frame>
+                    <frame id="1608:7482" name="Frame 2121454767" x="0" y="37" width="166" height="32">
+                      <frame id="1608:7483" name="Frame 2121454761" x="0" y="0" width="166" height="18">
+                        <frame id="1608:7484" name="Frame 2121454764" x="0" y="0" width="101" height="18">
+                          <frame id="1608:7485" name="Frame 2121454896" x="0" y="0" width="101" height="18">
+                            <text id="1608:7486" name="₹2,399" x="0" y="0" width="45" height="18" />
+                            <frame id="1608:7487" name="Frame 2121454839" x="47" y="2" width="54" height="14">
+                              <text id="1608:7488" name="MRP ₹3,999" x="0" y="0" width="54" height="14" />
+                              <frame id="1608:7489" name="Frame 2121454837" x="2" y="-3" width="50" height="20">
+                                <line id="1608:7490" name="Line 122" x="0" y="10" width="50" height="0.000004371137038106099" />
+                              </frame>
+                            </frame>
+                          </frame>
+                        </frame>
+                        <text id="1608:7491" name="(40% OFF)" x="105" y="0" width="62" height="18" />
+                      </frame>
+                      <text id="1608:7492" name="Prices include all taxes" x="0" y="18" width="166" height="14" />
+                    </frame>
+                  </frame>
+                  <instance id="1608:7493" name="All Buttons" x="3" y="76" width="166" height="36" />
+                </frame>
+              </frame>
+            </frame>
+            <frame id="1608:7494" name="Similar Products- Card" x="372" y="0" width="172" height="371">
+              <frame id="1608:7495" name="Frame 2121454768" x="0" y="0" width="172" height="371">
+                <frame id="1608:7496" name="Frame 2121454334" x="0" y="0" width="172" height="240">
+                  <instance id="1608:7497" name="Similar Products - Images" x="-7" y="1" width="185" height="247" />
+                  <frame id="1608:7498" name="Frame 2121454774" x="0" y="184" width="172" height="56">
+                    <frame id="1608:7499" name="Review BT" x="97.46464538574219" y="15" width="64.53535461425781" height="26">
+                      <frame id="1608:7500" name="Frame 2121454772" x="0" y="0" width="41.53535461425781" height="26">
+                        <frame id="1608:7501" name="Frame 2121454181" x="6" y="4" width="29.535354614257812" height="18">
+                          <text id="1608:7502" name="Heading" x="0" y="0" width="18" height="18" />
+                          <star id="1608:7503" name="Star" x="20" y="4.232323169708252" width="9.535353660583496" height="9.535353660583496" />
+                        </frame>
+                      </frame>
+                      <frame id="1608:7504" name="Frame 2121454773" x="41.53535461425781" y="2" width="23" height="22">
+                        <frame id="1608:7505" name="Frame 2121454181" x="2" y="4" width="17" height="14">
+                          <text id="1608:7506" name="Heading" x="0" y="0" width="17" height="14" />
+                        </frame>
+                      </frame>
+                    </frame>
+                  </frame>
+                  <instance id="1608:7507" name="Watchlist/Small Button" x="134" y="13" width="32" height="32" />
+                </frame>
+                <frame id="1608:7508" name="Frame 2121454765" x="0" y="248" width="172" height="123">
+                  <frame id="1608:7509" name="Frame 2121454763" x="3" y="0" width="166" height="75">
+                    <frame id="1608:7510" name="Frame 2121454762" x="0" y="0" width="166" height="37">
+                      <frame id="1608:7511" name="Frame 2121454185" x="0" y="0" width="59" height="18">
+                        <text id="1608:7512" name="TRENDING" x="0" y="0" width="59" height="18" />
+                      </frame>
+                      <text id="1608:7513" name="Floral Print Georgette Saree" x="0" y="18" width="166" height="19" />
+                    </frame>
+                    <frame id="1608:7514" name="Frame 2121454767" x="0" y="41" width="166" height="34">
+                      <frame id="1608:7515" name="Frame 2121454761" x="0" y="0" width="166" height="18">
+                        <frame id="1608:7516" name="Frame 2121454764" x="0" y="0" width="101" height="18">
+                          <frame id="1608:7517" name="Frame 2121454896" x="0" y="0" width="101" height="18">
+                            <text id="1608:7518" name="₹2,399" x="0" y="0" width="45" height="18" />
+                            <frame id="1608:7519" name="Frame 2121454839" x="47" y="2" width="54" height="14">
+                              <text id="1608:7520" name="MRP ₹3,999" x="0" y="0" width="54" height="14" />
+                              <frame id="1608:7521" name="Frame 2121454837" x="2" y="-3" width="50" height="20">
+                                <line id="1608:7522" name="Line 122" x="0" y="10" width="50" height="0.000004371137038106099" />
+                              </frame>
+                            </frame>
+                          </frame>
+                        </frame>
+                        <text id="1608:7523" name="(40% OFF)" x="105" y="0" width="62" height="18" />
+                      </frame>
+                      <text id="1608:7524" name="Prices include all taxes" x="0" y="20" width="166" height="14" />
+                    </frame>
+                  </frame>
+                  <instance id="1608:7525" name="All Buttons" x="3" y="85" width="166" height="38" />
+                </frame>
+              </frame>
+            </frame>
+            <instance id="1608:7526" name="Similar Products- Card" x="558" y="0" width="172" height="371" />
+            <instance id="1608:7527" name="Similar Products- Card" x="744" y="0" width="172" height="371" />
+            <instance id="1608:7528" name="Similar Products- Card" x="930" y="0" width="172" height="371" />
+            <instance id="1608:7529" name="Similar Products- Card" x="1116" y="0" width="172" height="371" />
+          </frame>
+        </frame>
+        <frame id="1608:7530" name="Frame 2121454900" x="0" y="477" width="360" height="365">
+          <frame id="1608:7531" name="Frame 2121454898" x="16" y="24" width="328" height="40">
+            <text id="1608:7532" name="New Collections" x="0" y="8" width="147" height="24" />
+            <frame id="1608:7533" name="Frame 2121454727" x="290" y="1" width="38" height="38">
+              <frame id="1608:7534" name="Linear / Arrows / Arrow Right" x="7" y="7" width="24" height="24" />
+            </frame>
+          </frame>
+          <frame id="1608:7536" name="Frame 2121454830" x="16" y="82" width="328" height="259">
+            <instance id="1608:7550" name="Frame 2121454826" x="0" y="21" width="195" height="238">
+              <frame id="I1608:7550;1519:25507" name="Frame 2121454829" x="0" y="0" width="187" height="238">
+                <frame id="I1608:7550;1519:25378" name="Frame 2121454828" x="0" y="0" width="187" height="238">
+                  <frame id="I1608:7550;1519:25347" name="Frame 2121454827" x="0" y="0" width="187" height="238">
+                    <frame id="I1608:7550;1519:25234" name="Frame 2121454821" x="0" y="0" width="125" height="238">
+                      <slot id="I1608:7550;1519:25227" name="Images" x="0" y="0" width="125" height="158">
+                        <frame id="I1608:7550;1519:25227;1608:7548" name="BL" x="-17" y="-4" width="171.9085693359375" height="229.06597900390625">
+                          <rounded-rectangle id="I1608:7550;1519:25227;1608:7549" name="Orginal Image" x="-2.400451183319092" y="-3.0589375495910645" width="176.6649169921875" height="235.66824340820312" />
+                        </frame>
+                      </slot>
+                      <slot id="I1608:7550;1519:25228" name="Image-2" x="0" y="168" width="125" height="70">
+                        <rounded-rectangle id="I1608:7550;1519:25228;1608:7546" name="unnamed (6) 1" x="0" y="-19" width="125" height="129" />
+                      </slot>
+                    </frame>
+                    <frame id="I1608:7550;1519:25232" name="Frame 2121454820" x="135" y="18" width="52" height="220">
+                      <slot id="I1608:7550;1519:25229" name="Image-3" x="0" y="0" width="52" height="52">
+                        <rounded-rectangle id="I1608:7550;1519:25229;1608:7544" name="unnamed (3) 1" x="-3" y="-19" width="57" height="77" />
+                      </slot>
+                      <slot id="I1608:7550;1519:25230" name="Image-4" x="0" y="56" width="52" height="52">
+                        <rounded-rectangle id="I1608:7550;1519:25230;1608:7542" name="unnamed (7) 1" x="-9" y="-2" width="69.14820861816406" height="92.22333526611328" />
+                      </slot>
+                      <slot id="I1608:7550;1519:25233" name="Image-5" x="0" y="112" width="52" height="52">
+                        <rounded-rectangle id="I1608:7550;1519:25233;1608:7540" name="unnamed (5) 1" x="-22.1640625" y="-59" width="96.60575866699219" height="128.8436279296875" />
+                      </slot>
+                      <slot id="I1608:7550;1519:25231" name="Image-6" x="0" y="168" width="52" height="52">
+                        <rounded-rectangle id="I1608:7550;1519:25231;1608:7538" name="unnamed (4) 1" x="-3.87890625" y="-2" width="62.878753662109375" height="83.86173248291016" />
+                      </slot>
+                      <instance id="I1608:7550;1519:26498" name="Watchlist/ Width Big Button" x="0" y="-39" width="52" height="31.999996185302734" />
+                    </frame>
+                  </frame>
+                </frame>
+                <instance id="I1608:7550;1519:26199" name="Top Lablel" x="0" y="-21" width="125" height="28" />
+              </frame>
+            </instance>
+            <instance id="1608:7563" name="Frame 2121454824" x="203" y="0" width="195" height="259">
+              <frame id="I1608:7563;1519:25507" name="Frame 2121454829" x="0" y="21" width="187" height="238">
+                <frame id="I1608:7563;1519:25378" name="Frame 2121454828" x="0" y="0" width="187" height="238">
+                  <frame id="I1608:7563;1519:25347" name="Frame 2121454827" x="0" y="0" width="187" height="238">
+                    <frame id="I1608:7563;1519:25234" name="Frame 2121454821" x="0" y="0" width="125" height="238">
+                      <slot id="I1608:7563;1519:25227" name="Images" x="0" y="0" width="125" height="158">
+                        <rounded-rectangle id="I1608:7563;1519:25227;1608:7562" name="Product Image" x="-5.521484375" y="1.6328125" width="135.04461669921875" height="195.73133850097656" />
+                      </slot>
+                      <slot id="I1608:7563;1519:25228" name="Image-2" x="0" y="168" width="125" height="70">
+                        <rounded-rectangle id="I1608:7563;1519:25228;1608:7560" name="Gemini_Generated_Image_1xd3lh1xd3lh1xd3 (1) 2" x="-2" y="-1" width="127" height="77" />
+                      </slot>
+                    </frame>
+                    <frame id="I1608:7563;1519:25232" name="Frame 2121454820" x="135" y="18" width="52" height="220">
+                      <slot id="I1608:7563;1519:25229" name="Image-3" x="0" y="0" width="52" height="52">
+                        <rounded-rectangle id="I1608:7563;1519:25229;1608:7558" name="Gemini_Generated_Image_1xd3lh1xd3lh1xd3 1" x="0" y="-3" width="52" height="87" />
+                      </slot>
+                      <slot id="I1608:7563;1519:25230" name="Image-4" x="0" y="56" width="52" height="52">
+                        <rounded-rectangle id="I1608:7563;1519:25230;1608:7556" name="Gemini_Generated_Image_1xd3lh1xd3lh1xd3 (4) 1" x="-0.080078125" y="-3" width="55.999996185302734" height="93.23999786376953" />
+                      </slot>
+                      <slot id="I1608:7563;1519:25233" name="Image-5" x="0" y="112" width="52" height="52">
+                        <rounded-rectangle id="I1608:7563;1519:25233;1608:7554" name="Gemini_Generated_Image_4h4hcm4h4hcm4h4h 1" x="-4.626953125" y="0" width="61.090232849121094" height="81.47637176513672" />
+                      </slot>
+                      <slot id="I1608:7563;1519:25231" name="Image-6" x="0" y="168" width="52" height="52">
+                        <rounded-rectangle id="I1608:7563;1519:25231;1608:7552" name="unnamed (2) 1" x="0" y="-3" width="54" height="82" />
+                      </slot>
+                      <instance id="I1608:7563;1519:26498" name="Watchlist/ Width Big Button" x="0" y="-39" width="52" height="31.999996185302734" />
+                    </frame>
+                  </frame>
+                </frame>
+                <instance id="I1608:7563;1519:26199" name="Top Lablel" x="0" y="-21" width="125" height="28" />
+              </frame>
+            </instance>
+            <instance id="1608:7576" name="Frame 2121454823" x="406" y="0" width="195" height="259">
+              <frame id="I1608:7576;1519:25507" name="Frame 2121454829" x="0" y="21" width="187" height="238">
+                <frame id="I1608:7576;1519:25378" name="Frame 2121454828" x="0" y="0" width="187" height="238">
+                  <frame id="I1608:7576;1519:25347" name="Frame 2121454827" x="0" y="0" width="187" height="238">
+                    <frame id="I1608:7576;1519:25234" name="Frame 2121454821" x="0" y="0" width="125" height="238">
+                      <slot id="I1608:7576;1519:25227" name="Images" x="0" y="0" width="125" height="158">
+                        <rounded-rectangle id="I1608:7576;1519:25227;1608:7575" name="Image" x="-3" y="4" width="130" height="173" />
+                      </slot>
+                      <slot id="I1608:7576;1519:25228" name="Image-2" x="0" y="168" width="125" height="70">
+                        <rounded-rectangle id="I1608:7576;1519:25228;1608:7573" name="Gemini_Generated_Image_1xd3lh1xd3lh1xd3 (1) 2" x="-2" y="-5" width="127" height="77" />
+                      </slot>
+                    </frame>
+                    <frame id="I1608:7576;1519:25232" name="Frame 2121454820" x="135" y="18" width="52" height="220">
+                      <slot id="I1608:7576;1519:25229" name="Image-3" x="0" y="0" width="52" height="52">
+                        <rounded-rectangle id="I1608:7576;1519:25229;1608:7571" name="Gemini_Generated_Image_cfwholcfwholcfwh 1" x="-7" y="-10" width="65.99623107910156" height="88.01953125" />
+                      </slot>
+                      <slot id="I1608:7576;1519:25230" name="Image-4" x="0" y="56" width="52" height="52">
+                        <rounded-rectangle id="I1608:7576;1519:25230;1608:7569" name="Gemini_Generated_Image_nwrqcfnwrqcfnwrq 1" x="-0.080078125" y="-1.6875" width="53.537540435791016" height="71.40330505371094" />
+                      </slot>
+                      <slot id="I1608:7576;1519:25233" name="Image-5" x="0" y="112" width="52" height="52">
+                        <rounded-rectangle id="I1608:7576;1519:25233;1608:7567" name="Gemini_Generated_Image_4h4hcm4h4hcm4h4h 1" x="-4.626953125" y="-15.7265625" width="61.090232849121094" height="81.47637176513672" />
+                      </slot>
+                      <slot id="I1608:7576;1519:25231" name="Image-6" x="0" y="168" width="52" height="52">
+                        <rounded-rectangle id="I1608:7576;1519:25231;1608:7565" name="unnamed (2) 1" x="0" y="-14" width="53.98493194580078" height="72" />
+                      </slot>
+                      <instance id="I1608:7576;1519:26498" name="Watchlist/ Width Big Button" x="0" y="-39" width="52" height="31.999996185302734" />
+                    </frame>
+                  </frame>
+                </frame>
+                <instance id="I1608:7576;1519:26199" name="Top Lablel" x="0" y="-21" width="125" height="28" />
+              </frame>
+            </instance>
+            <instance id="1608:7589" name="Frame 2121454825" x="609" y="0" width="195" height="259">
+              <frame id="I1608:7589;1519:25507" name="Frame 2121454829" x="0" y="21" width="187" height="238">
+                <frame id="I1608:7589;1519:25378" name="Frame 2121454828" x="0" y="0" width="187" height="238">
+                  <frame id="I1608:7589;1519:25347" name="Frame 2121454827" x="0" y="0" width="187" height="238">
+                    <frame id="I1608:7589;1519:25234" name="Frame 2121454821" x="0" y="0" width="125" height="238">
+                      <slot id="I1608:7589;1519:25227" name="Images" x="0" y="0" width="125" height="158">
+                        <rounded-rectangle id="I1608:7589;1519:25227;1608:7588" name="Product Image" x="-5.521484375" y="1.6328125" width="135.04461669921875" height="195.73133850097656" />
+                      </slot>
+                      <slot id="I1608:7589;1519:25228" name="Image-2" x="0" y="168" width="125" height="70">
+                        <rounded-rectangle id="I1608:7589;1519:25228;1608:7586" name="Gemini_Generated_Image_1xd3lh1xd3lh1xd3 (1) 2" x="-2" y="-1" width="127" height="77" />
+                      </slot>
+                    </frame>
+                    <frame id="I1608:7589;1519:25232" name="Frame 2121454820" x="135" y="18" width="52" height="220">
+                      <slot id="I1608:7589;1519:25229" name="Image-3" x="0" y="0" width="52" height="52">
+                        <rounded-rectangle id="I1608:7589;1519:25229;1608:7584" name="Gemini_Generated_Image_1xd3lh1xd3lh1xd3 1" x="0" y="-3" width="52" height="87" />
+                      </slot>
+                      <slot id="I1608:7589;1519:25230" name="Image-4" x="0" y="56" width="52" height="52">
+                        <rounded-rectangle id="I1608:7589;1519:25230;1608:7582" name="Gemini_Generated_Image_1xd3lh1xd3lh1xd3 (4) 1" x="-0.080078125" y="-3" width="55.999996185302734" height="93.23999786376953" />
+                      </slot>
+                      <slot id="I1608:7589;1519:25233" name="Image-5" x="0" y="112" width="52" height="52">
+                        <rounded-rectangle id="I1608:7589;1519:25233;1608:7580" name="Gemini_Generated_Image_4h4hcm4h4hcm4h4h 1" x="-4.626953125" y="0" width="61.090232849121094" height="81.47637176513672" />
+                      </slot>
+                      <slot id="I1608:7589;1519:25231" name="Image-6" x="0" y="168" width="52" height="52">
+                        <rounded-rectangle id="I1608:7589;1519:25231;1608:7578" name="unnamed (2) 1" x="0" y="-3" width="54" height="82" />
+                      </slot>
+                      <instance id="I1608:7589;1519:26498" name="Watchlist/ Width Big Button" x="0" y="-39" width="52" height="31.999996185302734" />
+                    </frame>
+                  </frame>
+                </frame>
+                <instance id="I1608:7589;1519:26199" name="Top Lablel" x="0" y="-21" width="125" height="28" />
+              </frame>
+            </instance>
+          </frame>
+        </frame>
+      </frame>
+      <frame id="1608:7590" name="Bottom Nav Bar/Default" x="0" y="4560" width="360" height="106">
+        <frame id="1608:7591" name="Frame 2121454903" x="16" y="32" width="328" height="48">
+          <instance id="1608:7592" name="All Buttons" x="0" y="0" width="134" height="48" />
+          <instance id="1608:7593" name="Button" x="148" y="0" width="180" height="48" />
+        </frame>
+      </frame>
+      <frame id="1608:7094" name="Status Bar" x="0" y="0" width="360" height="35">
+        <frame id="1608:7095" name="Time" x="16" y="7" width="77" height="18">
+          <frame id="1608:7096" name="Phone Camara" x="0" y="0" width="18" height="18" />
+          <text id="1608:7099" name=" Clock Text" x="26" y="1" width="51" height="17" />
+        </frame>
+        <frame id="1608:7100" name="Status Icons" x="298" y="7" width="46" height="18">
+          <frame id="1608:7101" name="Wifi" x="298" y="7" width="17" height="18" />
+          <frame id="1608:7106" name="Signal" x="314" y="7" width="17" height="18" />
+          <frame id="1608:7109" name="Battery" x="336" y="8.0600004196167" width="8" height="15.882352828979492" />
+        </frame>
+      </frame>
+    </frame>
+    <frame id="1608:9891" name="Desktop" x="3015" y="530" width="1440" height="1073" />
+    <frame id="1651:891" name="Arrow bent down left - Iconly Pro" x="-653.3638305664062" y="4763.54248046875" width="48" height="48" />
+  </section>
+  <rounded-rectangle id="1620:11616" name="Screenshot 2026-10-22 at 11.25.36 AM 1" x="-4072" y="-1990" width="1499" height="752" />
+  <rounded-rectangle id="1620:11617" name="Screenshot 2026-10-22 at 11.26.15 AM 1" x="-4072" y="-1207" width="1454" height="795" />
+  <frame id="1627:11756" name="Mobile" x="-1477" y="-1547" width="360" height="800">
+    <frame id="1627:11757" name="Frame 1984079524" x="16" y="52" width="328" height="58">
+      <frame id="1627:11758" name="Frame 1984079514" x="0" y="0" width="328" height="42">
+        <frame id="1627:11759" name="Frame 1984079512" x="0" y="0" width="168" height="42">
+          <frame id="1627:11760" name="Frame 1984079544" x="0" y="1" width="40" height="40">
+            <frame id="1627:11761" name="ArrowLeft" x="8" y="7" width="24" height="24" />
+          </frame>
+          <frame id="1627:11763" name="Frame 1984079483" x="48" y="0" width="120" height="42">
+            <text id="1627:11764" name="BIN-A-03-01" x="0" y="0" width="101" height="20" />
+            <frame id="1627:11765" name="Frame 1984079532" x="0" y="24" width="120" height="18">
+              <frame id="1627:11766" name="Frame" x="0" y="1" width="16" height="16" hidden="true" />
+              <text id="1627:11768" name="Copper Wire 10 pending" x="0" y="0" width="163" height="18" />
+            </frame>
+          </frame>
+        </frame>
+        <frame id="1627:11769" name="Frame 1984079513" x="296" y="5" width="32" height="32">
+          <frame id="1627:11770" name="Frame 1984079510" x="0" y="0" width="32" height="32">
+            <frame id="1627:11771" name="Frame" x="4" y="4" width="24" height="24" />
+          </frame>
+          <frame id="1627:11774" name="Frame 1984079511" x="0" y="0" width="111" height="40" hidden="true">
+            <frame id="1627:11775" name="Frame 1984079530" x="9" y="12" width="73" height="16">
+              <ellipse id="1627:11776" name="Ellipse 1" x="0" y="2" width="12" height="12" />
+              <text id="1627:11777" name="Available" x="20" y="0" width="53" height="16" />
+            </frame>
+            <frame id="1627:11778" name="Frame" x="86" y="12" width="16" height="16" />
+          </frame>
+        </frame>
+      </frame>
+      <line id="1627:11780" name="Line 1" x="0" y="58" width="328" height="0" />
+    </frame>
+    <frame id="1627:11781" name="Frame 1984079569" x="16" y="122" width="328" height="40" hidden="true">
+      <frame id="1627:11782" name="Frame 1984079567" x="0" y="0" width="328" height="20">
+        <text id="1627:11783" name="2 of 4 Steps" x="0" y="0" width="95" height="20" />
+        <text id="1627:11784" name="Check Bin" x="259" y="0" width="69" height="20" hidden="true" />
+        <text id="1627:11785" name="Bin Scanning" x="228" y="0" width="100" height="20" hidden="true" />
+      </frame>
+      <frame id="1627:11786" name="Container (margin)" x="0" y="28" width="328" height="12">
+        <frame id="1627:11787" name="Container" x="0" y="0" width="328" height="12">
+          <frame id="1627:11788" name="Container" x="0" y="0" width="78.25" height="12" />
+          <frame id="1627:11789" name="Container" x="83.25" y="0" width="78.25" height="12" />
+          <frame id="1627:11790" name="Container" x="166.5" y="0" width="78.25" height="12" />
+          <frame id="1627:11791" name="Container" x="249.75" y="0" width="78.25" height="12" />
+        </frame>
+      </frame>
+    </frame>
+    <line id="1627:11792" name="Line 1" x="16" y="122" width="328" height="0" />
+    <frame id="1627:11793" name="Frame 1984079583" x="16" y="134" width="328" height="168">
+      <frame id="1627:11794" name="Frame 1984079562" x="0" y="0" width="328" height="18" hidden="true">
+        <text id="1627:11795" name="Scanned Bin" x="0" y="0" width="99" height="18" />
+      </frame>
+      <frame id="1627:11796" name="Frame 1984079568" x="0" y="0" width="328" height="168">
+        <frame id="1627:11797" name="Frame 1984079572" x="13" y="13" width="302" height="68">
+          <frame id="1627:11798" name="Frame 1984079564" x="0" y="0" width="126" height="68">
+            <text id="1627:11799" name="Scanned Bin" x="0" y="0" width="85" height="18" />
+            <text id="1627:11800" name="BIN-A-03-01" x="0" y="22" width="126" height="24" />
+            <text id="1627:11801" name="Fits 10 units" x="0" y="50" width="79" height="18" />
+          </frame>
+        </frame>
+        <frame id="1627:11802" name="Frame 1984079570" x="13" y="93" width="302" height="62">
+          <frame id="1627:11803" name="Frame 1984079565" x="0" y="0" width="302" height="24">
+            <text id="1627:11804" name="Space Available" x="0" y="3" width="107" height="18" />
+            <text id="1627:11805" name="80" x="275" y="0" width="27" height="24" />
+          </frame>
+          <frame id="1627:11806" name="Frame 1984079569" x="0" y="28" width="302" height="34">
+            <frame id="1627:11807" name="Container (margin)" x="0" y="0" width="302" height="12">
+              <frame id="1627:11808" name="Container" x="0" y="0" width="302" height="12">
+                <frame id="1627:11809" name="Container" x="0" y="0" width="57" height="12" />
+              </frame>
+            </frame>
+            <frame id="1627:11810" name="Frame 1984079567" x="0" y="16" width="302" height="18">
+              <text id="1627:11811" name="In Bin : 20" x="0" y="0" width="68" height="18" />
+              <text id="1627:11812" name="Max: 100" x="241" y="0" width="61" height="18" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+      <frame id="1627:11813" name="Frame 1984079573" x="0" y="178" width="328" height="222" hidden="true">
+        <frame id="1627:11814" name="Frame 1984079569" x="0" y="0" width="328" height="144">
+          <frame id="1627:11815" name="Frame 1984079572" x="12" y="12" width="304" height="46">
+            <frame id="1627:11816" name="Frame 1984079564" x="0" y="0" width="126" height="46">
+              <text id="1627:11817" name="BIN-A-03-01" x="0" y="0" width="126" height="24" />
+              <text id="1627:11818" name="Bin 1 of 2" x="0" y="28" width="61" height="18" />
+            </frame>
+            <frame id="1627:11819" name="Frame 1984079546" x="187" y="4" width="117" height="38">
+              <frame id="1627:11820" name="Frame" x="9" y="9" width="20" height="20" />
+              <text id="1627:11822" name="Switch Bin" x="37" y="11" width="71" height="16" />
+            </frame>
+          </frame>
+          <frame id="1627:11823" name="Frame 1984079570" x="12" y="70" width="304" height="62">
+            <frame id="1627:11824" name="Frame 1984079565" x="0" y="0" width="304" height="24">
+              <text id="1627:11825" name="Space Available" x="0" y="3" width="107" height="18" />
+              <text id="1627:11826" name="100" x="267" y="0" width="37" height="24" />
+            </frame>
+            <frame id="1627:11827" name="Frame 1984079569" x="0" y="28" width="304" height="34">
+              <frame id="1627:11828" name="Container (margin)" x="0" y="0" width="304" height="12">
+                <frame id="1627:11829" name="Container" x="0" y="0" width="304" height="12">
+                  <frame id="1627:11830" name="Container" x="0" y="0" width="57" height="12" />
+                </frame>
+              </frame>
+              <frame id="1627:11831" name="Frame 1984079567" x="0" y="16" width="304" height="18">
+                <text id="1627:11832" name="In Bin : 20" x="0" y="0" width="68" height="18" />
+                <text id="1627:11833" name="Max: 100" x="243" y="0" width="61" height="18" />
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+        <frame id="1627:11834" name="Frame 1984079570" x="0" y="152" width="328" height="70">
+          <frame id="1627:11835" name="Frame 1984079572" x="12" y="12" width="304" height="46">
+            <frame id="1627:11836" name="Frame 1984079564" x="0" y="0" width="129" height="46">
+              <text id="1627:11837" name="BIN-A-03-02" x="0" y="0" width="129" height="24" />
+              <text id="1627:11838" name="Bin 2 of 2" x="0" y="28" width="63" height="18" />
+            </frame>
+            <text id="1627:11839" name="60" x="277" y="11" width="27" height="24" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="1627:11840" name="Frame 1984079603" x="16" y="314" width="328" height="256">
+      <frame id="1627:11841" name="Frame 1984079575" x="0" y="0" width="328" height="256">
+        <frame id="1627:11842" name="Frame 1984079546" x="12" y="12" width="304" height="28">
+          <frame id="1627:11843" name="Frame 1984079545" x="0" y="5" width="157" height="18">
+            <text id="1627:11844" name="EAN - 8901234500024" x="0" y="0" width="157" height="18" />
+          </frame>
+          <frame id="1627:11845" name="Frame 1984079546" x="212" y="0" width="92" height="28">
+            <text id="1627:11846" name="Not Started" x="12" y="6" width="68" height="16" />
+          </frame>
+        </frame>
+        <frame id="1627:11847" name="Frame 1984079512" x="12" y="48" width="304" height="18" hidden="true">
+          <frame id="1627:11848" name="Paragraph" x="0" y="0" width="59" height="18">
+            <frame id="1627:11849" name="Paragraph" x="0" y="0" width="59" height="18">
+              <text id="1627:11850" name="Completed" x="0" y="0" width="59" height="18" />
+              <frame id="1627:11851" name="Icon" x="44" y="2" width="11" height="11" hidden="true" />
+            </frame>
+          </frame>
+          <text id="1627:11853" name="40%" x="279" y="0" width="25" height="18" />
+          <frame id="1627:11854" name="Icon" x="280" y="2" width="11" height="11" hidden="true" />
+        </frame>
+        <frame id="1627:11856" name="Frame 1984079553" x="12" y="48" width="304" height="148">
+          <frame id="1627:11857" name="Frame 1984079538" x="0" y="0" width="304" height="60">
+            <frame id="1627:11858" name="Frame 1984079540" x="0" y="0" width="60" height="60">
+              <rounded-rectangle id="1627:11859" name="Rectangle 2" x="6" y="6" width="48" height="48" />
+              <frame id="1627:11860" name="🥽 Goggles (Swimming, Diving, Gear)" x="6" y="6" width="48" height="48">
+                <rounded-rectangle id="1627:11861" name="image 15" x="0" y="0" width="48" height="48" />
+              </frame>
+            </frame>
+            <frame id="1627:11862" name="Frame 1984079539" x="68" y="9" width="227" height="42">
+              <text id="1627:11863" name="Copper Wire" x="0" y="0" width="98" height="20" />
+              <text id="1627:11864" name="SKU-1002 · 90m coil · MRP ₹1800" x="0" y="24" width="227" height="18" />
+            </frame>
+          </frame>
+          <frame id="1627:11865" name="Frame 1984079547" x="0" y="72" width="304" height="64">
+            <frame id="1627:11866" name="Frame 1984079560" x="0" y="0" width="304" height="64">
+              <frame id="1627:11867" name="Frame 1984079541" x="0" y="0" width="304" height="18">
+                <text id="1627:11868" name="MFG Date" x="0" y="0" width="77" height="18" />
+                <text id="1627:11869" name="21 Oct 2026" x="221" y="0" width="83" height="18" />
+              </frame>
+              <frame id="1627:11870" name="Frame 1984079542" x="0" y="23" width="304" height="18">
+                <text id="1627:11871" name="Expiry Date" x="0" y="0" width="77" height="18" />
+                <text id="1627:11872" name="30,Oct 2026" x="219" y="0" width="85" height="18" />
+              </frame>
+              <frame id="1627:11873" name="Frame 1984079544" x="0" y="46" width="304" height="18">
+                <text id="1627:11874" name="Batch" x="0" y="0" width="77" height="18" />
+                <text id="1627:11875" name="Batch B-0001" x="211" y="0" width="93" height="18" />
+              </frame>
+            </frame>
+          </frame>
+          <line id="1627:11876" name="Line 1" x="0" y="148" width="304" height="0" />
+        </frame>
+        <frame id="1627:11877" name="Frame 16843" x="12" y="204" width="304" height="40">
+          <frame id="1627:11878" name="Frame 1984079554" x="0" y="0" width="304" height="18" hidden="true">
+            <frame id="1627:11879" name="Frame 1984079543" x="0" y="0" width="304" height="18">
+              <frame id="1627:11880" name="Frame 1984079540" x="0" y="0" width="304" height="18">
+                <text id="1627:11881" name="2 SKUs · 60 units" x="0" y="0" width="114" height="18" />
+                <text id="1627:11882" name="0 of 145 units" x="214" y="0" width="90" height="18" hidden="true" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="1627:11883" name="Frame 1984079574" x="0" y="0" width="304" height="40">
+            <frame id="1627:11884" name="Frame 1984079565" x="0" y="0" width="304" height="24">
+              <text id="1627:11885" name="Assigned - 10 Qty" x="0" y="2" width="135" height="20" />
+              <text id="1627:11886" name="0 of 10 Done" x="206" y="2" width="98" height="20" />
+            </frame>
+            <frame id="1627:11887" name="Frame 1984079569" x="0" y="28" width="304" height="12">
+              <frame id="1627:11888" name="Container (margin)" x="0" y="0" width="304" height="12">
+                <frame id="1627:11889" name="Container" x="0" y="0" width="304" height="12">
+                  <frame id="1627:11890" name="Container" x="0" y="0" width="13" height="12" />
+                </frame>
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+      <frame id="1627:11891" name="Frame 1984079538" x="0" y="390" width="328" height="162" hidden="true">
+        <frame id="1627:11892" name="Frame 1984079546" x="12" y="12" width="304" height="28">
+          <frame id="1627:11893" name="Frame 1984079545" x="0" y="5" width="119" height="18">
+            <text id="1627:11894" name="PO-2026-001252" x="0" y="0" width="119" height="18" />
+          </frame>
+          <frame id="1627:11895" name="Frame 1984079546" x="214" y="0" width="90" height="28">
+            <text id="1627:11896" name="In Progress" x="12" y="6" width="66" height="16" />
+          </frame>
+        </frame>
+        <frame id="1627:11897" name="Frame 1984079512" x="12" y="145" width="304" height="18" hidden="true">
+          <frame id="1627:11898" name="Paragraph" x="0" y="0" width="59" height="18">
+            <frame id="1627:11899" name="Paragraph" x="0" y="0" width="59" height="18">
+              <text id="1627:11900" name="Completed" x="0" y="0" width="59" height="18" />
+              <frame id="1627:11901" name="Icon" x="44" y="2" width="11" height="11" hidden="true" />
+            </frame>
+          </frame>
+          <text id="1627:11903" name="40%" x="279" y="0" width="25" height="18" />
+          <frame id="1627:11904" name="Icon" x="280" y="2" width="11" height="11" hidden="true" />
+        </frame>
+        <frame id="1627:11906" name="Frame 1984079554" x="12" y="48" width="304" height="54">
+          <frame id="1627:11907" name="Frame 1984079537" x="0" y="0" width="304" height="42">
+            <frame id="1627:11908" name="Frame 1984079539" x="0" y="0" width="194" height="42">
+              <text id="1627:11909" name="JOB-IND-2026-1212-133" x="0" y="0" width="194" height="20" />
+              <text id="1627:11910" name="Oct 06, 12:24 AM" x="0" y="24" width="117" height="18" />
+              <text id="1627:11911" name="Oct 06, 12.24 AM" x="0" y="45" width="117" height="18" hidden="true" />
+              <text id="1627:11912" name="PO Number - PO-2026-001252" x="0" y="45" width="212" height="18" hidden="true" />
+            </frame>
+            <frame id="1627:11913" name="Frame 1984079520" x="200" y="0" width="104" height="28" hidden="true">
+              <text id="1627:11914" name="Not Started" x="12" y="6" width="80" height="16" />
+            </frame>
+          </frame>
+          <line id="1627:11915" name="Line 1" x="0" y="54" width="304" height="0" />
+        </frame>
+        <frame id="1627:11916" name="Frame 1984079547" x="12" y="110" width="304" height="40">
+          <frame id="1627:11917" name="Container (margin)" x="0" y="0" width="304" height="12" hidden="true">
+            <frame id="1627:11918" name="Container" x="0" y="0" width="304" height="12">
+              <frame id="1627:11919" name="Container" x="0" y="0" width="57" height="12" />
+            </frame>
+          </frame>
+          <frame id="1627:11920" name="Frame 1984079543" x="0" y="0" width="304" height="40">
+            <frame id="1627:11921" name="Frame 1984079540" x="0" y="0" width="101.33333587646484" height="40">
+              <text id="1627:11922" name="SKUs" x="0" y="0" width="36" height="18" />
+              <text id="1627:11923" name="02" x="0" y="22" width="19" height="18" />
+            </frame>
+            <frame id="1627:11924" name="Frame 1984079541" x="101.33333587646484" y="0" width="101.33332824707031" height="40">
+              <text id="1627:11925" name="Units" x="0" y="0" width="35" height="18" />
+              <text id="1627:11926" name="60" x="0" y="22" width="19" height="18" />
+            </frame>
+            <frame id="1627:11927" name="Frame 1984079542" x="202.66665649414062" y="0" width="101.33332824707031" height="40">
+              <text id="1627:11928" name="Pending" x="0" y="0" width="54" height="18" />
+              <text id="1627:11929" name="60 units" x="0" y="22" width="56" height="18" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <text id="1627:11930" name="Quantity to Putaway" x="16" y="582" width="158" height="20" />
+    <frame id="1627:11931" name="Frame 16671" x="16" y="614" width="328" height="56">
+      <frame id="1627:11932" name="Search bar" x="0" y="0" width="60" height="56">
+        <vector id="1627:11933" name="Vector" x="12" y="27.375" width="15" height="1.25" />
+        <text id="1627:11934" name="10" x="29" y="19" width="19" height="18" />
+      </frame>
+      <frame id="1627:11935" name="Search bar" x="70" y="0" width="188" height="56">
+        <text id="1627:11936" name="10" x="82.5" y="16" width="23" height="24" />
+      </frame>
+      <frame id="1627:11937" name="Search bar" x="268" y="0" width="60" height="56">
+        <vector id="1627:11938" name="Vector" x="12" y="20.5" width="15" height="15" />
+        <text id="1627:11939" name="10" x="29" y="19" width="19" height="18" />
+      </frame>
+    </frame>
+    <frame id="1627:11986" name="Frame 2121454986" x="-3" y="720" width="363" height="80">
+      <instance id="1627:11940" name="Action Button" x="17.5" y="12" width="328" height="56" />
+    </frame>
+    <instance id="1627:11941" name="Status Bar/iOS" x="0" y="0" width="360" height="48" />
+  </frame>
+  <frame id="1629:11987" name="Job - Listing page" x="-937" y="-1578" width="360" height="800">
+    <frame id="1629:11988" name="Frame 1984079524" x="16" y="52" width="328" height="58">
+      <frame id="1629:11989" name="Frame 1984079514" x="0" y="0" width="328" height="42">
+        <frame id="1629:11990" name="Frame 1984079512" x="0" y="0" width="168" height="42">
+          <frame id="1629:11991" name="Frame 1984079544" x="0" y="1" width="40" height="40">
+            <frame id="1629:11992" name="ArrowLeft" x="8" y="7" width="24" height="24" />
+          </frame>
+          <frame id="1629:11994" name="Frame 1984079483" x="48" y="0" width="120" height="42">
+            <text id="1629:11995" name="Put Away" x="0" y="0" width="120" height="20" />
+            <frame id="1629:11996" name="Frame 1984079532" x="0" y="24" width="120" height="18">
+              <frame id="1629:11997" name="Frame" x="0" y="0" width="16" height="16" hidden="true" />
+              <text id="1629:11999" name="Chennai Central DC" x="0" y="0" width="120" height="18" />
+            </frame>
+          </frame>
+        </frame>
+        <frame id="1629:12000" name="Frame 1984079513" x="177" y="0" width="151" height="40">
+          <frame id="1629:12001" name="Frame 1984079510" x="0" y="4" width="32" height="32">
+            <frame id="1629:12002" name="Frame" x="4" y="4" width="24" height="24" />
+          </frame>
+          <frame id="1629:12005" name="Frame 1984079511" x="40" y="0" width="111" height="40">
+            <frame id="1629:12006" name="Frame 1984079530" x="9" y="12" width="73" height="16">
+              <ellipse id="1629:12007" name="Ellipse 1" x="0" y="2" width="12" height="12" />
+              <text id="1629:12008" name="Available" x="20" y="0" width="53" height="16" />
+            </frame>
+            <frame id="1629:12009" name="Frame" x="86" y="12" width="16" height="16" />
+          </frame>
+        </frame>
+      </frame>
+      <line id="1629:12011" name="Line 1" x="0" y="58" width="328" height="0" />
+    </frame>
+    <frame id="1629:12012" name="Frame 1984079556" x="16" y="122" width="328" height="44">
+      <frame id="1629:12013" name="Frame 1984079536" x="0" y="0" width="328" height="44">
+        <frame id="1629:12014" name="Frame 1984079520" x="0" y="0" width="73" height="44">
+          <text id="1629:12015" name="All (12)" x="12" y="13" width="49" height="18" />
+        </frame>
+        <frame id="1629:12016" name="Frame 1984079521" x="81" y="0" width="130" height="44">
+          <text id="1629:12017" name="Not Started (8)" x="13" y="13" width="104" height="18" />
+        </frame>
+        <frame id="1629:12018" name="Frame 1984079525" x="219" y="0" width="124" height="44">
+          <text id="1629:12019" name="InProgress (3)" x="13" y="13" width="98" height="18" />
+        </frame>
+        <frame id="1629:12020" name="Frame 1984079526" x="351" y="0" width="123" height="44">
+          <text id="1629:12021" name="Completed (1)" x="13" y="13" width="97" height="18" />
+        </frame>
+      </frame>
+    </frame>
+    <frame id="1629:12556" name="Frame 2121454994" x="16" y="178" width="328" height="135">
+      <frame id="1629:12557" name="Frame 2121454993" x="11" y="9" width="306" height="57">
+        <frame id="1629:12558" name="Frame 2121454992" x="0" y="0" width="306" height="48">
+          <frame id="1629:12559" name="Frame 2121454989" x="0" y="2" width="196" height="44">
+            <text id="1629:12560" name="PO-2026-001252" x="0" y="0" width="196" height="18" />
+            <text id="1629:12561" name="JOB-IND-2026-1212-133" x="0" y="24" width="196" height="20" />
+          </frame>
+          <frame id="1629:12562" name="Frame 2121454991" x="196" y="0" width="112" height="48">
+            <text id="1629:12563" name="Oct 06, 12:24 AM" x="0" y="0" width="112" height="18" />
+            <frame id="1629:12564" name="Frame 2121454990" x="22" y="24" width="90" height="24">
+              <text id="1629:12565" name="In Progress" x="12" y="4" width="66" height="16" />
+            </frame>
+          </frame>
+        </frame>
+        <line id="1629:12566" name="Line 2" x="0" y="57" width="306" height="0" />
+      </frame>
+      <frame id="1629:12567" name="Frame 16843" x="11" y="86" width="306" height="40">
+        <frame id="1629:12568" name="Frame 1984079554" x="0" y="0" width="304" height="18" hidden="true">
+          <frame id="1629:12569" name="Frame 1984079543" x="0" y="0" width="304" height="18">
+            <frame id="1629:12570" name="Frame 1984079540" x="0" y="0" width="304" height="18">
+              <text id="1629:12571" name="2 SKUs · 60 units" x="0" y="0" width="114" height="18" />
+              <text id="1629:12572" name="0 of 145 units" x="214" y="0" width="90" height="18" hidden="true" />
+            </frame>
+          </frame>
+        </frame>
+        <frame id="1629:12573" name="Frame 1984079574" x="0" y="0" width="306" height="40">
+          <frame id="1629:12574" name="Frame 1984079565" x="0" y="0" width="306" height="24">
+            <text id="1629:12575" name="2 SKUs · 60 units" x="0" y="2" width="130" height="20" />
+            <text id="1629:12576" name="15 of 60 Done" x="198" y="2" width="108" height="20" />
+          </frame>
+          <frame id="1629:12577" name="Container" x="0" y="28" width="306" height="12">
+            <frame id="1629:12578" name="Container" x="0" y="0" width="112" height="12" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="1629:12101" name="Frame 1984079557" x="16" y="325" width="328" height="162">
+      <frame id="1629:12102" name="Frame 1984079575" x="0" y="0" width="328" height="162">
+        <frame id="1629:12103" name="Frame 1984079546" x="12" y="12" width="304" height="28">
+          <frame id="1629:12104" name="Frame 1984079545" x="0" y="5" width="119" height="18">
+            <text id="1629:12105" name="PO-2026-001252" x="0" y="0" width="119" height="18" />
+          </frame>
+          <frame id="1629:12106" name="Frame 1984079547" x="214" y="0" width="90" height="28">
+            <text id="1629:12107" name="In Progress" x="12" y="6" width="66" height="16" />
+          </frame>
+        </frame>
+        <frame id="1629:12108" name="Frame 1984079512" x="12" y="48" width="304" height="18" hidden="true">
+          <frame id="1629:12109" name="Paragraph" x="0" y="0" width="59" height="18">
+            <frame id="1629:12110" name="Paragraph" x="0" y="0" width="59" height="18">
+              <text id="1629:12111" name="Completed" x="0" y="0" width="59" height="18" />
+              <frame id="1629:12112" name="Icon" x="44" y="2" width="11" height="11" hidden="true" />
+            </frame>
+          </frame>
+          <text id="1629:12114" name="40%" x="279" y="0" width="25" height="18" />
+          <frame id="1629:12115" name="Icon" x="280" y="2" width="11" height="11" hidden="true" />
+        </frame>
+        <frame id="1629:12117" name="Frame 1984079554" x="12" y="48" width="304" height="54">
+          <frame id="1629:12118" name="Frame 1984079537" x="0" y="0" width="304" height="42">
+            <frame id="1629:12119" name="Frame 1984079539" x="0" y="0" width="194" height="42">
+              <text id="1629:12120" name="JOB-IND-2026-1212-133" x="0" y="0" width="194" height="20" />
+              <text id="1629:12121" name="Oct 06, 12:24 AM" x="0" y="24" width="117" height="18" />
+              <text id="1629:12122" name="Oct 06, 12.24 AM" x="0" y="46" width="117" height="18" hidden="true" />
+              <text id="1629:12123" name="PO Number - PO-2026-001252" x="0" y="45" width="212" height="18" hidden="true" />
+            </frame>
+            <frame id="1629:12124" name="Frame 1984079520" x="200" y="7" width="104" height="28" hidden="true">
+              <text id="1629:12125" name="Not Started" x="12" y="6" width="80" height="16" />
+            </frame>
+          </frame>
+          <line id="1629:12126" name="Line 1" x="0" y="54" width="304" height="0" />
+        </frame>
+        <frame id="1629:12127" name="Frame 16843" x="12" y="110" width="304" height="40">
+          <frame id="1629:12128" name="Frame 1984079554" x="0" y="0" width="304" height="18" hidden="true">
+            <frame id="1629:12129" name="Frame 1984079543" x="0" y="0" width="304" height="18">
+              <frame id="1629:12130" name="Frame 1984079540" x="0" y="0" width="304" height="18">
+                <text id="1629:12131" name="2 SKUs · 60 units" x="0" y="0" width="114" height="18" />
+                <text id="1629:12132" name="0 of 145 units" x="214" y="0" width="90" height="18" hidden="true" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="1629:12133" name="Frame 1984079574" x="0" y="0" width="304" height="40">
+            <frame id="1629:12134" name="Frame 1984079565" x="0" y="0" width="304" height="24">
+              <text id="1629:12135" name="2 SKUs · 60 units" x="0" y="2" width="130" height="20" />
+              <text id="1629:12136" name="15 of 60 Done" x="196" y="2" width="108" height="20" />
+            </frame>
+            <frame id="1629:12137" name="Container" x="0" y="28" width="304" height="12">
+              <frame id="1629:12138" name="Container" x="0" y="0" width="112" height="12" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+      <frame id="1629:12139" name="Frame 1984079538" x="0" y="390" width="328" height="162" hidden="true">
+        <frame id="1629:12140" name="Frame 1984079546" x="12" y="12" width="304" height="28">
+          <frame id="1629:12141" name="Frame 1984079545" x="0" y="5" width="119" height="18">
+            <text id="1629:12142" name="PO-2026-001252" x="0" y="0" width="119" height="18" />
+          </frame>
+          <frame id="1629:12143" name="Frame 1984079546" x="214" y="0" width="90" height="28">
+            <text id="1629:12144" name="In Progress" x="12" y="6" width="66" height="16" />
+          </frame>
+        </frame>
+        <frame id="1629:12145" name="Frame 1984079512" x="12" y="145" width="304" height="18" hidden="true">
+          <frame id="1629:12146" name="Paragraph" x="0" y="0" width="59" height="18">
+            <frame id="1629:12147" name="Paragraph" x="0" y="0" width="59" height="18">
+              <text id="1629:12148" name="Completed" x="0" y="0" width="59" height="18" />
+              <frame id="1629:12149" name="Icon" x="44" y="2" width="11" height="11" hidden="true" />
+            </frame>
+          </frame>
+          <text id="1629:12151" name="40%" x="279" y="0" width="25" height="18" />
+          <frame id="1629:12152" name="Icon" x="280" y="2" width="11" height="11" hidden="true" />
+        </frame>
+        <frame id="1629:12154" name="Frame 1984079554" x="12" y="48" width="304" height="54">
+          <frame id="1629:12155" name="Frame 1984079537" x="0" y="0" width="304" height="42">
+            <frame id="1629:12156" name="Frame 1984079539" x="0" y="0" width="194" height="42">
+              <text id="1629:12157" name="JOB-IND-2026-1212-133" x="0" y="0" width="194" height="20" />
+              <text id="1629:12158" name="Oct 06, 12:24 AM" x="0" y="24" width="117" height="18" />
+              <text id="1629:12159" name="Oct 06, 12.24 AM" x="0" y="45" width="117" height="18" hidden="true" />
+              <text id="1629:12160" name="PO Number - PO-2026-001252" x="0" y="45" width="212" height="18" hidden="true" />
+            </frame>
+            <frame id="1629:12161" name="Frame 1984079520" x="200" y="0" width="104" height="28" hidden="true">
+              <text id="1629:12162" name="Not Started" x="12" y="6" width="80" height="16" />
+            </frame>
+          </frame>
+          <line id="1629:12163" name="Line 1" x="0" y="54" width="304" height="0" />
+        </frame>
+        <frame id="1629:12164" name="Frame 1984079547" x="12" y="110" width="304" height="40">
+          <frame id="1629:12165" name="Container (margin)" x="0" y="0" width="304" height="12" hidden="true">
+            <frame id="1629:12166" name="Container" x="0" y="0" width="304" height="12">
+              <frame id="1629:12167" name="Container" x="0" y="0" width="57" height="12" />
+            </frame>
+          </frame>
+          <frame id="1629:12168" name="Frame 1984079543" x="0" y="0" width="304" height="40">
+            <frame id="1629:12169" name="Frame 1984079540" x="0" y="0" width="101.33333587646484" height="40">
+              <text id="1629:12170" name="SKUs" x="0" y="0" width="36" height="18" />
+              <text id="1629:12171" name="02" x="0" y="22" width="19" height="18" />
+            </frame>
+            <frame id="1629:12172" name="Frame 1984079541" x="101.33333587646484" y="0" width="101.33332824707031" height="40">
+              <text id="1629:12173" name="Units" x="0" y="0" width="35" height="18" />
+              <text id="1629:12174" name="60" x="0" y="22" width="19" height="18" />
+            </frame>
+            <frame id="1629:12175" name="Frame 1984079542" x="202.66665649414062" y="0" width="101.33332824707031" height="40">
+              <text id="1629:12176" name="Pending" x="0" y="0" width="54" height="18" />
+              <text id="1629:12177" name="60 units" x="0" y="22" width="56" height="18" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="1629:12178" name="Frame 1984079558" x="16" y="499" width="328" height="162">
+      <frame id="1629:12179" name="Frame 1984079575" x="0" y="0" width="328" height="162">
+        <frame id="1629:12180" name="Frame 1984079546" x="12" y="12" width="304" height="28">
+          <frame id="1629:12181" name="Frame 1984079545" x="0" y="5" width="119" height="18">
+            <text id="1629:12182" name="PO-2026-001252" x="0" y="0" width="119" height="18" />
+          </frame>
+          <frame id="1629:12183" name="Frame 1984079546" x="212" y="0" width="92" height="28">
+            <text id="1629:12184" name="Not Started" x="12" y="6" width="68" height="16" />
+          </frame>
+        </frame>
+        <frame id="1629:12185" name="Frame 1984079512" x="12" y="48" width="304" height="18" hidden="true">
+          <frame id="1629:12186" name="Paragraph" x="0" y="0" width="59" height="18">
+            <frame id="1629:12187" name="Paragraph" x="0" y="0" width="59" height="18">
+              <text id="1629:12188" name="Completed" x="0" y="0" width="59" height="18" />
+              <frame id="1629:12189" name="Icon" x="44" y="2" width="11" height="11" hidden="true" />
+            </frame>
+          </frame>
+          <text id="1629:12191" name="40%" x="279" y="0" width="25" height="18" />
+          <frame id="1629:12192" name="Icon" x="280" y="2" width="11" height="11" hidden="true" />
+        </frame>
+        <frame id="1629:12194" name="Frame 1984079554" x="12" y="48" width="304" height="54">
+          <frame id="1629:12195" name="Frame 1984079537" x="0" y="0" width="304" height="42">
+            <frame id="1629:12196" name="Frame 1984079539" x="0" y="0" width="194" height="42">
+              <text id="1629:12197" name="JOB-IND-2026-1212-133" x="0" y="0" width="194" height="20" />
+              <text id="1629:12198" name="Oct 06, 12:24 AM" x="0" y="24" width="117" height="18" />
+              <text id="1629:12199" name="Oct 06, 12.24 AM" x="0" y="46" width="117" height="18" hidden="true" />
+              <text id="1629:12200" name="PO Number - PO-2026-001252" x="0" y="45" width="212" height="18" hidden="true" />
+            </frame>
+            <frame id="1629:12201" name="Frame 1984079520" x="200" y="7" width="104" height="28" hidden="true">
+              <text id="1629:12202" name="Not Started" x="12" y="6" width="80" height="16" />
+            </frame>
+          </frame>
+          <line id="1629:12203" name="Line 1" x="0" y="54" width="304" height="0" />
+        </frame>
+        <frame id="1629:12204" name="Frame 16843" x="12" y="110" width="304" height="40">
+          <frame id="1629:12205" name="Frame 1984079554" x="0" y="0" width="304" height="18" hidden="true">
+            <frame id="1629:12206" name="Frame 1984079543" x="0" y="0" width="304" height="18">
+              <frame id="1629:12207" name="Frame 1984079540" x="0" y="0" width="304" height="18">
+                <text id="1629:12208" name="2 SKUs · 60 units" x="0" y="0" width="114" height="18" />
+                <text id="1629:12209" name="0 of 145 units" x="214" y="0" width="90" height="18" hidden="true" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="1629:12210" name="Frame 1984079574" x="0" y="0" width="304" height="40">
+            <frame id="1629:12211" name="Frame 1984079565" x="0" y="0" width="304" height="24">
+              <text id="1629:12212" name="2 SKUs · 60 units" x="0" y="2" width="130" height="20" />
+              <text id="1629:12213" name="0 of 60 Done" x="204" y="2" width="100" height="20" />
+            </frame>
+            <frame id="1629:12214" name="Frame 1984079569" x="0" y="28" width="304" height="12">
+              <frame id="1629:12215" name="Container (margin)" x="0" y="0" width="304" height="12">
+                <frame id="1629:12216" name="Container" x="0" y="0" width="304" height="12">
+                  <frame id="1629:12217" name="Container" x="0" y="0" width="13" height="12" />
+                </frame>
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+      <frame id="1629:12218" name="Frame 1984079538" x="0" y="390" width="328" height="162" hidden="true">
+        <frame id="1629:12219" name="Frame 1984079546" x="12" y="12" width="304" height="28">
+          <frame id="1629:12220" name="Frame 1984079545" x="0" y="5" width="119" height="18">
+            <text id="1629:12221" name="PO-2026-001252" x="0" y="0" width="119" height="18" />
+          </frame>
+          <frame id="1629:12222" name="Frame 1984079546" x="214" y="0" width="90" height="28">
+            <text id="1629:12223" name="In Progress" x="12" y="6" width="66" height="16" />
+          </frame>
+        </frame>
+        <frame id="1629:12224" name="Frame 1984079512" x="12" y="145" width="304" height="18" hidden="true">
+          <frame id="1629:12225" name="Paragraph" x="0" y="0" width="59" height="18">
+            <frame id="1629:12226" name="Paragraph" x="0" y="0" width="59" height="18">
+              <text id="1629:12227" name="Completed" x="0" y="0" width="59" height="18" />
+              <frame id="1629:12228" name="Icon" x="44" y="2" width="11" height="11" hidden="true" />
+            </frame>
+          </frame>
+          <text id="1629:12230" name="40%" x="279" y="0" width="25" height="18" />
+          <frame id="1629:12231" name="Icon" x="280" y="2" width="11" height="11" hidden="true" />
+        </frame>
+        <frame id="1629:12233" name="Frame 1984079554" x="12" y="48" width="304" height="54">
+          <frame id="1629:12234" name="Frame 1984079537" x="0" y="0" width="304" height="42">
+            <frame id="1629:12235" name="Frame 1984079539" x="0" y="0" width="194" height="42">
+              <text id="1629:12236" name="JOB-IND-2026-1212-133" x="0" y="0" width="194" height="20" />
+              <text id="1629:12237" name="Oct 06, 12:24 AM" x="0" y="24" width="117" height="18" />
+              <text id="1629:12238" name="Oct 06, 12.24 AM" x="0" y="45" width="117" height="18" hidden="true" />
+              <text id="1629:12239" name="PO Number - PO-2026-001252" x="0" y="45" width="212" height="18" hidden="true" />
+            </frame>
+            <frame id="1629:12240" name="Frame 1984079520" x="200" y="0" width="104" height="28" hidden="true">
+              <text id="1629:12241" name="Not Started" x="12" y="6" width="80" height="16" />
+            </frame>
+          </frame>
+          <line id="1629:12242" name="Line 1" x="0" y="54" width="304" height="0" />
+        </frame>
+        <frame id="1629:12243" name="Frame 1984079547" x="12" y="110" width="304" height="40">
+          <frame id="1629:12244" name="Container (margin)" x="0" y="0" width="304" height="12" hidden="true">
+            <frame id="1629:12245" name="Container" x="0" y="0" width="304" height="12">
+              <frame id="1629:12246" name="Container" x="0" y="0" width="57" height="12" />
+            </frame>
+          </frame>
+          <frame id="1629:12247" name="Frame 1984079543" x="0" y="0" width="304" height="40">
+            <frame id="1629:12248" name="Frame 1984079540" x="0" y="0" width="101.33333587646484" height="40">
+              <text id="1629:12249" name="SKUs" x="0" y="0" width="36" height="18" />
+              <text id="1629:12250" name="02" x="0" y="22" width="19" height="18" />
+            </frame>
+            <frame id="1629:12251" name="Frame 1984079541" x="101.33333587646484" y="0" width="101.33332824707031" height="40">
+              <text id="1629:12252" name="Units" x="0" y="0" width="35" height="18" />
+              <text id="1629:12253" name="60" x="0" y="22" width="19" height="18" />
+            </frame>
+            <frame id="1629:12254" name="Frame 1984079542" x="202.66665649414062" y="0" width="101.33332824707031" height="40">
+              <text id="1629:12255" name="Pending" x="0" y="0" width="54" height="18" />
+              <text id="1629:12256" name="60 units" x="0" y="22" width="56" height="18" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="1629:12257" name="Frame 1984079559" x="16" y="673" width="328" height="162">
+      <frame id="1629:12258" name="Frame 1984079575" x="0" y="0" width="328" height="162">
+        <frame id="1629:12259" name="Frame 1984079546" x="12" y="12" width="304" height="28">
+          <frame id="1629:12260" name="Frame 1984079545" x="0" y="5" width="119" height="18">
+            <text id="1629:12261" name="PO-2026-001252" x="0" y="0" width="119" height="18" />
+          </frame>
+          <frame id="1629:12262" name="Frame 1984079547" x="214" y="0" width="90" height="28">
+            <text id="1629:12263" name="In Progress" x="12" y="6" width="66" height="16" />
+          </frame>
+        </frame>
+        <frame id="1629:12264" name="Frame 1984079512" x="12" y="48" width="304" height="18" hidden="true">
+          <frame id="1629:12265" name="Paragraph" x="0" y="0" width="59" height="18">
+            <frame id="1629:12266" name="Paragraph" x="0" y="0" width="59" height="18">
+              <text id="1629:12267" name="Completed" x="0" y="0" width="59" height="18" />
+              <frame id="1629:12268" name="Icon" x="44" y="2" width="11" height="11" hidden="true" />
+            </frame>
+          </frame>
+          <text id="1629:12270" name="40%" x="279" y="0" width="25" height="18" />
+          <frame id="1629:12271" name="Icon" x="280" y="2" width="11" height="11" hidden="true" />
+        </frame>
+        <frame id="1629:12273" name="Frame 1984079554" x="12" y="48" width="304" height="54">
+          <frame id="1629:12274" name="Frame 1984079537" x="0" y="0" width="304" height="42">
+            <frame id="1629:12275" name="Frame 1984079539" x="0" y="0" width="194" height="42">
+              <text id="1629:12276" name="JOB-IND-2026-1212-133" x="0" y="0" width="194" height="20" />
+              <text id="1629:12277" name="Oct 06, 12:24 AM" x="0" y="24" width="117" height="18" />
+              <text id="1629:12278" name="Oct 06, 12.24 AM" x="0" y="46" width="117" height="18" hidden="true" />
+              <text id="1629:12279" name="PO Number - PO-2026-001252" x="0" y="45" width="212" height="18" hidden="true" />
+            </frame>
+            <frame id="1629:12280" name="Frame 1984079520" x="200" y="7" width="104" height="28" hidden="true">
+              <text id="1629:12281" name="Not Started" x="12" y="6" width="80" height="16" />
+            </frame>
+          </frame>
+          <line id="1629:12282" name="Line 1" x="0" y="54" width="304" height="0" />
+        </frame>
+        <frame id="1629:12283" name="Frame 16843" x="12" y="110" width="304" height="40">
+          <frame id="1629:12284" name="Frame 1984079554" x="0" y="0" width="304" height="18" hidden="true">
+            <frame id="1629:12285" name="Frame 1984079543" x="0" y="0" width="304" height="18">
+              <frame id="1629:12286" name="Frame 1984079540" x="0" y="0" width="304" height="18">
+                <text id="1629:12287" name="2 SKUs · 60 units" x="0" y="0" width="114" height="18" />
+                <text id="1629:12288" name="0 of 145 units" x="214" y="0" width="90" height="18" hidden="true" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="1629:12289" name="Frame 1984079574" x="0" y="0" width="304" height="40">
+            <frame id="1629:12290" name="Frame 1984079565" x="0" y="0" width="304" height="24">
+              <text id="1629:12291" name="2 SKUs · 60 units" x="0" y="2" width="130" height="20" />
+              <text id="1629:12292" name="15 of 60 Done" x="196" y="2" width="108" height="20" />
+            </frame>
+            <frame id="1629:12293" name="Container" x="0" y="28" width="304" height="12">
+              <frame id="1629:12294" name="Container" x="0" y="0" width="112" height="12" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+      <frame id="1629:12295" name="Frame 1984079538" x="0" y="390" width="328" height="162" hidden="true">
+        <frame id="1629:12296" name="Frame 1984079546" x="12" y="12" width="304" height="28">
+          <frame id="1629:12297" name="Frame 1984079545" x="0" y="5" width="119" height="18">
+            <text id="1629:12298" name="PO-2026-001252" x="0" y="0" width="119" height="18" />
+          </frame>
+          <frame id="1629:12299" name="Frame 1984079546" x="214" y="0" width="90" height="28">
+            <text id="1629:12300" name="In Progress" x="12" y="6" width="66" height="16" />
+          </frame>
+        </frame>
+        <frame id="1629:12301" name="Frame 1984079512" x="12" y="145" width="304" height="18" hidden="true">
+          <frame id="1629:12302" name="Paragraph" x="0" y="0" width="59" height="18">
+            <frame id="1629:12303" name="Paragraph" x="0" y="0" width="59" height="18">
+              <text id="1629:12304" name="Completed" x="0" y="0" width="59" height="18" />
+              <frame id="1629:12305" name="Icon" x="44" y="2" width="11" height="11" hidden="true" />
+            </frame>
+          </frame>
+          <text id="1629:12307" name="40%" x="279" y="0" width="25" height="18" />
+          <frame id="1629:12308" name="Icon" x="280" y="2" width="11" height="11" hidden="true" />
+        </frame>
+        <frame id="1629:12310" name="Frame 1984079554" x="12" y="48" width="304" height="54">
+          <frame id="1629:12311" name="Frame 1984079537" x="0" y="0" width="304" height="42">
+            <frame id="1629:12312" name="Frame 1984079539" x="0" y="0" width="194" height="42">
+              <text id="1629:12313" name="JOB-IND-2026-1212-133" x="0" y="0" width="194" height="20" />
+              <text id="1629:12314" name="Oct 06, 12:24 AM" x="0" y="24" width="117" height="18" />
+              <text id="1629:12315" name="Oct 06, 12.24 AM" x="0" y="45" width="117" height="18" hidden="true" />
+              <text id="1629:12316" name="PO Number - PO-2026-001252" x="0" y="45" width="212" height="18" hidden="true" />
+            </frame>
+            <frame id="1629:12317" name="Frame 1984079520" x="200" y="0" width="104" height="28" hidden="true">
+              <text id="1629:12318" name="Not Started" x="12" y="6" width="80" height="16" />
+            </frame>
+          </frame>
+          <line id="1629:12319" name="Line 1" x="0" y="54" width="304" height="0" />
+        </frame>
+        <frame id="1629:12320" name="Frame 1984079547" x="12" y="110" width="304" height="40">
+          <frame id="1629:12321" name="Container (margin)" x="0" y="0" width="304" height="12" hidden="true">
+            <frame id="1629:12322" name="Container" x="0" y="0" width="304" height="12">
+              <frame id="1629:12323" name="Container" x="0" y="0" width="57" height="12" />
+            </frame>
+          </frame>
+          <frame id="1629:12324" name="Frame 1984079543" x="0" y="0" width="304" height="40">
+            <frame id="1629:12325" name="Frame 1984079540" x="0" y="0" width="101.33333587646484" height="40">
+              <text id="1629:12326" name="SKUs" x="0" y="0" width="36" height="18" />
+              <text id="1629:12327" name="02" x="0" y="22" width="19" height="18" />
+            </frame>
+            <frame id="1629:12328" name="Frame 1984079541" x="101.33333587646484" y="0" width="101.33332824707031" height="40">
+              <text id="1629:12329" name="Units" x="0" y="0" width="35" height="18" />
+              <text id="1629:12330" name="60" x="0" y="22" width="19" height="18" />
+            </frame>
+            <frame id="1629:12331" name="Frame 1984079542" x="202.66665649414062" y="0" width="101.33332824707031" height="40">
+              <text id="1629:12332" name="Pending" x="0" y="0" width="54" height="18" />
+              <text id="1629:12333" name="60 units" x="0" y="22" width="56" height="18" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <instance id="1629:12334" name="Status Bar/iOS" x="0" y="0" width="360" height="48" />
+  </frame>
+  <frame id="1629:12479" name="Frame 2121454995" x="-489" y="-1327" width="328" height="162">
+    <frame id="1629:12480" name="Frame 1984079575" x="0" y="0" width="328" height="162">
+      <frame id="1629:12481" name="Frame 1984079546" x="12" y="12" width="304" height="28">
+        <frame id="1629:12482" name="Frame 1984079545" x="0" y="5" width="119" height="18">
+          <text id="1629:12483" name="PO-2026-001252" x="0" y="0" width="119" height="18" />
+        </frame>
+        <frame id="1629:12484" name="Frame 1984079547" x="214" y="0" width="90" height="28">
+          <text id="1629:12485" name="In Progress" x="12" y="6" width="66" height="16" />
+        </frame>
+      </frame>
+      <frame id="1629:12486" name="Frame 1984079512" x="12" y="48" width="304" height="18" hidden="true">
+        <frame id="1629:12487" name="Paragraph" x="0" y="0" width="59" height="18">
+          <frame id="1629:12488" name="Paragraph" x="0" y="0" width="59" height="18">
+            <text id="1629:12489" name="Completed" x="0" y="0" width="59" height="18" />
+            <frame id="1629:12490" name="Icon" x="44" y="2" width="11" height="11" hidden="true" />
+          </frame>
+        </frame>
+        <text id="1629:12492" name="40%" x="279" y="0" width="25" height="18" />
+        <frame id="1629:12493" name="Icon" x="280" y="2" width="11" height="11" hidden="true" />
+      </frame>
+      <frame id="1629:12495" name="Frame 1984079554" x="12" y="48" width="304" height="54">
+        <frame id="1629:12496" name="Frame 1984079537" x="0" y="0" width="304" height="42">
+          <frame id="1629:12497" name="Frame 1984079539" x="0" y="0" width="194" height="42">
+            <text id="1629:12498" name="JOB-IND-2026-1212-133" x="0" y="0" width="194" height="20" />
+            <text id="1629:12499" name="Oct 06, 12:24 AM" x="0" y="24" width="117" height="18" />
+            <text id="1629:12500" name="Oct 06, 12.24 AM" x="0" y="46" width="117" height="18" hidden="true" />
+            <text id="1629:12501" name="PO Number - PO-2026-001252" x="0" y="45" width="212" height="18" hidden="true" />
+          </frame>
+          <frame id="1629:12502" name="Frame 1984079520" x="200" y="7" width="104" height="28" hidden="true">
+            <text id="1629:12503" name="Not Started" x="12" y="6" width="80" height="16" />
+          </frame>
+        </frame>
+        <line id="1629:12504" name="Line 1" x="0" y="54" width="304" height="0" />
+      </frame>
+      <frame id="1629:12505" name="Frame 16843" x="12" y="110" width="304" height="40">
+        <frame id="1629:12506" name="Frame 1984079554" x="0" y="0" width="304" height="18" hidden="true">
+          <frame id="1629:12507" name="Frame 1984079543" x="0" y="0" width="304" height="18">
+            <frame id="1629:12508" name="Frame 1984079540" x="0" y="0" width="304" height="18">
+              <text id="1629:12509" name="2 SKUs · 60 units" x="0" y="0" width="114" height="18" />
+              <text id="1629:12510" name="0 of 145 units" x="214" y="0" width="90" height="18" hidden="true" />
+            </frame>
+          </frame>
+        </frame>
+        <frame id="1629:12511" name="Frame 1984079574" x="0" y="0" width="304" height="40">
+          <frame id="1629:12512" name="Frame 1984079565" x="0" y="0" width="304" height="24">
+            <text id="1629:12513" name="2 SKUs · 60 units" x="0" y="2" width="130" height="20" />
+            <text id="1629:12514" name="15 of 60 Done" x="196" y="2" width="108" height="20" />
+          </frame>
+          <frame id="1629:12515" name="Container" x="0" y="28" width="304" height="12">
+            <frame id="1629:12516" name="Container" x="0" y="0" width="112" height="12" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="1629:12517" name="Frame 1984079538" x="0" y="390" width="328" height="162" hidden="true">
+      <frame id="1629:12518" name="Frame 1984079546" x="12" y="12" width="304" height="28">
+        <frame id="1629:12519" name="Frame 1984079545" x="0" y="5" width="119" height="18">
+          <text id="1629:12520" name="PO-2026-001252" x="0" y="0" width="119" height="18" />
+        </frame>
+        <frame id="1629:12521" name="Frame 1984079546" x="214" y="0" width="90" height="28">
+          <text id="1629:12522" name="In Progress" x="12" y="6" width="66" height="16" />
+        </frame>
+      </frame>
+      <frame id="1629:12523" name="Frame 1984079512" x="12" y="145" width="304" height="18" hidden="true">
+        <frame id="1629:12524" name="Paragraph" x="0" y="0" width="59" height="18">
+          <frame id="1629:12525" name="Paragraph" x="0" y="0" width="59" height="18">
+            <text id="1629:12526" name="Completed" x="0" y="0" width="59" height="18" />
+            <frame id="1629:12527" name="Icon" x="44" y="2" width="11" height="11" hidden="true" />
+          </frame>
+        </frame>
+        <text id="1629:12529" name="40%" x="279" y="0" width="25" height="18" />
+        <frame id="1629:12530" name="Icon" x="280" y="2" width="11" height="11" hidden="true" />
+      </frame>
+      <frame id="1629:12532" name="Frame 1984079554" x="12" y="48" width="304" height="54">
+        <frame id="1629:12533" name="Frame 1984079537" x="0" y="0" width="304" height="42">
+          <frame id="1629:12534" name="Frame 1984079539" x="0" y="0" width="194" height="42">
+            <text id="1629:12535" name="JOB-IND-2026-1212-133" x="0" y="0" width="194" height="20" />
+            <text id="1629:12536" name="Oct 06, 12:24 AM" x="0" y="24" width="117" height="18" />
+            <text id="1629:12537" name="Oct 06, 12.24 AM" x="0" y="45" width="117" height="18" hidden="true" />
+            <text id="1629:12538" name="PO Number - PO-2026-001252" x="0" y="45" width="212" height="18" hidden="true" />
+          </frame>
+          <frame id="1629:12539" name="Frame 1984079520" x="200" y="0" width="104" height="28" hidden="true">
+            <text id="1629:12540" name="Not Started" x="12" y="6" width="80" height="16" />
+          </frame>
+        </frame>
+        <line id="1629:12541" name="Line 1" x="0" y="54" width="304" height="0" />
+      </frame>
+      <frame id="1629:12542" name="Frame 1984079547" x="12" y="110" width="304" height="40">
+        <frame id="1629:12543" name="Container (margin)" x="0" y="0" width="304" height="12" hidden="true">
+          <frame id="1629:12544" name="Container" x="0" y="0" width="304" height="12">
+            <frame id="1629:12545" name="Container" x="0" y="0" width="57" height="12" />
+          </frame>
+        </frame>
+        <frame id="1629:12546" name="Frame 1984079543" x="0" y="0" width="304" height="40">
+          <frame id="1629:12547" name="Frame 1984079540" x="0" y="0" width="101.33333587646484" height="40">
+            <text id="1629:12548" name="SKUs" x="0" y="0" width="36" height="18" />
+            <text id="1629:12549" name="02" x="0" y="22" width="19" height="18" />
+          </frame>
+          <frame id="1629:12550" name="Frame 1984079541" x="101.33333587646484" y="0" width="101.33332824707031" height="40">
+            <text id="1629:12551" name="Units" x="0" y="0" width="35" height="18" />
+            <text id="1629:12552" name="60" x="0" y="22" width="19" height="18" />
+          </frame>
+          <frame id="1629:12553" name="Frame 1984079542" x="202.66665649414062" y="0" width="101.33332824707031" height="40">
+            <text id="1629:12554" name="Pending" x="0" y="0" width="54" height="18" />
+            <text id="1629:12555" name="60 units" x="0" y="22" width="56" height="18" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <frame id="1629:12439" name="Frame 2121454987" x="-469" y="-1076" width="390" height="252" />
+  <frame id="1629:12478" name="Frame 2121454994" x="-135" y="-1313" width="355" height="135">
+    <frame id="1629:12475" name="Frame 2121454993" x="11" y="9" width="333" height="57">
+      <frame id="1629:12472" name="Frame 2121454992" x="0" y="0" width="333" height="48">
+        <frame id="1629:12464" name="Frame 2121454989" x="0" y="2" width="196" height="44">
+          <text id="1629:12366" name="PO-2026-001252" x="0" y="0" width="196" height="18" />
+          <text id="1629:12444" name="JOB-IND-2026-1212-133" x="0" y="24" width="196" height="20" />
+        </frame>
+        <frame id="1629:12471" name="Frame 2121454991" x="221" y="0" width="112" height="48">
+          <text id="1629:12466" name="Oct 06, 12:24 AM" x="0" y="0" width="112" height="18" />
+          <frame id="1629:12469" name="Frame 2121454990" x="22" y="24" width="90" height="24">
+            <text id="1629:12470" name="In Progress" x="12" y="4" width="66" height="16" />
+          </frame>
+        </frame>
+      </frame>
+      <line id="1629:12473" name="Line 2" x="0" y="57" width="333" height="0" />
+    </frame>
+    <frame id="1629:12448" name="Frame 16843" x="11" y="86" width="333" height="40">
+      <frame id="1629:12449" name="Frame 1984079554" x="0" y="0" width="304" height="18" hidden="true">
+        <frame id="1629:12450" name="Frame 1984079543" x="0" y="0" width="304" height="18">
+          <frame id="1629:12451" name="Frame 1984079540" x="0" y="0" width="304" height="18">
+            <text id="1629:12452" name="2 SKUs · 60 units" x="0" y="0" width="114" height="18" />
+            <text id="1629:12453" name="0 of 145 units" x="214" y="0" width="90" height="18" hidden="true" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="1629:12454" name="Frame 1984079574" x="0" y="0" width="333" height="40">
+        <frame id="1629:12455" name="Frame 1984079565" x="0" y="0" width="333" height="24">
+          <text id="1629:12456" name="2 SKUs · 60 units" x="0" y="2" width="130" height="20" />
+          <text id="1629:12457" name="15 of 60 Done" x="225" y="2" width="108" height="20" />
+        </frame>
+        <frame id="1629:12458" name="Container" x="0" y="28" width="333" height="12">
+          <frame id="1629:12459" name="Container" x="0" y="0" width="112" height="12" />
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <frame id="1651:893" name="1 Repeat left  - Iconly Pro" x="-1814" y="4391" width="48" height="48" />
+  <frame id="1662:896" name="Activity - Iconly Pro" x="-1690.295654296875" y="4372.27099609375" width="48" height="48" />
+  <frame id="1662:900" name="Activity - Iconly Pro" x="-1502.66552734375" y="4446.58935546875" width="48" height="48" />
+  <frame id="1662:906" name="Delete 2 - Iconly Pro" x="-1502.66552734375" y="4446.58935546875" width="48" height="48" />
+  <frame id="1662:910" name="Delete 2 - Iconly Pro" x="-1502.66552734375" y="4446.58935546875" width="48" height="48" />
+  <frame id="1662:914" name="Group" x="-1779" y="5065" width="184" height="56">
+    <frame id="1662:915" name="Bag" x="-1779" y="5065" width="24" height="24" />
+    <frame id="1662:922" name="Bag" x="-1747" y="5065" width="24" height="24" />
+    <frame id="1662:927" name="Activity" x="-1715" y="5065" width="24" height="24" />
+    <frame id="1662:931" name="Activity" x="-1683" y="5065" width="24" height="24" />
+    <frame id="1662:935" name="Activity" x="-1651" y="5065" width="24" height="24" />
+    <frame id="1662:941" name="Add User" x="-1619" y="5065" width="24" height="24" />
+    <frame id="1662:946" name="Add User" x="-1779" y="5097" width="24" height="24" />
+    <frame id="1662:950" name="Add User" x="-1747" y="5097" width="24" height="24" />
+    <frame id="1662:957" name="Arrow - Down" x="-1715" y="5097" width="24" height="24" />
+    <frame id="1662:962" name="Arrow - Down" x="-1683" y="5097" width="24" height="24" />
+    <frame id="1662:965" name="Arrow - Down" x="-1651" y="5097" width="24" height="24" />
+    <frame id="1662:968" name="Arrow - Down 2" x="-1619" y="5097" width="24" height="24" />
+  </frame>
+</canvas>

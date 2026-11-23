@@ -1,0 +1,41 @@
+<!--
+  Annachy Design System — Tooltip canonical markup (R4-2). Figma "tooltip" 1448:16825 (80 variants).
+  Classes: .annachy-tooltip + --mobile|--desktop + --dark|--light + --arrow-<position> [+ --heading]
+  Arrow positions: left · left-center · right · right-center · top · top-left · top-right · bottom · bottom-left · bottom-right
+  The arrow modifier is the Figma Arrow property: the arrow sits on that side of the body, so the tooltip is placed on
+  the OPPOSITE side of its trigger (arrow-left → tooltip to the right). The arrow glyph is an EMPTY positioned slot (G12).
+  Behaviour: src/components/tooltip/tooltip.js (auto-initialises [data-annachy-tooltip]; exported as initTooltips).
+  Tooltip content must be static text and must never be essential to completing a task (R4-Q5).
+-->
+
+<!-- Text only -->
+<button type="button" class="annachy-button annachy-button--secondary annachy-button--size-40"
+        data-annachy-tooltip="save-tip" aria-describedby="save-tip">
+  <span class="annachy-button__label">Save</span>
+</button>
+<div class="annachy-tooltip annachy-tooltip--desktop annachy-tooltip--dark annachy-tooltip--arrow-top" role="tooltip" id="save-tip" hidden>
+  <span class="annachy-tooltip__arrow" aria-hidden="true"><!-- 20×20 slot; shape not specified (G12) --></span>
+  <span class="annachy-tooltip__text">Saves a draft</span>
+</div>
+
+<!-- Heading and description (fixed size: Desktop 240×59, Mobile 260×62 — TT5) -->
+<!-- Icon-only trigger: the NAME comes from aria-label; the tooltip is the DESCRIPTION -->
+<button type="button" class="annachy-button annachy-button--tertiary annachy-button--size-40" aria-label="Home"
+        data-annachy-tooltip="home-tip" aria-describedby="home-tip">
+  <span class="annachy-button__icon" aria-hidden="true"><!-- svg --></span>
+</button>
+<div class="annachy-tooltip annachy-tooltip--mobile annachy-tooltip--light annachy-tooltip--arrow-bottom annachy-tooltip--heading" role="tooltip" id="home-tip" hidden>
+  <span class="annachy-tooltip__arrow" aria-hidden="true"></span>
+  <span class="annachy-tooltip__heading">Home</span>
+  <span class="annachy-tooltip__description">Go to the start page</span>
+</div>
+
+<!-- Disabled control that needs a tooltip: use aria-disabled (stays focusable) and guard activation — T13 / BTN-3 -->
+<button type="button" class="annachy-button annachy-button--primary annachy-button--size-40" aria-disabled="true"
+        data-annachy-tooltip="lock-tip" aria-describedby="lock-tip">
+  <span class="annachy-button__label">Publish</span>
+</button>
+<div class="annachy-tooltip annachy-tooltip--desktop annachy-tooltip--dark annachy-tooltip--arrow-top" role="tooltip" id="lock-tip" hidden>
+  <span class="annachy-tooltip__arrow" aria-hidden="true"></span>
+  <span class="annachy-tooltip__text">Available after review</span>
+</div>

@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sample Screen reproductions — geometry check — Annachy Design System</title>
+  <style>#stage iframe { border: 0; display: block; margin-bottom: 8px; } pre { white-space: pre-wrap; font: 12px/1.4 monospace; }</style>
+</head>
+<body>
+  <h1>Sample Screen (Figma page 1375:30857) — geometry check</h1>
+  <p>Loads each screen of <code>showcase/screens/sample-screen/</code> in a same-origin iframe and compares the root frame and its major
+     sections (position relative to the frame root, width, height) with the Figma metadata (<code>docs/figma-audit/raw/metadata/1375-30857.xml</code>
+     and the get_metadata reads listed in the screens README). Tolerance: 1px. Also checks the asset-placeholder contract. Serve the project root over HTTP.</p>
+  <pre id="result" data-status="running">running…</pre>
+  <div id="stage"></div>
+<script type="module">
+// R10: a placeholder marked data-annachy-vector (approved structural vector) must hold exactly one img.scr-vec__art showing
+// its declared original artwork from assets/vectors/, fully loaded, laid out at the exported SVG's exact size.
+const vecOk = (a) => { const im = a.querySelectorAll('img'); if (im.length !== 1) return false; const i = im[0];
+  return i.classList.contains('scr-vec__art') && i.getAttribute('src').endsWith('/assets/vectors/' + a.dataset.annachyVector)
+    && i.complete && i.naturalWidth > 0 && Math.abs(parseFloat(getComputedStyle(i).width) - parseFloat(a.dataset.vecW)) < 0.05 && Math.abs(parseFloat(getComputedStyle(i).height) - parseFloat(a.dataset.vecH)) < 0.05; };
+const allowedMedia = (e) => (e.tagName.toLowerCase() === 'svg' && e.parentElement.matches('.scr-asset[data-annachy-icon]'))
+  || (e.tagName.toLowerCase() === 'img' && e.classList.contains('scr-vec__art') && !!e.closest('.scr-asset[data-annachy-vector]'))
+  || (e.tagName.toLowerCase() === 'img' && e.classList.contains('scr-img__art') && !!e.closest('.scr-asset[data-annachy-image]'));
+// R11: a placeholder marked data-annachy-image (approved product imagery, INTERNAL USE) holds only img.scr-img__art layers
+// (count = data-img-layers) showing exactly its declared original files from assets/images/, each fully loaded and drawn
+// with a non-empty box, plus a recorded rights status; data-annachy-css placeholders (no asset) hold no media.
+const R11_RIGHTS = new Set(['ai-generated-unverified', 'sku-photo-unverified', 'web-download-unverified', 'screenshot-unverified', 'emoji-third-party', 'source-unknown', 'design-vector-unverified']);
+const imgOk = (a) => { const im = [...a.querySelectorAll('img')]; const decl = a.dataset.annachyImage.split(' ');
+  if (!im.length || im.length !== +a.dataset.imgLayers || !R11_RIGHTS.has(a.dataset.imgRights)) return false;
+  // closure: a layer may show the A/B-verified web copy (assets/images-web/<id>.webp) of a declared original, recorded in
+  // data-img-original; otherwise it shows the original itself
+  const orig = (i) => i.dataset.imgOriginal || i.getAttribute('src').split('/assets/images/')[1];
+  const srcOk = (i) => i.dataset.imgOriginal ? i.getAttribute('src') === '../assets/images-web/' + i.dataset.imgOriginal.split('.')[0] + '.webp' : i.getAttribute('src').startsWith('../assets/images/');
+  const used = new Set(im.map(orig));
+  return im.every((i) => i.classList.contains('scr-img__art') && srcOk(i) && i.complete && i.naturalWidth > 0
+    && i.getBoundingClientRect().width > 0 && i.getBoundingClientRect().height > 0) && decl.every((f) => used.has(f)) && [...used].every((f) => decl.includes(f)); };
+// R11 geometry lock: each image layer's box relative to its placeholder (crop, offset, instance scale, rotation) must equal
+// the boxes recorded after the comparison with Figma's own renders (tests/tools/r11_image_geometry.py), within 0.1 px.
+const R11_GEO = await (await fetch('./r11-image-geometry.json')).json();
+const geoOk = (a, file) => { const want = (R11_GEO[file] || {})[a.dataset.figmaNode]; if (!want) return false; const A = a.getBoundingClientRect();
+  const got = [...a.querySelectorAll('img.scr-img__art')].map((i) => { const r = i.getBoundingClientRect(); return [i.dataset.imgOriginal || i.getAttribute('src').split('/').pop(), r.left - A.left, r.top - A.top, r.width, r.height]; });
+  return got.length === want.length && got.every((g, k) => g[0] === want[k][0] && [1, 2, 3, 4].every((j) => Math.abs(g[j] - want[k][j]) <= 0.1)); };
+const cssOk = (a) => !a.querySelector('img, svg') && ['air-streaks', 'bottom-edge', 'home-indicator'].includes(a.dataset.annachyCss);
+const imagesReady = async (doc) => { await Promise.all([...doc.querySelectorAll('img.scr-img__art')].map((i) => i.complete ? null : new Promise((r) => { i.addEventListener('load', r, { once: true }); i.addEventListener('error', r, { once: true }); }))); };
+const R11_FILLED = { 'desktop-bg-colours.html': 1, 'mobile.html': 1, 'pdp-v1.html': 40, 'desktop-pdp-1375-30858.html': 19, 'mobile-pdp-1608-7090.html': 46, 'mobile-putaway-1627-11756.html': 1 };
+
+// R11: the screens also load ~98 MB of original images; polling the page's flag on virtual time can end before the icon
+// fetches queued behind them settle, so after polling, await the library loader itself (idempotent: fills only empty slots).
+const iconsReady = async (doc) => { if (!doc.querySelector('[data-annachy-icon]')) return; for (let i = 0; i < 100 && !doc.documentElement.dataset.iconsFilled; i++) await new Promise((r) => setTimeout(r, 50));
+  const { fillIconSlots } = await import('../../src/icons/icons.js'); await fillIconSlots(doc); };
+// R7: a placeholder marked data-annachy-icon (exact library icon, src/icons) must hold exactly one SVG filling its Figma box
+const iconOk = (a) => { const s = a.querySelectorAll(':scope > svg'); if (s.length !== 1 || a.children.length !== 1) return false; const r = a.getBoundingClientRect(), q = s[0].getBoundingClientRect(); return Math.abs(r.width - q.width) < 0.5 && Math.abs(r.height - q.height) < 0.5; };
+
+const TOL = 1;
+// [node id, x, y, w, h] relative to the frame root; null = not asserted (text-driven width).
+const SCREENS = [
+  { file: 'job-listing-page-1629-11987.html', root: '1629:11987', w: 360, h: 800, parts: [
+    ['1629:12334', 0, 0, 360, 48], ['1629:11988', 16, 52, 328, 58], ['1629:12012', 16, 122, 328, 44],
+    ['1629:12556', 16, 178, 328, 135], ['1629:12557', 27, 187, 306, 57],
+    ['1629:12101', 16, 325, 328, 162], ['1629:12178', 16, 499, 328, 162], ['1629:12257', 16, 673, 328, 162],
+    ['1629:11991', 16, 52, 40, 40], ['1629:12103', 28, 337, 304, 28], ['1629:12117', 28, 373, 304, 54], ['1629:12133', 28, 435, 304, 40], ['1629:12005', null, 52, null, 40] ] },
+  { file: 'mobile-putaway-1627-11756.html', root: '1627:11756', w: 360, h: 800, parts: [
+    ['1627:11941', 0, 0, 360, 48], ['1627:11757', 16, 52, 328, 58], ['1627:11792', 16, 122, 328, 0],
+    ['1627:11793', 16, 134, 328, 168], ['1627:11840', 16, 314, 328, 256], ['1627:11930', 16, 582, null, 20],
+    ['1627:11931', 16, 614, 328, 56], ['1627:11932', 16, 614, 60, 56], ['1627:11937', 284, 614, 60, 56],
+    ['1627:11986', -3, 720, 363, 80], ['1627:11940', 14.5, 732, 328, 56], ['1627:11858', 28, 362, 60, 60], ['1627:11842', 28, 326, 304, 28], ['1627:11883', 28, 518, 304, 40] ] },
+  { file: 'mobile-pdp-1608-7090.html', root: '1608:7090', w: 360, h: 4683, lib: ['annachy-button', 'annachy-button-gradient', 'annachy-input'], parts: [
+    ['1608:7094', 0, 0, 360, 35], ['1608:7112', 0, 35, 360, 58], ['1608:7113', 16, 43, 42, 42], ['1608:7124', 0, 94, 360, 525],
+    ['1608:7125', 16, 647, 330, 132], ['1608:7151', 0, 797, 360, 288], ['1608:7152', 0, 797, 360, 172], ['1608:7153', 0, 993, 360, 92],
+    ['1608:7154', 16, 1111, 328, 127], ['1608:7155', 16, 1111, 328, 71], ['1608:7156', 0, 1200, 360, 38],
+    ['1608:7183', 0, 1238, 360, 231], ['1608:7184', 16, 1262, 328, 45], ['1608:7239', 0, 1469, 360, 2234],
+    ['1608:7241', 16, 1499, 328, 632], ['1608:7267', 16, 2167, 328, 1301], ['1608:7270', 16, 2217, 328, 688], ['1608:7347', 16, 2923, 328, 545],
+    ['1608:7391', 0, 3481, 360, 198], ['1608:7392', 0, 3481, 360, 122], ['1608:7424', 0, 3703, 360, 842], ['1608:7425', 0, 3703, 360, 477],
+    ['1608:7426', 16, 3727, 328, 40], ['1608:7530', 0, 4180, 360, 365], ['1608:7531', 16, 4204, 328, 40],
+    ['1608:7590', 0, 4560, 360, 106], ['1608:7372', 183.016, 3055, 179.969, 65], ['1608:7373', null, 3079, null, 18], ['1608:7592', 16, 4592, 134, 48], ['1608:7593', 164, 4592, 180, 48], ['1608:7091', 0, 4668, 360, 15] ] },
+  { file: 'desktop-pdp-1375-30858.html', root: '1375:30858', w: 1440, h: 3533, lib: ['annachy-button', 'annachy-button-gradient', 'annachy-input'], parts: [
+    ['1375:31289', 0, 0, 1440, 180], ['1375:31290', 0, 0, 1440, 100], ['1375:31366', 0, 100, 1440, 80],
+    ['1375:31346', null, 26, 381, 48],
+    ['1375:30859', 120, 233, 1200, 2407], ['1375:30862', 120, 233, 268.259, 367.091], ['1375:30869', 397.789, 609.622, 268.259, 367.091],
+    ['1375:30876', 710, 233, 610, 808], ['1375:30877', 710, 233, null, 20],
+    ['1375:30893', 710, 278, 610, 753], ['1375:30985', 710, 836, 62, 62], ['1375:31000', 710, 943.5, 373, 56],
+    ['1375:31003', 710, 1073, 610, 603], ['1375:31009', 710, 1111, 610, 110], ['1375:31077', 710, 1718, 610, 1036], ['1375:31092', 710, 1811, 610, 80],
+    ['1375:31393', 120, 1690, 1200, 0],
+    ['1375:31163', 120, 2779, 1200, 731], ['1375:31164', 120, 2779, 1200, 313], ['1375:31168', 120, 2860, 1200, 232],
+    ['1375:31222', 120, 3128, 1200, 382], ['1375:31229', 120, 3190, 1200, 320], ['1375:31230', 120, 3190, 250, 320], ['1375:31239', 398, 3190, 250, 320],
+    ['1375:31282', 91, 3326, 1259, 66.667] ] },
+  { file: 'desktop-1608-9891.html', root: '1608:9891', w: 1440, h: 1073, parts: [] },
+];
+const KINDS = new Set(['image', 'icon', 'logo']);
+const fails = []; let checks = 0, frames = 0;
+const near = (k, v, got, want) => { checks++; if (Math.abs(got - want) > TOL) fails.push(`${v} ${k}: got ${+got.toFixed(3)}, want ${want}`); };
+const ok = (k, v, cond, info = '') => { checks++; if (!cond) fails.push(`${v} ${k}${info ? ': ' + info : ''}`); };
+const stage = document.getElementById('stage');
+const load = (src, h) => new Promise(res => { const f = document.createElement('iframe'); f.style.width = '1600px'; f.style.height = `${h + 120}px`; f.onload = () => { try { const st = f.contentDocument.createElement('style'); st.textContent = ':root{--annachy-base-font-family-render:system-ui,sans-serif}'; f.contentDocument.head.appendChild(st); } catch (e) {} res(f); }; f.src = src; stage.appendChild(f); });
+
+for (const S of SCREENS) {
+  const f = await load(`../../showcase/screens/sample-screen/${S.file}`, S.h);
+  const doc = f.contentDocument; await doc.fonts.ready;
+  const root = doc.getElementById('frame');
+  ok('root #frame present', S.file, !!root); if (!root) continue;
+  frames++;
+  ok('root data-figma-node', S.file, root.dataset.figmaNode === S.root, root.dataset.figmaNode);
+  const R = root.getBoundingClientRect();
+  near('root width', S.file, R.width, S.w); near('root height', S.file, R.height, S.h);
+  // stylesheets: library + shared screen CSS
+  const hrefs = [...doc.querySelectorAll('link[rel=stylesheet]')].map(l => l.getAttribute('href'));
+  ok('links ../../../src/annachy.css', S.file, hrefs.includes('../../../src/annachy.css'));
+  ok('links ./sample-screen.css', S.file, hrefs.includes('./sample-screen.css'));
+  ok('annachy.css loaded', S.file, [...doc.styleSheets].some(s => s.href && s.href.endsWith('/src/annachy.css') && s.cssRules.length > 0));
+  ok('render font stack', S.file, getComputedStyle(root).fontFamily.includes('system-ui'), getComputedStyle(root).fontFamily);
+  for (const [id, x, y, w, h] of S.parts) {
+    const el = doc.querySelector(`[data-figma-node="${CSS.escape(id)}"]`);
+    ok(`${id} present`, S.file, !!el); if (!el) continue;
+    const r = el.getBoundingClientRect(), v = `${S.file} ${id}`;
+    if (x !== null) near('x', v, r.left - R.left, x);
+    if (y !== null) near('y', v, r.top - R.top, y);
+    if (w !== null) near('width', v, r.width, w);
+    if (h !== null) near('height', v, r.height, h);
+  }
+  for (const c of S.lib || []) ok(`reuses library component .${c}`, S.file, doc.querySelector(`.${c}`) && getComputedStyle(doc.querySelector(`.${c}`)).display !== 'inline');
+  // asset placeholder contract
+  await iconsReady(doc); await imagesReady(doc);
+  const assets = [...doc.querySelectorAll('.scr-asset')];
+  for (const a of assets) {
+    const v = `${S.file} asset ${a.dataset.figmaNode || '?'}`;
+    ok('data-figma-node', v, /^I?\d+:\d+(;\d+:\d+)*$/.test(a.dataset.figmaNode || ''));
+    ok('data-asset kind', v, KINDS.has(a.dataset.asset), a.dataset.asset);
+    ok('title names the Figma layer', v, (a.getAttribute('title') || '').trim().length > 0);
+    if (a.dataset.annachyIcon) ok('exact library icon rendered at the Figma box size', v, a.dataset.asset === 'icon' && iconOk(a), a.dataset.annachyIconError || (a.querySelector('svg') ? 'svg present, wrong size' : 'not filled yet'));
+    else if (a.dataset.annachyVector) ok('approved structural vector (R10) rendered from its original artwork at the exported size', v, vecOk(a));
+    else if (a.dataset.annachyImage) { ok('approved product imagery (R11) rendered from its original files with a rights status', v, imgOk(a)); ok('R11 image layers at the recorded Figma-validated geometry', v, geoOk(a, S.file)); }
+    else if (a.dataset.annachyCss) ok('R11 CSS-only fill (no asset)', v, cssOk(a));
+    else ok('empty placeholder', v, a.childElementCount === 0 && a.textContent === '');
+  }
+  {
+    const n = assets.filter((a) => a.dataset.annachyImage || a.dataset.annachyCss).length;
+    ok('R11 filled placeholder count', S.file, n === (R11_FILLED[S.file] || 0), `${n} vs ${R11_FILLED[S.file] || 0}`);
+  }
+  ok('no img/svg/media elements (assets are placeholders)', S.file, [...doc.querySelectorAll('img, svg, picture, video, canvas, object, embed')].every(allowedMedia));
+  const html = doc.documentElement.outerHTML;
+  ok('no Figma MCP asset URLs', S.file, !/figma\.com\/api\/mcp/.test(html));
+  ok('no external http(s) resources', S.file, ![...doc.querySelectorAll('[src],[href]')].some(e => /^https?:/i.test(e.getAttribute('src') || e.getAttribute('href'))));
+  ok('no inline background images', S.file, ![...doc.querySelectorAll('[style]')].some(e => /url\(/i.test(e.getAttribute('style'))));
+  ok('every element with data-figma-node uses a Figma id', S.file, [...doc.querySelectorAll('[data-figma-node]')].every(e => /^I?\d+:\d+(;\d+:\d+)*$/.test(e.dataset.figmaNode)),
+     [...doc.querySelectorAll('[data-figma-node]')].map(e => e.dataset.figmaNode).filter(n => !/^I?\d+:\d+(;\d+:\d+)*$/.test(n)).join(','));
+}
+const out = [`STATUS: ${fails.length || frames !== SCREENS.length ? 'FAIL' : 'PASS'}`, `frames: ${frames} (expected ${SCREENS.length}) · tolerance ${TOL}px`,
+  `checks: ${checks} · failures: ${fails.length}`, ...fails.slice(0, 80)];
+const el = document.getElementById('result'); el.textContent = out.join('\n'); el.dataset.status = out[0].endsWith('PASS') ? 'pass' : 'fail';
+</script>
+</body>
+</html>

@@ -1,0 +1,145 @@
+/*
+ * Annachy Design System — Checkbox
+ * Layer: annachy.components (assigned by src/annachy.css) · Phase R3-4
+ * Source of truth: Figma file rM3ixSG6i3DFfKZFWuxzs4, ".Selection Controls / Checkbox" 1504:53300
+ *   (7 States × 3 Sizes × 2 Positions × 3 Alignments = 126 variants).
+ * Evidence: docs/figma-audit/components/checkbox.md; docs/figma-audit/r3-0-evidence.md §10, §11, §19, §24.
+ *
+ * Figma property -> markup:
+ *   Size      -> .annachy-checkbox--small | --medium | --large
+ *   Position  -> (Left: default) | .annachy-checkbox--control-right
+ *   Alignment -> .annachy-checkbox--align-top | (Center: default) | --align-bottom
+ *   State     -> Unchecked (default) · Checked (:checked) · Multi-select (:indeterminate, set by checkbox.js)
+ *                · Pressed (:active, .is-pressed) · Focus (:focus-visible, .is-focus) · Disabled / Disabled On (:disabled)
+ *   showLabel / showSubtext -> presence of .annachy-checkbox__label / __subtext
+ *
+ * UNRESOLVED (D-27 — not invented): the check and remove glyph geometry is image-only in Figma. The glyph
+ * slot (.annachy-checkbox__glyph) has the evidenced size, position and colour but ships EMPTY; checked and
+ * multi-select states are conveyed by fill/border/shadow and by the native checked/indeterminate state.
+ *
+ * D-20 RECOMMENDATION (not a confirmed Figma specification): Focus + Checked/Multi-select keeps the checked
+ * appearance and adds the Figma focus treatment (2px border, Button/Focus + shadow/sm). Figma has only an
+ * unchecked-looking Focus variant, which is used for Focus + Unchecked.
+ *
+ * Reproduced, not fixed: CB1/D-19 foreign surface-bg / border-default / shadow/sm (compat tokens) · CB3 no Hover
+ * · CB4 no Error · CB5 Pressed uses Button/Hover effect.
+ */
+
+.annachy-checkbox {
+  --_cb-box: 24px;
+  --_cb-glyph: 20px;
+  --_cb-fill: var(--annachy-compat-color-surface-bg);
+  --_cb-border-width: 2px;
+  --_cb-border-color: var(--annachy-compat-color-border-default);
+  --_cb-shadow: none;
+  --_cb-glyph-color: var(--annachy-color-background-primary);
+  --_cb-glyph-display: none;
+  --_cb-label: var(--annachy-color-text-primary);
+  --_cb-subtext: var(--annachy-color-text-tertiary);
+
+  position: relative;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: var(--annachy-base-font-family-render);
+  letter-spacing: var(--annachy-font-letter-spacing);
+  cursor: pointer;
+}
+
+/* Native control: transparent, exactly over the box (click target = box); state drives the visuals. */
+.annachy-checkbox__input {
+  position: absolute;
+  inset-block-start: var(--_cb-input-top, 50%);
+  inset-inline-start: 0;
+  inline-size: var(--_cb-box);
+  block-size: var(--_cb-box);
+  margin: 0;
+  opacity: 0;
+  cursor: inherit;
+  transform: translateY(var(--_cb-input-shift, -50%));
+}
+
+.annachy-checkbox__box {
+  box-sizing: border-box;
+  display: flex;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  inline-size: var(--_cb-box);
+  block-size: var(--_cb-box);
+  overflow: hidden;
+  border: var(--_cb-border-width) solid var(--_cb-border-color);
+  border-radius: var(--annachy-radius-4);
+  background: var(--_cb-fill);
+  box-shadow: var(--_cb-shadow);
+  pointer-events: none;
+}
+.annachy-checkbox__glyph {           /* functional/check · functional/remove — geometry unresolved (D-27) */
+  display: var(--_cb-glyph-display);
+  flex: none;
+  inline-size: var(--_cb-glyph);
+  block-size: var(--_cb-glyph);
+  color: var(--_cb-glyph-color);
+}
+
+.annachy-checkbox__content { display: flex; flex-direction: column; align-items: flex-start; }
+.annachy-checkbox__label {
+  display: block;
+  padding-inline-start: 12px;
+  color: var(--_cb-label);
+  font-size: var(--annachy-type-label-medium-font-size);
+  line-height: var(--annachy-type-label-medium-line-height);
+  font-weight: var(--annachy-type-label-medium-font-weight);
+  white-space: nowrap;
+  cursor: inherit;
+}
+.annachy-checkbox__subtext {
+  display: block;
+  box-sizing: content-box;
+  inline-size: 184px;                 /* CB8 fixed width */
+  padding-inline-start: 12px;
+  color: var(--_cb-subtext);
+  font-size: var(--annachy-type-body-s-font-size);
+  line-height: var(--annachy-type-body-s-line-height);
+  font-weight: var(--annachy-type-body-s-font-weight);
+}
+
+/* ---------------------------------------------------------------- Size (box / glyph) */
+.annachy-checkbox--small  { --_cb-box: 20px; --_cb-glyph: 16px; }   /* 1504:53311 */
+.annachy-checkbox--medium { --_cb-box: 24px; --_cb-glyph: 20px; }   /* 1504:53701 */
+.annachy-checkbox--large  { --_cb-box: 28px; --_cb-glyph: 20px; }   /* 1504:54091 */
+
+/* ---------------------------------------------------------------- Position / Alignment (§11, §19) */
+.annachy-checkbox--control-right { flex-direction: row-reverse; }
+.annachy-checkbox--control-right .annachy-checkbox__input { inset-inline-start: auto; inset-inline-end: 0; }
+.annachy-checkbox--control-right .annachy-checkbox__label,
+.annachy-checkbox--control-right .annachy-checkbox__subtext { padding-inline-start: 0; padding-inline-end: 12px; }
+.annachy-checkbox--align-top { align-items: flex-start; --_cb-input-top: 0px; --_cb-input-shift: 0px; }
+.annachy-checkbox--align-bottom { align-items: flex-end; --_cb-input-top: 100%; --_cb-input-shift: -100%; }
+
+/* ---------------------------------------------------------------- States (§24)
+   :where() keeps every state rule at one-class specificity; source order sets precedence:
+   Unchecked < Checked < Multi-select < Pressed < Focus < Disabled < Disabled On. */
+.annachy-checkbox:where(:has(.annachy-checkbox__input:checked)) {
+  --_cb-fill: var(--annachy-color-button-primary-background-default); --_cb-border-width: 1px; --_cb-border-color: var(--annachy-color-blue-300);
+  --_cb-shadow: var(--annachy-effect-button-default); --_cb-glyph-display: block; --_cb-glyph-color: var(--annachy-color-background-primary); }   /* 1504:53701 */
+.annachy-checkbox:where(:has(.annachy-checkbox__input:indeterminate)) {
+  --_cb-fill: var(--annachy-color-button-primary-background-default); --_cb-border-width: 1px; --_cb-border-color: var(--annachy-color-blue-300);
+  --_cb-shadow: var(--annachy-effect-button-default); --_cb-glyph-display: block; --_cb-glyph-color: var(--annachy-color-background-primary); }   /* 1504:53761 Multi-select */
+.annachy-checkbox:where(:has(.annachy-checkbox__input:active), .is-pressed) {
+  --_cb-fill: var(--annachy-color-button-primary-background-pressed-active); --_cb-border-width: 1px; --_cb-border-color: var(--annachy-color-blue-300);
+  --_cb-shadow: var(--annachy-effect-button-hover); --_cb-glyph-display: block; --_cb-glyph-color: var(--annachy-color-background-primary); }   /* 1504:54031 — CB5 */
+.annachy-checkbox:where(:has(.annachy-checkbox__input:focus-visible), .is-focus) {
+  --_cb-fill: var(--annachy-color-blue-white-300); --_cb-border-width: 2px; --_cb-border-color: var(--annachy-color-button-primary-background-focus);
+  --_cb-shadow: var(--annachy-compat-shadow-sm), var(--annachy-effect-button-focus); --_cb-glyph-display: none; }   /* 1504:53976 */
+/* D-20 recommendation: focus on a checked / multi-select checkbox keeps the checked fill and glyph. */
+.annachy-checkbox:where(:has(.annachy-checkbox__input:focus-visible), .is-focus):where(:has(.annachy-checkbox__input:checked), :has(.annachy-checkbox__input:indeterminate)) {
+  --_cb-fill: var(--annachy-color-button-primary-background-default); --_cb-glyph-display: block; --_cb-glyph-color: var(--annachy-color-background-primary); }
+.annachy-checkbox:where(:has(.annachy-checkbox__input:disabled)) {
+  --_cb-fill: var(--annachy-color-blue-grey-100); --_cb-border-width: 2px; --_cb-border-color: var(--annachy-color-blue-grey-200);
+  --_cb-shadow: none; --_cb-glyph-display: none; --_cb-label: var(--annachy-color-blue-grey-200); --_cb-subtext: var(--annachy-color-blue-grey-200);
+  cursor: not-allowed; }   /* 1504:53867 */
+.annachy-checkbox:where(:has(.annachy-checkbox__input:disabled:checked), :has(.annachy-checkbox__input:disabled:indeterminate)) {
+  --_cb-fill: var(--annachy-color-button-primary-background-disabled); --_cb-border-width: 0px; --_cb-border-color: transparent;
+  --_cb-shadow: none; --_cb-glyph-display: block; --_cb-glyph-color: var(--annachy-color-button-primary-content-disabled); }   /* 1504:53917 Disabled On */
+

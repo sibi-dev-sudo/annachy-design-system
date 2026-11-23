@@ -1,0 +1,39 @@
+/*
+ * Annachy Design System — Document defaults
+ * Layer: annachy.base · Phase R2
+ *
+ * RENDER FONT (supersedes D-06): the design team confirmed the typeface is Inter.
+ *   Inter is self-hosted (SIL OFL, src/assets/fonts/inter/). --annachy-base-font-family-render is
+ *   not a design token. The R1 token --annachy-font-family-sans is left exactly "Proxima Nova"
+ *   (the Figma value); the design team should update the Figma style so the two agree.
+ *
+ * Default text style: Body M (Regular, active Mobile values) — Typography System usage
+ * "Default body text" (Figma row 1558:49005). Colours use semantic tokens (dark-ready).
+ */
+
+:root,
+[data-annachy-theme="light"] {
+  color-scheme: light;
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("../assets/fonts/inter/InterVariable.woff2") format("woff2");
+}
+
+:root {
+  --annachy-base-font-family-render: "Inter", system-ui, sans-serif;
+}
+
+body {
+  font-family: var(--annachy-base-font-family-render);
+  font-size: var(--annachy-type-body-m-font-size);
+  line-height: var(--annachy-type-body-m-line-height);
+  font-weight: var(--annachy-type-body-m-font-weight);
+  letter-spacing: var(--annachy-font-letter-spacing);
+  color: var(--annachy-color-text-primary);
+  background-color: var(--annachy-color-background-primary);
+}

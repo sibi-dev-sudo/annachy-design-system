@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>R7 icon fidelity stage</title>
+  <!-- Driven by tests/tools/r7_icon_fidelity_cdp.py. #o: tiles of ORIGINAL export elements selected by geometry;
+       #a: the normalised library assets at the same size; #src: the original export, measured once (off-screen). -->
+  <style>
+    html, body { margin: 0; background: #fff; color: #000; }
+    #o, #a { position: absolute; top: 0; inline-size: 420px; block-size: 860px; }
+    #o { left: 0; } #a { left: 460px; }
+    .cell { position: absolute; background: #fff; overflow: hidden; }   /* size set per run (window.__cell) */
+    .cell > svg { display: block; }
+    #src { position: absolute; left: 0; top: 0; }
+  </style>
+</head>
+<body><div id="o"></div><div id="a"></div><div id="src"></div></body>
+</html>

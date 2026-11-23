@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>R3-1 Button check — Annachy Design System</title>
+  <link rel="stylesheet" href="../../src/annachy.css">
+  <style>
+    #stage { display: flex; flex-wrap: wrap; gap: 8px; align-items: flex-start; }
+    pre { white-space: pre-wrap; font: 12px/1.4 monospace; }
+  </style>
+</head>
+<body>
+  <h1>R3-1 Button — Figma parity check</h1>
+  <p>Renders all 432 "All Buttons" variants (6 Types × 6 States × 12 Sizes, Figma set <code>887:2492</code>) and compares computed
+     styles with values transcribed from <code>docs/figma-audit/components/button.md</code> and <code>docs/figma-audit/r3-0-evidence.md</code>
+     (§1–§4, §21). Expected colours are literal Figma hex values (not CSS variables), so the check is independent of the CSS.
+     Serve the project root over HTTP and open this page.</p>
+  <pre id="result" data-status="running">running…</pre>
+  <div id="stage"></div>
+<script type="module">
+// ---- Expected values (Figma evidence) -------------------------------------------------------
+// Size scale: button.md §1.3 + r3-0-evidence §1 (padding/gap), §21.3 (loading dots), Loading width from META (§21.1)
+const SIZES = {
+  24: { r: 4,  px: 10, py: 4,  gap: 4, fs: 12, lh: 18, dot: 4, dotGap: 3, loadW: 38 },
+  26: { r: 4,  px: 10, py: 4,  gap: 4, fs: 12, lh: 18, dot: 4, dotGap: 3, loadW: 38 },
+  28: { r: 4,  px: 10, py: 8,  gap: 4, fs: 14, lh: 18, dot: 4, dotGap: 3, loadW: 38 },
+  32: { r: 8,  px: 10, py: 12, gap: 4, fs: 14, lh: 18, dot: 6, dotGap: 5, loadW: 48 },
+  36: { r: 8,  px: 12, py: 10, gap: 6, fs: 16, lh: 18, dot: 6, dotGap: 5, loadW: 52 },
+  38: { r: 8,  px: 14, py: 10, gap: 6, fs: 16, lh: 18, dot: 6, dotGap: 5, loadW: 56 },
+  40: { r: 8,  px: 16, py: 12, gap: 6, fs: 16, lh: 18, dot: 6, dotGap: 5, loadW: 60 },
+  42: { r: 12, px: 16, py: 12, gap: 6, fs: 16, lh: 18, dot: 6, dotGap: 5, loadW: 60 },
+  46: { r: 12, px: 16, py: 16, gap: 8, fs: 18, lh: 20, dot: 6, dotGap: 5, loadW: 60 },
+  48: { r: 12, px: 16, py: 18, gap: 8, fs: 18, lh: 20, dot: 6, dotGap: 5, loadW: 60 },
+  52: { r: 12, px: 18, py: 18, gap: 8, fs: 20, lh: 24, dot: 6, dotGap: 5, loadW: 64 },
+  56: { r: 12, px: 20, py: 20, gap: 8, fs: 20, lh: 24, dot: 6, dotGap: 5, loadW: 68 },
+};
+// Type × State paint: button.md §1.4, r3-0-evidence §2–§4, §21. null = no fill / no border.
+const T = null;
+const TYPES = {
+  primary: {
+    Default:  { bg: '#004feb', fg: '#fafcff', bw: 0, bc: T },
+    Hover:    { bg: '#003fbc', fg: '#fafcff', bw: 0, bc: T },
+    Focus:    { bg: '#004feb', fg: '#fafcff', bw: 2, bc: '#003fbc' },
+    Pressed:  { bg: '#3372ef', fg: '#fafcff', bw: 0, bc: T },
+    Disabled: { bg: '#bfc4cf', fg: '#fafcff', bw: 0, bc: T },
+    Loading:  { bg: '#004feb', dot: '#fafcff', bw: 0, bc: T },
+  },
+  secondary: {
+    Default:  { bg: T, fg: '#004feb', bw: 1, bc: '#004feb' },
+    Hover:    { bg: '#f3f7ff', fg: '#004feb', bw: 1, bc: '#004feb' },
+    Focus:    { bg: T, fg: '#004feb', bw: 2, bc: '#004feb' },
+    Pressed:  { bg: '#e8f0ff', fg: '#004feb', bw: 1, bc: '#004feb' },
+    Disabled: { bg: T, fg: '#bfc4cf', bw: 1, bc: '#bfc4cf' },
+    Loading:  { bg: '#fafcff', dot: '#004feb', bw: 1, bc: '#004feb' },
+  },
+  'secondary-grey': {
+    Default:  { bg: T, fg: '#1f242e', bw: 1, bc: '#bfc4cf' },
+    Hover:    { bg: '#f6f7f9', fg: '#1f242e', bw: 1, bc: '#dcdfe5' },
+    Focus:    { bg: T, fg: '#1f242e', bw: 2, bc: '#004feb' },
+    Pressed:  { bg: '#dcdfe5', fg: '#1f242e', bw: 1, bc: '#dcdfe5' },
+    Disabled: { bg: T, fg: '#bfc4cf', bw: 1, bc: '#dcdfe5' },
+    Loading:  { bg: '#fafcff', dot: '#1f242e', bw: 1, bc: '#bfc4cf' },
+  },
+  tertiary: {
+    Default:  { bg: T, fg: '#004feb', bw: 0, bc: T },
+    Hover:    { bg: '#f3f7ff', fg: '#004feb', bw: 0, bc: T },
+    Focus:    { bg: T, fg: '#004feb', bw: 2, bc: '#004feb' },
+    Pressed:  { bg: '#e8f0ff', fg: '#003fbc', bw: 0, bc: T },
+    Disabled: { bg: T, fg: '#bfc4cf', bw: 0, bc: T },
+    Loading:  { bg: T, dot: '#004feb', bw: 0, bc: T },
+  },
+  'tertiary-grey': {
+    Default:  { bg: T, fg: '#1f242e', bw: 0, bc: T },
+    Hover:    { bg: '#f3f4f7', fg: '#1f242e', bw: 0, bc: T },
+    Focus:    { bg: T, fg: '#1f242e', bw: 2, bc: '#004feb' },
+    Pressed:  { bg: '#e4e7ec', fg: '#1f242e', bw: 0, bc: T },
+    Disabled: { bg: T, fg: '#bfc4cf', bw: 0, bc: T },
+    Loading:  { bg: T, dot: '#1f242e', bw: 0, bc: T },
+  },
+  link: {
+    Default:  { bg: T, fg: '#004feb', bw: 0, bc: T },
+    Hover:    { bg: T, fg: '#004feb', bw: 0, bc: T },
+    Focus:    { bg: T, fg: '#004feb', bw: 2, bc: '#004feb' },
+    Pressed:  { bg: T, fg: '#003fbc', bw: 0, bc: T },
+    Disabled: { bg: T, fg: '#bfc4cf', bw: 0, bc: T },
+    Loading:  { bg: T, dot: '#004feb', bw: 0, bc: T },
+  },
+};
+const STATES = ['Default', 'Hover', 'Focus', 'Pressed', 'Disabled', 'Loading'];
+const PAGE_BG = '#fafcff'; // Background/Primary (document default)
+
+// ---- helpers ------------------------------------------------------------------------------
+const hex = h => { const n = parseInt(h.slice(1), 16); return [n >> 16 & 255, n >> 8 & 255, n & 255]; };
+const rgbStr = h => h === null ? 'rgba(0, 0, 0, 0)' : `rgb(${hex(h).join(', ')})`;
+const parseRgb = s => s.match(/[\d.]+/g).slice(0, 3).map(Number);
+const lum = c => { const [r, g, b] = c.map(v => { v /= 255; return v <= 0.03928 ? v / 12.92 : ((v + 0.055) / 1.055) ** 2.4; }); return 0.2126 * r + 0.7152 * g + 0.0722 * b; };
+const contrast = (a, b) => { const [x, y] = [lum(a), lum(b)].sort((p, q) => q - p); return (x + 0.05) / (y + 0.05); };
+
+function make(type, state, size) {
+  const b = document.createElement('button');
+  b.type = 'button';
+  b.className = `annachy-button annachy-button--${type} annachy-button--size-${size}`;
+  if (state === 'Hover') b.classList.add('is-hover');
+  if (state === 'Focus') b.classList.add('is-focus');
+  if (state === 'Pressed') b.classList.add('is-pressed');
+  if (state === 'Disabled') b.disabled = true;
+  if (state === 'Loading') { b.setAttribute('aria-busy', 'true'); b.setAttribute('aria-disabled', 'true'); }
+  b.innerHTML = '<span class="annachy-button__icon" aria-hidden="true"></span><span class="annachy-button__label">Button</span>' +
+                '<span class="annachy-button__icon" aria-hidden="true"></span>' +
+                '<span class="annachy-button__loading" aria-hidden="true"><span class="annachy-button__dot"></span><span class="annachy-button__dot"></span><span class="annachy-button__dot"></span></span>';
+  b.dataset.v = `${type}/${state}/${size}`;
+  return b;
+}
+
+const stage = document.getElementById('stage');
+const fails = []; let checks = 0; const contrastLow = [];
+const widths = {};
+const eq = (name, v, got, want) => { checks++; if (got !== want) fails.push(`${v} ${name}: got ${got}, want ${want}`); };
+const px = n => `${n}px`;
+
+for (const type of Object.keys(TYPES)) for (const size of Object.keys(SIZES)) for (const state of STATES) {
+  const b = make(type, state, size); stage.appendChild(b);
+}
+await document.fonts.ready;
+
+for (const b of stage.querySelectorAll('button')) {
+  const [type, state, size] = b.dataset.v.split('/');
+  const S = SIZES[size], P = TYPES[type][state], cs = getComputedStyle(b), v = b.dataset.v;
+  widths[v] = b.getBoundingClientRect().width;
+  // geometry & typography
+  eq('height', v, b.getBoundingClientRect().height, Number(size));
+  eq('radius', v, cs.borderTopLeftRadius, px(S.r));
+  eq('padding-x', v, `${cs.paddingLeft}/${cs.paddingRight}`, `${px(S.px)}/${px(S.px)}`);
+  eq('padding-y', v, `${cs.paddingTop}/${cs.paddingBottom}`, `${px(S.py)}/${px(S.py)}`);
+  eq('gap', v, cs.columnGap, px(S.gap));
+  eq('font-size', v, cs.fontSize, px(S.fs));
+  eq('line-height', v, cs.lineHeight, px(S.lh));
+  eq('font-weight', v, cs.fontWeight, '600');
+  eq('letter-spacing = 0 (Chrome serialises 0 as "normal")', v, ['0px', 'normal'].includes(cs.letterSpacing), true);
+  eq('overflow', v, cs.overflow, 'hidden');
+  eq('align/justify', v, `${cs.alignItems}/${cs.justifyContent}`, 'center/center');
+  // paint
+  eq('background', v, cs.backgroundColor, rgbStr(P.bg));
+  eq('border-width', v, cs.borderTopWidth, px(P.bw));
+  if (P.bw) { eq('border-color', v, cs.borderTopColor, rgbStr(P.bc)); eq('border-style', v, cs.borderTopStyle, 'solid'); }
+  const icons = b.querySelectorAll('.annachy-button__icon'), label = b.querySelector('.annachy-button__label');
+  const dots = b.querySelectorAll('.annachy-button__dot'), loading = b.querySelector('.annachy-button__loading');
+  if (state === 'Loading') {
+    eq('loading width (Figma META)', v, b.getBoundingClientRect().width, S.loadW + 2 * P.bw);
+    eq('dots visible (flex item, blockified)', v, getComputedStyle(loading).display, 'flex');
+    eq('dot gap', v, getComputedStyle(loading).columnGap, px(S.dotGap));
+    for (const d of dots) { const dc = getComputedStyle(d);
+      eq('dot size', v, `${d.getBoundingClientRect().width}x${d.getBoundingClientRect().height}`, `${S.dot}x${S.dot}`);
+      eq('dot colour', v, dc.backgroundColor, rgbStr(P.dot)); }
+    eq('icons hidden', v, [...icons].every(i => getComputedStyle(i).display === 'none'), true);
+    eq('label in a11y tree (not display:none)', v, getComputedStyle(label).display !== 'none' && getComputedStyle(label).visibility !== 'hidden', true);
+    eq('label visually hidden', v, label.getBoundingClientRect().width <= 1, true);
+    eq('aria-busy', v, b.getAttribute('aria-busy'), 'true');
+  } else {
+    eq('colour', v, cs.color, rgbStr(P.fg));
+    eq('dots hidden', v, getComputedStyle(loading).display, 'none');
+    for (const i of icons) eq('icon slot 20×20', v, `${i.getBoundingClientRect().width}x${i.getBoundingClientRect().height}`, '20x20');
+    eq('label visible', v, getComputedStyle(label).display, 'block');
+    if (state !== 'Disabled') {
+      const bgEff = P.bg ?? PAGE_BG, ratio = contrast(hex(P.fg), hex(bgEff));
+      if (ratio < 4.5) contrastLow.push(`${type}/${state}: ${ratio.toFixed(2)}:1`);
+    }
+  }
+  eq('accessible name text', v, label.textContent.trim().length > 0, true);
+  eq('native button', v, `${b.tagName}/${b.type}`, 'BUTTON/button');
+  if (state === 'Disabled') eq('disabled attr', v, b.disabled, true);
+}
+// width relations (Figma META §21.1): Hover/Pressed/Disabled = Default; Focus = Default + 2 × (2 − default border)
+for (const type of Object.keys(TYPES)) for (const size of Object.keys(SIZES)) {
+  const w = s => widths[`${type}/${s}/${size}`], bw = TYPES[type].Default.bw;
+  for (const s of ['Hover', 'Pressed', 'Disabled']) eq(`width ${s} = Default`, `${type}/${size}`, Math.round((w(s) - w('Default')) * 100) / 100, 0);
+  eq('width Focus − Default', `${type}/${size}`, Math.round((w('Focus') - w('Default')) * 100) / 100, 2 * (2 - bw));
+}
+// documented contrast failures (09-accessibility.md): only A04 Primary Pressed 4.26:1 among All Buttons
+const expectedLow = ['primary/Pressed: 4.26:1'];
+const lowSet = [...new Set(contrastLow)];
+checks++; if (JSON.stringify(lowSet) !== JSON.stringify(expectedLow)) fails.push(`contrast < 4.5 set ${JSON.stringify(lowSet)} != documented ${JSON.stringify(expectedLow)}`);
+
+// native focus: programmatic focus must show the Figma 2px focus border and suppress the outline
+const nb = make('primary', 'Default', 40); nb.dataset.v = 'native-focus'; stage.appendChild(nb); nb.focus();
+const ncs = getComputedStyle(nb);
+eq(':focus-visible border', 'native', `${ncs.borderTopWidth} ${ncs.borderTopColor}`, `2px ${rgbStr('#003fbc')}`);
+eq(':focus-visible outline', 'native', ncs.outlineStyle, 'none');
+nb.blur();
+// layer
+const layered = [...document.styleSheets[0].cssRules].filter(r => r.href && r.href.includes('components/button/button.css'));
+eq('button.css imported in annachy.components', 'cascade', layered.map(r => r.layerName).join(), 'annachy.components');
+
+const variants = stage.querySelectorAll('button').length - 1;
+const out = [
+  `STATUS: ${fails.length ? 'FAIL' : 'PASS'}`,
+  `variants rendered: ${variants} (expected 432)`,
+  `checks: ${checks} · failures: ${fails.length}`,
+  `label contrast < 4.5:1 (non-disabled, reproduced as documented): ${lowSet.join('; ') || 'none'}`,
+  ...fails.slice(0, 60),
+];
+if (variants !== 432) { out[0] = 'STATUS: FAIL'; out.push('variant count != 432'); }
+const el = document.getElementById('result');
+el.textContent = out.join('\n');
+el.dataset.status = out[0].endsWith('PASS') ? 'pass' : 'fail';
+</script>
+</body>
+</html>

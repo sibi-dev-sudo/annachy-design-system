@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>R3-6 Toggle check — Annachy Design System</title>
+  <link rel="stylesheet" href="../../src/annachy.css">
+  <style>/* geometry fixture: Figma sizes were measured with narrower text than Inter; keep the structural check on the system-ui metrics it was calibrated on. Inter itself is asserted in r2-base-check. */ :root { --annachy-base-font-family-render: system-ui, sans-serif; }</style>
+  <style>#stage { display: flex; flex-wrap: wrap; gap: 16px; padding: 16px; align-items: flex-start; } #stage > div { width: 260px; } pre { white-space: pre-wrap; font: 12px/1.4 monospace; }</style>
+</head>
+<body>
+  <h1>R3-6 Toggle — Figma parity check</h1>
+  <p>Renders all 180 variants of <code>1504:54471</code> (10 States × 3 Sizes × 2 Positions × 3 Alignments) and compares computed styles and geometry
+     with literal values from <code>docs/figma-audit/r3-0-evidence.md</code> §11, §13, §19, §26. Track radius, thumb stroke and focus border width are
+     unresolved (D-27) and are asserted as not drawn. Serve the project root over HTTP.</p>
+  <pre id="result" data-status="running">running…</pre>
+  <div id="stage"></div>
+<script type="module">
+const FX = {
+  on: '0px 0px 1px 0px #00000017, -1px 1px 1px 0px #0000000d, -2px 1px 1px 0px #00000003, -2px 2px 1px 0px #00000000',
+  off: '0px 0px 1px 0px #3c343417, 1px 1px 1px 0px #3c34340d, 2px 2px 1px 0px #3c343403, 3px 2px 1px 0px #3c343400',
+  press: '0px 0px 1px 0px #004feb4a, 0px 1px 2px 0px #004feb42, -1px 2px 2px 0px #004feb26, -2px 4px 2px 0px #004feb0a, -3px 7px 3px 0px #004feb03',
+  none: 'none',
+};
+// state: track colour, track shadow, thumb x rule, label/subtext colours (§26)
+const STATES = {
+  'On':           { on: true,  track: '#004feb', ts: 'none',  x: 'on',      label: '#0b0c0f', sub: '#707a8f' },
+  'Off':          { on: false, track: '#f6f7f9', ts: 'none',  x: 'off',     label: '#0b0c0f', sub: '#707a8f' },
+  'Hover On':     { on: true,  track: '#003fbc', ts: 'none',  x: 'on',      label: '#0b0c0f', sub: '#707a8f' },
+  'Hover Off':    { on: false, track: '#dcdfe5', ts: 'none',  x: 'off',     label: '#0b0c0f', sub: '#707a8f' },
+  'Focus On':     { on: true,  track: '#004feb', ts: 'none',  x: 'focusOn', label: '#0b0c0f', sub: '#707a8f' },
+  'Focus Off':    { on: false, track: '#dcdfe5', ts: 'none',  x: 'focusOff',label: '#0b0c0f', sub: '#707a8f' },
+  'Pressed On':   { on: true,  track: '#3372ef', ts: 'press', x: 'on',      label: '#0b0c0f', sub: '#707a8f' },
+  'Pressed Off':  { on: false, track: '#bfc4cf', ts: 'none',  x: 'off',     label: '#0b0c0f', sub: '#707a8f' },
+  'Disabled On':  { on: true,  track: '#edeff2', ts: 'none',  x: 'on',      label: '#dcdfe5', sub: '#dcdfe5' },
+  'Disabled Off': { on: false, track: '#f6f7f9', ts: 'none',  x: 'off',     label: '#dcdfe5', sub: '#dcdfe5' },
+};
+const SIZES = {
+  small:  { w: 32, h: 16, t: 12, fs: 14, lh: 20, max: 'none' },
+  medium: { w: 38, h: 20, t: 16, fs: 16, lh: 21, max: '240px' },
+  large:  { w: 44, h: 24, t: 20, fs: 18, lh: 22, max: 'none' },
+};
+const thumbX = (rule, Z) => ({ on: Z.w - Z.t - 2, off: 2, focusOn: Z.w - Z.t - 3.5, focusOff: 3 })[rule];
+const fails = []; let checks = 0, n = 0;
+const eq = (k, v, got, want) => { checks++; if (got !== want) fails.push(`${v} ${k}: got ${JSON.stringify(got)}, want ${JSON.stringify(want)}`); };
+const rgb = h => `rgb(${[1, 3, 5].map(i => parseInt(h.slice(i, i + 2), 16)).join(', ')})`;
+const probe = document.createElement('div'); document.body.appendChild(probe);
+const shadowOf = lit => { probe.style.boxShadow = lit; return getComputedStyle(probe).boxShadow; };
+const stage = document.getElementById('stage'); let uid = 0;
+function build(state, size, pos, align) {
+  const id = `tg-${++uid}`, wrap = document.createElement('div'), root = document.createElement('div');
+  root.className = `annachy-toggle annachy-toggle--${size}` + (pos === 'Right' ? ' annachy-toggle--control-right' : '') +
+                   (align === 'Top' ? ' annachy-toggle--align-top' : align === 'Bottom' ? ' annachy-toggle--align-bottom' : '');
+  root.innerHTML = `<input class="annachy-toggle__input" type="checkbox" role="switch" id="${id}" aria-describedby="${id}-s">
+    <span class="annachy-toggle__track" aria-hidden="true"><span class="annachy-toggle__thumb"></span></span>
+    <span class="annachy-toggle__content"><label class="annachy-toggle__label" for="${id}">Title text goes here</label>
+    <span class="annachy-toggle__subtext" id="${id}-s">Secondary text line goes here </span></span>`;
+  const input = root.querySelector('input'), S = STATES[state];
+  input.checked = S.on;
+  if (state.startsWith('Disabled')) input.disabled = true;
+  if (state.startsWith('Hover')) root.classList.add('is-hover');
+  if (state.startsWith('Focus')) root.classList.add('is-focus');
+  if (state.startsWith('Pressed')) root.classList.add('is-pressed');
+  root.dataset.v = `${state}/${size}/${pos}/${align}`;
+  wrap.appendChild(root); stage.appendChild(wrap); return root;
+}
+const all = [];
+for (const state of Object.keys(STATES)) for (const size of Object.keys(SIZES)) for (const pos of ['Left', 'Right']) for (const align of ['Top', 'Center', 'Bottom'])
+  all.push([state, size, pos, align, build(state, size, pos, align)]);
+await document.fonts.ready;
+for (const [state, size, pos, align, root] of all) {
+  n++; const S = STATES[state], Z = SIZES[size], v = root.dataset.v, cs = e => getComputedStyle(e);
+  const track = root.querySelector('.annachy-toggle__track'), thumb = root.querySelector('.annachy-toggle__thumb'), input = root.querySelector('input'),
+        label = root.querySelector('.annachy-toggle__label'), sub = root.querySelector('.annachy-toggle__subtext'), content = root.querySelector('.annachy-toggle__content');
+  const rr = root.getBoundingClientRect(), tr = track.getBoundingClientRect(), hr = thumb.getBoundingClientRect(), H = Z.lh + 20;
+  // geometry (Figma META: root W = track + 196, H = label LH + 20)
+  eq('root size', v, `${rr.width}x${rr.height}`, `${Z.w + 196}x${H}`);
+  eq('track size', v, `${tr.width}x${tr.height}`, `${Z.w}x${Z.h}`);
+  eq('track y (alignment)', v, tr.top - rr.top, align === 'Top' ? 0 : align === 'Bottom' ? H - Z.h : (H - Z.h) / 2);
+  eq('track x (position)', v, tr.left - rr.left, pos === 'Left' ? 0 : 196);
+  eq('content x', v, content.getBoundingClientRect().left - rr.left, pos === 'Left' ? Z.w : 0);
+  eq('thumb size', v, `${hr.width}x${hr.height}`, `${Z.t}x${Z.t}`);
+  eq('thumb x', v, hr.left - tr.left, thumbX(S.x, Z));
+  eq('thumb y', v, hr.top - tr.top, 2);
+  eq('thumb round (ellipse)', v, cs(thumb).borderTopLeftRadius, '50%');
+  eq('track radius not invented (D-27)', v, cs(track).borderTopLeftRadius, '0px');
+  eq('no strokes drawn (D-27)', v, `${cs(track).borderTopWidth}/${cs(thumb).borderTopWidth}`, '0px/0px');
+  eq('text padding', v, `${cs(label).paddingLeft}/${cs(label).paddingRight}`, pos === 'Left' ? '12px/0px' : '0px/12px');
+  eq('subtext width', v, cs(sub).width, '184px');
+  // typography
+  eq('label type', v, `${cs(label).fontSize}/${cs(label).lineHeight}/${cs(label).fontWeight}`, `${Z.fs}px/${Z.lh}px/500`);
+  eq('label max-width', v, cs(label).maxWidth, Z.max);
+  eq('subtext type', v, `${cs(sub).fontSize}/${cs(sub).lineHeight}/${cs(sub).fontWeight}`, '14px/20px/400');
+  // paint
+  eq('track colour', v, cs(track).backgroundColor, rgb(S.track));
+  eq('track shadow', v, cs(track).boxShadow, shadowOf(FX[S.ts]));
+  eq('thumb fill (Content/Loading)', v, cs(thumb).backgroundColor, rgb('#fafcff'));
+  eq('thumb shadow', v, cs(thumb).boxShadow, shadowOf(S.on ? FX.on : FX.off));
+  eq('label colour', v, cs(label).color, rgb(S.label));
+  eq('subtext colour', v, cs(sub).color, rgb(S.sub));
+  // semantics
+  eq('role switch', v, `${input.type}/${input.getAttribute('role')}`, 'checkbox/switch');
+  eq('checked state', v, input.checked, S.on);
+  eq('label associated', v, input.labels.length === 1 && input.labels[0] === label, true);
+  eq('subtext described', v, document.getElementById(input.getAttribute('aria-describedby')) === sub, true);
+  eq('input covers track', v, JSON.stringify(input.getBoundingClientRect()) === JSON.stringify(tr), true);
+  if (state.startsWith('Disabled')) eq('disabled', v, input.disabled, true);
+}
+// native interaction
+const k = build('Off', 'medium', 'Left', 'Center'), ki = k.querySelector('input');
+ki.click(); eq('click turns on', 'native', ki.checked, true);
+eq('on → track #004feb', 'native', getComputedStyle(k.querySelector('.annachy-toggle__track')).backgroundColor, rgb('#004feb'));
+eq('on → thumb x 20', 'native', k.querySelector('.annachy-toggle__thumb').getBoundingClientRect().left - k.querySelector('.annachy-toggle__track').getBoundingClientRect().left, 20);
+ki.focus(); eq(':focus-visible → Focus On thumb x 18.5', 'native', k.querySelector('.annachy-toggle__thumb').getBoundingClientRect().left - k.querySelector('.annachy-toggle__track').getBoundingClientRect().left, 18.5);
+ki.blur(); k.querySelector('label').click(); eq('label click turns off', 'native', ki.checked, false);
+const d = build('Disabled Off', 'medium', 'Left', 'Center'); d.querySelector('input').click();
+eq('disabled cannot toggle', 'native', d.querySelector('input').checked, false);
+eq('disabled cursor', 'native', getComputedStyle(d).cursor, 'not-allowed');
+const imp = [...[...document.styleSheets].find(s => s.href && s.href.endsWith('/src/annachy.css')).cssRules].filter(r => r.href && r.href.startsWith('components/toggle/'));
+eq('toggle.css in annachy.components', 'cascade', imp.map(r => r.layerName).join(), 'annachy.components');
+const out = [`STATUS: ${fails.length || n !== 180 ? 'FAIL' : 'PASS'}`, `variants rendered: ${n} (expected 180)`, `checks: ${checks} · failures: ${fails.length}`, ...fails.slice(0, 60)];
+const el = document.getElementById('result'); el.textContent = out.join('\n'); el.dataset.status = out[0].endsWith('PASS') ? 'pass' : 'fail';
+</script>
+</body>
+</html>

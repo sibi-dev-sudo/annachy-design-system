@@ -1,0 +1,1014 @@
+<canvas id="1351:18309" name="  › ③ Input Dropdown  ✓" x="0" y="0" width="0" height="0">
+  <section id="1567:13261" name="Dropdown / Option menu/ Document" x="2045" y="-1501" width="3965" height="11848">
+    <frame id="1567:13262" name="Dropdown / Option menu" x="543" y="886" width="2879" height="9913">
+      <frame id="1567:13263" name="_Status" x="0" y="0" width="5770" height="114">
+        <text id="1567:13264" name="Dropdown / Option menu" x="32" y="40.5" width="381" height="32" />
+        <text id="1567:13265" name="SEPTEMBER 2026" x="5502" y="40.5" width="236" height="32" />
+      </frame>
+      <frame id="1567:13266" name="Frame 2121455715" x="123" y="186" width="2522" height="156">
+        <frame id="1567:13267" name="Frame 2121455714" x="0" y="0" width="156" height="156" />
+        <frame id="1567:13272" name="Logotype" x="2222.908203125" y="41.00049591064453" width="299.0917053222656" height="73.99900817871094">
+          <frame id="1567:13273" name="Group" x="-0.221893310546875" y="0" width="299.5354919433594" height="73.99888610839844">
+            <vector id="1567:13274" name="Vector" x="93.97728729248047" y="61.04088592529297" width="118.541748046875" height="12.958113670349121" />
+            <frame id="1567:13275" name="Group" x="96.96601104736328" y="62.9735221862793" width="12.336579322814941" height="8.597864151000977" />
+            <frame id="1567:13278" name="Group" x="111.98466491699219" y="62.95185089111328" width="97.42333221435547" height="8.867423057556152" />
+            <frame id="1567:13292" name="Group" x="-0.2219319719442865" y="0" width="299.5354919433594" height="71.78117370605469">
+              <vector id="1567:13293" name="Vector" x="-0.22197063334169798" y="0" width="92.9480209350586" height="56.08863067626953" />
+              <frame id="1567:13294" name="Group" x="216.59662576731353" y="7.469759464263916" width="82.71688079833984" height="64.31144714355469" />
+              <frame id="1567:13297" name="Group" x="222.6850199323526" y="7.423394203186035" width="28.45973777770996" height="48.95656204223633" />
+              <frame id="1567:13300" name="Group" x="160.2677836042276" y="20.571643829345703" width="28.026350021362305" height="36.302520751953125" />
+              <frame id="1567:13305" name="Group" x="126.92842813547759" y="20.963871002197266" width="30.23380470275879" height="35.41405487060547" />
+              <frame id="1567:13308" name="Group" x="92.65084787424712" y="20.963871002197266" width="30.233793258666992" height="35.41405487060547" />
+              <frame id="1567:13311" name="Group" x="192.10474344309478" y="20.642276763916016" width="27.83435821533203" height="36.263397216796875" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+      <frame id="1567:20489" name="Dropdown / Option menu — Documentation &amp; specimens" x="123" y="719" width="2530" height="8761">
+        <frame id="1567:20490" name="Documentation / Overview &amp; property contract" x="64" y="64" width="2402" height="1268">
+          <frame id="1567:20491" name="Module header" x="0" y="0" width="2402" height="276">
+            <text id="1567:20492" name="Module category" x="0" y="0" width="191" height="20" />
+            <text id="1567:20493" name="Module title" x="0" y="40" width="2402" height="58" />
+            <text id="1567:20494" name="Introduction" x="0" y="118" width="1540" height="68" />
+            <frame id="1567:20495" name="Module metadata" x="0" y="206" width="2402" height="70">
+              <text id="1567:20496" name="Metadata" x="0" y="24" width="168" height="22" />
+              <text id="1567:20497" name="Metadata" x="216" y="24" width="179" height="22" />
+              <text id="1567:20498" name="Metadata" x="443" y="24" width="85" height="22" />
+              <text id="1567:20499" name="Metadata" x="576" y="24" width="199" height="22" />
+              <text id="1567:20500" name="Metadata" x="823" y="24" width="197" height="22" />
+            </frame>
+          </frame>
+          <frame id="1567:20501" name="Documentation columns" x="0" y="316" width="2402" height="952">
+            <frame id="1567:20502" name="Property contract" x="0" y="0" width="1718" height="802">
+              <text id="1567:20503" name="Title" x="0" y="0" width="517" height="42" />
+              <text id="1567:20504" name="Description" x="0" y="62" width="1718" height="24" />
+              <frame id="1567:20505" name="Property table" x="0" y="106" width="1718" height="582">
+                <frame id="1567:20506" name="Table heading" x="0" y="0" width="1718" height="52">
+                  <text id="1567:20507" name="Property heading" x="16" y="16" width="174" height="20" />
+                  <text id="1567:20508" name="Type heading" x="210" y="16" width="150" height="20" />
+                  <text id="1567:20509" name="Values heading" x="380" y="16" width="360" height="20" />
+                  <text id="1567:20510" name="Guidance heading" x="760" y="16" width="942" height="20" />
+                </frame>
+                <frame id="1567:20511" name="Property row / Selection" x="0" y="52" width="1718" height="53">
+                  <text id="1567:20512" name="Property" x="16" y="16" width="174" height="20" />
+                  <text id="1567:20513" name="Property type" x="210" y="16" width="150" height="21" />
+                  <text id="1567:20514" name="Values" x="380" y="16" width="360" height="21" />
+                  <text id="1567:20515" name="Guidance" x="760" y="16" width="942" height="21" />
+                </frame>
+                <frame id="1567:20516" name="Property definition" x="0" y="105" width="1718" height="53">
+                  <text id="1567:20517" name="Property" x="16" y="16" width="174" height="20" />
+                  <text id="1567:20518" name="Property type" x="210" y="16" width="150" height="21" />
+                  <text id="1567:20519" name="Values" x="380" y="16" width="360" height="21" />
+                  <text id="1567:20520" name="Guidance" x="760" y="16" width="942" height="21" />
+                </frame>
+                <frame id="1567:20521" name="Property definition" x="0" y="158" width="1718" height="53">
+                  <text id="1567:20522" name="Property" x="16" y="16" width="174" height="20" />
+                  <text id="1567:20523" name="Property type" x="210" y="16" width="150" height="21" />
+                  <text id="1567:20524" name="Values" x="380" y="16" width="360" height="21" />
+                  <text id="1567:20525" name="Guidance" x="760" y="16" width="942" height="21" />
+                </frame>
+                <frame id="1567:20526" name="Property definition" x="0" y="211" width="1718" height="53">
+                  <text id="1567:20527" name="Property" x="16" y="16" width="174" height="20" />
+                  <text id="1567:20528" name="Property type" x="210" y="16" width="150" height="21" />
+                  <text id="1567:20529" name="Values" x="380" y="16" width="360" height="21" />
+                  <text id="1567:20530" name="Guidance" x="760" y="16" width="942" height="21" />
+                </frame>
+                <frame id="1567:20531" name="Property definition" x="0" y="264" width="1718" height="53">
+                  <text id="1567:20532" name="Property" x="16" y="16" width="174" height="20" />
+                  <text id="1567:20533" name="Property type" x="210" y="16" width="150" height="21" />
+                  <text id="1567:20534" name="Values" x="380" y="16" width="360" height="21" />
+                  <text id="1567:20535" name="Guidance" x="760" y="16" width="942" height="21" />
+                </frame>
+                <frame id="1567:20536" name="Property definition" x="0" y="317" width="1718" height="53">
+                  <text id="1567:20537" name="Property" x="16" y="16" width="174" height="20" />
+                  <text id="1567:20538" name="Property type" x="210" y="16" width="150" height="21" />
+                  <text id="1567:20539" name="Values" x="380" y="16" width="360" height="21" />
+                  <text id="1567:20540" name="Guidance" x="760" y="16" width="942" height="21" />
+                </frame>
+                <frame id="1567:20541" name="Property definition" x="0" y="370" width="1718" height="53">
+                  <text id="1567:20542" name="Property" x="16" y="16" width="174" height="20" />
+                  <text id="1567:20543" name="Property type" x="210" y="16" width="150" height="21" />
+                  <text id="1567:20544" name="Values" x="380" y="16" width="360" height="21" />
+                  <text id="1567:20545" name="Guidance" x="760" y="16" width="942" height="21" />
+                </frame>
+                <frame id="1567:20546" name="Property definition" x="0" y="423" width="1718" height="53">
+                  <text id="1567:20547" name="Property" x="16" y="16" width="174" height="20" />
+                  <text id="1567:20548" name="Property type" x="210" y="16" width="150" height="21" />
+                  <text id="1567:20549" name="Values" x="380" y="16" width="360" height="21" />
+                  <text id="1567:20550" name="Guidance" x="760" y="16" width="942" height="21" />
+                </frame>
+                <frame id="1567:20551" name="Property definition" x="0" y="476" width="1718" height="53">
+                  <text id="1567:20552" name="Property" x="16" y="16" width="174" height="20" />
+                  <text id="1567:20553" name="Property type" x="210" y="16" width="150" height="21" />
+                  <text id="1567:20554" name="Values" x="380" y="16" width="360" height="21" />
+                  <text id="1567:20555" name="Guidance" x="760" y="16" width="942" height="21" />
+                </frame>
+                <frame id="1567:20556" name="Property definition" x="0" y="529" width="1718" height="53">
+                  <text id="1567:20557" name="Property" x="16" y="16" width="174" height="20" />
+                  <text id="1567:20558" name="Property type" x="210" y="16" width="150" height="21" />
+                  <text id="1567:20559" name="Values" x="380" y="16" width="360" height="21" />
+                  <text id="1567:20560" name="Guidance" x="760" y="16" width="942" height="21" />
+                </frame>
+              </frame>
+              <frame id="1567:20561" name="Configuration note" x="0" y="708" width="1718" height="94">
+                <text id="1567:20562" name="Note title" x="20" y="20" width="354" height="22" />
+                <text id="1567:20563" name="Description" x="20" y="50" width="1678" height="24" />
+              </frame>
+            </frame>
+            <frame id="1567:20564" name="Anatomy documentation" x="1782" y="0" width="620" height="952">
+              <text id="1567:20565" name="Title" x="0" y="0" width="147" height="42" />
+              <frame id="1567:20566" name="Anatomy illustration" x="0" y="66" width="620" height="471">
+                <frame id="1567:20567" name="Menu demonstration" x="32" y="32" width="352" height="366">
+                  <frame id="1567:20568" name="Documentation example / Anatomy" x="0" y="0" width="352" height="366">
+                    <frame id="1567:20569" name="Search region" x="8" y="8" width="336" height="65">
+                      <instance id="1567:20570" name="Search field" x="0" y="0" width="336" height="48" />
+                      <rounded-rectangle id="1567:20571" name="Divider" x="0" y="56" width="336" height="1" />
+                    </frame>
+                    <frame id="1567:20572" name="Options" x="8" y="81" width="336" height="204">
+                      <frame id="1567:20573" name="Option" x="0" y="0" width="336" height="48">
+                        <frame id="1567:20574" name="Selection indicator" x="12" y="14" width="20" height="20">
+                          <instance id="1567:20575" name="Selected" x="0" y="0" width="20" height="20" />
+                        </frame>
+                        <text id="1567:20576" name="Option text" x="44" y="12" width="280" height="24" />
+                      </frame>
+                      <frame id="1567:20577" name="Option" x="0" y="52" width="336" height="48">
+                        <frame id="1567:20578" name="Selection indicator" x="12" y="14" width="20" height="20" />
+                        <text id="1567:20579" name="Option text" x="44" y="12" width="280" height="24" />
+                      </frame>
+                      <frame id="1567:20580" name="Option" x="0" y="104" width="336" height="48">
+                        <frame id="1567:20581" name="Selection indicator" x="12" y="14" width="20" height="20" />
+                        <text id="1567:20582" name="Option text" x="44" y="12" width="280" height="24" />
+                      </frame>
+                      <frame id="1567:20583" name="Option" x="0" y="156" width="336" height="48">
+                        <frame id="1567:20584" name="Selection indicator" x="12" y="14" width="20" height="20" />
+                        <text id="1567:20585" name="Option text" x="44" y="12" width="280" height="24" />
+                      </frame>
+                    </frame>
+                    <frame id="1567:20586" name="Footer" x="8" y="293" width="336" height="65">
+                      <rounded-rectangle id="1567:20587" name="Divider" x="0" y="4" width="336" height="1" />
+                      <instance id="1567:20588" name="Apply selection" x="0" y="17" width="336" height="48" />
+                    </frame>
+                  </frame>
+                </frame>
+                <text id="1567:20589" name="Example caption" x="32" y="418" width="556" height="21" />
+              </frame>
+              <frame id="1567:20590" name="Anatomy definition" x="0" y="561" width="620" height="59">
+                <text id="1567:20591" name="Part" x="0" y="0" width="70" height="22" />
+                <text id="1567:20592" name="Description" x="0" y="28" width="620" height="24" />
+                <rounded-rectangle id="1567:20593" name="Divider" x="0" y="58" width="620" height="1" />
+              </frame>
+              <frame id="1567:20594" name="Anatomy definition" x="0" y="644" width="620" height="59">
+                <text id="1567:20595" name="Part" x="0" y="0" width="99" height="22" />
+                <text id="1567:20596" name="Description" x="0" y="28" width="620" height="24" />
+                <rounded-rectangle id="1567:20597" name="Divider" x="0" y="58" width="620" height="1" />
+              </frame>
+              <frame id="1567:20598" name="Anatomy definition" x="0" y="727" width="620" height="59">
+                <text id="1567:20599" name="Part" x="0" y="0" width="56" height="22" />
+                <text id="1567:20600" name="Description" x="0" y="28" width="620" height="24" />
+                <rounded-rectangle id="1567:20601" name="Divider" x="0" y="58" width="620" height="1" />
+              </frame>
+              <frame id="1567:20602" name="Anatomy definition" x="0" y="810" width="620" height="59">
+                <text id="1567:20603" name="Part" x="0" y="0" width="132" height="22" />
+                <text id="1567:20604" name="Description" x="0" y="28" width="620" height="24" />
+                <rounded-rectangle id="1567:20605" name="Divider" x="0" y="58" width="620" height="1" />
+              </frame>
+              <frame id="1567:20606" name="Anatomy definition" x="0" y="893" width="620" height="59">
+                <text id="1567:20607" name="Part" x="0" y="0" width="47" height="22" />
+                <text id="1567:20608" name="Description" x="0" y="28" width="620" height="24" />
+                <rounded-rectangle id="1567:20609" name="Divider" x="0" y="58" width="620" height="1" />
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+        <frame id="1567:20610" name="Documentation / Menu variant library" x="64" y="1380" width="2402" height="2114">
+          <frame id="1567:20611" name="Documentation heading" x="0" y="0" width="2402" height="148">
+            <text id="1567:20612" name="Section label" x="0" y="32" width="177" height="20" />
+            <text id="1567:20613" name="Section title" x="0" y="64" width="2402" height="48" />
+            <text id="1567:20614" name="Description" x="0" y="124" width="2402" height="24" />
+          </frame>
+          <frame id="1567:20615" name="Documentation / Desktop menus" x="0" y="180" width="2402" height="911">
+            <frame id="1567:20616" name="Platform heading" x="0" y="0" width="2402" height="42">
+              <text id="1567:20617" name="Platform" x="0" y="0" width="137" height="42" />
+              <text id="1567:20618" name="Density reference" x="1981" y="15" width="421" height="22" />
+            </frame>
+            <frame id="1567:20619" name="Theme comparison" x="0" y="62" width="2402" height="849">
+              <frame id="1567:20620" name="Documentation / Desktop Light menu group" x="0" y="0" width="1185" height="849">
+                <frame id="1567:20621" name="Theme heading" x="24" y="24" width="1137" height="34">
+                  <text id="1567:20622" name="Theme" x="0" y="0" width="141" height="34" />
+                  <text id="1567:20623" name="Mode binding" x="1010" y="7" width="127" height="20" />
+                </frame>
+                <frame id="1567:20624" name="Search configuration group" x="24" y="82" width="1137" height="323">
+                  <text id="1567:20625" name="Search setting" x="0" y="0" width="199" height="22" />
+                  <frame id="1567:20626" name="Footer configurations" x="0" y="38" width="1137" height="285">
+                    <frame id="1567:20627" name="Documentation / Menu specimen" x="0" y="0" width="365.6666564941406" height="220">
+                      <text id="1567:20628" name="External specimen caption" x="0" y="0" width="365.6666564941406" height="20" />
+                      <instance id="1567:20629" name="Dropdown menu / Platform=Desktop, Theme=Light, Search=Off, Footer=None" x="0" y="32" width="365.6666564941406" height="188" />
+                    </frame>
+                    <frame id="1567:20630" name="Documentation / Menu specimen" x="385.6666564941406" y="0" width="365.66668701171875" height="285">
+                      <text id="1567:20631" name="External specimen caption" x="0" y="0" width="365.66668701171875" height="20" />
+                      <instance id="1567:20632" name="Dropdown menu / Platform=Desktop, Theme=Light, Search=Off, Footer=Label" x="0" y="32" width="365.66668701171875" height="253" />
+                    </frame>
+                    <frame id="1567:20633" name="Documentation / Menu specimen" x="771.3333740234375" y="0" width="365.66668701171875" height="285">
+                      <text id="1567:20634" name="External specimen caption" x="0" y="0" width="365.66668701171875" height="20" />
+                      <instance id="1567:20635" name="Dropdown menu / Platform=Desktop, Theme=Light, Search=Off, Footer=Icon + label" x="0" y="32" width="365.66668701171875" height="253" />
+                    </frame>
+                  </frame>
+                </frame>
+                <frame id="1567:20636" name="Search configuration group" x="24" y="429" width="1137" height="396">
+                  <text id="1567:20637" name="Search setting" x="0" y="0" width="175" height="22" />
+                  <frame id="1567:20638" name="Footer configurations" x="0" y="38" width="1137" height="358">
+                    <frame id="1567:20639" name="Documentation / Menu specimen" x="0" y="0" width="365.6666564941406" height="293">
+                      <text id="1567:20640" name="External specimen caption" x="0" y="0" width="365.6666564941406" height="20" />
+                      <instance id="1567:20641" name="Dropdown menu / Platform=Desktop, Theme=Light, Search=On, Footer=None" x="0" y="32" width="365.6666564941406" height="261" />
+                    </frame>
+                    <frame id="1567:20642" name="Documentation / Menu specimen" x="385.6666564941406" y="0" width="365.66668701171875" height="358">
+                      <text id="1567:20643" name="External specimen caption" x="0" y="0" width="365.66668701171875" height="20" />
+                      <instance id="1567:20644" name="Dropdown menu / Platform=Desktop, Theme=Light, Search=On, Footer=Label" x="0" y="32" width="365.66668701171875" height="326" />
+                    </frame>
+                    <frame id="1567:20645" name="Documentation / Menu specimen" x="771.3333740234375" y="0" width="365.66668701171875" height="358">
+                      <text id="1567:20646" name="External specimen caption" x="0" y="0" width="365.66668701171875" height="20" />
+                      <instance id="1567:20647" name="Dropdown menu / Platform=Desktop, Theme=Light, Search=On, Footer=Icon + label" x="0" y="32" width="365.66668701171875" height="326" />
+                    </frame>
+                  </frame>
+                </frame>
+              </frame>
+              <frame id="1567:20648" name="Documentation / Desktop Dark menu group" x="1217" y="0" width="1185" height="849">
+                <frame id="1567:20649" name="Theme heading" x="24" y="24" width="1137" height="34">
+                  <text id="1567:20650" name="Theme" x="0" y="0" width="138" height="34" />
+                  <text id="1567:20651" name="Mode binding" x="1011" y="7" width="126" height="20" />
+                </frame>
+                <frame id="1567:20652" name="Search configuration group" x="24" y="82" width="1137" height="323">
+                  <text id="1567:20653" name="Search setting" x="0" y="0" width="199" height="22" />
+                  <frame id="1567:20654" name="Footer configurations" x="0" y="38" width="1137" height="285">
+                    <frame id="1567:20655" name="Documentation / Menu specimen" x="0" y="0" width="365.6666564941406" height="220">
+                      <text id="1567:20656" name="External specimen caption" x="0" y="0" width="365.6666564941406" height="20" />
+                      <instance id="1567:20657" name="Dropdown menu / Platform=Desktop, Theme=Dark, Search=Off, Footer=None" x="0" y="32" width="365.6666564941406" height="188" />
+                    </frame>
+                    <frame id="1567:20658" name="Documentation / Menu specimen" x="385.6666564941406" y="0" width="365.66668701171875" height="285">
+                      <text id="1567:20659" name="External specimen caption" x="0" y="0" width="365.66668701171875" height="20" />
+                      <instance id="1567:20660" name="Dropdown menu / Platform=Desktop, Theme=Dark, Search=Off, Footer=Label" x="0" y="32" width="365.66668701171875" height="253" />
+                    </frame>
+                    <frame id="1567:20661" name="Documentation / Menu specimen" x="771.3333740234375" y="0" width="365.66668701171875" height="285">
+                      <text id="1567:20662" name="External specimen caption" x="0" y="0" width="365.66668701171875" height="20" />
+                      <instance id="1567:20663" name="Dropdown menu / Platform=Desktop, Theme=Dark, Search=Off, Footer=Icon + label" x="0" y="32" width="365.66668701171875" height="253" />
+                    </frame>
+                  </frame>
+                </frame>
+                <frame id="1567:20664" name="Search configuration group" x="24" y="429" width="1137" height="396">
+                  <text id="1567:20665" name="Search setting" x="0" y="0" width="175" height="22" />
+                  <frame id="1567:20666" name="Footer configurations" x="0" y="38" width="1137" height="358">
+                    <frame id="1567:20667" name="Documentation / Menu specimen" x="0" y="0" width="365.6666564941406" height="293">
+                      <text id="1567:20668" name="External specimen caption" x="0" y="0" width="365.6666564941406" height="20" />
+                      <instance id="1567:20669" name="Dropdown menu / Platform=Desktop, Theme=Dark, Search=On, Footer=None" x="0" y="32" width="365.6666564941406" height="261" />
+                    </frame>
+                    <frame id="1567:20670" name="Documentation / Menu specimen" x="385.6666564941406" y="0" width="365.66668701171875" height="358">
+                      <text id="1567:20671" name="External specimen caption" x="0" y="0" width="365.66668701171875" height="20" />
+                      <instance id="1567:20672" name="Dropdown menu / Platform=Desktop, Theme=Dark, Search=On, Footer=Label" x="0" y="32" width="365.66668701171875" height="326" />
+                    </frame>
+                    <frame id="1567:20673" name="Documentation / Menu specimen" x="771.3333740234375" y="0" width="365.66668701171875" height="358">
+                      <text id="1567:20674" name="External specimen caption" x="0" y="0" width="365.66668701171875" height="20" />
+                      <instance id="1567:20675" name="Dropdown menu / Platform=Desktop, Theme=Dark, Search=On, Footer=Icon + label" x="0" y="32" width="365.66668701171875" height="326" />
+                    </frame>
+                  </frame>
+                </frame>
+              </frame>
+            </frame>
+          </frame>
+          <frame id="1567:20676" name="Documentation / Mobile menus" x="0" y="1123" width="2402" height="991">
+            <frame id="1567:20677" name="Platform heading" x="0" y="0" width="2402" height="42">
+              <text id="1567:20678" name="Platform" x="0" y="0" width="111" height="42" />
+              <text id="1567:20679" name="Density reference" x="1957" y="15" width="445" height="22" />
+            </frame>
+            <frame id="1567:20680" name="Theme comparison" x="0" y="62" width="2402" height="929">
+              <frame id="1567:20681" name="Documentation / Mobile Light menu group" x="0" y="0" width="1185" height="929">
+                <frame id="1567:20682" name="Theme heading" x="24" y="24" width="1137" height="34">
+                  <text id="1567:20683" name="Theme" x="0" y="0" width="141" height="34" />
+                  <text id="1567:20684" name="Mode binding" x="1010" y="7" width="127" height="20" />
+                </frame>
+                <frame id="1567:20685" name="Search configuration group" x="24" y="82" width="1137" height="363">
+                  <text id="1567:20686" name="Search setting" x="0" y="0" width="199" height="22" />
+                  <frame id="1567:20687" name="Footer configurations" x="0" y="38" width="1137" height="325">
+                    <frame id="1567:20688" name="Documentation / Menu specimen" x="0" y="0" width="365.6666564941406" height="252">
+                      <text id="1567:20689" name="External specimen caption" x="0" y="0" width="365.6666564941406" height="20" />
+                      <instance id="1567:20690" name="Dropdown menu / Platform=Mobile, Theme=Light, Search=Off, Footer=None" x="0" y="32" width="365.6666564941406" height="220" />
+                    </frame>
+                    <frame id="1567:20691" name="Documentation / Menu specimen" x="385.6666564941406" y="0" width="365.66668701171875" height="325">
+                      <text id="1567:20692" name="External specimen caption" x="0" y="0" width="365.66668701171875" height="20" />
+                      <instance id="1567:20693" name="Dropdown menu / Platform=Mobile, Theme=Light, Search=Off, Footer=Label" x="0" y="32" width="365.66668701171875" height="293" />
+                    </frame>
+                    <frame id="1567:20694" name="Documentation / Menu specimen" x="771.3333740234375" y="0" width="365.66668701171875" height="325">
+                      <text id="1567:20695" name="External specimen caption" x="0" y="0" width="365.66668701171875" height="20" />
+                      <instance id="1567:20696" name="Dropdown menu / Platform=Mobile, Theme=Light, Search=Off, Footer=Icon + label" x="0" y="32" width="365.66668701171875" height="293" />
+                    </frame>
+                  </frame>
+                </frame>
+                <frame id="1567:20697" name="Search configuration group" x="24" y="469" width="1137" height="436">
+                  <text id="1567:20698" name="Search setting" x="0" y="0" width="175" height="22" />
+                  <frame id="1567:20699" name="Footer configurations" x="0" y="38" width="1137" height="398">
+                    <frame id="1567:20700" name="Documentation / Menu specimen" x="0" y="0" width="365.6666564941406" height="325">
+                      <text id="1567:20701" name="External specimen caption" x="0" y="0" width="365.6666564941406" height="20" />
+                      <instance id="1567:20702" name="Dropdown menu / Platform=Mobile, Theme=Light, Search=On, Footer=None" x="0" y="32" width="365.6666564941406" height="293" />
+                    </frame>
+                    <frame id="1567:20703" name="Documentation / Menu specimen" x="385.6666564941406" y="0" width="365.66668701171875" height="398">
+                      <text id="1567:20704" name="External specimen caption" x="0" y="0" width="365.66668701171875" height="20" />
+                      <instance id="1567:20705" name="Dropdown menu / Platform=Mobile, Theme=Light, Search=On, Footer=Label" x="0" y="32" width="365.66668701171875" height="366" />
+                    </frame>
+                    <frame id="1567:20706" name="Documentation / Menu specimen" x="771.3333740234375" y="0" width="365.66668701171875" height="398">
+                      <text id="1567:20707" name="External specimen caption" x="0" y="0" width="365.66668701171875" height="20" />
+                      <instance id="1567:20708" name="Dropdown menu / Platform=Mobile, Theme=Light, Search=On, Footer=Icon + label" x="0" y="32" width="365.66668701171875" height="366" />
+                    </frame>
+                  </frame>
+                </frame>
+              </frame>
+              <frame id="1567:20709" name="Documentation / Mobile Dark menu group" x="1217" y="0" width="1185" height="929">
+                <frame id="1567:20710" name="Theme heading" x="24" y="24" width="1137" height="34">
+                  <text id="1567:20711" name="Theme" x="0" y="0" width="138" height="34" />
+                  <text id="1567:20712" name="Mode binding" x="1011" y="7" width="126" height="20" />
+                </frame>
+                <frame id="1567:20713" name="Search configuration group" x="24" y="82" width="1137" height="363">
+                  <text id="1567:20714" name="Search setting" x="0" y="0" width="199" height="22" />
+                  <frame id="1567:20715" name="Footer configurations" x="0" y="38" width="1137" height="325">
+                    <frame id="1567:20716" name="Documentation / Menu specimen" x="0" y="0" width="365.6666564941406" height="252">
+                      <text id="1567:20717" name="External specimen caption" x="0" y="0" width="365.6666564941406" height="20" />
+                      <instance id="1567:20718" name="Dropdown menu / Platform=Mobile, Theme=Dark, Search=Off, Footer=None" x="0" y="32" width="365.6666564941406" height="220" />
+                    </frame>
+                    <frame id="1567:20719" name="Documentation / Menu specimen" x="385.6666564941406" y="0" width="365.66668701171875" height="325">
+                      <text id="1567:20720" name="External specimen caption" x="0" y="0" width="365.66668701171875" height="20" />
+                      <instance id="1567:20721" name="Dropdown menu / Platform=Mobile, Theme=Dark, Search=Off, Footer=Label" x="0" y="32" width="365.66668701171875" height="293" />
+                    </frame>
+                    <frame id="1567:20722" name="Documentation / Menu specimen" x="771.3333740234375" y="0" width="365.66668701171875" height="325">
+                      <text id="1567:20723" name="External specimen caption" x="0" y="0" width="365.66668701171875" height="20" />
+                      <instance id="1567:20724" name="Dropdown menu / Platform=Mobile, Theme=Dark, Search=Off, Footer=Icon + label" x="0" y="32" width="365.66668701171875" height="293" />
+                    </frame>
+                  </frame>
+                </frame>
+                <frame id="1567:20725" name="Search configuration group" x="24" y="469" width="1137" height="436">
+                  <text id="1567:20726" name="Search setting" x="0" y="0" width="175" height="22" />
+                  <frame id="1567:20727" name="Footer configurations" x="0" y="38" width="1137" height="398">
+                    <frame id="1567:20728" name="Documentation / Menu specimen" x="0" y="0" width="365.6666564941406" height="325">
+                      <text id="1567:20729" name="External specimen caption" x="0" y="0" width="365.6666564941406" height="20" />
+                      <instance id="1567:20730" name="Dropdown menu / Platform=Mobile, Theme=Dark, Search=On, Footer=None" x="0" y="32" width="365.6666564941406" height="293" />
+                    </frame>
+                    <frame id="1567:20731" name="Documentation / Menu specimen" x="385.6666564941406" y="0" width="365.66668701171875" height="398">
+                      <text id="1567:20732" name="External specimen caption" x="0" y="0" width="365.66668701171875" height="20" />
+                      <instance id="1567:20733" name="Dropdown menu / Platform=Mobile, Theme=Dark, Search=On, Footer=Label" x="0" y="32" width="365.66668701171875" height="366" />
+                    </frame>
+                    <frame id="1567:20734" name="Documentation / Menu specimen" x="771.3333740234375" y="0" width="365.66668701171875" height="398">
+                      <text id="1567:20735" name="External specimen caption" x="0" y="0" width="365.66668701171875" height="20" />
+                      <instance id="1567:20736" name="Dropdown menu / Platform=Mobile, Theme=Dark, Search=On, Footer=Icon + label" x="0" y="32" width="365.66668701171875" height="366" />
+                    </frame>
+                  </frame>
+                </frame>
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+        <frame id="1567:20737" name="Documentation / Multi-select menu variant library" x="64" y="3542" width="2402" height="2114">
+          <frame id="1567:20738" name="Documentation heading" x="0" y="0" width="2402" height="148">
+            <text id="1567:20739" name="Section label" x="0" y="32" width="172" height="20" />
+            <text id="1567:20740" name="Section title" x="0" y="64" width="2402" height="48" />
+            <text id="1567:20741" name="Description" x="0" y="124" width="2402" height="24" />
+          </frame>
+          <frame id="1567:20742" name="Documentation / Desktop menus" x="0" y="180" width="2402" height="911">
+            <frame id="1567:20743" name="Platform heading" x="0" y="0" width="2402" height="42">
+              <text id="1567:20744" name="Platform" x="0" y="0" width="137" height="42" />
+              <text id="1567:20745" name="Density reference" x="1981" y="15" width="421" height="22" />
+            </frame>
+            <frame id="1567:20746" name="Theme comparison" x="0" y="62" width="2402" height="849">
+              <frame id="1567:20747" name="Documentation / Desktop Light menu group" x="0" y="0" width="1185" height="849">
+                <frame id="1567:20748" name="Theme heading" x="24" y="24" width="1137" height="34">
+                  <text id="1567:20749" name="Theme" x="0" y="0" width="141" height="34" />
+                  <text id="1567:20750" name="Mode binding" x="1010" y="7" width="127" height="20" />
+                </frame>
+                <frame id="1567:20751" name="Search configuration group" x="24" y="82" width="1137" height="323">
+                  <text id="1567:20752" name="Search setting" x="0" y="0" width="199" height="22" />
+                  <frame id="1567:20753" name="Footer configurations" x="0" y="38" width="1137" height="285">
+                    <frame id="1567:20754" name="Documentation / Menu specimen" x="0" y="0" width="365.6666564941406" height="220">
+                      <text id="1567:20755" name="External specimen caption" x="0" y="0" width="365.6666564941406" height="20" />
+                      <instance id="1567:20756" name="Dropdown menu / Selection=Multiple, Platform=Desktop, Theme=Light, Search=Off, Footer=None" x="0" y="32" width="365.6666564941406" height="188" />
+                    </frame>
+                    <frame id="1567:20757" name="Documentation / Menu specimen" x="385.6666564941406" y="0" width="365.66668701171875" height="285">
+                      <text id="1567:20758" name="External specimen caption" x="0" y="0" width="365.66668701171875" height="20" />
+                      <instance id="1567:20759" name="Dropdown menu / Selection=Multiple, Platform=Desktop, Theme=Light, Search=Off, Footer=Label" x="0" y="32" width="365.66668701171875" height="253" />
+                    </frame>
+                    <frame id="1567:20760" name="Documentation / Menu specimen" x="771.3333740234375" y="0" width="365.66668701171875" height="285">
+                      <text id="1567:20761" name="External specimen caption" x="0" y="0" width="365.66668701171875" height="20" />
+                      <instance id="1567:20762" name="Dropdown menu / Selection=Multiple, Platform=Desktop, Theme=Light, Search=Off, Footer=Icon + label" x="0" y="32" width="365.66668701171875" height="253" />
+                    </frame>
+                  </frame>
+                </frame>
+                <frame id="1567:20763" name="Search configuration group" x="24" y="429" width="1137" height="396">
+                  <text id="1567:20764" name="Search setting" x="0" y="0" width="175" height="22" />
+                  <frame id="1567:20765" name="Footer configurations" x="0" y="38" width="1137" height="358">
+                    <frame id="1567:20766" name="Documentation / Menu specimen" x="0" y="0" width="365.6666564941406" height="293">
+                      <text id="1567:20767" name="External specimen caption" x="0" y="0" width="365.6666564941406" height="20" />
+                      <instance id="1567:20768" name="Dropdown menu / Selection=Multiple, Platform=Desktop, Theme=Light, Search=On, Footer=None" x="0" y="32" width="365.6666564941406" height="261" />
+                    </frame>
+                    <frame id="1567:20769" name="Documentation / Menu specimen" x="385.6666564941406" y="0" width="365.66668701171875" height="358">
+                      <text id="1567:20770" name="External specimen caption" x="0" y="0" width="365.66668701171875" height="20" />
+                      <instance id="1567:20771" name="Dropdown menu / Selection=Multiple, Platform=Desktop, Theme=Light, Search=On, Footer=Label" x="0" y="32" width="365.66668701171875" height="326" />
+                    </frame>
+                    <frame id="1567:20772" name="Documentation / Menu specimen" x="771.3333740234375" y="0" width="365.66668701171875" height="358">
+                      <text id="1567:20773" name="External specimen caption" x="0" y="0" width="365.66668701171875" height="20" />
+                      <instance id="1567:20774" name="Dropdown menu / Selection=Multiple, Platform=Desktop, Theme=Light, Search=On, Footer=Icon + label" x="0" y="32" width="365.66668701171875" height="326" />
+                    </frame>
+                  </frame>
+                </frame>
+              </frame>
+              <frame id="1567:20775" name="Documentation / Desktop Dark menu group" x="1217" y="0" width="1185" height="849">
+                <frame id="1567:20776" name="Theme heading" x="24" y="24" width="1137" height="34">
+                  <text id="1567:20777" name="Theme" x="0" y="0" width="138" height="34" />
+                  <text id="1567:20778" name="Mode binding" x="1011" y="7" width="126" height="20" />
+                </frame>
+                <frame id="1567:20779" name="Search configuration group" x="24" y="82" width="1137" height="323">
+                  <text id="1567:20780" name="Search setting" x="0" y="0" width="199" height="22" />
+                  <frame id="1567:20781" name="Footer configurations" x="0" y="38" width="1137" height="285">
+                    <frame id="1567:20782" name="Documentation / Menu specimen" x="0" y="0" width="365.6666564941406" height="220">
+                      <text id="1567:20783" name="External specimen caption" x="0" y="0" width="365.6666564941406" height="20" />
+                      <instance id="1567:20784" name="Dropdown menu / Selection=Multiple, Platform=Desktop, Theme=Dark, Search=Off, Footer=None" x="0" y="32" width="365.6666564941406" height="188" />
+                    </frame>
+                    <frame id="1567:20785" name="Documentation / Menu specimen" x="385.6666564941406" y="0" width="365.66668701171875" height="285">
+                      <text id="1567:20786" name="External specimen caption" x="0" y="0" width="365.66668701171875" height="20" />
+                      <instance id="1567:20787" name="Dropdown menu / Selection=Multiple, Platform=Desktop, Theme=Dark, Search=Off, Footer=Label" x="0" y="32" width="365.66668701171875" height="253" />
+                    </frame>
+                    <frame id="1567:20788" name="Documentation / Menu specimen" x="771.3333740234375" y="0" width="365.66668701171875" height="285">
+                      <text id="1567:20789" name="External specimen caption" x="0" y="0" width="365.66668701171875" height="20" />
+                      <instance id="1567:20790" name="Dropdown menu / Selection=Multiple, Platform=Desktop, Theme=Dark, Search=Off, Footer=Icon + label" x="0" y="32" width="365.66668701171875" height="253" />
+                    </frame>
+                  </frame>
+                </frame>
+                <frame id="1567:20791" name="Search configuration group" x="24" y="429" width="1137" height="396">
+                  <text id="1567:20792" name="Search setting" x="0" y="0" width="175" height="22" />
+                  <frame id="1567:20793" name="Footer configurations" x="0" y="38" width="1137" height="358">
+                    <frame id="1567:20794" name="Documentation / Menu specimen" x="0" y="0" width="365.6666564941406" height="293">
+                      <text id="1567:20795" name="External specimen caption" x="0" y="0" width="365.6666564941406" height="20" />
+                      <instance id="1567:20796" name="Dropdown menu / Selection=Multiple, Platform=Desktop, Theme=Dark, Search=On, Footer=None" x="0" y="32" width="365.6666564941406" height="261" />
+                    </frame>
+                    <frame id="1567:20797" name="Documentation / Menu specimen" x="385.6666564941406" y="0" width="365.66668701171875" height="358">
+                      <text id="1567:20798" name="External specimen caption" x="0" y="0" width="365.66668701171875" height="20" />
+                      <instance id="1567:20799" name="Dropdown menu / Selection=Multiple, Platform=Desktop, Theme=Dark, Search=On, Footer=Label" x="0" y="32" width="365.66668701171875" height="326" />
+                    </frame>
+                    <frame id="1567:20800" name="Documentation / Menu specimen" x="771.3333740234375" y="0" width="365.66668701171875" height="358">
+                      <text id="1567:20801" name="External specimen caption" x="0" y="0" width="365.66668701171875" height="20" />
+                      <instance id="1567:20802" name="Dropdown menu / Selection=Multiple, Platform=Desktop, Theme=Dark, Search=On, Footer=Icon + label" x="0" y="32" width="365.66668701171875" height="326" />
+                    </frame>
+                  </frame>
+                </frame>
+              </frame>
+            </frame>
+          </frame>
+          <frame id="1567:20803" name="Documentation / Mobile menus" x="0" y="1123" width="2402" height="991">
+            <frame id="1567:20804" name="Platform heading" x="0" y="0" width="2402" height="42">
+              <text id="1567:20805" name="Platform" x="0" y="0" width="111" height="42" />
+              <text id="1567:20806" name="Density reference" x="1957" y="15" width="445" height="22" />
+            </frame>
+            <frame id="1567:20807" name="Theme comparison" x="0" y="62" width="2402" height="929">
+              <frame id="1567:20808" name="Documentation / Mobile Light menu group" x="0" y="0" width="1185" height="929">
+                <frame id="1567:20809" name="Theme heading" x="24" y="24" width="1137" height="34">
+                  <text id="1567:20810" name="Theme" x="0" y="0" width="141" height="34" />
+                  <text id="1567:20811" name="Mode binding" x="1010" y="7" width="127" height="20" />
+                </frame>
+                <frame id="1567:20812" name="Search configuration group" x="24" y="82" width="1137" height="363">
+                  <text id="1567:20813" name="Search setting" x="0" y="0" width="199" height="22" />
+                  <frame id="1567:20814" name="Footer configurations" x="0" y="38" width="1137" height="325">
+                    <frame id="1567:20815" name="Documentation / Menu specimen" x="0" y="0" width="365.6666564941406" height="252">
+                      <text id="1567:20816" name="External specimen caption" x="0" y="0" width="365.6666564941406" height="20" />
+                      <instance id="1567:20817" name="Dropdown menu / Selection=Multiple, Platform=Mobile, Theme=Light, Search=Off, Footer=None" x="0" y="32" width="365.6666564941406" height="220" />
+                    </frame>
+                    <frame id="1567:20818" name="Documentation / Menu specimen" x="385.6666564941406" y="0" width="365.66668701171875" height="325">
+                      <text id="1567:20819" name="External specimen caption" x="0" y="0" width="365.66668701171875" height="20" />
+                      <instance id="1567:20820" name="Dropdown menu / Selection=Multiple, Platform=Mobile, Theme=Light, Search=Off, Footer=Label" x="0" y="32" width="365.66668701171875" height="293" />
+                    </frame>
+                    <frame id="1567:20821" name="Documentation / Menu specimen" x="771.3333740234375" y="0" width="365.66668701171875" height="325">
+                      <text id="1567:20822" name="External specimen caption" x="0" y="0" width="365.66668701171875" height="20" />
+                      <instance id="1567:20823" name="Dropdown menu / Selection=Multiple, Platform=Mobile, Theme=Light, Search=Off, Footer=Icon + label" x="0" y="32" width="365.66668701171875" height="293" />
+                    </frame>
+                  </frame>
+                </frame>
+                <frame id="1567:20824" name="Search configuration group" x="24" y="469" width="1137" height="436">
+                  <text id="1567:20825" name="Search setting" x="0" y="0" width="175" height="22" />
+                  <frame id="1567:20826" name="Footer configurations" x="0" y="38" width="1137" height="398">
+                    <frame id="1567:20827" name="Documentation / Menu specimen" x="0" y="0" width="365.6666564941406" height="325">
+                      <text id="1567:20828" name="External specimen caption" x="0" y="0" width="365.6666564941406" height="20" />
+                      <instance id="1567:20829" name="Dropdown menu / Selection=Multiple, Platform=Mobile, Theme=Light, Search=On, Footer=None" x="0" y="32" width="365.6666564941406" height="293" />
+                    </frame>
+                    <frame id="1567:20830" name="Documentation / Menu specimen" x="385.6666564941406" y="0" width="365.66668701171875" height="398">
+                      <text id="1567:20831" name="External specimen caption" x="0" y="0" width="365.66668701171875" height="20" />
+                      <instance id="1567:20832" name="Dropdown menu / Selection=Multiple, Platform=Mobile, Theme=Light, Search=On, Footer=Label" x="0" y="32" width="365.66668701171875" height="366" />
+                    </frame>
+                    <frame id="1567:20833" name="Documentation / Menu specimen" x="771.3333740234375" y="0" width="365.66668701171875" height="398">
+                      <text id="1567:20834" name="External specimen caption" x="0" y="0" width="365.66668701171875" height="20" />
+                      <instance id="1567:20835" name="Dropdown menu / Selection=Multiple, Platform=Mobile, Theme=Light, Search=On, Footer=Icon + label" x="0" y="32" width="365.66668701171875" height="366" />
+                    </frame>
+                  </frame>
+                </frame>
+              </frame>
+              <frame id="1567:20836" name="Documentation / Mobile Dark menu group" x="1217" y="0" width="1185" height="929">
+                <frame id="1567:20837" name="Theme heading" x="24" y="24" width="1137" height="34">
+                  <text id="1567:20838" name="Theme" x="0" y="0" width="138" height="34" />
+                  <text id="1567:20839" name="Mode binding" x="1011" y="7" width="126" height="20" />
+                </frame>
+                <frame id="1567:20840" name="Search configuration group" x="24" y="82" width="1137" height="363">
+                  <text id="1567:20841" name="Search setting" x="0" y="0" width="199" height="22" />
+                  <frame id="1567:20842" name="Footer configurations" x="0" y="38" width="1137" height="325">
+                    <frame id="1567:20843" name="Documentation / Menu specimen" x="0" y="0" width="365.6666564941406" height="252">
+                      <text id="1567:20844" name="External specimen caption" x="0" y="0" width="365.6666564941406" height="20" />
+                      <instance id="1567:20845" name="Dropdown menu / Selection=Multiple, Platform=Mobile, Theme=Dark, Search=Off, Footer=None" x="0" y="32" width="365.6666564941406" height="220" />
+                    </frame>
+                    <frame id="1567:20846" name="Documentation / Menu specimen" x="385.6666564941406" y="0" width="365.66668701171875" height="325">
+                      <text id="1567:20847" name="External specimen caption" x="0" y="0" width="365.66668701171875" height="20" />
+                      <instance id="1567:20848" name="Dropdown menu / Selection=Multiple, Platform=Mobile, Theme=Dark, Search=Off, Footer=Label" x="0" y="32" width="365.66668701171875" height="293" />
+                    </frame>
+                    <frame id="1567:20849" name="Documentation / Menu specimen" x="771.3333740234375" y="0" width="365.66668701171875" height="325">
+                      <text id="1567:20850" name="External specimen caption" x="0" y="0" width="365.66668701171875" height="20" />
+                      <instance id="1567:20851" name="Dropdown menu / Selection=Multiple, Platform=Mobile, Theme=Dark, Search=Off, Footer=Icon + label" x="0" y="32" width="365.66668701171875" height="293" />
+                    </frame>
+                  </frame>
+                </frame>
+                <frame id="1567:20852" name="Search configuration group" x="24" y="469" width="1137" height="436">
+                  <text id="1567:20853" name="Search setting" x="0" y="0" width="175" height="22" />
+                  <frame id="1567:20854" name="Footer configurations" x="0" y="38" width="1137" height="398">
+                    <frame id="1567:20855" name="Documentation / Menu specimen" x="0" y="0" width="365.6666564941406" height="325">
+                      <text id="1567:20856" name="External specimen caption" x="0" y="0" width="365.6666564941406" height="20" />
+                      <instance id="1567:20857" name="Dropdown menu / Selection=Multiple, Platform=Mobile, Theme=Dark, Search=On, Footer=None" x="0" y="32" width="365.6666564941406" height="293" />
+                    </frame>
+                    <frame id="1567:20858" name="Documentation / Menu specimen" x="385.6666564941406" y="0" width="365.66668701171875" height="398">
+                      <text id="1567:20859" name="External specimen caption" x="0" y="0" width="365.66668701171875" height="20" />
+                      <instance id="1567:20860" name="Dropdown menu / Selection=Multiple, Platform=Mobile, Theme=Dark, Search=On, Footer=Label" x="0" y="32" width="365.66668701171875" height="366" />
+                    </frame>
+                    <frame id="1567:20861" name="Documentation / Menu specimen" x="771.3333740234375" y="0" width="365.66668701171875" height="398">
+                      <text id="1567:20862" name="External specimen caption" x="0" y="0" width="365.66668701171875" height="20" />
+                      <instance id="1567:20863" name="Dropdown menu / Selection=Multiple, Platform=Mobile, Theme=Dark, Search=On, Footer=Icon + label" x="0" y="32" width="365.66668701171875" height="366" />
+                    </frame>
+                  </frame>
+                </frame>
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+        <frame id="1567:20864" name="Documentation / Item state library" x="64" y="5704" width="2402" height="782">
+          <frame id="1567:20865" name="Documentation heading" x="0" y="0" width="2402" height="148">
+            <text id="1567:20866" name="Section label" x="0" y="32" width="172" height="20" />
+            <text id="1567:20867" name="Section title" x="0" y="64" width="2402" height="48" />
+            <text id="1567:20868" name="Description" x="0" y="124" width="2402" height="24" />
+          </frame>
+          <frame id="1567:20869" name="State column headings" x="0" y="172" width="2402" height="22">
+            <text id="1567:20870" name="State heading" x="214" y="0" width="413.6000061035156" height="22" />
+            <text id="1567:20871" name="State heading" x="651.5999755859375" y="0" width="413.6000061035156" height="22" />
+            <text id="1567:20872" name="State heading" x="1089.199951171875" y="0" width="413.6000061035156" height="22" />
+            <text id="1567:20873" name="State heading" x="1526.7999267578125" y="0" width="413.60003662109375" height="22" />
+            <text id="1567:20874" name="State heading" x="1964.39990234375" y="0" width="413.60003662109375" height="22" />
+          </frame>
+          <frame id="1567:20875" name="Documentation / Desktop Light item group" x="0" y="218" width="2402" height="99">
+            <frame id="1567:20876" name="External group caption" x="24" y="24" width="166" height="51">
+              <text id="1567:20877" name="Platform" x="0" y="0" width="108" height="22" />
+              <text id="1567:20878" name="Density" x="0" y="30" width="120" height="21" />
+            </frame>
+            <frame id="1567:20879" name="Documentation / Item specimen" x="214" y="29.5" width="413.6000061035156" height="40">
+              <instance id="1567:20880" name="Dropdown item / Platform=Desktop, Theme=Light, State=Default" x="0" y="0" width="413.6000061035156" height="40" />
+            </frame>
+            <frame id="1567:20881" name="Documentation / Item specimen" x="651.5999755859375" y="29.5" width="413.6000061035156" height="40">
+              <instance id="1567:20882" name="Dropdown item / Platform=Desktop, Theme=Light, State=Hover" x="0" y="0" width="413.6000061035156" height="40" />
+            </frame>
+            <frame id="1567:20883" name="Documentation / Item specimen" x="1089.199951171875" y="29.5" width="413.6000061035156" height="40">
+              <instance id="1567:20884" name="Dropdown item / Platform=Desktop, Theme=Light, State=Focus" x="0" y="0" width="413.6000061035156" height="40" />
+            </frame>
+            <frame id="1567:20885" name="Documentation / Item specimen" x="1526.7999267578125" y="29.5" width="413.60003662109375" height="40">
+              <instance id="1567:20886" name="Dropdown item / Platform=Desktop, Theme=Light, State=Selected" x="0" y="0" width="413.60003662109375" height="40" />
+            </frame>
+            <frame id="1567:20887" name="Documentation / Item specimen" x="1964.39990234375" y="29.5" width="413.60003662109375" height="40">
+              <instance id="1567:20888" name="Dropdown item / Platform=Desktop, Theme=Light, State=Disabled" x="0" y="0" width="413.60003662109375" height="40" />
+            </frame>
+          </frame>
+          <frame id="1567:20889" name="Documentation / Desktop Dark item group" x="0" y="341" width="2402" height="99">
+            <frame id="1567:20890" name="External group caption" x="24" y="24" width="166" height="51">
+              <text id="1567:20891" name="Platform" x="0" y="0" width="106" height="22" />
+              <text id="1567:20892" name="Density" x="0" y="30" width="120" height="21" />
+            </frame>
+            <frame id="1567:20893" name="Documentation / Item specimen" x="214" y="29.5" width="413.6000061035156" height="40">
+              <instance id="1567:20894" name="Dropdown item / Platform=Desktop, Theme=Dark, State=Default" x="0" y="0" width="413.6000061035156" height="40" />
+            </frame>
+            <frame id="1567:20895" name="Documentation / Item specimen" x="651.5999755859375" y="29.5" width="413.6000061035156" height="40">
+              <instance id="1567:20896" name="Dropdown item / Platform=Desktop, Theme=Dark, State=Hover" x="0" y="0" width="413.6000061035156" height="40" />
+            </frame>
+            <frame id="1567:20897" name="Documentation / Item specimen" x="1089.199951171875" y="29.5" width="413.6000061035156" height="40">
+              <instance id="1567:20898" name="Dropdown item / Platform=Desktop, Theme=Dark, State=Focus" x="0" y="0" width="413.6000061035156" height="40" />
+            </frame>
+            <frame id="1567:20899" name="Documentation / Item specimen" x="1526.7999267578125" y="29.5" width="413.60003662109375" height="40">
+              <instance id="1567:20900" name="Dropdown item / Platform=Desktop, Theme=Dark, State=Selected" x="0" y="0" width="413.60003662109375" height="40" />
+            </frame>
+            <frame id="1567:20901" name="Documentation / Item specimen" x="1964.39990234375" y="29.5" width="413.60003662109375" height="40">
+              <instance id="1567:20902" name="Dropdown item / Platform=Desktop, Theme=Dark, State=Disabled" x="0" y="0" width="413.60003662109375" height="40" />
+            </frame>
+          </frame>
+          <frame id="1567:20903" name="Documentation / Mobile Light item group" x="0" y="464" width="2402" height="99">
+            <frame id="1567:20904" name="External group caption" x="24" y="24" width="166" height="51">
+              <text id="1567:20905" name="Platform" x="0" y="0" width="97" height="22" />
+              <text id="1567:20906" name="Density" x="0" y="30" width="101" height="21" />
+            </frame>
+            <frame id="1567:20907" name="Documentation / Item specimen" x="214" y="25.5" width="413.6000061035156" height="48">
+              <instance id="1567:20908" name="Dropdown item / Platform=Mobile, Theme=Light, State=Default" x="0" y="0" width="413.6000061035156" height="48" />
+            </frame>
+            <frame id="1567:20909" name="Documentation / Item specimen" x="651.5999755859375" y="25.5" width="413.6000061035156" height="48">
+              <instance id="1567:20910" name="Dropdown item / Platform=Mobile, Theme=Light, State=Hover" x="0" y="0" width="413.6000061035156" height="48" />
+            </frame>
+            <frame id="1567:20911" name="Documentation / Item specimen" x="1089.199951171875" y="25.5" width="413.6000061035156" height="48">
+              <instance id="1567:20912" name="Dropdown item / Platform=Mobile, Theme=Light, State=Focus" x="0" y="0" width="413.6000061035156" height="48" />
+            </frame>
+            <frame id="1567:20913" name="Documentation / Item specimen" x="1526.7999267578125" y="25.5" width="413.60003662109375" height="48">
+              <instance id="1567:20914" name="Dropdown item / Platform=Mobile, Theme=Light, State=Selected" x="0" y="0" width="413.60003662109375" height="48" />
+            </frame>
+            <frame id="1567:20915" name="Documentation / Item specimen" x="1964.39990234375" y="25.5" width="413.60003662109375" height="48">
+              <instance id="1567:20916" name="Dropdown item / Platform=Mobile, Theme=Light, State=Disabled" x="0" y="0" width="413.60003662109375" height="48" />
+            </frame>
+          </frame>
+          <frame id="1567:20917" name="Documentation / Mobile Dark item group" x="0" y="587" width="2402" height="99">
+            <frame id="1567:20918" name="External group caption" x="24" y="24" width="166" height="51">
+              <text id="1567:20919" name="Platform" x="0" y="0" width="95" height="22" />
+              <text id="1567:20920" name="Density" x="0" y="30" width="101" height="21" />
+            </frame>
+            <frame id="1567:20921" name="Documentation / Item specimen" x="214" y="25.5" width="413.6000061035156" height="48">
+              <instance id="1567:20922" name="Dropdown item / Platform=Mobile, Theme=Dark, State=Default" x="0" y="0" width="413.6000061035156" height="48" />
+            </frame>
+            <frame id="1567:20923" name="Documentation / Item specimen" x="651.5999755859375" y="25.5" width="413.6000061035156" height="48">
+              <instance id="1567:20924" name="Dropdown item / Platform=Mobile, Theme=Dark, State=Hover" x="0" y="0" width="413.6000061035156" height="48" />
+            </frame>
+            <frame id="1567:20925" name="Documentation / Item specimen" x="1089.199951171875" y="25.5" width="413.6000061035156" height="48">
+              <instance id="1567:20926" name="Dropdown item / Platform=Mobile, Theme=Dark, State=Focus" x="0" y="0" width="413.6000061035156" height="48" />
+            </frame>
+            <frame id="1567:20927" name="Documentation / Item specimen" x="1526.7999267578125" y="25.5" width="413.60003662109375" height="48">
+              <instance id="1567:20928" name="Dropdown item / Platform=Mobile, Theme=Dark, State=Selected" x="0" y="0" width="413.60003662109375" height="48" />
+            </frame>
+            <frame id="1567:20929" name="Documentation / Item specimen" x="1964.39990234375" y="25.5" width="413.60003662109375" height="48">
+              <instance id="1567:20930" name="Dropdown item / Platform=Mobile, Theme=Dark, State=Disabled" x="0" y="0" width="413.60003662109375" height="48" />
+            </frame>
+          </frame>
+          <frame id="1567:20931" name="State usage note" x="0" y="710" width="2402" height="72">
+            <text id="1567:20932" name="Focus guidance" x="24" y="24" width="1157" height="24" />
+            <text id="1567:20933" name="Platform guidance" x="1221" y="24" width="1157" height="24" />
+          </frame>
+        </frame>
+        <frame id="1567:20934" name="Documentation / Multi-select item state library" x="64" y="6534" width="2402" height="782">
+          <frame id="1567:20935" name="Documentation heading" x="0" y="0" width="2402" height="148">
+            <text id="1567:20936" name="Section label" x="0" y="32" width="164" height="20" />
+            <text id="1567:20937" name="Section title" x="0" y="64" width="2402" height="48" />
+            <text id="1567:20938" name="Description" x="0" y="124" width="2402" height="24" />
+          </frame>
+          <frame id="1567:20939" name="State column headings" x="0" y="172" width="2402" height="22">
+            <text id="1567:20940" name="State heading" x="214" y="0" width="413.6000061035156" height="22" />
+            <text id="1567:20941" name="State heading" x="651.5999755859375" y="0" width="413.6000061035156" height="22" />
+            <text id="1567:20942" name="State heading" x="1089.199951171875" y="0" width="413.6000061035156" height="22" />
+            <text id="1567:20943" name="State heading" x="1526.7999267578125" y="0" width="413.60003662109375" height="22" />
+            <text id="1567:20944" name="State heading" x="1964.39990234375" y="0" width="413.60003662109375" height="22" />
+          </frame>
+          <frame id="1567:20945" name="Documentation / Desktop Light item group" x="0" y="218" width="2402" height="99">
+            <frame id="1567:20946" name="External group caption" x="24" y="24" width="166" height="51">
+              <text id="1567:20947" name="Platform" x="0" y="0" width="108" height="22" />
+              <text id="1567:20948" name="Density" x="0" y="30" width="120" height="21" />
+            </frame>
+            <frame id="1567:20949" name="Documentation / Item specimen" x="214" y="29.5" width="413.6000061035156" height="40">
+              <instance id="1567:20950" name="Dropdown item / Selection=Multiple, Platform=Desktop, Theme=Light, State=Default" x="0" y="0" width="413.6000061035156" height="40" />
+            </frame>
+            <frame id="1567:20951" name="Documentation / Item specimen" x="651.5999755859375" y="29.5" width="413.6000061035156" height="40">
+              <instance id="1567:20952" name="Dropdown item / Selection=Multiple, Platform=Desktop, Theme=Light, State=Hover" x="0" y="0" width="413.6000061035156" height="40" />
+            </frame>
+            <frame id="1567:20953" name="Documentation / Item specimen" x="1089.199951171875" y="29.5" width="413.6000061035156" height="40">
+              <instance id="1567:20954" name="Dropdown item / Selection=Multiple, Platform=Desktop, Theme=Light, State=Focus" x="0" y="0" width="413.6000061035156" height="40" />
+            </frame>
+            <frame id="1567:20955" name="Documentation / Item specimen" x="1526.7999267578125" y="29.5" width="413.60003662109375" height="40">
+              <instance id="1567:20956" name="Dropdown item / Selection=Multiple, Platform=Desktop, Theme=Light, State=Selected" x="0" y="0" width="413.60003662109375" height="40" />
+            </frame>
+            <frame id="1567:20957" name="Documentation / Item specimen" x="1964.39990234375" y="29.5" width="413.60003662109375" height="40">
+              <instance id="1567:20958" name="Dropdown item / Selection=Multiple, Platform=Desktop, Theme=Light, State=Disabled" x="0" y="0" width="413.60003662109375" height="40" />
+            </frame>
+          </frame>
+          <frame id="1567:20959" name="Documentation / Desktop Dark item group" x="0" y="341" width="2402" height="99">
+            <frame id="1567:20960" name="External group caption" x="24" y="24" width="166" height="51">
+              <text id="1567:20961" name="Platform" x="0" y="0" width="106" height="22" />
+              <text id="1567:20962" name="Density" x="0" y="30" width="120" height="21" />
+            </frame>
+            <frame id="1567:20963" name="Documentation / Item specimen" x="214" y="29.5" width="413.6000061035156" height="40">
+              <instance id="1567:20964" name="Dropdown item / Selection=Multiple, Platform=Desktop, Theme=Dark, State=Default" x="0" y="0" width="413.6000061035156" height="40" />
+            </frame>
+            <frame id="1567:20965" name="Documentation / Item specimen" x="651.5999755859375" y="29.5" width="413.6000061035156" height="40">
+              <instance id="1567:20966" name="Dropdown item / Selection=Multiple, Platform=Desktop, Theme=Dark, State=Hover" x="0" y="0" width="413.6000061035156" height="40" />
+            </frame>
+            <frame id="1567:20967" name="Documentation / Item specimen" x="1089.199951171875" y="29.5" width="413.6000061035156" height="40">
+              <instance id="1567:20968" name="Dropdown item / Selection=Multiple, Platform=Desktop, Theme=Dark, State=Focus" x="0" y="0" width="413.6000061035156" height="40" />
+            </frame>
+            <frame id="1567:20969" name="Documentation / Item specimen" x="1526.7999267578125" y="29.5" width="413.60003662109375" height="40">
+              <instance id="1567:20970" name="Dropdown item / Selection=Multiple, Platform=Desktop, Theme=Dark, State=Selected" x="0" y="0" width="413.60003662109375" height="40" />
+            </frame>
+            <frame id="1567:20971" name="Documentation / Item specimen" x="1964.39990234375" y="29.5" width="413.60003662109375" height="40">
+              <instance id="1567:20972" name="Dropdown item / Selection=Multiple, Platform=Desktop, Theme=Dark, State=Disabled" x="0" y="0" width="413.60003662109375" height="40" />
+            </frame>
+          </frame>
+          <frame id="1567:20973" name="Documentation / Mobile Light item group" x="0" y="464" width="2402" height="99">
+            <frame id="1567:20974" name="External group caption" x="24" y="24" width="166" height="51">
+              <text id="1567:20975" name="Platform" x="0" y="0" width="97" height="22" />
+              <text id="1567:20976" name="Density" x="0" y="30" width="101" height="21" />
+            </frame>
+            <frame id="1567:20977" name="Documentation / Item specimen" x="214" y="25.5" width="413.6000061035156" height="48">
+              <instance id="1567:20978" name="Dropdown item / Selection=Multiple, Platform=Mobile, Theme=Light, State=Default" x="0" y="0" width="413.6000061035156" height="48" />
+            </frame>
+            <frame id="1567:20979" name="Documentation / Item specimen" x="651.5999755859375" y="25.5" width="413.6000061035156" height="48">
+              <instance id="1567:20980" name="Dropdown item / Selection=Multiple, Platform=Mobile, Theme=Light, State=Hover" x="0" y="0" width="413.6000061035156" height="48" />
+            </frame>
+            <frame id="1567:20981" name="Documentation / Item specimen" x="1089.199951171875" y="25.5" width="413.6000061035156" height="48">
+              <instance id="1567:20982" name="Dropdown item / Selection=Multiple, Platform=Mobile, Theme=Light, State=Focus" x="0" y="0" width="413.6000061035156" height="48" />
+            </frame>
+            <frame id="1567:20983" name="Documentation / Item specimen" x="1526.7999267578125" y="25.5" width="413.60003662109375" height="48">
+              <instance id="1567:20984" name="Dropdown item / Selection=Multiple, Platform=Mobile, Theme=Light, State=Selected" x="0" y="0" width="413.60003662109375" height="48" />
+            </frame>
+            <frame id="1567:20985" name="Documentation / Item specimen" x="1964.39990234375" y="25.5" width="413.60003662109375" height="48">
+              <instance id="1567:20986" name="Dropdown item / Selection=Multiple, Platform=Mobile, Theme=Light, State=Disabled" x="0" y="0" width="413.60003662109375" height="48" />
+            </frame>
+          </frame>
+          <frame id="1567:20987" name="Documentation / Mobile Dark item group" x="0" y="587" width="2402" height="99">
+            <frame id="1567:20988" name="External group caption" x="24" y="24" width="166" height="51">
+              <text id="1567:20989" name="Platform" x="0" y="0" width="95" height="22" />
+              <text id="1567:20990" name="Density" x="0" y="30" width="101" height="21" />
+            </frame>
+            <frame id="1567:20991" name="Documentation / Item specimen" x="214" y="25.5" width="413.6000061035156" height="48">
+              <instance id="1567:20992" name="Dropdown item / Selection=Multiple, Platform=Mobile, Theme=Dark, State=Default" x="0" y="0" width="413.6000061035156" height="48" />
+            </frame>
+            <frame id="1567:20993" name="Documentation / Item specimen" x="651.5999755859375" y="25.5" width="413.6000061035156" height="48">
+              <instance id="1567:20994" name="Dropdown item / Selection=Multiple, Platform=Mobile, Theme=Dark, State=Hover" x="0" y="0" width="413.6000061035156" height="48" />
+            </frame>
+            <frame id="1567:20995" name="Documentation / Item specimen" x="1089.199951171875" y="25.5" width="413.6000061035156" height="48">
+              <instance id="1567:20996" name="Dropdown item / Selection=Multiple, Platform=Mobile, Theme=Dark, State=Focus" x="0" y="0" width="413.6000061035156" height="48" />
+            </frame>
+            <frame id="1567:20997" name="Documentation / Item specimen" x="1526.7999267578125" y="25.5" width="413.60003662109375" height="48">
+              <instance id="1567:20998" name="Dropdown item / Selection=Multiple, Platform=Mobile, Theme=Dark, State=Selected" x="0" y="0" width="413.60003662109375" height="48" />
+            </frame>
+            <frame id="1567:20999" name="Documentation / Item specimen" x="1964.39990234375" y="25.5" width="413.60003662109375" height="48">
+              <instance id="1567:21000" name="Dropdown item / Selection=Multiple, Platform=Mobile, Theme=Dark, State=Disabled" x="0" y="0" width="413.60003662109375" height="48" />
+            </frame>
+          </frame>
+          <frame id="1567:21001" name="State usage note" x="0" y="710" width="2402" height="72">
+            <text id="1567:21002" name="Focus guidance" x="24" y="24" width="1157" height="24" />
+            <text id="1567:21003" name="Platform guidance" x="1221" y="24" width="1157" height="24" />
+          </frame>
+        </frame>
+        <frame id="1567:21004" name="Documentation / Feedback, sizing &amp; handoff" x="64" y="7364" width="2402" height="1333">
+          <frame id="1567:21005" name="Documentation heading" x="0" y="0" width="2402" height="148">
+            <text id="1567:21006" name="Section label" x="0" y="32" width="170" height="20" />
+            <text id="1567:21007" name="Section title" x="0" y="64" width="2402" height="48" />
+            <text id="1567:21008" name="Description" x="0" y="124" width="2402" height="24" />
+          </frame>
+          <frame id="1567:21009" name="Feedback comparisons" x="0" y="180" width="2402" height="329">
+            <frame id="1567:21010" name="Documentation / Light feedback examples" x="0" y="0" width="1185" height="329">
+              <text id="1567:21011" name="Theme title" x="24" y="24" width="209" height="34" />
+              <frame id="1567:21012" name="Feedback specimens" x="24" y="78" width="1137" height="227">
+                <frame id="1567:21013" name="Documentation / Feedback specimen" x="0" y="0" width="365.6666564941406" height="222">
+                  <text id="1567:21014" name="External example caption" x="0" y="0" width="39" height="20" />
+                  <frame id="1567:21015" name="Documentation example / Empty / Light" x="0" y="32" width="365.6666564941406" height="190">
+                    <frame id="1567:21016" name="Feedback content" x="16" y="16" width="333.6666564941406" height="95">
+                      <text id="1567:21017" name="Feedback title" x="0" y="20" width="333.6666564941406" height="22" />
+                      <text id="1567:21018" name="Feedback description" x="0" y="54" width="333.6666564941406" height="21" />
+                    </frame>
+                  </frame>
+                </frame>
+                <frame id="1567:21019" name="Documentation / Feedback specimen" x="385.6666564941406" y="0" width="365.66668701171875" height="227">
+                  <text id="1567:21020" name="External example caption" x="0" y="0" width="63" height="20" />
+                  <frame id="1567:21021" name="Documentation example / No results / Light" x="0" y="32" width="365.66668701171875" height="195">
+                    <instance id="1567:21022" name="Search field" x="16" y="16" width="333.66668701171875" height="48" />
+                    <frame id="1567:21023" name="Feedback content" x="16" y="84" width="333.66668701171875" height="95">
+                      <text id="1567:21024" name="Feedback title" x="0" y="20" width="333.66668701171875" height="22" />
+                      <text id="1567:21025" name="Feedback description" x="0" y="54" width="333.66668701171875" height="21" />
+                    </frame>
+                  </frame>
+                </frame>
+                <frame id="1567:21026" name="Documentation / Feedback specimen" x="771.3333740234375" y="0" width="365.66668701171875" height="222">
+                  <text id="1567:21027" name="External example caption" x="0" y="0" width="50" height="20" />
+                  <frame id="1567:21028" name="Documentation example / Loading / Light" x="0" y="32" width="365.66668701171875" height="190">
+                    <frame id="1567:21029" name="Feedback content" x="16" y="16" width="333.66668701171875" height="131">
+                      <ellipse id="1567:21030" name="Loading indicator" x="154.83334350585938" y="20" width="24" height="24" />
+                      <text id="1567:21031" name="Feedback title" x="0" y="56" width="333.66668701171875" height="22" />
+                      <text id="1567:21032" name="Feedback description" x="0" y="90" width="333.66668701171875" height="21" />
+                    </frame>
+                  </frame>
+                </frame>
+              </frame>
+            </frame>
+            <frame id="1567:21033" name="Documentation / Dark feedback examples" x="1217" y="0" width="1185" height="329">
+              <text id="1567:21034" name="Theme title" x="24" y="24" width="206" height="34" />
+              <frame id="1567:21035" name="Feedback specimens" x="24" y="78" width="1137" height="227">
+                <frame id="1567:21036" name="Documentation / Feedback specimen" x="0" y="0" width="365.6666564941406" height="222">
+                  <text id="1567:21037" name="External example caption" x="0" y="0" width="39" height="20" />
+                  <frame id="1567:21038" name="Documentation example / Empty / Dark" x="0" y="32" width="365.6666564941406" height="190">
+                    <frame id="1567:21039" name="Feedback content" x="16" y="16" width="333.6666564941406" height="95">
+                      <text id="1567:21040" name="Feedback title" x="0" y="20" width="333.6666564941406" height="22" />
+                      <text id="1567:21041" name="Feedback description" x="0" y="54" width="333.6666564941406" height="21" />
+                    </frame>
+                  </frame>
+                </frame>
+                <frame id="1567:21042" name="Documentation / Feedback specimen" x="385.6666564941406" y="0" width="365.66668701171875" height="227">
+                  <text id="1567:21043" name="External example caption" x="0" y="0" width="63" height="20" />
+                  <frame id="1567:21044" name="Documentation example / No results / Dark" x="0" y="32" width="365.66668701171875" height="195">
+                    <instance id="1567:21045" name="Search field" x="16" y="16" width="333.66668701171875" height="48" />
+                    <frame id="1567:21046" name="Feedback content" x="16" y="84" width="333.66668701171875" height="95">
+                      <text id="1567:21047" name="Feedback title" x="0" y="20" width="333.66668701171875" height="22" />
+                      <text id="1567:21048" name="Feedback description" x="0" y="54" width="333.66668701171875" height="21" />
+                    </frame>
+                  </frame>
+                </frame>
+                <frame id="1567:21049" name="Documentation / Feedback specimen" x="771.3333740234375" y="0" width="365.66668701171875" height="222">
+                  <text id="1567:21050" name="External example caption" x="0" y="0" width="50" height="20" />
+                  <frame id="1567:21051" name="Documentation example / Loading / Dark" x="0" y="32" width="365.66668701171875" height="190">
+                    <frame id="1567:21052" name="Feedback content" x="16" y="16" width="333.66668701171875" height="131">
+                      <ellipse id="1567:21053" name="Loading indicator" x="154.83334350585938" y="20" width="24" height="24" />
+                      <text id="1567:21054" name="Feedback title" x="0" y="56" width="333.66668701171875" height="22" />
+                      <text id="1567:21055" name="Feedback description" x="0" y="90" width="333.66668701171875" height="21" />
+                    </frame>
+                  </frame>
+                </frame>
+              </frame>
+            </frame>
+          </frame>
+          <frame id="1567:21056" name="Responsive guidance" x="0" y="541" width="2402" height="511">
+            <frame id="1567:21057" name="Typography &amp; density" x="0" y="0" width="1185" height="511">
+              <text id="1567:21058" name="Title" x="32" y="32" width="355" height="42" />
+              <text id="1567:21059" name="Description" x="32" y="94" width="1121" height="24" />
+              <rounded-rectangle id="1567:21060" name="Divider" x="32" y="138" width="1121" height="1" />
+              <text id="1567:21061" name="Desktop guideline" x="32" y="159" width="1121" height="22" />
+              <text id="1567:21062" name="Description" x="32" y="201" width="1121" height="24" />
+              <text id="1567:21063" name="Mobile guideline" x="32" y="245" width="1121" height="22" />
+              <text id="1567:21064" name="Description" x="32" y="287" width="1121" height="24" />
+              <text id="1567:21065" name="Description" x="32" y="331" width="1121" height="24" />
+              <rounded-rectangle id="1567:21066" name="Divider" x="32" y="375" width="1121" height="1" />
+              <text id="1567:21067" name="Benchmark note" x="32" y="396" width="1121" height="42" />
+              <text id="1567:21068" name="Benchmark sources" x="32" y="458" width="1121" height="21" />
+            </frame>
+            <frame id="1567:21069" name="Resizing documentation" x="1217" y="0" width="1185" height="483">
+              <text id="1567:21070" name="Title" x="32" y="32" width="478" height="42" />
+              <text id="1567:21071" name="Description" x="32" y="94" width="1121" height="24" />
+              <frame id="1567:21072" name="Width comparison" x="32" y="138" width="1121" height="92">
+                <frame id="1567:21073" name="Narrow width example" x="0" y="0" width="240" height="92">
+                  <text id="1567:21074" name="External size caption" x="0" y="0" width="150" height="20" />
+                  <frame id="1567:21075" name="Option" x="0" y="32" width="240" height="60">
+                    <frame id="1567:21076" name="Selection indicator" x="12" y="20" width="20" height="20">
+                      <instance id="1567:21077" name="Selected" x="0" y="0" width="20" height="20" />
+                    </frame>
+                    <text id="1567:21078" name="Option text" x="44" y="10" width="184" height="40" />
+                  </frame>
+                </frame>
+                <frame id="1567:21079" name="Flexible width example" x="264" y="0" width="857" height="80">
+                  <text id="1567:21080" name="External size caption" x="0" y="0" width="149" height="20" />
+                  <frame id="1567:21081" name="Option" x="0" y="32" width="857" height="48">
+                    <frame id="1567:21082" name="Selection indicator" x="12" y="14" width="20" height="20">
+                      <instance id="1567:21083" name="Selected" x="0" y="0" width="20" height="20" />
+                    </frame>
+                    <text id="1567:21084" name="Option text" x="44" y="12" width="801" height="24" />
+                  </frame>
+                </frame>
+              </frame>
+              <rounded-rectangle id="1567:21085" name="Divider" x="32" y="250" width="1121" height="1" />
+              <text id="1567:21086" name="Description" x="32" y="271" width="1121" height="24" />
+              <text id="1567:21087" name="Description" x="32" y="315" width="1121" height="24" />
+              <text id="1567:21088" name="Description" x="32" y="359" width="1121" height="48" />
+              <text id="1567:21089" name="Description" x="32" y="427" width="1121" height="24" />
+            </frame>
+          </frame>
+          <frame id="1567:21090" name="Conversion handoff" x="0" y="1084" width="2402" height="249">
+            <text id="1567:21091" name="Title" x="32" y="32" width="516" height="42" />
+            <frame id="1567:21092" name="Handoff steps" x="32" y="94" width="2338" height="82">
+              <frame id="1567:21093" name="Conversion step" x="0" y="0" width="747.3333129882812" height="82">
+                <text id="1567:21094" name="Step title" x="0" y="0" width="747.3333129882812" height="22" />
+                <text id="1567:21095" name="Step description" x="0" y="34" width="747.3333129882812" height="48" />
+              </frame>
+              <frame id="1567:21096" name="Conversion step" x="795.3333129882812" y="0" width="747.3333740234375" height="82">
+                <text id="1567:21097" name="Step title" x="0" y="0" width="747.3333740234375" height="22" />
+                <text id="1567:21098" name="Step description" x="0" y="34" width="747.3333740234375" height="48" />
+              </frame>
+              <frame id="1567:21099" name="Conversion step" x="1590.666748046875" y="0" width="747.3333740234375" height="82">
+                <text id="1567:21100" name="Step title" x="0" y="0" width="747.3333740234375" height="22" />
+                <text id="1567:21101" name="Step description" x="0" y="34" width="747.3333740234375" height="48" />
+              </frame>
+            </frame>
+            <text id="1567:21102" name="Scope reminder" x="32" y="196" width="2338" height="21" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+  </section>
+  <section id="1567:22786" name="Dropdown / Core Components" x="6612" y="-1501" width="3965" height="7831">
+    <frame id="1567:22787" name="Dropdown / Option menu" x="543" y="886" width="2879" height="6329">
+      <frame id="1567:22790" name="_Status" x="0" y="0" width="5770" height="114">
+        <text id="1567:22791" name="Dropdown / Option menu" x="32" y="40.5" width="381" height="32" />
+        <text id="1567:22792" name="SEPTEMBER 2026" x="5502" y="40.5" width="236" height="32" />
+      </frame>
+      <frame id="1567:22793" name="Frame 2121455715" x="123" y="186" width="2522" height="156">
+        <frame id="1567:22794" name="Frame 2121455714" x="0" y="0" width="156" height="156" />
+        <frame id="1567:22799" name="Logotype" x="2222.908203125" y="41.00049591064453" width="299.0917053222656" height="73.99900817871094">
+          <frame id="1567:22800" name="Group" x="-0.221893310546875" y="0" width="299.5352478027344" height="73.99900817871094">
+            <vector id="1567:22801" name="Vector" x="93.97728729248047" y="61.04088592529297" width="118.541748046875" height="12.958113670349121" />
+            <frame id="1567:22802" name="Group" x="96.96601104736328" y="62.9735221862793" width="12.336579322814941" height="8.597864151000977" />
+            <frame id="1567:22805" name="Group" x="111.98466491699219" y="62.95185089111328" width="97.42333221435547" height="8.867423057556152" />
+            <frame id="1567:22819" name="Group" x="-0.2219319719442865" y="0" width="299.5352478027344" height="71.78120422363281">
+              <vector id="1567:22820" name="Vector" x="-0.22197063334169798" y="0" width="92.9480209350586" height="56.08863067626953" />
+              <frame id="1567:22821" name="Group" x="216.59662576731353" y="7.469759464263916" width="82.71688079833984" height="64.31144714355469" />
+              <frame id="1567:22824" name="Group" x="222.6850199323526" y="7.423394203186035" width="28.45973777770996" height="48.95656204223633" />
+              <frame id="1567:22827" name="Group" x="160.2677836042276" y="20.571643829345703" width="28.026350021362305" height="36.302520751953125" />
+              <frame id="1567:22832" name="Group" x="126.92842813547759" y="20.963871002197266" width="30.23380470275879" height="35.41405487060547" />
+              <frame id="1567:22835" name="Group" x="92.65084787424712" y="20.963871002197266" width="30.233793258666992" height="35.41405487060547" />
+              <frame id="1567:22838" name="Group" x="192.10474344309478" y="20.642276763916016" width="27.83435821533203" height="36.263397216796875" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+      <frame id="1451:25521" name="Dropdown / Menu" x="272" y="564" width="2336" height="3200">
+        <symbol id="1451:25175" name="Selection=Single, Platform=Desktop, Theme=Light, Search=Off, Footer=None" x="32" y="48" width="320" height="188" />
+        <symbol id="1451:25190" name="Selection=Single, Platform=Desktop, Theme=Light, Search=Off, Footer=Label" x="416" y="48" width="320" height="253" />
+        <symbol id="1451:25205" name="Selection=Single, Platform=Desktop, Theme=Light, Search=Off, Footer=Icon + label" x="800" y="48" width="320" height="253" />
+        <symbol id="1451:25220" name="Selection=Single, Platform=Desktop, Theme=Light, Search=On, Footer=None" x="1184" y="48" width="320" height="261" />
+        <symbol id="1451:25235" name="Selection=Single, Platform=Desktop, Theme=Light, Search=On, Footer=Label" x="1568" y="48" width="320" height="326" />
+        <symbol id="1451:25250" name="Selection=Single, Platform=Desktop, Theme=Light, Search=On, Footer=Icon + label" x="1952" y="48" width="320" height="326" />
+        <symbol id="1451:25265" name="Selection=Single, Platform=Desktop, Theme=Dark, Search=Off, Footer=None" x="32" y="422" width="320" height="188" />
+        <symbol id="1451:25280" name="Selection=Single, Platform=Desktop, Theme=Dark, Search=Off, Footer=Label" x="416" y="422" width="320" height="253" />
+        <symbol id="1451:25295" name="Selection=Single, Platform=Desktop, Theme=Dark, Search=Off, Footer=Icon + label" x="800" y="422" width="320" height="253" />
+        <symbol id="1451:25310" name="Selection=Single, Platform=Desktop, Theme=Dark, Search=On, Footer=None" x="1184" y="422" width="320" height="261" />
+        <symbol id="1451:25325" name="Selection=Single, Platform=Desktop, Theme=Dark, Search=On, Footer=Label" x="1568" y="422" width="320" height="326" />
+        <symbol id="1451:25340" name="Selection=Single, Platform=Desktop, Theme=Dark, Search=On, Footer=Icon + label" x="1952" y="422" width="320" height="326" />
+        <symbol id="1451:25355" name="Selection=Single, Platform=Mobile, Theme=Light, Search=Off, Footer=None" x="32" y="796" width="352" height="220" />
+        <symbol id="1451:25370" name="Selection=Single, Platform=Mobile, Theme=Light, Search=Off, Footer=Label" x="416" y="796" width="352" height="293" />
+        <symbol id="1451:25385" name="Selection=Single, Platform=Mobile, Theme=Light, Search=Off, Footer=Icon + label" x="800" y="796" width="352" height="293" />
+        <symbol id="1451:25400" name="Selection=Single, Platform=Mobile, Theme=Light, Search=On, Footer=None" x="1184" y="796" width="352" height="293" />
+        <symbol id="1451:25415" name="Selection=Single, Platform=Mobile, Theme=Light, Search=On, Footer=Label" x="1568" y="796" width="352" height="366" />
+        <symbol id="1451:25430" name="Selection=Single, Platform=Mobile, Theme=Light, Search=On, Footer=Icon + label" x="1952" y="796" width="352" height="366" />
+        <symbol id="1451:25445" name="Selection=Single, Platform=Mobile, Theme=Dark, Search=Off, Footer=None" x="32" y="1210" width="352" height="220" />
+        <symbol id="1451:25460" name="Selection=Single, Platform=Mobile, Theme=Dark, Search=Off, Footer=Label" x="416" y="1210" width="352" height="293" />
+        <symbol id="1451:25475" name="Selection=Single, Platform=Mobile, Theme=Dark, Search=Off, Footer=Icon + label" x="800" y="1210" width="352" height="293" />
+        <symbol id="1451:25490" name="Selection=Single, Platform=Mobile, Theme=Dark, Search=On, Footer=None" x="1184" y="1210" width="352" height="293" />
+        <symbol id="1451:25505" name="Selection=Single, Platform=Mobile, Theme=Dark, Search=On, Footer=Label" x="1568" y="1210" width="352" height="366" />
+        <symbol id="1451:25520" name="Selection=Single, Platform=Mobile, Theme=Dark, Search=On, Footer=Icon + label" x="1952" y="1210" width="352" height="366" />
+        <symbol id="1454:1254" name="Selection=Multiple, Platform=Desktop, Theme=Light, Search=Off, Footer=None" x="32" y="1624" width="320" height="188" />
+        <symbol id="1454:1283" name="Selection=Multiple, Platform=Desktop, Theme=Light, Search=Off, Footer=Label" x="416" y="1624" width="320" height="253" />
+        <symbol id="1454:1317" name="Selection=Multiple, Platform=Desktop, Theme=Light, Search=Off, Footer=Icon + label" x="800" y="1624" width="320" height="253" />
+        <symbol id="1454:1353" name="Selection=Multiple, Platform=Desktop, Theme=Light, Search=On, Footer=None" x="1184" y="1624" width="320" height="261" />
+        <symbol id="1454:1394" name="Selection=Multiple, Platform=Desktop, Theme=Light, Search=On, Footer=Label" x="1568" y="1624" width="320" height="326" />
+        <symbol id="1454:1441" name="Selection=Multiple, Platform=Desktop, Theme=Light, Search=On, Footer=Icon + label" x="1952" y="1624" width="320" height="326" />
+        <symbol id="1454:1490" name="Selection=Multiple, Platform=Desktop, Theme=Dark, Search=Off, Footer=None" x="32" y="1998" width="320" height="188" />
+        <symbol id="1454:1519" name="Selection=Multiple, Platform=Desktop, Theme=Dark, Search=Off, Footer=Label" x="416" y="1998" width="320" height="253" />
+        <symbol id="1454:1553" name="Selection=Multiple, Platform=Desktop, Theme=Dark, Search=Off, Footer=Icon + label" x="800" y="1998" width="320" height="253" />
+        <symbol id="1454:1589" name="Selection=Multiple, Platform=Desktop, Theme=Dark, Search=On, Footer=None" x="1184" y="1998" width="320" height="261" />
+        <symbol id="1454:1630" name="Selection=Multiple, Platform=Desktop, Theme=Dark, Search=On, Footer=Label" x="1568" y="1998" width="320" height="326" />
+        <symbol id="1454:1677" name="Selection=Multiple, Platform=Desktop, Theme=Dark, Search=On, Footer=Icon + label" x="1952" y="1998" width="320" height="326" />
+        <symbol id="1454:1726" name="Selection=Multiple, Platform=Mobile, Theme=Light, Search=Off, Footer=None" x="32" y="2372" width="352" height="220" />
+        <symbol id="1454:1755" name="Selection=Multiple, Platform=Mobile, Theme=Light, Search=Off, Footer=Label" x="416" y="2372" width="352" height="293" />
+        <symbol id="1454:1789" name="Selection=Multiple, Platform=Mobile, Theme=Light, Search=Off, Footer=Icon + label" x="800" y="2372" width="352" height="293" />
+        <symbol id="1454:1825" name="Selection=Multiple, Platform=Mobile, Theme=Light, Search=On, Footer=None" x="1184" y="2372" width="352" height="293" />
+        <symbol id="1454:1866" name="Selection=Multiple, Platform=Mobile, Theme=Light, Search=On, Footer=Label" x="1568" y="2372" width="352" height="366" />
+        <symbol id="1454:1913" name="Selection=Multiple, Platform=Mobile, Theme=Light, Search=On, Footer=Icon + label" x="1952" y="2372" width="352" height="366" />
+        <symbol id="1454:1962" name="Selection=Multiple, Platform=Mobile, Theme=Dark, Search=Off, Footer=None" x="32" y="2786" width="352" height="220" />
+        <symbol id="1454:1991" name="Selection=Multiple, Platform=Mobile, Theme=Dark, Search=Off, Footer=Label" x="416" y="2786" width="352" height="293" />
+        <symbol id="1454:2025" name="Selection=Multiple, Platform=Mobile, Theme=Dark, Search=Off, Footer=Icon + label" x="800" y="2786" width="352" height="293" />
+        <symbol id="1454:2061" name="Selection=Multiple, Platform=Mobile, Theme=Dark, Search=On, Footer=None" x="1184" y="2786" width="352" height="293" />
+        <symbol id="1454:2102" name="Selection=Multiple, Platform=Mobile, Theme=Dark, Search=On, Footer=Label" x="1568" y="2786" width="352" height="366" />
+        <symbol id="1454:2149" name="Selection=Multiple, Platform=Mobile, Theme=Dark, Search=On, Footer=Icon + label" x="1952" y="2786" width="352" height="366" />
+      </frame>
+      <frame id="1451:25092" name="Dropdown / Item" x="464" y="3986" width="1952" height="784">
+        <symbol id="1451:25072" name="Selection=Single, Platform=Desktop, Theme=Light, State=Default" x="32" y="48" width="320" height="40" />
+        <symbol id="1451:25073" name="Selection=Single, Platform=Desktop, Theme=Light, State=Hover" x="416" y="48" width="320" height="40" />
+        <symbol id="1451:25074" name="Selection=Single, Platform=Desktop, Theme=Light, State=Focus" x="800" y="48" width="320" height="40" />
+        <symbol id="1451:25075" name="Selection=Single, Platform=Desktop, Theme=Light, State=Selected" x="1184" y="48" width="320" height="40" />
+        <symbol id="1451:25076" name="Selection=Single, Platform=Desktop, Theme=Light, State=Disabled" x="1568" y="48" width="320" height="40" />
+        <symbol id="1451:25077" name="Selection=Single, Platform=Desktop, Theme=Dark, State=Default" x="32" y="136" width="320" height="40" />
+        <symbol id="1451:25078" name="Selection=Single, Platform=Desktop, Theme=Dark, State=Hover" x="416" y="136" width="320" height="40" />
+        <symbol id="1451:25079" name="Selection=Single, Platform=Desktop, Theme=Dark, State=Focus" x="800" y="136" width="320" height="40" />
+        <symbol id="1451:25080" name="Selection=Single, Platform=Desktop, Theme=Dark, State=Selected" x="1184" y="136" width="320" height="40" />
+        <symbol id="1451:25081" name="Selection=Single, Platform=Desktop, Theme=Dark, State=Disabled" x="1568" y="136" width="320" height="40" />
+        <symbol id="1451:25082" name="Selection=Single, Platform=Mobile, Theme=Light, State=Default" x="32" y="224" width="352" height="48" />
+        <symbol id="1451:25083" name="Selection=Single, Platform=Mobile, Theme=Light, State=Hover" x="416" y="224" width="352" height="48" />
+        <symbol id="1451:25084" name="Selection=Single, Platform=Mobile, Theme=Light, State=Focus" x="800" y="224" width="352" height="48" />
+        <symbol id="1451:25085" name="Selection=Single, Platform=Mobile, Theme=Light, State=Selected" x="1184" y="224" width="352" height="48" />
+        <symbol id="1451:25086" name="Selection=Single, Platform=Mobile, Theme=Light, State=Disabled" x="1568" y="224" width="352" height="48" />
+        <symbol id="1451:25087" name="Selection=Single, Platform=Mobile, Theme=Dark, State=Default" x="32" y="320" width="352" height="48" />
+        <symbol id="1451:25088" name="Selection=Single, Platform=Mobile, Theme=Dark, State=Hover" x="416" y="320" width="352" height="48" />
+        <symbol id="1451:25089" name="Selection=Single, Platform=Mobile, Theme=Dark, State=Focus" x="800" y="320" width="352" height="48" />
+        <symbol id="1451:25090" name="Selection=Single, Platform=Mobile, Theme=Dark, State=Selected" x="1184" y="320" width="352" height="48" />
+        <symbol id="1451:25091" name="Selection=Single, Platform=Mobile, Theme=Dark, State=Disabled" x="1568" y="320" width="352" height="48" />
+        <symbol id="1454:1190" name="Selection=Multiple, Platform=Desktop, Theme=Light, State=Default" x="32" y="416" width="320" height="40" />
+        <symbol id="1454:1193" name="Selection=Multiple, Platform=Desktop, Theme=Light, State=Hover" x="416" y="416" width="320" height="40" />
+        <symbol id="1454:1196" name="Selection=Multiple, Platform=Desktop, Theme=Light, State=Focus" x="800" y="416" width="320" height="40" />
+        <symbol id="1454:1199" name="Selection=Multiple, Platform=Desktop, Theme=Light, State=Selected" x="1184" y="416" width="320" height="40" />
+        <symbol id="1454:1203" name="Selection=Multiple, Platform=Desktop, Theme=Light, State=Disabled" x="1568" y="416" width="320" height="40" />
+        <symbol id="1454:1206" name="Selection=Multiple, Platform=Desktop, Theme=Dark, State=Default" x="32" y="504" width="320" height="40" />
+        <symbol id="1454:1209" name="Selection=Multiple, Platform=Desktop, Theme=Dark, State=Hover" x="416" y="504" width="320" height="40" />
+        <symbol id="1454:1212" name="Selection=Multiple, Platform=Desktop, Theme=Dark, State=Focus" x="800" y="504" width="320" height="40" />
+        <symbol id="1454:1215" name="Selection=Multiple, Platform=Desktop, Theme=Dark, State=Selected" x="1184" y="504" width="320" height="40" />
+        <symbol id="1454:1219" name="Selection=Multiple, Platform=Desktop, Theme=Dark, State=Disabled" x="1568" y="504" width="320" height="40" />
+        <symbol id="1454:1222" name="Selection=Multiple, Platform=Mobile, Theme=Light, State=Default" x="32" y="592" width="352" height="48" />
+        <symbol id="1454:1225" name="Selection=Multiple, Platform=Mobile, Theme=Light, State=Hover" x="416" y="592" width="352" height="48" />
+        <symbol id="1454:1228" name="Selection=Multiple, Platform=Mobile, Theme=Light, State=Focus" x="800" y="592" width="352" height="48" />
+        <symbol id="1454:1231" name="Selection=Multiple, Platform=Mobile, Theme=Light, State=Selected" x="1184" y="592" width="352" height="48" />
+        <symbol id="1454:1235" name="Selection=Multiple, Platform=Mobile, Theme=Light, State=Disabled" x="1568" y="592" width="352" height="48" />
+        <symbol id="1454:1238" name="Selection=Multiple, Platform=Mobile, Theme=Dark, State=Default" x="32" y="688" width="352" height="48" />
+        <symbol id="1454:1241" name="Selection=Multiple, Platform=Mobile, Theme=Dark, State=Hover" x="416" y="688" width="352" height="48" />
+        <symbol id="1454:1244" name="Selection=Multiple, Platform=Mobile, Theme=Dark, State=Focus" x="800" y="688" width="352" height="48" />
+        <symbol id="1454:1247" name="Selection=Multiple, Platform=Mobile, Theme=Dark, State=Selected" x="1184" y="688" width="352" height="48" />
+        <symbol id="1454:1251" name="Selection=Multiple, Platform=Mobile, Theme=Dark, State=Disabled" x="1568" y="688" width="352" height="48" />
+      </frame>
+    </frame>
+  </section>
+</canvas>

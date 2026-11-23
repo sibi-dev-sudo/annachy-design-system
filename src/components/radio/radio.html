@@ -1,0 +1,24 @@
+<!--
+  Annachy Design System — Radio Button canonical markup (R3-5). Figma ".Selection Controls / Radio Button" 1504:52363.
+  Root: .annachy-radio + --small|--medium|--large [+ --control-right] [+ --align-top|--align-bottom]
+  Group radios in a <fieldset> with a <legend>; native arrow-key behaviour applies (B-01).
+-->
+<fieldset>
+  <legend>Delivery</legend>
+  <div class="annachy-radio annachy-radio--medium">
+    <input class="annachy-radio__input" type="radio" name="delivery" id="d-std" aria-describedby="d-std-sub" checked>
+    <span class="annachy-radio__circle" aria-hidden="true"><span class="annachy-radio__dot"></span></span>
+    <span class="annachy-radio__content">
+      <label class="annachy-radio__label" for="d-std">Standard</label>
+      <span class="annachy-radio__subtext" id="d-std-sub">3–5 days</span>
+    </span>
+  </div>
+  <div class="annachy-radio annachy-radio--medium">
+    <input class="annachy-radio__input" type="radio" name="delivery" id="d-exp" aria-describedby="d-exp-sub">
+    <span class="annachy-radio__circle" aria-hidden="true"><span class="annachy-radio__dot"></span></span>
+    <span class="annachy-radio__content">
+      <label class="annachy-radio__label" for="d-exp">Express</label>
+      <span class="annachy-radio__subtext" id="d-exp-sub">Next day</span>
+    </span>
+  </div>
+</fieldset>

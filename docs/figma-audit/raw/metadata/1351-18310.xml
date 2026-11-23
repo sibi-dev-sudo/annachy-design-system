@@ -1,0 +1,1119 @@
+<canvas id="1351:18310" name="  › ②  Checkbox ✓" x="0" y="0" width="0" height="0">
+  <instance id="1463:2831" name="Toggle" x="-83" y="-457" width="164" height="20" />
+  <instance id="1463:2832" name="Toggle" x="-83" y="-362.67529296875" width="164" height="20" />
+  <instance id="1463:2833" name="Toggle" x="-83" y="-268.3505859375" width="164" height="20" />
+  <instance id="1463:2834" name="Toggle" x="-83" y="-174.02587890625" width="164" height="20" />
+  <instance id="1463:2835" name="Toggle" x="-83" y="-79.701171875" width="164" height="20" />
+  <instance id="1463:2836" name="Toggle" x="-83" y="14.6240234375" width="164" height="20" />
+  <instance id="1463:2837" name="Toggle" x="-83" y="108.94873046875" width="164" height="20" />
+  <instance id="1463:2838" name="Toggle" x="-83" y="203.2734375" width="164" height="20" />
+  <instance id="1463:2839" name="Toggle" x="-83" y="297.59814453125" width="164" height="20" />
+  <instance id="1463:2840" name="Toggle" x="-83" y="391.9228515625" width="164" height="20" />
+  <frame id="1464:2972" name="Dropdown / Item" x="-261" y="486" width="1952" height="784">
+    <symbol id="1464:2973" name="Selection=Single, Platform=Desktop, Theme=Light, State=Default" x="32" y="48" width="320" height="40" />
+    <symbol id="1464:2976" name="Selection=Single, Platform=Desktop, Theme=Light, State=Hover" x="416" y="48" width="320" height="40" />
+    <symbol id="1464:2979" name="Selection=Single, Platform=Desktop, Theme=Light, State=Focus" x="800" y="48" width="320" height="40" />
+    <symbol id="1464:2982" name="Selection=Single, Platform=Desktop, Theme=Light, State=Selected" x="1184" y="48" width="320" height="40" />
+    <symbol id="1464:2986" name="Selection=Single, Platform=Desktop, Theme=Light, State=Disabled" x="1568" y="48" width="320" height="40" />
+    <symbol id="1464:2989" name="Selection=Single, Platform=Desktop, Theme=Dark, State=Default" x="32" y="136" width="320" height="40" />
+    <symbol id="1464:2992" name="Selection=Single, Platform=Desktop, Theme=Dark, State=Hover" x="416" y="136" width="320" height="40" />
+    <symbol id="1464:2995" name="Selection=Single, Platform=Desktop, Theme=Dark, State=Focus" x="800" y="136" width="320" height="40" />
+    <symbol id="1464:2998" name="Selection=Single, Platform=Desktop, Theme=Dark, State=Selected" x="1184" y="136" width="320" height="40" />
+    <symbol id="1464:3002" name="Selection=Single, Platform=Desktop, Theme=Dark, State=Disabled" x="1568" y="136" width="320" height="40" />
+    <symbol id="1464:3005" name="Selection=Single, Platform=Mobile, Theme=Light, State=Default" x="32" y="224" width="352" height="48" />
+    <symbol id="1464:3008" name="Selection=Single, Platform=Mobile, Theme=Light, State=Hover" x="416" y="224" width="352" height="48" />
+    <symbol id="1464:3011" name="Selection=Single, Platform=Mobile, Theme=Light, State=Focus" x="800" y="224" width="352" height="48" />
+    <symbol id="1464:3014" name="Selection=Single, Platform=Mobile, Theme=Light, State=Selected" x="1184" y="224" width="352" height="48" />
+    <symbol id="1464:3018" name="Selection=Single, Platform=Mobile, Theme=Light, State=Disabled" x="1568" y="224" width="352" height="48" />
+    <symbol id="1464:3021" name="Selection=Single, Platform=Mobile, Theme=Dark, State=Default" x="32" y="320" width="352" height="48" />
+    <symbol id="1464:3024" name="Selection=Single, Platform=Mobile, Theme=Dark, State=Hover" x="416" y="320" width="352" height="48" />
+    <symbol id="1464:3027" name="Selection=Single, Platform=Mobile, Theme=Dark, State=Focus" x="800" y="320" width="352" height="48" />
+    <symbol id="1464:3030" name="Selection=Single, Platform=Mobile, Theme=Dark, State=Selected" x="1184" y="320" width="352" height="48" />
+    <symbol id="1464:3034" name="Selection=Single, Platform=Mobile, Theme=Dark, State=Disabled" x="1568" y="320" width="352" height="48" />
+    <symbol id="1464:3037" name="Selection=Multiple, Platform=Desktop, Theme=Light, State=Default" x="32" y="416" width="320" height="40" />
+    <symbol id="1464:3041" name="Selection=Multiple, Platform=Desktop, Theme=Light, State=Hover" x="416" y="416" width="320" height="40" />
+    <symbol id="1464:3045" name="Selection=Multiple, Platform=Desktop, Theme=Light, State=Focus" x="800" y="416" width="320" height="40" />
+    <symbol id="1464:3049" name="Selection=Multiple, Platform=Desktop, Theme=Light, State=Selected" x="1184" y="416" width="320" height="40" />
+    <symbol id="1464:3053" name="Selection=Multiple, Platform=Desktop, Theme=Light, State=Disabled" x="1568" y="416" width="320" height="40" />
+    <symbol id="1464:3057" name="Selection=Multiple, Platform=Desktop, Theme=Dark, State=Default" x="32" y="504" width="320" height="40" />
+    <symbol id="1464:3061" name="Selection=Multiple, Platform=Desktop, Theme=Dark, State=Hover" x="416" y="504" width="320" height="40" />
+    <symbol id="1464:3065" name="Selection=Multiple, Platform=Desktop, Theme=Dark, State=Focus" x="800" y="504" width="320" height="40" />
+    <symbol id="1464:3069" name="Selection=Multiple, Platform=Desktop, Theme=Dark, State=Selected" x="1184" y="504" width="320" height="40" />
+    <symbol id="1464:3073" name="Selection=Multiple, Platform=Desktop, Theme=Dark, State=Disabled" x="1568" y="504" width="320" height="40" />
+    <symbol id="1464:3077" name="Selection=Multiple, Platform=Mobile, Theme=Light, State=Default" x="32" y="592" width="352" height="48" />
+    <symbol id="1464:3081" name="Selection=Multiple, Platform=Mobile, Theme=Light, State=Hover" x="416" y="592" width="352" height="48" />
+    <symbol id="1464:3085" name="Selection=Multiple, Platform=Mobile, Theme=Light, State=Focus" x="800" y="592" width="352" height="48" />
+    <symbol id="1464:3089" name="Selection=Multiple, Platform=Mobile, Theme=Light, State=Selected" x="1184" y="592" width="352" height="48" />
+    <symbol id="1464:3093" name="Selection=Multiple, Platform=Mobile, Theme=Light, State=Disabled" x="1568" y="592" width="352" height="48" />
+    <symbol id="1464:3097" name="Selection=Multiple, Platform=Mobile, Theme=Dark, State=Default" x="32" y="688" width="352" height="48" />
+    <symbol id="1464:3101" name="Selection=Multiple, Platform=Mobile, Theme=Dark, State=Hover" x="416" y="688" width="352" height="48" />
+    <symbol id="1464:3105" name="Selection=Multiple, Platform=Mobile, Theme=Dark, State=Focus" x="800" y="688" width="352" height="48" />
+    <symbol id="1464:3109" name="Selection=Multiple, Platform=Mobile, Theme=Dark, State=Selected" x="1184" y="688" width="352" height="48" />
+    <symbol id="1464:3113" name="Selection=Multiple, Platform=Mobile, Theme=Dark, State=Disabled" x="1568" y="688" width="352" height="48" />
+  </frame>
+  <frame id="1464:3218" name="desktop" x="-863" y="162" width="418" height="594" />
+  <frame id="1464:10379" name="check box" x="-1394" y="-80" width="192" height="490">
+    <symbol id="1464:10377" name="Platform=Desktop, Mode=Light, State=Unchecked" x="21" y="21" width="150" height="42" />
+    <symbol id="1464:10378" name="Platform=Desktop, Mode=Light, State=Checked" x="21" y="79" width="150" height="42" />
+    <symbol id="1464:10376" name="Platform=Desktop, Mode=Light, State=Disable unchecked" x="21" y="137" width="150" height="42" />
+    <symbol id="1464:10375" name="Platform=Desktop, Mode=Light, State=Disable checked" x="21" y="195" width="150" height="42" />
+    <symbol id="1464:10380" name="Platform=Mobile, Mode=Light, State=Unchecked" x="13" y="253" width="166" height="42" />
+    <symbol id="1464:10487" name="Platform=Mobile, Mode=Light, State=Checked" x="13" y="311" width="166" height="42" />
+    <symbol id="1464:10485" name="Platform=Mobile, Mode=Light, State=Disable unchecked" x="13" y="369" width="166" height="42" />
+    <symbol id="1464:10486" name="Platform=Mobile, Mode=Light, State=Disable checked" x="13" y="427" width="166" height="42" />
+  </frame>
+  <frame id="1464:7443" name="Mobile" x="-1973" y="-3074" width="360" height="4683" />
+  <frame id="1464:8006" name="Annachy - Product Page" x="-1359" y="-4184" width="1440" height="3464">
+    <frame id="1464:8007" name="Frame 1261154367" x="0" y="0" width="1440" height="100">
+      <rounded-rectangle id="1464:8008" name="logo 2" x="42" y="23" width="180" height="54" />
+      <frame id="1464:8009" name="Frame 1261154366" x="287" y="23.5" width="1111" height="53">
+        <frame id="1464:8010" name="Frame 1261154365" x="0" y="0" width="777" height="53">
+          <frame id="1464:8011" name="Frame 1261154361" x="0" y="0" width="203" height="53">
+            <text id="1464:8012" name="Deliver To" x="0" y="0" width="203" height="17" />
+            <frame id="1464:8013" name="Frame 1261154360" x="0" y="23" width="203" height="30">
+              <frame id="1464:8014" name="Frame" x="0" y="0" width="30" height="30" />
+              <frame id="1464:8018" name="Frame 1261154362" x="40" y="4" width="163" height="22">
+                <text id="1464:8019" name="Select Location" x="0" y="0" width="135" height="22" />
+                <frame id="1464:8020" name="Frame" x="143" y="1" width="20" height="20" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="1464:8022" name="Frame 1261154357" x="235" y="0" width="542" height="52">
+            <frame id="1464:8023" name="Frame 1261154358" x="18" y="14" width="472" height="24">
+              <frame id="1464:8024" name="Frame" x="0" y="0" width="24" height="24" />
+              <text id="1464:8027" name="Search for groceries, fashion, electronics and more..." x="34" y="2.5" width="438" height="19" />
+            </frame>
+            <frame id="1464:8028" name="Frame" x="500" y="14" width="24" height="24" />
+          </frame>
+        </frame>
+        <frame id="1464:8032" name="Frame 1261154364" x="883" y="11.5" width="228" height="30">
+          <frame id="1464:8033" name="Frame 1261154356" x="0" y="0" width="125" height="30">
+            <frame id="1464:8034" name="Frame 1261154382" x="0" y="0" width="97" height="30">
+              <frame id="1464:8035" name="Frame" x="0" y="0" width="30" height="30" />
+              <text id="1464:8039" name="Profile" x="40" y="4" width="57" height="22" />
+            </frame>
+            <frame id="1464:8040" name="Frame" x="105" y="5" width="20" height="20" />
+          </frame>
+          <frame id="1464:8042" name="Frame 1261154355" x="149" y="0" width="79" height="30">
+            <frame id="1464:8043" name="Frame" x="0" y="0" width="30" height="30" />
+            <text id="1464:8050" name="Cart" x="40" y="4" width="39" height="22" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="1464:8051" name="Frame 1261154380" x="0" y="100" width="1440" height="80">
+      <frame id="1464:8052" name="Frame 1261154381" x="42" y="28" width="851" height="24">
+        <frame id="1464:8053" name="Frame 1261154374" x="0" y="0" width="189" height="24">
+          <frame id="1464:8054" name="Frame" x="0" y="0" width="24" height="24" />
+          <text id="1464:8058" name="Shop by Category" x="32" y="1" width="157" height="22" />
+        </frame>
+        <frame id="1464:8059" name="Frame 1261154378" x="237" y="1" width="614" height="22">
+          <instance id="1464:8060" name="Frame 1261154370" x="0" y="0" width="97" height="22" />
+          <instance id="1464:8061" name="Frame 1261154371" x="125" y="0" width="153" height="22" />
+          <instance id="1464:8062" name="Frame 1261154372" x="306" y="0" width="151" height="22" />
+          <instance id="1464:8063" name="Frame 1261154373" x="485" y="0" width="129" height="22" />
+        </frame>
+      </frame>
+      <frame id="1464:8064" name="Frame 1261154379" x="988" y="25" width="410" height="30">
+        <frame id="1464:8065" name="Frame 1261154378" x="0" y="0" width="155" height="30">
+          <frame id="1464:8066" name="Frame" x="0" y="0" width="30" height="30" />
+          <text id="1464:8071" name="Today’s Deals" x="34" y="4" width="121" height="22" />
+        </frame>
+        <frame id="1464:8072" name="Frame 1261154377" x="179" y="0" width="90" height="30">
+          <frame id="1464:8073" name="Frame" x="0" y="0" width="30" height="30" />
+          <text id="1464:8077" name="Offers" x="34" y="4" width="56" height="22" />
+        </frame>
+        <frame id="1464:8078" name="Frame 1261154375" x="293" y="3" width="117" height="24">
+          <frame id="1464:8079" name="Frame" x="0" y="0" width="24" height="24" />
+          <text id="1464:8086" name="Buy Again" x="28" y="1" width="89" height="22" />
+        </frame>
+      </frame>
+    </frame>
+    <frame id="1464:8087" name="Frame 1261154395" x="794" y="233" width="568" height="17">
+      <frame id="1464:8088" name="Frame 1261154390" x="0" y="0" width="50" height="17">
+        <text id="1464:8089" name="Home" x="0" y="0" width="40" height="17" />
+        <text id="1464:8090" name="/" x="44" y="0" width="6" height="17" />
+      </frame>
+      <frame id="1464:8091" name="Frame 1261154391" x="62" y="0" width="63" height="17">
+        <text id="1464:8092" name="Fashion" x="0" y="0" width="53" height="17" />
+        <text id="1464:8093" name="/" x="57" y="0" width="6" height="17" />
+      </frame>
+      <frame id="1464:8094" name="Frame 1261154392" x="137" y="0" width="100" height="17">
+        <text id="1464:8095" name="Men Clothing" x="0" y="0" width="90" height="17" />
+        <text id="1464:8096" name="/" x="94" y="0" width="6" height="17" />
+      </frame>
+      <frame id="1464:8097" name="Frame 1261154393" x="249" y="0" width="92" height="17">
+        <text id="1464:8098" name="Sports wear" x="0" y="0" width="82" height="17" />
+        <text id="1464:8099" name="/" x="86" y="0" width="6" height="17" />
+      </frame>
+      <frame id="1464:8100" name="Frame 1261154394" x="353" y="0" width="215" height="17">
+        <text id="1464:8101" name="Men&#39;s Camouflage Print T-shirt" x="0" y="0" width="215" height="17" />
+      </frame>
+    </frame>
+    <frame id="1464:8102" name="Frame 1261154401" x="794" y="278" width="604" height="148">
+      <frame id="1464:8103" name="Frame 1261154400" x="0" y="0" width="604" height="120">
+        <text id="1464:8104" name="Derkley" x="0" y="0" width="604" height="34" />
+        <text id="1464:8105" name="Men&#39;s Camouflage Print T-shirt" x="0" y="44" width="604" height="24" />
+        <instance id="1469:10531" name="check box" x="0" y="78" width="150" height="42" />
+        <frame id="1464:8106" name="Frame 1261154548" x="520" y="0" width="84" height="30">
+          <frame id="1464:8107" name="Frame" x="6" y="0" width="30" height="30" />
+          <frame id="1464:8109" name="Frame" x="54" y="0" width="30" height="30" />
+        </frame>
+      </frame>
+      <frame id="1464:8114" name="Frame 1261154399" x="0" y="128" width="137" height="20">
+        <frame id="1464:8115" name="Frame 1261154398" x="0" y="0" width="99" height="20">
+          <text id="1464:8116" name="4.8" x="0" y="2.5" width="19" height="15" />
+          <frame id="1464:8117" name="Frame 1261154397" x="21" y="0" width="78" height="20">
+            <frame id="1464:8118" name="Frame 1261154396" x="0" y="4" width="54" height="12">
+              <frame id="1464:8119" name="Frame" x="0" y="0" width="12" height="12" />
+              <frame id="1464:8121" name="Frame" x="14" y="0" width="12" height="12" />
+              <frame id="1464:8123" name="Frame" x="28" y="0" width="12" height="12" />
+              <frame id="1464:8125" name="Frame" x="42" y="0" width="12" height="12" />
+            </frame>
+            <frame id="1464:8127" name="Frame" x="58" y="0" width="20" height="20" />
+          </frame>
+        </frame>
+        <text id="1464:8129" name="(385)" x="101" y="1.5" width="36" height="17" />
+      </frame>
+    </frame>
+    <line id="1464:8130" name="Line 15" x="794" y="402" width="604" height="0" />
+    <line id="1464:8131" name="Line 15" x="794" y="538" width="604" height="0" />
+    <line id="1464:8132" name="Line 16" x="794" y="929" width="604" height="0" />
+    <line id="1464:8133" name="Line 21" x="794" y="1096" width="604" height="0" />
+    <line id="1464:8134" name="Line 17" x="794" y="1359" width="604" height="0" />
+    <line id="1464:8135" name="Line 18" x="794" y="1684" width="604" height="0" />
+    <line id="1464:8136" name="Line 22" x="794" y="2284" width="604" height="0" />
+    <line id="1464:8137" name="Line 20" x="42" y="2716" width="1356" height="0.00011854528497678984" />
+    <line id="1464:8138" name="Line 19" x="794" y="1947" width="604" height="0" />
+    <frame id="1464:8139" name="Frame 1261154411" x="794" y="430" width="367" height="80">
+      <frame id="1464:8140" name="Frame 1261154410" x="0" y="0" width="367" height="59">
+        <text id="1464:8141" name="Special price" x="0" y="0" width="367" height="17" />
+        <frame id="1464:8142" name="Frame 1261154404" x="0" y="25" width="367" height="34">
+          <frame id="1464:8143" name="Frame 1261154403" x="0" y="0" width="166" height="34">
+            <text id="1464:8144" name="₹249" x="0" y="0" width="71" height="34" />
+            <frame id="1464:8145" name="Group 1000001473" x="79" y="8.5" width="87" height="17">
+              <text id="1464:8146" name="M.R.P : ₹499" x="79" y="8.5" width="85" height="17" />
+              <line id="1464:8147" name="Line 17" x="125" y="18.5" width="41" height="0.0000035843340810970403" />
+            </frame>
+          </frame>
+          <line id="1464:8148" name="Line 16" x="174" y="30.5" width="0.000001180207561901625" height="27" />
+          <frame id="1464:8149" name="Frame 1261154402" x="182" y="1.5" width="97" height="31">
+            <text id="1464:8150" name="50% Off" x="25.5" y="8" width="46" height="15" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="1464:8151" name="Frame 1261154408" x="0" y="63" width="220" height="17">
+        <text id="1464:8152" name="Price history" x="0" y="1" width="73" height="15" />
+        <line id="1464:8153" name="Line 16" x="77" y="17" width="7.430935511365533e-7" height="17" />
+        <frame id="1464:8154" name="Frame 1261154409" x="81" y="1" width="139" height="15">
+          <text id="1464:8155" name="Inclusive of all taxes" x="0" y="0" width="120" height="15" />
+          <frame id="1464:8156" name="Frame" x="124" y="0" width="15" height="15" />
+        </frame>
+      </frame>
+    </frame>
+    <frame id="1464:8160" name="Frame 1261154438" x="794" y="566" width="604" height="335">
+      <frame id="1464:8161" name="Frame 1261154429" x="0" y="0" width="604" height="193">
+        <frame id="1464:8162" name="Frame 1261154428" x="0" y="0" width="604" height="38">
+          <text id="1464:8163" name="Colours" x="0" y="8" width="69" height="22" />
+          <frame id="1464:8164" name="Frame 1261154427" x="516" y="0" width="88" height="38">
+            <frame id="1464:8165" name="Frame" x="0" y="0" width="38" height="38" />
+            <frame id="1464:8168" name="Frame" x="88" y="0" width="38" height="38" />
+          </frame>
+        </frame>
+        <frame id="1464:8171" name="Frame 1261154426" x="0" y="56" width="604" height="137">
+          <frame id="1464:8172" name="Frame 1261154417" x="0" y="0" width="100" height="137">
+            <frame id="1464:8173" name="Frame 1261154414" x="6" y="4" width="88" height="100">
+              <rounded-rectangle id="1464:8174" name="010834LBLA_1 1" x="-11" y="-7" width="106" height="159" />
+            </frame>
+            <text id="1464:8175" name="Black" x="6" y="116" width="88" height="17" />
+          </frame>
+          <frame id="1464:8176" name="Frame 1261154422" x="124" y="0" width="100" height="137">
+            <frame id="1464:8177" name="Frame 1261154416" x="6" y="4" width="88" height="100">
+              <rounded-rectangle id="1464:8178" name="010834LOLI_1 1" x="0" y="-10" width="106" height="159" />
+            </frame>
+            <text id="1464:8179" name="Olive" x="6" y="116" width="88" height="17" />
+          </frame>
+          <frame id="1464:8180" name="Frame 1261154423" x="248" y="0" width="100" height="137">
+            <frame id="1464:8181" name="Frame 1261154416" x="6" y="4" width="88" height="100">
+              <rounded-rectangle id="1464:8182" name="010834LGRE_1 1" x="-19" y="-10" width="106" height="159" />
+            </frame>
+            <text id="1464:8183" name="Grey" x="6" y="116" width="88" height="17" />
+          </frame>
+          <frame id="1464:8184" name="Frame 1261154424" x="372" y="0" width="100" height="137">
+            <frame id="1464:8185" name="Frame 1261154416" x="6" y="4" width="88" height="100">
+              <frame id="1464:8186" name="Frame 1261154412" x="-6" y="-1" width="93" height="105">
+                <rounded-rectangle id="1464:8187" name="010834LBLUGRE_1 1" x="-13" y="-9" width="106" height="159" />
+              </frame>
+            </frame>
+            <text id="1464:8188" name="Blue Green" x="6" y="116" width="88" height="17" />
+          </frame>
+          <frame id="1464:8189" name="Frame 1261154425" x="496" y="0" width="100" height="137">
+            <frame id="1464:8190" name="Frame 1261154416" x="6" y="4" width="88" height="100">
+              <rounded-rectangle id="1464:8191" name="010834LRED2_1 1" x="-12" y="-11" width="106" height="159" />
+            </frame>
+            <text id="1464:8192" name="Red" x="6" y="116" width="88" height="17" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="1464:8193" name="Frame 1261154437" x="0" y="235" width="604" height="100">
+        <frame id="1464:8194" name="Frame 1261154436" x="0" y="0" width="604" height="22">
+          <text id="1464:8195" name="Select Size" x="0" y="0" width="101" height="22" />
+          <text id="1464:8196" name="Size Guide" x="512" y="2.5" width="92" height="17" />
+        </frame>
+        <frame id="1464:8197" name="Frame 1261154435" x="0" y="40" width="396" height="60">
+          <frame id="1464:8198" name="Frame 1261154430" x="0" y="0" width="60" height="60">
+            <text id="1464:8199" name="S" x="10" y="19" width="40" height="22" />
+          </frame>
+          <frame id="1464:8200" name="Frame 1261154431" x="84" y="0" width="60" height="60">
+            <text id="1464:8201" name="M" x="10" y="19" width="40" height="22" />
+          </frame>
+          <frame id="1464:8202" name="Frame 1261154432" x="168" y="0" width="60" height="60">
+            <text id="1464:8203" name="L" x="10" y="19" width="40" height="22" />
+          </frame>
+          <frame id="1464:8204" name="Frame 1261154433" x="252" y="0" width="60" height="60">
+            <text id="1464:8205" name="XL" x="10" y="19" width="40" height="22" />
+          </frame>
+          <frame id="1464:8206" name="Frame 1261154434" x="336" y="0" width="60" height="60">
+            <text id="1464:8207" name="XXL" x="10" y="19" width="40" height="22" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <text id="1464:8208" name="1" x="982" y="1139" width="40" height="22" />
+    <frame id="1464:8209" name="Frame 1261154447" x="794" y="1124" width="604" height="207">
+      <frame id="1464:8210" name="Frame 1261154446" x="0" y="0" width="604" height="22">
+        <text id="1464:8211" name="Available Offers" x="0" y="0" width="144" height="22" />
+        <text id="1464:8212" name="See 4 More Offers" x="348" y="2.5" width="256" height="17" />
+      </frame>
+      <frame id="1464:8213" name="Frame 1261154445" x="0" y="40" width="604" height="166.4242401123047">
+        <frame id="1464:8214" name="Frame 1261154444" x="0" y="0" width="604" height="67.21212005615234">
+          <frame id="1464:8215" name="Frame" x="0" y="8.606060028076172" width="50" height="50" />
+          <frame id="1464:8220" name="Frame 1261154442" x="62" y="0" width="461" height="67.21212005615234">
+            <frame id="1464:8221" name="Frame 1261154441" x="0" y="0" width="461" height="42.212120056152344">
+              <text id="1464:8222" name="Flat 8% off on purchase of Rs. 200" x="0" y="0" width="461" height="19" />
+              <frame id="1464:8223" name="Frame 1261154439" x="0" y="23" width="72.21212005615234" height="19.212120056152344">
+                <text id="1464:8224" name="Offer Price ₹166" x="4.60606050491333" y="4.60606050491333" width="63" height="10" />
+              </frame>
+            </frame>
+            <frame id="1464:8225" name="Frame 1261154440" x="0" y="50.212120056152344" width="325" height="17">
+              <text id="1464:8226" name="Use Code: NORETURN" x="0" y="0" width="152" height="17" />
+              <line id="1464:8227" name="Line 16" x="160" y="17" width="7.430935511365533e-7" height="17" />
+              <text id="1464:8228" name="Min Purchase: ₹100" x="168" y="0" width="157" height="17" />
+            </frame>
+          </frame>
+        </frame>
+        <frame id="1464:8229" name="Frame 1261154443" x="0" y="99.21212005615234" width="513" height="67.21212005615234">
+          <frame id="1464:8230" name="Group 1000001474" x="0" y="13.60600471496582" width="40" height="40.0001106262207" />
+          <frame id="1464:8236" name="Frame 1261154442" x="52" y="0" width="461" height="67.21212005615234">
+            <frame id="1464:8237" name="Frame 1261154441" x="0" y="0" width="461" height="42.212120056152344">
+              <text id="1464:8238" name="10% instant discount on ICICI Bank Credit Cards full swipe" x="0" y="0" width="461" height="19" />
+              <frame id="1464:8239" name="Frame 1261154439" x="0" y="23" width="72.21212005615234" height="19.212120056152344">
+                <text id="1464:8240" name="Offer Price ₹106" x="4.60606050491333" y="4.60606050491333" width="63" height="10" />
+              </frame>
+            </frame>
+            <frame id="1464:8241" name="Frame 1261154440" x="0" y="50.212120056152344" width="341" height="17">
+              <text id="1464:8242" name="Use Code: TCFICICIRDAY" x="0" y="0" width="168" height="17" />
+              <line id="1464:8243" name="Line 16" x="176" y="17" width="7.430935511365533e-7" height="17" />
+              <text id="1464:8244" name="Min Purchase: ₹300" x="184" y="0" width="157" height="17" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="1464:8245" name="Frame 1261154506" x="1283" y="2658" width="115" height="30">
+      <text id="1464:8246" name="See More" x="11" y="6.5" width="66" height="17" />
+      <frame id="1464:8247" name="Frame" x="85" y="0" width="30" height="30" />
+    </frame>
+    <frame id="1464:8249" name="Frame 1261154458" x="794" y="1387" width="604" height="269">
+      <frame id="1464:8250" name="Frame 1261154457" x="0" y="0" width="604" height="115">
+        <frame id="1464:8251" name="Frame 1261154456" x="0" y="0" width="604" height="88">
+          <text id="1464:8252" name="Delivery Options" x="0" y="0" width="604" height="22" />
+          <frame id="1464:8253" name="Frame 1261154357" x="0" y="36" width="604" height="52">
+            <frame id="1464:8254" name="Frame" x="18" y="14" width="24" height="24" />
+            <frame id="1464:8259" name="Frame 1261154358" x="52" y="16.5" width="116" height="19">
+              <text id="1464:8260" name="Enter pincode" x="0" y="0" width="116" height="19" />
+            </frame>
+            <frame id="1464:8261" name="Frame 1261154359" x="474" y="0" width="130" height="52">
+              <text id="1464:8262" name="Check" x="36.5" y="16.5" width="57" height="19" />
+            </frame>
+          </frame>
+        </frame>
+        <frame id="1464:8263" name="Frame 1261154408" x="0" y="98" width="604" height="17">
+          <text id="1464:8264" name="Delivery by 27th Jan" x="0" y="1" width="119" height="15" />
+          <line id="1464:8265" name="Line 16" x="123" y="17" width="7.430935511365533e-7" height="17" />
+          <frame id="1464:8266" name="Frame 1261154409" x="127" y="1" width="433" height="15">
+            <text id="1464:8267" name="Please enter PIN code to check delivery time &amp; Pay on Delivery Availability" x="0" y="0" width="433" height="15" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="1464:8268" name="Frame 1261154455" x="0" y="157" width="353" height="112">
+        <frame id="1464:8269" name="Frame 1261154454" x="0" y="0" width="110" height="112">
+          <frame id="1464:8270" name="Frame 1261154448" x="25" y="0" width="60" height="60">
+            <frame id="1464:8271" name="Frame" x="15" y="15" width="30" height="30" />
+          </frame>
+          <text id="1464:8276" name="7 Days Return &amp; Replacement" x="0" y="72" width="110" height="40" />
+        </frame>
+        <frame id="1464:8277" name="Frame 1261154452" x="134" y="0" width="89" height="89">
+          <frame id="1464:8278" name="Frame 1261154449" x="14.5" y="0" width="60" height="60">
+            <frame id="1464:8279" name="Frame" x="15" y="15" width="30" height="30" />
+          </frame>
+          <text id="1464:8286" name="Free Delivery" x="0" y="72" width="89" height="17" />
+        </frame>
+        <frame id="1464:8287" name="Frame 1261154453" x="247" y="0" width="106" height="89">
+          <frame id="1464:8288" name="Frame 1261154450" x="23" y="0" width="60" height="60">
+            <frame id="1464:8289" name="Frame" x="15" y="15" width="30" height="30" />
+          </frame>
+          <frame id="1464:8294" name="Frame 1261154451" x="0" y="72" width="106" height="17">
+            <text id="1464:8295" name="Pay on Delivery" x="0" y="0" width="106" height="17" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="1464:8296" name="Frame 1261154505" x="793" y="1712" width="604" height="544">
+      <frame id="1464:8297" name="Frame 1261154504" x="0" y="0" width="604" height="67">
+        <frame id="1464:8298" name="Frame 1261154503" x="0" y="0" width="604" height="30">
+          <frame id="1464:8299" name="Frame 1261154496" x="0" y="0" width="182" height="30">
+            <frame id="1464:8300" name="Frame" x="0" y="0" width="30" height="30" />
+            <text id="1464:8305" name="Product Details" x="38" y="4" width="144" height="22" />
+          </frame>
+          <frame id="1464:8306" name="Frame" x="574" y="30" width="30" height="30" />
+        </frame>
+        <text id="1464:8308" name="Polyester printed t-shirt, has a crew neck and half sleeve" x="0" y="48" width="604" height="19" />
+      </frame>
+      <frame id="1464:8309" name="Frame 1261154505" x="0" y="99" width="604" height="445">
+        <frame id="1464:8310" name="Frame 1261154480" x="0" y="0" width="604" height="40">
+          <frame id="1464:8311" name="Frame 1261154470" x="0" y="0.5" width="180" height="39">
+            <text id="1464:8312" name="• Fabric" x="10" y="10" width="61" height="19" />
+          </frame>
+          <text id="1464:8313" name="Made from durable polyester, ensuring comfort and long-lasting wear." x="198" y="0" width="406" height="40" />
+        </frame>
+        <frame id="1464:8314" name="Frame 1261154481" x="0" y="68" width="604" height="40">
+          <frame id="1464:8315" name="Frame 1261154470" x="0" y="0.5" width="180" height="39">
+            <text id="1464:8316" name="• Design" x="10" y="10" width="66" height="19" />
+          </frame>
+          <text id="1464:8317" name="Features a bold camouflage printed pattern for an edgy, outdoor-inspired look." x="198" y="0" width="406" height="40" />
+        </frame>
+        <frame id="1464:8318" name="Frame 1261154482" x="0" y="136" width="604" height="39">
+          <frame id="1464:8319" name="Frame 1261154470" x="0" y="0" width="180" height="39">
+            <text id="1464:8320" name="• Sleeve Length" x="10" y="10" width="122" height="19" />
+          </frame>
+          <text id="1464:8321" name="Designed with half sleeves for a cool and casual style." x="198" y="11" width="406" height="17" />
+        </frame>
+        <frame id="1464:8322" name="Frame 1261154483" x="0" y="203" width="604" height="39">
+          <frame id="1464:8323" name="Frame 1261154470" x="0" y="0" width="180" height="39">
+            <text id="1464:8324" name="• Neckline" x="10" y="10" width="79" height="19" />
+          </frame>
+          <text id="1464:8325" name="Classic crew neck for a simple, comfortable fit." x="198" y="11" width="406" height="17" />
+        </frame>
+        <frame id="1464:8326" name="Frame 1261154484" x="0" y="270" width="604" height="39">
+          <frame id="1464:8327" name="Frame 1261154470" x="0" y="0" width="180" height="39">
+            <text id="1464:8328" name="Fit" x="10" y="10" width="44" height="19" />
+          </frame>
+          <text id="1464:8329" name="Cut in a slim fit for a sleek, modern silhouette." x="198" y="11" width="406" height="17" />
+        </frame>
+        <frame id="1464:8330" name="Frame 1261154485" x="0" y="337" width="604" height="40">
+          <frame id="1464:8331" name="Frame 1261154470" x="0" y="0.5" width="180" height="39">
+            <text id="1464:8332" name="Purpose" x="10" y="10" width="88" height="19" />
+          </frame>
+          <text id="1464:8333" name="Ideal for sports, providing freedom of movement and flexibility" x="198" y="0" width="406" height="40" />
+        </frame>
+        <frame id="1464:8334" name="Frame 1261154486" x="0" y="405" width="604" height="40">
+          <frame id="1464:8335" name="Frame 1261154470" x="0" y="0.5" width="180" height="39">
+            <text id="1464:8336" name="Care Instructions" x="12" y="10" width="156" height="19" />
+          </frame>
+          <text id="1464:8337" name="Gentle machine wash to keep the fabric and print in excellent condition." x="198" y="0" width="406" height="40" />
+        </frame>
+      </frame>
+    </frame>
+    <frame id="1464:8338" name="Frame 1261154502" x="793" y="2312" width="605" height="318">
+      <frame id="1464:8339" name="Frame 1261154497" x="0" y="0" width="182" height="30">
+        <frame id="1464:8340" name="Frame" x="0" y="0" width="30" height="30" />
+        <text id="1464:8344" name="Specifications" x="38" y="4" width="144" height="22" />
+      </frame>
+      <frame id="1464:8345" name="Frame 1261154501" x="0" y="48" width="605" height="270">
+        <frame id="1464:8346" name="Frame 1261154498" x="0" y="0" width="605" height="62">
+          <frame id="1464:8347" name="Frame 1261154490" x="0" y="0" width="270" height="62">
+            <frame id="1464:8348" name="Frame 1261154459" x="0" y="0" width="99" height="44">
+              <text id="1464:8349" name="Occasion" x="0" y="0" width="99" height="17" />
+              <text id="1464:8350" name="Sports" x="0" y="25" width="99" height="19" />
+            </frame>
+            <line id="1464:8351" name="Line 24" x="0" y="62" width="270" height="0" />
+          </frame>
+          <frame id="1464:8352" name="Frame 1261154491" x="335" y="0" width="270" height="62">
+            <frame id="1464:8353" name="Frame 1261154461" x="0" y="0" width="96" height="44">
+              <text id="1464:8354" name="Sleeve Length" x="0" y="0" width="96" height="17" />
+              <text id="1464:8355" name="Half Sleeve" x="0" y="25" width="96" height="19" />
+            </frame>
+            <line id="1464:8356" name="Line 21" x="0" y="62" width="270" height="0" />
+          </frame>
+        </frame>
+        <frame id="1464:8357" name="Frame 1261154499" x="0" y="104" width="605" height="62">
+          <frame id="1464:8358" name="Frame 1261154493" x="0" y="0" width="270" height="62">
+            <frame id="1464:8359" name="Frame 1261154462" x="0" y="0" width="57" height="44">
+              <text id="1464:8360" name="Pattern" x="0" y="0" width="57" height="17" />
+              <text id="1464:8361" name="Printed" x="0" y="25" width="57" height="19" />
+            </frame>
+            <line id="1464:8362" name="Line 19" x="0" y="62" width="270" height="0" />
+          </frame>
+          <frame id="1464:8363" name="Frame 1261154492" x="335" y="0" width="270" height="62">
+            <frame id="1464:8364" name="Frame 1261154460" x="0" y="0" width="74" height="44">
+              <text id="1464:8365" name="Fabric" x="0" y="0" width="74" height="17" />
+              <text id="1464:8366" name="Polyester" x="0" y="25" width="74" height="19" />
+            </frame>
+            <line id="1464:8367" name="Line 22" x="0" y="62" width="270" height="0" />
+          </frame>
+        </frame>
+        <frame id="1464:8368" name="Frame 1261154500" x="0" y="208" width="605" height="62">
+          <frame id="1464:8369" name="Frame 1261154494" x="0" y="0" width="270" height="62">
+            <frame id="1464:8370" name="Frame 1261154463" x="0" y="0" width="169" height="44">
+              <text id="1464:8371" name="Fabric Care" x="0" y="0" width="169" height="17" />
+              <text id="1464:8372" name="Gentle Machine Wash" x="0" y="25" width="169" height="19" />
+            </frame>
+            <line id="1464:8373" name="Line 20" x="0" y="62" width="270" height="0" />
+          </frame>
+          <frame id="1464:8374" name="Frame 1261154495" x="335" y="0" width="270" height="62">
+            <frame id="1464:8375" name="Frame 1261154464" x="0" y="0" width="34" height="44">
+              <text id="1464:8376" name="Fit" x="0" y="0" width="34" height="17" />
+              <text id="1464:8377" name="Slim" x="0" y="25" width="34" height="19" />
+            </frame>
+            <line id="1464:8378" name="Line 23" x="0" y="62" width="270" height="0" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="1464:8379" name="Frame 1261154533" x="42" y="2758" width="1356" height="195">
+      <frame id="1464:8380" name="Frame 1261154509" x="0" y="0" width="321" height="195">
+        <rounded-rectangle id="1464:8381" name="logo 2" x="27.66666603088379" y="58" width="266.6666564941406" height="79.57958221435547" />
+      </frame>
+      <frame id="1464:8382" name="Frame 1261154532" x="359" y="24" width="997" height="147">
+        <frame id="1464:8383" name="Frame 1261154531" x="0" y="12.5" width="240" height="122">
+          <text id="1464:8384" name="Overall Rating" x="0" y="0" width="240" height="34" />
+          <frame id="1464:8385" name="Frame 1261154530" x="0" y="52" width="240" height="70">
+            <text id="1464:8386" name="4.8 ★" x="0" y="0" width="240" height="51" />
+            <text id="1464:8387" name="Based on 716 Saravana Stores Customers" x="0" y="55" width="240" height="15" />
+          </frame>
+        </frame>
+        <frame id="1464:8388" name="Frame 1261154529" x="282" y="0" width="667" height="147">
+          <frame id="1464:8389" name="Frame 1261154527" x="0" y="0" width="268" height="147">
+            <text id="1464:8390" name="Rating Distribution" x="0" y="0" width="268" height="19" />
+            <frame id="1464:8391" name="Frame 1261154526" x="0" y="37" width="268" height="110">
+              <frame id="1464:8392" name="Frame 1261154522" x="0" y="0" width="268" height="17">
+                <text id="1464:8393" name="5★" x="0" y="0" width="24" height="17" />
+                <instance id="1464:8394" name="Component 30" x="32" y="5.5" width="197" height="6" />
+                <text id="1464:8395" name="32%" x="237" y="0" width="31" height="17" />
+              </frame>
+              <frame id="1464:8396" name="Frame 1261154523" x="0" y="31" width="268" height="17">
+                <text id="1464:8397" name="5★" x="1" y="0" width="25" height="17" />
+                <instance id="1464:8398" name="Component 30" x="34" y="5.5" width="197" height="6" />
+                <text id="1464:8399" name="32%" x="239" y="0" width="28" height="17" />
+              </frame>
+              <frame id="1464:8400" name="Frame 1261154524" x="0" y="62" width="268" height="17">
+                <text id="1464:8401" name="5★" x="1.5" y="0" width="24" height="17" />
+                <instance id="1464:8402" name="Component 30" x="33.5" y="5.5" width="197" height="6" />
+                <text id="1464:8403" name="32%" x="238.5" y="0" width="28" height="17" />
+              </frame>
+              <frame id="1464:8404" name="Frame 1261154525" x="0" y="93" width="268" height="17">
+                <text id="1464:8405" name="5★" x="1.5" y="0" width="24" height="17" />
+                <instance id="1464:8406" name="Component 30" x="33.5" y="5.5" width="197" height="6" />
+                <text id="1464:8407" name="32%" x="238.5" y="0" width="28" height="17" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="1464:8408" name="Frame 1261154528" x="348" y="0" width="319" height="147">
+            <text id="1464:8409" name="How was the Product Quality?" x="0" y="0" width="319" height="19" />
+            <frame id="1464:8410" name="Frame 1261154520" x="0" y="37" width="319" height="110">
+              <frame id="1464:8411" name="Frame 1261154516" x="0" y="0" width="319" height="17">
+                <text id="1464:8412" name="Excellent" x="1" y="0" width="75" height="17" />
+                <instance id="1464:8413" name="Component 30" x="84" y="5.5" width="197" height="6" />
+                <text id="1464:8414" name="18%" x="289" y="0" width="29" height="17" />
+              </frame>
+              <frame id="1464:8415" name="Frame 1261154519" x="0" y="31" width="319" height="17">
+                <text id="1464:8416" name="Very Good" x="0" y="0" width="75" height="17" />
+                <instance id="1464:8417" name="Component 30" x="83" y="5.5" width="197" height="6" />
+                <text id="1464:8418" name="27%" x="288" y="0" width="30" height="17" />
+              </frame>
+              <frame id="1464:8419" name="Frame 1261154518" x="0" y="62" width="319" height="17">
+                <text id="1464:8420" name="Average" x="0" y="0" width="75" height="17" />
+                <instance id="1464:8421" name="Component 30" x="83" y="5.5" width="197" height="6" />
+                <text id="1464:8422" name="34%" x="288" y="0" width="31" height="17" />
+              </frame>
+              <frame id="1464:8423" name="Frame 1261154517" x="0" y="93" width="310" height="17">
+                <text id="1464:8424" name="Bad" x="0" y="0" width="75" height="17" />
+                <instance id="1464:8425" name="Component 30" x="83" y="5.5" width="197" height="6" />
+                <text id="1464:8426" name="6%" x="288" y="0" width="22" height="17" />
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="1464:8427" name="Frame 1261154547" x="42" y="3040" width="1356" height="382">
+      <frame id="1464:8428" name="Frame 1261154544" x="0" y="0" width="1356" height="30">
+        <text id="1464:8429" name="Related Products" x="0" y="0" width="206" height="29" />
+        <frame id="1464:8430" name="Frame 1261154543" x="1184" y="0" width="172" height="30">
+          <text id="1464:8431" name="View All Products" x="0" y="6.5" width="134" height="17" />
+          <frame id="1464:8432" name="Frame" x="142" y="30" width="30" height="30" />
+        </frame>
+      </frame>
+      <frame id="1464:8434" name="Frame 1261154542" x="0" y="62" width="1356" height="320">
+        <frame id="1464:8435" name="Image - 4" x="13" y="0" width="250" height="320">
+          <rounded-rectangle id="1464:8436" name="003372XLOFFWHI_1 1" x="-4" y="-7" width="257.3299865722656" height="385.9949951171875" />
+          <frame id="1464:8437" name="Group 1000001480" x="11.208880424499512" y="0" width="38.69910430908203" height="72.61093139648438">
+            <vector id="1464:8438" name="Vector 1" x="49.804606437683105" y="0" width="38.6990993251427" height="72.61093456876324" />
+            <frame id="1464:8439" name="Frame 1261154546" x="16.53512954711914" y="15.3974609375" width="28.42588996887207" height="39.27766418457031">
+              <frame id="1464:8440" name="Frame 1261154545" x="0" y="0.028532981872558594" width="28.42588996887207" height="26">
+                <text id="1464:8441" name="50%" x="0" y="0" width="28.42588996887207" height="13" />
+                <text id="1464:8442" name="OFF" x="0" y="13" width="28.42588996887207" height="13" />
+              </frame>
+              <rounded-rectangle id="1464:8443" name="logo 2" x="0" y="30.76618194580078" width="28.42588996887207" height="8.482950210571289" />
+            </frame>
+          </frame>
+        </frame>
+        <frame id="1464:8444" name="Image - 1" x="283" y="0" width="250" height="320">
+          <rounded-rectangle id="1464:8445" name="01135542DARGRE_1 1" x="-4" y="-24" width="257.3333435058594" height="386" />
+          <frame id="1464:8446" name="Group 1000001480" x="11.208880424499512" y="0" width="38.69910430908203" height="72.61093139648438">
+            <vector id="1464:8447" name="Vector 1" x="49.804606437683105" y="0" width="38.69909932514281" height="72.61093456876324" />
+            <frame id="1464:8448" name="Frame 1261154546" x="16.53512954711914" y="15.3974609375" width="28.42588996887207" height="39.27766418457031">
+              <frame id="1464:8449" name="Frame 1261154545" x="0" y="0.028532981872558594" width="28.42588996887207" height="26">
+                <text id="1464:8450" name="50%" x="0" y="0" width="28.42588996887207" height="13" />
+                <text id="1464:8451" name="OFF" x="0" y="13" width="28.42588996887207" height="13" />
+              </frame>
+              <rounded-rectangle id="1464:8452" name="logo 2" x="0" y="30.76618194580078" width="28.42588996887207" height="8.482950210571289" />
+            </frame>
+          </frame>
+        </frame>
+        <frame id="1464:8453" name="Image - 3" x="553" y="0" width="250" height="320">
+          <rounded-rectangle id="1464:8454" name="01135542MUS_1 1" x="-4" y="-5" width="257.3299865722656" height="385.9949951171875" />
+          <frame id="1464:8455" name="Group 1000001480" x="11.20881462097168" y="0" width="38.69910430908203" height="72.61093139648438">
+            <vector id="1464:8456" name="Vector 1" x="49.80460548400879" y="0" width="38.69909932514281" height="72.61093456876324" />
+            <frame id="1464:8457" name="Frame 1261154546" x="16.5351300239563" y="15.3974609375" width="28.42588996887207" height="39.27766418457031">
+              <frame id="1464:8458" name="Frame 1261154545" x="0" y="0.028532981872558594" width="28.42588996887207" height="26">
+                <text id="1464:8459" name="50%" x="0" y="0" width="28.42588996887207" height="13" />
+                <text id="1464:8460" name="OFF" x="0" y="13" width="28.42588996887207" height="13" />
+              </frame>
+              <rounded-rectangle id="1464:8461" name="logo 2" x="0" y="30.76618194580078" width="28.42588996887207" height="8.482950210571289" />
+            </frame>
+          </frame>
+        </frame>
+        <frame id="1464:8462" name="Image - 2" x="823" y="0" width="250" height="320">
+          <rounded-rectangle id="1464:8463" name="004879XLDARCOR_1 1" x="-4" y="-3" width="257.3299865722656" height="385.9949951171875" />
+          <frame id="1464:8464" name="Group 1000001480" x="11.20881462097168" y="0" width="38.69910430908203" height="72.61093139648438">
+            <vector id="1464:8465" name="Vector 1" x="49.80460548400879" y="0" width="38.69909932514281" height="72.61093456876324" />
+            <frame id="1464:8466" name="Frame 1261154546" x="16.5351300239563" y="15.3974609375" width="28.42588996887207" height="39.27766418457031">
+              <frame id="1464:8467" name="Frame 1261154545" x="0" y="0.028532981872558594" width="28.42588996887207" height="26">
+                <text id="1464:8468" name="50%" x="0" y="0" width="28.42588996887207" height="13" />
+                <text id="1464:8469" name="OFF" x="0" y="13" width="28.42588996887207" height="13" />
+              </frame>
+              <rounded-rectangle id="1464:8470" name="logo 2" x="0" y="30.76618194580078" width="28.42588996887207" height="8.482950210571289" />
+            </frame>
+          </frame>
+        </frame>
+        <frame id="1464:8471" name="Image - 4" x="1093" y="0" width="250" height="320">
+          <rounded-rectangle id="1464:8472" name="010834LOLI_1 1" x="-4" y="-33" width="257.3299560546875" height="385.99493408203125" />
+        </frame>
+        <vector id="1464:8473" name="Vector" x="1354.328125" y="126.671875" width="66.66666412353516" height="66.66666412353516" />
+        <vector id="1464:8474" name="Vector" x="1326" y="146.671875" width="10" height="26.66666603088379" />
+        <frame id="1464:8475" name="Group 1000001479" x="1" y="126.6640625" width="66.66666412353516" height="66.66666412353516" />
+        <frame id="1464:8478" name="Group 1000001480" x="1100.2635498046875" y="0" width="38.69910430908203" height="72.61093139648438">
+          <vector id="1464:8479" name="Vector 1" x="1138.859317779541" y="0" width="38.69909932514281" height="72.61093456876324" />
+          <frame id="1464:8480" name="Frame 1261154546" x="1105.5858154296875" y="15.3984375" width="28.42588996887207" height="39.27766418457031">
+            <frame id="1464:8481" name="Frame 1261154545" x="0" y="0.028532981872558594" width="28.42588996887207" height="26">
+              <text id="1464:8482" name="50%" x="0" y="0" width="28.42588996887207" height="13" />
+              <text id="1464:8483" name="OFF" x="0" y="13" width="28.42588996887207" height="13" />
+            </frame>
+            <rounded-rectangle id="1464:8484" name="logo 2" x="0" y="30.76618194580078" width="28.42588996887207" height="8.482950210571289" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="1464:8485" name="Frame 1261154389" x="46" y="233" width="688" height="2112">
+      <frame id="1464:8486" name="Frame 1261154387" x="0" y="0" width="688" height="462.22222900390625">
+        <frame id="1464:8487" name="Frame 1261154383" x="0" y="0" width="337.77777099609375" height="462.22222900390625">
+          <rounded-rectangle id="1464:8488" name="010834LBLU_1 1" x="-3.637978807091713e-12" y="-22.222318649291992" width="337.77777099609375" height="506.6666564941406" />
+        </frame>
+        <frame id="1464:8489" name="Frame 1261154384" x="349.77777099609375" y="0" width="337.77777099609375" height="462.22222900390625">
+          <rounded-rectangle id="1464:8490" name="010834LBLU_2 1" x="0.0007375849527306855" y="-22.222318649291992" width="337.77777099609375" height="506.6666564941406" />
+        </frame>
+      </frame>
+      <frame id="1464:8491" name="Frame 1261154388" x="0" y="474.22222900390625" width="688" height="462.22222900390625">
+        <frame id="1464:8492" name="Frame 1261154385" x="0" y="0" width="337.77777099609375" height="462.22222900390625">
+          <rounded-rectangle id="1464:8493" name="010834LBLU_3 1" x="-3.637978807091713e-12" y="-22.22281837463379" width="337.77777099609375" height="506.6666564941406" />
+        </frame>
+        <frame id="1464:8494" name="Frame 1261154386" x="349.77777099609375" y="0" width="337.77777099609375" height="462.22222900390625">
+          <rounded-rectangle id="1464:8495" name="010834LBLU_4 1" x="0.0007375849527306855" y="-22.22281837463379" width="337.77777099609375" height="506.6666564941406" />
+        </frame>
+        <frame id="1464:8496" name="View More" x="598" y="-144.21875" width="60" height="60">
+          <frame id="1464:8497" name="Frame" x="15" y="15" width="30" height="30" />
+          <vector id="1464:8500" name="Vector" x="18.75" y="21.25" width="17.5" height="21.25" />
+        </frame>
+      </frame>
+    </frame>
+    <frame id="1464:8501" name="Group 1000001481" x="46" y="214" width="79.34761047363281" height="144.61093139648438">
+      <frame id="1464:8502" name="Group 1000001480" x="60.00025177001953" y="236" width="65.34736633300781" height="122.61093139648438">
+        <vector id="1464:8503" name="Vector 1" x="125.17322540283203" y="236" width="65.34736417302611" height="122.61093285534116" />
+        <frame id="1464:8504" name="Frame 1261154546" x="69.00130081176758" y="262" width="48" height="66.32432556152344">
+          <frame id="1464:8505" name="Frame 1261154545" x="0" y="0" width="48" height="44">
+            <text id="1464:8506" name="50%" x="0" y="0" width="48" height="22" />
+            <text id="1464:8507" name="OFF" x="0" y="22" width="48" height="22" />
+          </frame>
+          <rounded-rectangle id="1464:8508" name="logo 2" x="0" y="52" width="48" height="14.324323654174805" />
+        </frame>
+      </frame>
+      <ellipse id="1464:8509" name="Ellipse 10" x="46" y="214" width="46" height="46" />
+      <frame id="1464:8510" name="Frame" x="54" y="222" width="30" height="30" />
+    </frame>
+    <frame id="1464:8515" name="Frame 1261154556" x="794" y="957" width="604" height="111">
+      <text id="1464:8516" name="Quantity" x="0" y="0" width="604" height="22" />
+      <frame id="1464:8517" name="Frame 1261154555" x="0" y="40" width="604" height="71">
+        <frame id="1464:8518" name="Frame 1261154554" x="0" y="3" width="233" height="65">
+          <frame id="1464:8519" name="Frame 1261154553" x="0" y="0" width="233" height="65">
+            <frame id="1464:8520" name="Frame 1261154551" x="0" y="0" width="77.66666412353516" height="65">
+              <frame id="1464:8521" name="Frame" x="23.833332061767578" y="17.5" width="30" height="30" />
+            </frame>
+            <frame id="1464:8523" name="Frame 1261154430" x="77.66666412353516" y="0" width="77.66667175292969" height="65">
+              <text id="1464:8524" name="1" x="10" y="21.5" width="57.66667175292969" height="22" />
+            </frame>
+            <frame id="1464:8525" name="Frame 1261154550" x="155.33334350585938" y="0" width="77.66667175292969" height="65">
+              <frame id="1464:8526" name="Frame" x="23.833335876464844" y="17.5" width="30" height="30" />
+            </frame>
+          </frame>
+        </frame>
+        <frame id="1464:8529" name="Frame 1261154549" x="280" y="0.5" width="324" height="70">
+          <frame id="1464:8530" name="Frame 1261154355" x="10" y="10" width="304" height="50">
+            <frame id="1464:8531" name="Frame" x="73.5" y="10" width="30" height="30" />
+            <text id="1464:8538" name="Add To Cart" x="113.5" y="13" width="117" height="24" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <instance id="1464:9193" name="Dropdown / Menu" x="-1273" y="557" width="352" height="293" />
+  <frame id="1464:10372" name="Frame 2121454945" x="-910" y="821" width="399" height="337" />
+  <instance id="1464:10381" name="All Buttons" x="-1017" y="386" width="104" height="24" />
+  <frame id="1474:1100" name="Frame 2121454946" x="-718" y="-140" width="208" height="120">
+    <instance id="1474:1096" name="check box" x="25" y="35" width="150" height="42" />
+  </frame>
+  <frame id="1500:26692" name="Pilot documentation /Checkbox Button" x="-8752" y="-1889" width="1814" height="2246">
+    <frame id="1500:26693" name="Title block" x="70" y="80" width="1312" height="148">
+      <text id="1500:26694" name="Checkbox Button" x="0" y="20" width="323" height="40" />
+      <text id="1500:26695" name="Radio buttons allow users to select one option from a set. Use radio buttons when the user needs to see all available options. If available options can be collapsed, consider using a dropdown menu instead." x="0" y="72" width="1312" height="48" />
+    </frame>
+    <frame id="1500:26696" name="Section heading" x="70" y="288" width="1312" height="48">
+      <text id="1500:26697" name="State comparison" x="0" y="11" width="206" height="26" />
+    </frame>
+    <frame id="1500:26698" name="Table header" x="70" y="348" width="1312" height="48">
+      <frame id="1500:26699" name="State label header" x="0" y="0" width="240" height="48">
+        <text id="1500:26700" name="State" x="24" y="13" width="37" height="22" />
+      </frame>
+      <frame id="1500:26701" name="Size header small" x="240" y="0" width="357.6666564941406" height="48">
+        <text id="1500:26702" name="Small 20 × 20" x="129.3333282470703" y="13" width="99" height="22" />
+      </frame>
+      <frame id="1500:26703" name="Size header medium" x="597.6666259765625" y="0" width="357.66668701171875" height="48">
+        <text id="1500:26704" name="Medium · 24 × 24" x="112.33334350585938" y="13" width="133" height="22" />
+      </frame>
+      <frame id="1500:26705" name="Size header large" x="955.3333129882812" y="0" width="356.66668701171875" height="48">
+        <text id="1500:26706" name="Large · 28 × 28" x="120.33334350585938" y="13" width="116" height="22" />
+      </frame>
+    </frame>
+    <frame id="1500:27162" name="Frame 2121455835" x="70" y="396" width="240" height="448">
+      <frame id="1500:26716" name="State label" x="0" y="0" width="240" height="64">
+        <text id="1500:26717" name="Checked" x="24" y="23" width="60" height="18" />
+      </frame>
+      <frame id="1500:26750" name="State label" x="0" y="64" width="240" height="64">
+        <text id="1500:26751" name="Multi-selected" x="24" y="23" width="93" height="18" />
+      </frame>
+      <frame id="1500:26758" name="State label" x="0" y="128" width="240" height="64">
+        <text id="1500:26759" name="Unchecked" x="24" y="23" width="76" height="18" />
+      </frame>
+      <frame id="1500:26766" name="State label" x="0" y="192" width="240" height="64">
+        <text id="1500:26767" name="Label" x="24" y="23" width="58" height="18" />
+      </frame>
+      <frame id="1500:26774" name="State label" x="0" y="256" width="240" height="64">
+        <text id="1500:26775" name="Label" x="24" y="23" width="82" height="18" />
+      </frame>
+      <frame id="1500:27163" name="State label" x="0" y="320" width="240" height="64">
+        <text id="1500:27164" name="Label" x="24" y="23" width="40" height="18" />
+      </frame>
+      <frame id="1500:26782" name="State label" x="0" y="384" width="240" height="64">
+        <text id="1500:26783" name="Label" x="24" y="23" width="54" height="18" />
+      </frame>
+    </frame>
+    <frame id="1500:27159" name="Frame 2121455832" x="310" y="396" width="357.3333435058594" height="448">
+      <frame id="1500:26720" name="Size sample" x="0" y="0" width="357.3333435058594" height="64">
+        <instance id="1500:27093" name="Checkbox" x="168.6666717529297" y="22" width="20" height="20" />
+      </frame>
+      <frame id="1500:26752" name="Size sample" x="0" y="64" width="357.3333435058594" height="64">
+        <instance id="1500:27106" name="Checkbox" x="168.6666717529297" y="22" width="20" height="20" />
+      </frame>
+      <frame id="1500:26760" name="Size sample" x="0" y="128" width="357.3333435058594" height="64">
+        <instance id="1500:27108" name="Checkbox" x="168.6666717529297" y="22" width="20" height="20" />
+      </frame>
+      <frame id="1500:26768" name="Size sample" x="0" y="192" width="357.3333435058594" height="64">
+        <instance id="1500:27104" name="Checkbox" x="168.6666717529297" y="22" width="20" height="20" />
+      </frame>
+      <frame id="1500:26776" name="Size sample" x="0" y="256" width="357.3333435058594" height="64">
+        <instance id="1500:27105" name="Checkbox" x="168.6666717529297" y="22" width="20" height="20" />
+      </frame>
+      <frame id="1500:27165" name="Size sample" x="0" y="320" width="357.3333435058594" height="64">
+        <instance id="1500:27166" name="Checkbox" x="168.6666717529297" y="22" width="20" height="20" />
+      </frame>
+      <frame id="1500:26784" name="Size sample" x="0" y="384" width="357.3333435058594" height="64">
+        <instance id="1500:27107" name="Checkbox" x="168.6666717529297" y="22" width="20" height="20" />
+      </frame>
+    </frame>
+    <frame id="1500:27227" name="Frame 2121455836" x="667.33349609375" y="396" width="357.3333435058594" height="448">
+      <frame id="1500:27228" name="Size sample" x="0" y="0" width="357.3333435058594" height="64">
+        <instance id="1500:27229" name="Checkbox" x="166.6666717529297" y="19.99999237060547" width="24.00001335144043" height="24.000015258789062" />
+      </frame>
+      <frame id="1500:27230" name="Size sample" x="0" y="64" width="357.3333435058594" height="64">
+        <instance id="1500:27231" name="Checkbox" x="166.6666717529297" y="19.99999237060547" width="24.00001335144043" height="24.000015258789062" />
+      </frame>
+      <frame id="1500:27232" name="Size sample" x="0" y="128" width="357.3333435058594" height="64">
+        <instance id="1500:27233" name="Checkbox" x="166.6666717529297" y="19.99999237060547" width="24.00001335144043" height="24.000015258789062" />
+      </frame>
+      <frame id="1500:27234" name="Size sample" x="0" y="192" width="357.3333435058594" height="64">
+        <instance id="1500:27235" name="Checkbox" x="166.6666717529297" y="19.99999237060547" width="24.00001335144043" height="24.000015258789062" />
+      </frame>
+      <frame id="1500:27236" name="Size sample" x="0" y="256" width="357.3333435058594" height="64">
+        <instance id="1500:27237" name="Checkbox" x="166.6666717529297" y="19.99999237060547" width="24.00001335144043" height="24.000015258789062" />
+      </frame>
+      <frame id="1500:27238" name="Size sample" x="0" y="320" width="357.3333435058594" height="64">
+        <instance id="1500:27239" name="Checkbox" x="166.6666717529297" y="19.99999237060547" width="24.00001335144043" height="24.000015258789062" />
+      </frame>
+      <frame id="1500:27240" name="Size sample" x="0" y="384" width="357.3333435058594" height="64">
+        <instance id="1500:27241" name="Checkbox" x="166.6666717529297" y="19.99999237060547" width="24.00001335144043" height="24.000015258789062" />
+      </frame>
+    </frame>
+    <frame id="1500:27287" name="Frame 2121455837" x="1024.666748046875" y="396" width="357.3333435058594" height="448">
+      <frame id="1500:27288" name="Size sample" x="0" y="0" width="357.3333435058594" height="64">
+        <instance id="1500:27289" name="Checkbox" x="164.6666717529297" y="18" width="28" height="28" />
+      </frame>
+      <frame id="1500:27290" name="Size sample" x="0" y="64" width="357.3333435058594" height="64">
+        <instance id="1500:27291" name="Checkbox" x="164.6666717529297" y="18" width="28" height="28" />
+      </frame>
+      <frame id="1500:27292" name="Size sample" x="0" y="128" width="357.3333435058594" height="64">
+        <instance id="1500:27293" name="Checkbox" x="164.6666717529297" y="18" width="28" height="28" />
+      </frame>
+      <frame id="1500:27294" name="Size sample" x="0" y="192" width="357.3333435058594" height="64">
+        <instance id="1500:27295" name="Checkbox" x="164.6666717529297" y="18" width="28" height="28" />
+      </frame>
+      <frame id="1500:27296" name="Size sample" x="0" y="256" width="357.3333435058594" height="64">
+        <instance id="1500:27297" name="Checkbox" x="164.6666717529297" y="18" width="28" height="28" />
+      </frame>
+      <frame id="1500:27298" name="Size sample" x="0" y="320" width="357.3333435058594" height="64">
+        <instance id="1500:27299" name="Checkbox" x="164.6666717529297" y="18" width="28" height="28" />
+      </frame>
+      <frame id="1500:27300" name="Size sample" x="0" y="384" width="357.3333435058594" height="64">
+        <instance id="1500:27301" name="Checkbox" x="164.6666717529297" y="18" width="28" height="28" />
+      </frame>
+    </frame>
+    <frame id="1500:26790" name="Section heading" x="70" y="987" width="1312" height="48">
+      <text id="1500:26791" name="Section title" x="0" y="11" width="272" height="26" />
+    </frame>
+    <frame id="1500:26794" name="Configuration card" x="70" y="1052" width="320" height="280">
+      <frame id="1500:26795" name="Card heading" x="0" y="0" width="320" height="56">
+        <text id="1500:26796" name="Configuration title" x="16" y="19" width="96" height="18" />
+      </frame>
+      <frame id="1500:26797" name="Card examples" x="0" y="56" width="320" height="68">
+        <instance id="1500:27575" name="Checkbox" x="150" y="24" width="20" height="20" />
+      </frame>
+    </frame>
+    <frame id="1500:26799" name="Configuration card" x="409" y="1052" width="320" height="280">
+      <frame id="1500:26800" name="Card heading" x="0" y="0" width="320" height="56">
+        <text id="1500:26801" name="Configuration title" x="16" y="19" width="288" height="18" />
+      </frame>
+      <frame id="1500:26802" name="Card examples" x="0" y="56" width="320" height="69">
+        <instance id="1500:27586" name="Checkbox" x="16" y="24" width="169" height="21" />
+      </frame>
+    </frame>
+    <frame id="1500:26804" name="Configuration card" x="748" y="1052" width="320" height="280">
+      <frame id="1500:26805" name="Card heading" x="0" y="0" width="320" height="56">
+        <text id="1500:26806" name="Configuration title" x="16" y="19" width="288" height="18" />
+      </frame>
+      <frame id="1500:26807" name="Card examples" x="0" y="56" width="320" height="89">
+        <instance id="1500:27597" name="Checkbox" x="16" y="24" width="216" height="41" />
+      </frame>
+    </frame>
+    <frame id="1500:26809" name="Configuration card" x="1087" y="1052" width="320" height="323">
+      <frame id="1500:26810" name="Card heading" x="0" y="0" width="320" height="56">
+        <text id="1500:26811" name="Configuration title" x="16" y="10" width="288" height="36" />
+      </frame>
+      <frame id="1500:26812" name="Card examples" x="0" y="56" width="320" height="89">
+        <instance id="1500:27608" name="Checkbox" x="16" y="24" width="216" height="41" />
+      </frame>
+      <frame id="1500:26814" name="Card examples" x="0" y="145" width="320" height="89">
+        <instance id="1500:27619" name="Checkbox" x="16" y="24" width="216" height="41" />
+      </frame>
+      <frame id="1500:26816" name="Card examples" x="0" y="234" width="320" height="89">
+        <instance id="1500:27630" name="Checkbox" x="16" y="24" width="216" height="41" />
+      </frame>
+    </frame>
+    <frame id="1500:26818" name="Configuration card" x="1440" y="1052" width="320" height="145">
+      <frame id="1500:26819" name="Card heading" x="0" y="0" width="320" height="56">
+        <text id="1500:26820" name="Configuration title" x="16" y="19" width="288" height="18" />
+      </frame>
+      <frame id="1500:26821" name="Card examples" x="0" y="56" width="320" height="89">
+        <instance id="1500:27659" name="Checkbox" x="16" y="24" width="216" height="41" />
+      </frame>
+    </frame>
+    <frame id="1500:26823" name="Configuration card" x="1440" y="1225" width="320" height="210">
+      <frame id="1500:26824" name="Card heading" x="0" y="0" width="320" height="56">
+        <text id="1500:26825" name="Configuration title" x="16" y="10" width="288" height="36" />
+      </frame>
+      <frame id="1500:26826" name="Card examples" x="0" y="56" width="320" height="89">
+        <instance id="1500:27679" name="Checkbox" x="16" y="24" width="216" height="41" />
+      </frame>
+    </frame>
+    <frame id="1500:26828" name="Component properties" x="76" y="1590" width="1684" height="428">
+      <frame id="1500:26829" name="Section heading" x="0" y="0" width="1684" height="48">
+        <text id="1500:26830" name="Section title" x="0" y="11" width="266" height="26" />
+      </frame>
+      <frame id="1500:26831" name="Property definitions" x="0" y="60" width="1684" height="368">
+        <frame id="1500:26832" name="Table header" x="0" y="0" width="1684" height="48">
+          <frame id="1500:26833" name="Property cell" x="0" y="0" width="180" height="48">
+            <text id="1500:26834" name="Column title" x="20" y="13.5" width="140" height="21" />
+          </frame>
+          <frame id="1500:26835" name="Property cell" x="180" y="0" width="140" height="48">
+            <text id="1500:26836" name="Column title" x="20" y="13.5" width="100" height="21" />
+          </frame>
+          <frame id="1500:26837" name="Property cell" x="320" y="0" width="1024" height="48">
+            <text id="1500:26838" name="Column title" x="20" y="13.5" width="984" height="21" />
+          </frame>
+          <frame id="1500:26839" name="Property cell" x="1344" y="0" width="340" height="48">
+            <text id="1500:26840" name="Column title" x="20" y="13.5" width="300" height="21" />
+          </frame>
+        </frame>
+        <frame id="1500:26841" name="Property row" x="0" y="48" width="1684" height="56">
+          <frame id="1500:26842" name="Property cell" x="0" y="0" width="180" height="56">
+            <text id="1500:26843" name="Property value" x="20" y="17.5" width="140" height="21" />
+          </frame>
+          <frame id="1500:26844" name="Property cell" x="180" y="0" width="140" height="56">
+            <text id="1500:26845" name="Property value" x="20" y="17.5" width="100" height="21" />
+          </frame>
+          <frame id="1500:26846" name="Property cell" x="320" y="0" width="1024" height="56">
+            <text id="1500:26847" name="Property value" x="20" y="7" width="984" height="42" />
+          </frame>
+          <frame id="1500:26848" name="Property cell" x="1344" y="0" width="340" height="56">
+            <text id="1500:26849" name="Property value" x="20" y="17.5" width="300" height="21" />
+          </frame>
+        </frame>
+        <frame id="1500:26850" name="Property row" x="0" y="104" width="1684" height="44">
+          <frame id="1500:26851" name="Property cell" x="0" y="0" width="180" height="44">
+            <text id="1500:26852" name="Property value" x="20" y="11.5" width="140" height="21" />
+          </frame>
+          <frame id="1500:26853" name="Property cell" x="180" y="0" width="140" height="44">
+            <text id="1500:26854" name="Property value" x="20" y="11.5" width="100" height="21" />
+          </frame>
+          <frame id="1500:26855" name="Property cell" x="320" y="0" width="1024" height="44">
+            <text id="1500:26856" name="Property value" x="20" y="11.5" width="984" height="21" />
+          </frame>
+          <frame id="1500:26857" name="Property cell" x="1344" y="0" width="340" height="44">
+            <text id="1500:26858" name="Property value" x="20" y="11.5" width="300" height="21" />
+          </frame>
+        </frame>
+        <frame id="1500:26859" name="Property row" x="0" y="148" width="1684" height="44">
+          <frame id="1500:26860" name="Property cell" x="0" y="0" width="180" height="44">
+            <text id="1500:26861" name="Property value" x="20" y="11.5" width="140" height="21" />
+          </frame>
+          <frame id="1500:26862" name="Property cell" x="180" y="0" width="140" height="44">
+            <text id="1500:26863" name="Property value" x="20" y="11.5" width="100" height="21" />
+          </frame>
+          <frame id="1500:26864" name="Property cell" x="320" y="0" width="1024" height="44">
+            <text id="1500:26865" name="Property value" x="20" y="11.5" width="984" height="21" />
+          </frame>
+          <frame id="1500:26866" name="Property cell" x="1344" y="0" width="340" height="44">
+            <text id="1500:26867" name="Property value" x="20" y="11.5" width="300" height="21" />
+          </frame>
+        </frame>
+        <frame id="1500:26868" name="Property row" x="0" y="192" width="1684" height="44">
+          <frame id="1500:26869" name="Property cell" x="0" y="0" width="180" height="44">
+            <text id="1500:26870" name="Property value" x="20" y="11.5" width="140" height="21" />
+          </frame>
+          <frame id="1500:26871" name="Property cell" x="180" y="0" width="140" height="44">
+            <text id="1500:26872" name="Property value" x="20" y="11.5" width="100" height="21" />
+          </frame>
+          <frame id="1500:26873" name="Property cell" x="320" y="0" width="1024" height="44">
+            <text id="1500:26874" name="Property value" x="20" y="11.5" width="984" height="21" />
+          </frame>
+          <frame id="1500:26875" name="Property cell" x="1344" y="0" width="340" height="44">
+            <text id="1500:26876" name="Property value" x="20" y="11.5" width="300" height="21" />
+          </frame>
+        </frame>
+        <frame id="1500:26877" name="Property row" x="0" y="236" width="1684" height="44">
+          <frame id="1500:26878" name="Property cell" x="0" y="0" width="180" height="44">
+            <text id="1500:26879" name="Property value" x="20" y="11.5" width="140" height="21" />
+          </frame>
+          <frame id="1500:26880" name="Property cell" x="180" y="0" width="140" height="44">
+            <text id="1500:26881" name="Property value" x="20" y="11.5" width="100" height="21" />
+          </frame>
+          <frame id="1500:26882" name="Property cell" x="320" y="0" width="1024" height="44">
+            <text id="1500:26883" name="Property value" x="20" y="11.5" width="984" height="21" />
+          </frame>
+          <frame id="1500:26884" name="Property cell" x="1344" y="0" width="340" height="44">
+            <text id="1500:26885" name="Property value" x="20" y="11.5" width="300" height="21" />
+          </frame>
+        </frame>
+        <frame id="1500:26886" name="Property row" x="0" y="280" width="1684" height="44">
+          <frame id="1500:26887" name="Property cell" x="0" y="0" width="180" height="44">
+            <text id="1500:26888" name="Property value" x="20" y="11.5" width="140" height="21" />
+          </frame>
+          <frame id="1500:26889" name="Property cell" x="180" y="0" width="140" height="44">
+            <text id="1500:26890" name="Property value" x="20" y="11.5" width="100" height="21" />
+          </frame>
+          <frame id="1500:26891" name="Property cell" x="320" y="0" width="1024" height="44">
+            <text id="1500:26892" name="Property value" x="20" y="11.5" width="984" height="21" />
+          </frame>
+          <frame id="1500:26893" name="Property cell" x="1344" y="0" width="340" height="44">
+            <text id="1500:26894" name="Property value" x="20" y="11.5" width="300" height="21" />
+          </frame>
+        </frame>
+        <frame id="1500:26895" name="Property row" x="0" y="324" width="1684" height="44">
+          <frame id="1500:26896" name="Property cell" x="0" y="0" width="180" height="44">
+            <text id="1500:26897" name="Property value" x="20" y="11.5" width="140" height="21" />
+          </frame>
+          <frame id="1500:26898" name="Property cell" x="180" y="0" width="140" height="44">
+            <text id="1500:26899" name="Property value" x="20" y="11.5" width="100" height="21" />
+          </frame>
+          <frame id="1500:26900" name="Property cell" x="320" y="0" width="1024" height="44">
+            <text id="1500:26901" name="Property value" x="20" y="11.5" width="984" height="21" />
+          </frame>
+          <frame id="1500:26902" name="Property cell" x="1344" y="0" width="340" height="44">
+            <text id="1500:26903" name="Property value" x="20" y="11.5" width="300" height="21" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <line id="1500:26904" name="Line 6" x="70" y="929" width="1690" height="0.0001477444924375959" />
+    <line id="1500:26905" name="Line 7" x="70" y="1532" width="1690" height="0.0001477444924375959" />
+  </frame>
+  <section id="1502:48002" name="Checkbox" x="-6738" y="-1889" width="1750" height="2181">
+    <frame id="1500:25474" name="Checkbox" x="81" y="81" width="1600" height="2020.820068359375">
+      <symbol id="1500:25475" name="State=Checked, Size=Small, Checkbox Position=Left, Alignment=Top" x="0" y="0" width="216" height="41" />
+      <symbol id="1500:25485" name="State=Checked, Size=Small, Checkbox Position=Left, Alignment=Center" x="260" y="0" width="216" height="41" />
+      <symbol id="1500:25495" name="State=Checked, Size=Small, Checkbox Position=Left, Alignment=Bottom" x="520" y="0" width="216" height="41" />
+      <symbol id="1500:25505" name="State=Checked, Size=Small, Checkbox Position=Right, Alignment=Top" x="780" y="0" width="216" height="41" />
+      <symbol id="1500:25515" name="State=Checked, Size=Small, Checkbox Position=Right, Alignment=Center" x="1040" y="0" width="216" height="41" />
+      <symbol id="1500:25525" name="State=Checked, Size=Small, Checkbox Position=Right, Alignment=Bottom" x="1300" y="0" width="216" height="41" />
+      <symbol id="1500:25535" name="State=Multi-select, Size=Small, Checkbox Position=Left, Alignment=Top" x="0" y="94.32476806640625" width="216" height="41" />
+      <symbol id="1500:25545" name="State=Multi-select, Size=Small, Checkbox Position=Left, Alignment=Center" x="260" y="94.32476806640625" width="216" height="41" />
+      <symbol id="1500:25555" name="State=Multi-select, Size=Small, Checkbox Position=Left, Alignment=Bottom" x="520" y="94.32476806640625" width="216" height="41" />
+      <symbol id="1500:25565" name="State=Multi-select, Size=Small, Checkbox Position=Right, Alignment=Top" x="780" y="94.32476806640625" width="216" height="41" />
+      <symbol id="1500:25575" name="State=Multi-select, Size=Small, Checkbox Position=Right, Alignment=Center" x="1040" y="94.32476806640625" width="216" height="41" />
+      <symbol id="1500:25585" name="State=Multi-select, Size=Small, Checkbox Position=Right, Alignment=Bottom" x="1300" y="94.32476806640625" width="216" height="41" />
+      <symbol id="1500:25595" name="State=Unchecked, Size=Small, Checkbox Position=Left, Alignment=Top" x="0" y="188.6495361328125" width="216" height="41" />
+      <symbol id="1500:25603" name="State=Unchecked, Size=Small, Checkbox Position=Left, Alignment=Center" x="260" y="188.6495361328125" width="216" height="41" />
+      <symbol id="1500:25611" name="State=Unchecked, Size=Small, Checkbox Position=Left, Alignment=Bottom" x="520" y="188.6495361328125" width="216" height="41" />
+      <symbol id="1500:25619" name="State=Unchecked, Size=Small, Checkbox Position=Right, Alignment=Top" x="780" y="188.6495361328125" width="216" height="41" />
+      <symbol id="1500:25627" name="State=Unchecked, Size=Small, Checkbox Position=Right, Alignment=Center" x="1040" y="188.6495361328125" width="216" height="41" />
+      <symbol id="1500:25635" name="State=Unchecked, Size=Small, Checkbox Position=Right, Alignment=Bottom" x="1300" y="188.6495361328125" width="216" height="41" />
+      <symbol id="1500:25643" name="State=Disabled, Size=Small, Checkbox Position=Left, Alignment=Top" x="0" y="282.97430419921875" width="216" height="41" />
+      <symbol id="1500:25651" name="State=Disabled, Size=Small, Checkbox Position=Left, Alignment=Center" x="260" y="282.97430419921875" width="216" height="41" />
+      <symbol id="1500:25659" name="State=Disabled, Size=Small, Checkbox Position=Left, Alignment=Bottom" x="520" y="282.97430419921875" width="216" height="41" />
+      <symbol id="1500:25667" name="State=Disabled, Size=Small, Checkbox Position=Right, Alignment=Top" x="780" y="282.97430419921875" width="216" height="41" />
+      <symbol id="1500:25675" name="State=Disabled, Size=Small, Checkbox Position=Right, Alignment=Center" x="1040" y="282.97430419921875" width="216" height="41" />
+      <symbol id="1500:25683" name="State=Disabled, Size=Small, Checkbox Position=Right, Alignment=Bottom" x="1300" y="282.97430419921875" width="216" height="41" />
+      <symbol id="1500:25691" name="State=Disabled On, Size=Small, Checkbox Position=Left, Alignment=Top" x="0" y="377.299072265625" width="216" height="41" />
+      <symbol id="1500:25701" name="State=Disabled On, Size=Small, Checkbox Position=Left, Alignment=Center" x="260" y="377.299072265625" width="216" height="41" />
+      <symbol id="1500:25711" name="State=Disabled On, Size=Small, Checkbox Position=Left, Alignment=Bottom" x="520" y="377.299072265625" width="216" height="41" />
+      <symbol id="1500:25721" name="State=Disabled On, Size=Small, Checkbox Position=Right, Alignment=Top" x="780" y="377.299072265625" width="216" height="41" />
+      <symbol id="1500:25731" name="State=Disabled On, Size=Small, Checkbox Position=Right, Alignment=Center" x="1040" y="377.299072265625" width="216" height="41" />
+      <symbol id="1500:25741" name="State=Disabled On, Size=Small, Checkbox Position=Right, Alignment=Bottom" x="1300" y="377.299072265625" width="216" height="41" />
+      <symbol id="1500:25751" name="State=Focus, Size=Small, Checkbox Position=Left, Alignment=Top" x="0" y="471.62384033203125" width="216" height="41" />
+      <symbol id="1500:25760" name="State=Focus, Size=Small, Checkbox Position=Left, Alignment=Center" x="260" y="471.62384033203125" width="216" height="41" />
+      <symbol id="1500:25769" name="State=Focus, Size=Small, Checkbox Position=Left, Alignment=Bottom" x="520" y="471.62384033203125" width="216" height="41" />
+      <symbol id="1500:25778" name="State=Focus, Size=Small, Checkbox Position=Right, Alignment=Top" x="780" y="471.62384033203125" width="216" height="41" />
+      <symbol id="1500:25787" name="State=Focus, Size=Small, Checkbox Position=Right, Alignment=Center" x="1040" y="471.62384033203125" width="216" height="41" />
+      <symbol id="1500:25796" name="State=Focus, Size=Small, Checkbox Position=Right, Alignment=Bottom" x="1300" y="471.62384033203125" width="216" height="41" />
+      <symbol id="1500:25805" name="State=Pressed, Size=Small, Checkbox Position=Left, Alignment=Top" x="0" y="565.9486083984375" width="216" height="41" />
+      <symbol id="1500:25815" name="State=Pressed, Size=Small, Checkbox Position=Left, Alignment=Center" x="260" y="565.9486083984375" width="216" height="41" />
+      <symbol id="1500:25825" name="State=Pressed, Size=Small, Checkbox Position=Left, Alignment=Bottom" x="520" y="565.9486083984375" width="216" height="41" />
+      <symbol id="1500:25835" name="State=Pressed, Size=Small, Checkbox Position=Right, Alignment=Top" x="780" y="565.9486083984375" width="216" height="41" />
+      <symbol id="1500:25845" name="State=Pressed, Size=Small, Checkbox Position=Right, Alignment=Center" x="1040" y="565.9486083984375" width="216" height="41" />
+      <symbol id="1500:25855" name="State=Pressed, Size=Small, Checkbox Position=Right, Alignment=Bottom" x="1300" y="565.9486083984375" width="216" height="41" />
+      <symbol id="1500:25865" name="State=Checked, Size=Medium, Checkbox Position=Left, Alignment=Top" x="0" y="660.2733764648438" width="220.00001525878906" height="41" />
+      <symbol id="1500:25875" name="State=Checked, Size=Medium, Checkbox Position=Left, Alignment=Center" x="260" y="660.2733764648438" width="220.00001525878906" height="41" />
+      <symbol id="1500:25885" name="State=Checked, Size=Medium, Checkbox Position=Left, Alignment=Bottom" x="520" y="660.2733764648438" width="220.00001525878906" height="41" />
+      <symbol id="1500:25895" name="State=Checked, Size=Medium, Checkbox Position=Right, Alignment=Top" x="780" y="660.2733764648438" width="220.00001525878906" height="41" />
+      <symbol id="1500:25905" name="State=Checked, Size=Medium, Checkbox Position=Right, Alignment=Center" x="1040" y="660.2733764648438" width="220.00001525878906" height="41" />
+      <symbol id="1500:25915" name="State=Checked, Size=Medium, Checkbox Position=Right, Alignment=Bottom" x="1300" y="660.2733764648438" width="220.00001525878906" height="41" />
+      <symbol id="1500:25925" name="State=Multi-select, Size=Medium, Checkbox Position=Left, Alignment=Top" x="0" y="754.59814453125" width="220.00001525878906" height="41" />
+      <symbol id="1500:25935" name="State=Multi-select, Size=Medium, Checkbox Position=Left, Alignment=Center" x="260" y="754.59814453125" width="220.00001525878906" height="41" />
+      <symbol id="1500:25945" name="State=Multi-select, Size=Medium, Checkbox Position=Left, Alignment=Bottom" x="520" y="754.59814453125" width="220.00001525878906" height="41" />
+      <symbol id="1500:25955" name="State=Multi-select, Size=Medium, Checkbox Position=Right, Alignment=Top" x="780" y="754.59814453125" width="220.00001525878906" height="41" />
+      <symbol id="1500:25965" name="State=Multi-select, Size=Medium, Checkbox Position=Right, Alignment=Center" x="1040" y="754.59814453125" width="220.00001525878906" height="41" />
+      <symbol id="1500:25975" name="State=Multi-select, Size=Medium, Checkbox Position=Right, Alignment=Bottom" x="1300" y="754.59814453125" width="220.00001525878906" height="41" />
+      <symbol id="1500:25985" name="State=Unchecked, Size=Medium, Checkbox Position=Left, Alignment=Top" x="0" y="848.9229125976562" width="220.00001525878906" height="41" />
+      <symbol id="1500:25993" name="State=Unchecked, Size=Medium, Checkbox Position=Left, Alignment=Center" x="260" y="848.9229125976562" width="220.00001525878906" height="41" />
+      <symbol id="1500:26001" name="State=Unchecked, Size=Medium, Checkbox Position=Left, Alignment=Bottom" x="520" y="848.9229125976562" width="220.00001525878906" height="41" />
+      <symbol id="1500:26009" name="State=Unchecked, Size=Medium, Checkbox Position=Right, Alignment=Top" x="780" y="848.9229125976562" width="220.00001525878906" height="41" />
+      <symbol id="1500:26017" name="State=Unchecked, Size=Medium, Checkbox Position=Right, Alignment=Center" x="1040" y="848.9229125976562" width="220.00001525878906" height="41" />
+      <symbol id="1500:26025" name="State=Unchecked, Size=Medium, Checkbox Position=Right, Alignment=Bottom" x="1300" y="848.9229125976562" width="220.00001525878906" height="41" />
+      <symbol id="1500:26033" name="State=Disabled, Size=Medium, Checkbox Position=Left, Alignment=Top" x="0" y="943.2476806640625" width="220.00001525878906" height="41" />
+      <symbol id="1500:26041" name="State=Disabled, Size=Medium, Checkbox Position=Left, Alignment=Center" x="260" y="943.2476806640625" width="220.00001525878906" height="41" />
+      <symbol id="1500:26049" name="State=Disabled, Size=Medium, Checkbox Position=Left, Alignment=Bottom" x="520" y="943.2476806640625" width="220.00001525878906" height="41" />
+      <symbol id="1500:26057" name="State=Disabled, Size=Medium, Checkbox Position=Right, Alignment=Top" x="780" y="943.2476806640625" width="220.00001525878906" height="41" />
+      <symbol id="1500:26065" name="State=Disabled, Size=Medium, Checkbox Position=Right, Alignment=Center" x="1040" y="943.2476806640625" width="220.00001525878906" height="41" />
+      <symbol id="1500:26073" name="State=Disabled, Size=Medium, Checkbox Position=Right, Alignment=Bottom" x="1300" y="943.2476806640625" width="220.00001525878906" height="41" />
+      <symbol id="1500:26081" name="State=Disabled On, Size=Medium, Checkbox Position=Left, Alignment=Top" x="0" y="1037.572509765625" width="220.00001525878906" height="41" />
+      <symbol id="1500:26091" name="State=Disabled On, Size=Medium, Checkbox Position=Left, Alignment=Center" x="260" y="1037.572509765625" width="220.00001525878906" height="41" />
+      <symbol id="1500:26101" name="State=Disabled On, Size=Medium, Checkbox Position=Left, Alignment=Bottom" x="520" y="1037.572509765625" width="220.00001525878906" height="41" />
+      <symbol id="1500:26111" name="State=Disabled On, Size=Medium, Checkbox Position=Right, Alignment=Top" x="780" y="1037.572509765625" width="220.00001525878906" height="41" />
+      <symbol id="1500:26121" name="State=Disabled On, Size=Medium, Checkbox Position=Right, Alignment=Center" x="1040" y="1037.572509765625" width="220.00001525878906" height="41" />
+      <symbol id="1500:26131" name="State=Disabled On, Size=Medium, Checkbox Position=Right, Alignment=Bottom" x="1300" y="1037.572509765625" width="220.00001525878906" height="41" />
+      <symbol id="1500:26141" name="State=Focus, Size=Medium, Checkbox Position=Left, Alignment=Top" x="0" y="1131.897216796875" width="220.00001525878906" height="41" />
+      <symbol id="1500:26150" name="State=Focus, Size=Medium, Checkbox Position=Left, Alignment=Center" x="260" y="1131.897216796875" width="220.00001525878906" height="41" />
+      <symbol id="1500:26159" name="State=Focus, Size=Medium, Checkbox Position=Left, Alignment=Bottom" x="520" y="1131.897216796875" width="220.00001525878906" height="41" />
+      <symbol id="1500:26168" name="State=Focus, Size=Medium, Checkbox Position=Right, Alignment=Top" x="780" y="1131.897216796875" width="220.00001525878906" height="41" />
+      <symbol id="1500:26177" name="State=Focus, Size=Medium, Checkbox Position=Right, Alignment=Center" x="1040" y="1131.897216796875" width="220.00001525878906" height="41" />
+      <symbol id="1500:26186" name="State=Focus, Size=Medium, Checkbox Position=Right, Alignment=Bottom" x="1300" y="1131.897216796875" width="220.00001525878906" height="41" />
+      <symbol id="1500:26195" name="State=Pressed, Size=Medium, Checkbox Position=Left, Alignment=Top" x="0" y="1226.221923828125" width="220.00001525878906" height="41" />
+      <symbol id="1500:26205" name="State=Pressed, Size=Medium, Checkbox Position=Left, Alignment=Center" x="260" y="1226.221923828125" width="220.00001525878906" height="41" />
+      <symbol id="1500:26215" name="State=Pressed, Size=Medium, Checkbox Position=Left, Alignment=Bottom" x="520" y="1226.221923828125" width="220.00001525878906" height="41" />
+      <symbol id="1500:26225" name="State=Pressed, Size=Medium, Checkbox Position=Right, Alignment=Top" x="780" y="1226.221923828125" width="220.00001525878906" height="41" />
+      <symbol id="1500:26235" name="State=Pressed, Size=Medium, Checkbox Position=Right, Alignment=Center" x="1040" y="1226.221923828125" width="220.00001525878906" height="41" />
+      <symbol id="1500:26245" name="State=Pressed, Size=Medium, Checkbox Position=Right, Alignment=Bottom" x="1300" y="1226.221923828125" width="220.00001525878906" height="41" />
+      <symbol id="1500:26255" name="State=Checked, Size=Large, Checkbox Position=Left, Alignment=Top" x="0" y="1320.5467529296875" width="224" height="41" />
+      <symbol id="1500:26265" name="State=Checked, Size=Large, Checkbox Position=Left, Alignment=Center" x="260" y="1320.5467529296875" width="224" height="41" />
+      <symbol id="1500:26275" name="State=Checked, Size=Large, Checkbox Position=Left, Alignment=Bottom" x="520" y="1320.5467529296875" width="224" height="41" />
+      <symbol id="1500:26285" name="State=Checked, Size=Large, Checkbox Position=Right, Alignment=Top" x="780" y="1320.5467529296875" width="224" height="41" />
+      <symbol id="1500:26295" name="State=Checked, Size=Large, Checkbox Position=Right, Alignment=Center" x="1040" y="1320.5467529296875" width="224" height="41" />
+      <symbol id="1500:26305" name="State=Checked, Size=Large, Checkbox Position=Right, Alignment=Bottom" x="1300" y="1320.5467529296875" width="224" height="41" />
+      <symbol id="1500:26315" name="State=Multi-select, Size=Large, Checkbox Position=Left, Alignment=Top" x="0" y="1414.87158203125" width="224" height="41" />
+      <symbol id="1500:26325" name="State=Multi-select, Size=Large, Checkbox Position=Left, Alignment=Center" x="260" y="1414.87158203125" width="224" height="41" />
+      <symbol id="1500:26335" name="State=Multi-select, Size=Large, Checkbox Position=Left, Alignment=Bottom" x="520" y="1414.87158203125" width="224" height="41" />
+      <symbol id="1500:26345" name="State=Multi-select, Size=Large, Checkbox Position=Right, Alignment=Top" x="780" y="1414.87158203125" width="224" height="41" />
+      <symbol id="1500:26355" name="State=Multi-select, Size=Large, Checkbox Position=Right, Alignment=Center" x="1040" y="1414.87158203125" width="224" height="41" />
+      <symbol id="1500:26365" name="State=Multi-select, Size=Large, Checkbox Position=Right, Alignment=Bottom" x="1300" y="1414.87158203125" width="224" height="41" />
+      <symbol id="1500:26375" name="State=Unchecked, Size=Large, Checkbox Position=Left, Alignment=Top" x="0" y="1509.1962890625" width="224" height="41" />
+      <symbol id="1500:26383" name="State=Unchecked, Size=Large, Checkbox Position=Left, Alignment=Center" x="260" y="1509.1962890625" width="224" height="41" />
+      <symbol id="1500:26391" name="State=Unchecked, Size=Large, Checkbox Position=Left, Alignment=Bottom" x="520" y="1509.1962890625" width="224" height="41" />
+      <symbol id="1500:26399" name="State=Unchecked, Size=Large, Checkbox Position=Right, Alignment=Top" x="780" y="1509.1962890625" width="224" height="41" />
+      <symbol id="1500:26407" name="State=Unchecked, Size=Large, Checkbox Position=Right, Alignment=Center" x="1040" y="1509.1962890625" width="224" height="41" />
+      <symbol id="1500:26415" name="State=Unchecked, Size=Large, Checkbox Position=Right, Alignment=Bottom" x="1300" y="1509.1962890625" width="224" height="41" />
+      <symbol id="1500:26423" name="State=Disabled, Size=Large, Checkbox Position=Left, Alignment=Top" x="0" y="1603.52099609375" width="224" height="41" />
+      <symbol id="1500:26431" name="State=Disabled, Size=Large, Checkbox Position=Left, Alignment=Center" x="260" y="1603.52099609375" width="224" height="41" />
+      <symbol id="1500:26439" name="State=Disabled, Size=Large, Checkbox Position=Left, Alignment=Bottom" x="520" y="1603.52099609375" width="224" height="41" />
+      <symbol id="1500:26447" name="State=Disabled, Size=Large, Checkbox Position=Right, Alignment=Top" x="780" y="1603.52099609375" width="224" height="41" />
+      <symbol id="1500:26455" name="State=Disabled, Size=Large, Checkbox Position=Right, Alignment=Center" x="1040" y="1603.52099609375" width="224" height="41" />
+      <symbol id="1500:26463" name="State=Disabled, Size=Large, Checkbox Position=Right, Alignment=Bottom" x="1300" y="1603.52099609375" width="224" height="41" />
+      <symbol id="1500:26471" name="State=Disabled On, Size=Large, Checkbox Position=Left, Alignment=Top" x="0" y="1697.8458251953125" width="224" height="41" />
+      <symbol id="1500:26481" name="State=Disabled On, Size=Large, Checkbox Position=Left, Alignment=Center" x="260" y="1697.8458251953125" width="224" height="41" />
+      <symbol id="1500:26491" name="State=Disabled On, Size=Large, Checkbox Position=Left, Alignment=Bottom" x="520" y="1697.8458251953125" width="224" height="41" />
+      <symbol id="1500:26501" name="State=Disabled On, Size=Large, Checkbox Position=Right, Alignment=Top" x="780" y="1697.8458251953125" width="224" height="41" />
+      <symbol id="1500:26511" name="State=Disabled On, Size=Large, Checkbox Position=Right, Alignment=Center" x="1040" y="1697.8458251953125" width="224" height="41" />
+      <symbol id="1500:26521" name="State=Disabled On, Size=Large, Checkbox Position=Right, Alignment=Bottom" x="1300" y="1697.8458251953125" width="224" height="41" />
+      <symbol id="1500:26531" name="State=Focus, Size=Large, Checkbox Position=Left, Alignment=Top" x="0" y="1792.170654296875" width="224" height="41" />
+      <symbol id="1500:26540" name="State=Focus, Size=Large, Checkbox Position=Left, Alignment=Center" x="260" y="1792.170654296875" width="224" height="41" />
+      <symbol id="1500:26549" name="State=Focus, Size=Large, Checkbox Position=Left, Alignment=Bottom" x="520" y="1792.170654296875" width="224" height="41" />
+      <symbol id="1500:26558" name="State=Focus, Size=Large, Checkbox Position=Right, Alignment=Top" x="780" y="1792.170654296875" width="224" height="41" />
+      <symbol id="1500:26567" name="State=Focus, Size=Large, Checkbox Position=Right, Alignment=Center" x="1040" y="1792.170654296875" width="224" height="41" />
+      <symbol id="1500:26576" name="State=Focus, Size=Large, Checkbox Position=Right, Alignment=Bottom" x="1300" y="1792.170654296875" width="224" height="41" />
+      <symbol id="1500:26585" name="State=Pressed, Size=Large, Checkbox Position=Left, Alignment=Top" x="0" y="1886.495361328125" width="224" height="41" />
+      <symbol id="1500:26595" name="State=Pressed, Size=Large, Checkbox Position=Left, Alignment=Center" x="260" y="1886.495361328125" width="224" height="41" />
+      <symbol id="1500:26605" name="State=Pressed, Size=Large, Checkbox Position=Left, Alignment=Bottom" x="520" y="1886.495361328125" width="224" height="41" />
+      <symbol id="1500:26615" name="State=Pressed, Size=Large, Checkbox Position=Right, Alignment=Top" x="780" y="1886.495361328125" width="224" height="41" />
+      <symbol id="1500:26625" name="State=Pressed, Size=Large, Checkbox Position=Right, Alignment=Center" x="1040" y="1886.495361328125" width="224" height="41" />
+      <symbol id="1500:26635" name="State=Pressed, Size=Large, Checkbox Position=Right, Alignment=Bottom" x="1300" y="1886.495361328125" width="224" height="41" />
+    </frame>
+  </section>
+</canvas>

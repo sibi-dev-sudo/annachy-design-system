@@ -1,0 +1,30 @@
+<!--
+  Annachy Design System — Input Field canonical markup (R3-3). Figma Outline 1066:37962, Filled 1066:40663.
+  Root: .annachy-input + --outline|--filled + --size-<46|48|50|54|56> + --radius-<4|6|8|10|12>
+  States: native (focus, value entered, aria-invalid, disabled; Filled: hover) + .annachy-input--success.
+  Omit any element to reproduce showLabel / showDescription / showSubText / show*Icon = false.
+-->
+<div class="annachy-input annachy-input--filled annachy-input--size-48 annachy-input--radius-8">
+  <div class="annachy-input__top">
+    <div class="annachy-input__label-container">
+      <label class="annachy-input__label" for="email">Label</label>
+      <span class="annachy-input__description" id="email-desc">Description</span>
+    </div>
+    <div class="annachy-input__field">
+      <span class="annachy-input__icon" aria-hidden="true"><!-- 24×24 inline SVG, currentColor --></span>
+      <input class="annachy-input__control" id="email" type="email" placeholder="Placeholder Active" aria-describedby="email-desc email-sub">
+      <span class="annachy-input__icons">
+        <span class="annachy-input__icon" aria-hidden="true"><!-- svg --></span>
+        <span class="annachy-input__icon" aria-hidden="true"><!-- svg --></span>
+      </span>
+    </div>
+  </div>
+  <div class="annachy-input__subtext-group">
+    <span class="annachy-input__subtext" id="email-sub">Sub-text</span>
+    <span class="annachy-input__subtext-icon" aria-hidden="true"><!-- 14×14 (Filled) / 16×16 (Outline) svg --></span>
+  </div>
+</div>
+
+<!-- State=Error: set aria-invalid on the control; put the message in the sub-text (it is referenced by aria-describedby) -->
+<!-- State=Success: add .annachy-input--success to the root -->
+<!-- State=Disabled: add the disabled attribute to the control -->

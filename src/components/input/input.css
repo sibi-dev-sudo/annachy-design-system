@@ -1,0 +1,215 @@
+/*
+ * Annachy Design System — Input Field (Outline & Filled)
+ * Layer: annachy.components (assigned by src/annachy.css) · Phase R3-3
+ * Source of truth: Figma file rM3ixSG6i3DFfKZFWuxzs4
+ *   Input Field / Outline 1066:37962 — 6 States × 5 Sizes × 5 Radii = 150 variants
+ *   Input Field / Filled  1066:40663 — 7 States × 5 Sizes × 5 Radii = 175 variants
+ * Evidence: docs/figma-audit/components/input.md; docs/figma-audit/r3-0-evidence.md §7–§9, §23.
+ *
+ * Figma property -> markup:
+ *   Set     -> .annachy-input--outline | .annachy-input--filled
+ *   Size    -> .annachy-input--size-46 | 48 | 50 | 54 | 56            (field height)
+ *   Radius  -> .annachy-input--radius-4 | 6 | 8 | 10 | 12
+ *   State   -> Default · Hover (Filled only: field :hover, .is-hover) · Focused (control :focus-visible, .is-focus)
+ *              · Filled (control has a value: :not(:placeholder-shown), .is-filled) · Error (control [aria-invalid="true"])
+ *              · Success (.annachy-input--success) · Disabled (control :disabled)
+ *   showLabel / showDescription / showSubText / show*Icon -> presence of the element
+ *
+ * Reproduced, not fixed: IN1/A16 placeholder #dcdfe5 (1.25:1 on Filled fill) · IN2 Outline focus border raw #3a6ff7
+ * · IN3 no Outline Hover · IN4 Error/Success use icon-state variables · IN5 Outline error icon always present
+ * · IN-12 Top Section has a fixed height (Size + 42) even when label/description are hidden · D-09 Radius/6 and
+ * Radius/10 are Figma variables without R1 tokens (component-local 6px / 10px).
+ */
+
+.annachy-input {
+  --_input-height: 48px;
+  --_input-radius: var(--annachy-radius-8);
+  --_input-subtext-gap: 4px;
+  --_input-label: var(--annachy-color-blue-grey-800);
+  --_input-description: var(--annachy-color-blue-grey-700);
+  --_input-fill: transparent;
+  --_input-border: var(--annachy-color-blue-grey-300);
+  --_input-text: var(--annachy-color-blue-grey-200);
+  --_input-subtext: var(--annachy-color-blue-grey-500);
+  --_input-icon-opacity: 1;
+
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;                                   /* 1066:38089 */
+  inline-size: 100%;                          /* Figma 337 is the documentation frame width */
+  overflow: hidden;
+  font-family: var(--annachy-base-font-family-render);
+  letter-spacing: var(--annachy-font-letter-spacing);
+}
+
+.annachy-input__top {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  inline-size: 100%;
+  block-size: calc(var(--_input-height) + 42px);   /* fixed in Figma: 90 at Size 48 (IN-12) */
+  flex: none;
+  overflow: hidden;
+}
+
+.annachy-input__label-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  inline-size: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.annachy-input__label {
+  display: block;
+  color: var(--_input-label);
+  font-size: var(--annachy-type-h7-font-size);
+  line-height: var(--annachy-type-h7-line-height);
+  font-weight: var(--annachy-type-h7-font-weight);
+}
+.annachy-input__description {
+  display: block;
+  color: var(--_input-description);
+  font-size: var(--annachy-type-body-s-font-size);
+  line-height: var(--annachy-type-body-s-line-height);
+  font-weight: var(--annachy-type-body-s-font-weight);
+}
+
+.annachy-input__field {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+  inline-size: 100%;
+  block-size: var(--_input-height);
+  flex: none;
+  padding: 0 14px;                            /* r3-0-evidence §7 — constant at every size */
+  border: 1px solid var(--_input-border);
+  border-radius: var(--_input-radius);
+  background: var(--_input-fill);
+  overflow: hidden;
+}
+
+.annachy-input__control {
+  flex: 1 0 0;
+  min-inline-size: 1px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--_input-text);
+  font-family: inherit;
+  font-size: var(--annachy-type-body-m-medium-font-size);
+  line-height: var(--annachy-type-body-m-medium-line-height);
+  font-weight: var(--annachy-type-body-m-medium-font-weight);
+  letter-spacing: inherit;
+  block-size: var(--annachy-type-body-m-medium-line-height);
+  outline: none;                              /* the Figma Focused state (field border) is the focus indicator — D-21 */
+  appearance: none;
+  -webkit-appearance: none;
+}
+.annachy-input__control::placeholder { color: var(--_input-text); opacity: 1; }
+
+/* Icon slots (no assets ship in R3 — D-12/D-13) */
+.annachy-input__icon {
+  display: inline-flex;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  inline-size: 24px;
+  block-size: 24px;
+  overflow: hidden;
+  opacity: var(--_input-icon-opacity);
+}
+.annachy-input__icon > svg { inline-size: 100%; block-size: 100%; }
+.annachy-input__icons { display: flex; flex: none; align-items: flex-start; gap: 8px; overflow: hidden; }
+
+.annachy-input__subtext-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--_input-subtext-gap);
+}
+.annachy-input__subtext {
+  color: var(--_input-subtext);
+  font-size: var(--annachy-type-body-s-font-size);
+  line-height: var(--annachy-type-body-s-line-height);
+  font-weight: var(--annachy-type-body-s-font-weight);
+  white-space: nowrap;
+}
+.annachy-input__subtext-icon { display: inline-flex; flex: none; align-items: center; justify-content: center; overflow: hidden; }
+.annachy-input__subtext-icon > svg { inline-size: 100%; block-size: 100%; }
+
+/* ---------------------------------------------------------------- Set differences */
+/* Outline: fixed icon instances (User, Chevron Up/Down 24; Error circle 16, always present — IN5); sub-text group full width */
+.annachy-input--outline .annachy-input__subtext-group { inline-size: 100%; }
+.annachy-input--outline .annachy-input__subtext-icon { inline-size: 16px; block-size: 16px; }   /* 1780:40128 */
+/* Filled: swappable icon slots (Cloud, Semantic state=Brand), wrappers radius 4 / 7; sub-text group hugs, gap 2 */
+.annachy-input--filled { --_input-subtext-gap: 2px; --_input-fill: var(--annachy-color-background-secondary); --_input-border: var(--annachy-color-blue-grey-100); --_input-icon-opacity: 0.3; }
+.annachy-input--filled .annachy-input__icon { border-radius: 4px; color: var(--annachy-color-icon-state-brand); }   /* 1066:40789 */
+.annachy-input--filled .annachy-input__subtext-icon { inline-size: 14px; block-size: 14px; border-radius: 7px; color: var(--annachy-color-icon-state-brand); }   /* 1066:40798 */
+
+/* ---------------------------------------------------------------- Sizes (field height) and radii */
+.annachy-input--size-46 { --_input-height: 46px; }
+.annachy-input--size-48 { --_input-height: 48px; }
+.annachy-input--size-50 { --_input-height: 50px; }
+.annachy-input--size-54 { --_input-height: 54px; }
+.annachy-input--size-56 { --_input-height: 56px; }
+.annachy-input--radius-4  { --_input-radius: var(--annachy-radius-4); }
+.annachy-input--radius-6  { --_input-radius: 6px; }    /* Figma Radius/6 — no R1 token (D-09) */
+.annachy-input--radius-8  { --_input-radius: var(--annachy-radius-8); }
+.annachy-input--radius-10 { --_input-radius: 10px; }   /* Figma Radius/10 — no R1 token (D-09) */
+.annachy-input--radius-12 { --_input-radius: var(--annachy-radius-12); }
+
+/* ---------------------------------------------------------------- Outline states (r3-0-evidence §23.4)
+   State selectors are wrapped in :where() so every state rule has the same specificity (one class) and
+   source order alone sets precedence: Default < Filled < Focused < Error < Success < Disabled. */
+.annachy-input--outline:where(:has(.annachy-input__control:not(:placeholder-shown)), .is-filled) {
+  --_input-label: var(--annachy-color-blue-black-500); --_input-description: var(--annachy-color-blue-black-500);
+  --_input-border: var(--annachy-color-base-black); --_input-text: var(--annachy-color-base-grey); --_input-subtext: var(--annachy-color-blue-grey-900); }   /* 1066:38989 */
+.annachy-input--outline:where(:has(.annachy-input__control:focus-visible), .is-focus) {
+  --_input-label: var(--annachy-color-blue-black-500); --_input-description: var(--annachy-color-blue-black-500);
+  --_input-border: #3a6ff7; --_input-text: var(--annachy-color-base-grey); --_input-subtext: var(--annachy-color-blue-grey-900); }   /* 1066:38544 — IN2 raw #3a6ff7 */
+.annachy-input--outline:where(:has(.annachy-input__control[aria-invalid="true"])) {
+  --_input-label: var(--annachy-color-blue-black-500); --_input-description: var(--annachy-color-blue-black-500);
+  --_input-border: var(--annachy-color-icon-state-error); --_input-text: var(--annachy-color-base-grey); --_input-subtext: var(--annachy-color-icon-state-error); }   /* 1066:39889 */
+.annachy-input--outline:where(.annachy-input--success) {
+  --_input-label: var(--annachy-color-blue-black-500); --_input-description: var(--annachy-color-blue-black-500);
+  --_input-border: var(--annachy-color-icon-state-success); --_input-text: var(--annachy-color-base-grey); --_input-subtext: var(--annachy-color-icon-state-success); }   /* 1066:40339 */
+.annachy-input--outline:where(:has(.annachy-input__control:disabled)) {
+  --_input-label: var(--annachy-color-blue-grey-200); --_input-description: var(--annachy-color-blue-grey-100);
+  --_input-border: var(--annachy-color-blue-grey-200); --_input-text: var(--annachy-color-blue-grey-200); --_input-subtext: var(--annachy-color-blue-grey-100); }   /* 1066:39439 */
+
+/* ---------------------------------------------------------------- Filled states (r3-0-evidence §9, §23.4)
+   Same :where() rule — precedence: Default < Hover < Filled < Focused < Error < Success < Disabled. */
+.annachy-input--filled:where(:has(.annachy-input__field:hover), .is-hover) {
+  --_input-label: var(--annachy-color-blue-grey-800); --_input-description: var(--annachy-color-blue-grey-700);
+  --_input-fill: var(--annachy-color-background-secondary); --_input-border: var(--annachy-color-blue-500);
+  --_input-text: var(--annachy-color-blue-grey-400); --_input-subtext: var(--annachy-color-blue-grey-500); --_input-icon-opacity: 0.3; }   /* 1066:43333 */
+.annachy-input--filled:where(:has(.annachy-input__control:not(:placeholder-shown)), .is-filled) {
+  --_input-label: var(--annachy-color-blue-black-500); --_input-description: var(--annachy-color-blue-black-500);
+  --_input-fill: var(--annachy-color-background-secondary); --_input-border: var(--annachy-color-blue-grey-300);
+  --_input-text: var(--annachy-color-blue-black-50); --_input-subtext: var(--annachy-color-blue-grey-900); --_input-icon-opacity: 1; }   /* 1066:41633 */
+.annachy-input--filled:where(:has(.annachy-input__control:focus-visible), .is-focus) {
+  --_input-label: var(--annachy-color-blue-black-500); --_input-description: var(--annachy-color-blue-black-500);
+  --_input-fill: var(--annachy-color-blue-grey-50); --_input-border: var(--annachy-color-blue-600);
+  --_input-text: var(--annachy-color-base-grey); --_input-subtext: var(--annachy-color-blue-grey-900); --_input-icon-opacity: 1; }   /* 1066:41213 */
+.annachy-input--filled:where(:has(.annachy-input__control[aria-invalid="true"])) {
+  --_input-label: var(--annachy-color-blue-black-500); --_input-description: var(--annachy-color-blue-black-500);
+  --_input-fill: var(--annachy-color-background-secondary); --_input-border: var(--annachy-color-icon-state-error);
+  --_input-text: var(--annachy-color-base-grey); --_input-subtext: var(--annachy-color-icon-state-error); --_input-icon-opacity: 1; }   /* 1066:42483 */
+.annachy-input--filled:where(.annachy-input--success) {
+  --_input-label: var(--annachy-color-blue-black-500); --_input-description: var(--annachy-color-blue-black-500);
+  --_input-fill: var(--annachy-color-background-secondary); --_input-border: var(--annachy-color-icon-state-success);
+  --_input-text: var(--annachy-color-base-grey); --_input-subtext: var(--annachy-color-icon-state-success); --_input-icon-opacity: 1; }   /* 1066:42908 */
+.annachy-input--filled:where(:has(.annachy-input__control:disabled)) {
+  --_input-label: var(--annachy-color-blue-grey-200); --_input-description: var(--annachy-color-blue-grey-100);
+  --_input-fill: transparent; --_input-border: var(--annachy-color-blue-grey-200);
+  --_input-text: var(--annachy-color-blue-grey-200); --_input-subtext: var(--annachy-color-blue-grey-100); --_input-icon-opacity: 0.3; }   /* 1066:42058 — no fill */
+
+.annachy-input:has(.annachy-input__control:disabled) .annachy-input__control { cursor: not-allowed; }

@@ -1,0 +1,1927 @@
+{
+ "date": "2026-11-20",
+ "status": "CANCELLED - not required (Design Team decision 2026-11-20). Nothing exported. Kept as audit evidence.",
+ "figmaFile": "rM3ixSG6i3DFfKZFWuxzs4",
+ "A_solar": [
+  {
+   "id": "A01",
+   "source": {
+    "page": "375:10889 Iconography",
+    "setNodeId": "478:70334",
+    "variantNodeId": "478:70344",
+    "variantName": "Style=Outline",
+    "category": "Video, Audio, Sound",
+    "exportFrom": "the screen elements themselves (detached Solar copies, e.g. 1280:10652 'Outline / Video, Audio, Sound / Play Circle')"
+   },
+   "icon": "Play Circle",
+   "style": "Outline",
+   "exportSizePx": 24,
+   "multicolor": false,
+   "destination": {
+    "original": "src/icons/originals/solar/outline/play-circle.svg",
+    "normalized": "src/icons/svg/outline/solar-play-circle.svg"
+   },
+   "elements": [
+    {
+     "file": "pdp/pdp-v1.html",
+     "figmaNode": "1280:10652",
+     "mapping": "SCALED_24_TO_18",
+     "screenSizePx": "18",
+     "scale": 0.75,
+     "exportRoute": {
+      "method": "download_assets(svg)",
+      "node": "1280:10652"
+     },
+     "verification": {
+      "verdict": "CONFIRMED",
+      "name": "Outline / Video, Audio, Sound / Play Circle",
+      "w": 18.0,
+      "h": 18.0,
+      "notes": "Sample get_design_context: \"OutlineVideoAudioSoundPlayCircle\", 1 SVG asset constant, no description/library info.; FRAME (not instance) => detached Solar copy"
+     }
+    },
+    {
+     "file": "sample-screen/mobile-pdp-1608-7090.html",
+     "figmaNode": "1608:7383",
+     "mapping": "SCALED_24_TO_18",
+     "screenSizePx": "18",
+     "scale": 0.75,
+     "exportRoute": {
+      "method": "download_assets(svg)",
+      "node": "1608:7383"
+     },
+     "verification": {
+      "verdict": "CONFIRMED",
+      "name": "Outline / Video, Audio, Sound / Play Circle",
+      "w": 18.0,
+      "h": 18.0,
+      "notes": "FRAME (not instance) => detached Solar copy"
+     }
+    }
+   ],
+   "destinationFree": true,
+   "catalogueNodeStatus": "NOT FOUND in the live file (2026-11-20): 478:* ids from the saved 375:10889 snapshot no longer resolve",
+   "libraryReference": "1280:10652"
+  },
+  {
+   "id": "A02",
+   "source": {
+    "page": "375:10889 Iconography",
+    "setNodeId": "478:71438",
+    "variantNodeId": "478:71460",
+    "variantName": "Style=Outline",
+    "category": "Users",
+    "exportFrom": "the screen elements themselves (detached Solar copies, e.g. 1280:10652 'Outline / Video, Audio, Sound / Play Circle')"
+   },
+   "icon": "Users Group Two Rounded",
+   "style": "Outline",
+   "exportSizePx": 24,
+   "multicolor": false,
+   "destination": {
+    "original": "src/icons/originals/solar/outline/users-group-two-rounded.svg",
+    "normalized": "src/icons/svg/outline/solar-users-group-two-rounded.svg"
+   },
+   "elements": [
+    {
+     "file": "pdp/pdp-v1.html",
+     "figmaNode": "1280:10664",
+     "mapping": "EXACT",
+     "screenSizePx": "24",
+     "scale": null,
+     "exportRoute": {
+      "method": "download_assets(svg)",
+      "node": "1280:10664"
+     },
+     "verification": {
+      "verdict": "CONFIRMED",
+      "name": "Outline / Users / Users Group Two Rounded",
+      "w": 24.0,
+      "h": 24.0,
+      "notes": "FRAME (not instance) => detached Solar copy"
+     }
+    },
+    {
+     "file": "sample-screen/mobile-pdp-1608-7090.html",
+     "figmaNode": "1608:7395",
+     "mapping": "SCALED_24_TO_23.1",
+     "screenSizePx": "23.1",
+     "scale": 0.9625,
+     "exportRoute": {
+      "method": "download_assets(svg)",
+      "node": "1608:7395"
+     },
+     "verification": {
+      "verdict": "CONFIRMED",
+      "name": "Outline / Users / Users Group Two Rounded",
+      "w": 24.0,
+      "h": 24.0,
+      "notes": "SIZE: Figma 24.0 vs screenSizePx 23.1; get_design_context: single component \"OutlineUsersUsersGroupTwoRounded\" (data-name \"Outline / Users / Users Group Two Rounded\"), 1 SVG asset constant, size-full, no colour classes. Figma frame is 24x24; the 23.1 on screen must come from parent scaling in the HTML.; FRAME (not instance) => detached Solar copy"
+     },
+     "figmaSizePx": 24.0
+    }
+   ],
+   "destinationFree": true,
+   "catalogueNodeStatus": "NOT FOUND in the live file (2026-11-20): 478:* ids from the saved 375:10889 snapshot no longer resolve",
+   "libraryReference": "1280:10664"
+  },
+  {
+   "id": "A03",
+   "source": {
+    "page": "375:10889 Iconography",
+    "setNodeId": "478:74878",
+    "variantNodeId": "478:74888",
+    "variantName": "Style=Linear",
+    "category": "Shopping, Ecommerce",
+    "exportFrom": "the screen elements themselves (detached Solar copies, e.g. 1280:10652 'Outline / Video, Audio, Sound / Play Circle')"
+   },
+   "icon": "Shop",
+   "style": "Linear",
+   "exportSizePx": 24,
+   "multicolor": false,
+   "destination": {
+    "original": "src/icons/originals/solar/linear/shop.svg",
+    "normalized": "src/icons/svg/linear/solar-shop.svg"
+   },
+   "elements": [
+    {
+     "file": "pdp/pdp-v1.html",
+     "figmaNode": "1280:10681",
+     "mapping": "EXACT",
+     "screenSizePx": "24",
+     "scale": null,
+     "exportRoute": {
+      "method": "download_assets(svg)",
+      "node": "1280:10681"
+     },
+     "verification": {
+      "verdict": "CONFIRMED",
+      "name": "Linear / Shopping, Ecommerce / Shop",
+      "w": 24.0,
+      "h": 24.0,
+      "notes": "FRAME (not instance) => detached Solar copy"
+     }
+    },
+    {
+     "file": "sample-screen/mobile-pdp-1608-7090.html",
+     "figmaNode": "1608:7412",
+     "mapping": "EXACT",
+     "screenSizePx": "24",
+     "scale": null,
+     "exportRoute": {
+      "method": "download_assets(svg)",
+      "node": "1608:7412"
+     },
+     "verification": {
+      "verdict": "CONFIRMED",
+      "name": "Linear / Shopping, Ecommerce / Shop",
+      "w": 24.0,
+      "h": 24.0,
+      "notes": "FRAME (not instance) => detached Solar copy"
+     }
+    }
+   ],
+   "destinationFree": true,
+   "catalogueNodeStatus": "NOT FOUND in the live file (2026-11-20): 478:* ids from the saved 375:10889 snapshot no longer resolve",
+   "libraryReference": "1280:10681"
+  },
+  {
+   "id": "A04",
+   "source": {
+    "page": "375:10889 Iconography",
+    "setNodeId": "478:75010",
+    "variantNodeId": "478:75026",
+    "variantName": "Style=Outline",
+    "category": "Shopping, Ecommerce",
+    "exportFrom": "the screen elements themselves (detached Solar copies, e.g. 1280:10652 'Outline / Video, Audio, Sound / Play Circle')"
+   },
+   "icon": "Cart Large 2",
+   "style": "Outline",
+   "exportSizePx": 24,
+   "multicolor": false,
+   "destination": {
+    "original": "src/icons/originals/solar/outline/cart-large-2.svg",
+    "normalized": "src/icons/svg/outline/solar-cart-large-2.svg"
+   },
+   "elements": [
+    {
+     "file": "pdp/mobile.html",
+     "figmaNode": "1201:9784",
+     "mapping": "SCALED_24_TO_28",
+     "screenSizePx": "28",
+     "scale": 1.1667,
+     "exportRoute": {
+      "method": "download_assets(svg)",
+      "node": "1201:9784"
+     },
+     "verification": {
+      "verdict": "CONFIRMED",
+      "name": "Outline / Shopping, Ecommerce / Cart Large 2",
+      "w": 28.0,
+      "h": 28.0,
+      "notes": "FRAME (not instance) => detached Solar copy"
+     }
+    },
+    {
+     "file": "pdp/pdp-v1.html",
+     "figmaNode": "1280:10783",
+     "mapping": "SCALED_24_TO_28",
+     "screenSizePx": "28",
+     "scale": 1.1667,
+     "exportRoute": {
+      "method": "download_assets(svg)",
+      "node": "1280:10783"
+     },
+     "verification": {
+      "verdict": "CONFIRMED",
+      "name": "Outline / Shopping, Ecommerce / Cart Large 2",
+      "w": 28.0,
+      "h": 28.0,
+      "notes": "FRAME (not instance) => detached Solar copy"
+     }
+    },
+    {
+     "file": "sample-screen/mobile-pdp-1608-7090.html",
+     "figmaNode": "1608:7122",
+     "mapping": "SCALED_24_TO_28",
+     "screenSizePx": "28",
+     "scale": 1.1667,
+     "exportRoute": {
+      "method": "download_assets(svg)",
+      "node": "1608:7122"
+     },
+     "verification": {
+      "verdict": "CONFIRMED",
+      "name": "Outline / Shopping, Ecommerce / Cart Large 2",
+      "w": 28.0,
+      "h": 28.0,
+      "notes": "FRAME (not instance) => detached Solar copy"
+     }
+    }
+   ],
+   "destinationFree": true,
+   "catalogueNodeStatus": "NOT FOUND in the live file (2026-11-20): 478:* ids from the saved 375:10889 snapshot no longer resolve",
+   "libraryReference": "1201:9784"
+  },
+  {
+   "id": "A05",
+   "source": {
+    "page": "375:10889 Iconography",
+    "setNodeId": "478:76184",
+    "variantNodeId": "478:76191",
+    "variantName": "Style=Linear",
+    "category": "Security",
+    "exportFrom": "the screen elements themselves (detached Solar copies, e.g. 1280:10652 'Outline / Video, Audio, Sound / Play Circle')"
+   },
+   "icon": "Shield Check",
+   "style": "Linear",
+   "exportSizePx": 24,
+   "multicolor": false,
+   "destination": {
+    "original": "src/icons/originals/solar/linear/shield-check.svg",
+    "normalized": "src/icons/svg/linear/solar-shield-check.svg"
+   },
+   "elements": [
+    {
+     "file": "pdp/pdp-v1.html",
+     "figmaNode": "1280:10669",
+     "mapping": "EXACT",
+     "screenSizePx": "24",
+     "scale": null,
+     "exportRoute": {
+      "method": "download_assets(svg)",
+      "node": "1280:10669"
+     },
+     "verification": {
+      "verdict": "CONFIRMED",
+      "name": "Linear / Security / Shield Check",
+      "w": 24.0,
+      "h": 24.0,
+      "notes": "FRAME (not instance) => detached Solar copy"
+     }
+    },
+    {
+     "file": "sample-screen/mobile-pdp-1608-7090.html",
+     "figmaNode": "1608:7400",
+     "mapping": "SCALED_24_TO_23.1",
+     "screenSizePx": "23.1",
+     "scale": 0.9625,
+     "exportRoute": {
+      "method": "download_assets(svg)",
+      "node": "1608:7400"
+     },
+     "verification": {
+      "verdict": "CONFIRMED",
+      "name": "Linear / Security / Shield Check",
+      "w": 24.0,
+      "h": 24.0,
+      "notes": "SIZE: Figma 24.0 vs screenSizePx 23.1; get_design_context: single component \"LinearSecurityShieldCheck\", 1 SVG asset constant, size-full, no colour classes. Figma frame 24x24 vs 23.1 on screen.; FRAME (not instance) => detached Solar copy"
+     },
+     "figmaSizePx": 24.0
+    }
+   ],
+   "destinationFree": true,
+   "catalogueNodeStatus": "NOT FOUND in the live file (2026-11-20): 478:* ids from the saved 375:10889 snapshot no longer resolve",
+   "libraryReference": "1280:10669"
+  },
+  {
+   "id": "A06",
+   "source": {
+    "page": "375:10889 Iconography",
+    "setNodeId": "478:77176",
+    "variantNodeId": "478:77183",
+    "variantName": "Style=Linear",
+    "category": "Search",
+    "exportFrom": "the screen elements themselves (detached Solar copies, e.g. 1280:10652 'Outline / Video, Audio, Sound / Play Circle')"
+   },
+   "icon": "Magnifer",
+   "style": "Linear",
+   "exportSizePx": 24,
+   "multicolor": false,
+   "destination": {
+    "original": "src/icons/originals/solar/linear/magnifer.svg",
+    "normalized": "src/icons/svg/linear/solar-magnifer.svg"
+   },
+   "elements": [
+    {
+     "file": "pdp/mobile.html",
+     "figmaNode": "1201:9780",
+     "mapping": "EXACT",
+     "screenSizePx": "24",
+     "scale": null,
+     "exportRoute": {
+      "method": "download_assets(svg)",
+      "node": "1201:9780"
+     },
+     "verification": {
+      "verdict": "CONFIRMED",
+      "name": "Linear / Search / Magnifer",
+      "w": 24.0,
+      "h": 24.0,
+      "notes": "FRAME (not instance) => detached Solar copy"
+     }
+    },
+    {
+     "file": "pdp/pdp-v1.html",
+     "figmaNode": "1280:10779",
+     "mapping": "EXACT",
+     "screenSizePx": "24",
+     "scale": null,
+     "exportRoute": {
+      "method": "download_assets(svg)",
+      "node": "1280:10779"
+     },
+     "verification": {
+      "verdict": "CONFIRMED",
+      "name": "Linear / Search / Magnifer",
+      "w": 24.0,
+      "h": 24.0,
+      "notes": "FRAME (not instance) => detached Solar copy"
+     }
+    },
+    {
+     "file": "sample-screen/mobile-pdp-1608-7090.html",
+     "figmaNode": "1608:7118",
+     "mapping": "EXACT",
+     "screenSizePx": "24",
+     "scale": null,
+     "exportRoute": {
+      "method": "download_assets(svg)",
+      "node": "1608:7118"
+     },
+     "verification": {
+      "verdict": "CONFIRMED",
+      "name": "Linear / Search / Magnifer",
+      "w": 24.0,
+      "h": 24.0,
+      "notes": "FRAME (not instance) => detached Solar copy"
+     }
+    }
+   ],
+   "destinationFree": true,
+   "catalogueNodeStatus": "NOT FOUND in the live file (2026-11-20): 478:* ids from the saved 375:10889 snapshot no longer resolve",
+   "libraryReference": "1201:9780"
+  },
+  {
+   "id": "A07",
+   "source": {
+    "page": "375:10889 Iconography",
+    "setNodeId": "478:82706",
+    "variantNodeId": "478:82716",
+    "variantName": "Style=Outline",
+    "category": "Map & Location",
+    "exportFrom": "the screen elements themselves (detached Solar copies, e.g. 1280:10652 'Outline / Video, Audio, Sound / Play Circle')"
+   },
+   "icon": "Map Point",
+   "style": "Outline",
+   "exportSizePx": 24,
+   "multicolor": false,
+   "destination": {
+    "original": "src/icons/originals/solar/outline/map-point.svg",
+    "normalized": "src/icons/svg/outline/solar-map-point.svg"
+   },
+   "elements": [
+    {
+     "file": "sample-screen/desktop-pdp-1375-30858.html",
+     "figmaNode": "1375:31037",
+     "mapping": "EXACT",
+     "screenSizePx": "24",
+     "scale": null,
+     "exportRoute": {
+      "method": "download_assets(svg)",
+      "node": "1375:31037"
+     },
+     "verification": {
+      "verdict": "CONFIRMED",
+      "name": "Outline / Map & Location / Map Point",
+      "w": 24.0,
+      "h": 24.0,
+      "notes": "INSTANCE (only instance-typed icon in A_solar). get_design_context: \"OutlineMapLocationMapPoint\", 1 SVG asset constant, no component description or library name. Child Vector id I1375:31037;302:2450 => main component lives in this file (302:* range)."
+     }
+    }
+   ],
+   "destinationFree": true,
+   "catalogueNodeStatus": "NOT FOUND in the live file (2026-11-20): 478:* ids from the saved 375:10889 snapshot no longer resolve",
+   "libraryReference": "1375:31037"
+  },
+  {
+   "id": "A08",
+   "source": {
+    "page": "375:10889 Iconography",
+    "setNodeId": "478:83918",
+    "variantNodeId": "478:83926",
+    "variantName": "Style=Outline",
+    "category": "Like",
+    "exportFrom": "the screen elements themselves (detached Solar copies, e.g. 1280:10652 'Outline / Video, Audio, Sound / Play Circle')"
+   },
+   "icon": "Like",
+   "style": "Outline",
+   "exportSizePx": 24,
+   "multicolor": false,
+   "destination": {
+    "original": "src/icons/originals/solar/outline/like.svg",
+    "normalized": "src/icons/svg/outline/solar-like.svg"
+   },
+   "elements": [
+    {
+     "file": "pdp/pdp-v1.html",
+     "figmaNode": "1280:10656 like",
+     "mapping": "SCALED_24_TO_18",
+     "screenSizePx": "18",
+     "scale": 0.75,
+     "exportRoute": {
+      "method": "get_design_context asset URL of child layer",
+      "node": "1280:10656",
+      "childLayer": "like",
+      "resolvedIconLayer": {
+       "id": "I1280:10656;1363:26813;1363:25114",
+       "name": "Outline / Like / Like",
+       "w": 18,
+       "h": 18,
+       "hidden": false
+      }
+     },
+     "verification": {
+      "verdict": "CONFIRMED",
+      "name": "Frame 2121454563",
+      "w": 361.0,
+      "h": 186.0,
+      "notes": "No layer literally named \"like\"; get_design_context shows nested child I1280:10656;1363:26813;1363:25114 \"Outline / Like / Like\" 18x18 inside a \"Button\" instance; 1 icon SVG asset constant (+1 unrelated Star asset); icon is an <img>, no fill/stroke colour classes."
+     },
+     "figmaSizePx": 361.0
+    },
+    {
+     "file": "sample-screen/mobile-pdp-1608-7090.html",
+     "figmaNode": "I1608:7387;1363:26813;1363:25114",
+     "mapping": "SCALED_24_TO_18",
+     "screenSizePx": "18",
+     "scale": 0.75,
+     "exportRoute": {
+      "method": "get_design_context asset URL (nested instance id; download_assets accepts plain ids only)",
+      "node": "I1608:7387;1363:26813;1363:25114"
+     },
+     "verification": {
+      "verdict": "CONFIRMED",
+      "name": "Outline / Like / Like",
+      "w": 18.0,
+      "h": 18.0,
+      "notes": "FRAME (not instance) => detached Solar copy"
+     }
+    }
+   ],
+   "destinationFree": true,
+   "catalogueNodeStatus": "NOT FOUND in the live file (2026-11-20): 478:* ids from the saved 375:10889 snapshot no longer resolve",
+   "libraryReference": "1280:10656 like"
+  },
+  {
+   "id": "A09",
+   "source": {
+    "page": "375:10889 Iconography",
+    "setNodeId": "478:84063",
+    "variantNodeId": "478:84069",
+    "variantName": "Style=Linear",
+    "category": "Like",
+    "exportFrom": "the screen elements themselves (detached Solar copies, e.g. 1280:10652 'Outline / Video, Audio, Sound / Play Circle')"
+   },
+   "icon": "Heart",
+   "style": "Linear",
+   "exportSizePx": 24,
+   "multicolor": false,
+   "destination": {
+    "original": "src/icons/originals/solar/linear/heart.svg",
+    "normalized": "src/icons/svg/linear/solar-heart.svg"
+   },
+   "elements": [
+    {
+     "file": "pdp/mobile.html",
+     "figmaNode": "1201:9789",
+     "mapping": "SCALED_24_TO_28",
+     "screenSizePx": "28",
+     "scale": 1.1667,
+     "exportRoute": {
+      "method": "download_assets(svg)",
+      "node": "1201:9789"
+     },
+     "verification": {
+      "verdict": "CONFIRMED",
+      "name": "Linear / Like / Heart ",
+      "w": 28.0,
+      "h": 28.0,
+      "notes": "layer name has trailing space (\"Heart \"); FRAME (not instance) => detached Solar copy"
+     }
+    },
+    {
+     "file": "pdp/pdp-v1.html",
+     "figmaNode": "1280:10402",
+     "mapping": "SCALED_24_TO_28",
+     "screenSizePx": "28",
+     "scale": 1.1667,
+     "exportRoute": {
+      "method": "download_assets(svg)",
+      "node": "1280:10402"
+     },
+     "verification": {
+      "verdict": "CONFIRMED",
+      "name": "Linear / Like / Heart ",
+      "w": 28.0,
+      "h": 28.0,
+      "notes": "layer name has trailing space (\"Heart \"); FRAME (not instance) => detached Solar copy"
+     }
+    },
+    {
+     "file": "pdp/pdp-v1.html",
+     "figmaNode": "I1280:10417;1508:24970",
+     "mapping": "SCALED_24_TO_28",
+     "screenSizePx": "28",
+     "scale": 1.1667,
+     "exportRoute": {
+      "method": "get_design_context asset URL (nested instance id; download_assets accepts plain ids only)",
+      "node": "I1280:10417;1508:24970"
+     },
+     "verification": {
+      "verdict": "CONFIRMED",
+      "name": "Linear / Like / Heart ",
+      "w": 28.0,
+      "h": 28.0,
+      "notes": "layer name has trailing space (\"Heart \"); FRAME (not instance) => detached Solar copy"
+     }
+    },
+    {
+     "file": "pdp/pdp-v1.html",
+     "figmaNode": "1281:7272 heart",
+     "mapping": "SCALED_24_TO_19.2",
+     "screenSizePx": "19.2",
+     "scale": 0.8,
+     "exportRoute": {
+      "method": "get_design_context asset URL of child layer",
+      "node": "1281:7272",
+      "childLayer": "heart",
+      "resolvedIconLayer": {
+       "id": "I1281:7285;1548:40450",
+       "name": "Linear / Like / Heart",
+       "w": 19.2,
+       "h": 19.2,
+       "hidden": false
+      }
+     },
+     "verification": {
+      "verdict": "CONFIRMED",
+      "name": "Similar Products- Card",
+      "w": 172.0,
+      "h": 360.0,
+      "notes": "No layer literally named \"heart\"; get_design_context of card shows Watchlist/Small Button 1281:7285 containing I1281:7285;1548:40450 \"Linear / Like / Heart\" size-[19.2px]; 1 heart SVG asset (same asset id as every other Watchlist heart); button bg-[#fafdff] border-[#edeff0]."
+     },
+     "figmaSizePx": 172.0
+    },
+    {
+     "file": "pdp/pdp-v1.html",
+     "figmaNode": "1283:2642 heart",
+     "mapping": "SCALED_24_TO_19.2",
+     "screenSizePx": "19.2",
+     "scale": 0.8,
+     "exportRoute": {
+      "method": "get_design_context asset URL of child layer",
+      "node": "1283:2642",
+      "childLayer": "heart",
+      "resolvedIconLayer": {
+       "id": "I1283:2655;1548:40450",
+       "name": "Linear / Like / Heart",
+       "w": 19.2,
+       "h": 19.2,
+       "hidden": false
+      }
+     },
+     "verification": {
+      "verdict": "CONFIRMED",
+      "name": "Similar Products- Card",
+      "w": 172.0,
+      "h": 360.0,
+      "notes": "No layer literally named \"heart\"; get_design_context on child Watchlist/Small Button 1283:2655 shows I1283:2655;1548:40450 \"Linear / Like / Heart\" 19.2px; 1 SVG asset (same asset id)."
+     },
+     "figmaSizePx": 172.0
+    },
+    {
+     "file": "pdp/pdp-v1.html",
+     "figmaNode": "1281:7311 heart",
+     "mapping": "SCALED_24_TO_19.2",
+     "screenSizePx": "19.2",
+     "scale": 0.8,
+     "exportRoute": {
+      "method": "get_design_context asset URL of child layer",
+      "node": "1281:7311",
+      "childLayer": "heart",
+      "resolvedIconLayer": {
+       "id": "I1281:7324;1548:40450",
+       "name": "Linear / Like / Heart",
+       "w": 19.2,
+       "h": 19.2,
+       "hidden": false
+      }
+     },
+     "verification": {
+      "verdict": "CONFIRMED",
+      "name": "Similar Products- Card",
+      "w": 172.0,
+      "h": 371.0,
+      "notes": "No layer literally named \"heart\"; get_design_context on child Watchlist/Small Button 1281:7324 shows I1281:7324;1548:40450 \"Linear / Like / Heart\" 19.2px; 1 SVG asset (same asset id)."
+     },
+     "figmaSizePx": 172.0
+    },
+    {
+     "file": "pdp/pdp-v1.html",
+     "figmaNode": "1280:10699 heart",
+     "mapping": "SCALED_24_TO_19.2",
+     "screenSizePx": "19.2",
+     "scale": 0.8,
+     "exportRoute": {
+      "method": "get_design_context asset URL of child layer",
+      "node": "1280:10699",
+      "childLayer": "heart",
+      "resolvedIconLayer": {
+       "id": "I1280:10699;1548:40637;1548:40450",
+       "name": "Linear / Like / Heart",
+       "w": 19.2,
+       "h": 19.2,
+       "hidden": false
+      }
+     },
+     "verification": {
+      "verdict": "CONFIRMED",
+      "name": "Similar Products- Card",
+      "w": 172.0,
+      "h": 371.0,
+      "notes": "No layer literally named \"heart\"; get_design_context on child Watchlist/Small Button I1280:10699;1548:40637 shows \"Linear / Like / Heart\" 19.2px; 1 SVG asset (same asset id)."
+     },
+     "figmaSizePx": 172.0
+    },
+    {
+     "file": "pdp/pdp-v1.html",
+     "figmaNode": "1280:10700 heart",
+     "mapping": "SCALED_24_TO_19.2",
+     "screenSizePx": "19.2",
+     "scale": 0.8,
+     "exportRoute": {
+      "method": "get_design_context asset URL of child layer",
+      "node": "1280:10700",
+      "childLayer": "heart",
+      "resolvedIconLayer": {
+       "id": "I1280:10700;1548:40637;1548:40450",
+       "name": "Linear / Like / Heart",
+       "w": 19.2,
+       "h": 19.2,
+       "hidden": false
+      }
+     },
+     "verification": {
+      "verdict": "CONFIRMED",
+      "name": "Similar Products- Card",
+      "w": 172.0,
+      "h": 371.0,
+      "notes": "As 1280:10699: Watchlist/Small Button visible, heart \"Linear / Like / Heart\" 19.2px; 1 SVG asset (same asset id)."
+     },
+     "figmaSizePx": 172.0
+    },
+    {
+     "file": "pdp/pdp-v1.html",
+     "figmaNode": "1280:10701 heart",
+     "mapping": "SCALED_24_TO_19.2",
+     "screenSizePx": "19.2",
+     "scale": 0.8,
+     "exportRoute": {
+      "method": "get_design_context asset URL of child layer",
+      "node": "1280:10701",
+      "childLayer": "heart",
+      "resolvedIconLayer": {
+       "id": "I1280:10701;1548:40637;1548:40450",
+       "name": "Linear / Like / Heart",
+       "w": 19.2,
+       "h": 19.2,
+       "hidden": true
+      }
+     },
+     "verification": {
+      "verdict": "CONFIRMED",
+      "name": "Similar Products- Card",
+      "w": 172.0,
+      "h": 371.0,
+      "notes": "Watchlist/Small Button I1280:10701;1548:40637 is hidden=\"true\" in Figma; card-level get_design_context omits the heart entirely (no heart asset). Heart layer exists only via component structure.; HIDDEN in Figma"
+     },
+     "figmaSizePx": 172.0,
+     "hiddenInFigma": true,
+     "exclude": "hidden in Figma (parent Watchlist/Small Button is hidden): do not export or display"
+    },
+    {
+     "file": "pdp/pdp-v1.html",
+     "figmaNode": "1280:10702 heart",
+     "mapping": "SCALED_24_TO_19.2",
+     "screenSizePx": "19.2",
+     "scale": 0.8,
+     "exportRoute": {
+      "method": "get_design_context asset URL of child layer",
+      "node": "1280:10702",
+      "childLayer": "heart",
+      "resolvedIconLayer": {
+       "id": "I1280:10702;1548:40637;1548:40450",
+       "name": "Linear / Like / Heart",
+       "w": 19.2,
+       "h": 19.2,
+       "hidden": true
+      }
+     },
+     "verification": {
+      "verdict": "CONFIRMED",
+      "name": "Similar Products- Card",
+      "w": 172.0,
+      "h": 371.0,
+      "notes": "Watchlist/Small Button I1280:10702;1548:40637 is hidden=\"true\" in Figma; get_design_context on that hidden child still reports \"Linear / Like / Heart\" 19.2px with 1 SVG asset (same asset id).; HIDDEN in Figma"
+     },
+     "figmaSizePx": 172.0,
+     "hiddenInFigma": true,
+     "exclude": "hidden in Figma (parent Watchlist/Small Button is hidden): do not export or display"
+    },
+    {
+     "file": "pdp/pdp-v1.html",
+     "figmaNode": "I1280:10723;1519:26498;1519:26469",
+     "mapping": "EXACT",
+     "screenSizePx": "24",
+     "scale": null,
+     "exportRoute": {
+      "method": "get_design_context asset URL (nested instance id; download_assets accepts plain ids only)",
+      "node": "I1280:10723;1519:26498;1519:26469"
+     },
+     "verification": {
+      "verdict": "CONFIRMED",
+      "name": "Linear / Like / Heart ",
+      "w": 24.0,
+      "h": 24.0,
+      "notes": "layer name has trailing space (\"Heart \"); FRAME (not instance) => detached Solar copy"
+     }
+    },
+    {
+     "file": "pdp/pdp-v1.html",
+     "figmaNode": "I1280:10736;1519:26498;1519:26469",
+     "mapping": "EXACT",
+     "screenSizePx": "24",
+     "scale": null,
+     "exportRoute": {
+      "method": "get_design_context asset URL (nested instance id; download_assets accepts plain ids only)",
+      "node": "I1280:10736;1519:26498;1519:26469"
+     },
+     "verification": {
+      "verdict": "CONFIRMED",
+      "name": "Linear / Like / Heart ",
+      "w": 24.0,
+      "h": 24.0,
+      "notes": "layer name has trailing space (\"Heart \"); FRAME (not instance) => detached Solar copy"
+     }
+    },
+    {
+     "file": "pdp/pdp-v1.html",
+     "figmaNode": "I1280:10749;1519:26498;1519:26469",
+     "mapping": "EXACT",
+     "screenSizePx": "24",
+     "scale": null,
+     "exportRoute": {
+      "method": "get_design_context asset URL (nested instance id; download_assets accepts plain ids only)",
+      "node": "I1280:10749;1519:26498;1519:26469"
+     },
+     "verification": {
+      "verdict": "CONFIRMED",
+      "name": "Linear / Like / Heart ",
+      "w": 24.0,
+      "h": 24.0,
+      "notes": "layer name has trailing space (\"Heart \"); FRAME (not instance) => detached Solar copy"
+     }
+    },
+    {
+     "file": "pdp/pdp-v1.html",
+     "figmaNode": "I1280:10762;1519:26498;1519:26469",
+     "mapping": "EXACT",
+     "screenSizePx": "24",
+     "scale": null,
+     "exportRoute": {
+      "method": "get_design_context asset URL (nested instance id; download_assets accepts plain ids only)",
+      "node": "I1280:10762;1519:26498;1519:26469"
+     },
+     "verification": {
+      "verdict": "CONFIRMED",
+      "name": "Linear / Like / Heart ",
+      "w": 24.0,
+      "h": 24.0,
+      "notes": "layer name has trailing space (\"Heart \"); FRAME (not instance) => detached Solar copy"
+     }
+    },
+    {
+     "file": "sample-screen/mobile-pdp-1608-7090.html",
+     "figmaNode": "I1608:7443;1548:40450",
+     "mapping": "SCALED_24_TO_19.2",
+     "screenSizePx": "19.2",
+     "scale": 0.8,
+     "exportRoute": {
+      "method": "get_design_context asset URL (nested instance id; download_assets accepts plain ids only)",
+      "node": "I1608:7443;1548:40450"
+     },
+     "verification": {
+      "verdict": "CONFIRMED",
+      "name": "Linear / Like / Heart ",
+      "w": 19.2,
+      "h": 19.2,
+      "notes": "layer name has trailing space (\"Heart \"); FRAME (not instance) => detached Solar copy"
+     }
+    },
+    {
+     "file": "sample-screen/mobile-pdp-1608-7090.html",
+     "figmaNode": "I1608:7475;1548:40450",
+     "mapping": "SCALED_24_TO_19.2",
+     "screenSizePx": "19.2",
+     "scale": 0.8,
+     "exportRoute": {
+      "method": "get_design_context asset URL (nested instance id; download_assets accepts plain ids only)",
+      "node": "I1608:7475;1548:40450"
+     },
+     "verification": {
+      "verdict": "CONFIRMED",
+      "name": "Linear / Like / Heart ",
+      "w": 19.2,
+      "h": 19.2,
+      "notes": "layer name has trailing space (\"Heart \"); FRAME (not instance) => detached Solar copy"
+     }
+    },
+    {
+     "file": "sample-screen/mobile-pdp-1608-7090.html",
+     "figmaNode": "I1608:7507;1548:40450",
+     "mapping": "SCALED_24_TO_19.2",
+     "screenSizePx": "19.2",
+     "scale": 0.8,
+     "exportRoute": {
+      "method": "get_design_context asset URL (nested instance id; download_assets accepts plain ids only)",
+      "node": "I1608:7507;1548:40450"
+     },
+     "verification": {
+      "verdict": "CONFIRMED",
+      "name": "Linear / Like / Heart ",
+      "w": 19.2,
+      "h": 19.2,
+      "notes": "layer name has trailing space (\"Heart \"); FRAME (not instance) => detached Solar copy"
+     }
+    },
+    {
+     "file": "sample-screen/mobile-pdp-1608-7090.html",
+     "figmaNode": "I1608:7526;1548:40637;1548:40450",
+     "mapping": "SCALED_24_TO_19.2",
+     "screenSizePx": "19.2",
+     "scale": 0.8,
+     "exportRoute": {
+      "method": "get_design_context asset URL (nested instance id; download_assets accepts plain ids only)",
+      "node": "I1608:7526;1548:40637;1548:40450"
+     },
+     "verification": {
+      "verdict": "CONFIRMED",
+      "name": "Linear / Like / Heart ",
+      "w": 19.2,
+      "h": 19.2,
+      "notes": "layer name has trailing space (\"Heart \"); FRAME (not instance) => detached Solar copy"
+     }
+    },
+    {
+     "file": "sample-screen/mobile-pdp-1608-7090.html",
+     "figmaNode": "I1608:7527;1548:40637;1548:40450",
+     "mapping": "SCALED_24_TO_19.2",
+     "screenSizePx": "19.2",
+     "scale": 0.8,
+     "exportRoute": {
+      "method": "get_design_context asset URL (nested instance id; download_assets accepts plain ids only)",
+      "node": "I1608:7527;1548:40637;1548:40450"
+     },
+     "verification": {
+      "verdict": "CONFIRMED",
+      "name": "Linear / Like / Heart ",
+      "w": 19.2,
+      "h": 19.2,
+      "notes": "layer name has trailing space (\"Heart \"); FRAME (not instance) => detached Solar copy"
+     }
+    },
+    {
+     "file": "sample-screen/mobile-pdp-1608-7090.html",
+     "figmaNode": "I1608:7528;1548:40637;1548:40450",
+     "mapping": "SCALED_24_TO_19.2",
+     "screenSizePx": "19.2",
+     "scale": 0.8,
+     "exportRoute": {
+      "method": "get_design_context asset URL (nested instance id; download_assets accepts plain ids only)",
+      "node": "I1608:7528;1548:40637;1548:40450"
+     },
+     "verification": {
+      "verdict": "UNREADABLE",
+      "name": null,
+      "w": null,
+      "h": null,
+      "notes": "get_metadata: node ID not found. Parent instance 1608:7528 (\"Similar Products- Card\") exists but its Watchlist/Small Button (I1608:7528;1548:40637) is hidden=\"true\", so the nested heart id does not resolve. Same situation as pdp-v1 1280:10701/10702."
+     },
+     "hiddenInFigma": true,
+     "exclude": "hidden in Figma (parent Watchlist/Small Button is hidden): do not export or display"
+    },
+    {
+     "file": "sample-screen/mobile-pdp-1608-7090.html",
+     "figmaNode": "I1608:7529;1548:40637;1548:40450",
+     "mapping": "SCALED_24_TO_19.2",
+     "screenSizePx": "19.2",
+     "scale": 0.8,
+     "exportRoute": {
+      "method": "get_design_context asset URL (nested instance id; download_assets accepts plain ids only)",
+      "node": "I1608:7529;1548:40637;1548:40450"
+     },
+     "verification": {
+      "verdict": "UNREADABLE",
+      "name": null,
+      "w": null,
+      "h": null,
+      "notes": "get_metadata: node ID not found. Parent instance 1608:7529 (\"Similar Products- Card\") exists but its Watchlist/Small Button (I1608:7529;1548:40637) is hidden=\"true\", so the nested heart id does not resolve. Same situation as pdp-v1 1280:10701/10702."
+     },
+     "hiddenInFigma": true,
+     "exclude": "hidden in Figma (parent Watchlist/Small Button is hidden): do not export or display"
+    },
+    {
+     "file": "sample-screen/mobile-pdp-1608-7090.html",
+     "figmaNode": "I1608:7550;1519:26498;1519:26469",
+     "mapping": "EXACT",
+     "screenSizePx": "24",
+     "scale": null,
+     "exportRoute": {
+      "method": "get_design_context asset URL (nested instance id; download_assets accepts plain ids only)",
+      "node": "I1608:7550;1519:26498;1519:26469"
+     },
+     "verification": {
+      "verdict": "CONFIRMED",
+      "name": "Linear / Like / Heart ",
+      "w": 24.0,
+      "h": 24.0,
+      "notes": "layer name has trailing space (\"Heart \"); FRAME (not instance) => detached Solar copy"
+     }
+    },
+    {
+     "file": "sample-screen/mobile-pdp-1608-7090.html",
+     "figmaNode": "I1608:7563;1519:26498;1519:26469",
+     "mapping": "EXACT",
+     "screenSizePx": "24",
+     "scale": null,
+     "exportRoute": {
+      "method": "get_design_context asset URL (nested instance id; download_assets accepts plain ids only)",
+      "node": "I1608:7563;1519:26498;1519:26469"
+     },
+     "verification": {
+      "verdict": "CONFIRMED",
+      "name": "Linear / Like / Heart ",
+      "w": 24.0,
+      "h": 24.0,
+      "notes": "layer name has trailing space (\"Heart \"); FRAME (not instance) => detached Solar copy"
+     }
+    },
+    {
+     "file": "sample-screen/mobile-pdp-1608-7090.html",
+     "figmaNode": "I1608:7576;1519:26498;1519:26469",
+     "mapping": "EXACT",
+     "screenSizePx": "24",
+     "scale": null,
+     "exportRoute": {
+      "method": "get_design_context asset URL (nested instance id; download_assets accepts plain ids only)",
+      "node": "I1608:7576;1519:26498;1519:26469"
+     },
+     "verification": {
+      "verdict": "CONFIRMED",
+      "name": "Linear / Like / Heart ",
+      "w": 24.0,
+      "h": 24.0,
+      "notes": "layer name has trailing space (\"Heart \"); FRAME (not instance) => detached Solar copy"
+     }
+    },
+    {
+     "file": "sample-screen/mobile-pdp-1608-7090.html",
+     "figmaNode": "I1608:7589;1519:26498;1519:26469",
+     "mapping": "EXACT",
+     "screenSizePx": "24",
+     "scale": null,
+     "exportRoute": {
+      "method": "get_design_context asset URL (nested instance id; download_assets accepts plain ids only)",
+      "node": "I1608:7589;1519:26498;1519:26469"
+     },
+     "verification": {
+      "verdict": "CONFIRMED",
+      "name": "Linear / Like / Heart ",
+      "w": 24.0,
+      "h": 24.0,
+      "notes": "layer name has trailing space (\"Heart \"); FRAME (not instance) => detached Solar copy"
+     }
+    }
+   ],
+   "destinationFree": true,
+   "catalogueNodeStatus": "NOT FOUND in the live file (2026-11-20): 478:* ids from the saved 375:10889 snapshot no longer resolve",
+   "libraryReference": "I1280:10723;1519:26498;1519:26469"
+  },
+  {
+   "id": "A10",
+   "source": {
+    "page": "375:10889 Iconography",
+    "setNodeId": "478:96794",
+    "variantNodeId": "478:96800",
+    "variantName": "Style=Linear",
+    "category": "Arrows",
+    "exportFrom": "the screen elements themselves (detached Solar copies, e.g. 1280:10652 'Outline / Video, Audio, Sound / Play Circle')"
+   },
+   "icon": "Arrow Right",
+   "style": "Linear",
+   "exportSizePx": 24,
+   "multicolor": false,
+   "destination": {
+    "original": "src/icons/originals/solar/linear/arrow-right.svg",
+    "normalized": "src/icons/svg/linear/solar-arrow-right.svg"
+   },
+   "elements": [
+    {
+     "file": "pdp/pdp-v1.html",
+     "figmaNode": "1280:10707",
+     "mapping": "EXACT",
+     "screenSizePx": "24",
+     "scale": null,
+     "exportRoute": {
+      "method": "download_assets(svg)",
+      "node": "1280:10707"
+     },
+     "verification": {
+      "verdict": "CONFIRMED",
+      "name": "Linear / Arrows / Arrow Right",
+      "w": 24.0,
+      "h": 24.0,
+      "notes": "layer category reads \"Arrows\" (manifest source.category \"Arrow\"); FRAME (not instance) => detached Solar copy"
+     }
+    },
+    {
+     "file": "sample-screen/mobile-pdp-1608-7090.html",
+     "figmaNode": "1608:7534",
+     "mapping": "EXACT",
+     "screenSizePx": "24",
+     "scale": null,
+     "exportRoute": {
+      "method": "download_assets(svg)",
+      "node": "1608:7534"
+     },
+     "verification": {
+      "verdict": "CONFIRMED",
+      "name": "Linear / Arrows / Arrow Right",
+      "w": 24.0,
+      "h": 24.0,
+      "notes": "layer category reads \"Arrows\" (manifest source.category \"Arrow\"); FRAME (not instance) => detached Solar copy"
+     }
+    }
+   ],
+   "destinationFree": true,
+   "catalogueNodeStatus": "NOT FOUND in the live file (2026-11-20): 478:* ids from the saved 375:10889 snapshot no longer resolve",
+   "libraryReference": "1280:10707"
+  },
+  {
+   "id": "A11",
+   "source": {
+    "page": "375:10889 Iconography",
+    "setNodeId": "478:96895",
+    "variantNodeId": "478:96898",
+    "variantName": "Style=Line Duotone",
+    "category": "Arrows",
+    "exportFrom": "the screen elements themselves (detached Solar copies, e.g. 1280:10652 'Outline / Video, Audio, Sound / Play Circle')"
+   },
+   "icon": "Alt Arrow Left",
+   "style": "Line Duotone",
+   "exportSizePx": 24,
+   "multicolor": true,
+   "destination": {
+    "original": "src/icons/originals/solar/line-duotone/alt-arrow-left.svg",
+    "normalized": "src/icons/svg/line-duotone/solar-alt-arrow-left.svg"
+   },
+   "elements": [
+    {
+     "file": "pdp/mobile.html",
+     "figmaNode": "1201:9776",
+     "mapping": "SCALED_24_TO_28",
+     "screenSizePx": "28",
+     "scale": 1.1667,
+     "exportRoute": {
+      "method": "download_assets(svg)",
+      "node": "1201:9776"
+     },
+     "verification": {
+      "verdict": "CONFIRMED",
+      "name": "Line Duotone / Arrows / Alt Arrow Left",
+      "w": 28.0,
+      "h": 28.0,
+      "notes": "layer category reads \"Arrows\" (manifest source.category \"Arrow\"); FRAME (not instance) => detached Solar copy"
+     }
+    },
+    {
+     "file": "pdp/mobile.html",
+     "figmaNode": "1201:9812",
+     "mapping": "SCALED_24_TO_16",
+     "screenSizePx": "16",
+     "scale": 0.6667,
+     "exportRoute": {
+      "method": "download_assets(svg)",
+      "node": "1201:9812"
+     },
+     "verification": {
+      "verdict": "CONFIRMED",
+      "name": "Line Duotone / Arrows / Alt Arrow Left",
+      "w": 16.0,
+      "h": 16.0,
+      "notes": "layer category reads \"Arrows\" (manifest source.category \"Arrow\"); FRAME (not instance) => detached Solar copy"
+     }
+    },
+    {
+     "file": "pdp/mobile.html",
+     "figmaNode": "1201:9835",
+     "mapping": "SCALED_24_TO_20",
+     "screenSizePx": "20",
+     "scale": 0.8333,
+     "exportRoute": {
+      "method": "download_assets(svg)",
+      "node": "1201:9835"
+     },
+     "verification": {
+      "verdict": "CONFIRMED",
+      "name": "Line Duotone / Arrows / Alt Arrow Left",
+      "w": 20.0,
+      "h": 20.0,
+      "notes": "layer category reads \"Arrows\" (manifest source.category \"Arrow\"); FRAME (not instance) => detached Solar copy"
+     }
+    },
+    {
+     "file": "pdp/pdp-v1.html",
+     "figmaNode": "1280:10422",
+     "mapping": "SCALED_24_TO_20",
+     "screenSizePx": "20",
+     "scale": 0.8333,
+     "exportRoute": {
+      "method": "download_assets(svg)",
+      "node": "1280:10422"
+     },
+     "verification": {
+      "verdict": "CONFIRMED",
+      "name": "Line Duotone / Arrows / Alt Arrow Left",
+      "w": 20.0,
+      "h": 20.0,
+      "notes": "layer category reads \"Arrows\" (manifest source.category \"Arrow\"); FRAME (not instance) => detached Solar copy"
+     }
+    },
+    {
+     "file": "pdp/pdp-v1.html",
+     "figmaNode": "1280:10442",
+     "mapping": "SCALED_24_TO_20",
+     "screenSizePx": "20",
+     "scale": 0.8333,
+     "exportRoute": {
+      "method": "download_assets(svg)",
+      "node": "1280:10442"
+     },
+     "verification": {
+      "verdict": "CONFIRMED",
+      "name": "Line Duotone / Arrows / Alt Arrow Left",
+      "w": 20.0,
+      "h": 20.0,
+      "notes": "layer category reads \"Arrows\" (manifest source.category \"Arrow\"); FRAME (not instance) => detached Solar copy"
+     }
+    },
+    {
+     "file": "pdp/pdp-v1.html",
+     "figmaNode": "I1280:10446;1546:27139",
+     "mapping": "SCALED_24_TO_18",
+     "screenSizePx": "18",
+     "scale": 0.75,
+     "exportRoute": {
+      "method": "get_design_context asset URL (nested instance id; download_assets accepts plain ids only)",
+      "node": "I1280:10446;1546:27139"
+     },
+     "verification": {
+      "verdict": "CONFIRMED",
+      "name": "Line Duotone / Arrows / Alt Arrow Left",
+      "w": 18.0,
+      "h": 18.0,
+      "notes": "layer category reads \"Arrows\" (manifest source.category \"Arrow\"); FRAME (not instance) => detached Solar copy"
+     }
+    },
+    {
+     "file": "pdp/pdp-v1.html",
+     "figmaNode": "1280:10463",
+     "mapping": "EXACT",
+     "screenSizePx": "24",
+     "scale": null,
+     "exportRoute": {
+      "method": "download_assets(svg)",
+      "node": "1280:10463"
+     },
+     "verification": {
+      "verdict": "CONFIRMED",
+      "name": "Line Duotone / Arrows / Alt Arrow Left",
+      "w": 24.0,
+      "h": 24.0,
+      "notes": "layer category reads \"Arrows\" (manifest source.category \"Arrow\"); FRAME (not instance) => detached Solar copy"
+     }
+    },
+    {
+     "file": "pdp/pdp-v1.html",
+     "figmaNode": "1280:10482",
+     "mapping": "EXACT",
+     "screenSizePx": "24",
+     "scale": null,
+     "exportRoute": {
+      "method": "download_assets(svg)",
+      "node": "1280:10482"
+     },
+     "verification": {
+      "verdict": "CONFIRMED",
+      "name": "Line Duotone / Arrows / Alt Arrow Left",
+      "w": 24.0,
+      "h": 24.0,
+      "notes": "layer category reads \"Arrows\" (manifest source.category \"Arrow\"); FRAME (not instance) => detached Solar copy"
+     }
+    },
+    {
+     "file": "pdp/pdp-v1.html",
+     "figmaNode": "1280:10502",
+     "mapping": "SCALED_24_TO_18",
+     "screenSizePx": "18",
+     "scale": 0.75,
+     "exportRoute": {
+      "method": "download_assets(svg)",
+      "node": "1280:10502"
+     },
+     "verification": {
+      "verdict": "CONFIRMED",
+      "name": "Line Duotone / Arrows / Alt Arrow Left",
+      "w": 18.0,
+      "h": 18.0,
+      "notes": "layer category reads \"Arrows\" (manifest source.category \"Arrow\"); FRAME (not instance) => detached Solar copy"
+     }
+    },
+    {
+     "file": "pdp/pdp-v1.html",
+     "figmaNode": "1280:10504",
+     "mapping": "EXACT",
+     "screenSizePx": "24",
+     "scale": null,
+     "exportRoute": {
+      "method": "download_assets(svg)",
+      "node": "1280:10504"
+     },
+     "verification": {
+      "verdict": "CONFIRMED",
+      "name": "Line Duotone / Arrows / Alt Arrow Left",
+      "w": 24.0,
+      "h": 24.0,
+      "notes": "layer category reads \"Arrows\" (manifest source.category \"Arrow\"); FRAME (not instance) => detached Solar copy"
+     }
+    },
+    {
+     "file": "pdp/pdp-v1.html",
+     "figmaNode": "1280:10543 arrow",
+     "mapping": "EXACT",
+     "screenSizePx": "24",
+     "scale": null,
+     "exportRoute": {
+      "method": "get_design_context asset URL of child layer",
+      "node": "1280:10543",
+      "childLayer": "arrow",
+      "resolvedIconLayer": {
+       "id": "I1280:10543;1548:33548",
+       "name": "Line Duotone / Arrows / Alt Arrow Left",
+       "w": 24,
+       "h": 24,
+       "hidden": false
+      }
+     },
+     "verification": {
+      "verdict": "CONFIRMED",
+      "name": "Product Details Sections",
+      "w": 362.0,
+      "h": 32.0,
+      "notes": "No layer literally named \"arrow\"; child I1280:10543;1548:33548 \"Line Duotone / Arrows / Alt Arrow Left\" 24x24, wrapped in rotate-90 + -scale-y-100 (used as a chevron, transform on wrapper not artwork); 1 icon SVG asset (same id as 1280:10617) + 1 divider-line asset.; layer category reads \"Arrows\" (manifest source.category \"Arrow\")"
+     },
+     "figmaSizePx": 362.0
+    },
+    {
+     "file": "pdp/pdp-v1.html",
+     "figmaNode": "1280:10617 arrow",
+     "mapping": "EXACT",
+     "screenSizePx": "24",
+     "scale": null,
+     "exportRoute": {
+      "method": "get_design_context asset URL of child layer",
+      "node": "1280:10617",
+      "childLayer": "arrow",
+      "resolvedIconLayer": {
+       "id": "I1280:10617;1548:33548",
+       "name": "Line Duotone / Arrows / Alt Arrow Left",
+       "w": 24,
+       "h": 24,
+       "hidden": false
+      }
+     },
+     "verification": {
+      "verdict": "CONFIRMED",
+      "name": "Product Details Sections",
+      "w": 361.0,
+      "h": 32.0,
+      "notes": "No layer literally named \"arrow\"; child I1280:10617;1548:33548 \"Line Duotone / Arrows / Alt Arrow Left\" 24x24 with rotate-90 + -scale-y-100 wrapper; same icon asset id as 1280:10543.; layer category reads \"Arrows\" (manifest source.category \"Arrow\")"
+     },
+     "figmaSizePx": 361.0
+    },
+    {
+     "file": "pdp/pdp-v1.html",
+     "figmaNode": "1280:10691",
+     "mapping": "EXACT",
+     "screenSizePx": "24",
+     "scale": null,
+     "exportRoute": {
+      "method": "download_assets(svg)",
+      "node": "1280:10691"
+     },
+     "verification": {
+      "verdict": "CONFIRMED",
+      "name": "Line Duotone / Arrows / Alt Arrow Left",
+      "w": 24.0,
+      "h": 24.0,
+      "notes": "layer category reads \"Arrows\" (manifest source.category \"Arrow\"); FRAME (not instance) => detached Solar copy"
+     }
+    },
+    {
+     "file": "pdp/pdp-v1.html",
+     "figmaNode": "1280:10775",
+     "mapping": "SCALED_24_TO_28",
+     "screenSizePx": "28",
+     "scale": 1.1667,
+     "exportRoute": {
+      "method": "download_assets(svg)",
+      "node": "1280:10775"
+     },
+     "verification": {
+      "verdict": "CONFIRMED",
+      "name": "Line Duotone / Arrows / Alt Arrow Left",
+      "w": 28.0,
+      "h": 28.0,
+      "notes": "layer category reads \"Arrows\" (manifest source.category \"Arrow\"); FRAME (not instance) => detached Solar copy"
+     }
+    },
+    {
+     "file": "sample-screen/mobile-pdp-1608-7090.html",
+     "figmaNode": "1608:7114",
+     "mapping": "SCALED_24_TO_28",
+     "screenSizePx": "28",
+     "scale": 1.1667,
+     "exportRoute": {
+      "method": "download_assets(svg)",
+      "node": "1608:7114"
+     },
+     "verification": {
+      "verdict": "CONFIRMED",
+      "name": "Line Duotone / Arrows / Alt Arrow Left",
+      "w": 28.0,
+      "h": 28.0,
+      "notes": "layer category reads \"Arrows\" (manifest source.category \"Arrow\"); FRAME (not instance) => detached Solar copy"
+     }
+    },
+    {
+     "file": "sample-screen/mobile-pdp-1608-7090.html",
+     "figmaNode": "1608:7129",
+     "mapping": "SCALED_24_TO_20",
+     "screenSizePx": "20",
+     "scale": 0.8333,
+     "exportRoute": {
+      "method": "download_assets(svg)",
+      "node": "1608:7129"
+     },
+     "verification": {
+      "verdict": "CONFIRMED",
+      "name": "Line Duotone / Arrows / Alt Arrow Left",
+      "w": 20.0,
+      "h": 20.0,
+      "notes": "layer category reads \"Arrows\" (manifest source.category \"Arrow\"); FRAME (not instance) => detached Solar copy"
+     }
+    },
+    {
+     "file": "sample-screen/mobile-pdp-1608-7090.html",
+     "figmaNode": "1608:7149",
+     "mapping": "SCALED_24_TO_20",
+     "screenSizePx": "20",
+     "scale": 0.8333,
+     "exportRoute": {
+      "method": "download_assets(svg)",
+      "node": "1608:7149"
+     },
+     "verification": {
+      "verdict": "CONFIRMED",
+      "name": "Line Duotone / Arrows / Alt Arrow Left",
+      "w": 20.0,
+      "h": 20.0,
+      "notes": "layer category reads \"Arrows\" (manifest source.category \"Arrow\"); FRAME (not instance) => detached Solar copy"
+     }
+    },
+    {
+     "file": "sample-screen/mobile-pdp-1608-7090.html",
+     "figmaNode": "I1608:7153;1546:27139",
+     "mapping": "SCALED_24_TO_18",
+     "screenSizePx": "18",
+     "scale": 0.75,
+     "exportRoute": {
+      "method": "get_design_context asset URL (nested instance id; download_assets accepts plain ids only)",
+      "node": "I1608:7153;1546:27139"
+     },
+     "verification": {
+      "verdict": "CONFIRMED",
+      "name": "Line Duotone / Arrows / Alt Arrow Left",
+      "w": 18.0,
+      "h": 18.0,
+      "notes": "layer category reads \"Arrows\" (manifest source.category \"Arrow\"); FRAME (not instance) => detached Solar copy"
+     }
+    },
+    {
+     "file": "sample-screen/mobile-pdp-1608-7090.html",
+     "figmaNode": "1608:7196",
+     "mapping": "EXACT",
+     "screenSizePx": "24",
+     "scale": null,
+     "exportRoute": {
+      "method": "download_assets(svg)",
+      "node": "1608:7196"
+     },
+     "verification": {
+      "verdict": "CONFIRMED",
+      "name": "Line Duotone / Arrows / Alt Arrow Left",
+      "w": 24.0,
+      "h": 24.0,
+      "notes": "layer category reads \"Arrows\" (manifest source.category \"Arrow\"); FRAME (not instance) => detached Solar copy"
+     }
+    },
+    {
+     "file": "sample-screen/mobile-pdp-1608-7090.html",
+     "figmaNode": "1608:7215",
+     "mapping": "EXACT",
+     "screenSizePx": "24",
+     "scale": null,
+     "exportRoute": {
+      "method": "download_assets(svg)",
+      "node": "1608:7215"
+     },
+     "verification": {
+      "verdict": "CONFIRMED",
+      "name": "Line Duotone / Arrows / Alt Arrow Left",
+      "w": 24.0,
+      "h": 24.0,
+      "notes": "layer category reads \"Arrows\" (manifest source.category \"Arrow\"); FRAME (not instance) => detached Solar copy"
+     }
+    },
+    {
+     "file": "sample-screen/mobile-pdp-1608-7090.html",
+     "figmaNode": "1608:7235",
+     "mapping": "SCALED_24_TO_18",
+     "screenSizePx": "18",
+     "scale": 0.75,
+     "exportRoute": {
+      "method": "download_assets(svg)",
+      "node": "1608:7235"
+     },
+     "verification": {
+      "verdict": "CONFIRMED",
+      "name": "Line Duotone / Arrows / Alt Arrow Left",
+      "w": 18.0,
+      "h": 18.0,
+      "notes": "layer category reads \"Arrows\" (manifest source.category \"Arrow\"); FRAME (not instance) => detached Solar copy"
+     }
+    },
+    {
+     "file": "sample-screen/mobile-pdp-1608-7090.html",
+     "figmaNode": "1608:7237",
+     "mapping": "EXACT",
+     "screenSizePx": "24",
+     "scale": null,
+     "exportRoute": {
+      "method": "download_assets(svg)",
+      "node": "1608:7237"
+     },
+     "verification": {
+      "verdict": "CONFIRMED",
+      "name": "Line Duotone / Arrows / Alt Arrow Left",
+      "w": 24.0,
+      "h": 24.0,
+      "notes": "layer category reads \"Arrows\" (manifest source.category \"Arrow\"); FRAME (not instance) => detached Solar copy"
+     }
+    },
+    {
+     "file": "sample-screen/mobile-pdp-1608-7090.html",
+     "figmaNode": "I1608:7274;1548:33548",
+     "mapping": "EXACT",
+     "screenSizePx": "24",
+     "scale": null,
+     "exportRoute": {
+      "method": "get_design_context asset URL (nested instance id; download_assets accepts plain ids only)",
+      "node": "I1608:7274;1548:33548"
+     },
+     "verification": {
+      "verdict": "CONFIRMED",
+      "name": "Line Duotone / Arrows / Alt Arrow Left",
+      "w": 24.0,
+      "h": 24.0,
+      "notes": "layer category reads \"Arrows\" (manifest source.category \"Arrow\"); FRAME (not instance) => detached Solar copy"
+     }
+    },
+    {
+     "file": "sample-screen/mobile-pdp-1608-7090.html",
+     "figmaNode": "I1608:7348;1548:33548",
+     "mapping": "EXACT",
+     "screenSizePx": "24",
+     "scale": null,
+     "exportRoute": {
+      "method": "get_design_context asset URL (nested instance id; download_assets accepts plain ids only)",
+      "node": "I1608:7348;1548:33548"
+     },
+     "verification": {
+      "verdict": "CONFIRMED",
+      "name": "Line Duotone / Arrows / Alt Arrow Left",
+      "w": 24.0,
+      "h": 24.0,
+      "notes": "layer category reads \"Arrows\" (manifest source.category \"Arrow\"); FRAME (not instance) => detached Solar copy"
+     }
+    },
+    {
+     "file": "sample-screen/mobile-pdp-1608-7090.html",
+     "figmaNode": "1608:7422",
+     "mapping": "EXACT",
+     "screenSizePx": "24",
+     "scale": null,
+     "exportRoute": {
+      "method": "download_assets(svg)",
+      "node": "1608:7422"
+     },
+     "verification": {
+      "verdict": "CONFIRMED",
+      "name": "Line Duotone / Arrows / Alt Arrow Left",
+      "w": 24.0,
+      "h": 24.0,
+      "notes": "layer category reads \"Arrows\" (manifest source.category \"Arrow\"); FRAME (not instance) => detached Solar copy"
+     }
+    }
+   ],
+   "destinationFree": true,
+   "catalogueNodeStatus": "NOT FOUND in the live file (2026-11-20): 478:* ids from the saved 375:10889 snapshot no longer resolve",
+   "libraryReference": "1280:10463"
+  }
+ ],
+ "B_brainstorm": [
+  {
+   "id": "B01",
+   "group": "Group 1171275310",
+   "sourceNode": "5:26 > 5:27",
+   "artworkId": "2a822",
+   "exportNode": "I1280:10517;1548:31174",
+   "slotPx": 24,
+   "destination": "showcase/screens/assets/icons/brainstorm-group-1171275310-2a822.svg",
+   "elements": [
+    {
+     "file": "pdp/pdp-v1.html",
+     "figmaNode": "I1280:10517;1548:31174"
+    },
+    {
+     "file": "pdp/pdp-v1.html",
+     "figmaNode": "I1280:10527;1548:31174"
+    },
+    {
+     "file": "sample-screen/mobile-pdp-1608-7090.html",
+     "figmaNode": "I1608:7248;1548:31174"
+    },
+    {
+     "file": "sample-screen/mobile-pdp-1608-7090.html",
+     "figmaNode": "I1608:7258;1548:31174"
+    }
+   ],
+   "destinationFree": true,
+   "exportRoute": {
+    "method": "get_design_context asset URL (nested instance id; download_assets accepts plain ids only)",
+    "node": "I1280:10517;1548:31174"
+   }
+  },
+  {
+   "id": "B02",
+   "group": "Group 1171275308",
+   "sourceNode": "1548:31118",
+   "artworkId": "ab583",
+   "exportNode": "I1280:10518;1548:31174",
+   "slotPx": 24,
+   "destination": "showcase/screens/assets/icons/brainstorm-group-1171275308-ab583.svg",
+   "elements": [
+    {
+     "file": "pdp/pdp-v1.html",
+     "figmaNode": "I1280:10518;1548:31174"
+    },
+    {
+     "file": "pdp/pdp-v1.html",
+     "figmaNode": "I1280:10528;1548:31174"
+    },
+    {
+     "file": "sample-screen/mobile-pdp-1608-7090.html",
+     "figmaNode": "I1608:7249;1548:31174"
+    },
+    {
+     "file": "sample-screen/mobile-pdp-1608-7090.html",
+     "figmaNode": "I1608:7259;1548:31174"
+    }
+   ],
+   "destinationFree": true,
+   "exportRoute": {
+    "method": "get_design_context asset URL (nested instance id; download_assets accepts plain ids only)",
+    "node": "I1280:10518;1548:31174"
+   }
+  },
+  {
+   "id": "B03",
+   "group": "Group 1171275309",
+   "sourceNode": "1548:31123",
+   "artworkId": "f36c2",
+   "exportNode": "I1280:10520;1548:31174",
+   "slotPx": 24,
+   "destination": "showcase/screens/assets/icons/brainstorm-group-1171275309-f36c2.svg",
+   "elements": [
+    {
+     "file": "pdp/pdp-v1.html",
+     "figmaNode": "I1280:10520;1548:31174"
+    },
+    {
+     "file": "pdp/pdp-v1.html",
+     "figmaNode": "I1280:10530;1548:31174"
+    }
+   ],
+   "destinationFree": true,
+   "exportRoute": {
+    "method": "get_design_context asset URL (nested instance id; download_assets accepts plain ids only)",
+    "node": "I1280:10520;1548:31174"
+   }
+  },
+  {
+   "id": "B04",
+   "group": "Group 1171275312",
+   "sourceNode": "1548:31127",
+   "artworkId": "c9d0a",
+   "exportNode": "I1280:10521;1548:31174",
+   "slotPx": 24,
+   "destination": "showcase/screens/assets/icons/brainstorm-group-1171275312-c9d0a.svg",
+   "elements": [
+    {
+     "file": "pdp/pdp-v1.html",
+     "figmaNode": "I1280:10521;1548:31174"
+    },
+    {
+     "file": "pdp/pdp-v1.html",
+     "figmaNode": "I1280:10531;1548:31174"
+    },
+    {
+     "file": "sample-screen/mobile-pdp-1608-7090.html",
+     "figmaNode": "I1608:7262;1548:31174"
+    }
+   ],
+   "destinationFree": true,
+   "exportRoute": {
+    "method": "get_design_context asset URL (nested instance id; download_assets accepts plain ids only)",
+    "node": "I1280:10521;1548:31174"
+   }
+  },
+  {
+   "id": "B05",
+   "group": "Group 1171275311",
+   "sourceNode": "1548:31132",
+   "artworkId": "b43ba",
+   "exportNode": "I1280:10523;1548:31174",
+   "slotPx": 24,
+   "destination": "showcase/screens/assets/icons/brainstorm-group-1171275311-b43ba.svg",
+   "elements": [
+    {
+     "file": "pdp/pdp-v1.html",
+     "figmaNode": "I1280:10523;1548:31174"
+    },
+    {
+     "file": "pdp/pdp-v1.html",
+     "figmaNode": "I1280:10533;1548:31174"
+    }
+   ],
+   "destinationFree": true,
+   "exportRoute": {
+    "method": "get_design_context asset URL (nested instance id; download_assets accepts plain ids only)",
+    "node": "I1280:10523;1548:31174"
+   }
+  },
+  {
+   "id": "B06",
+   "group": "Group 1171275313",
+   "sourceNode": "1548:31160",
+   "artworkId": "a10ea",
+   "exportNode": "I1280:10524;1548:31174",
+   "slotPx": 24,
+   "destination": "showcase/screens/assets/icons/brainstorm-group-1171275313-a10ea.svg",
+   "elements": [
+    {
+     "file": "pdp/pdp-v1.html",
+     "figmaNode": "I1280:10524;1548:31174"
+    },
+    {
+     "file": "pdp/pdp-v1.html",
+     "figmaNode": "I1280:10534;1548:31174"
+    }
+   ],
+   "destinationFree": true,
+   "exportRoute": {
+    "method": "get_design_context asset URL (nested instance id; download_assets accepts plain ids only)",
+    "node": "I1280:10524;1548:31174"
+   }
+  },
+  {
+   "id": "B07",
+   "group": "Group 1171275309",
+   "sourceNode": "1548:31123",
+   "artworkId": "562f9",
+   "exportNode": "I1608:7251;1548:31174",
+   "slotPx": 24,
+   "destination": "showcase/screens/assets/icons/brainstorm-group-1171275309-562f9.svg",
+   "elements": [
+    {
+     "file": "sample-screen/mobile-pdp-1608-7090.html",
+     "figmaNode": "I1608:7251;1548:31174"
+    },
+    {
+     "file": "sample-screen/mobile-pdp-1608-7090.html",
+     "figmaNode": "I1608:7261;1548:31174"
+    }
+   ],
+   "destinationFree": true,
+   "exportRoute": {
+    "method": "get_design_context asset URL (nested instance id; download_assets accepts plain ids only)",
+    "node": "I1608:7251;1548:31174"
+   }
+  },
+  {
+   "id": "B08",
+   "group": "Group 1171275312",
+   "sourceNode": "1548:31127",
+   "artworkId": "c2b02",
+   "exportNode": "I1608:7252;1548:31174",
+   "slotPx": 24,
+   "destination": "showcase/screens/assets/icons/brainstorm-group-1171275312-c2b02.svg",
+   "elements": [
+    {
+     "file": "sample-screen/mobile-pdp-1608-7090.html",
+     "figmaNode": "I1608:7252;1548:31174"
+    }
+   ],
+   "destinationFree": true,
+   "exportRoute": {
+    "method": "get_design_context asset URL (nested instance id; download_assets accepts plain ids only)",
+    "node": "I1608:7252;1548:31174"
+   }
+  },
+  {
+   "id": "B09",
+   "group": "Group 1171275311",
+   "sourceNode": "1548:31132",
+   "artworkId": "91ca8",
+   "exportNode": "I1608:7254;1548:31174",
+   "slotPx": 24,
+   "destination": "showcase/screens/assets/icons/brainstorm-group-1171275311-91ca8.svg",
+   "elements": [
+    {
+     "file": "sample-screen/mobile-pdp-1608-7090.html",
+     "figmaNode": "I1608:7254;1548:31174"
+    },
+    {
+     "file": "sample-screen/mobile-pdp-1608-7090.html",
+     "figmaNode": "I1608:7264;1548:31174"
+    }
+   ],
+   "destinationFree": true,
+   "exportRoute": {
+    "method": "get_design_context asset URL (nested instance id; download_assets accepts plain ids only)",
+    "node": "I1608:7254;1548:31174"
+   }
+  },
+  {
+   "id": "B10",
+   "group": "Group 1171275313",
+   "sourceNode": "1548:31160",
+   "artworkId": "e0056",
+   "exportNode": "I1608:7255;1548:31174",
+   "slotPx": 24,
+   "destination": "showcase/screens/assets/icons/brainstorm-group-1171275313-e0056.svg",
+   "elements": [
+    {
+     "file": "sample-screen/mobile-pdp-1608-7090.html",
+     "figmaNode": "I1608:7255;1548:31174"
+    },
+    {
+     "file": "sample-screen/mobile-pdp-1608-7090.html",
+     "figmaNode": "I1608:7265;1548:31174"
+    }
+   ],
+   "destinationFree": true,
+   "exportRoute": {
+    "method": "get_design_context asset URL (nested instance id; download_assets accepts plain ids only)",
+    "node": "I1608:7255;1548:31174"
+   }
+  }
+ ],
+ "unresolved": [
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "1280:10643",
+   "icon": "Gallery Minimalistic",
+   "reason": "18 px detached copy; the Solar set has 6 styles and the layer records none — cannot pick a variant without inventing"
+  }
+ ],
+ "ambiguities": [
+  "A: the Solar catalogue nodes recorded in the saved 375:10889 snapshot (sets 478:70334…, variants 478:70344…, category frame 478:68250) are NOT FOUND in the live file. The plan therefore exports each icon from its screen element (Figma layer names such as 'Outline / Video, Audio, Sound / Play Circle' confirm style/category/name). If the owner wants catalogue-sourced artwork, current node ids of the Iconography page are needed.",
+  "B: 5:26 itself is not readable directly ('invalid node selection'); its artwork is reachable only through instances (I1280:10517 etc.), so the export node is an instance.",
+  "B: 20 of the 24 elements do NOT use 5:26; they show icon groups defined inside the parent card component (1548:31118/31123/31127/31132/31160). Groups are unnamed — no semantic icon names exist in Figma.",
+  "B: the same group shows different artwork ids on PDP V1 vs Mobile PDP (and 1171275312 differs within Mobile PDP), i.e. per-instance overrides (likely colour/state); exported per distinct artwork id to stay exact.",
+  "A/B: screen colour — library-normalised Solar files use currentColor; whether each screen element's colour equals its container's text colour is not observable read-only. Option A+ exports the screen elements themselves to capture exact colour (see plan)."
+ ],
+ "counts": {
+  "A_variants": 11,
+  "A_elements": 69,
+  "B_exports": 10,
+  "B_elements": 24,
+  "unresolved": 1,
+  "A_routes": {
+   "download_assets(svg)": 38,
+   "get_design_context asset URL of child layer": 10,
+   "get_design_context asset URL": 21
+  },
+  "A_elements_active": 65,
+  "A_elements_excluded_hidden": 4,
+  "total_exports": 76,
+  "A_routes_active": {
+   "download_assets": 38,
+   "design_context_asset_url": 27
+  }
+ },
+ "gallery_minimalistic": {
+  "node": "1280:10643",
+  "size": [
+   18,
+   18
+  ],
+  "route": "download_assets(svg)",
+  "destination": "showcase/screens/assets/icons/gallery-minimalistic-1280-10643.svg",
+  "style": null,
+  "note": "screen-only asset; no library entry; style not recorded in Figma"
+ },
+ "decision": {
+  "date": "2026-11-20",
+  "by": "Design Team",
+  "categories": {
+   "A_solar": "not required",
+   "B_brainstorm": "not required",
+   "C_gallery_minimalistic": "not required"
+  },
+  "exports": "none",
+  "replacements": "none"
+ }
+}

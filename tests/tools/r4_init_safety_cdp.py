@@ -1,0 +1,26 @@
+"""R4 closure — initialisation safety: repeated init must not add duplicate listeners. Read-only test."""
+import sys, os, time
+sys.dont_write_bytecode = True; sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from cdp_lib import Harness
+H = Harness(1400, 900)
+ok, ev = H.ok, H.ev
+H.navigate("tests/fixtures/r4-dropdown-interaction.html")
+n = ev("import('/src/annachy.js').then(m => { const a = m.initDropdowns(); const b = m.initDropdowns(); const c = m.initDropdowns(document); return [a.length, b.length, a.every((x, i) => x === b[i] && x === c[i])]; })")
+ok("initDropdowns returns the same controllers on repeat calls", n[2] is True and n[0] == n[1] == 5, n)
+ev("window.__n = 0; document.getElementById('dd-single').addEventListener('annachy-change', () => window.__n++)")
+H.click("#single-trigger"); ok("after 3× init, one click opens (no duplicate toggle)", ev("!document.getElementById('single-menu').hidden"))
+H.click("#s-2"); ok("one selection → exactly one annachy-change", ev("window.__n") == 1, ev("window.__n"))
+ok("closed after single selection", ev("document.getElementById('single-menu').hidden"))
+H.click("#multi-trigger"); H.click("#m-3")
+ok("multi toggle once per click after repeated init", ev("document.getElementById('m-3').getAttribute('aria-selected')") == "true")
+H.key("Escape")
+ok("checkbox init idempotent", ev("import('/src/annachy.js').then(m => { m.initCheckboxes(); m.initCheckboxes(); return true; })") is True)
+H.navigate("tests/fixtures/r4-tooltip-interaction.html")
+n = ev("import('/src/annachy.js').then(m => { const a = m.initTooltips(); const b = m.initTooltips(); return [a.length, a.every((x, i) => x === b[i])]; })")
+ok("initTooltips returns the same controllers on repeat calls", n[1] is True and n[0] == 6, n)
+ev("window.__shows = 0; new MutationObserver(r => r.forEach(x => { if (!x.target.hidden) window.__shows++; })).observe(document.getElementById('tip-top'), { attributes: true, attributeFilter: ['hidden'] })")
+H.hover("#t-top"); time.sleep(0.7)
+ok("one hover → one show after repeated init", ev("window.__shows") == 1, ev("window.__shows"))
+H.key("Escape"); ok("one Escape hides", ev("document.getElementById('tip-top').hidden"))
+ok("no runtime errors", not H.problems(), H.problems())
+sys.exit(H.finish("R4 INIT-SAFETY"))

@@ -1,0 +1,18 @@
+<!--
+  Annachy Design System — Checkbox canonical markup (R3-4). Figma ".Selection Controls / Checkbox" 1504:53300.
+  Root: .annachy-checkbox + --small|--medium|--large [+ --control-right] [+ --align-top|--align-bottom]
+  States are native: checked, indeterminate (data-indeterminate="true" + checkbox.js), disabled, :focus-visible, :active.
+  The glyph slot ships empty: the Figma check/remove glyph geometry is unresolved (D-27).
+-->
+<div class="annachy-checkbox annachy-checkbox--medium">
+  <input class="annachy-checkbox__input" type="checkbox" id="terms" aria-describedby="terms-sub">
+  <span class="annachy-checkbox__box" aria-hidden="true"><span class="annachy-checkbox__glyph"></span></span>
+  <span class="annachy-checkbox__content">
+    <label class="annachy-checkbox__label" for="terms">Title text goes here</label>
+    <span class="annachy-checkbox__subtext" id="terms-sub">Secondary text line goes here</span>
+  </span>
+</div>
+
+<!-- State=Multi-select -->
+<input class="annachy-checkbox__input" type="checkbox" data-indeterminate="true">
+<script type="module">import { initCheckboxes } from '/src/annachy.js'; initCheckboxes();</script>

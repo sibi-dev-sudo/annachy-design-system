@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Base &amp; utilities — Annachy Design System</title>
+  <link rel="stylesheet" href="../../src/annachy.css">
+  <link rel="stylesheet" href="../showcase.css">
+</head>
+<body>
+  <header class="sc-header">
+    <p class="sc-eyebrow">Annachy Design System · Foundations · R2 base</p>
+    <h1>Base &amp; utilities</h1>
+    <nav class="sc-nav" aria-label="Foundations">
+      <a href="../index.html">Overview</a>
+      <a href="colors.html">Colours</a>
+      <a href="typography.html">Typography</a>
+      <a href="iconography.html">Iconography</a>
+      <a href="effects.html">Effects</a>
+      <a href="grid.html">Grid</a>
+      <a href="dimensions.html">Dimensions</a>
+      <a href="base.html">Base &amp; utilities</a>
+    </nav>
+  </header>
+  <main class="sc-main">
+    <p class="sc-alert"><strong>Font: Inter.</strong> The design team confirmed Inter; it is self-hosted (SIL Open Font License) and text renders with <code>"Inter", system-ui, sans-serif</code>. The R1 token still holds the Figma value &quot;Proxima Nova&quot; until the Figma style is updated.</p>
+    <p class="sc-alert"><strong>Focus.</strong> No global focus style is applied (D-21 unresolved). Browser default focus indicators are preserved; component-specific focus treatments from Figma are implemented in R3.</p>
+    <section class="sc-section">
+      <h2>Document defaults</h2>
+      <p class="sc-note"><code>body</code>: Body M Regular (16 / 24, active Mobile), <code>Text/Primary</code> on <code>Background/Primary</code>, letter-spacing 0. Reset: box-sizing, body margin 0, media display block, form controls inherit font.</p>
+      <p class="sc-row">This paragraph uses the document default text style.</p>
+      <p class="sc-row"><a href="#">Focusable link — browser default focus indicator</a> <button type="button">Native button — unstyled</button></p>
+    </section>
+    <section class="sc-section">
+      <h2>Text classes (28)</h2>
+      <p class="sc-note">One class per Typography System style; active (Mobile) values.</p>
+      <div class="sc-type"><p class="sc-type-sample annachy-text-h1">h1 — Discover your style</p><p class="sc-type-meta"><code>.annachy-text-h1</code></p></div>
+      <div class="sc-type"><p class="sc-type-sample annachy-text-h2">h2 — Discover your style</p><p class="sc-type-meta"><code>.annachy-text-h2</code></p></div>
+      <div class="sc-type"><p class="sc-type-sample annachy-text-h3-bold">h3-bold — Discover your style</p><p class="sc-type-meta"><code>.annachy-text-h3-bold</code></p></div>
+      <div class="sc-type"><p class="sc-type-sample annachy-text-h3-semibold">h3-semibold — Discover your style</p><p class="sc-type-meta"><code>.annachy-text-h3-semibold</code></p></div>
+      <div class="sc-type"><p class="sc-type-sample annachy-text-h4">h4 — Discover your style</p><p class="sc-type-meta"><code>.annachy-text-h4</code></p></div>
+      <div class="sc-type"><p class="sc-type-sample annachy-text-h5">h5 — Discover your style</p><p class="sc-type-meta"><code>.annachy-text-h5</code></p></div>
+      <div class="sc-type"><p class="sc-type-sample annachy-text-h6">h6 — Discover your style</p><p class="sc-type-meta"><code>.annachy-text-h6</code></p></div>
+      <div class="sc-type"><p class="sc-type-sample annachy-text-h7">h7 — Discover your style</p><p class="sc-type-meta"><code>.annachy-text-h7</code></p></div>
+      <div class="sc-type"><p class="sc-type-sample annachy-text-h8">h8 — Discover your style</p><p class="sc-type-meta"><code>.annachy-text-h8</code></p></div>
+      <div class="sc-type"><p class="sc-type-sample annachy-text-subheading-l">subheading-l — Discover your style</p><p class="sc-type-meta"><code>.annachy-text-subheading-l</code></p></div>
+      <div class="sc-type"><p class="sc-type-sample annachy-text-body-l">body-l — Discover your style</p><p class="sc-type-meta"><code>.annachy-text-body-l</code></p></div>
+      <div class="sc-type"><p class="sc-type-sample annachy-text-body-m">body-m — Discover your style</p><p class="sc-type-meta"><code>.annachy-text-body-m</code></p></div>
+      <div class="sc-type"><p class="sc-type-sample annachy-text-body-m-medium">body-m-medium — Discover your style</p><p class="sc-type-meta"><code>.annachy-text-body-m-medium</code></p></div>
+      <div class="sc-type"><p class="sc-type-sample annachy-text-body-s">body-s — Discover your style</p><p class="sc-type-meta"><code>.annachy-text-body-s</code></p></div>
+      <div class="sc-type"><p class="sc-type-sample annachy-text-body-s-medium">body-s-medium — Discover your style</p><p class="sc-type-meta"><code>.annachy-text-body-s-medium</code></p></div>
+      <div class="sc-type"><p class="sc-type-sample annachy-text-body-s-semibold">body-s-semibold — Discover your style</p><p class="sc-type-meta"><code>.annachy-text-body-s-semibold</code></p></div>
+      <div class="sc-type"><p class="sc-type-sample annachy-text-body-xs">body-xs — Discover your style</p><p class="sc-type-meta"><code>.annachy-text-body-xs</code></p></div>
+      <div class="sc-type"><p class="sc-type-sample annachy-text-body-xs-semibold">body-xs-semibold — Discover your style</p><p class="sc-type-meta"><code>.annachy-text-body-xs-semibold</code></p></div>
+      <div class="sc-type"><p class="sc-type-sample annachy-text-body-xxs">body-xxs — Discover your style</p><p class="sc-type-meta"><code>.annachy-text-body-xxs</code></p></div>
+      <div class="sc-type"><p class="sc-type-sample annachy-text-body-micro">body-micro — Discover your style</p><p class="sc-type-meta"><code>.annachy-text-body-micro</code></p></div>
+      <div class="sc-type"><p class="sc-type-sample annachy-text-label-large">label-large — Discover your style</p><p class="sc-type-meta"><code>.annachy-text-label-large</code></p></div>
+      <div class="sc-type"><p class="sc-type-sample annachy-text-label-medium">label-medium — Discover your style</p><p class="sc-type-meta"><code>.annachy-text-label-medium</code></p></div>
+      <div class="sc-type"><p class="sc-type-sample annachy-text-label-small">label-small — Discover your style</p><p class="sc-type-meta"><code>.annachy-text-label-small</code></p></div>
+      <div class="sc-type"><p class="sc-type-sample annachy-text-label-xsmall">label-xsmall — Discover your style</p><p class="sc-type-meta"><code>.annachy-text-label-xsmall</code></p></div>
+      <div class="sc-type"><p class="sc-type-sample annachy-text-label-xsmall-semibold">label-xsmall-semibold — Discover your style</p><p class="sc-type-meta"><code>.annachy-text-label-xsmall-semibold</code></p></div>
+      <div class="sc-type"><p class="sc-type-sample annachy-text-caption-small">caption-small — Discover your style</p><p class="sc-type-meta"><code>.annachy-text-caption-small</code></p></div>
+      <div class="sc-type"><p class="sc-type-sample annachy-text-caption-xsmall">caption-xsmall — Discover your style</p><p class="sc-type-meta"><code>.annachy-text-caption-xsmall</code></p></div>
+      <div class="sc-type"><p class="sc-type-sample annachy-text-caption-micro">caption-micro — Discover your style</p><p class="sc-type-meta"><code>.annachy-text-caption-micro</code></p></div>
+    </section>
+    <section class="sc-section">
+      <h2>Utilities (62)</h2>
+      <p class="sc-note">Text colour, background, radius, shadow/effect and gradient classes map 1:1 to R1 tokens. Plus <code>.annachy-visually-hidden</code>.</p>
+      <div class="sc-row"><span class="sc-util-demo annachy-color-text-primary">Aa</span><code>.annachy-color-text-primary</code></div>
+      <div class="sc-row"><span class="sc-util-demo annachy-color-text-secondary">Aa</span><code>.annachy-color-text-secondary</code></div>
+      <div class="sc-row"><span class="sc-util-demo annachy-color-text-tertiary">Aa</span><code>.annachy-color-text-tertiary</code></div>
+      <div class="sc-row"><span class="sc-util-demo annachy-color-text-black">Aa</span><code>.annachy-color-text-black</code></div>
+      <div class="sc-row"><span class="sc-util-demo annachy-color-text-brand">Aa</span><code>.annachy-color-text-brand</code></div>
+      <div class="sc-row"><span class="sc-util-demo annachy-color-text-grey">Aa</span><code>.annachy-color-text-grey</code></div>
+      <div class="sc-row"><span class="sc-util-demo annachy-color-text-white">Aa</span><code>.annachy-color-text-white</code></div>
+      <div class="sc-row"><span class="sc-util-demo annachy-bg-primary"></span><code>.annachy-bg-primary</code></div>
+      <div class="sc-row"><span class="sc-util-demo annachy-bg-secondary"></span><code>.annachy-bg-secondary</code></div>
+      <div class="sc-row"><span class="sc-util-demo annachy-bg-tertiary"></span><code>.annachy-bg-tertiary</code></div>
+      <div class="sc-row"><span class="sc-util-demo annachy-radius-4"></span><code>.annachy-radius-4</code></div>
+      <div class="sc-row"><span class="sc-util-demo annachy-radius-8"></span><code>.annachy-radius-8</code></div>
+      <div class="sc-row"><span class="sc-util-demo annachy-radius-12"></span><code>.annachy-radius-12</code></div>
+      <div class="sc-row"><span class="sc-util-demo annachy-radius-14"></span><code>.annachy-radius-14</code></div>
+      <div class="sc-row"><span class="sc-util-demo annachy-radius-16"></span><code>.annachy-radius-16</code></div>
+      <div class="sc-row"><span class="sc-util-demo annachy-radius-18"></span><code>.annachy-radius-18</code></div>
+      <div class="sc-row"><span class="sc-util-demo annachy-radius-24"></span><code>.annachy-radius-24</code></div>
+      <div class="sc-row"><span class="sc-util-demo annachy-radius-26"></span><code>.annachy-radius-26</code></div>
+      <div class="sc-row"><span class="sc-util-demo annachy-radius-28"></span><code>.annachy-radius-28</code></div>
+      <div class="sc-row"><span class="sc-util-demo annachy-radius-32"></span><code>.annachy-radius-32</code></div>
+      <div class="sc-row"><span class="sc-util-demo annachy-radius-34"></span><code>.annachy-radius-34</code></div>
+      <div class="sc-row"><span class="sc-util-demo annachy-shadow-scale-sm-01"></span><code>.annachy-shadow-scale-sm-01</code></div>
+      <div class="sc-row"><span class="sc-util-demo annachy-shadow-scale-sm-02"></span><code>.annachy-shadow-scale-sm-02</code></div>
+      <div class="sc-row"><span class="sc-util-demo annachy-shadow-scale-sm-03"></span><code>.annachy-shadow-scale-sm-03</code></div>
+      <div class="sc-row"><span class="sc-util-demo annachy-shadow-scale-sm-04"></span><code>.annachy-shadow-scale-sm-04</code></div>
+      <div class="sc-row"><span class="sc-util-demo annachy-shadow-scale-sm-05"></span><code>.annachy-shadow-scale-sm-05</code></div>
+      <div class="sc-row"><span class="sc-util-demo annachy-shadow-scale-md-01"></span><code>.annachy-shadow-scale-md-01</code></div>
+      <div class="sc-row"><span class="sc-util-demo annachy-shadow-scale-md-02"></span><code>.annachy-shadow-scale-md-02</code></div>
+      <div class="sc-row"><span class="sc-util-demo annachy-shadow-scale-md-03"></span><code>.annachy-shadow-scale-md-03</code></div>
+      <div class="sc-row"><span class="sc-util-demo annachy-shadow-scale-lg-01"></span><code>.annachy-shadow-scale-lg-01</code></div>
+      <div class="sc-row"><span class="sc-util-demo annachy-shadow-scale-lg-02"></span><code>.annachy-shadow-scale-lg-02</code></div>
+      <div class="sc-row"><span class="sc-util-demo annachy-shadow-scale-lg-03"></span><code>.annachy-shadow-scale-lg-03</code></div>
+      <div class="sc-row"><span class="sc-util-demo annachy-shadow-scale-xl-01"></span><code>.annachy-shadow-scale-xl-01</code></div>
+      <div class="sc-row"><span class="sc-util-demo annachy-shadow-scale-xl-02"></span><code>.annachy-shadow-scale-xl-02</code></div>
+      <div class="sc-row"><span class="sc-util-demo annachy-shadow-scale-xl-03"></span><code>.annachy-shadow-scale-xl-03</code></div>
+      <div class="sc-row"><span class="sc-util-demo annachy-shadow-scale-xxl-01"></span><code>.annachy-shadow-scale-xxl-01</code></div>
+      <div class="sc-row"><span class="sc-util-demo annachy-shadow-scale-xxl-02"></span><code>.annachy-shadow-scale-xxl-02</code></div>
+      <div class="sc-row"><span class="sc-util-demo annachy-shadow-scale-xxl-03"></span><code>.annachy-shadow-scale-xxl-03</code></div>
+      <div class="sc-row"><span class="sc-util-demo annachy-shadow-effects-sm-peck"></span><code>.annachy-shadow-effects-sm-peck</code></div>
+      <div class="sc-row"><span class="sc-util-demo annachy-shadow-effects-sm-stub"></span><code>.annachy-shadow-effects-sm-stub</code></div>
+      <div class="sc-row"><span class="sc-util-demo annachy-shadow-effects-sm-popup"></span><code>.annachy-shadow-effects-sm-popup</code></div>
+      <div class="sc-row"><span class="sc-util-demo annachy-shadow-effects-sm-raised"></span><code>.annachy-shadow-effects-sm-raised</code></div>
+      <div class="sc-row"><span class="sc-util-demo annachy-shadow-effects-sm-top-light"></span><code>.annachy-shadow-effects-sm-top-light</code></div>
+      <div class="sc-row"><span class="sc-util-demo annachy-shadow-effects-sm-bottom-light"></span><code>.annachy-shadow-effects-sm-bottom-light</code></div>
+      <div class="sc-row"><span class="sc-util-demo annachy-shadow-effects-sm-left-light"></span><code>.annachy-shadow-effects-sm-left-light</code></div>
+      <div class="sc-row"><span class="sc-util-demo annachy-shadow-effects-sm-right-light"></span><code>.annachy-shadow-effects-sm-right-light</code></div>
+      <div class="sc-row"><span class="sc-util-demo annachy-shadow-effects-md-lozenge"></span><code>.annachy-shadow-effects-md-lozenge</code></div>
+      <div class="sc-row"><span class="sc-util-demo annachy-shadow-effects-md-stub-inset"></span><code>.annachy-shadow-effects-md-stub-inset</code></div>
+      <div class="sc-row"><span class="sc-util-demo annachy-shadow-effects-lg-bubble"></span><code>.annachy-shadow-effects-lg-bubble</code></div>
+      <div class="sc-row"><span class="sc-util-demo annachy-shadow-effects-lg-hard-inset"></span><code>.annachy-shadow-effects-lg-hard-inset</code></div>
+      <div class="sc-row"><span class="sc-util-demo annachy-shadow-effects-lg-hard-lift"></span><code>.annachy-shadow-effects-lg-hard-lift</code></div>
+      <div class="sc-row"><span class="sc-util-demo annachy-shadow-effects-lg-soft-inset"></span><code>.annachy-shadow-effects-lg-soft-inset</code></div>
+      <div class="sc-row"><span class="sc-util-demo annachy-shadow-effects-xxl-dialog"></span><code>.annachy-shadow-effects-xxl-dialog</code></div>
+      <div class="sc-row"><span class="sc-util-demo annachy-shadow-swatch"></span><code>.annachy-shadow-swatch</code></div>
+      <div class="sc-row"><span class="sc-util-demo annachy-effect-button-default"></span><code>.annachy-effect-button-default</code></div>
+      <div class="sc-row"><span class="sc-util-demo annachy-effect-button-hover"></span><code>.annachy-effect-button-hover</code></div>
+      <div class="sc-row"><span class="sc-util-demo annachy-effect-button-focus"></span><code>.annachy-effect-button-focus</code></div>
+      <div class="sc-row"><span class="sc-util-demo annachy-effect-toggle-on"></span><code>.annachy-effect-toggle-on</code></div>
+      <div class="sc-row"><span class="sc-util-demo annachy-effect-toggle-off"></span><code>.annachy-effect-toggle-off</code></div>
+      <div class="sc-row"><span class="sc-util-demo annachy-effect-toggle-press"></span><code>.annachy-effect-toggle-press</code></div>
+      <div class="sc-row"><span class="sc-util-demo annachy-bg-gradient-brand"></span><code>.annachy-bg-gradient-brand</code></div>
+      <div class="sc-row"><span>Visually hidden text follows →</span><span class="annachy-visually-hidden">Hidden but available to assistive technology</span><code>.annachy-visually-hidden</code></div>
+    </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Grid — Annachy Design System</title>
+  <link rel="stylesheet" href="../../src/annachy.css">
+  <link rel="stylesheet" href="../showcase.css">
+</head>
+<body>
+  <header class="sc-header">
+    <p class="sc-eyebrow">Annachy Design System · Foundations · R1 tokens</p>
+    <h1>Grid</h1>
+    <nav class="sc-nav" aria-label="Foundations">
+      <a href="../index.html">Overview</a>
+      <a href="colors.html">Colours</a>
+      <a href="typography.html">Typography</a>
+      <a href="iconography.html">Iconography</a>
+      <a href="effects.html">Effects</a>
+      <a href="grid.html">Grid</a>
+      <a href="dimensions.html">Dimensions</a>
+      <a href="base.html">Base &amp; utilities</a>
+    </nav>
+  </header>
+  <main class="sc-main">
+    <p class="sc-alert"><strong>Reference values only.</strong> No breakpoint ranges, tablet size or max content width are defined in Figma (D-07). Mobile reference width 360 vs PDP 393 is unresolved.</p>
+    <section class="sc-section">
+      <h2>Grid tokens <small>(13)</small></h2>
+      
+      <div class="sc-row"><div class="sc-meta"><code class="sc-css">--annachy-grid-mobile-frame-width</code><span class="sc-figma">grid/width (mobile)</span><code class="sc-value">360px</code><span class="sc-ev">DOC</span></div></div>
+      <div class="sc-row"><div class="sc-meta"><code class="sc-css">--annachy-grid-desktop-frame-width</code><span class="sc-figma">grid/width (desktop)</span><code class="sc-value">1440px</code><span class="sc-ev">VAR</span></div></div>
+      <div class="sc-row"><div class="sc-meta"><code class="sc-css">--annachy-grid-large-frame-width</code><span class="sc-figma">grid/width (large)</span><code class="sc-value">1920px</code><span class="sc-ev">DOC</span></div></div>
+      <div class="sc-row"><div class="sc-meta"><code class="sc-css">--annachy-grid-mobile-columns</code><span class="sc-figma">grid/columns (mobile)</span><code class="sc-value">4</code><span class="sc-ev">DOC</span></div></div>
+      <div class="sc-row"><div class="sc-meta"><code class="sc-css">--annachy-grid-desktop-columns</code><span class="sc-figma">grid/columns (desktop)</span><code class="sc-value">12</code><span class="sc-ev">VAR</span></div></div>
+      <div class="sc-row"><div class="sc-meta"><code class="sc-css">--annachy-grid-large-columns</code><span class="sc-figma">grid/columns (large)</span><code class="sc-value">12</code><span class="sc-ev">DOC</span></div></div>
+      <div class="sc-row"><div class="sc-meta"><code class="sc-css">--annachy-grid-mobile-margin</code><span class="sc-figma">grid/margin (mobile)</span><code class="sc-value">16px</code><span class="sc-ev">DOC</span></div></div>
+      <div class="sc-row"><div class="sc-meta"><code class="sc-css">--annachy-grid-desktop-margin</code><span class="sc-figma">grid/margin (desktop)</span><code class="sc-value">120px</code><span class="sc-ev">VAR</span></div></div>
+      <div class="sc-row"><div class="sc-meta"><code class="sc-css">--annachy-grid-large-margin</code><span class="sc-figma">grid/margin (large)</span><code class="sc-value">140px</code><span class="sc-ev">DOC</span></div></div>
+      <div class="sc-row"><div class="sc-meta"><code class="sc-css">--annachy-grid-mobile-gutter</code><span class="sc-figma">grid/gutter (mobile)</span><code class="sc-value">16px</code><span class="sc-ev">DOC</span></div></div>
+      <div class="sc-row"><div class="sc-meta"><code class="sc-css">--annachy-grid-desktop-gutter</code><span class="sc-figma">grid/gutter (desktop)</span><code class="sc-value">32px</code><span class="sc-ev">VAR</span></div></div>
+      <div class="sc-row"><div class="sc-meta"><code class="sc-css">--annachy-grid-large-gutter</code><span class="sc-figma">grid/gutter (large)</span><code class="sc-value">32px</code><span class="sc-ev">DOC</span></div></div>
+      <div class="sc-row"><div class="sc-meta"><code class="sc-css">--annachy-grid-desktop-frame-height</code><span class="sc-figma">grid/height (desktop)</span><code class="sc-value">1024px</code><span class="sc-ev">VAR</span></div></div>
+    </section>
+    <section class="sc-section">
+      <h2>Grid illustrations <small>(3)</small></h2>
+      
+      <figure class="sc-grid-demo">
+        <figcaption><strong>Mobile</strong> — frame <code>var(--annachy-grid-mobile-frame-width)</code>, 4 columns, margin <code>var(--annachy-grid-mobile-margin)</code>, gutter <code>var(--annachy-grid-mobile-gutter)</code> (shown at 25 % scale)</figcaption>
+        <div class="sc-grid-frame" style="--sc-w: var(--annachy-grid-mobile-frame-width); --sc-m: var(--annachy-grid-mobile-margin); --sc-g: var(--annachy-grid-mobile-gutter); --sc-c: var(--annachy-grid-mobile-columns);">
+          <span class="sc-grid-col"></span>
+          <span class="sc-grid-col"></span>
+          <span class="sc-grid-col"></span>
+          <span class="sc-grid-col"></span>
+        </div>
+      </figure>
+      <figure class="sc-grid-demo">
+        <figcaption><strong>Desktop</strong> — frame <code>var(--annachy-grid-desktop-frame-width)</code>, 12 columns, margin <code>var(--annachy-grid-desktop-margin)</code>, gutter <code>var(--annachy-grid-desktop-gutter)</code> (shown at 25 % scale)</figcaption>
+        <div class="sc-grid-frame" style="--sc-w: var(--annachy-grid-desktop-frame-width); --sc-m: var(--annachy-grid-desktop-margin); --sc-g: var(--annachy-grid-desktop-gutter); --sc-c: var(--annachy-grid-desktop-columns);">
+          <span class="sc-grid-col"></span>
+          <span class="sc-grid-col"></span>
+          <span class="sc-grid-col"></span>
+          <span class="sc-grid-col"></span>
+          <span class="sc-grid-col"></span>
+          <span class="sc-grid-col"></span>
+          <span class="sc-grid-col"></span>
+          <span class="sc-grid-col"></span>
+          <span class="sc-grid-col"></span>
+          <span class="sc-grid-col"></span>
+          <span class="sc-grid-col"></span>
+          <span class="sc-grid-col"></span>
+        </div>
+      </figure>
+      <figure class="sc-grid-demo">
+        <figcaption><strong>Large Desktop</strong> — frame <code>var(--annachy-grid-large-frame-width)</code>, 12 columns, margin <code>var(--annachy-grid-large-margin)</code>, gutter <code>var(--annachy-grid-large-gutter)</code> (shown at 25 % scale)</figcaption>
+        <div class="sc-grid-frame" style="--sc-w: var(--annachy-grid-large-frame-width); --sc-m: var(--annachy-grid-large-margin); --sc-g: var(--annachy-grid-large-gutter); --sc-c: var(--annachy-grid-large-columns);">
+          <span class="sc-grid-col"></span>
+          <span class="sc-grid-col"></span>
+          <span class="sc-grid-col"></span>
+          <span class="sc-grid-col"></span>
+          <span class="sc-grid-col"></span>
+          <span class="sc-grid-col"></span>
+          <span class="sc-grid-col"></span>
+          <span class="sc-grid-col"></span>
+          <span class="sc-grid-col"></span>
+          <span class="sc-grid-col"></span>
+          <span class="sc-grid-col"></span>
+          <span class="sc-grid-col"></span>
+        </div>
+      </figure>
+    </section>
+  </main>
+</body>
+</html>

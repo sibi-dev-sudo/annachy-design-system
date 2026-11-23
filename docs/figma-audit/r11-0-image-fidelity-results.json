@@ -1,0 +1,1332 @@
+[
+ {
+  "id": "I001",
+  "ref": "605:17525",
+  "exportPx": [
+   1440,
+   931
+  ],
+  "visibleBox": [
+   1438,
+   931
+  ],
+  "alignOffset": [
+   -1,
+   0
+  ],
+  "coverage": 0.996,
+  "meanAbsDiff": 1.23,
+  "pxOver48": 0.0009
+ },
+ {
+  "id": "I002",
+  "ref": "1201:9772",
+  "exportPx": [
+   360,
+   525
+  ],
+  "visibleBox": [
+   358,
+   525
+  ],
+  "alignOffset": [
+   -1,
+   0
+  ],
+  "coverage": 0.991,
+  "meanAbsDiff": 2.35,
+  "pxOver48": 0.0
+ },
+ {
+  "id": "I003",
+  "ref": "1280:10399",
+  "exportPx": [
+   393,
+   525
+  ],
+  "visibleBox": [
+   393,
+   525
+  ],
+  "alignOffset": [
+   0,
+   0
+  ],
+  "coverage": 0.991,
+  "meanAbsDiff": 1.83,
+  "pxOver48": 0.0
+ },
+ {
+  "id": "I004",
+  "ref": "1280:10445",
+  "exportPx": [
+   364,
+   175
+  ],
+  "visibleBox": [
+   73,
+   99
+  ],
+  "alignOffset": [
+   -2,
+   -1
+  ],
+  "coverage": 0.796,
+  "meanAbsDiff": 7.41,
+  "pxOver48": 0.0026
+ },
+ {
+  "id": "I005",
+  "ref": "1280:10445",
+  "exportPx": [
+   364,
+   175
+  ],
+  "visibleBox": [
+   73,
+   100
+  ],
+  "alignOffset": [
+   -2,
+   1
+  ],
+  "coverage": 0.924,
+  "meanAbsDiff": 8.3,
+  "pxOver48": 0.005
+ },
+ {
+  "id": "I006",
+  "ref": "1280:10445",
+  "exportPx": [
+   364,
+   175
+  ],
+  "visibleBox": [
+   73,
+   100
+  ],
+  "alignOffset": [
+   -2,
+   1
+  ],
+  "coverage": 0.924,
+  "meanAbsDiff": 8.09,
+  "pxOver48": 0.004
+ },
+ {
+  "id": "I007",
+  "ref": "1280:10445",
+  "exportPx": [
+   364,
+   175
+  ],
+  "visibleBox": [
+   73,
+   100
+  ],
+  "alignOffset": [
+   -2,
+   1
+  ],
+  "coverage": 0.924,
+  "meanAbsDiff": 7.04,
+  "pxOver48": 0.0006
+ },
+ {
+  "id": "I008",
+  "ref": "1280:10636",
+  "exportPx": [
+   177,
+   130
+  ],
+  "visibleBox": [
+   175,
+   128
+  ],
+  "alignOffset": [
+   -1,
+   -1
+  ],
+  "coverage": 0.973,
+  "meanAbsDiff": 4.15,
+  "pxOver48": 0.0001
+ },
+ {
+  "id": "I009",
+  "ref": "1280:10640",
+  "exportPx": [
+   177,
+   61
+  ],
+  "visibleBox": [
+   174,
+   59
+  ],
+  "alignOffset": [
+   0,
+   -1
+  ],
+  "coverage": 0.955,
+  "meanAbsDiff": 2.13,
+  "pxOver48": 0.0003
+ },
+ {
+  "id": "I010",
+  "ref": "1280:10649",
+  "exportPx": [
+   177,
+   61
+  ],
+  "visibleBox": [
+   174,
+   59
+  ],
+  "alignOffset": [
+   0,
+   -1
+  ],
+  "coverage": 0.955,
+  "meanAbsDiff": 4.96,
+  "pxOver48": 0.0004
+ },
+ {
+  "id": "I011",
+  "ref": "1281:7272",
+  "exportPx": [
+   172,
+   360
+  ],
+  "visibleBox": [
+   172,
+   238
+  ],
+  "alignOffset": [
+   0,
+   1
+  ],
+  "coverage": 0.898,
+  "meanAbsDiff": 2.59,
+  "pxOver48": 0.0
+ },
+ {
+  "id": "I012",
+  "ref": "1283:2642",
+  "exportPx": [
+   172,
+   360
+  ],
+  "visibleBox": [
+   172,
+   238
+  ],
+  "alignOffset": [
+   0,
+   1
+  ],
+  "coverage": 0.898,
+  "meanAbsDiff": 2.59,
+  "pxOver48": 0.0
+ },
+ {
+  "id": "I013",
+  "result": "no usable Figma render (empty 1x1 export); same artwork and structure as a compared sibling"
+ },
+ {
+  "id": "I014",
+  "result": "no usable Figma render (empty 1x1 export); same artwork and structure as a compared sibling"
+ },
+ {
+  "id": "I015",
+  "result": "no usable Figma render (empty 1x1 export); same artwork and structure as a compared sibling"
+ },
+ {
+  "id": "I016",
+  "result": "no usable Figma render (empty 1x1 export); same artwork and structure as a compared sibling"
+ },
+ {
+  "id": "I017",
+  "result": "no usable Figma render (empty 1x1 export); same artwork and structure as a compared sibling"
+ },
+ {
+  "id": "I018",
+  "ref": "1280:10723",
+  "exportPx": [
+   195,
+   262
+  ],
+  "visibleBox": [
+   123,
+   156
+  ],
+  "alignOffset": [
+   0,
+   -24
+  ],
+  "coverage": 0.933,
+  "meanAbsDiff": 6.89,
+  "pxOver48": 0.0006
+ },
+ {
+  "id": "I019",
+  "ref": "1280:10723",
+  "exportPx": [
+   195,
+   262
+  ],
+  "visibleBox": [
+   123,
+   68
+  ],
+  "alignOffset": [
+   0,
+   -24
+  ],
+  "coverage": 0.955,
+  "meanAbsDiff": 6.64,
+  "pxOver48": 0.0003
+ },
+ {
+  "id": "I020",
+  "ref": "1280:10723",
+  "exportPx": [
+   195,
+   262
+  ],
+  "visibleBox": [
+   50,
+   50
+  ],
+  "alignOffset": [
+   0,
+   -24
+  ],
+  "coverage": 0.922,
+  "meanAbsDiff": 7.48,
+  "pxOver48": 0.0013
+ },
+ {
+  "id": "I021",
+  "ref": "1280:10723",
+  "exportPx": [
+   195,
+   262
+  ],
+  "visibleBox": [
+   50,
+   50
+  ],
+  "alignOffset": [
+   0,
+   -24
+  ],
+  "coverage": 0.922,
+  "meanAbsDiff": 4.23,
+  "pxOver48": 0.0
+ },
+ {
+  "id": "I022",
+  "ref": "1280:10723",
+  "exportPx": [
+   195,
+   262
+  ],
+  "visibleBox": [
+   50,
+   50
+  ],
+  "alignOffset": [
+   0,
+   -24
+  ],
+  "coverage": 0.922,
+  "meanAbsDiff": 7.71,
+  "pxOver48": 0.0004
+ },
+ {
+  "id": "I023",
+  "ref": "1280:10723",
+  "exportPx": [
+   195,
+   262
+  ],
+  "visibleBox": [
+   50,
+   50
+  ],
+  "alignOffset": [
+   0,
+   -24
+  ],
+  "coverage": 0.922,
+  "meanAbsDiff": 5.02,
+  "pxOver48": 0.0004
+ },
+ {
+  "id": "I024",
+  "ref": "1280:10736",
+  "exportPx": [
+   174,
+   262
+  ],
+  "visibleBox": [
+   123,
+   156
+  ],
+  "alignOffset": [
+   0,
+   -3
+  ],
+  "coverage": 0.933,
+  "meanAbsDiff": 5.4,
+  "pxOver48": 0.0075
+ },
+ {
+  "id": "I025",
+  "ref": "1280:10736",
+  "exportPx": [
+   174,
+   262
+  ],
+  "visibleBox": [
+   123,
+   68
+  ],
+  "alignOffset": [
+   0,
+   -3
+  ],
+  "coverage": 0.955,
+  "meanAbsDiff": 4.25,
+  "pxOver48": 0.0006
+ },
+ {
+  "id": "I026",
+  "ref": "1280:10736",
+  "exportPx": [
+   174,
+   262
+  ],
+  "visibleBox": [
+   38,
+   50
+  ],
+  "alignOffset": [
+   0,
+   -3
+  ],
+  "coverage": 0.909,
+  "meanAbsDiff": 3.42,
+  "pxOver48": 0.0
+ },
+ {
+  "id": "I027",
+  "ref": "1280:10736",
+  "exportPx": [
+   174,
+   262
+  ],
+  "visibleBox": [
+   38,
+   50
+  ],
+  "alignOffset": [
+   0,
+   -3
+  ],
+  "coverage": 0.909,
+  "meanAbsDiff": 3.74,
+  "pxOver48": 0.0
+ },
+ {
+  "id": "I028",
+  "ref": "1280:10736",
+  "exportPx": [
+   174,
+   262
+  ],
+  "visibleBox": [
+   38,
+   50
+  ],
+  "alignOffset": [
+   0,
+   -3
+  ],
+  "coverage": 0.909,
+  "meanAbsDiff": 11.02,
+  "pxOver48": 0.0208
+ },
+ {
+  "id": "I029",
+  "ref": "1280:10736",
+  "exportPx": [
+   174,
+   262
+  ],
+  "visibleBox": [
+   38,
+   50
+  ],
+  "alignOffset": [
+   0,
+   -3
+  ],
+  "coverage": 0.909,
+  "meanAbsDiff": 2.73,
+  "pxOver48": 0.0
+ },
+ {
+  "id": "I030",
+  "result": "no usable Figma render (empty 1x1 export); same artwork and structure as a compared sibling"
+ },
+ {
+  "id": "I031",
+  "result": "no usable Figma render (empty 1x1 export); same artwork and structure as a compared sibling"
+ },
+ {
+  "id": "I032",
+  "result": "no usable Figma render (empty 1x1 export); same artwork and structure as a compared sibling"
+ },
+ {
+  "id": "I033",
+  "result": "no usable Figma render (empty 1x1 export); same artwork and structure as a compared sibling"
+ },
+ {
+  "id": "I034",
+  "result": "no usable Figma render (empty 1x1 export); same artwork and structure as a compared sibling"
+ },
+ {
+  "id": "I035",
+  "result": "no usable Figma render (empty 1x1 export); same artwork and structure as a compared sibling"
+ },
+ {
+  "id": "I036",
+  "result": "no usable Figma render (empty 1x1 export); same artwork and structure as a compared sibling"
+ },
+ {
+  "id": "I037",
+  "result": "no usable Figma render (empty 1x1 export); same artwork and structure as a compared sibling"
+ },
+ {
+  "id": "I038",
+  "result": "no usable Figma render (empty 1x1 export); same artwork and structure as a compared sibling"
+ },
+ {
+  "id": "I039",
+  "result": "no usable Figma render (empty 1x1 export); same artwork and structure as a compared sibling"
+ },
+ {
+  "id": "I040",
+  "result": "no usable Figma render (empty 1x1 export); same artwork and structure as a compared sibling"
+ },
+ {
+  "id": "I041",
+  "result": "no usable Figma render (empty 1x1 export); same artwork and structure as a compared sibling"
+ },
+ {
+  "id": "I042",
+  "result": "vector only (byte-identical original SVG; no raster reference)"
+ },
+ {
+  "id": "I043",
+  "ref": "1375:30863",
+  "exportPx": [
+   269,
+   368
+  ],
+  "visibleBox": [
+   264,
+   363
+  ],
+  "alignOffset": [
+   -2,
+   -3
+  ],
+  "coverage": 0.987,
+  "meanAbsDiff": 2.4,
+  "pxOver48": 0.0021
+ },
+ {
+  "id": "I044",
+  "ref": "1375:30865",
+  "exportPx": [
+   269,
+   368
+  ],
+  "visibleBox": [
+   264,
+   363
+  ],
+  "alignOffset": [
+   -3,
+   -3
+  ],
+  "coverage": 0.987,
+  "meanAbsDiff": 2.53,
+  "pxOver48": 0.003
+ },
+ {
+  "id": "I045",
+  "ref": "1375:30868",
+  "exportPx": [
+   269,
+   368
+  ],
+  "visibleBox": [
+   264,
+   363
+  ],
+  "alignOffset": [
+   -2,
+   -3
+  ],
+  "coverage": 0.987,
+  "meanAbsDiff": 2.26,
+  "pxOver48": 0.0023
+ },
+ {
+  "id": "I046",
+  "ref": "1375:30870",
+  "exportPx": [
+   269,
+   368
+  ],
+  "visibleBox": [
+   264,
+   363
+  ],
+  "alignOffset": [
+   -3,
+   -3
+  ],
+  "coverage": 0.987,
+  "meanAbsDiff": 2.89,
+  "pxOver48": 0.0033
+ },
+ {
+  "id": "I047",
+  "ref": "1375:30961",
+  "exportPx": [
+   88,
+   100
+  ],
+  "visibleBox": [
+   88,
+   100
+  ],
+  "alignOffset": [
+   0,
+   0
+  ],
+  "coverage": 0.958,
+  "meanAbsDiff": 1.32,
+  "pxOver48": 0.0009
+ },
+ {
+  "id": "I048",
+  "ref": "1375:30965",
+  "exportPx": [
+   88,
+   100
+  ],
+  "visibleBox": [
+   88,
+   100
+  ],
+  "alignOffset": [
+   0,
+   0
+  ],
+  "coverage": 0.958,
+  "meanAbsDiff": 1.79,
+  "pxOver48": 0.0024
+ },
+ {
+  "id": "I049",
+  "ref": "1375:30969",
+  "exportPx": [
+   87,
+   100
+  ],
+  "visibleBox": [
+   86,
+   100
+  ],
+  "alignOffset": [
+   0,
+   0
+  ],
+  "coverage": 0.957,
+  "meanAbsDiff": 2.35,
+  "pxOver48": 0.0012
+ },
+ {
+  "id": "I050",
+  "ref": "1375:30974",
+  "exportPx": [
+   87,
+   100
+  ],
+  "visibleBox": [
+   86,
+   100
+  ],
+  "alignOffset": [
+   0,
+   0
+  ],
+  "coverage": 0.957,
+  "meanAbsDiff": 1.54,
+  "pxOver48": 0.0009
+ },
+ {
+  "id": "I051",
+  "ref": "1375:30978",
+  "exportPx": [
+   88,
+   100
+  ],
+  "visibleBox": [
+   88,
+   100
+  ],
+  "alignOffset": [
+   0,
+   0
+  ],
+  "coverage": 0.958,
+  "meanAbsDiff": 1.83,
+  "pxOver48": 0.0025
+ },
+ {
+  "id": "I052",
+  "ref": "1375:31231",
+  "exportPx": [
+   250,
+   320
+  ],
+  "visibleBox": [
+   250,
+   320
+  ],
+  "alignOffset": [
+   0,
+   0
+  ],
+  "coverage": 0.986,
+  "meanAbsDiff": 1.01,
+  "pxOver48": 0.0
+ },
+ {
+  "id": "I053",
+  "result": "vector only (byte-identical original SVG; no raster reference)"
+ },
+ {
+  "id": "I054",
+  "ref": "1375:31240",
+  "exportPx": [
+   250,
+   320
+  ],
+  "visibleBox": [
+   250,
+   320
+  ],
+  "alignOffset": [
+   0,
+   0
+  ],
+  "coverage": 0.986,
+  "meanAbsDiff": 1.0,
+  "pxOver48": 0.0
+ },
+ {
+  "id": "I055",
+  "result": "vector only (byte-identical original SVG; no raster reference)"
+ },
+ {
+  "id": "I056",
+  "ref": "1375:31249",
+  "exportPx": [
+   250,
+   320
+  ],
+  "visibleBox": [
+   250,
+   320
+  ],
+  "alignOffset": [
+   0,
+   0
+  ],
+  "coverage": 0.986,
+  "meanAbsDiff": 1.07,
+  "pxOver48": 0.0
+ },
+ {
+  "id": "I057",
+  "result": "vector only (byte-identical original SVG; no raster reference)"
+ },
+ {
+  "id": "I058",
+  "ref": "1375:31258",
+  "exportPx": [
+   250,
+   320
+  ],
+  "visibleBox": [
+   250,
+   320
+  ],
+  "alignOffset": [
+   0,
+   0
+  ],
+  "coverage": 0.986,
+  "meanAbsDiff": 1.47,
+  "pxOver48": 0.0
+ },
+ {
+  "id": "I059",
+  "result": "vector only (byte-identical original SVG; no raster reference)"
+ },
+ {
+  "id": "I060",
+  "ref": "1375:31267",
+  "exportPx": [
+   88,
+   320
+  ],
+  "visibleBox": [
+   208,
+   320
+  ],
+  "alignOffset": [
+   0,
+   0
+  ],
+  "coverage": 0.416,
+  "meanAbsDiff": 0.77,
+  "pxOver48": 0.0
+ },
+ {
+  "id": "I061",
+  "result": "vector only (byte-identical original SVG; no raster reference)"
+ },
+ {
+  "id": "I062",
+  "ref": "1608:7124",
+  "exportPx": [
+   360,
+   525
+  ],
+  "visibleBox": [
+   360,
+   525
+  ],
+  "alignOffset": [
+   0,
+   0
+  ],
+  "coverage": 0.991,
+  "meanAbsDiff": 1.79,
+  "pxOver48": 0.0
+ },
+ {
+  "id": "I063",
+  "ref": "1608:7152",
+  "exportPx": [
+   360,
+   175
+  ],
+  "visibleBox": [
+   74,
+   99
+  ],
+  "alignOffset": [
+   3,
+   -1
+  ],
+  "coverage": 0.796,
+  "meanAbsDiff": 12.78,
+  "pxOver48": 0.0185,
+  "reviewed": "mobile Yellow thumbnail: identical content; resampling of the 1.0129-scaled instance + font of the overlaid badge"
+ },
+ {
+  "id": "I064",
+  "ref": "1608:7152",
+  "exportPx": [
+   360,
+   175
+  ],
+  "visibleBox": [
+   74,
+   100
+  ],
+  "alignOffset": [
+   3,
+   1
+  ],
+  "coverage": 0.944,
+  "meanAbsDiff": 11.64,
+  "pxOver48": 0.0152
+ },
+ {
+  "id": "I065",
+  "ref": "1608:7152",
+  "exportPx": [
+   360,
+   175
+  ],
+  "visibleBox": [
+   74,
+   100
+  ],
+  "alignOffset": [
+   3,
+   1
+  ],
+  "coverage": 0.944,
+  "meanAbsDiff": 12.08,
+  "pxOver48": 0.0218,
+  "reviewed": "mobile Blue thumbnail: identical content; resampling of the 0.5736-scaled instance"
+ },
+ {
+  "id": "I066",
+  "ref": "1608:7152",
+  "exportPx": [
+   360,
+   175
+  ],
+  "visibleBox": [
+   74,
+   100
+  ],
+  "alignOffset": [
+   3,
+   1
+  ],
+  "coverage": 0.944,
+  "meanAbsDiff": 8.4,
+  "pxOver48": 0.0024
+ },
+ {
+  "id": "I067",
+  "result": "vector only (byte-identical original SVG; no raster reference)"
+ },
+ {
+  "id": "I071",
+  "ref": "1608:7367",
+  "exportPx": [
+   160,
+   130
+  ],
+  "visibleBox": [
+   159,
+   128
+  ],
+  "alignOffset": [
+   -1,
+   -1
+  ],
+  "coverage": 0.972,
+  "meanAbsDiff": 4.28,
+  "pxOver48": 0.0005
+ },
+ {
+  "id": "I072",
+  "ref": "1608:7370",
+  "exportPx": [
+   160,
+   61
+  ],
+  "visibleBox": [
+   157,
+   59
+  ],
+  "alignOffset": [
+   -1,
+   -1
+  ],
+  "coverage": 0.848,
+  "meanAbsDiff": 0.82,
+  "pxOver48": 0.0003
+ },
+ {
+  "id": "I073",
+  "ref": "1608:7380",
+  "exportPx": [
+   160,
+   61
+  ],
+  "visibleBox": [
+   157,
+   59
+  ],
+  "alignOffset": [
+   -1,
+   -1
+  ],
+  "coverage": 0.954,
+  "meanAbsDiff": 5.11,
+  "pxOver48": 0.0003
+ },
+ {
+  "id": "I074",
+  "result": "vector only (byte-identical original SVG; no raster reference)"
+ },
+ {
+  "id": "I075",
+  "ref": "1608:7433",
+  "exportPx": [
+   172,
+   239
+  ],
+  "visibleBox": [
+   172,
+   239
+  ],
+  "alignOffset": [
+   0,
+   0
+  ],
+  "coverage": 0.98,
+  "meanAbsDiff": 2.59,
+  "pxOver48": 0.0
+ },
+ {
+  "id": "I076",
+  "ref": "1608:7465",
+  "exportPx": [
+   158,
+   239
+  ],
+  "visibleBox": [
+   158,
+   239
+  ],
+  "alignOffset": [
+   0,
+   0
+  ],
+  "coverage": 0.979,
+  "meanAbsDiff": 2.64,
+  "pxOver48": 0.0
+ },
+ {
+  "id": "I077",
+  "result": "no usable Figma render (empty 1x1 export); same artwork and structure as a compared sibling"
+ },
+ {
+  "id": "I078",
+  "result": "no usable Figma render (empty 1x1 export); same artwork and structure as a compared sibling"
+ },
+ {
+  "id": "I079",
+  "result": "no usable Figma render (empty 1x1 export); same artwork and structure as a compared sibling"
+ },
+ {
+  "id": "I080",
+  "result": "no usable Figma render (empty 1x1 export); same artwork and structure as a compared sibling"
+ },
+ {
+  "id": "I081",
+  "result": "no usable Figma render (empty 1x1 export); same artwork and structure as a compared sibling"
+ },
+ {
+  "id": "I082",
+  "ref": "1608:7550",
+  "exportPx": [
+   195,
+   262
+  ],
+  "visibleBox": [
+   125,
+   158
+  ],
+  "alignOffset": [
+   0,
+   -24
+  ],
+  "coverage": 0.928,
+  "meanAbsDiff": 6.89,
+  "pxOver48": 0.0006
+ },
+ {
+  "id": "I083",
+  "ref": "1608:7550",
+  "exportPx": [
+   195,
+   262
+  ],
+  "visibleBox": [
+   125,
+   70
+  ],
+  "alignOffset": [
+   0,
+   -24
+  ],
+  "coverage": 0.956,
+  "meanAbsDiff": 6.66,
+  "pxOver48": 0.0002
+ },
+ {
+  "id": "I084",
+  "ref": "1608:7550",
+  "exportPx": [
+   195,
+   262
+  ],
+  "visibleBox": [
+   52,
+   52
+  ],
+  "alignOffset": [
+   0,
+   -24
+  ],
+  "coverage": 0.925,
+  "meanAbsDiff": 7.66,
+  "pxOver48": 0.0016
+ },
+ {
+  "id": "I085",
+  "ref": "1608:7550",
+  "exportPx": [
+   195,
+   262
+  ],
+  "visibleBox": [
+   52,
+   52
+  ],
+  "alignOffset": [
+   0,
+   -24
+  ],
+  "coverage": 0.925,
+  "meanAbsDiff": 4.4,
+  "pxOver48": 0.0
+ },
+ {
+  "id": "I086",
+  "ref": "1608:7550",
+  "exportPx": [
+   195,
+   262
+  ],
+  "visibleBox": [
+   52,
+   52
+  ],
+  "alignOffset": [
+   0,
+   -24
+  ],
+  "coverage": 0.925,
+  "meanAbsDiff": 7.92,
+  "pxOver48": 0.0008
+ },
+ {
+  "id": "I087",
+  "ref": "1608:7550",
+  "exportPx": [
+   195,
+   262
+  ],
+  "visibleBox": [
+   52,
+   52
+  ],
+  "alignOffset": [
+   0,
+   -24
+  ],
+  "coverage": 0.925,
+  "meanAbsDiff": 5.21,
+  "pxOver48": 0.0004
+ },
+ {
+  "id": "I088",
+  "ref": "1608:7563",
+  "exportPx": [
+   141,
+   262
+  ],
+  "visibleBox": [
+   125,
+   158
+  ],
+  "alignOffset": [
+   0,
+   -3
+  ],
+  "coverage": 0.928,
+  "meanAbsDiff": 5.36,
+  "pxOver48": 0.0073
+ },
+ {
+  "id": "I089",
+  "ref": "1608:7563",
+  "exportPx": [
+   141,
+   262
+  ],
+  "visibleBox": [
+   125,
+   70
+  ],
+  "alignOffset": [
+   0,
+   -3
+  ],
+  "coverage": 0.956,
+  "meanAbsDiff": 4.26,
+  "pxOver48": 0.001
+ },
+ {
+  "id": "I090",
+  "ref": "1608:7563",
+  "exportPx": [
+   141,
+   262
+  ],
+  "visibleBox": [
+   6,
+   52
+  ],
+  "alignOffset": [
+   0,
+   -3
+  ],
+  "coverage": 0.641,
+  "meanAbsDiff": 2.21,
+  "pxOver48": 0.0
+ },
+ {
+  "id": "I091",
+  "ref": "1608:7563",
+  "exportPx": [
+   141,
+   262
+  ],
+  "visibleBox": [
+   6,
+   52
+  ],
+  "alignOffset": [
+   1,
+   -3
+  ],
+  "coverage": 0.641,
+  "meanAbsDiff": 8.77,
+  "pxOver48": 0.0
+ },
+ {
+  "id": "I092",
+  "ref": "1608:7563",
+  "exportPx": [
+   141,
+   262
+  ],
+  "visibleBox": [
+   6,
+   52
+  ],
+  "alignOffset": [
+   -1,
+   -2
+  ],
+  "coverage": 0.641,
+  "meanAbsDiff": 21.04,
+  "pxOver48": 0.18,
+  "reviewed": "tile ~4 px inside the mobile carousel edge: only a sliver is visible in both renders; desktop twin I028 matches"
+ },
+ {
+  "id": "I093",
+  "ref": "1608:7563",
+  "exportPx": [
+   141,
+   262
+  ],
+  "visibleBox": [
+   6,
+   52
+  ],
+  "alignOffset": [
+   0,
+   -3
+  ],
+  "coverage": 0.641,
+  "meanAbsDiff": 1.71,
+  "pxOver48": 0.0
+ },
+ {
+  "id": "I094",
+  "result": "no usable Figma render (empty 1x1 export); same artwork and structure as a compared sibling"
+ },
+ {
+  "id": "I095",
+  "result": "no usable Figma render (empty 1x1 export); same artwork and structure as a compared sibling"
+ },
+ {
+  "id": "I096",
+  "result": "no usable Figma render (empty 1x1 export); same artwork and structure as a compared sibling"
+ },
+ {
+  "id": "I097",
+  "result": "no usable Figma render (empty 1x1 export); same artwork and structure as a compared sibling"
+ },
+ {
+  "id": "I098",
+  "result": "no usable Figma render (empty 1x1 export); same artwork and structure as a compared sibling"
+ },
+ {
+  "id": "I099",
+  "result": "no usable Figma render (empty 1x1 export); same artwork and structure as a compared sibling"
+ },
+ {
+  "id": "I100",
+  "result": "no usable Figma render (empty 1x1 export); same artwork and structure as a compared sibling"
+ },
+ {
+  "id": "I101",
+  "result": "no usable Figma render (empty 1x1 export); same artwork and structure as a compared sibling"
+ },
+ {
+  "id": "I102",
+  "result": "no usable Figma render (empty 1x1 export); same artwork and structure as a compared sibling"
+ },
+ {
+  "id": "I103",
+  "result": "no usable Figma render (empty 1x1 export); same artwork and structure as a compared sibling"
+ },
+ {
+  "id": "I104",
+  "result": "no usable Figma render (empty 1x1 export); same artwork and structure as a compared sibling"
+ },
+ {
+  "id": "I105",
+  "result": "no usable Figma render (empty 1x1 export); same artwork and structure as a compared sibling"
+ },
+ {
+  "id": "I108",
+  "ref": "1627:11860",
+  "exportPx": [
+   48,
+   48
+  ],
+  "visibleBox": [
+   48,
+   48
+  ],
+  "alignOffset": [
+   0,
+   0
+  ],
+  "coverage": 0.918,
+  "meanAbsDiff": 7.21,
+  "pxOver48": 0.0
+ }
+]

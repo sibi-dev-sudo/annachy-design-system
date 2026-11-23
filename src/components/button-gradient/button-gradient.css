@@ -1,0 +1,149 @@
+/*
+ * Annachy Design System — Button (gradient)
+ * Layer: annachy.components (assigned by src/annachy.css) · Phase R3-2
+ * Source of truth: Figma file rM3ixSG6i3DFfKZFWuxzs4, component set "Button" 1153:3370
+ *   (11 Sizes × 5 States = 55 variants; no size 38, no Loading).
+ * Evidence: docs/figma-audit/r3-0-evidence.md §5, §6, §17, §18, §22 (every variant inspected).
+ *
+ * Figma property -> markup:
+ *   Size  -> .annachy-button-gradient--size-24 … --size-56
+ *   State -> Default · Hover (:hover, .is-hover) · Focus (:focus-visible, .is-focus) · Pressed (:active, .is-pressed)
+ *            · Disabled (:disabled, [aria-disabled="true"])
+ *   leftIcon / rightIcon / labelText -> presence of .annachy-button-gradient__icon / .annachy-button-gradient__label
+ *
+ * Exact Figma behaviour reproduced:
+ *   - CSS gradient angle is the angle Figma emits for each Size × State (it depends on the frame aspect ratio, §18.1).
+ *     It is exact at the documented frame width; other label widths keep the documented angle (GB-2).
+ *   - Size 24 Focus label = Label XSmall Semibold 12/17; other size-24 states = Body XS — Semibold 12/18 (GB-3).
+ *   - Size 26 = 14/18 (All Buttons 26 = 12/18) (GB-1).
+ *   - Stroke is inside and outside layout (frame width excludes it; widths equal across states), so it is drawn
+ *     as an inset box-shadow; padding is measured from the frame edge (§22).
+ *   - Hover fill uses raw rgba values (no variables bound) (GB-4); shadows are raw (not effect styles) (B9).
+ *   - Label contrast vs the light gradient end 3.89:1 (A14 / D-22) — reproduced.
+ */
+
+.annachy-button-gradient {
+  --_gb-height: var(--annachy-size-height-40);
+  --_gb-padding-x: 12px;
+  --_gb-gap: 8px;
+  --_gb-radius: 8px;
+  --_gb-font-size: var(--annachy-type-h7-font-size);
+  --_gb-line-height: var(--annachy-type-h7-line-height);
+  --_gb-font-weight: var(--annachy-type-h7-font-weight);
+  --_gb-angle-default: 28.425170856311397deg;
+  --_gb-angle-hover: -20.615418727966116deg;
+  --_gb-angle-focus: -4.625122076747715deg;
+  --_gb-angle: var(--_gb-angle-default);
+  --_gb-stroke-width: 1.5px;
+  --_gb-stroke-color: var(--annachy-color-blue-300);
+  --_gb-shadow: -2px 4px 2px 0px rgba(23, 25, 28, 0), -1px 3px 1px 0px rgba(23, 25, 28, 0.02), -1px 2px 1px 0px rgba(23, 25, 28, 0.08), 0px 1px 1px 0px rgba(23, 25, 28, 0.13);
+  --_gb-fill: linear-gradient(var(--_gb-angle), var(--annachy-color-gradient-color-1) 13.397%, var(--annachy-color-gradient-color-2) 86.603%);
+  --_gb-fg: var(--annachy-color-base-white);
+
+  box-sizing: border-box;
+  position: relative;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--_gb-gap);
+  block-size: var(--_gb-height);
+  padding: 0 var(--_gb-padding-x);
+  margin: 0;
+  border: 0;
+  border-radius: var(--_gb-radius);
+  background: var(--_gb-fill);
+  box-shadow: inset 0 0 0 var(--_gb-stroke-width) var(--_gb-stroke-color), var(--_gb-shadow);
+  color: var(--_gb-fg);
+  font-family: var(--annachy-base-font-family-render);
+  font-size: var(--_gb-font-size);
+  line-height: var(--_gb-line-height);
+  font-weight: var(--_gb-font-weight);
+  letter-spacing: var(--annachy-font-letter-spacing);
+  white-space: nowrap;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+.annachy-button-gradient__label { display: block; }
+.annachy-button-gradient__icon { display: inline-flex; flex: none; inline-size: 20px; block-size: 20px; }  /* 1777:12415 */
+.annachy-button-gradient__icon > svg { inline-size: 100%; block-size: 100%; }
+
+/* ---------------------------------------------------------------- Sizes (§22) */
+.annachy-button-gradient--size-24 { --_gb-height: var(--annachy-size-height-24); --_gb-padding-x: 8px; --_gb-gap: 4px; --_gb-radius: 4px;  /* 1153:3371 · W 100 */
+  --_gb-font-size: var(--annachy-type-body-xs-semibold-font-size); --_gb-line-height: var(--annachy-type-body-xs-semibold-line-height); --_gb-font-weight: var(--annachy-type-body-xs-semibold-font-weight);  /* Body XS — Semibold */
+  --_gb-angle-default: 22.572274294652743deg; --_gb-angle-hover: -16.114435203849098deg; --_gb-angle-focus: -3.5552594168066634deg; }
+.annachy-button-gradient--size-26 { --_gb-height: var(--annachy-size-height-26); --_gb-padding-x: 8px; --_gb-gap: 4px; --_gb-radius: 4px;  /* 1153:3421 · W 106 */
+  --_gb-font-size: var(--annachy-type-body-s-semibold-font-size); --_gb-line-height: var(--annachy-type-body-s-semibold-line-height); --_gb-font-weight: var(--annachy-type-body-s-semibold-font-weight);  /* Body S - Semi */
+  --_gb-angle-default: 23.01785504830842deg; --_gb-angle-hover: -16.45017005645677deg; --_gb-angle-focus: -3.6333124582692164deg; }
+.annachy-button-gradient--size-28 { --_gb-height: var(--annachy-size-height-28); --_gb-padding-x: 8px; --_gb-gap: 4px; --_gb-radius: 4px;  /* 1153:3471 · W 106 */
+  --_gb-font-size: var(--annachy-type-body-s-semibold-font-size); --_gb-line-height: var(--annachy-type-body-s-semibold-line-height); --_gb-font-weight: var(--annachy-type-body-s-semibold-font-weight);  /* Body S - Semi */
+  --_gb-angle-default: 24.585177137095087deg; --_gb-angle-hover: -17.639656364416deg; --_gb-angle-focus: -3.911961106090729deg; }
+.annachy-button-gradient--size-32 { --_gb-height: var(--annachy-size-height-32); --_gb-padding-x: 12px; --_gb-gap: 8px; --_gb-radius: 8px;  /* 1153:3521 · W 128 */
+  --_gb-font-size: var(--annachy-type-h7-font-size); --_gb-line-height: var(--annachy-type-h7-line-height); --_gb-font-weight: var(--annachy-type-h7-font-weight);  /* H7 — Semibold */
+  --_gb-angle-default: 23.413224071387774deg; --_gb-angle-hover: -16.74895550608987deg; --_gb-angle-focus: -3.7029912735815316deg; }
+.annachy-button-gradient--size-36 { --_gb-height: var(--annachy-size-height-36); --_gb-padding-x: 12px; --_gb-gap: 8px; --_gb-radius: 8px;  /* 1153:3571 · W 128 */
+  --_gb-font-size: var(--annachy-type-h7-font-size); --_gb-line-height: var(--annachy-type-h7-line-height); --_gb-font-weight: var(--annachy-type-h7-font-weight);  /* H7 — Semibold */
+  --_gb-angle-default: 25.97253216191386deg; --_gb-angle-hover: -18.704260289891423deg; --_gb-angle-focus: -4.164326810102466deg; }
+.annachy-button-gradient--size-40 { --_gb-height: var(--annachy-size-height-40); --_gb-padding-x: 12px; --_gb-gap: 8px; --_gb-radius: 8px;  /* 1153:3621 · W 128 */
+  --_gb-font-size: var(--annachy-type-h7-font-size); --_gb-line-height: var(--annachy-type-h7-line-height); --_gb-font-weight: var(--annachy-type-h7-font-weight);  /* H7 — Semibold */
+  --_gb-angle-default: 28.425170856311397deg; --_gb-angle-hover: -20.615418727966116deg; --_gb-angle-focus: -4.625122076747715deg; }
+.annachy-button-gradient--size-42 { --_gb-height: var(--annachy-size-height-42); --_gb-padding-x: 16px; --_gb-gap: 12px; --_gb-radius: 12px;  /* 1153:3671 · W 144 */
+  --_gb-font-size: var(--annachy-type-h7-font-size); --_gb-line-height: var(--annachy-type-h7-line-height); --_gb-font-weight: var(--annachy-type-h7-font-weight);  /* H7 — Semibold */
+  --_gb-angle-default: 26.80205998706895deg; --_gb-angle-hover: -19.346358798444285deg; --_gb-angle-focus: -4.317988162566095deg; }
+.annachy-button-gradient--size-46 { --_gb-height: var(--annachy-size-height-46); --_gb-padding-x: 16px; --_gb-gap: 12px; --_gb-radius: 12px;  /* 1153:3721 · W 150 */
+  --_gb-font-size: var(--annachy-type-subheading-l-font-size); --_gb-line-height: var(--annachy-type-subheading-l-line-height); --_gb-font-weight: var(--annachy-type-subheading-l-font-weight);  /* Subheading L — Semibold */
+  --_gb-angle-default: 27.975552641534833deg; --_gb-angle-hover: -20.26214800625104deg; --_gb-angle-focus: -4.539150665223573deg; }
+.annachy-button-gradient--size-48 { --_gb-height: var(--annachy-size-height-48); --_gb-padding-x: 16px; --_gb-gap: 12px; --_gb-radius: 12px;  /* 1153:3771 · W 150 */
+  --_gb-font-size: var(--annachy-type-subheading-l-font-size); --_gb-line-height: var(--annachy-type-subheading-l-line-height); --_gb-font-weight: var(--annachy-type-subheading-l-font-weight);  /* Subheading L — Semibold */
+  --_gb-angle-default: 28.99768564862803deg; --_gb-angle-hover: -21.0672249647522deg; --_gb-angle-focus: -4.735626034276493deg; }
+.annachy-button-gradient--size-52 { --_gb-height: var(--annachy-size-height-52); --_gb-padding-x: 16px; --_gb-gap: 12px; --_gb-radius: 12px;  /* 1153:3821 · W 156 */
+  --_gb-font-size: var(--annachy-type-h5-font-size); --_gb-line-height: var(--annachy-type-h5-line-height); --_gb-font-weight: var(--annachy-type-h5-font-weight);  /* H5 — Semibold */
+  --_gb-angle-default: 29.999999554707948deg; --_gb-angle-hover: -21.863680548366005deg; --_gb-angle-focus: -4.931989840246004deg; }
+.annachy-button-gradient--size-56 { --_gb-height: var(--annachy-size-height-56); --_gb-padding-x: 16px; --_gb-gap: 12px; --_gb-radius: 12px;  /* 1153:3871 · W 156 */
+  --_gb-font-size: var(--annachy-type-h5-font-size); --_gb-line-height: var(--annachy-type-h5-line-height); --_gb-font-weight: var(--annachy-type-h5-font-weight);  /* H5 — Semibold */
+  --_gb-angle-default: 31.87177113855379deg; --_gb-angle-hover: -23.370501918258deg; --_gb-angle-focus: -5.309282402526279deg; }
+/* Pressed and Disabled angles equal Default at every size (§22.1, all 55 inspected). */
+
+/* ---------------------------------------------------------------- States (§5, §22) */
+.annachy-button-gradient:hover, .annachy-button-gradient.is-hover {
+  --_gb-angle: var(--_gb-angle-hover);
+  --_gb-fill: linear-gradient(var(--_gb-angle), rgba(23, 70, 162, 0.85) 9.5862%, rgba(58, 111, 247, 0.92) 76.342%);  /* GB-4 raw */
+  --_gb-stroke-width: 1.5px; --_gb-stroke-color: var(--annachy-color-blue-300);
+  --_gb-shadow: 0px 0px 3px 0px rgba(50, 92, 179, 0.01), 0px 0px 3px 0px rgba(50, 92, 179, 0.05), 0px 0px 3px 0px rgba(50, 92, 179, 0.16), 0px 0px 2px 0px rgba(50, 92, 179, 0.27), 0px 0px 1px 0px rgba(50, 92, 179, 0.31);
+  --_gb-fg: var(--annachy-color-text-white);
+}
+.annachy-button-gradient:focus-visible, .annachy-button-gradient.is-focus {
+  --_gb-angle: var(--_gb-angle-focus);
+  --_gb-fill: linear-gradient(var(--_gb-angle), var(--annachy-color-blue-600) 43.833%, var(--annachy-color-blue-400) 94.947%);
+  --_gb-stroke-width: 2px; --_gb-stroke-color: var(--annachy-color-blue-500);
+  --_gb-shadow: 0 0 transparent;
+  --_gb-fg: var(--annachy-color-text-white);
+  outline: none;  /* Figma focus treatment (2px Blue/500 stroke) is the indicator — D-21 */
+}
+.annachy-button-gradient:active, .annachy-button-gradient.is-pressed {
+  --_gb-angle: var(--_gb-angle-default);
+  --_gb-fill: linear-gradient(var(--_gb-angle), var(--annachy-color-blue-500) 13.397%, var(--annachy-color-gradient-color-2) 86.603%);
+  --_gb-stroke-width: 1.5px; --_gb-stroke-color: var(--annachy-color-blue-300);
+  --_gb-shadow: 1px 2px 6px 0px rgba(0, 79, 235, 0.12), 0px 4px 12px 0px rgba(0, 79, 235, 0.4);
+  --_gb-fg: var(--annachy-color-base-white);
+}
+.annachy-button-gradient:disabled, .annachy-button-gradient[aria-disabled="true"] {
+  --_gb-angle: var(--_gb-angle-default);
+  --_gb-fill: linear-gradient(var(--_gb-angle), color-mix(in srgb, var(--annachy-color-blue-500) 19%, transparent) 13.397%, color-mix(in srgb, var(--annachy-color-gradient-color-2) 19%, transparent) 86.603%);
+  --_gb-stroke-width: 1.5px; --_gb-stroke-color: var(--annachy-color-blue-300);
+  --_gb-shadow: 0 0 transparent;
+  --_gb-fg: var(--annachy-color-button-primary-content-disabled);
+  cursor: not-allowed;
+}
+
+/* ---------------------------------------------------------------- Typography exception (GB-3)
+   Size 24 Focus binds Label XSmall Semibold 12/17 (1153:3391); all other size-24 states bind Body XS — Semibold 12/18. */
+.annachy-button-gradient--size-24:focus-visible, .annachy-button-gradient--size-24.is-focus {
+  --_gb-font-size: var(--annachy-type-label-xsmall-semibold-font-size);
+  --_gb-line-height: var(--annachy-type-label-xsmall-semibold-line-height);
+  --_gb-font-weight: var(--annachy-type-label-xsmall-semibold-font-weight);
+}

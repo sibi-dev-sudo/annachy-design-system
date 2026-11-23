@@ -1,0 +1,32 @@
+/*
+ * Annachy Design System — main CSS entry.
+ * Source of truth: Figma file rM3ixSG6i3DFfKZFWuxzs4.
+ * Import order: tokens -> themes -> base -> components (per docs/implementation/r1-implementation-spec.md §3.6).
+ *
+ * R1 (tokens) and R2 (base) implemented. R3 components are added incrementally (R3-1 Button).
+ */
+
+@layer annachy.tokens, annachy.base, annachy.components;
+
+@import url("tokens/primitives.css") layer(annachy.tokens);
+@import url("tokens/typography.css") layer(annachy.tokens);
+@import url("tokens/effects.css") layer(annachy.tokens);
+@import url("tokens/component-tokens.css") layer(annachy.tokens);
+@import url("tokens/compat.css") layer(annachy.tokens);
+@import url("tokens/themes/light.css") layer(annachy.tokens);
+@import url("tokens/themes/dark.css") layer(annachy.tokens);   /* R6: partial Dark mode (data-annachy-theme="dark") */
+
+@import url("base/reset.css") layer(annachy.base);
+@import url("base/document.css") layer(annachy.base);
+@import url("base/typography.css") layer(annachy.base);
+@import url("base/utilities.css") layer(annachy.base);
+
+/* R3: components (layer annachy.components) */
+@import url("components/button/button.css") layer(annachy.components);
+@import url("components/button-gradient/button-gradient.css") layer(annachy.components);
+@import url("components/input/input.css") layer(annachy.components);
+@import url("components/checkbox/checkbox.css") layer(annachy.components);
+@import url("components/radio/radio.css") layer(annachy.components);
+@import url("components/toggle/toggle.css") layer(annachy.components);
+@import url("components/dropdown/dropdown.css") layer(annachy.components);
+@import url("components/tooltip/tooltip.css") layer(annachy.components);

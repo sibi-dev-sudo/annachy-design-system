@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Iconography — Annachy Design System</title>
+  <link rel="stylesheet" href="../../src/annachy.css">
+  <link rel="stylesheet" href="../showcase.css">
+</head>
+<body>
+  <header class="sc-header">
+    <p class="sc-eyebrow">Annachy Design System · Foundations</p>
+    <h1>Iconography</h1>
+    <nav class="sc-nav" aria-label="Foundations">
+      <a href="../index.html">Overview</a>
+      <a href="colors.html">Colours</a>
+      <a href="typography.html">Typography</a>
+      <a href="iconography.html" aria-current="page">Iconography</a>
+      <a href="effects.html">Effects</a>
+      <a href="grid.html">Grid</a>
+      <a href="dimensions.html">Dimensions</a>
+      <a href="base.html">Base &amp; utilities</a>
+    </nav>
+  </header>
+  <main class="sc-main">
+    <section class="sc-section sc-callout" aria-labelledby="ic-status">
+      <h2 id="ic-status">Status: icons identified in Figma, artwork pending export authorisation</h2>
+      <p><strong>Update:</strong> the icons are now in the design-system file, on page <code>1801:5142</code> "② Icons": 5,128 sets, Outline / Filled, XS 16–XL 40, built from Iconly artwork. All Button, Input and Dropdown icons are identified (<code>src/icons/figma-icon-map.json</code>). The artwork is exposed only as temporary asset URLs, and fetching them is an export, which needs authorisation. The note below describes the earlier state.</p>
+      <p>The components use the external <strong>Annachy Icons File</strong> (S5). Its icon descriptions show it was built with the project's Iconly component-builder plugin from Iconly source artwork, for example "User curved" / "user" and "Home ". Matching each icon to the purchased <strong>Iconly</strong> library needs access to that library: an API key, an authenticated export or the downloaded SVG pack. None is available on this machine. Until it is, every slot below stays empty. No substitute icons are used.</p>
+      <p>Manifest: <code>src/icons/manifest.json</code> — <span id="ic-manifest">loading…</span></p>
+    </section>
+
+    <section class="sc-section">
+      <h2>Icon system model <small>(Figma pilot <code>1106:12812</code>, library S5)</small></h2>
+      <table class="sc-variant-table">
+        <thead><tr><th>Property</th><th>Values</th><th>Source</th></tr></thead>
+        <tbody>
+          <tr><td>Style (pilot)</td><td>Linear (default), Bold, Bold Duotone, Broken, Line Duotone, Outline</td><td><code>1106:12812</code></td></tr>
+          <tr><td>Size (pilot)</td><td>14, 16, 20, 24 (default), 28, 32, 36, 38, 42</td><td><code>1106:12812</code></td></tr>
+          <tr><td>Semantic state (pilot)</td><td>Brand, Disabled, Error, Success, Warning</td><td><code>1106:12812</code></td></tr>
+          <tr><td>Style (S5, used by components)</td><td>Outline, Filled</td><td>e.g. <code>1779:36485</code></td></tr>
+          <tr><td>Icon Size (S5)</td><td>XS 16 · S 20 · M 24 · L 32 · XL 40</td><td>e.g. <code>1777:9468</code></td></tr>
+        </tbody>
+      </table>
+      <p class="sc-note">Which source and size scale is canonical (S2 pilot vs S5) is decision D-12. The components use S5 sizes.</p>
+    </section>
+
+    <section class="sc-section">
+      <h2>Component icon slots <small>(15 slot cases · empty until icons are available)</small></h2>
+      <p>Each slot has the Figma size, and its colour comes from the component state (<code>currentColor</code>). The dashed outline below is drawn by this page only.</p>
+      <table class="sc-variant-table sc-icon-slots">
+        <thead><tr><th>Component · slot</th><th>Figma icon</th><th>Size</th><th>Slot</th></tr></thead>
+        <tbody>
+          <tr><td>Button · <code>annachy-button__icon</code></td><td>Home/Home 54 (S, Outline) <code>1777:9468</code></td><td>20</td><td><button type="button" class="annachy-button annachy-button--primary annachy-button--size-40"><span class="annachy-button__icon" aria-hidden="true"></span><span class="annachy-button__label">Button</span></button></td></tr>
+          <tr><td>Button Gradient · <code>annachy-button-gradient__icon</code></td><td>Home/Home 54 <code>1777:12415</code></td><td>20</td><td><button type="button" class="annachy-button-gradient annachy-button-gradient--size-40"><span class="annachy-button-gradient__icon" aria-hidden="true"></span><span class="annachy-button-gradient__label">Button</span></button></td></tr>
+          <tr><td>Input Outline · leading</td><td>User/User Curved (M) <code>1779:36485</code></td><td>24</td><td><span class="annachy-input__icon sc-slot" aria-hidden="true" data-annachy-icon="user-user-curved"></span></td></tr>
+          <tr><td>Input Outline · trailing</td><td>Arrow/Chevron Up · Down (M) <code>1779:38813</code> · <code>1779:39438</code></td><td>24</td><td><span class="annachy-input__icon sc-slot" aria-hidden="true" data-annachy-icon="arrow-chevron-up" data-annachy-icon-style="filled"></span> <span class="annachy-input__icon sc-slot" aria-hidden="true" data-annachy-icon="arrow-chevron-down" data-annachy-icon-style="filled"></span></td></tr>
+          <tr><td>Input Outline · sub-text</td><td>Alerts/Error circle <code>1780:40127</code></td><td>16</td><td><span class="annachy-input annachy-input--outline"><span class="annachy-input__subtext-icon sc-slot" aria-hidden="true" data-annachy-icon="alerts-error-circle"></span></span></td></tr>
+          <tr><td>Input Filled · icons</td><td>Cloud (Solar pilot, Brand) <code>561:36135</code></td><td>24 / 14</td><td><span class="annachy-input annachy-input--filled"><span class="annachy-input__icon sc-slot" aria-hidden="true"></span> <span class="annachy-input__subtext-icon sc-slot" aria-hidden="true"></span></span></td></tr>
+          <tr><td>Dropdown · search</td><td>User/User Curved (M) <code>1779:37533</code></td><td>24</td><td><span class="annachy-dropdown-menu__search-icon sc-slot" aria-hidden="true"></span></td></tr>
+          <tr><td>Dropdown · indicator</td><td>"Selected" check <code>1451:24796</code> · "checkbox" <code>1454:7202</code> (research-page masters)</td><td>20</td><td><span class="annachy-dropdown-item__indicator sc-slot" aria-hidden="true"></span></td></tr>
+          <tr><td>Dropdown · footer</td><td>Home/Home 54 (S) <code>1777:12415</code></td><td>20</td><td>see Button</td></tr>
+          <tr><td>Checkbox · glyph</td><td>functional/check <code>1504:53703</code> (geometry, D-27)</td><td>16 / 20</td><td><span class="annachy-checkbox annachy-checkbox--medium"><span class="annachy-checkbox__glyph sc-slot" style="display:block" aria-hidden="true"></span></span></td></tr>
+          <tr><td>Tooltip · arrow</td><td>polygon (geometry, G12)</td><td>20</td><td><span class="sc-slot" style="display:inline-block;inline-size:20px;block-size:20px" aria-hidden="true"></span></td></tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+  <script type="module">
+    import '../../src/annachy.js';
+    const out = document.getElementById('ic-manifest');
+    fetch('../../src/icons/manifest.json').then((r) => r.json()).then((m) => {
+      out.textContent = `status "${m.status}", ${m.icons.length} icons, ${m.sources.length} sources; open gates: ${Object.entries(m.decisions).filter(([, v]) => v === 'open').map(([k]) => k).join(', ') || 'none'}`;
+    }).catch(() => { out.textContent = 'could not be read (serve the project over HTTP)'; });
+  </script>
+<script type="module" src="../icon-slots.js"></script>
+</body>
+</html>

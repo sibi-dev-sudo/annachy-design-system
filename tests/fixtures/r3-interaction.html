@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>R3 interaction fixture — Annachy Design System</title>
+  <link rel="stylesheet" href="../../src/annachy.css">
+  <style>body { padding: 24px; } .row { display: flex; gap: 24px; align-items: flex-start; margin-bottom: 24px; } .w { width: 337px; }</style>
+</head>
+<body>
+  <!-- Driven by real keyboard / mouse input through the Chrome DevTools Protocol (scratchpad r3_closure_cdp.py).
+       Tab order: btn-primary, btn-icon, btn-loading, grad, in-outline, in-filled, cb, cb-mixed, rb-a (group), tg -->
+  <h1>R3 interaction fixture</h1>
+  <div class="row">
+    <button type="button" id="btn-primary" class="annachy-button annachy-button--primary annachy-button--size-40">
+      <span class="annachy-button__icon" aria-hidden="true"></span><span class="annachy-button__label">Button</span>
+      <span class="annachy-button__loading" aria-hidden="true"><span class="annachy-button__dot"></span><span class="annachy-button__dot"></span><span class="annachy-button__dot"></span></span></button>
+    <button type="button" id="btn-icon" class="annachy-button annachy-button--secondary annachy-button--size-40" aria-label="Home">
+      <span class="annachy-button__icon" aria-hidden="true"></span>
+      <span class="annachy-button__loading" aria-hidden="true"><span class="annachy-button__dot"></span><span class="annachy-button__dot"></span><span class="annachy-button__dot"></span></span></button>
+    <button type="button" id="btn-loading" class="annachy-button annachy-button--primary annachy-button--size-40" aria-busy="true" aria-disabled="true">
+      <span class="annachy-button__label">Saving</span>
+      <span class="annachy-button__loading" aria-hidden="true"><span class="annachy-button__dot"></span><span class="annachy-button__dot"></span><span class="annachy-button__dot"></span></span></button>
+    <button type="button" id="btn-disabled" class="annachy-button annachy-button--tertiary annachy-button--size-40" disabled><span class="annachy-button__label">Disabled</span></button>
+    <button type="button" id="grad" class="annachy-button-gradient annachy-button-gradient--size-40"><span class="annachy-button-gradient__label">Gradient</span></button>
+  </div>
+  <div class="row">
+    <div class="w"><div class="annachy-input annachy-input--outline annachy-input--size-48 annachy-input--radius-8">
+      <div class="annachy-input__top"><div class="annachy-input__label-container"><label class="annachy-input__label" for="in-outline">Email</label><span class="annachy-input__description" id="in-outline-d">Work address</span></div>
+      <div class="annachy-input__field"><input class="annachy-input__control" id="in-outline" placeholder="Placeholder" aria-describedby="in-outline-d in-outline-s"></div></div>
+      <div class="annachy-input__subtext-group"><span class="annachy-input__subtext" id="in-outline-s">We never share it</span></div></div></div>
+    <div class="w"><div class="annachy-input annachy-input--filled annachy-input--size-48 annachy-input--radius-8">
+      <div class="annachy-input__top"><div class="annachy-input__label-container"><label class="annachy-input__label" for="in-filled">Name</label><span class="annachy-input__description" id="in-filled-d">Full name</span></div>
+      <div class="annachy-input__field" id="in-filled-field"><input class="annachy-input__control" id="in-filled" placeholder="Placeholder" aria-describedby="in-filled-d in-filled-s"></div></div>
+      <div class="annachy-input__subtext-group"><span class="annachy-input__subtext" id="in-filled-s">As on your ID</span></div></div></div>
+    <div class="w"><div class="annachy-input annachy-input--filled annachy-input--size-48 annachy-input--radius-8">
+      <div class="annachy-input__top"><div class="annachy-input__label-container"><label class="annachy-input__label" for="in-error">Code</label></div>
+      <div class="annachy-input__field"><input class="annachy-input__control" id="in-error" value="12" aria-invalid="true" aria-describedby="in-error-s"></div></div>
+      <div class="annachy-input__subtext-group"><span class="annachy-input__subtext" id="in-error-s">Code is too short</span></div></div></div>
+    <div class="w"><div class="annachy-input annachy-input--outline annachy-input--size-48 annachy-input--radius-8">
+      <div class="annachy-input__top"><div class="annachy-input__label-container"><label class="annachy-input__label" for="in-disabled">Locked</label></div>
+      <div class="annachy-input__field"><input class="annachy-input__control" id="in-disabled" placeholder="Placeholder" disabled></div></div></div></div>
+  </div>
+  <div class="row">
+    <div class="annachy-checkbox annachy-checkbox--medium"><input class="annachy-checkbox__input" type="checkbox" id="cb" aria-describedby="cb-s">
+      <span class="annachy-checkbox__box" aria-hidden="true"><span class="annachy-checkbox__glyph"></span></span>
+      <span class="annachy-checkbox__content"><label class="annachy-checkbox__label" for="cb">Accept terms</label><span class="annachy-checkbox__subtext" id="cb-s">Required</span></span></div>
+    <div class="annachy-checkbox annachy-checkbox--medium"><input class="annachy-checkbox__input" type="checkbox" id="cb-mixed" data-indeterminate="true">
+      <span class="annachy-checkbox__box" aria-hidden="true"><span class="annachy-checkbox__glyph"></span></span>
+      <span class="annachy-checkbox__content"><label class="annachy-checkbox__label" for="cb-mixed">Select all</label></span></div>
+    <div class="annachy-checkbox annachy-checkbox--medium"><input class="annachy-checkbox__input" type="checkbox" id="cb-disabled" disabled>
+      <span class="annachy-checkbox__box" aria-hidden="true"><span class="annachy-checkbox__glyph"></span></span>
+      <span class="annachy-checkbox__content"><label class="annachy-checkbox__label" for="cb-disabled">Unavailable</label></span></div>
+  </div>
+  <div class="row">
+    <fieldset id="rb-group"><legend>Delivery</legend>
+      <div class="annachy-radio annachy-radio--medium"><input class="annachy-radio__input" type="radio" name="d" id="rb-a" checked aria-describedby="rb-a-s">
+        <span class="annachy-radio__circle" aria-hidden="true"><span class="annachy-radio__dot"></span></span>
+        <span class="annachy-radio__content"><label class="annachy-radio__label" for="rb-a">Standard</label><span class="annachy-radio__subtext" id="rb-a-s">3–5 days</span></span></div>
+      <div class="annachy-radio annachy-radio--medium"><input class="annachy-radio__input" type="radio" name="d" id="rb-b">
+        <span class="annachy-radio__circle" aria-hidden="true"><span class="annachy-radio__dot"></span></span>
+        <span class="annachy-radio__content"><label class="annachy-radio__label" for="rb-b">Express</label></span></div>
+      <div class="annachy-radio annachy-radio--medium"><input class="annachy-radio__input" type="radio" name="d" id="rb-c" disabled>
+        <span class="annachy-radio__circle" aria-hidden="true"><span class="annachy-radio__dot"></span></span>
+        <span class="annachy-radio__content"><label class="annachy-radio__label" for="rb-c">Drone</label></span></div>
+    </fieldset>
+    <div class="annachy-toggle annachy-toggle--medium" id="tg-root"><input class="annachy-toggle__input" type="checkbox" role="switch" id="tg" aria-describedby="tg-s">
+      <span class="annachy-toggle__track" aria-hidden="true"><span class="annachy-toggle__thumb"></span></span>
+      <span class="annachy-toggle__content"><label class="annachy-toggle__label" for="tg">Notifications</label><span class="annachy-toggle__subtext" id="tg-s">Email me updates</span></span></div>
+    <div class="annachy-toggle annachy-toggle--medium"><input class="annachy-toggle__input" type="checkbox" role="switch" id="tg-disabled" disabled>
+      <span class="annachy-toggle__track" aria-hidden="true"><span class="annachy-toggle__thumb"></span></span>
+      <span class="annachy-toggle__content"><label class="annachy-toggle__label" for="tg-disabled">Locked switch</label></span></div>
+  </div>
+  <script type="module">
+    import * as annachy from '../../src/annachy.js';
+    window.__annachy = { exports: Object.keys(annachy), ready: true };
+    window.__clicks = {};
+    for (const b of document.querySelectorAll('button')) b.addEventListener('click', () => { window.__clicks[b.id] = (window.__clicks[b.id] || 0) + 1; });
+  </script>
+</body>
+</html>

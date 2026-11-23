@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>R2 base check — Annachy Design System</title>
+  <link rel="stylesheet" href="../../src/annachy.css">
+</head>
+<body>
+  <h1>R2 base check</h1>
+  <p>Serve the project root over HTTP and open this page. Verifies base imports, document defaults, text classes, utilities and the absence of author focus rules.</p>
+  <div id="stage" aria-hidden="true"></div>
+  <pre id="result" data-status="pending">running…</pre>
+  <script type="module">
+    const STYLES = ["h1", "h2", "h3-bold", "h3-semibold", "h4", "h5", "h6", "h7", "h8", "subheading-l", "body-l", "body-m", "body-m-medium", "body-s", "body-s-medium", "body-s-semibold", "body-xs", "body-xs-semibold", "body-xxs", "body-micro", "label-large", "label-medium", "label-small", "label-xsmall", "label-xsmall-semibold", "caption-small", "caption-xsmall", "caption-micro"];
+    const UTILS = [["annachy-color-text-primary", "color", "--annachy-color-text-primary"], ["annachy-color-text-secondary", "color", "--annachy-color-text-secondary"], ["annachy-color-text-tertiary", "color", "--annachy-color-text-tertiary"], ["annachy-color-text-black", "color", "--annachy-color-text-black"], ["annachy-color-text-brand", "color", "--annachy-color-text-brand"], ["annachy-color-text-grey", "color", "--annachy-color-text-grey"], ["annachy-color-text-white", "color", "--annachy-color-text-white"], ["annachy-bg-primary", "background-color", "--annachy-color-background-primary"], ["annachy-bg-secondary", "background-color", "--annachy-color-background-secondary"], ["annachy-bg-tertiary", "background-color", "--annachy-color-background-tertiary"], ["annachy-radius-4", "border-radius", "--annachy-radius-4"], ["annachy-radius-8", "border-radius", "--annachy-radius-8"], ["annachy-radius-12", "border-radius", "--annachy-radius-12"], ["annachy-radius-14", "border-radius", "--annachy-radius-14"], ["annachy-radius-16", "border-radius", "--annachy-radius-16"], ["annachy-radius-18", "border-radius", "--annachy-radius-18"], ["annachy-radius-24", "border-radius", "--annachy-radius-24"], ["annachy-radius-26", "border-radius", "--annachy-radius-26"], ["annachy-radius-28", "border-radius", "--annachy-radius-28"], ["annachy-radius-32", "border-radius", "--annachy-radius-32"], ["annachy-radius-34", "border-radius", "--annachy-radius-34"], ["annachy-shadow-scale-sm-01", "box-shadow", "--annachy-shadow-scale-sm-01"], ["annachy-shadow-scale-sm-02", "box-shadow", "--annachy-shadow-scale-sm-02"], ["annachy-shadow-scale-sm-03", "box-shadow", "--annachy-shadow-scale-sm-03"], ["annachy-shadow-scale-sm-04", "box-shadow", "--annachy-shadow-scale-sm-04"], ["annachy-shadow-scale-sm-05", "box-shadow", "--annachy-shadow-scale-sm-05"], ["annachy-shadow-scale-md-01", "box-shadow", "--annachy-shadow-scale-md-01"], ["annachy-shadow-scale-md-02", "box-shadow", "--annachy-shadow-scale-md-02"], ["annachy-shadow-scale-md-03", "box-shadow", "--annachy-shadow-scale-md-03"], ["annachy-shadow-scale-lg-01", "box-shadow", "--annachy-shadow-scale-lg-01"], ["annachy-shadow-scale-lg-02", "box-shadow", "--annachy-shadow-scale-lg-02"], ["annachy-shadow-scale-lg-03", "box-shadow", "--annachy-shadow-scale-lg-03"], ["annachy-shadow-scale-xl-01", "box-shadow", "--annachy-shadow-scale-xl-01"], ["annachy-shadow-scale-xl-02", "box-shadow", "--annachy-shadow-scale-xl-02"], ["annachy-shadow-scale-xl-03", "box-shadow", "--annachy-shadow-scale-xl-03"], ["annachy-shadow-scale-xxl-01", "box-shadow", "--annachy-shadow-scale-xxl-01"], ["annachy-shadow-scale-xxl-02", "box-shadow", "--annachy-shadow-scale-xxl-02"], ["annachy-shadow-scale-xxl-03", "box-shadow", "--annachy-shadow-scale-xxl-03"], ["annachy-shadow-effects-sm-peck", "box-shadow", "--annachy-shadow-effects-sm-peck"], ["annachy-shadow-effects-sm-stub", "box-shadow", "--annachy-shadow-effects-sm-stub"], ["annachy-shadow-effects-sm-popup", "box-shadow", "--annachy-shadow-effects-sm-popup"], ["annachy-shadow-effects-sm-raised", "box-shadow", "--annachy-shadow-effects-sm-raised"], ["annachy-shadow-effects-sm-top-light", "box-shadow", "--annachy-shadow-effects-sm-top-light"], ["annachy-shadow-effects-sm-bottom-light", "box-shadow", "--annachy-shadow-effects-sm-bottom-light"], ["annachy-shadow-effects-sm-left-light", "box-shadow", "--annachy-shadow-effects-sm-left-light"], ["annachy-shadow-effects-sm-right-light", "box-shadow", "--annachy-shadow-effects-sm-right-light"], ["annachy-shadow-effects-md-lozenge", "box-shadow", "--annachy-shadow-effects-md-lozenge"], ["annachy-shadow-effects-md-stub-inset", "box-shadow", "--annachy-shadow-effects-md-stub-inset"], ["annachy-shadow-effects-lg-bubble", "box-shadow", "--annachy-shadow-effects-lg-bubble"], ["annachy-shadow-effects-lg-hard-inset", "box-shadow", "--annachy-shadow-effects-lg-hard-inset"], ["annachy-shadow-effects-lg-hard-lift", "box-shadow", "--annachy-shadow-effects-lg-hard-lift"], ["annachy-shadow-effects-lg-soft-inset", "box-shadow", "--annachy-shadow-effects-lg-soft-inset"], ["annachy-shadow-effects-xxl-dialog", "box-shadow", "--annachy-shadow-effects-xxl-dialog"], ["annachy-shadow-swatch", "box-shadow", "--annachy-shadow-swatch"], ["annachy-effect-button-default", "box-shadow", "--annachy-effect-button-default"], ["annachy-effect-button-hover", "box-shadow", "--annachy-effect-button-hover"], ["annachy-effect-button-focus", "box-shadow", "--annachy-effect-button-focus"], ["annachy-effect-toggle-on", "box-shadow", "--annachy-effect-toggle-on"], ["annachy-effect-toggle-off", "box-shadow", "--annachy-effect-toggle-off"], ["annachy-effect-toggle-press", "box-shadow", "--annachy-effect-toggle-press"], ["annachy-bg-gradient-brand", "background-image", "--annachy-gradient-brand"]];
+    const out = document.getElementById('result');
+    const stage = document.getElementById('stage');
+    const fails = [];
+    const root = getComputedStyle(document.documentElement);
+    const tok = (n) => root.getPropertyValue(n).trim();
+    // Compare a class against an inline reference element using the token directly (same computation path).
+    const probe = (cls, styleText) => {
+      const a = document.createElement('div'); a.className = cls; a.textContent = 'Aa';
+      const b = document.createElement('div'); b.setAttribute('style', styleText); b.textContent = 'Aa';
+      stage.append(a, b);
+      return [getComputedStyle(a), getComputedStyle(b)];
+    };
+    try {
+      // 1. imports & layers
+      const entry = [...document.styleSheets].find((s) => s.href && s.href.endsWith('/src/annachy.css'));
+      const all = [...entry.cssRules].filter((r) => r instanceof CSSImportRule);
+      // R6: tokens/themes/dark.css (optional Dark mode, annachy.tokens, directly after light.css) is excluded from the order check
+      const dark = all.find((r) => r.href === 'tokens/themes/dark.css');
+      if (dark && (dark.layerName !== 'annachy.tokens' || all.indexOf(dark) !== 6)) fails.push('dark.css must follow light.css in annachy.tokens');
+      const imports = all.filter((r) => r !== dark);
+      const expected = [['tokens/primitives.css','annachy.tokens'],['tokens/typography.css','annachy.tokens'],['tokens/effects.css','annachy.tokens'],['tokens/component-tokens.css','annachy.tokens'],['tokens/compat.css','annachy.tokens'],['tokens/themes/light.css','annachy.tokens'],['base/reset.css','annachy.base'],['base/document.css','annachy.base'],['base/typography.css','annachy.base'],['base/utilities.css','annachy.base']];
+      const importLines = imports.map((r, i) => {
+        const okLoad = r.styleSheet && r.styleSheet.cssRules.length > 0;
+        // R3+: imports after the 10 token/base imports must be component stylesheets in annachy.components
+        const okOrder = expected[i] ? (r.href === expected[i][0] && r.layerName === expected[i][1])
+                                    : (r.href.startsWith('components/') && r.layerName === 'annachy.components');
+        if (!okLoad || !okOrder) fails.push(`import ${i}: ${r.href} layer ${r.layerName} loaded=${!!okLoad}`);
+        return `  ${r.href} -> ${okLoad ? 'loaded' : 'FAILED'} [layer ${r.layerName}]`;
+      });
+      if (imports.length < 10) fails.push(`expected at least 10 imports, got ${imports.length}`);
+      // 2. no author focus/outline rules in tokens + base (R2 invariant; R3 components own their focus specs)
+      let focusRules = 0, fontFace = 0, media = 0;
+      const walk = (rules) => { for (const r of rules) {
+        if (r.selectorText && /:focus/.test(r.selectorText)) focusRules++;
+        if (r.style && r.style.outline) focusRules++;
+        if (r instanceof CSSFontFaceRule) fontFace++;
+        if (r instanceof CSSMediaRule) media++;
+        if (r.cssRules) walk(r.cssRules);
+        if (r.styleSheet) walk(r.styleSheet.cssRules);
+      } };
+      walk(imports.slice(0, 10));
+      if (focusRules) fails.push(`author focus/outline rules: ${focusRules}`);
+      if (fontFace !== 1) fails.push(`@font-face rules: ${fontFace} (expected exactly 1: self-hosted Inter)`);
+      if (media) fails.push(`@media rules: ${media}`);
+      // 3. document defaults
+      const body = getComputedStyle(document.body);
+      const checks = [
+        ['body font-size', body.fontSize, tok('--annachy-type-body-m-font-size')],
+        ['body line-height', body.lineHeight, tok('--annachy-type-body-m-line-height')],
+        ['body font-weight', body.fontWeight, tok('--annachy-type-body-m-font-weight')],
+        ['body margin', body.marginTop, '0px'],
+      ];
+      for (const [n, a, e] of checks) if (a !== e) fails.push(`${n}: ${a} != ${e}`);
+      const [c1, c2] = probe('', 'color: var(--annachy-color-text-primary); background-color: var(--annachy-color-background-primary)');
+      if (body.color !== c2.color) fails.push(`body color ${body.color} != ${c2.color}`);
+      if (body.backgroundColor !== c2.backgroundColor) fails.push(`body background ${body.backgroundColor} != ${c2.backgroundColor}`);
+      if (!/^"?Inter"?,/.test(body.fontFamily)) fails.push(`body font-family: ${body.fontFamily}`);
+      if (tok('--annachy-font-family-sans') !== '"Proxima Nova"') fails.push('R1 font token changed');
+      if (getComputedStyle(document.documentElement).colorScheme !== 'light') fails.push('color-scheme not light');
+      // 4. text classes
+      for (const s of STYLES) {
+        const el = document.createElement('p'); el.className = `annachy-text-${s}`; el.textContent = 'Aa'; stage.append(el);
+        const cs = getComputedStyle(el);
+        if (cs.fontSize !== tok(`--annachy-type-${s}-font-size`)) fails.push(`${s} font-size ${cs.fontSize}`);
+        if (cs.lineHeight !== tok(`--annachy-type-${s}-line-height`)) fails.push(`${s} line-height ${cs.lineHeight}`);
+        if (cs.fontWeight !== tok(`--annachy-type-${s}-font-weight`)) fails.push(`${s} font-weight ${cs.fontWeight}`);
+        if (cs.fontSize === tok(`--annachy-type-${s}-font-size-desktop`) && tok(`--annachy-type-${s}-font-size-desktop`) !== tok(`--annachy-type-${s}-font-size-mobile`)) fails.push(`${s} uses desktop size`);
+      }
+      // 5. utilities
+      const camel = (p) => p.replace(/-([a-z])/g, (_, c) => c.toUpperCase());
+      for (const [cls, prop, t] of UTILS) {
+        const [a, b] = probe(cls, `${prop}: var(${t})`);
+        const pa = prop === 'border-radius' ? a.borderTopLeftRadius : a[camel(prop)];
+        const pb = prop === 'border-radius' ? b.borderTopLeftRadius : b[camel(prop)];
+        if (pa !== pb || pa === '' ) fails.push(`.${cls}: ${pa} != ${pb}`);
+      }
+      const vh = document.createElement('span'); vh.className = 'annachy-visually-hidden'; vh.textContent = 'x'; stage.append(vh);
+      const vcs = getComputedStyle(vh);
+      if (vcs.position !== 'absolute' || vcs.width !== '1px') fails.push('visually-hidden not applied');
+      stage.remove();
+      out.dataset.status = fails.length ? 'fail' : 'pass';
+      out.textContent = [
+        `STATUS: ${fails.length ? 'FAIL' : 'PASS'}`,
+        `imports (${imports.length}):`, ...importLines,
+        `author focus/outline rules: ${focusRules} · @font-face: ${fontFace} · @media: ${media}`,
+        `body: ${body.fontSize}/${body.lineHeight} weight ${body.fontWeight}; font-family ${body.fontFamily}`,
+        `text classes checked: ${STYLES.length}`,
+        `utility classes checked: ${UTILS.length} + visually-hidden`,
+        `failures: ${fails.length}`, ...fails.map((f) => '  - ' + f),
+      ].join('\n');
+    } catch (e) { out.dataset.status = 'fail'; out.textContent = 'STATUS: FAIL\n' + e.stack; }
+  </script>
+</body>
+</html>

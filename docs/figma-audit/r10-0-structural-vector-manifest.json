@@ -1,0 +1,4412 @@
+{
+ "date": "2026-11-20",
+ "status": "PLAN ONLY - read-only inspection complete; nothing exported",
+ "figmaFile": "rM3ixSG6i3DFfKZFWuxzs4",
+ "counts": {
+  "elements": 50,
+  "byGroup": {
+   "line": 33,
+   "star": 12,
+   "shape": 4,
+   "vector-frame": 1
+  },
+  "artworkFiles": 28,
+  "sharedArtworks": 8,
+  "exports_download_assets": 22,
+  "exports_asset_url": 6,
+  "visible": 50
+ },
+ "staging": "%TEMP%\\annachy-vector-staging\\ (outside the repository; created at export time; deleted after integration)",
+ "artworks": [
+  {
+   "artworkId": "R01",
+   "assetId": "c4a54",
+   "group": "line",
+   "w": 610,
+   "h": 0,
+   "members": [
+    "V01",
+    "V04"
+   ],
+   "exportNode": "1375:30923",
+   "exportMethod": "download_assets(svg)",
+   "destination": "showcase/screens/assets/vectors/line-c4a54-610x0.svg",
+   "destinationExists": false
+  },
+  {
+   "artworkId": "R02",
+   "assetId": "600fb",
+   "group": "line",
+   "w": 1.1802076187450439e-06,
+   "h": 27,
+   "members": [
+    "V02"
+   ],
+   "exportNode": "1375:30933",
+   "exportMethod": "download_assets(svg)",
+   "destination": "showcase/screens/assets/vectors/line-600fb-0x27.svg",
+   "destinationExists": false
+  },
+  {
+   "artworkId": "R03",
+   "assetId": "65fb2",
+   "group": "line",
+   "w": 7.430935511365533e-07,
+   "h": 17,
+   "members": [
+    "V03"
+   ],
+   "exportNode": "1375:30937",
+   "exportMethod": "download_assets(svg)",
+   "destination": "showcase/screens/assets/vectors/line-65fb2-0x17.svg",
+   "destinationExists": false
+  },
+  {
+   "artworkId": "R04",
+   "assetId": "3adb7",
+   "group": "line",
+   "w": 610,
+   "h": 0,
+   "members": [
+    "V05"
+   ],
+   "exportNode": "1375:31002",
+   "exportMethod": "download_assets(svg)",
+   "destination": "showcase/screens/assets/vectors/line-3adb7-610x0.svg",
+   "destinationExists": false
+  },
+  {
+   "artworkId": "R05",
+   "assetId": "63f38",
+   "group": "line",
+   "w": 610,
+   "h": 0,
+   "members": [
+    "V06"
+   ],
+   "exportNode": "1375:31076",
+   "exportMethod": "download_assets(svg)",
+   "destination": "showcase/screens/assets/vectors/line-63f38-610x0.svg",
+   "destinationExists": false
+  },
+  {
+   "artworkId": "R06",
+   "assetId": "4ff1b",
+   "group": "line",
+   "w": 270,
+   "h": 0,
+   "members": [
+    "V07",
+    "V08",
+    "V09",
+    "V10",
+    "V11",
+    "V12"
+   ],
+   "exportNode": "1375:31127",
+   "exportMethod": "download_assets(svg)",
+   "destination": "showcase/screens/assets/vectors/line-4ff1b-270x0.svg",
+   "destinationExists": false
+  },
+  {
+   "artworkId": "R07",
+   "assetId": "8879d",
+   "group": "line",
+   "w": 1200,
+   "h": 0.00010490733188817103,
+   "members": [
+    "V13"
+   ],
+   "exportNode": "1375:31393",
+   "exportMethod": "download_assets(svg)",
+   "destination": "showcase/screens/assets/vectors/line-8879d-1200x0.svg",
+   "destinationExists": false
+  },
+  {
+   "artworkId": "R08",
+   "assetId": "4c2ad",
+   "group": "line",
+   "w": 328,
+   "h": 0,
+   "members": [
+    "V14",
+    "V31",
+    "V32"
+   ],
+   "exportNode": "1629:12011",
+   "exportMethod": "download_assets(svg)",
+   "destination": "showcase/screens/assets/vectors/line-4c2ad-328x0.svg",
+   "destinationExists": false
+  },
+  {
+   "artworkId": "R09",
+   "assetId": "31c80",
+   "group": "line",
+   "w": 306,
+   "h": 0,
+   "members": [
+    "V15"
+   ],
+   "exportNode": "1629:12566",
+   "exportMethod": "download_assets(svg)",
+   "destination": "showcase/screens/assets/vectors/line-31c80-306x0.svg",
+   "destinationExists": false
+  },
+  {
+   "artworkId": "R10",
+   "assetId": "06fc3",
+   "group": "line",
+   "w": 304,
+   "h": 0,
+   "members": [
+    "V16",
+    "V17",
+    "V18",
+    "V33"
+   ],
+   "exportNode": "1629:12126",
+   "exportMethod": "download_assets(svg)",
+   "destination": "showcase/screens/assets/vectors/line-06fc3-304x0.svg",
+   "destinationExists": false
+  },
+  {
+   "artworkId": "R11",
+   "assetId": "2e905",
+   "group": "line",
+   "w": 30,
+   "h": 2.6226864520140225e-06,
+   "members": [
+    "V19",
+    "V20",
+    "V21",
+    "V22"
+   ],
+   "exportNode": "I1608:7152;1539:30179;1539:28950",
+   "exportMethod": "get_design_context asset URL (nested id; download_assets accepts plain ids only)",
+   "destination": "showcase/screens/assets/vectors/line-2e905-30x0.svg",
+   "destinationExists": false
+  },
+  {
+   "artworkId": "R12",
+   "assetId": "42e60",
+   "group": "line",
+   "w": 57.000002341428626,
+   "h": 53.99999975503306,
+   "members": [
+    "V23",
+    "V36"
+   ],
+   "exportNode": "I1608:7153;1546:27123;1546:27436;1010:22241",
+   "exportMethod": "get_design_context asset URL (nested id; download_assets accepts plain ids only)",
+   "destination": "showcase/screens/assets/vectors/line-42e60-57x54.svg",
+   "destinationExists": false
+  },
+  {
+   "artworkId": "R13",
+   "assetId": "64c45",
+   "group": "line",
+   "w": 54,
+   "h": 4.720835704574711e-06,
+   "members": [
+    "V24"
+   ],
+   "exportNode": "1608:7182",
+   "exportMethod": "download_assets(svg)",
+   "destination": "showcase/screens/assets/vectors/line-64c45-54x0.svg",
+   "destinationExists": false
+  },
+  {
+   "artworkId": "R14",
+   "assetId": "6aff8",
+   "group": "line",
+   "w": 328,
+   "h": 0,
+   "members": [
+    "V25"
+   ],
+   "exportNode": "1608:7272",
+   "exportMethod": "download_assets(svg)",
+   "destination": "showcase/screens/assets/vectors/line-6aff8-328x0.svg",
+   "destinationExists": false
+  },
+  {
+   "artworkId": "R15",
+   "assetId": "abbb0",
+   "group": "line",
+   "w": 362,
+   "h": 0,
+   "members": [
+    "V26"
+   ],
+   "exportNode": "I1608:7274;1548:33550",
+   "exportMethod": "get_design_context asset URL (nested id; download_assets accepts plain ids only)",
+   "destination": "showcase/screens/assets/vectors/line-abbb0-362x0.svg",
+   "destinationExists": false
+  },
+  {
+   "artworkId": "R16",
+   "assetId": "22d2c",
+   "group": "line",
+   "w": 328,
+   "h": 0,
+   "members": [
+    "V27"
+   ],
+   "exportNode": "I1608:7348;1548:33550",
+   "exportMethod": "get_design_context asset URL (nested id; download_assets accepts plain ids only)",
+   "destination": "showcase/screens/assets/vectors/line-22d2c-328x0.svg",
+   "destinationExists": false
+  },
+  {
+   "artworkId": "R17",
+   "assetId": "1f27c",
+   "group": "line",
+   "w": 7.868184184189886e-07,
+   "h": 18,
+   "members": [
+    "V28"
+   ],
+   "exportNode": "1608:7363",
+   "exportMethod": "download_assets(svg)",
+   "destination": "showcase/screens/assets/vectors/line-1f27c-0x18.svg",
+   "destinationExists": false
+  },
+  {
+   "artworkId": "R18",
+   "assetId": "f1aa6",
+   "group": "line",
+   "w": 328,
+   "h": 0,
+   "members": [
+    "V29"
+   ],
+   "exportNode": "1608:7389",
+   "exportMethod": "download_assets(svg)",
+   "destination": "showcase/screens/assets/vectors/line-f1aa6-328x0.svg",
+   "destinationExists": false
+  },
+  {
+   "artworkId": "R19",
+   "assetId": "9d56e",
+   "group": "line",
+   "w": 362,
+   "h": 3.164704776281724e-05,
+   "members": [
+    "V30"
+   ],
+   "exportNode": "1608:7390",
+   "exportMethod": "download_assets(svg)",
+   "destination": "showcase/screens/assets/vectors/line-9d56e-362x0.svg",
+   "destinationExists": false
+  },
+  {
+   "artworkId": "R20",
+   "assetId": "2834b",
+   "group": "star",
+   "w": 16,
+   "h": 16,
+   "members": [
+    "V34"
+   ],
+   "exportNode": "1201:9800",
+   "exportMethod": "download_assets(svg)",
+   "destination": "showcase/screens/assets/vectors/star-2834b-16x16.svg",
+   "destinationExists": false
+  },
+  {
+   "artworkId": "R21",
+   "assetId": "0c3c4",
+   "group": "star",
+   "w": 16,
+   "h": 16,
+   "members": [
+    "V35"
+   ],
+   "exportNode": "I1280:10408;1528:26138;1523:25927",
+   "exportMethod": "get_design_context asset URL (nested id; download_assets accepts plain ids only)",
+   "destination": "showcase/screens/assets/vectors/star-0c3c4-16x16.svg",
+   "destinationExists": false
+  },
+  {
+   "artworkId": "R22",
+   "assetId": "2efa9",
+   "group": "star",
+   "w": 18,
+   "h": 18,
+   "members": [
+    "V37",
+    "V40"
+   ],
+   "exportNode": "1280:10629",
+   "exportMethod": "download_assets(svg)",
+   "destination": "showcase/screens/assets/vectors/star-2efa9-18x18.svg",
+   "destinationExists": false
+  },
+  {
+   "artworkId": "R23",
+   "assetId": "ab45f",
+   "group": "vector-frame",
+   "w": 47.65129470825195,
+   "h": 47.65129470825195,
+   "members": [
+    "V38"
+   ],
+   "exportNode": "1375:30871",
+   "exportMethod": "download_assets(svg)",
+   "destination": "showcase/screens/assets/vectors/vector-frame-ab45f-47_65x47_65.svg",
+   "destinationExists": false
+  },
+  {
+   "artworkId": "R24",
+   "assetId": "bcf26",
+   "group": "shape",
+   "w": 12,
+   "h": 12,
+   "members": [
+    "V39"
+   ],
+   "exportNode": "1629:12007",
+   "exportMethod": "download_assets(svg)",
+   "destination": "showcase/screens/assets/vectors/shape-bcf26-12x12.svg",
+   "destinationExists": false
+  },
+  {
+   "artworkId": "R25",
+   "assetId": "c2e28",
+   "group": "star",
+   "w": 17.811321258544922,
+   "h": 17.811321258544922,
+   "members": [
+    "V41"
+   ],
+   "exportNode": "I1608:7387;1321:18884",
+   "exportMethod": "get_design_context asset URL (nested id; download_assets accepts plain ids only)",
+   "destination": "showcase/screens/assets/vectors/star-c2e28-17_81x17_81.svg",
+   "destinationExists": false
+  },
+  {
+   "artworkId": "R26",
+   "assetId": "c6cc8",
+   "group": "star",
+   "w": 9.535353660583496,
+   "h": 9.535353660583496,
+   "members": [
+    "V42",
+    "V43",
+    "V44",
+    "V45",
+    "V46",
+    "V47",
+    "V48"
+   ],
+   "exportNode": "1608:7439",
+   "exportMethod": "download_assets(svg)",
+   "destination": "showcase/screens/assets/vectors/star-c6cc8-9_54x9_54.svg",
+   "destinationExists": false
+  },
+  {
+   "artworkId": "R27",
+   "assetId": "58769",
+   "group": "shape",
+   "w": 15,
+   "h": 1.25,
+   "members": [
+    "V49"
+   ],
+   "exportNode": "1627:11933",
+   "exportMethod": "download_assets(svg)",
+   "destination": "showcase/screens/assets/vectors/shape-58769-15x1_25.svg",
+   "destinationExists": false
+  },
+  {
+   "artworkId": "R28",
+   "assetId": "a6156",
+   "group": "shape",
+   "w": 15,
+   "h": 15,
+   "members": [
+    "V50"
+   ],
+   "exportNode": "1627:11938",
+   "exportMethod": "download_assets(svg)",
+   "destination": "showcase/screens/assets/vectors/shape-a6156-15x15.svg",
+   "destinationExists": false
+  }
+ ],
+ "elements": [
+  {
+   "id": "V01",
+   "group": "line",
+   "screenFile": "showcase/screens/sample-screen/desktop-pdp-1375-30858.html",
+   "placeholderNode": "1375:30923",
+   "figmaNode": "1375:30923",
+   "page": {
+    "id": "1375:30857",
+    "name": "  › ① Sample Screen"
+   },
+   "screen": {
+    "id": "1375:30858",
+    "name": "Desktop",
+    "w": 1440,
+    "h": 3533
+   },
+   "parent": {
+    "id": null,
+    "name": null,
+    "note": "unknown"
+   },
+   "path": [
+    {
+     "id": "1375:30857",
+     "name": "  › ① Sample Screen"
+    },
+    {
+     "id": "1608:11615",
+     "name": "Sample Screen"
+    },
+    {
+     "id": "1375:30858",
+     "name": "Desktop"
+    }
+   ],
+   "layerName": "Line 23",
+   "w": 610,
+   "h": 0,
+   "x": 0,
+   "y": 118,
+   "fill": "n/a (line)",
+   "stroke": "variables on the node: [\"Brand/Blue-Grey/400\", \"Brand/Blue-Grey/300\"] (binding to the stroke not confirmed)",
+   "strokeWidth": "not exposed (inside the SVG)",
+   "opacity": "none (no opacity class)",
+   "rotation": "none (no rotate/-scale/flip class in design context)",
+   "visible": true,
+   "assetId": "c4a54",
+   "artworkId": "R01",
+   "destination": "showcase/screens/assets/vectors/line-c4a54-610x0.svg",
+   "notes": "node not in saved metadata (Desktop frame 1375:30858 is collapsed there and in live get_metadata); intermediate ancestors between Desktop and node unknown; colour not exposed (vector rendered as SVG asset); get_variable_defs returned variables but design context shows no colour on the node; binding to stroke not confirmed by design context"
+  },
+  {
+   "id": "V02",
+   "group": "line",
+   "screenFile": "showcase/screens/sample-screen/desktop-pdp-1375-30858.html",
+   "placeholderNode": "1375:30933",
+   "figmaNode": "1375:30933",
+   "page": {
+    "id": "1375:30857",
+    "name": "  › ① Sample Screen"
+   },
+   "screen": {
+    "id": "1375:30858",
+    "name": "Desktop",
+    "w": 1440,
+    "h": 3533
+   },
+   "parent": {
+    "id": null,
+    "name": null,
+    "note": "unknown"
+   },
+   "path": [
+    {
+     "id": "1375:30857",
+     "name": "  › ① Sample Screen"
+    },
+    {
+     "id": "1608:11615",
+     "name": "Sample Screen"
+    },
+    {
+     "id": "1375:30858",
+     "name": "Desktop"
+    }
+   ],
+   "layerName": "Line 16",
+   "w": 1.1802076187450439e-06,
+   "h": 27,
+   "x": 160,
+   "y": 31.5,
+   "fill": "n/a (line)",
+   "stroke": "not exposed (inside the SVG asset)",
+   "strokeWidth": "not exposed (inside the SVG)",
+   "opacity": "none (no opacity class)",
+   "rotation": "none (no rotate/-scale/flip class in design context)",
+   "visible": true,
+   "assetId": "600fb",
+   "artworkId": "R02",
+   "destination": "showcase/screens/assets/vectors/line-600fb-0x27.svg",
+   "notes": "node not in saved metadata (Desktop frame 1375:30858 is collapsed there and in live get_metadata); intermediate ancestors between Desktop and node unknown; colour not exposed (vector rendered as SVG asset)"
+  },
+  {
+   "id": "V03",
+   "group": "line",
+   "screenFile": "showcase/screens/sample-screen/desktop-pdp-1375-30858.html",
+   "placeholderNode": "1375:30937",
+   "figmaNode": "1375:30937",
+   "page": {
+    "id": "1375:30857",
+    "name": "  › ① Sample Screen"
+   },
+   "screen": {
+    "id": "1375:30858",
+    "name": "Desktop",
+    "w": 1440,
+    "h": 3533
+   },
+   "parent": {
+    "id": null,
+    "name": null,
+    "note": "unknown"
+   },
+   "path": [
+    {
+     "id": "1375:30857",
+     "name": "  › ① Sample Screen"
+    },
+    {
+     "id": "1608:11615",
+     "name": "Sample Screen"
+    },
+    {
+     "id": "1375:30858",
+     "name": "Desktop"
+    }
+   ],
+   "layerName": "Line 16",
+   "w": 7.430935511365533e-07,
+   "h": 17,
+   "x": 81,
+   "y": 18.5,
+   "fill": "n/a (line)",
+   "stroke": "not exposed (inside the SVG asset)",
+   "strokeWidth": "not exposed (inside the SVG)",
+   "opacity": "none (no opacity class)",
+   "rotation": "none (no rotate/-scale/flip class in design context)",
+   "visible": true,
+   "assetId": "65fb2",
+   "artworkId": "R03",
+   "destination": "showcase/screens/assets/vectors/line-65fb2-0x17.svg",
+   "notes": "node not in saved metadata (Desktop frame 1375:30858 is collapsed there and in live get_metadata); intermediate ancestors between Desktop and node unknown; colour not exposed (vector rendered as SVG asset)"
+  },
+  {
+   "id": "V04",
+   "group": "line",
+   "screenFile": "showcase/screens/sample-screen/desktop-pdp-1375-30858.html",
+   "placeholderNode": "1375:30944",
+   "figmaNode": "1375:30944",
+   "page": {
+    "id": "1375:30857",
+    "name": "  › ① Sample Screen"
+   },
+   "screen": {
+    "id": "1375:30858",
+    "name": "Desktop",
+    "w": 1440,
+    "h": 3533
+   },
+   "parent": {
+    "id": null,
+    "name": null,
+    "note": "unknown"
+   },
+   "path": [
+    {
+     "id": "1375:30857",
+     "name": "  › ① Sample Screen"
+    },
+    {
+     "id": "1608:11615",
+     "name": "Sample Screen"
+    },
+    {
+     "id": "1375:30858",
+     "name": "Desktop"
+    }
+   ],
+   "layerName": "Line 15",
+   "w": 610,
+   "h": 0,
+   "x": 0,
+   "y": 114,
+   "fill": "n/a (line)",
+   "stroke": "variables on the node: [\"Brand/Blue-Grey/400\", \"Brand/Blue-Grey/300\"] (binding to the stroke not confirmed)",
+   "strokeWidth": "not exposed (inside the SVG)",
+   "opacity": "none (no opacity class)",
+   "rotation": "none (no rotate/-scale/flip class in design context)",
+   "visible": true,
+   "assetId": "c4a54",
+   "artworkId": "R01",
+   "destination": "showcase/screens/assets/vectors/line-c4a54-610x0.svg",
+   "notes": "node not in saved metadata (Desktop frame 1375:30858 is collapsed there and in live get_metadata); intermediate ancestors between Desktop and node unknown; colour not exposed (vector rendered as SVG asset); get_variable_defs returned variables but design context shows no colour on the node; binding to stroke not confirmed by design context"
+  },
+  {
+   "id": "V05",
+   "group": "line",
+   "screenFile": "showcase/screens/sample-screen/desktop-pdp-1375-30858.html",
+   "placeholderNode": "1375:31002",
+   "figmaNode": "1375:31002",
+   "page": {
+    "id": "1375:30857",
+    "name": "  › ① Sample Screen"
+   },
+   "screen": {
+    "id": "1375:30858",
+    "name": "Desktop",
+    "w": 1440,
+    "h": 3533
+   },
+   "parent": {
+    "id": null,
+    "name": null,
+    "note": "unknown"
+   },
+   "path": [
+    {
+     "id": "1375:30857",
+     "name": "  › ① Sample Screen"
+    },
+    {
+     "id": "1608:11615",
+     "name": "Sample Screen"
+    },
+    {
+     "id": "1375:30858",
+     "name": "Desktop"
+    }
+   ],
+   "layerName": "Line 21",
+   "w": 610,
+   "h": 0,
+   "x": 0,
+   "y": 473,
+   "fill": "n/a (line)",
+   "stroke": "not exposed (inside the SVG asset)",
+   "strokeWidth": "not exposed (inside the SVG)",
+   "opacity": "none (no opacity class)",
+   "rotation": "none (no rotate/-scale/flip class in design context)",
+   "visible": true,
+   "assetId": "3adb7",
+   "artworkId": "R04",
+   "destination": "showcase/screens/assets/vectors/line-3adb7-610x0.svg",
+   "notes": "node not in saved metadata (Desktop frame 1375:30858 is collapsed there and in live get_metadata); intermediate ancestors between Desktop and node unknown; colour not exposed (vector rendered as SVG asset)"
+  },
+  {
+   "id": "V06",
+   "group": "line",
+   "screenFile": "showcase/screens/sample-screen/desktop-pdp-1375-30858.html",
+   "placeholderNode": "1375:31076",
+   "figmaNode": "1375:31076",
+   "page": {
+    "id": "1375:30857",
+    "name": "  › ① Sample Screen"
+   },
+   "screen": {
+    "id": "1375:30858",
+    "name": "Desktop",
+    "w": 1440,
+    "h": 3533
+   },
+   "parent": {
+    "id": null,
+    "name": null,
+    "note": "unknown"
+   },
+   "path": [
+    {
+     "id": "1375:30857",
+     "name": "  › ① Sample Screen"
+    },
+    {
+     "id": "1608:11615",
+     "name": "Sample Screen"
+    },
+    {
+     "id": "1375:30858",
+     "name": "Desktop"
+    }
+   ],
+   "layerName": "Line 24",
+   "w": 610,
+   "h": 0,
+   "x": 0,
+   "y": 603,
+   "fill": "n/a (line)",
+   "stroke": "not exposed (inside the SVG asset)",
+   "strokeWidth": "not exposed (inside the SVG)",
+   "opacity": "none (no opacity class)",
+   "rotation": "none (no rotate/-scale/flip class in design context)",
+   "visible": true,
+   "assetId": "63f38",
+   "artworkId": "R05",
+   "destination": "showcase/screens/assets/vectors/line-63f38-610x0.svg",
+   "notes": "node not in saved metadata (Desktop frame 1375:30858 is collapsed there and in live get_metadata); intermediate ancestors between Desktop and node unknown; colour not exposed (vector rendered as SVG asset)"
+  },
+  {
+   "id": "V07",
+   "group": "line",
+   "screenFile": "showcase/screens/sample-screen/desktop-pdp-1375-30858.html",
+   "placeholderNode": "1375:31127",
+   "figmaNode": "1375:31127",
+   "page": {
+    "id": "1375:30857",
+    "name": "  › ① Sample Screen"
+   },
+   "screen": {
+    "id": "1375:30858",
+    "name": "Desktop",
+    "w": 1440,
+    "h": 3533
+   },
+   "parent": {
+    "id": null,
+    "name": null,
+    "note": "unknown"
+   },
+   "path": [
+    {
+     "id": "1375:30857",
+     "name": "  › ① Sample Screen"
+    },
+    {
+     "id": "1608:11615",
+     "name": "Sample Screen"
+    },
+    {
+     "id": "1375:30858",
+     "name": "Desktop"
+    }
+   ],
+   "layerName": "Line 24",
+   "w": 270,
+   "h": 0,
+   "x": 0,
+   "y": 74,
+   "fill": "n/a (line)",
+   "stroke": "not exposed (inside the SVG asset)",
+   "strokeWidth": "not exposed (inside the SVG)",
+   "opacity": "none (no opacity class)",
+   "rotation": "none (no rotate/-scale/flip class in design context)",
+   "visible": true,
+   "assetId": "4ff1b",
+   "artworkId": "R06",
+   "destination": "showcase/screens/assets/vectors/line-4ff1b-270x0.svg",
+   "notes": "node not in saved metadata (Desktop frame 1375:30858 is collapsed there and in live get_metadata); intermediate ancestors between Desktop and node unknown; colour not exposed (vector rendered as SVG asset)"
+  },
+  {
+   "id": "V08",
+   "group": "line",
+   "screenFile": "showcase/screens/sample-screen/desktop-pdp-1375-30858.html",
+   "placeholderNode": "1375:31132",
+   "figmaNode": "1375:31132",
+   "page": {
+    "id": "1375:30857",
+    "name": "  › ① Sample Screen"
+   },
+   "screen": {
+    "id": "1375:30858",
+    "name": "Desktop",
+    "w": 1440,
+    "h": 3533
+   },
+   "parent": {
+    "id": null,
+    "name": null,
+    "note": "unknown"
+   },
+   "path": [
+    {
+     "id": "1375:30857",
+     "name": "  › ① Sample Screen"
+    },
+    {
+     "id": "1608:11615",
+     "name": "Sample Screen"
+    },
+    {
+     "id": "1375:30858",
+     "name": "Desktop"
+    }
+   ],
+   "layerName": "Line 21",
+   "w": 270,
+   "h": 0,
+   "x": 0,
+   "y": 74,
+   "fill": "n/a (line)",
+   "stroke": "not exposed (inside the SVG asset)",
+   "strokeWidth": "not exposed (inside the SVG)",
+   "opacity": "none (no opacity class)",
+   "rotation": "none (no rotate/-scale/flip class in design context)",
+   "visible": true,
+   "assetId": "4ff1b",
+   "artworkId": "R06",
+   "destination": "showcase/screens/assets/vectors/line-4ff1b-270x0.svg",
+   "notes": "node not in saved metadata (Desktop frame 1375:30858 is collapsed there and in live get_metadata); intermediate ancestors between Desktop and node unknown; colour not exposed (vector rendered as SVG asset)"
+  },
+  {
+   "id": "V09",
+   "group": "line",
+   "screenFile": "showcase/screens/sample-screen/desktop-pdp-1375-30858.html",
+   "placeholderNode": "1375:31138",
+   "figmaNode": "1375:31138",
+   "page": {
+    "id": "1375:30857",
+    "name": "  › ① Sample Screen"
+   },
+   "screen": {
+    "id": "1375:30858",
+    "name": "Desktop",
+    "w": 1440,
+    "h": 3533
+   },
+   "parent": {
+    "id": null,
+    "name": null,
+    "note": "unknown"
+   },
+   "path": [
+    {
+     "id": "1375:30857",
+     "name": "  › ① Sample Screen"
+    },
+    {
+     "id": "1608:11615",
+     "name": "Sample Screen"
+    },
+    {
+     "id": "1375:30858",
+     "name": "Desktop"
+    }
+   ],
+   "layerName": "Line 19",
+   "w": 270,
+   "h": 0,
+   "x": 0,
+   "y": 74,
+   "fill": "n/a (line)",
+   "stroke": "not exposed (inside the SVG asset)",
+   "strokeWidth": "not exposed (inside the SVG)",
+   "opacity": "none (no opacity class)",
+   "rotation": "none (no rotate/-scale/flip class in design context)",
+   "visible": true,
+   "assetId": "4ff1b",
+   "artworkId": "R06",
+   "destination": "showcase/screens/assets/vectors/line-4ff1b-270x0.svg",
+   "notes": "node not in saved metadata (Desktop frame 1375:30858 is collapsed there and in live get_metadata); intermediate ancestors between Desktop and node unknown; colour not exposed (vector rendered as SVG asset)"
+  },
+  {
+   "id": "V10",
+   "group": "line",
+   "screenFile": "showcase/screens/sample-screen/desktop-pdp-1375-30858.html",
+   "placeholderNode": "1375:31143",
+   "figmaNode": "1375:31143",
+   "page": {
+    "id": "1375:30857",
+    "name": "  › ① Sample Screen"
+   },
+   "screen": {
+    "id": "1375:30858",
+    "name": "Desktop",
+    "w": 1440,
+    "h": 3533
+   },
+   "parent": {
+    "id": null,
+    "name": null,
+    "note": "unknown"
+   },
+   "path": [
+    {
+     "id": "1375:30857",
+     "name": "  › ① Sample Screen"
+    },
+    {
+     "id": "1608:11615",
+     "name": "Sample Screen"
+    },
+    {
+     "id": "1375:30858",
+     "name": "Desktop"
+    }
+   ],
+   "layerName": "Line 22",
+   "w": 270,
+   "h": 0,
+   "x": 0,
+   "y": 74,
+   "fill": "n/a (line)",
+   "stroke": "not exposed (inside the SVG asset)",
+   "strokeWidth": "not exposed (inside the SVG)",
+   "opacity": "none (no opacity class)",
+   "rotation": "none (no rotate/-scale/flip class in design context)",
+   "visible": true,
+   "assetId": "4ff1b",
+   "artworkId": "R06",
+   "destination": "showcase/screens/assets/vectors/line-4ff1b-270x0.svg",
+   "notes": "node not in saved metadata (Desktop frame 1375:30858 is collapsed there and in live get_metadata); intermediate ancestors between Desktop and node unknown; colour not exposed (vector rendered as SVG asset)"
+  },
+  {
+   "id": "V11",
+   "group": "line",
+   "screenFile": "showcase/screens/sample-screen/desktop-pdp-1375-30858.html",
+   "placeholderNode": "1375:31149",
+   "figmaNode": "1375:31149",
+   "page": {
+    "id": "1375:30857",
+    "name": "  › ① Sample Screen"
+   },
+   "screen": {
+    "id": "1375:30858",
+    "name": "Desktop",
+    "w": 1440,
+    "h": 3533
+   },
+   "parent": {
+    "id": null,
+    "name": null,
+    "note": "unknown"
+   },
+   "path": [
+    {
+     "id": "1375:30857",
+     "name": "  › ① Sample Screen"
+    },
+    {
+     "id": "1608:11615",
+     "name": "Sample Screen"
+    },
+    {
+     "id": "1375:30858",
+     "name": "Desktop"
+    }
+   ],
+   "layerName": "Line 20",
+   "w": 270,
+   "h": 0,
+   "x": 0,
+   "y": 74,
+   "fill": "n/a (line)",
+   "stroke": "not exposed (inside the SVG asset)",
+   "strokeWidth": "not exposed (inside the SVG)",
+   "opacity": "none (no opacity class)",
+   "rotation": "none (no rotate/-scale/flip class in design context)",
+   "visible": true,
+   "assetId": "4ff1b",
+   "artworkId": "R06",
+   "destination": "showcase/screens/assets/vectors/line-4ff1b-270x0.svg",
+   "notes": "node not in saved metadata (Desktop frame 1375:30858 is collapsed there and in live get_metadata); intermediate ancestors between Desktop and node unknown; colour not exposed (vector rendered as SVG asset)"
+  },
+  {
+   "id": "V12",
+   "group": "line",
+   "screenFile": "showcase/screens/sample-screen/desktop-pdp-1375-30858.html",
+   "placeholderNode": "1375:31154",
+   "figmaNode": "1375:31154",
+   "page": {
+    "id": "1375:30857",
+    "name": "  › ① Sample Screen"
+   },
+   "screen": {
+    "id": "1375:30858",
+    "name": "Desktop",
+    "w": 1440,
+    "h": 3533
+   },
+   "parent": {
+    "id": null,
+    "name": null,
+    "note": "unknown"
+   },
+   "path": [
+    {
+     "id": "1375:30857",
+     "name": "  › ① Sample Screen"
+    },
+    {
+     "id": "1608:11615",
+     "name": "Sample Screen"
+    },
+    {
+     "id": "1375:30858",
+     "name": "Desktop"
+    }
+   ],
+   "layerName": "Line 23",
+   "w": 270,
+   "h": 0,
+   "x": 0,
+   "y": 74,
+   "fill": "n/a (line)",
+   "stroke": "not exposed (inside the SVG asset)",
+   "strokeWidth": "not exposed (inside the SVG)",
+   "opacity": "none (no opacity class)",
+   "rotation": "none (no rotate/-scale/flip class in design context)",
+   "visible": true,
+   "assetId": "4ff1b",
+   "artworkId": "R06",
+   "destination": "showcase/screens/assets/vectors/line-4ff1b-270x0.svg",
+   "notes": "node not in saved metadata (Desktop frame 1375:30858 is collapsed there and in live get_metadata); intermediate ancestors between Desktop and node unknown; colour not exposed (vector rendered as SVG asset)"
+  },
+  {
+   "id": "V13",
+   "group": "line",
+   "screenFile": "showcase/screens/sample-screen/desktop-pdp-1375-30858.html",
+   "placeholderNode": "1375:31393",
+   "figmaNode": "1375:31393",
+   "page": {
+    "id": "1375:30857",
+    "name": "  › ① Sample Screen"
+   },
+   "screen": {
+    "id": "1375:30858",
+    "name": "Desktop",
+    "w": 1440,
+    "h": 3533
+   },
+   "parent": {
+    "id": null,
+    "name": null,
+    "note": "unknown"
+   },
+   "path": [
+    {
+     "id": "1375:30857",
+     "name": "  › ① Sample Screen"
+    },
+    {
+     "id": "1608:11615",
+     "name": "Sample Screen"
+    },
+    {
+     "id": "1375:30858",
+     "name": "Desktop"
+    }
+   ],
+   "layerName": "Line 18",
+   "w": 1200,
+   "h": 0.00010490733188817103,
+   "x": 120,
+   "y": 1690,
+   "fill": "n/a (line)",
+   "stroke": "not exposed (inside the SVG asset)",
+   "strokeWidth": "not exposed (inside the SVG)",
+   "opacity": "none (no opacity class)",
+   "rotation": "none (no rotate/-scale/flip class in design context)",
+   "visible": true,
+   "assetId": "8879d",
+   "artworkId": "R07",
+   "destination": "showcase/screens/assets/vectors/line-8879d-1200x0.svg",
+   "notes": "node not in saved metadata (Desktop frame 1375:30858 is collapsed there and in live get_metadata); intermediate ancestors between Desktop and node unknown; colour not exposed (vector rendered as SVG asset)"
+  },
+  {
+   "id": "V14",
+   "group": "line",
+   "screenFile": "showcase/screens/sample-screen/job-listing-page-1629-11987.html",
+   "placeholderNode": "1629:12011",
+   "figmaNode": "1629:12011",
+   "page": {
+    "id": "1375:30857",
+    "name": "  › ① Sample Screen"
+   },
+   "screen": {
+    "id": "1629:11987",
+    "name": "Job - Listing page",
+    "w": 360,
+    "h": 800
+   },
+   "parent": {
+    "id": "1629:11988",
+    "name": "Frame 1984079524",
+    "tag": "frame"
+   },
+   "path": [
+    {
+     "id": "1375:30857",
+     "name": "  › ① Sample Screen"
+    },
+    {
+     "id": "1629:11987",
+     "name": "Job - Listing page"
+    },
+    {
+     "id": "1629:11988",
+     "name": "Frame 1984079524"
+    },
+    {
+     "id": "1629:12011",
+     "name": "Line 1"
+    }
+   ],
+   "layerName": "Line 1",
+   "w": 328,
+   "h": 0,
+   "x": 0,
+   "y": 58,
+   "fill": "n/a (line)",
+   "stroke": "not exposed (inside the SVG asset)",
+   "strokeWidth": "not exposed (inside the SVG)",
+   "opacity": "none (no opacity class)",
+   "rotation": "none (no rotate/-scale/flip class in design context)",
+   "visible": true,
+   "assetId": "4c2ad",
+   "artworkId": "R08",
+   "destination": "showcase/screens/assets/vectors/line-4c2ad-328x0.svg",
+   "notes": "colour not exposed (vector rendered as SVG asset)"
+  },
+  {
+   "id": "V15",
+   "group": "line",
+   "screenFile": "showcase/screens/sample-screen/job-listing-page-1629-11987.html",
+   "placeholderNode": "1629:12566",
+   "figmaNode": "1629:12566",
+   "page": {
+    "id": "1375:30857",
+    "name": "  › ① Sample Screen"
+   },
+   "screen": {
+    "id": "1629:11987",
+    "name": "Job - Listing page",
+    "w": 360,
+    "h": 800
+   },
+   "parent": {
+    "id": "1629:12557",
+    "name": "Frame 2121454993",
+    "tag": "frame"
+   },
+   "path": [
+    {
+     "id": "1375:30857",
+     "name": "  › ① Sample Screen"
+    },
+    {
+     "id": "1629:11987",
+     "name": "Job - Listing page"
+    },
+    {
+     "id": "1629:12556",
+     "name": "Frame 2121454994"
+    },
+    {
+     "id": "1629:12557",
+     "name": "Frame 2121454993"
+    },
+    {
+     "id": "1629:12566",
+     "name": "Line 2"
+    }
+   ],
+   "layerName": "Line 2",
+   "w": 306,
+   "h": 0,
+   "x": 0,
+   "y": 57,
+   "fill": "n/a (line)",
+   "stroke": "not exposed (inside the SVG asset)",
+   "strokeWidth": "not exposed (inside the SVG)",
+   "opacity": "none (no opacity class)",
+   "rotation": "none (no rotate/-scale/flip class in design context)",
+   "visible": true,
+   "assetId": "31c80",
+   "artworkId": "R09",
+   "destination": "showcase/screens/assets/vectors/line-31c80-306x0.svg",
+   "notes": "colour not exposed (vector rendered as SVG asset)"
+  },
+  {
+   "id": "V16",
+   "group": "line",
+   "screenFile": "showcase/screens/sample-screen/job-listing-page-1629-11987.html",
+   "placeholderNode": "1629:12126",
+   "figmaNode": "1629:12126",
+   "page": {
+    "id": "1375:30857",
+    "name": "  › ① Sample Screen"
+   },
+   "screen": {
+    "id": "1629:11987",
+    "name": "Job - Listing page",
+    "w": 360,
+    "h": 800
+   },
+   "parent": {
+    "id": "1629:12117",
+    "name": "Frame 1984079554",
+    "tag": "frame"
+   },
+   "path": [
+    {
+     "id": "1375:30857",
+     "name": "  › ① Sample Screen"
+    },
+    {
+     "id": "1629:11987",
+     "name": "Job - Listing page"
+    },
+    {
+     "id": "1629:12101",
+     "name": "Frame 1984079557"
+    },
+    {
+     "id": "1629:12102",
+     "name": "Frame 1984079575"
+    },
+    {
+     "id": "1629:12117",
+     "name": "Frame 1984079554"
+    },
+    {
+     "id": "1629:12126",
+     "name": "Line 1"
+    }
+   ],
+   "layerName": "Line 1",
+   "w": 304,
+   "h": 0,
+   "x": 0,
+   "y": 54,
+   "fill": "n/a (line)",
+   "stroke": "not exposed (inside the SVG asset)",
+   "strokeWidth": "not exposed (inside the SVG)",
+   "opacity": "none (no opacity class)",
+   "rotation": "none (no rotate/-scale/flip class in design context)",
+   "visible": true,
+   "assetId": "06fc3",
+   "artworkId": "R10",
+   "destination": "showcase/screens/assets/vectors/line-06fc3-304x0.svg",
+   "notes": "colour not exposed (vector rendered as SVG asset)"
+  },
+  {
+   "id": "V17",
+   "group": "line",
+   "screenFile": "showcase/screens/sample-screen/job-listing-page-1629-11987.html",
+   "placeholderNode": "1629:12203",
+   "figmaNode": "1629:12203",
+   "page": {
+    "id": "1375:30857",
+    "name": "  › ① Sample Screen"
+   },
+   "screen": {
+    "id": "1629:11987",
+    "name": "Job - Listing page",
+    "w": 360,
+    "h": 800
+   },
+   "parent": {
+    "id": "1629:12194",
+    "name": "Frame 1984079554",
+    "tag": "frame"
+   },
+   "path": [
+    {
+     "id": "1375:30857",
+     "name": "  › ① Sample Screen"
+    },
+    {
+     "id": "1629:11987",
+     "name": "Job - Listing page"
+    },
+    {
+     "id": "1629:12178",
+     "name": "Frame 1984079558"
+    },
+    {
+     "id": "1629:12179",
+     "name": "Frame 1984079575"
+    },
+    {
+     "id": "1629:12194",
+     "name": "Frame 1984079554"
+    },
+    {
+     "id": "1629:12203",
+     "name": "Line 1"
+    }
+   ],
+   "layerName": "Line 1",
+   "w": 304,
+   "h": 0,
+   "x": 0,
+   "y": 54,
+   "fill": "n/a (line)",
+   "stroke": "not exposed (inside the SVG asset)",
+   "strokeWidth": "not exposed (inside the SVG)",
+   "opacity": "none (no opacity class)",
+   "rotation": "none (no rotate/-scale/flip class in design context)",
+   "visible": true,
+   "assetId": "06fc3",
+   "artworkId": "R10",
+   "destination": "showcase/screens/assets/vectors/line-06fc3-304x0.svg",
+   "notes": "colour not exposed (vector rendered as SVG asset)"
+  },
+  {
+   "id": "V18",
+   "group": "line",
+   "screenFile": "showcase/screens/sample-screen/job-listing-page-1629-11987.html",
+   "placeholderNode": "1629:12282",
+   "figmaNode": "1629:12282",
+   "page": {
+    "id": "1375:30857",
+    "name": "  › ① Sample Screen"
+   },
+   "screen": {
+    "id": "1629:11987",
+    "name": "Job - Listing page",
+    "w": 360,
+    "h": 800
+   },
+   "parent": {
+    "id": "1629:12273",
+    "name": "Frame 1984079554",
+    "tag": "frame"
+   },
+   "path": [
+    {
+     "id": "1375:30857",
+     "name": "  › ① Sample Screen"
+    },
+    {
+     "id": "1629:11987",
+     "name": "Job - Listing page"
+    },
+    {
+     "id": "1629:12257",
+     "name": "Frame 1984079559"
+    },
+    {
+     "id": "1629:12258",
+     "name": "Frame 1984079575"
+    },
+    {
+     "id": "1629:12273",
+     "name": "Frame 1984079554"
+    },
+    {
+     "id": "1629:12282",
+     "name": "Line 1"
+    }
+   ],
+   "layerName": "Line 1",
+   "w": 304,
+   "h": 0,
+   "x": 0,
+   "y": 54,
+   "fill": "n/a (line)",
+   "stroke": "not exposed (inside the SVG asset)",
+   "strokeWidth": "not exposed (inside the SVG)",
+   "opacity": "none (no opacity class)",
+   "rotation": "none (no rotate/-scale/flip class in design context)",
+   "visible": true,
+   "assetId": "06fc3",
+   "artworkId": "R10",
+   "destination": "showcase/screens/assets/vectors/line-06fc3-304x0.svg",
+   "notes": "colour not exposed (vector rendered as SVG asset)"
+  },
+  {
+   "id": "V19",
+   "group": "line",
+   "screenFile": "showcase/screens/sample-screen/mobile-pdp-1608-7090.html",
+   "placeholderNode": "I1608:7152;1539:30179;1539:28950",
+   "figmaNode": "I1608:7152;1539:30179;1539:28950",
+   "page": {
+    "id": "1375:30857",
+    "name": "  › ① Sample Screen"
+   },
+   "screen": {
+    "id": "1608:7090",
+    "name": "Mobile",
+    "w": 360,
+    "h": 4683
+   },
+   "parent": {
+    "id": "1608:7152",
+    "name": "Colour Change Tabs",
+    "note": "instance ancestor (immediate parent inside instance not exposed)"
+   },
+   "path": [
+    {
+     "id": "1375:30857",
+     "name": "  › ① Sample Screen"
+    },
+    {
+     "id": "1608:11615",
+     "name": "Sample Screen"
+    },
+    {
+     "id": "1608:7090",
+     "name": "Mobile"
+    },
+    {
+     "id": "1608:7151",
+     "name": "Frame 2121454869"
+    },
+    {
+     "id": "1608:7152",
+     "name": "Colour Change Tabs"
+    }
+   ],
+   "layerName": "Line 122",
+   "w": 30,
+   "h": 2.6226864520140225e-06,
+   "x": 0,
+   "y": 6,
+   "fill": "n/a (line)",
+   "stroke": "not exposed (inside the SVG asset)",
+   "strokeWidth": "not exposed (inside the SVG)",
+   "opacity": "none (no opacity class)",
+   "rotation": "none (no rotate/-scale/flip class in design context)",
+   "visible": true,
+   "assetId": "2e905",
+   "artworkId": "R11",
+   "destination": "showcase/screens/assets/vectors/line-2e905-30x0.svg",
+   "notes": "nested instance id not in saved metadata; path derived from instance parent 1608:7152 (path ends at that instance); colour not exposed (vector rendered as SVG asset)"
+  },
+  {
+   "id": "V20",
+   "group": "line",
+   "screenFile": "showcase/screens/sample-screen/mobile-pdp-1608-7090.html",
+   "placeholderNode": "I1608:7152;1539:30180;1539:28950",
+   "figmaNode": "I1608:7152;1539:30180;1539:28950",
+   "page": {
+    "id": "1375:30857",
+    "name": "  › ① Sample Screen"
+   },
+   "screen": {
+    "id": "1608:7090",
+    "name": "Mobile",
+    "w": 360,
+    "h": 4683
+   },
+   "parent": {
+    "id": "1608:7152",
+    "name": "Colour Change Tabs",
+    "note": "instance ancestor (immediate parent inside instance not exposed)"
+   },
+   "path": [
+    {
+     "id": "1375:30857",
+     "name": "  › ① Sample Screen"
+    },
+    {
+     "id": "1608:11615",
+     "name": "Sample Screen"
+    },
+    {
+     "id": "1608:7090",
+     "name": "Mobile"
+    },
+    {
+     "id": "1608:7151",
+     "name": "Frame 2121454869"
+    },
+    {
+     "id": "1608:7152",
+     "name": "Colour Change Tabs"
+    }
+   ],
+   "layerName": "Line 122",
+   "w": 30,
+   "h": 2.6226864520140225e-06,
+   "x": 0,
+   "y": 6,
+   "fill": "n/a (line)",
+   "stroke": "not exposed (inside the SVG asset)",
+   "strokeWidth": "not exposed (inside the SVG)",
+   "opacity": "none (no opacity class)",
+   "rotation": "none (no rotate/-scale/flip class in design context)",
+   "visible": true,
+   "assetId": "2e905",
+   "artworkId": "R11",
+   "destination": "showcase/screens/assets/vectors/line-2e905-30x0.svg",
+   "notes": "nested instance id not in saved metadata; path derived from instance parent 1608:7152 (path ends at that instance); colour not exposed (vector rendered as SVG asset)"
+  },
+  {
+   "id": "V21",
+   "group": "line",
+   "screenFile": "showcase/screens/sample-screen/mobile-pdp-1608-7090.html",
+   "placeholderNode": "I1608:7152;1539:30181;1539:28950",
+   "figmaNode": "I1608:7152;1539:30181;1539:28950",
+   "page": {
+    "id": "1375:30857",
+    "name": "  › ① Sample Screen"
+   },
+   "screen": {
+    "id": "1608:7090",
+    "name": "Mobile",
+    "w": 360,
+    "h": 4683
+   },
+   "parent": {
+    "id": "1608:7152",
+    "name": "Colour Change Tabs",
+    "note": "instance ancestor (immediate parent inside instance not exposed)"
+   },
+   "path": [
+    {
+     "id": "1375:30857",
+     "name": "  › ① Sample Screen"
+    },
+    {
+     "id": "1608:11615",
+     "name": "Sample Screen"
+    },
+    {
+     "id": "1608:7090",
+     "name": "Mobile"
+    },
+    {
+     "id": "1608:7151",
+     "name": "Frame 2121454869"
+    },
+    {
+     "id": "1608:7152",
+     "name": "Colour Change Tabs"
+    }
+   ],
+   "layerName": "Line 122",
+   "w": 30,
+   "h": 2.6226864520140225e-06,
+   "x": 0,
+   "y": 6,
+   "fill": "n/a (line)",
+   "stroke": "not exposed (inside the SVG asset)",
+   "strokeWidth": "not exposed (inside the SVG)",
+   "opacity": "none (no opacity class)",
+   "rotation": "none (no rotate/-scale/flip class in design context)",
+   "visible": true,
+   "assetId": "2e905",
+   "artworkId": "R11",
+   "destination": "showcase/screens/assets/vectors/line-2e905-30x0.svg",
+   "notes": "nested instance id not in saved metadata; path derived from instance parent 1608:7152 (path ends at that instance); colour not exposed (vector rendered as SVG asset)"
+  },
+  {
+   "id": "V22",
+   "group": "line",
+   "screenFile": "showcase/screens/sample-screen/mobile-pdp-1608-7090.html",
+   "placeholderNode": "I1608:7152;1539:30182;1539:28950",
+   "figmaNode": "I1608:7152;1539:30182;1539:28950",
+   "page": {
+    "id": "1375:30857",
+    "name": "  › ① Sample Screen"
+   },
+   "screen": {
+    "id": "1608:7090",
+    "name": "Mobile",
+    "w": 360,
+    "h": 4683
+   },
+   "parent": {
+    "id": "1608:7152",
+    "name": "Colour Change Tabs",
+    "note": "instance ancestor (immediate parent inside instance not exposed)"
+   },
+   "path": [
+    {
+     "id": "1375:30857",
+     "name": "  › ① Sample Screen"
+    },
+    {
+     "id": "1608:11615",
+     "name": "Sample Screen"
+    },
+    {
+     "id": "1608:7090",
+     "name": "Mobile"
+    },
+    {
+     "id": "1608:7151",
+     "name": "Frame 2121454869"
+    },
+    {
+     "id": "1608:7152",
+     "name": "Colour Change Tabs"
+    }
+   ],
+   "layerName": "Line 122",
+   "w": 30,
+   "h": 2.6226864520140225e-06,
+   "x": 0,
+   "y": 6,
+   "fill": "n/a (line)",
+   "stroke": "not exposed (inside the SVG asset)",
+   "strokeWidth": "not exposed (inside the SVG)",
+   "opacity": "none (no opacity class)",
+   "rotation": "none (no rotate/-scale/flip class in design context)",
+   "visible": true,
+   "assetId": "2e905",
+   "artworkId": "R11",
+   "destination": "showcase/screens/assets/vectors/line-2e905-30x0.svg",
+   "notes": "nested instance id not in saved metadata; path derived from instance parent 1608:7152 (path ends at that instance); colour not exposed (vector rendered as SVG asset)"
+  },
+  {
+   "id": "V23",
+   "group": "line",
+   "screenFile": "showcase/screens/sample-screen/mobile-pdp-1608-7090.html",
+   "placeholderNode": "I1608:7153;1546:27123;1546:27436;1010:22241",
+   "figmaNode": "I1608:7153;1546:27123;1546:27436;1010:22241",
+   "page": {
+    "id": "1375:30857",
+    "name": "  › ① Sample Screen"
+   },
+   "screen": {
+    "id": "1608:7090",
+    "name": "Mobile",
+    "w": 360,
+    "h": 4683
+   },
+   "parent": {
+    "id": "1608:7153",
+    "name": "Normal Size",
+    "note": "instance ancestor (immediate parent inside instance not exposed)"
+   },
+   "path": [
+    {
+     "id": "1375:30857",
+     "name": "  › ① Sample Screen"
+    },
+    {
+     "id": "1608:11615",
+     "name": "Sample Screen"
+    },
+    {
+     "id": "1608:7090",
+     "name": "Mobile"
+    },
+    {
+     "id": "1608:7151",
+     "name": "Frame 2121454869"
+    },
+    {
+     "id": "1608:7153",
+     "name": "Normal Size"
+    }
+   ],
+   "layerName": "Line 1",
+   "w": 57.000002341428626,
+   "h": 53.99999975503306,
+   "x": 3.637978807091713e-12,
+   "y": 2,
+   "fill": "n/a (line)",
+   "stroke": "not exposed (inside the SVG asset)",
+   "strokeWidth": "1.5 px (inferred from the -1.5px wrapper inset; exact width is inside the SVG)",
+   "opacity": "none (no opacity class)",
+   "rotation": "no rotate class in design context; bbox 57x54 => diagonal ~43.45deg baked into SVG asset",
+   "visible": true,
+   "assetId": "42e60",
+   "artworkId": "R12",
+   "destination": "showcase/screens/assets/vectors/line-42e60-57x54.svg",
+   "notes": "nested instance id not in saved metadata; path derived from instance parent 1608:7153 (path ends at that instance); colour not exposed (vector rendered as SVG asset); inset -1.5px suggests 1.5px stroke weight"
+  },
+  {
+   "id": "V24",
+   "group": "line",
+   "screenFile": "showcase/screens/sample-screen/mobile-pdp-1608-7090.html",
+   "placeholderNode": "1608:7182",
+   "figmaNode": "1608:7182",
+   "page": {
+    "id": "1375:30857",
+    "name": "  › ① Sample Screen"
+   },
+   "screen": {
+    "id": "1608:7090",
+    "name": "Mobile",
+    "w": 360,
+    "h": 4683
+   },
+   "parent": {
+    "id": "1608:7180",
+    "name": "Frame 2121454230",
+    "tag": "frame"
+   },
+   "path": [
+    {
+     "id": "1375:30857",
+     "name": "  › ① Sample Screen"
+    },
+    {
+     "id": "1608:11615",
+     "name": "Sample Screen"
+    },
+    {
+     "id": "1608:7090",
+     "name": "Mobile"
+    },
+    {
+     "id": "1608:7154",
+     "name": "Frame 2121454872"
+    },
+    {
+     "id": "1608:7156",
+     "name": "Delivery Animation"
+    },
+    {
+     "id": "1608:7177",
+     "name": "Price Text"
+    },
+    {
+     "id": "1608:7178",
+     "name": "Frame 2121454870"
+    },
+    {
+     "id": "1608:7180",
+     "name": "Frame 2121454230"
+    },
+    {
+     "id": "1608:7182",
+     "name": "Line 122"
+    }
+   ],
+   "layerName": "Line 122",
+   "w": 54,
+   "h": 4.720835704574711e-06,
+   "x": -2,
+   "y": 7,
+   "fill": "n/a (line)",
+   "stroke": "not exposed (inside the SVG asset)",
+   "strokeWidth": "not exposed (inside the SVG)",
+   "opacity": "none (no opacity class)",
+   "rotation": "none (no rotate/-scale/flip class in design context)",
+   "visible": true,
+   "assetId": "64c45",
+   "artworkId": "R13",
+   "destination": "showcase/screens/assets/vectors/line-64c45-54x0.svg",
+   "notes": "colour not exposed (vector rendered as SVG asset)"
+  },
+  {
+   "id": "V25",
+   "group": "line",
+   "screenFile": "showcase/screens/sample-screen/mobile-pdp-1608-7090.html",
+   "placeholderNode": "1608:7272",
+   "figmaNode": "1608:7272",
+   "page": {
+    "id": "1375:30857",
+    "name": "  › ① Sample Screen"
+   },
+   "screen": {
+    "id": "1608:7090",
+    "name": "Mobile",
+    "w": 360,
+    "h": 4683
+   },
+   "parent": {
+    "id": "1608:7271",
+    "name": "Frame 2121454458",
+    "tag": "frame"
+   },
+   "path": [
+    {
+     "id": "1375:30857",
+     "name": "  › ① Sample Screen"
+    },
+    {
+     "id": "1608:11615",
+     "name": "Sample Screen"
+    },
+    {
+     "id": "1608:7090",
+     "name": "Mobile"
+    },
+    {
+     "id": "1608:7239",
+     "name": "Frame 2121454879"
+    },
+    {
+     "id": "1608:7240",
+     "name": "Frame 2121454740"
+    },
+    {
+     "id": "1608:7267",
+     "name": "Frame 2121454739"
+    },
+    {
+     "id": "1608:7269",
+     "name": "Frame 2121454730"
+    },
+    {
+     "id": "1608:7270",
+     "name": "Product Details Sections"
+    },
+    {
+     "id": "1608:7271",
+     "name": "Frame 2121454458"
+    },
+    {
+     "id": "1608:7272",
+     "name": "Line 137"
+    }
+   ],
+   "layerName": "Line 137",
+   "w": 328,
+   "h": 0,
+   "x": 0,
+   "y": 0,
+   "fill": "n/a (line)",
+   "stroke": "not exposed (inside the SVG asset)",
+   "strokeWidth": "not exposed (inside the SVG)",
+   "opacity": "none (no opacity class)",
+   "rotation": "none (no rotate/-scale/flip class in design context)",
+   "visible": true,
+   "assetId": "6aff8",
+   "artworkId": "R14",
+   "destination": "showcase/screens/assets/vectors/line-6aff8-328x0.svg",
+   "notes": "colour not exposed (vector rendered as SVG asset)"
+  },
+  {
+   "id": "V26",
+   "group": "line",
+   "screenFile": "showcase/screens/sample-screen/mobile-pdp-1608-7090.html",
+   "placeholderNode": "I1608:7274;1548:33550",
+   "figmaNode": "I1608:7274;1548:33550",
+   "page": {
+    "id": "1375:30857",
+    "name": "  › ① Sample Screen"
+   },
+   "screen": {
+    "id": "1608:7090",
+    "name": "Mobile",
+    "w": 360,
+    "h": 4683
+   },
+   "parent": {
+    "id": "1608:7274",
+    "name": "Product Details Sections",
+    "note": "instance ancestor (immediate parent inside instance not exposed)"
+   },
+   "path": [
+    {
+     "id": "1375:30857",
+     "name": "  › ① Sample Screen"
+    },
+    {
+     "id": "1608:11615",
+     "name": "Sample Screen"
+    },
+    {
+     "id": "1608:7090",
+     "name": "Mobile"
+    },
+    {
+     "id": "1608:7239",
+     "name": "Frame 2121454879"
+    },
+    {
+     "id": "1608:7240",
+     "name": "Frame 2121454740"
+    },
+    {
+     "id": "1608:7267",
+     "name": "Frame 2121454739"
+    },
+    {
+     "id": "1608:7269",
+     "name": "Frame 2121454730"
+    },
+    {
+     "id": "1608:7270",
+     "name": "Product Details Sections"
+    },
+    {
+     "id": "1608:7271",
+     "name": "Frame 2121454458"
+    },
+    {
+     "id": "1608:7273",
+     "name": "Frame 2121454892"
+    },
+    {
+     "id": "1608:7274",
+     "name": "Product Details Sections"
+    }
+   ],
+   "layerName": "Line 137",
+   "w": 362,
+   "h": 0,
+   "x": 0,
+   "y": 32,
+   "fill": "n/a (line)",
+   "stroke": "not exposed (inside the SVG asset)",
+   "strokeWidth": "not exposed (inside the SVG)",
+   "opacity": "none (no opacity class)",
+   "rotation": "none (no rotate/-scale/flip class in design context)",
+   "visible": true,
+   "assetId": "abbb0",
+   "artworkId": "R15",
+   "destination": "showcase/screens/assets/vectors/line-abbb0-362x0.svg",
+   "notes": "nested instance id not in saved metadata; path derived from instance parent 1608:7274 (path ends at that instance); colour not exposed (vector rendered as SVG asset); metadata name is 'Line 137' (input title says 'Line')"
+  },
+  {
+   "id": "V27",
+   "group": "line",
+   "screenFile": "showcase/screens/sample-screen/mobile-pdp-1608-7090.html",
+   "placeholderNode": "I1608:7348;1548:33550",
+   "figmaNode": "I1608:7348;1548:33550",
+   "page": {
+    "id": "1375:30857",
+    "name": "  › ① Sample Screen"
+   },
+   "screen": {
+    "id": "1608:7090",
+    "name": "Mobile",
+    "w": 360,
+    "h": 4683
+   },
+   "parent": {
+    "id": "1608:7348",
+    "name": "Product Details Sections",
+    "note": "instance ancestor (immediate parent inside instance not exposed)"
+   },
+   "path": [
+    {
+     "id": "1375:30857",
+     "name": "  › ① Sample Screen"
+    },
+    {
+     "id": "1608:11615",
+     "name": "Sample Screen"
+    },
+    {
+     "id": "1608:7090",
+     "name": "Mobile"
+    },
+    {
+     "id": "1608:7239",
+     "name": "Frame 2121454879"
+    },
+    {
+     "id": "1608:7240",
+     "name": "Frame 2121454740"
+    },
+    {
+     "id": "1608:7267",
+     "name": "Frame 2121454739"
+    },
+    {
+     "id": "1608:7269",
+     "name": "Frame 2121454730"
+    },
+    {
+     "id": "1608:7347",
+     "name": "Component 106"
+    },
+    {
+     "id": "1608:7348",
+     "name": "Product Details Sections"
+    }
+   ],
+   "layerName": "Line 137",
+   "w": 328,
+   "h": 0,
+   "x": 0,
+   "y": 32,
+   "fill": "n/a (line)",
+   "stroke": "not exposed (inside the SVG asset)",
+   "strokeWidth": "not exposed (inside the SVG)",
+   "opacity": "none (no opacity class)",
+   "rotation": "none (no rotate/-scale/flip class in design context)",
+   "visible": true,
+   "assetId": "22d2c",
+   "artworkId": "R16",
+   "destination": "showcase/screens/assets/vectors/line-22d2c-328x0.svg",
+   "notes": "nested instance id not in saved metadata; path derived from instance parent 1608:7348 (path ends at that instance); colour not exposed (vector rendered as SVG asset); metadata name is 'Line 137' (input title says 'Line')"
+  },
+  {
+   "id": "V28",
+   "group": "line",
+   "screenFile": "showcase/screens/sample-screen/mobile-pdp-1608-7090.html",
+   "placeholderNode": "1608:7363",
+   "figmaNode": "1608:7363",
+   "page": {
+    "id": "1375:30857",
+    "name": "  › ① Sample Screen"
+   },
+   "screen": {
+    "id": "1608:7090",
+    "name": "Mobile",
+    "w": 360,
+    "h": 4683
+   },
+   "parent": {
+    "id": "1608:7361",
+    "name": "Frame 2121454701",
+    "tag": "frame"
+   },
+   "path": [
+    {
+     "id": "1375:30857",
+     "name": "  › ① Sample Screen"
+    },
+    {
+     "id": "1608:11615",
+     "name": "Sample Screen"
+    },
+    {
+     "id": "1608:7090",
+     "name": "Mobile"
+    },
+    {
+     "id": "1608:7239",
+     "name": "Frame 2121454879"
+    },
+    {
+     "id": "1608:7240",
+     "name": "Frame 2121454740"
+    },
+    {
+     "id": "1608:7267",
+     "name": "Frame 2121454739"
+    },
+    {
+     "id": "1608:7269",
+     "name": "Frame 2121454730"
+    },
+    {
+     "id": "1608:7347",
+     "name": "Component 106"
+    },
+    {
+     "id": "1608:7349",
+     "name": "Frame 2121454725"
+    },
+    {
+     "id": "1608:7350",
+     "name": "Slot"
+    },
+    {
+     "id": "1608:7351",
+     "name": "Frame 2121454727"
+    },
+    {
+     "id": "1608:7352",
+     "name": "Frame 2121454714"
+    },
+    {
+     "id": "1608:7355",
+     "name": "Frame 2121454713"
+    },
+    {
+     "id": "1608:7356",
+     "name": "Frame 2121454703"
+    },
+    {
+     "id": "1608:7361",
+     "name": "Frame 2121454701"
+    },
+    {
+     "id": "1608:7363",
+     "name": "Line 142"
+    }
+   ],
+   "layerName": "Line 142",
+   "w": 7.868184184189886e-07,
+   "h": 18,
+   "x": 85,
+   "y": 1,
+   "fill": "n/a (line)",
+   "stroke": "not exposed (inside the SVG asset)",
+   "strokeWidth": "not exposed (inside the SVG)",
+   "opacity": "none (no opacity class)",
+   "rotation": "none (no rotate/-scale/flip class in design context)",
+   "visible": true,
+   "assetId": "1f27c",
+   "artworkId": "R17",
+   "destination": "showcase/screens/assets/vectors/line-1f27c-0x18.svg",
+   "notes": "colour not exposed (vector rendered as SVG asset)"
+  },
+  {
+   "id": "V29",
+   "group": "line",
+   "screenFile": "showcase/screens/sample-screen/mobile-pdp-1608-7090.html",
+   "placeholderNode": "1608:7389",
+   "figmaNode": "1608:7389",
+   "page": {
+    "id": "1375:30857",
+    "name": "  › ① Sample Screen"
+   },
+   "screen": {
+    "id": "1608:7090",
+    "name": "Mobile",
+    "w": 360,
+    "h": 4683
+   },
+   "parent": {
+    "id": "1608:7349",
+    "name": "Frame 2121454725",
+    "tag": "frame"
+   },
+   "path": [
+    {
+     "id": "1375:30857",
+     "name": "  › ① Sample Screen"
+    },
+    {
+     "id": "1608:11615",
+     "name": "Sample Screen"
+    },
+    {
+     "id": "1608:7090",
+     "name": "Mobile"
+    },
+    {
+     "id": "1608:7239",
+     "name": "Frame 2121454879"
+    },
+    {
+     "id": "1608:7240",
+     "name": "Frame 2121454740"
+    },
+    {
+     "id": "1608:7267",
+     "name": "Frame 2121454739"
+    },
+    {
+     "id": "1608:7269",
+     "name": "Frame 2121454730"
+    },
+    {
+     "id": "1608:7347",
+     "name": "Component 106"
+    },
+    {
+     "id": "1608:7349",
+     "name": "Frame 2121454725"
+    },
+    {
+     "id": "1608:7389",
+     "name": "Line 137"
+    }
+   ],
+   "layerName": "Line 137",
+   "w": 328,
+   "h": 0,
+   "x": 0,
+   "y": 509,
+   "fill": "n/a (line)",
+   "stroke": "not exposed (inside the SVG asset)",
+   "strokeWidth": "not exposed (inside the SVG)",
+   "opacity": "none (no opacity class)",
+   "rotation": "none (no rotate/-scale/flip class in design context)",
+   "visible": true,
+   "assetId": "f1aa6",
+   "artworkId": "R18",
+   "destination": "showcase/screens/assets/vectors/line-f1aa6-328x0.svg",
+   "notes": "colour not exposed (vector rendered as SVG asset)"
+  },
+  {
+   "id": "V30",
+   "group": "line",
+   "screenFile": "showcase/screens/sample-screen/mobile-pdp-1608-7090.html",
+   "placeholderNode": "1608:7390",
+   "figmaNode": "1608:7390",
+   "page": {
+    "id": "1375:30857",
+    "name": "  › ① Sample Screen"
+   },
+   "screen": {
+    "id": "1608:7090",
+    "name": "Mobile",
+    "w": 360,
+    "h": 4683
+   },
+   "parent": {
+    "id": "1608:7349",
+    "name": "Frame 2121454725",
+    "tag": "frame"
+   },
+   "path": [
+    {
+     "id": "1375:30857",
+     "name": "  › ① Sample Screen"
+    },
+    {
+     "id": "1608:11615",
+     "name": "Sample Screen"
+    },
+    {
+     "id": "1608:7090",
+     "name": "Mobile"
+    },
+    {
+     "id": "1608:7239",
+     "name": "Frame 2121454879"
+    },
+    {
+     "id": "1608:7240",
+     "name": "Frame 2121454740"
+    },
+    {
+     "id": "1608:7267",
+     "name": "Frame 2121454739"
+    },
+    {
+     "id": "1608:7269",
+     "name": "Frame 2121454730"
+    },
+    {
+     "id": "1608:7347",
+     "name": "Component 106"
+    },
+    {
+     "id": "1608:7349",
+     "name": "Frame 2121454725"
+    },
+    {
+     "id": "1608:7390",
+     "name": "Line 143"
+    }
+   ],
+   "layerName": "Line 143",
+   "w": 362,
+   "h": 3.164704776281724e-05,
+   "x": 0,
+   "y": 240,
+   "fill": "n/a (line)",
+   "stroke": "not exposed (inside the SVG asset)",
+   "strokeWidth": "not exposed (inside the SVG)",
+   "opacity": "none (no opacity class)",
+   "rotation": "none (no rotate/-scale/flip class in design context)",
+   "visible": true,
+   "assetId": "9d56e",
+   "artworkId": "R19",
+   "destination": "showcase/screens/assets/vectors/line-9d56e-362x0.svg",
+   "notes": "colour not exposed (vector rendered as SVG asset)"
+  },
+  {
+   "id": "V31",
+   "group": "line",
+   "screenFile": "showcase/screens/sample-screen/mobile-putaway-1627-11756.html",
+   "placeholderNode": "1627:11780",
+   "figmaNode": "1627:11780",
+   "page": {
+    "id": "1375:30857",
+    "name": "  › ① Sample Screen"
+   },
+   "screen": {
+    "id": "1627:11756",
+    "name": "Mobile",
+    "w": 360,
+    "h": 800
+   },
+   "parent": {
+    "id": "1627:11757",
+    "name": "Frame 1984079524",
+    "tag": "frame"
+   },
+   "path": [
+    {
+     "id": "1375:30857",
+     "name": "  › ① Sample Screen"
+    },
+    {
+     "id": "1627:11756",
+     "name": "Mobile"
+    },
+    {
+     "id": "1627:11757",
+     "name": "Frame 1984079524"
+    },
+    {
+     "id": "1627:11780",
+     "name": "Line 1"
+    }
+   ],
+   "layerName": "Line 1",
+   "w": 328,
+   "h": 0,
+   "x": 0,
+   "y": 58,
+   "fill": "n/a (line)",
+   "stroke": "not exposed (inside the SVG asset)",
+   "strokeWidth": "not exposed (inside the SVG)",
+   "opacity": "none (no opacity class)",
+   "rotation": "none (no rotate/-scale/flip class in design context)",
+   "visible": true,
+   "assetId": "4c2ad",
+   "artworkId": "R08",
+   "destination": "showcase/screens/assets/vectors/line-4c2ad-328x0.svg",
+   "notes": "colour not exposed (vector rendered as SVG asset)"
+  },
+  {
+   "id": "V32",
+   "group": "line",
+   "screenFile": "showcase/screens/sample-screen/mobile-putaway-1627-11756.html",
+   "placeholderNode": "1627:11792",
+   "figmaNode": "1627:11792",
+   "page": {
+    "id": "1375:30857",
+    "name": "  › ① Sample Screen"
+   },
+   "screen": {
+    "id": "1627:11756",
+    "name": "Mobile",
+    "w": 360,
+    "h": 800
+   },
+   "parent": {
+    "id": "1627:11756",
+    "name": "Mobile",
+    "tag": "frame"
+   },
+   "path": [
+    {
+     "id": "1375:30857",
+     "name": "  › ① Sample Screen"
+    },
+    {
+     "id": "1627:11756",
+     "name": "Mobile"
+    },
+    {
+     "id": "1627:11792",
+     "name": "Line 1"
+    }
+   ],
+   "layerName": "Line 1",
+   "w": 328,
+   "h": 0,
+   "x": 16,
+   "y": 122,
+   "fill": "n/a (line)",
+   "stroke": "not exposed (inside the SVG asset)",
+   "strokeWidth": "not exposed (inside the SVG)",
+   "opacity": "none (no opacity class)",
+   "rotation": "none (no rotate/-scale/flip class in design context)",
+   "visible": true,
+   "assetId": "4c2ad",
+   "artworkId": "R08",
+   "destination": "showcase/screens/assets/vectors/line-4c2ad-328x0.svg",
+   "notes": "colour not exposed (vector rendered as SVG asset)"
+  },
+  {
+   "id": "V33",
+   "group": "line",
+   "screenFile": "showcase/screens/sample-screen/mobile-putaway-1627-11756.html",
+   "placeholderNode": "1627:11876",
+   "figmaNode": "1627:11876",
+   "page": {
+    "id": "1375:30857",
+    "name": "  › ① Sample Screen"
+   },
+   "screen": {
+    "id": "1627:11756",
+    "name": "Mobile",
+    "w": 360,
+    "h": 800
+   },
+   "parent": {
+    "id": "1627:11856",
+    "name": "Frame 1984079553",
+    "tag": "frame"
+   },
+   "path": [
+    {
+     "id": "1375:30857",
+     "name": "  › ① Sample Screen"
+    },
+    {
+     "id": "1627:11756",
+     "name": "Mobile"
+    },
+    {
+     "id": "1627:11840",
+     "name": "Frame 1984079603"
+    },
+    {
+     "id": "1627:11841",
+     "name": "Frame 1984079575"
+    },
+    {
+     "id": "1627:11856",
+     "name": "Frame 1984079553"
+    },
+    {
+     "id": "1627:11876",
+     "name": "Line 1"
+    }
+   ],
+   "layerName": "Line 1",
+   "w": 304,
+   "h": 0,
+   "x": 0,
+   "y": 148,
+   "fill": "n/a (line)",
+   "stroke": "not exposed (inside the SVG asset)",
+   "strokeWidth": "not exposed (inside the SVG)",
+   "opacity": "none (no opacity class)",
+   "rotation": "none (no rotate/-scale/flip class in design context)",
+   "visible": true,
+   "assetId": "06fc3",
+   "artworkId": "R10",
+   "destination": "showcase/screens/assets/vectors/line-06fc3-304x0.svg",
+   "notes": "colour not exposed (vector rendered as SVG asset)"
+  },
+  {
+   "id": "V34",
+   "group": "star",
+   "screenFile": "showcase/screens/pdp/mobile.html",
+   "placeholderNode": "1201:9800",
+   "figmaNode": "1201:9800",
+   "page": {
+    "id": "581:11523",
+    "name": "  › ② PDP"
+   },
+   "screen": {
+    "id": "1171:9676",
+    "name": "Mobile",
+    "w": 360,
+    "h": 1536
+   },
+   "parent": {
+    "id": "1201:9798",
+    "name": "Frame 2121454181",
+    "tag": "frame"
+   },
+   "path": [
+    {
+     "id": "581:11523",
+     "name": "  › ② PDP"
+    },
+    {
+     "id": "1171:9676",
+     "name": "Mobile"
+    },
+    {
+     "id": "1201:9787",
+     "name": "Frame 2121454184"
+    },
+    {
+     "id": "1201:9795",
+     "name": "Review"
+    },
+    {
+     "id": "1201:9796",
+     "name": "Review /BT/ BIG"
+    },
+    {
+     "id": "1201:9797",
+     "name": "Frame 2121454772"
+    },
+    {
+     "id": "1201:9798",
+     "name": "Frame 2121454181"
+    },
+    {
+     "id": "1201:9800",
+     "name": "Star"
+    }
+   ],
+   "layerName": "Star",
+   "w": 16,
+   "h": 16,
+   "x": 25,
+   "y": 0,
+   "fill": "not exposed (vector rendered as one SVG asset)",
+   "stroke": "not exposed (inside the SVG asset)",
+   "strokeWidth": "not exposed (inside the SVG)",
+   "opacity": "none (no opacity class)",
+   "rotation": "none (no rotate/-scale/flip class in design context)",
+   "visible": true,
+   "assetId": "2834b",
+   "artworkId": "R20",
+   "destination": "showcase/screens/assets/vectors/star-2834b-16x16.svg",
+   "notes": "colour not exposed (vector rendered as SVG asset)"
+  },
+  {
+   "id": "V35",
+   "group": "star",
+   "screenFile": "showcase/screens/pdp/pdp-v1.html",
+   "placeholderNode": "I1280:10408;1528:26138;1523:25927",
+   "figmaNode": "I1280:10408;1528:26138;1523:25927",
+   "page": {
+    "id": "581:11523",
+    "name": "  › ② PDP"
+   },
+   "screen": {
+    "id": "1280:10398",
+    "name": "PDP V1",
+    "w": 393,
+    "h": 4683
+   },
+   "parent": {
+    "id": "1280:10408",
+    "name": "Review",
+    "note": "instance ancestor (immediate parent inside instance not exposed)"
+   },
+   "path": [
+    {
+     "id": "581:11523",
+     "name": "  › ② PDP"
+    },
+    {
+     "id": "1280:10398",
+     "name": "PDP V1"
+    },
+    {
+     "id": "1280:10400",
+     "name": "Frame 2121454184"
+    },
+    {
+     "id": "1280:10408",
+     "name": "Review"
+    }
+   ],
+   "layerName": "Star",
+   "w": 16,
+   "h": 16,
+   "x": 23,
+   "y": 1,
+   "fill": "not exposed (vector rendered as one SVG asset)",
+   "stroke": "not exposed (inside the SVG asset)",
+   "strokeWidth": "not exposed (inside the SVG)",
+   "opacity": "none (no opacity class)",
+   "rotation": "none (no rotate/-scale/flip class in design context)",
+   "visible": true,
+   "assetId": "0c3c4",
+   "artworkId": "R21",
+   "destination": "showcase/screens/assets/vectors/star-0c3c4-16x16.svg",
+   "notes": "nested instance id not in saved metadata; path derived from instance parent 1280:10408 (path ends at that instance); colour not exposed (vector rendered as SVG asset)"
+  },
+  {
+   "id": "V36",
+   "group": "shape",
+   "screenFile": "showcase/screens/pdp/pdp-v1.html",
+   "placeholderNode": "I1280:10446;1546:27123;1546:27436;1010:22241",
+   "figmaNode": "I1280:10446;1546:27123;1546:27436;1010:22241",
+   "page": {
+    "id": "581:11523",
+    "name": "  › ② PDP"
+   },
+   "screen": {
+    "id": "1280:10398",
+    "name": "PDP V1",
+    "w": 393,
+    "h": 4683
+   },
+   "parent": {
+    "id": "1280:10446",
+    "name": "Normal Size",
+    "note": "instance ancestor (immediate parent inside instance not exposed)"
+   },
+   "path": [
+    {
+     "id": "581:11523",
+     "name": "  › ② PDP"
+    },
+    {
+     "id": "1280:10398",
+     "name": "PDP V1"
+    },
+    {
+     "id": "1280:10444",
+     "name": "Frame 2121454869"
+    },
+    {
+     "id": "1280:10446",
+     "name": "Normal Size"
+    }
+   ],
+   "layerName": "Line 1",
+   "w": 57.000002341428626,
+   "h": 53.99999975503306,
+   "x": 3.637978807091713e-12,
+   "y": 2,
+   "fill": "not exposed (vector rendered as one SVG asset)",
+   "stroke": "not exposed (inside the SVG asset)",
+   "strokeWidth": "1.5 px (inferred from the -1.5px wrapper inset; exact width is inside the SVG)",
+   "opacity": "none (no opacity class)",
+   "rotation": "no rotate class in design context; bbox 57x54 => diagonal ~43.45deg baked into SVG asset",
+   "visible": true,
+   "assetId": "42e60",
+   "artworkId": "R12",
+   "destination": "showcase/screens/assets/vectors/line-42e60-57x54.svg",
+   "notes": "nested instance id not in saved metadata; path derived from instance parent 1280:10446 (path ends at that instance); colour not exposed (vector rendered as SVG asset); inset -1.5px suggests 1.5px stroke weight; same component source (1546:27123;1546:27436;1010:22241) as V23"
+  },
+  {
+   "id": "V37",
+   "group": "star",
+   "screenFile": "showcase/screens/pdp/pdp-v1.html",
+   "placeholderNode": "1280:10629",
+   "figmaNode": "1280:10629",
+   "page": {
+    "id": "581:11523",
+    "name": "  › ② PDP"
+   },
+   "screen": {
+    "id": "1280:10398",
+    "name": "PDP V1",
+    "w": 393,
+    "h": 4683
+   },
+   "parent": {
+    "id": "1280:10627",
+    "name": "Frame 2121454181",
+    "tag": "frame"
+   },
+   "path": [
+    {
+     "id": "581:11523",
+     "name": "  › ② PDP"
+    },
+    {
+     "id": "1280:10398",
+     "name": "PDP V1"
+    },
+    {
+     "id": "1280:10506",
+     "name": "Frame 2121454906"
+    },
+    {
+     "id": "1280:10507",
+     "name": "Frame 2121454935"
+    },
+    {
+     "id": "1280:10508",
+     "name": "Frame 2121454879"
+    },
+    {
+     "id": "1280:10509",
+     "name": "Frame 2121454740"
+    },
+    {
+     "id": "1280:10536",
+     "name": "Frame 2121454739"
+    },
+    {
+     "id": "1280:10538",
+     "name": "Frame 2121454730"
+    },
+    {
+     "id": "1280:10616",
+     "name": "Component 106"
+    },
+    {
+     "id": "1280:10618",
+     "name": "Frame 2121454725"
+    },
+    {
+     "id": "1280:10619",
+     "name": "Slot"
+    },
+    {
+     "id": "1280:10620",
+     "name": "Frame 2121454727"
+    },
+    {
+     "id": "1280:10621",
+     "name": "Frame 2121454714"
+    },
+    {
+     "id": "1280:10624",
+     "name": "Frame 2121454713"
+    },
+    {
+     "id": "1280:10625",
+     "name": "Frame 2121454703"
+    },
+    {
+     "id": "1280:10626",
+     "name": "Frame 2121454697"
+    },
+    {
+     "id": "1280:10627",
+     "name": "Frame 2121454181"
+    },
+    {
+     "id": "1280:10629",
+     "name": "Star"
+    }
+   ],
+   "layerName": "Star",
+   "w": 18,
+   "h": 18,
+   "x": 28.452831268310547,
+   "y": 3.2452831268310547,
+   "fill": "not exposed (vector rendered as one SVG asset)",
+   "stroke": "not exposed (inside the SVG asset)",
+   "strokeWidth": "not exposed (inside the SVG)",
+   "opacity": "none (no opacity class)",
+   "rotation": "none (no rotate/-scale/flip class in design context)",
+   "visible": true,
+   "assetId": "2efa9",
+   "artworkId": "R22",
+   "destination": "showcase/screens/assets/vectors/star-2efa9-18x18.svg",
+   "notes": "colour not exposed (vector rendered as SVG asset)"
+  },
+  {
+   "id": "V38",
+   "group": "vector-frame",
+   "screenFile": "showcase/screens/sample-screen/desktop-pdp-1375-30858.html",
+   "placeholderNode": "1375:30871",
+   "figmaNode": "1375:30871",
+   "page": {
+    "id": "1375:30857",
+    "name": "  › ① Sample Screen"
+   },
+   "screen": {
+    "id": "1375:30858",
+    "name": "Desktop",
+    "w": 1440,
+    "h": 3533
+   },
+   "parent": {
+    "id": null,
+    "name": null,
+    "note": "unknown"
+   },
+   "path": [
+    {
+     "id": "1375:30857",
+     "name": "  › ① Sample Screen"
+    },
+    {
+     "id": "1608:11615",
+     "name": "Sample Screen"
+    },
+    {
+     "id": "1375:30858",
+     "name": "Desktop"
+    }
+   ],
+   "layerName": "View More",
+   "w": 47.65129470825195,
+   "h": 47.65129470825195,
+   "x": 474.9248046875,
+   "y": -114.5380859375,
+   "fill": "not exposed (vector rendered as one SVG asset)",
+   "stroke": "not exposed (inside the SVG asset)",
+   "strokeWidth": "not exposed (inside the SVG)",
+   "opacity": "none (no opacity class)",
+   "rotation": "none (no rotate/-scale/flip class in design context)",
+   "visible": true,
+   "assetId": "ab45f",
+   "artworkId": "R23",
+   "destination": "showcase/screens/assets/vectors/vector-frame-ab45f-47_65x47_65.svg",
+   "notes": "node not in saved metadata (Desktop frame 1375:30858 is collapsed there and in live get_metadata); intermediate ancestors between Desktop and node unknown; colour not exposed (vector rendered as SVG asset); children: frame 'Frame' 1375:30872 (23.83x23.83 @11.91,11.91) and vector 'Vector' 1375:30875 (13.90x16.88 @14.89,16.88); whole frame flattened to one SVG asset; negative y relative to parent"
+  },
+  {
+   "id": "V39",
+   "group": "shape",
+   "screenFile": "showcase/screens/sample-screen/job-listing-page-1629-11987.html",
+   "placeholderNode": "1629:12007",
+   "figmaNode": "1629:12007",
+   "page": {
+    "id": "1375:30857",
+    "name": "  › ① Sample Screen"
+   },
+   "screen": {
+    "id": "1629:11987",
+    "name": "Job - Listing page",
+    "w": 360,
+    "h": 800
+   },
+   "parent": {
+    "id": "1629:12006",
+    "name": "Frame 1984079530",
+    "tag": "frame"
+   },
+   "path": [
+    {
+     "id": "1375:30857",
+     "name": "  › ① Sample Screen"
+    },
+    {
+     "id": "1629:11987",
+     "name": "Job - Listing page"
+    },
+    {
+     "id": "1629:11988",
+     "name": "Frame 1984079524"
+    },
+    {
+     "id": "1629:11989",
+     "name": "Frame 1984079514"
+    },
+    {
+     "id": "1629:12000",
+     "name": "Frame 1984079513"
+    },
+    {
+     "id": "1629:12005",
+     "name": "Frame 1984079511"
+    },
+    {
+     "id": "1629:12006",
+     "name": "Frame 1984079530"
+    },
+    {
+     "id": "1629:12007",
+     "name": "Ellipse 1"
+    }
+   ],
+   "layerName": "Ellipse 1",
+   "w": 12,
+   "h": 12,
+   "x": 0,
+   "y": 2,
+   "fill": "not exposed (vector rendered as one SVG asset)",
+   "stroke": "not exposed (inside the SVG asset)",
+   "strokeWidth": "not exposed (inside the SVG)",
+   "opacity": "none (no opacity class)",
+   "rotation": "none (no rotate/-scale/flip class in design context)",
+   "visible": true,
+   "assetId": "bcf26",
+   "artworkId": "R24",
+   "destination": "showcase/screens/assets/vectors/shape-bcf26-12x12.svg",
+   "notes": "colour not exposed (vector rendered as SVG asset)"
+  },
+  {
+   "id": "V40",
+   "group": "star",
+   "screenFile": "showcase/screens/sample-screen/mobile-pdp-1608-7090.html",
+   "placeholderNode": "1608:7360",
+   "figmaNode": "1608:7360",
+   "page": {
+    "id": "1375:30857",
+    "name": "  › ① Sample Screen"
+   },
+   "screen": {
+    "id": "1608:7090",
+    "name": "Mobile",
+    "w": 360,
+    "h": 4683
+   },
+   "parent": {
+    "id": "1608:7358",
+    "name": "Frame 2121454181",
+    "tag": "frame"
+   },
+   "path": [
+    {
+     "id": "1375:30857",
+     "name": "  › ① Sample Screen"
+    },
+    {
+     "id": "1608:11615",
+     "name": "Sample Screen"
+    },
+    {
+     "id": "1608:7090",
+     "name": "Mobile"
+    },
+    {
+     "id": "1608:7239",
+     "name": "Frame 2121454879"
+    },
+    {
+     "id": "1608:7240",
+     "name": "Frame 2121454740"
+    },
+    {
+     "id": "1608:7267",
+     "name": "Frame 2121454739"
+    },
+    {
+     "id": "1608:7269",
+     "name": "Frame 2121454730"
+    },
+    {
+     "id": "1608:7347",
+     "name": "Component 106"
+    },
+    {
+     "id": "1608:7349",
+     "name": "Frame 2121454725"
+    },
+    {
+     "id": "1608:7350",
+     "name": "Slot"
+    },
+    {
+     "id": "1608:7351",
+     "name": "Frame 2121454727"
+    },
+    {
+     "id": "1608:7352",
+     "name": "Frame 2121454714"
+    },
+    {
+     "id": "1608:7355",
+     "name": "Frame 2121454713"
+    },
+    {
+     "id": "1608:7356",
+     "name": "Frame 2121454703"
+    },
+    {
+     "id": "1608:7357",
+     "name": "Frame 2121454697"
+    },
+    {
+     "id": "1608:7358",
+     "name": "Frame 2121454181"
+    },
+    {
+     "id": "1608:7360",
+     "name": "Star"
+    }
+   ],
+   "layerName": "Star",
+   "w": 18,
+   "h": 18,
+   "x": 28.452831268310547,
+   "y": 3.2452831268310547,
+   "fill": "not exposed (vector rendered as one SVG asset)",
+   "stroke": "not exposed (inside the SVG asset)",
+   "strokeWidth": "not exposed (inside the SVG)",
+   "opacity": "none (no opacity class)",
+   "rotation": "none (no rotate/-scale/flip class in design context)",
+   "visible": true,
+   "assetId": "2efa9",
+   "artworkId": "R22",
+   "destination": "showcase/screens/assets/vectors/star-2efa9-18x18.svg",
+   "notes": "colour not exposed (vector rendered as SVG asset)"
+  },
+  {
+   "id": "V41",
+   "group": "star",
+   "screenFile": "showcase/screens/sample-screen/mobile-pdp-1608-7090.html",
+   "placeholderNode": "I1608:7387;1321:18884",
+   "figmaNode": "I1608:7387;1321:18884",
+   "page": {
+    "id": "1375:30857",
+    "name": "  › ① Sample Screen"
+   },
+   "screen": {
+    "id": "1608:7090",
+    "name": "Mobile",
+    "w": 360,
+    "h": 4683
+   },
+   "parent": {
+    "id": "1608:7387",
+    "name": "Frame 2121454563",
+    "note": "instance ancestor (immediate parent inside instance not exposed)"
+   },
+   "path": [
+    {
+     "id": "1375:30857",
+     "name": "  › ① Sample Screen"
+    },
+    {
+     "id": "1608:11615",
+     "name": "Sample Screen"
+    },
+    {
+     "id": "1608:7090",
+     "name": "Mobile"
+    },
+    {
+     "id": "1608:7239",
+     "name": "Frame 2121454879"
+    },
+    {
+     "id": "1608:7240",
+     "name": "Frame 2121454740"
+    },
+    {
+     "id": "1608:7267",
+     "name": "Frame 2121454739"
+    },
+    {
+     "id": "1608:7269",
+     "name": "Frame 2121454730"
+    },
+    {
+     "id": "1608:7347",
+     "name": "Component 106"
+    },
+    {
+     "id": "1608:7349",
+     "name": "Frame 2121454725"
+    },
+    {
+     "id": "1608:7350",
+     "name": "Slot"
+    },
+    {
+     "id": "1608:7351",
+     "name": "Frame 2121454727"
+    },
+    {
+     "id": "1608:7386",
+     "name": "Frame 2121454712"
+    },
+    {
+     "id": "1608:7387",
+     "name": "Frame 2121454563"
+    }
+   ],
+   "layerName": "Star",
+   "w": 17.811321258544922,
+   "h": 17.811321258544922,
+   "x": 22.452831268310547,
+   "y": 3.3396224975585938,
+   "fill": "not exposed (vector rendered as one SVG asset)",
+   "stroke": "not exposed (inside the SVG asset)",
+   "strokeWidth": "not exposed (inside the SVG)",
+   "opacity": "none (no opacity class)",
+   "rotation": "none (no rotate/-scale/flip class in design context)",
+   "visible": true,
+   "assetId": "c2e28",
+   "artworkId": "R25",
+   "destination": "showcase/screens/assets/vectors/star-c2e28-17_81x17_81.svg",
+   "notes": "nested instance id not in saved metadata; path derived from instance parent 1608:7387 (path ends at that instance); colour not exposed (vector rendered as SVG asset)"
+  },
+  {
+   "id": "V42",
+   "group": "star",
+   "screenFile": "showcase/screens/sample-screen/mobile-pdp-1608-7090.html",
+   "placeholderNode": "1608:7439",
+   "figmaNode": "1608:7439",
+   "page": {
+    "id": "1375:30857",
+    "name": "  › ① Sample Screen"
+   },
+   "screen": {
+    "id": "1608:7090",
+    "name": "Mobile",
+    "w": 360,
+    "h": 4683
+   },
+   "parent": {
+    "id": "1608:7437",
+    "name": "Frame 2121454181",
+    "tag": "frame"
+   },
+   "path": [
+    {
+     "id": "1375:30857",
+     "name": "  › ① Sample Screen"
+    },
+    {
+     "id": "1608:11615",
+     "name": "Sample Screen"
+    },
+    {
+     "id": "1608:7090",
+     "name": "Mobile"
+    },
+    {
+     "id": "1608:7424",
+     "name": "Frame 2121454905"
+    },
+    {
+     "id": "1608:7425",
+     "name": "Frame 2121454899"
+    },
+    {
+     "id": "1608:7429",
+     "name": "Frame 2121454897"
+    },
+    {
+     "id": "1608:7430",
+     "name": "Similar Products- Card"
+    },
+    {
+     "id": "1608:7431",
+     "name": "Frame 2121454768"
+    },
+    {
+     "id": "1608:7432",
+     "name": "Frame 2121454334"
+    },
+    {
+     "id": "1608:7434",
+     "name": "Frame 2121454774"
+    },
+    {
+     "id": "1608:7435",
+     "name": "Review BT"
+    },
+    {
+     "id": "1608:7436",
+     "name": "Frame 2121454772"
+    },
+    {
+     "id": "1608:7437",
+     "name": "Frame 2121454181"
+    },
+    {
+     "id": "1608:7439",
+     "name": "Star"
+    }
+   ],
+   "layerName": "Star",
+   "w": 9.535353660583496,
+   "h": 9.535353660583496,
+   "x": 20,
+   "y": 4.232323169708252,
+   "fill": "not exposed (vector rendered as one SVG asset)",
+   "stroke": "not exposed (inside the SVG asset)",
+   "strokeWidth": "not exposed (inside the SVG)",
+   "opacity": "none (no opacity class)",
+   "rotation": "none (no rotate/-scale/flip class in design context)",
+   "visible": true,
+   "assetId": "c6cc8",
+   "artworkId": "R26",
+   "destination": "showcase/screens/assets/vectors/star-c6cc8-9_54x9_54.svg",
+   "notes": "colour not exposed (vector rendered as SVG asset)"
+  },
+  {
+   "id": "V43",
+   "group": "star",
+   "screenFile": "showcase/screens/sample-screen/mobile-pdp-1608-7090.html",
+   "placeholderNode": "1608:7471",
+   "figmaNode": "1608:7471",
+   "page": {
+    "id": "1375:30857",
+    "name": "  › ① Sample Screen"
+   },
+   "screen": {
+    "id": "1608:7090",
+    "name": "Mobile",
+    "w": 360,
+    "h": 4683
+   },
+   "parent": {
+    "id": "1608:7469",
+    "name": "Frame 2121454181",
+    "tag": "frame"
+   },
+   "path": [
+    {
+     "id": "1375:30857",
+     "name": "  › ① Sample Screen"
+    },
+    {
+     "id": "1608:11615",
+     "name": "Sample Screen"
+    },
+    {
+     "id": "1608:7090",
+     "name": "Mobile"
+    },
+    {
+     "id": "1608:7424",
+     "name": "Frame 2121454905"
+    },
+    {
+     "id": "1608:7425",
+     "name": "Frame 2121454899"
+    },
+    {
+     "id": "1608:7429",
+     "name": "Frame 2121454897"
+    },
+    {
+     "id": "1608:7462",
+     "name": "Similar Products- Card"
+    },
+    {
+     "id": "1608:7463",
+     "name": "Frame 2121454768"
+    },
+    {
+     "id": "1608:7464",
+     "name": "Frame 2121454334"
+    },
+    {
+     "id": "1608:7466",
+     "name": "Frame 2121454774"
+    },
+    {
+     "id": "1608:7467",
+     "name": "Review BT"
+    },
+    {
+     "id": "1608:7468",
+     "name": "Frame 2121454772"
+    },
+    {
+     "id": "1608:7469",
+     "name": "Frame 2121454181"
+    },
+    {
+     "id": "1608:7471",
+     "name": "Star"
+    }
+   ],
+   "layerName": "Star",
+   "w": 9.535353660583496,
+   "h": 9.535353660583496,
+   "x": 20,
+   "y": 4.232323169708252,
+   "fill": "not exposed (vector rendered as one SVG asset)",
+   "stroke": "not exposed (inside the SVG asset)",
+   "strokeWidth": "not exposed (inside the SVG)",
+   "opacity": "none (no opacity class)",
+   "rotation": "none (no rotate/-scale/flip class in design context)",
+   "visible": true,
+   "assetId": "c6cc8",
+   "artworkId": "R26",
+   "destination": "showcase/screens/assets/vectors/star-c6cc8-9_54x9_54.svg",
+   "notes": "colour not exposed (vector rendered as SVG asset)"
+  },
+  {
+   "id": "V44",
+   "group": "star",
+   "screenFile": "showcase/screens/sample-screen/mobile-pdp-1608-7090.html",
+   "placeholderNode": "1608:7503",
+   "figmaNode": "1608:7503",
+   "page": {
+    "id": "1375:30857",
+    "name": "  › ① Sample Screen"
+   },
+   "screen": {
+    "id": "1608:7090",
+    "name": "Mobile",
+    "w": 360,
+    "h": 4683
+   },
+   "parent": {
+    "id": "1608:7501",
+    "name": "Frame 2121454181",
+    "tag": "frame"
+   },
+   "path": [
+    {
+     "id": "1375:30857",
+     "name": "  › ① Sample Screen"
+    },
+    {
+     "id": "1608:11615",
+     "name": "Sample Screen"
+    },
+    {
+     "id": "1608:7090",
+     "name": "Mobile"
+    },
+    {
+     "id": "1608:7424",
+     "name": "Frame 2121454905"
+    },
+    {
+     "id": "1608:7425",
+     "name": "Frame 2121454899"
+    },
+    {
+     "id": "1608:7429",
+     "name": "Frame 2121454897"
+    },
+    {
+     "id": "1608:7494",
+     "name": "Similar Products- Card"
+    },
+    {
+     "id": "1608:7495",
+     "name": "Frame 2121454768"
+    },
+    {
+     "id": "1608:7496",
+     "name": "Frame 2121454334"
+    },
+    {
+     "id": "1608:7498",
+     "name": "Frame 2121454774"
+    },
+    {
+     "id": "1608:7499",
+     "name": "Review BT"
+    },
+    {
+     "id": "1608:7500",
+     "name": "Frame 2121454772"
+    },
+    {
+     "id": "1608:7501",
+     "name": "Frame 2121454181"
+    },
+    {
+     "id": "1608:7503",
+     "name": "Star"
+    }
+   ],
+   "layerName": "Star",
+   "w": 9.535353660583496,
+   "h": 9.535353660583496,
+   "x": 20,
+   "y": 4.232323169708252,
+   "fill": "not exposed (vector rendered as one SVG asset)",
+   "stroke": "not exposed (inside the SVG asset)",
+   "strokeWidth": "not exposed (inside the SVG)",
+   "opacity": "none (no opacity class)",
+   "rotation": "none (no rotate/-scale/flip class in design context)",
+   "visible": true,
+   "assetId": "c6cc8",
+   "artworkId": "R26",
+   "destination": "showcase/screens/assets/vectors/star-c6cc8-9_54x9_54.svg",
+   "notes": "colour not exposed (vector rendered as SVG asset)"
+  },
+  {
+   "id": "V45",
+   "group": "star",
+   "screenFile": "showcase/screens/sample-screen/mobile-pdp-1608-7090.html",
+   "placeholderNode": "I1608:7526;1471:37248",
+   "figmaNode": "I1608:7526;1471:37248",
+   "page": {
+    "id": "1375:30857",
+    "name": "  › ① Sample Screen"
+   },
+   "screen": {
+    "id": "1608:7090",
+    "name": "Mobile",
+    "w": 360,
+    "h": 4683
+   },
+   "parent": {
+    "id": "1608:7526",
+    "name": "Similar Products- Card",
+    "note": "instance ancestor (immediate parent inside instance not exposed)"
+   },
+   "path": [
+    {
+     "id": "1375:30857",
+     "name": "  › ① Sample Screen"
+    },
+    {
+     "id": "1608:11615",
+     "name": "Sample Screen"
+    },
+    {
+     "id": "1608:7090",
+     "name": "Mobile"
+    },
+    {
+     "id": "1608:7424",
+     "name": "Frame 2121454905"
+    },
+    {
+     "id": "1608:7425",
+     "name": "Frame 2121454899"
+    },
+    {
+     "id": "1608:7429",
+     "name": "Frame 2121454897"
+    },
+    {
+     "id": "1608:7526",
+     "name": "Similar Products- Card"
+    }
+   ],
+   "layerName": "Star",
+   "w": 9.535353660583496,
+   "h": 9.535353660583496,
+   "x": 20,
+   "y": 4.232323169708252,
+   "fill": "not exposed (vector rendered as one SVG asset)",
+   "stroke": "not exposed (inside the SVG asset)",
+   "strokeWidth": "not exposed (inside the SVG)",
+   "opacity": "none (no opacity class)",
+   "rotation": "none (no rotate/-scale/flip class in design context)",
+   "visible": true,
+   "assetId": "c6cc8",
+   "artworkId": "R26",
+   "destination": "showcase/screens/assets/vectors/star-c6cc8-9_54x9_54.svg",
+   "notes": "nested instance id not in saved metadata; path derived from instance parent 1608:7526 (path ends at that instance); colour not exposed (vector rendered as SVG asset)"
+  },
+  {
+   "id": "V46",
+   "group": "star",
+   "screenFile": "showcase/screens/sample-screen/mobile-pdp-1608-7090.html",
+   "placeholderNode": "I1608:7527;1471:37248",
+   "figmaNode": "I1608:7527;1471:37248",
+   "page": {
+    "id": "1375:30857",
+    "name": "  › ① Sample Screen"
+   },
+   "screen": {
+    "id": "1608:7090",
+    "name": "Mobile",
+    "w": 360,
+    "h": 4683
+   },
+   "parent": {
+    "id": "1608:7527",
+    "name": "Similar Products- Card",
+    "note": "instance ancestor (immediate parent inside instance not exposed)"
+   },
+   "path": [
+    {
+     "id": "1375:30857",
+     "name": "  › ① Sample Screen"
+    },
+    {
+     "id": "1608:11615",
+     "name": "Sample Screen"
+    },
+    {
+     "id": "1608:7090",
+     "name": "Mobile"
+    },
+    {
+     "id": "1608:7424",
+     "name": "Frame 2121454905"
+    },
+    {
+     "id": "1608:7425",
+     "name": "Frame 2121454899"
+    },
+    {
+     "id": "1608:7429",
+     "name": "Frame 2121454897"
+    },
+    {
+     "id": "1608:7527",
+     "name": "Similar Products- Card"
+    }
+   ],
+   "layerName": "Star",
+   "w": 9.535353660583496,
+   "h": 9.535353660583496,
+   "x": 20,
+   "y": 4.232323169708252,
+   "fill": "not exposed (vector rendered as one SVG asset)",
+   "stroke": "not exposed (inside the SVG asset)",
+   "strokeWidth": "not exposed (inside the SVG)",
+   "opacity": "none (no opacity class)",
+   "rotation": "none (no rotate/-scale/flip class in design context)",
+   "visible": true,
+   "assetId": "c6cc8",
+   "artworkId": "R26",
+   "destination": "showcase/screens/assets/vectors/star-c6cc8-9_54x9_54.svg",
+   "notes": "nested instance id not in saved metadata; path derived from instance parent 1608:7527 (path ends at that instance); colour not exposed (vector rendered as SVG asset)"
+  },
+  {
+   "id": "V47",
+   "group": "star",
+   "screenFile": "showcase/screens/sample-screen/mobile-pdp-1608-7090.html",
+   "placeholderNode": "I1608:7528;1471:37248",
+   "figmaNode": "I1608:7528;1471:37248",
+   "page": {
+    "id": "1375:30857",
+    "name": "  › ① Sample Screen"
+   },
+   "screen": {
+    "id": "1608:7090",
+    "name": "Mobile",
+    "w": 360,
+    "h": 4683
+   },
+   "parent": {
+    "id": "1608:7528",
+    "name": "Similar Products- Card",
+    "note": "instance ancestor (immediate parent inside instance not exposed)"
+   },
+   "path": [
+    {
+     "id": "1375:30857",
+     "name": "  › ① Sample Screen"
+    },
+    {
+     "id": "1608:11615",
+     "name": "Sample Screen"
+    },
+    {
+     "id": "1608:7090",
+     "name": "Mobile"
+    },
+    {
+     "id": "1608:7424",
+     "name": "Frame 2121454905"
+    },
+    {
+     "id": "1608:7425",
+     "name": "Frame 2121454899"
+    },
+    {
+     "id": "1608:7429",
+     "name": "Frame 2121454897"
+    },
+    {
+     "id": "1608:7528",
+     "name": "Similar Products- Card"
+    }
+   ],
+   "layerName": "Star",
+   "w": 9.535353660583496,
+   "h": 9.535353660583496,
+   "x": 20,
+   "y": 4.232323169708252,
+   "fill": "not exposed (vector rendered as one SVG asset)",
+   "stroke": "not exposed (inside the SVG asset)",
+   "strokeWidth": "not exposed (inside the SVG)",
+   "opacity": "none (no opacity class)",
+   "rotation": "none (no rotate/-scale/flip class in design context)",
+   "visible": true,
+   "assetId": "c6cc8",
+   "artworkId": "R26",
+   "destination": "showcase/screens/assets/vectors/star-c6cc8-9_54x9_54.svg",
+   "notes": "nested instance id not in saved metadata; path derived from instance parent 1608:7528 (path ends at that instance); colour not exposed (vector rendered as SVG asset)"
+  },
+  {
+   "id": "V48",
+   "group": "star",
+   "screenFile": "showcase/screens/sample-screen/mobile-pdp-1608-7090.html",
+   "placeholderNode": "I1608:7529;1471:37248",
+   "figmaNode": "I1608:7529;1471:37248",
+   "page": {
+    "id": "1375:30857",
+    "name": "  › ① Sample Screen"
+   },
+   "screen": {
+    "id": "1608:7090",
+    "name": "Mobile",
+    "w": 360,
+    "h": 4683
+   },
+   "parent": {
+    "id": "1608:7529",
+    "name": "Similar Products- Card",
+    "note": "instance ancestor (immediate parent inside instance not exposed)"
+   },
+   "path": [
+    {
+     "id": "1375:30857",
+     "name": "  › ① Sample Screen"
+    },
+    {
+     "id": "1608:11615",
+     "name": "Sample Screen"
+    },
+    {
+     "id": "1608:7090",
+     "name": "Mobile"
+    },
+    {
+     "id": "1608:7424",
+     "name": "Frame 2121454905"
+    },
+    {
+     "id": "1608:7425",
+     "name": "Frame 2121454899"
+    },
+    {
+     "id": "1608:7429",
+     "name": "Frame 2121454897"
+    },
+    {
+     "id": "1608:7529",
+     "name": "Similar Products- Card"
+    }
+   ],
+   "layerName": "Star",
+   "w": 9.535353660583496,
+   "h": 9.535353660583496,
+   "x": 20,
+   "y": 4.232323169708252,
+   "fill": "not exposed (vector rendered as one SVG asset)",
+   "stroke": "not exposed (inside the SVG asset)",
+   "strokeWidth": "not exposed (inside the SVG)",
+   "opacity": "none (no opacity class)",
+   "rotation": "none (no rotate/-scale/flip class in design context)",
+   "visible": true,
+   "assetId": "c6cc8",
+   "artworkId": "R26",
+   "destination": "showcase/screens/assets/vectors/star-c6cc8-9_54x9_54.svg",
+   "notes": "nested instance id not in saved metadata; path derived from instance parent 1608:7529 (path ends at that instance); colour not exposed (vector rendered as SVG asset)"
+  },
+  {
+   "id": "V49",
+   "group": "shape",
+   "screenFile": "showcase/screens/sample-screen/mobile-putaway-1627-11756.html",
+   "placeholderNode": "1627:11933",
+   "figmaNode": "1627:11933",
+   "page": {
+    "id": "1375:30857",
+    "name": "  › ① Sample Screen"
+   },
+   "screen": {
+    "id": "1627:11756",
+    "name": "Mobile",
+    "w": 360,
+    "h": 800
+   },
+   "parent": {
+    "id": "1627:11932",
+    "name": "Search bar",
+    "tag": "frame"
+   },
+   "path": [
+    {
+     "id": "1375:30857",
+     "name": "  › ① Sample Screen"
+    },
+    {
+     "id": "1627:11756",
+     "name": "Mobile"
+    },
+    {
+     "id": "1627:11931",
+     "name": "Frame 16671"
+    },
+    {
+     "id": "1627:11932",
+     "name": "Search bar"
+    },
+    {
+     "id": "1627:11933",
+     "name": "Vector"
+    }
+   ],
+   "layerName": "Vector",
+   "w": 15,
+   "h": 1.25,
+   "x": 12,
+   "y": 27.375,
+   "fill": "not exposed (vector rendered as one SVG asset)",
+   "stroke": "not exposed (inside the SVG asset)",
+   "strokeWidth": "not exposed (inside the SVG)",
+   "opacity": "none (no opacity class)",
+   "rotation": "none (no rotate/-scale/flip class in design context)",
+   "visible": true,
+   "assetId": "58769",
+   "artworkId": "R27",
+   "destination": "showcase/screens/assets/vectors/shape-58769-15x1_25.svg",
+   "notes": "colour not exposed (vector rendered as SVG asset)"
+  },
+  {
+   "id": "V50",
+   "group": "shape",
+   "screenFile": "showcase/screens/sample-screen/mobile-putaway-1627-11756.html",
+   "placeholderNode": "1627:11938",
+   "figmaNode": "1627:11938",
+   "page": {
+    "id": "1375:30857",
+    "name": "  › ① Sample Screen"
+   },
+   "screen": {
+    "id": "1627:11756",
+    "name": "Mobile",
+    "w": 360,
+    "h": 800
+   },
+   "parent": {
+    "id": "1627:11937",
+    "name": "Search bar",
+    "tag": "frame"
+   },
+   "path": [
+    {
+     "id": "1375:30857",
+     "name": "  › ① Sample Screen"
+    },
+    {
+     "id": "1627:11756",
+     "name": "Mobile"
+    },
+    {
+     "id": "1627:11931",
+     "name": "Frame 16671"
+    },
+    {
+     "id": "1627:11937",
+     "name": "Search bar"
+    },
+    {
+     "id": "1627:11938",
+     "name": "Vector"
+    }
+   ],
+   "layerName": "Vector",
+   "w": 15,
+   "h": 15,
+   "x": 12,
+   "y": 20.5,
+   "fill": "not exposed (vector rendered as one SVG asset)",
+   "stroke": "not exposed (inside the SVG asset)",
+   "strokeWidth": "not exposed (inside the SVG)",
+   "opacity": "none (no opacity class)",
+   "rotation": "none (no rotate/-scale/flip class in design context)",
+   "visible": true,
+   "assetId": "a6156",
+   "artworkId": "R28",
+   "destination": "showcase/screens/assets/vectors/shape-a6156-15x15.svg",
+   "notes": "colour not exposed (vector rendered as SVG asset)"
+  }
+ ],
+ "inspectionCalls": [
+  {
+   "tool": "get_metadata",
+   "nodeId": "1375:30858",
+   "ok": true,
+   "note": "returned Desktop frame with no children (collapsed); used to try to resolve Desktop ancestor path"
+  },
+  {
+   "tool": "get_metadata",
+   "nodeId": "1375:30923",
+   "ok": true
+  },
+  {
+   "tool": "get_design_context",
+   "nodeId": "1375:30923",
+   "ok": true
+  },
+  {
+   "tool": "get_variable_defs",
+   "nodeId": "1375:30923",
+   "ok": true
+  },
+  {
+   "tool": "get_metadata",
+   "nodeId": "1375:30933",
+   "ok": true
+  },
+  {
+   "tool": "get_design_context",
+   "nodeId": "1375:30933",
+   "ok": true
+  },
+  {
+   "tool": "get_variable_defs",
+   "nodeId": "1375:30933",
+   "ok": true
+  },
+  {
+   "tool": "get_metadata",
+   "nodeId": "1375:30937",
+   "ok": true
+  },
+  {
+   "tool": "get_design_context",
+   "nodeId": "1375:30937",
+   "ok": true
+  },
+  {
+   "tool": "get_variable_defs",
+   "nodeId": "1375:30937",
+   "ok": true
+  },
+  {
+   "tool": "get_metadata",
+   "nodeId": "1375:30944",
+   "ok": true
+  },
+  {
+   "tool": "get_design_context",
+   "nodeId": "1375:30944",
+   "ok": true
+  },
+  {
+   "tool": "get_variable_defs",
+   "nodeId": "1375:30944",
+   "ok": true
+  },
+  {
+   "tool": "get_metadata",
+   "nodeId": "1375:31002",
+   "ok": true
+  },
+  {
+   "tool": "get_design_context",
+   "nodeId": "1375:31002",
+   "ok": true
+  },
+  {
+   "tool": "get_variable_defs",
+   "nodeId": "1375:31002",
+   "ok": true
+  },
+  {
+   "tool": "get_metadata",
+   "nodeId": "1375:31076",
+   "ok": true
+  },
+  {
+   "tool": "get_design_context",
+   "nodeId": "1375:31076",
+   "ok": true
+  },
+  {
+   "tool": "get_variable_defs",
+   "nodeId": "1375:31076",
+   "ok": true
+  },
+  {
+   "tool": "get_metadata",
+   "nodeId": "1375:31127",
+   "ok": true
+  },
+  {
+   "tool": "get_design_context",
+   "nodeId": "1375:31127",
+   "ok": true
+  },
+  {
+   "tool": "get_variable_defs",
+   "nodeId": "1375:31127",
+   "ok": true
+  },
+  {
+   "tool": "get_metadata",
+   "nodeId": "1375:31132",
+   "ok": true
+  },
+  {
+   "tool": "get_design_context",
+   "nodeId": "1375:31132",
+   "ok": true
+  },
+  {
+   "tool": "get_variable_defs",
+   "nodeId": "1375:31132",
+   "ok": true
+  },
+  {
+   "tool": "get_metadata",
+   "nodeId": "1375:31138",
+   "ok": true
+  },
+  {
+   "tool": "get_design_context",
+   "nodeId": "1375:31138",
+   "ok": true
+  },
+  {
+   "tool": "get_variable_defs",
+   "nodeId": "1375:31138",
+   "ok": true
+  },
+  {
+   "tool": "get_metadata",
+   "nodeId": "1375:31143",
+   "ok": true
+  },
+  {
+   "tool": "get_design_context",
+   "nodeId": "1375:31143",
+   "ok": true
+  },
+  {
+   "tool": "get_variable_defs",
+   "nodeId": "1375:31143",
+   "ok": true
+  },
+  {
+   "tool": "get_metadata",
+   "nodeId": "1375:31149",
+   "ok": true
+  },
+  {
+   "tool": "get_design_context",
+   "nodeId": "1375:31149",
+   "ok": true
+  },
+  {
+   "tool": "get_variable_defs",
+   "nodeId": "1375:31149",
+   "ok": true
+  },
+  {
+   "tool": "get_metadata",
+   "nodeId": "1375:31154",
+   "ok": true
+  },
+  {
+   "tool": "get_design_context",
+   "nodeId": "1375:31154",
+   "ok": true
+  },
+  {
+   "tool": "get_variable_defs",
+   "nodeId": "1375:31154",
+   "ok": true
+  },
+  {
+   "tool": "get_metadata",
+   "nodeId": "1375:31393",
+   "ok": true
+  },
+  {
+   "tool": "get_design_context",
+   "nodeId": "1375:31393",
+   "ok": true
+  },
+  {
+   "tool": "get_variable_defs",
+   "nodeId": "1375:31393",
+   "ok": true
+  },
+  {
+   "tool": "get_metadata",
+   "nodeId": "1629:12011",
+   "ok": true
+  },
+  {
+   "tool": "get_design_context",
+   "nodeId": "1629:12011",
+   "ok": true
+  },
+  {
+   "tool": "get_variable_defs",
+   "nodeId": "1629:12011",
+   "ok": true
+  },
+  {
+   "tool": "get_metadata",
+   "nodeId": "1629:12566",
+   "ok": true
+  },
+  {
+   "tool": "get_design_context",
+   "nodeId": "1629:12566",
+   "ok": true
+  },
+  {
+   "tool": "get_variable_defs",
+   "nodeId": "1629:12566",
+   "ok": true
+  },
+  {
+   "tool": "get_metadata",
+   "nodeId": "1629:12126",
+   "ok": true
+  },
+  {
+   "tool": "get_design_context",
+   "nodeId": "1629:12126",
+   "ok": true
+  },
+  {
+   "tool": "get_variable_defs",
+   "nodeId": "1629:12126",
+   "ok": true
+  },
+  {
+   "tool": "get_metadata",
+   "nodeId": "1629:12203",
+   "ok": true
+  },
+  {
+   "tool": "get_design_context",
+   "nodeId": "1629:12203",
+   "ok": true
+  },
+  {
+   "tool": "get_variable_defs",
+   "nodeId": "1629:12203",
+   "ok": true
+  },
+  {
+   "tool": "get_metadata",
+   "nodeId": "1629:12282",
+   "ok": true
+  },
+  {
+   "tool": "get_design_context",
+   "nodeId": "1629:12282",
+   "ok": true
+  },
+  {
+   "tool": "get_variable_defs",
+   "nodeId": "1629:12282",
+   "ok": true
+  },
+  {
+   "tool": "get_metadata",
+   "nodeId": "I1608:7152;1539:30179;1539:28950",
+   "ok": true
+  },
+  {
+   "tool": "get_design_context",
+   "nodeId": "I1608:7152;1539:30179;1539:28950",
+   "ok": true
+  },
+  {
+   "tool": "get_metadata",
+   "nodeId": "I1608:7152;1539:30180;1539:28950",
+   "ok": true
+  },
+  {
+   "tool": "get_design_context",
+   "nodeId": "I1608:7152;1539:30180;1539:28950",
+   "ok": true
+  },
+  {
+   "tool": "get_metadata",
+   "nodeId": "I1608:7152;1539:30181;1539:28950",
+   "ok": true
+  },
+  {
+   "tool": "get_design_context",
+   "nodeId": "I1608:7152;1539:30181;1539:28950",
+   "ok": true
+  },
+  {
+   "tool": "get_metadata",
+   "nodeId": "I1608:7152;1539:30182;1539:28950",
+   "ok": true
+  },
+  {
+   "tool": "get_design_context",
+   "nodeId": "I1608:7152;1539:30182;1539:28950",
+   "ok": true
+  },
+  {
+   "tool": "get_metadata",
+   "nodeId": "I1608:7153;1546:27123;1546:27436;1010:22241",
+   "ok": true
+  },
+  {
+   "tool": "get_design_context",
+   "nodeId": "I1608:7153;1546:27123;1546:27436;1010:22241",
+   "ok": true
+  },
+  {
+   "tool": "get_metadata",
+   "nodeId": "1608:7182",
+   "ok": true
+  },
+  {
+   "tool": "get_design_context",
+   "nodeId": "1608:7182",
+   "ok": true
+  },
+  {
+   "tool": "get_variable_defs",
+   "nodeId": "1608:7182",
+   "ok": true
+  },
+  {
+   "tool": "get_metadata",
+   "nodeId": "1608:7272",
+   "ok": true
+  },
+  {
+   "tool": "get_design_context",
+   "nodeId": "1608:7272",
+   "ok": true
+  },
+  {
+   "tool": "get_variable_defs",
+   "nodeId": "1608:7272",
+   "ok": true
+  },
+  {
+   "tool": "get_metadata",
+   "nodeId": "I1608:7274;1548:33550",
+   "ok": true
+  },
+  {
+   "tool": "get_design_context",
+   "nodeId": "I1608:7274;1548:33550",
+   "ok": true
+  },
+  {
+   "tool": "get_metadata",
+   "nodeId": "I1608:7348;1548:33550",
+   "ok": true
+  },
+  {
+   "tool": "get_design_context",
+   "nodeId": "I1608:7348;1548:33550",
+   "ok": true
+  },
+  {
+   "tool": "get_metadata",
+   "nodeId": "1608:7363",
+   "ok": true
+  },
+  {
+   "tool": "get_design_context",
+   "nodeId": "1608:7363",
+   "ok": true
+  },
+  {
+   "tool": "get_variable_defs",
+   "nodeId": "1608:7363",
+   "ok": true
+  },
+  {
+   "tool": "get_metadata",
+   "nodeId": "1608:7389",
+   "ok": true
+  },
+  {
+   "tool": "get_design_context",
+   "nodeId": "1608:7389",
+   "ok": true
+  },
+  {
+   "tool": "get_variable_defs",
+   "nodeId": "1608:7389",
+   "ok": true
+  },
+  {
+   "tool": "get_metadata",
+   "nodeId": "1608:7390",
+   "ok": true
+  },
+  {
+   "tool": "get_design_context",
+   "nodeId": "1608:7390",
+   "ok": true
+  },
+  {
+   "tool": "get_variable_defs",
+   "nodeId": "1608:7390",
+   "ok": true
+  },
+  {
+   "tool": "get_metadata",
+   "nodeId": "1627:11780",
+   "ok": true
+  },
+  {
+   "tool": "get_design_context",
+   "nodeId": "1627:11780",
+   "ok": true
+  },
+  {
+   "tool": "get_variable_defs",
+   "nodeId": "1627:11780",
+   "ok": true
+  },
+  {
+   "tool": "get_metadata",
+   "nodeId": "1627:11792",
+   "ok": true
+  },
+  {
+   "tool": "get_design_context",
+   "nodeId": "1627:11792",
+   "ok": true
+  },
+  {
+   "tool": "get_variable_defs",
+   "nodeId": "1627:11792",
+   "ok": true
+  },
+  {
+   "tool": "get_metadata",
+   "nodeId": "1627:11876",
+   "ok": true
+  },
+  {
+   "tool": "get_design_context",
+   "nodeId": "1627:11876",
+   "ok": true
+  },
+  {
+   "tool": "get_variable_defs",
+   "nodeId": "1627:11876",
+   "ok": true
+  },
+  {
+   "tool": "get_metadata",
+   "nodeId": "1201:9800",
+   "ok": true
+  },
+  {
+   "tool": "get_design_context",
+   "nodeId": "1201:9800",
+   "ok": true
+  },
+  {
+   "tool": "get_variable_defs",
+   "nodeId": "1201:9800",
+   "ok": true
+  },
+  {
+   "tool": "get_metadata",
+   "nodeId": "I1280:10408;1528:26138;1523:25927",
+   "ok": true
+  },
+  {
+   "tool": "get_design_context",
+   "nodeId": "I1280:10408;1528:26138;1523:25927",
+   "ok": true
+  },
+  {
+   "tool": "get_metadata",
+   "nodeId": "I1280:10446;1546:27123;1546:27436;1010:22241",
+   "ok": true
+  },
+  {
+   "tool": "get_design_context",
+   "nodeId": "I1280:10446;1546:27123;1546:27436;1010:22241",
+   "ok": true
+  },
+  {
+   "tool": "get_metadata",
+   "nodeId": "1280:10629",
+   "ok": true
+  },
+  {
+   "tool": "get_design_context",
+   "nodeId": "1280:10629",
+   "ok": true
+  },
+  {
+   "tool": "get_variable_defs",
+   "nodeId": "1280:10629",
+   "ok": true
+  },
+  {
+   "tool": "get_metadata",
+   "nodeId": "1375:30871",
+   "ok": true
+  },
+  {
+   "tool": "get_design_context",
+   "nodeId": "1375:30871",
+   "ok": true
+  },
+  {
+   "tool": "get_variable_defs",
+   "nodeId": "1375:30871",
+   "ok": true
+  },
+  {
+   "tool": "get_metadata",
+   "nodeId": "1629:12007",
+   "ok": true
+  },
+  {
+   "tool": "get_design_context",
+   "nodeId": "1629:12007",
+   "ok": true
+  },
+  {
+   "tool": "get_variable_defs",
+   "nodeId": "1629:12007",
+   "ok": true
+  },
+  {
+   "tool": "get_metadata",
+   "nodeId": "1608:7360",
+   "ok": true
+  },
+  {
+   "tool": "get_design_context",
+   "nodeId": "1608:7360",
+   "ok": true
+  },
+  {
+   "tool": "get_variable_defs",
+   "nodeId": "1608:7360",
+   "ok": true
+  },
+  {
+   "tool": "get_metadata",
+   "nodeId": "I1608:7387;1321:18884",
+   "ok": true
+  },
+  {
+   "tool": "get_design_context",
+   "nodeId": "I1608:7387;1321:18884",
+   "ok": true
+  },
+  {
+   "tool": "get_metadata",
+   "nodeId": "1608:7439",
+   "ok": true
+  },
+  {
+   "tool": "get_design_context",
+   "nodeId": "1608:7439",
+   "ok": true
+  },
+  {
+   "tool": "get_variable_defs",
+   "nodeId": "1608:7439",
+   "ok": true
+  },
+  {
+   "tool": "get_metadata",
+   "nodeId": "1608:7471",
+   "ok": true
+  },
+  {
+   "tool": "get_design_context",
+   "nodeId": "1608:7471",
+   "ok": true
+  },
+  {
+   "tool": "get_variable_defs",
+   "nodeId": "1608:7471",
+   "ok": true
+  },
+  {
+   "tool": "get_metadata",
+   "nodeId": "1608:7503",
+   "ok": true
+  },
+  {
+   "tool": "get_design_context",
+   "nodeId": "1608:7503",
+   "ok": true
+  },
+  {
+   "tool": "get_variable_defs",
+   "nodeId": "1608:7503",
+   "ok": true
+  },
+  {
+   "tool": "get_metadata",
+   "nodeId": "I1608:7526;1471:37248",
+   "ok": true
+  },
+  {
+   "tool": "get_design_context",
+   "nodeId": "I1608:7526;1471:37248",
+   "ok": true
+  },
+  {
+   "tool": "get_metadata",
+   "nodeId": "I1608:7527;1471:37248",
+   "ok": true
+  },
+  {
+   "tool": "get_design_context",
+   "nodeId": "I1608:7527;1471:37248",
+   "ok": true
+  },
+  {
+   "tool": "get_metadata",
+   "nodeId": "I1608:7528;1471:37248",
+   "ok": true
+  },
+  {
+   "tool": "get_design_context",
+   "nodeId": "I1608:7528;1471:37248",
+   "ok": true
+  },
+  {
+   "tool": "get_metadata",
+   "nodeId": "I1608:7529;1471:37248",
+   "ok": true
+  },
+  {
+   "tool": "get_design_context",
+   "nodeId": "I1608:7529;1471:37248",
+   "ok": true
+  },
+  {
+   "tool": "get_metadata",
+   "nodeId": "1627:11933",
+   "ok": true
+  },
+  {
+   "tool": "get_design_context",
+   "nodeId": "1627:11933",
+   "ok": true
+  },
+  {
+   "tool": "get_variable_defs",
+   "nodeId": "1627:11933",
+   "ok": true
+  },
+  {
+   "tool": "get_metadata",
+   "nodeId": "1627:11938",
+   "ok": true
+  },
+  {
+   "tool": "get_design_context",
+   "nodeId": "1627:11938",
+   "ok": true
+  },
+  {
+   "tool": "get_variable_defs",
+   "nodeId": "1627:11938",
+   "ok": true
+  }
+ ]
+}

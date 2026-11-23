@@ -1,0 +1,71 @@
+/*
+ * Annachy Design System — Effect tokens
+ * Layer: effect · Phase R1 (tokens)
+ * Source of truth: Figma file rM3ixSG6i3DFfKZFWuxzs4 — values copied exactly via
+ * docs/implementation/r1-token-mapping.md and src/tokens/tokens.json. Do not edit values by hand
+ * without updating both documents.
+ * Colours kept in Figma #RRGGBBAA form; fractional Figma values kept unrounded.
+ */
+
+:root {
+
+  /* Documented shadow styles (Shadow page) — not used by components */
+  --annachy-shadow-scale-sm-01: 1.9500000476837158px 1.9500000476837158px 2.5999999046325684px 0px #00000026;
+  --annachy-shadow-scale-sm-02: 0px 1px 4px 0px #00000029;
+  --annachy-shadow-scale-sm-03: 0px 1px 4px 0px #00000029, 0px 0px 0px 3px #333333;
+  --annachy-shadow-scale-sm-04: 0px 1px 3px 0px #00000005, 0px 0px 0px 1px #1b1f2326;
+  --annachy-shadow-scale-sm-05: 0px 2px 5px -1px #32325d40, 0px 1px 3px -1px #0000004d;
+  --annachy-shadow-scale-md-01: 0px 3px 8px 0px #00000040;
+  --annachy-shadow-scale-md-02: 0px 2px 8px 0px #63636333;
+  --annachy-shadow-scale-md-03: 0px 4px 12px 0px #0000001a;
+  --annachy-shadow-scale-lg-01: 0px 8px 24px 0px #959da533;
+  --annachy-shadow-scale-lg-02: 0px 5px 15px 0px #00000059;
+  --annachy-shadow-scale-lg-03: 0px 6px 24px 0px #0000000d, 0px 0px 0px 1px #00000014;
+  --annachy-shadow-scale-xl-01: 0px 7px 29px 0px #64646f33;
+  --annachy-shadow-scale-xl-02: 0px 0px 0px 1px #0000000f, 0px 10px 36px 0px #00000029;
+  --annachy-shadow-scale-xl-03: 0px 13px 27px -5px #32325d40, 0px 8px 16px -8px #0000004d;
+  --annachy-shadow-scale-xxl-01: 0px 48px 100px 0px #110c2e26;
+  --annachy-shadow-scale-xxl-02: 0px 50px 100px -20px #32325d40, 0px 30px 60px -30px #0000004d, inset 0px -2px 6px 0px #0a254059;
+  --annachy-shadow-scale-xxl-03: inset 0px 1px 1px 0px #ffffff1a, 0px 50px 100px -20px #32325d40, 0px 30px 60px -30px #0000004d;
+  --annachy-shadow-effects-sm-peck: 0px 1px 1px 0px #0000000d, 0px 2px 1px 0px #00000003, 0px 3px 1px 0px #00000005;
+  --annachy-shadow-effects-sm-stub: 0px 1px 1px 0px #00000005, 0px 2px 4px 0px #0000000a, 0px 2px 2px 0px #00000003, 0px 2px 2px 0px #00000014, 0px 1px 0px 0px #0000001f;
+  --annachy-shadow-effects-sm-popup: 0px 0px 1px 0px #00000014, 0px 1px 1px 0px #00000014, 0px 3px 2px 0px #0000000a, 0px 5px 2px 0px #00000003;
+  --annachy-shadow-effects-sm-raised: 0px 0px 1px 0px #00000014, 0px -1px 1px 0px #00000014, 0px -2px 1px 0px #0000000a, 0px -4px 1px 0px #00000003, 0px 1px 1px 0px #00000014, 0px 2px 2px 0px #00000014, 0px 6px 3px 0px #0000000a;
+  --annachy-shadow-effects-sm-top-light: 0px 1px 2px 0px #00000014, 0px 3px 3px 0px #00000014, 0px 8px 4px 0px #0000000a, 0px 13px 5px 0px #00000003;
+  --annachy-shadow-effects-sm-bottom-light: 0px -1px 2px 0px #00000014, 0px -3px 3px 0px #00000014, 0px -8px 4px 0px #0000000a, 0px -13px 5px 0px #00000003;
+  --annachy-shadow-effects-sm-left-light: 0px 1px 1px 0px #00000014, 1px 2px 2px 0px #00000014, 2px 6px 4px 0px #0000000a, 4px 8px 4px 0px #00000003, 8px 12px 4px 0px #00000003;
+  --annachy-shadow-effects-sm-right-light: 0px 1px 1px 0px #00000014, -1px 2px 2px 0px #00000014, -2px 6px 4px 0px #0000000a, -4px 8px 4px 0px #00000003, -8px 12px 4px 0px #00000003;
+  --annachy-shadow-effects-md-lozenge: inset 0px 0px 1px 0px #00000029, inset 0px -1px 1px 0px #00000029, inset 0px -4px 8px 0px #00000014, inset 0px -7px 12px 0px #0000000a, inset 0px -16px 8px 0px #00000003, inset 0px -1px 1px 0px #ffffff4d, inset 0.5px 1px 1px 0px #ffffff4d, inset -0.5px 1px 8px 0px #ffffff33;
+  --annachy-shadow-effects-md-stub-inset: inset 0px -1px 0px 0px #00000029, inset 0px -1px 1px 0px #0000003d, inset 0px -8px 12px 0px #0000000a, inset 0px -16px 12px 0px #00000003;
+  --annachy-shadow-effects-lg-bubble: 0px 1px 2px 0px #0000001a, 0px 3px 5px 0px #0000000a, 0px 7px 4px 0px #00000005, 0px 13px 5px 0px #00000005, 0px 20px 6px 0px #00000003, inset 2px 1px 8px 0px #00000014, inset 2px 3px 6px 0px #0000000f, inset 2px 7px 16px 0px #0000000a, inset 2px 13px 5px 0px #00000003, inset 2px 20px 16px 0px #0000000a;
+  --annachy-shadow-effects-lg-hard-inset: inset 0px 1px 4px 0px #0000003d, inset 0px 8px 16px 0px #0000001f, inset 0px 16px 8px 0px #0000000a;
+  --annachy-shadow-effects-lg-hard-lift: 0px 1px 2px 0px #00000029, 0px 3px 3px 0px #00000029, 0px 8px 16px 0px #0000001f, 0px 13px 5px 0px #00000003;
+  --annachy-shadow-effects-lg-soft-inset: inset 0px 1px 2px 0px #0000001f, inset 0px 8px 16px 0px #0000000a, inset 0px 16px 8px 0px #00000003;
+  --annachy-shadow-effects-xxl-dialog: 0px 4px 12px 0px #00000024, 0px 20px 20px 0px #0000001f, 0px 48px 24px 0px #0000000a, 0px 80px 24px 0px #00000008, 0px 40px 80px 0px #00000003;
+  --annachy-shadow-swatch: -1.3851852416992188px 2.7703704833984375px 6.925926208496094px 0px #0000001a, -2.7703704833984375px 12.466667175292969px 13.851852416992188px 0px #00000017, -6.925926208496094px 29.088890075683594px 18.007408142089844px 0px #0000000d, -12.466667175292969px 52.63703918457031px 22.1629638671875px 0px #00000003, -18.007408142089844px 81.7259292602539px 23.54814910888672px 0px #00000000;
+
+  /* Effect styles used by components (undocumented on Shadow page) */
+  --annachy-effect-button-default: 0px 1px 1px 0px #17191c21, -1px 2px 1px 0px #17191c14, -1px 3px 1px 0px #17191c05, -2px 4px 2px 0px #17191c00;
+  --annachy-effect-button-hover: 0px 0px 1px 0px #325cb34f, 0px 0px 2px 0px #325cb345, 0px 0px 3px 0px #325cb329, 0px 0px 3px 0px #325cb30d, 0px 0px 3px 0px #325cb303;
+  --annachy-effect-button-focus: 0px 0px 2px 0px #0141c07d, 0px 1px 3px 0px #0141c06e, -1px 2px 4px 0px #0141c040, -2px 3px 4px 0px #0141c012, -3px 4px 5px 0px #0141c003;
+  --annachy-effect-toggle-on: 0px 0px 1px 0px #00000017, -1px 1px 1px 0px #0000000d, -2px 1px 1px 0px #00000003, -2px 2px 1px 0px #00000000;
+  --annachy-effect-toggle-off: 0px 0px 1px 0px #3c343417, 1px 1px 1px 0px #3c34340d, 2px 2px 1px 0px #3c343403, 3px 2px 1px 0px #3c343400;
+  --annachy-effect-toggle-press: 0px 0px 1px 0px #004feb4a, 0px 1px 2px 0px #004feb42, -1px 2px 2px 0px #004feb26, -2px 4px 2px 0px #004feb0a, -3px 7px 3px 0px #004feb03;
+
+  /* Blur & Glass (Glass: radius only) */
+  --annachy-blur-xs-01: 4px;
+  --annachy-blur-sm-01: 0px;  /* D-11 */
+  --annachy-blur-sm-02: 0px;  /* D-11 */
+  --annachy-blur-md-01: 0px;  /* D-11 */
+  --annachy-blur-md-02: 0px;  /* D-11 */
+  --annachy-glass-xs-01-radius: 5px;
+  --annachy-glass-sm-01-radius: 10px;
+  --annachy-glass-md-01-radius: 20px;
+  --annachy-color-glass-gradient-full: #ffffff;
+  --annachy-color-glass-gradient-xs: #ffffffbf;
+  --annachy-color-glass-gradient-s: #ffffff40;
+  --annachy-color-glass-gradient-m: #ffffff00;
+
+  /* Gradients */
+  --annachy-gradient-brand: linear-gradient(22.572274294652743deg, var(--annachy-color-gradient-color-1) 13.397%, var(--annachy-color-gradient-color-2) 86.603%);
+}

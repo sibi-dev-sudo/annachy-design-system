@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>R1 token check — Annachy Design System</title>
+  <link rel="stylesheet" href="../../src/annachy.css">
+</head>
+<body>
+  <h1>R1 token check</h1>
+  <p>Serve the project root over HTTP (e.g. <code>python -m http.server</code>) and open this page. It compares every token in <code>src/tokens/tokens.json</code> with the browser's computed value and checks that every stylesheet import loaded.</p>
+  <pre id="result" data-status="pending">running…</pre>
+  <script type="module">
+    const out = document.getElementById('result');
+    const norm = (s) => s.replace(/\s+/g, ' ').trim();
+    try {
+      const data = await (await fetch('../../src/tokens/tokens.json')).json();
+      const cs = getComputedStyle(document.documentElement);
+      const byName = Object.fromEntries(data.tokens.map((t) => [t.css, t.value]));
+      // Browsers substitute var() references inside computed custom property values; resolve them the same way.
+      const resolve = (val) => val.replace(/var\((--[\w-]+)\)/g, (_, n) => resolve(byName[n] ?? ''));
+      const missing = [], mismatched = [];
+      for (const t of data.tokens) {
+        const v = cs.getPropertyValue(t.css);
+        const expected = resolve(t.value);
+        if (v === '') missing.push(t.css);
+        else if (norm(v) !== norm(expected)) mismatched.push(`${t.css}: expected "${expected}" got "${norm(v)}"`);
+      }
+      // stylesheet / import / layer checks
+      const entry = [...document.styleSheets].find((s) => s.href && s.href.endsWith('/src/annachy.css'));
+      const imports = entry ? [...entry.cssRules].filter((r) => r instanceof CSSImportRule) : [];
+      const importStatus = imports.map((r) => `${r.href} -> ${r.styleSheet && r.styleSheet.cssRules.length > 0 ? 'loaded' : 'FAILED'} [layer ${r.layerName}]`);
+      const layerRule = entry ? [...entry.cssRules].find((r) => typeof CSSLayerStatementRule !== 'undefined' && r instanceof CSSLayerStatementRule) : null;
+      const tokenImports = imports.filter((r) => r.layerName === 'annachy.tokens');
+      // R6: tokens/themes/dark.css is the one permitted optional token import (re-maps existing names; validated by validate_r1.py)
+      const dark = imports.find((r) => r.href === 'tokens/themes/dark.css');
+      const core = imports.filter((r) => r !== dark);
+      const importsOk = tokenImports.length === (dark ? 7 : 6) && core.slice(0, 6).every((r) => r.layerName === 'annachy.tokens')
+        && (!dark || (dark.layerName === 'annachy.tokens' && imports.indexOf(dark) === 6)) && importStatus.every((s) => s.includes('loaded'));
+      const ok = missing.length === 0 && mismatched.length === 0 && importsOk && !!layerRule;
+      out.dataset.status = ok ? 'pass' : 'fail';
+      out.textContent = [
+        `STATUS: ${ok ? 'PASS' : 'FAIL'}`,
+        `tokens.json count: ${data.tokens.length} (declared count ${data.count})`,
+        `computed present: ${data.tokens.length - missing.length}`,
+        `missing: ${missing.length}`, ...missing.map((m) => '  - ' + m),
+        `mismatched: ${mismatched.length}`, ...mismatched.map((m) => '  - ' + m),
+        `layer statement: ${layerRule ? layerRule.nameList.join(', ') : 'NOT FOUND'}`,
+        `imports (${imports.length}):`, ...importStatus.map((s) => '  ' + s),
+      ].join('\n');
+    } catch (e) {
+      out.dataset.status = 'fail';
+      out.textContent = 'STATUS: FAIL\n' + e;
+    }
+  </script>
+</body>
+</html>

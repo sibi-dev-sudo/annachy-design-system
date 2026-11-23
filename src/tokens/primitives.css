@@ -1,0 +1,153 @@
+/*
+ * Annachy Design System — Primitive tokens
+ * Layer: primitive · Phase R1 (tokens)
+ * Source of truth: Figma file rM3ixSG6i3DFfKZFWuxzs4 — values copied exactly via
+ * docs/implementation/r1-token-mapping.md and src/tokens/tokens.json. Do not edit values by hand
+ * without updating both documents.
+ * No spacing tokens: Figma defines no spacing scale (D-08).
+ */
+
+:root {
+
+  /* Brand base & gradient colours */
+  --annachy-color-base-black: #0b0c0f;
+  --annachy-color-base-blue: #004feb;
+  --annachy-color-base-grey: #1f242e;
+  --annachy-color-base-white: #fafcff;
+  --annachy-color-gradient-color-1: #3a79f7;
+  --annachy-color-gradient-color-2: #1746a2;
+
+  /* Brand tonal scales */
+  --annachy-color-blue-50: #f3f7ff;
+  --annachy-color-blue-100: #e6edfd;
+  --annachy-color-blue-200: #ccdcfb;
+  --annachy-color-blue-300: #99b9f7;
+  --annachy-color-blue-400: #3372ef;
+  --annachy-color-blue-500: #004feb;
+  --annachy-color-blue-600: #003fbc;
+  --annachy-color-blue-700: #002f8d;
+  --annachy-color-blue-800: #00205e;
+  --annachy-color-blue-900: #00102f;
+  --annachy-color-blue-white-50: #fafcff;
+  --annachy-color-blue-white-100: #f5f9ff;
+  --annachy-color-blue-white-200: #f0f5fe;
+  --annachy-color-blue-white-300: #ebf2ff;
+  --annachy-color-blue-white-400: #c6d6f6;
+  --annachy-color-blue-white-500: #b3c7ef;
+  --annachy-color-blue-white-600: #a1b9e8;
+  --annachy-color-blue-white-700: #88a4dd;
+  --annachy-color-blue-white-800: #7393d3;
+  --annachy-color-blue-white-900: #5b7fc8;
+  --annachy-color-blue-black-50: #202d47;
+  --annachy-color-blue-black-100: #1d2432;
+  --annachy-color-blue-black-200: #171e2a;
+  --annachy-color-blue-black-300: #1f242e;
+  --annachy-color-blue-black-400: #181b21;
+  --annachy-color-blue-black-500: #121417;
+  --annachy-color-blue-black-600: #030a14;
+  --annachy-color-blue-black-700: #00050f;
+  --annachy-color-blue-black-800: #060707;
+  --annachy-color-blue-black-900: #000204;
+  --annachy-color-blue-grey-50: #f6f7f9;
+  --annachy-color-blue-grey-100: #edeff2;
+  --annachy-color-blue-grey-200: #dcdfe5;
+  --annachy-color-blue-grey-300: #bfc4cf;
+  --annachy-color-blue-grey-400: #98a0ae;
+  --annachy-color-blue-grey-500: #707a8f;
+  --annachy-color-blue-grey-600: #555d6d;
+  --annachy-color-blue-grey-700: #3d4451;
+  --annachy-color-blue-grey-800: #272b35;
+  --annachy-color-blue-grey-900: #15181e;
+  --annachy-color-success-100: #f4fbef;
+  --annachy-color-success-200: #d6f3c9;
+  --annachy-color-success-300: #93e281;
+  --annachy-color-success-400: #5ecb55;
+  --annachy-color-success-500: #14a047;
+  --annachy-color-success-600: #276732;
+  --annachy-color-success-700: #20572c;
+  --annachy-color-success-800: #184626;
+  --annachy-color-success-900: #11331c;
+  --annachy-color-warning-100: #fff8f1;
+  --annachy-color-warning-200: #ffddb3;
+  --annachy-color-warning-300: #ffbd6b;
+  --annachy-color-warning-400: #f88f33;
+  --annachy-color-warning-500: #f26e2d;
+  --annachy-color-warning-600: #b9512e;
+  --annachy-color-warning-700: #9d4520;
+  --annachy-color-warning-800: #6c2e18;
+  --annachy-color-warning-900: #4c2213;
+  --annachy-color-error-100: #fff7f6;
+  --annachy-color-error-200: #ffe6e2;
+  --annachy-color-error-300: #ffc1b6;
+  --annachy-color-error-400: #ff9c8c;
+  --annachy-color-error-500: #ff614e;
+  --annachy-color-error-600: #e72b23;
+  --annachy-color-error-700: #9d4520;  /* D-02 */
+  --annachy-color-error-800: #7a2515;
+  --annachy-color-error-900: #521e11;
+  --annachy-color-info-100: #f6faff;
+  --annachy-color-info-200: #dbedfd;
+  --annachy-color-info-300: #a6d3f9;
+  --annachy-color-info-400: #71b9f7;
+  --annachy-color-info-500: #186eb5;
+  --annachy-color-info-600: #165d99;
+  --annachy-color-info-700: #154f81;
+  --annachy-color-info-800: #124067;
+  --annachy-color-info-900: #102e48;
+
+  /* Typography primitives */
+  --annachy-font-family-sans: "Proxima Nova";  /* D-06 */
+  --annachy-font-weight-regular: 400;
+  --annachy-font-weight-medium: 500;
+  --annachy-font-weight-semibold: 600;
+  --annachy-font-weight-bold: 700;
+  --annachy-font-weight-light: 300;
+  --annachy-font-letter-spacing: 0;
+
+  /* Component heights (Height/*) */
+  --annachy-size-height-24: 24px;
+  --annachy-size-height-26: 26px;
+  --annachy-size-height-28: 28px;
+  --annachy-size-height-32: 32px;
+  --annachy-size-height-36: 36px;
+  --annachy-size-height-38: 38px;
+  --annachy-size-height-40: 40px;
+  --annachy-size-height-42: 42px;
+  --annachy-size-height-46: 46px;
+  --annachy-size-height-48: 48px;
+  --annachy-size-height-52: 52px;
+  --annachy-size-height-56: 56px;
+
+  /* Radius (Radius/*) */
+  --annachy-radius-4: 4px;
+  --annachy-radius-8: 8px;
+  --annachy-radius-12: 12px;
+  --annachy-radius-14: 14px;
+  --annachy-radius-16: 16px;
+  --annachy-radius-18: 18px;
+  --annachy-radius-24: 24px;
+  --annachy-radius-26: 26px;
+  --annachy-radius-28: 28px;
+  --annachy-radius-32: 32px;
+  --annachy-radius-34: 34px;
+
+  /* Border widths (Border/*) */
+  --annachy-border-width-xs: 0.5px;
+  --annachy-border-width-s: 1px;
+  --annachy-border-width-m: 1.5px;
+
+  /* Grid — reference values only, no breakpoints (D-07) */
+  --annachy-grid-mobile-frame-width: 360px;
+  --annachy-grid-desktop-frame-width: 1440px;
+  --annachy-grid-large-frame-width: 1920px;
+  --annachy-grid-mobile-columns: 4;
+  --annachy-grid-desktop-columns: 12;
+  --annachy-grid-large-columns: 12;
+  --annachy-grid-mobile-margin: 16px;
+  --annachy-grid-desktop-margin: 120px;
+  --annachy-grid-large-margin: 140px;
+  --annachy-grid-mobile-gutter: 16px;
+  --annachy-grid-desktop-gutter: 32px;
+  --annachy-grid-large-gutter: 32px;
+  --annachy-grid-desktop-frame-height: 1024px;
+}

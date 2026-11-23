@@ -1,0 +1,66 @@
+<!--
+  Annachy Design System — Dropdown canonical markup (R4-1). Figma Dropdown / Menu 1451:25521, Dropdown / Item 1451:25092.
+  Implemented: Theme=Light, Footer=None. NOT implemented: Dark (B4-2), Footer (R4-Q3), Select trigger (B4-1).
+  The trigger is consumer-supplied (no Select trigger exists in Figma); an R3 Button is used here.
+  Behaviour: src/components/dropdown/dropdown.js (auto-initialises [data-annachy-dropdown]; also exported as initDropdowns).
+-->
+
+<!-- D-S: Single selection (select-only combobox + listbox). For D-M add aria-multiselectable="true" on the listbox. -->
+<span id="team-label">Team</span>
+<div class="annachy-dropdown" data-annachy-dropdown>
+  <button type="button" class="annachy-button annachy-button--secondary-grey annachy-button--size-40"
+          role="combobox" aria-haspopup="listbox" aria-controls="team-menu" aria-labelledby="team-label team-trigger" id="team-trigger">
+    <span class="annachy-button__label">Product design</span>
+  </button>
+  <div class="annachy-dropdown-menu annachy-dropdown-menu--desktop" id="team-menu" hidden
+       data-status-selected="{count} selected">
+    <ul class="annachy-dropdown-menu__options" role="listbox" aria-labelledby="team-label">
+      <li class="annachy-dropdown-item annachy-dropdown-item--desktop" role="option" id="team-1" aria-selected="true" data-value="design">
+        <span class="annachy-dropdown-item__indicator" aria-hidden="true"><!-- 20×20 icon slot (empty: G8) --></span>
+        <span class="annachy-dropdown-item__label">Product design</span>
+      </li>
+      <li class="annachy-dropdown-item annachy-dropdown-item--desktop" role="option" id="team-2" aria-selected="false" data-value="eng">
+        <span class="annachy-dropdown-item__indicator" aria-hidden="true"></span>
+        <span class="annachy-dropdown-item__label">Engineering</span>
+      </li>
+      <li class="annachy-dropdown-item annachy-dropdown-item--desktop" role="option" id="team-3" aria-selected="false" aria-disabled="true" data-value="fin">
+        <span class="annachy-dropdown-item__indicator" aria-hidden="true"></span>
+        <span class="annachy-dropdown-item__label">Finance (unavailable)</span>
+      </li>
+    </ul>
+    <div class="annachy-dropdown-menu__status" role="status" aria-live="polite"></div>
+  </div>
+</div>
+
+<!-- D-SR: Searchable (trigger opens a non-modal dialog; the search input is the combobox) -->
+<span id="find-label">Search team</span>
+<div class="annachy-dropdown" data-annachy-dropdown>
+  <button type="button" class="annachy-button annachy-button--secondary-grey annachy-button--size-40"
+          aria-haspopup="dialog" aria-controls="find-menu" aria-labelledby="find-label find-trigger" id="find-trigger">
+    <span class="annachy-button__label">Choose</span>
+  </button>
+  <div class="annachy-dropdown-menu annachy-dropdown-menu--desktop" id="find-menu" hidden
+       role="dialog" aria-modal="false" aria-labelledby="find-label" data-status-results="{count} results">
+    <div class="annachy-dropdown-menu__search">
+      <div class="annachy-dropdown-menu__search-field">
+        <span class="annachy-dropdown-menu__search-icon" aria-hidden="true"><!-- 24×24 icon slot --></span>
+        <input class="annachy-dropdown-menu__search-input" type="search" role="combobox" aria-autocomplete="list" aria-expanded="false"
+               aria-controls="find-list" aria-label="Search" placeholder="Search teams" autocomplete="off">
+      </div>
+      <div class="annachy-dropdown-menu__divider"></div>
+    </div>
+    <ul class="annachy-dropdown-menu__options" role="listbox" id="find-list" aria-labelledby="find-label">
+      <li class="annachy-dropdown-item annachy-dropdown-item--desktop" role="option" id="find-1" aria-selected="false" data-value="design">
+        <span class="annachy-dropdown-item__indicator" aria-hidden="true"></span><span class="annachy-dropdown-item__label">Product design</span>
+      </li>
+    </ul>
+    <div class="annachy-dropdown-menu__status" role="status" aria-live="polite"></div>
+  </div>
+</div>
+
+<!-- Mobile visual variant: use --mobile on the menu and every item (no breakpoints, D-07). -->
+
+<script type="module">
+  import { initDropdowns } from '/src/annachy.js';   // auto-initialised; call again for dynamically added dropdowns
+  document.addEventListener('annachy-change', (e) => console.log(e.detail.values));
+</script>

@@ -1,0 +1,99 @@
+/*
+ * Showcase chrome only — NOT part of the Annachy library.
+ * Uses R1 tokens where they exist; layout values here are showcase-only and are not design tokens.
+ */
+body {
+  margin: 0;
+  color: var(--annachy-color-text-primary);
+  background: var(--annachy-color-background-primary);
+}
+code { font-size: 0.85em; }
+.sc-header { padding: 24px 32px; border-bottom: 1px solid var(--annachy-color-border-secondary); }
+.sc-eyebrow { margin: 0; color: var(--annachy-color-text-tertiary); font-size: 13px; }
+.sc-header h1 { margin: 4px 0 12px; }
+.sc-nav { display: flex; flex-wrap: wrap; gap: 16px; }
+.sc-nav a { color: var(--annachy-color-text-brand); }
+.sc-main { padding: 24px 32px 64px; }
+.sc-section { margin-bottom: 40px; }
+.sc-section h2 small { color: var(--annachy-color-text-tertiary); font-weight: 400; }
+.sc-note { color: var(--annachy-color-text-secondary); }
+.sc-alert { padding: 12px 16px; border: 1px solid var(--annachy-color-border-primary); background: var(--annachy-color-background-secondary); }
+.sc-meta { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.sc-css { font-weight: 600; word-break: break-all; }
+.sc-figma, .sc-ev { color: var(--annachy-color-text-secondary); font-size: 13px; }
+.sc-value { color: var(--annachy-color-text-tertiary); word-break: break-all; }
+.sc-flag { display: inline-block; padding: 0 6px; border: 1px solid var(--annachy-color-warning-500); color: var(--annachy-color-warning-700); font-size: 12px; }
+.sc-swatch, .sc-effect, .sc-dim, .sc-row { display: flex; align-items: center; gap: 16px; padding: 8px 0; border-bottom: 1px solid var(--annachy-color-border-secondary); }
+.sc-chip { flex: none; width: 56px; height: 56px; border: 1px solid var(--annachy-color-border-secondary); }
+.sc-shadow-box, .sc-gradient-box { flex: none; width: 96px; height: 64px; margin: 16px; background: var(--annachy-color-base-white); }
+.sc-blur-box, .sc-glass-box { flex: none; position: relative; width: 96px; height: 64px; display: grid; place-items: center; background: var(--annachy-gradient-brand); color: var(--annachy-color-base-white); font-size: 32px; overflow: hidden; }
+.sc-glass-box > span { position: absolute; inset: 12px; background: var(--annachy-color-glass-gradient-s); }
+.sc-type { padding: 12px 0; border-bottom: 1px solid var(--annachy-color-border-secondary); }
+.sc-type-sample { margin: 0; }
+.sc-type-meta { margin: 4px 0 0; color: var(--annachy-color-text-secondary); font-size: 13px; }
+.sc-height-bar { flex: none; width: 24px; background: var(--annachy-color-blue-500); }
+.sc-radius-box { flex: none; width: 72px; height: 72px; background: var(--annachy-color-blue-100); border: 1px solid var(--annachy-color-blue-500); }
+.sc-border-box { flex: none; width: 72px; height: 48px; border-style: solid; border-color: var(--annachy-color-text-primary); }
+.sc-grid-demo { margin: 0 0 24px; }
+.sc-grid-frame {
+  box-sizing: border-box;
+  width: calc(var(--sc-w) * 0.25);
+  padding: 0 calc(var(--sc-m) * 0.25);
+  display: grid;
+  grid-template-columns: repeat(var(--sc-c), 1fr);
+  column-gap: calc(var(--sc-g) * 0.25);
+  height: 80px;
+  outline: 1px solid var(--annachy-color-border-primary);
+}
+.sc-util-demo { flex: none; display: inline-grid; place-items: center; width: 56px; height: 40px; background: var(--annachy-color-base-white); border: 1px solid var(--annachy-color-border-secondary); }
+.sc-grid-col { background: color-mix(in srgb, var(--annachy-color-blue-500) 24%, transparent); }
+
+/* R3 component pages (showcase only — not part of the library) */
+.sc-row--wrap { flex-wrap: wrap; }
+.sc-table-wrap { overflow-x: auto; }
+.sc-variant-table { border-collapse: collapse; }
+.sc-variant-table th, .sc-variant-table td { padding: 8px 12px; border-bottom: 1px solid var(--annachy-color-border-secondary); text-align: left; vertical-align: middle; }
+.sc-variant-table th { color: var(--annachy-color-text-secondary); font-size: 13px; font-weight: 400; }
+/* marks the empty 20 × 20 icon slots (no icon assets ship in R3) */
+.sc-main .annachy-button__icon, .sc-main .annachy-button-gradient__icon { outline: 1px dashed currentColor; outline-offset: -1px; }
+.sc-input-cell { inline-size: 337px; min-inline-size: 337px; }
+.sc-main .annachy-input__icon, .sc-main .annachy-input__subtext-icon { outline: 1px dashed currentColor; outline-offset: -1px; }
+.sc-fieldset { border: 1px solid var(--annachy-color-border-secondary); padding: 12px 16px; display: flex; flex-direction: column; gap: 12px; }
+
+/* R4 Dropdown showcase (showcase only) */
+.sc-dd-row { align-items: flex-start; padding-bottom: 320px; }
+.sc-dd-demo { display: flex; flex-direction: column; gap: 4px; }
+.sc-dd-label { color: var(--annachy-color-text-secondary); font-size: 13px; }
+.sc-dd-figure { margin: 0; display: flex; flex-direction: column; gap: 8px; }
+.sc-dd-figure figcaption { color: var(--annachy-color-text-secondary); font-size: 13px; }
+.sc-dd-menus { align-items: flex-start; gap: 32px; }
+.sc-main .annachy-dropdown-item__indicator, .sc-main .annachy-dropdown-menu__search-icon { outline: 1px dashed currentColor; outline-offset: -1px; }
+
+/* R4 Tooltip showcase (showcase only) */
+.sc-tt-grid { gap: 24px; align-items: flex-start; }
+.sc-tt-cell { margin: 0; display: flex; flex-direction: column; gap: 8px; }
+.sc-tt-cell figcaption { color: var(--annachy-color-text-secondary); font-size: 13px; }
+.sc-tt-pad { padding: 20px; background: var(--annachy-color-background-tertiary); }
+.sc-tt-inter { gap: 48px; padding: 60px 0; }
+.sc-main .annachy-tooltip__arrow { outline: 1px dashed var(--annachy-color-text-tertiary); outline-offset: -1px; }
+
+/* R6 Dropdown Dark + Footer */
+.sc-dd-dark-table td:last-child { background: #0b0c0f; }   /* showcase backdrop only (not a design value) */
+.sc-dd-r6-figure { min-inline-size: 352px; }
+.sc-dd-value { color: var(--annachy-color-text-secondary); font-size: 13px; }
+.sc-code { overflow: auto; padding: 12px; border-radius: 8px; background: var(--annachy-color-background-tertiary); font: 12px/1.5 ui-monospace, monospace; }
+
+/* Catalogue (index): search, filters, cards — built from library components and tokens */
+.sc-catalogue-tools { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 16px; margin-block: 24px; }
+.sc-catalogue-search { inline-size: min(100%, 420px); }
+.sc-filters { display: flex; flex-wrap: wrap; gap: 8px; }
+.sc-filters [aria-pressed="true"] { box-shadow: inset 0 0 0 2px var(--annachy-color-text-brand); }
+.sc-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 16px; margin: 0; padding: 0; list-style: none; }
+.sc-card { display: flex; flex-direction: column; gap: 6px; padding: 16px; border-radius: var(--annachy-radius-12);
+  background: var(--annachy-color-background-secondary); box-shadow: inset 0 0 0 1px var(--annachy-color-border-secondary); }
+.sc-card[hidden], .sc-catalogue[hidden] { display: none; }
+.sc-card a { font-weight: 600; color: var(--annachy-color-text-brand); }
+.sc-card p { margin: 0; color: var(--annachy-color-text-secondary); }
+.sc-card__meta { color: var(--annachy-color-text-tertiary); font-size: 13px; }
+.sc-slot { outline: 1px dashed var(--annachy-color-border-primary); }   /* showcase-only marker for empty icon slots */
+.sc-callout { padding: 16px; border-radius: var(--annachy-radius-12); background: var(--annachy-color-background-secondary); box-shadow: inset 0 0 0 1px var(--annachy-color-border-primary); }

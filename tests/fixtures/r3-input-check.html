@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>R3-3 Input check — Annachy Design System</title>
+  <link rel="stylesheet" href="../../src/annachy.css">
+  <style>#stage { display: grid; grid-template-columns: repeat(4, 337px); gap: 24px; padding: 16px; } pre { white-space: pre-wrap; font: 12px/1.4 monospace; }</style>
+</head>
+<body>
+  <h1>R3-3 Input (Outline &amp; Filled) — Figma parity check</h1>
+  <p>Renders all 325 variants (Outline 6 × 5 × 5, Filled 7 × 5 × 5) inside 337 px frames (Figma documentation width) and compares
+     computed styles and geometry with literal values from <code>docs/figma-audit/r3-0-evidence.md</code> §7–§9, §23. Serve the project root over HTTP.</p>
+  <pre id="result" data-status="running">running…</pre>
+  <div id="stage"></div>
+<script type="module">
+const SPEC = {"outline": {"Default": {"label": "#272b35", "desc": "#3d4451", "fill": null, "border": "#bfc4cf", "text": "#dcdfe5", "sub": "#707a8f", "iconOpacity": 1, "node": "1066:38089"}, "Focused": {"label": "#121417", "desc": "#121417", "fill": null, "border": "#3a6ff7", "text": "#1f242e", "sub": "#15181e", "iconOpacity": 1, "node": "1066:38539"}, "Filled": {"label": "#121417", "desc": "#121417", "fill": null, "border": "#0b0c0f", "text": "#1f242e", "sub": "#15181e", "iconOpacity": 1, "node": "1066:38989"}, "Error": {"label": "#121417", "desc": "#121417", "fill": null, "border": "#e72b23", "text": "#1f242e", "sub": "#e72b23", "iconOpacity": 1, "node": "1066:39889"}, "Disabled": {"label": "#dcdfe5", "desc": "#edeff2", "fill": null, "border": "#dcdfe5", "text": "#dcdfe5", "sub": "#edeff2", "iconOpacity": 1, "node": "1066:39439"}, "Success": {"label": "#121417", "desc": "#121417", "fill": null, "border": "#276732", "text": "#1f242e", "sub": "#276732", "iconOpacity": 1, "node": "1066:40339"}}, "filled": {"Default": {"label": "#272b35", "desc": "#3d4451", "fill": "#f6f7f9", "border": "#edeff2", "text": "#dcdfe5", "sub": "#707a8f", "iconOpacity": 0.3, "node": "1066:40783"}, "Hover": {"label": "#272b35", "desc": "#3d4451", "fill": "#f6f7f9", "border": "#004feb", "text": "#98a0ae", "sub": "#707a8f", "iconOpacity": 0.3, "node": "1066:43333"}, "Focused": {"label": "#121417", "desc": "#121417", "fill": "#f6f7f9", "border": "#003fbc", "text": "#1f242e", "sub": "#15181e", "iconOpacity": 1, "node": "1066:41208"}, "Filled": {"label": "#121417", "desc": "#121417", "fill": "#f6f7f9", "border": "#bfc4cf", "text": "#202d47", "sub": "#15181e", "iconOpacity": 1, "node": "1066:41633"}, "Error": {"label": "#121417", "desc": "#121417", "fill": "#f6f7f9", "border": "#e72b23", "text": "#1f242e", "sub": "#e72b23", "iconOpacity": 1, "node": "1066:42483"}, "Disabled": {"label": "#dcdfe5", "desc": "#edeff2", "fill": null, "border": "#dcdfe5", "text": "#dcdfe5", "sub": "#edeff2", "iconOpacity": 0.3, "node": "1066:42058"}, "Success": {"label": "#121417", "desc": "#121417", "fill": "#f6f7f9", "border": "#276732", "text": "#1f242e", "sub": "#276732", "iconOpacity": 1, "node": "1066:42908"}}};
+const SIZES = [46, 48, 50, 54, 56], RADII = [4, 6, 8, 10, 12];
+const fails = []; let checks = 0, n = 0;
+const eq = (k, v, got, want) => { checks++; if (got !== want) fails.push(`${v} ${k}: got ${JSON.stringify(got)}, want ${JSON.stringify(want)}`); };
+const rgb = h => h === null ? 'rgba(0, 0, 0, 0)' : `rgb(${[1, 3, 5].map(i => parseInt(h.slice(i, i + 2), 16)).join(', ')})`;
+const lum = h => { const c = [1, 3, 5].map(i => parseInt(h.slice(i, i + 2), 16) / 255).map(v => v <= 0.03928 ? v / 12.92 : ((v + 0.055) / 1.055) ** 2.4); return 0.2126 * c[0] + 0.7152 * c[1] + 0.0722 * c[2]; };
+const ratio = (a, b) => { const [x, y] = [lum(a), lum(b)].sort((p, q) => q - p); return (x + 0.05) / (y + 0.05); };
+const stage = document.getElementById('stage');
+function build(set, state, size, radius) {
+  const id = `in-${set}-${state}-${size}-${radius}`;
+  const root = document.createElement('div');
+  root.className = `annachy-input annachy-input--${set} annachy-input--size-${size} annachy-input--radius-${radius}`;
+  if (state === 'Hover') root.classList.add('is-hover');
+  if (state === 'Focused') root.classList.add('is-focus');
+  if (state === 'Success') root.classList.add('annachy-input--success');
+  const left = set === 'outline' ? '<span class="annachy-input__icon" aria-hidden="true"></span>' : '<span class="annachy-input__icon" aria-hidden="true"></span>';
+  const subIcon = '<span class="annachy-input__subtext-icon" aria-hidden="true"></span>';
+  root.innerHTML = `<div class="annachy-input__top"><div class="annachy-input__label-container">
+      <label class="annachy-input__label" for="${id}">Label</label><span class="annachy-input__description" id="${id}-d">Description</span></div>
+    <div class="annachy-input__field">${left}<input class="annachy-input__control" id="${id}" placeholder="Placeholder Active" aria-describedby="${id}-d ${id}-s">
+      <span class="annachy-input__icons"><span class="annachy-input__icon" aria-hidden="true"></span><span class="annachy-input__icon" aria-hidden="true"></span></span></div></div>
+    <div class="annachy-input__subtext-group"><span class="annachy-input__subtext" id="${id}-s">Sub-text</span>${subIcon}</div>`;
+  const input = root.querySelector('input');
+  if (state === 'Filled') input.value = 'Value';
+  if (state === 'Error') input.setAttribute('aria-invalid', 'true');
+  if (state === 'Disabled') input.disabled = true;
+  root.dataset.v = `${set}/${state}/${size}/R${radius}`;
+  const frame = document.createElement('div'); frame.style.width = '337px'; frame.appendChild(root); stage.appendChild(frame);
+  return root;
+}
+const all = [];
+for (const set of ['outline', 'filled']) for (const state of Object.keys(SPEC[set])) for (const size of SIZES) for (const r of RADII) all.push([set, state, size, r, build(set, state, size, r)]);
+await document.fonts.ready;
+const low = new Set();
+for (const [set, state, size, r, root] of all) {
+  n++; const S = SPEC[set][state], v = root.dataset.v;
+  const q = s => root.querySelector(s), cs = el => getComputedStyle(el);
+  const top = q('.annachy-input__top'), field = q('.annachy-input__field'), input = q('input'), label = q('.annachy-input__label'),
+        desc = q('.annachy-input__description'), sub = q('.annachy-input__subtext'), subGroup = q('.annachy-input__subtext-group'),
+        icons = root.querySelectorAll('.annachy-input__icon'), subIcon = q('.annachy-input__subtext-icon');
+  const fr = field.getBoundingClientRect(), rr = root.getBoundingClientRect();
+  // geometry (Figma META: root = Size + 64, Top Section = Size + 42, field = Size; icon x = 14 + 1 stroke)
+  eq('root height', v, rr.height, size + 64);
+  eq('root gap', v, cs(root).rowGap, '2px');
+  eq('top height', v, top.getBoundingClientRect().height, size + 42);
+  eq('top gap', v, cs(top).rowGap, '4px');
+  eq('field height', v, fr.height, size);
+  eq('field width (337 frame)', v, fr.width, 337);
+  eq('field padding-x', v, `${cs(field).paddingLeft}/${cs(field).paddingRight}`, '14px/14px');
+  eq('field gap', v, cs(field).columnGap, '6px');
+  eq('field border', v, `${cs(field).borderTopWidth} ${cs(field).borderTopStyle}`, '1px solid');
+  eq('field radius', v, cs(field).borderTopLeftRadius, `${r}px`);
+  eq('left icon x', v, icons[0].getBoundingClientRect().left - fr.left, 15);
+  eq('right icons end', v, fr.right - icons[2].getBoundingClientRect().right, 15);
+  eq('right icon gap', v, icons[2].getBoundingClientRect().left - icons[1].getBoundingClientRect().right, 8);
+  for (const i of icons) eq('icon 24', v, `${i.getBoundingClientRect().width}x${i.getBoundingClientRect().height}`, '24x24');
+  eq('icon vertically centred', v, Math.round(icons[0].getBoundingClientRect().top - fr.top), (size - 24) / 2);
+  eq('sub-text icon size', v, subIcon.getBoundingClientRect().width, set === 'outline' ? 16 : 14);
+  eq('sub-text group gap', v, cs(subGroup).columnGap, set === 'outline' ? '4px' : '2px');
+  // typography
+  eq('label type', v, `${cs(label).fontSize}/${cs(label).lineHeight}/${cs(label).fontWeight}`, '16px/18px/600');
+  eq('description type', v, `${cs(desc).fontSize}/${cs(desc).lineHeight}/${cs(desc).fontWeight}`, '14px/20px/400');
+  eq('value type', v, `${cs(input).fontSize}/${cs(input).lineHeight}/${cs(input).fontWeight}`, '16px/24px/500');
+  eq('sub-text type', v, `${cs(sub).fontSize}/${cs(sub).lineHeight}/${cs(sub).fontWeight}`, '14px/20px/400');
+  eq('font family', v, /^"?Inter"?,/.test(cs(input).fontFamily) && /^"?Inter"?,/.test(cs(label).fontFamily), true);
+  // colours
+  eq('label colour', v, cs(label).color, rgb(S.label));
+  eq('description colour', v, cs(desc).color, rgb(S.desc));
+  eq('field fill', v, cs(field).backgroundColor, rgb(S.fill));
+  eq('field border colour', v, cs(field).borderTopColor, rgb(S.border));
+  eq('value colour', v, cs(input).color, rgb(S.text));
+  if (state !== 'Filled') eq('placeholder colour', v, getComputedStyle(input, '::placeholder').color, rgb(S.text));
+  eq('sub-text colour', v, cs(sub).color, rgb(S.sub));
+  for (const i of icons) eq('icon opacity', v, Number(cs(i).opacity), S.iconOpacity);
+  if (set === 'filled') eq('filled icon colour (brand)', v, cs(icons[0]).color, rgb('#004feb'));
+  // accessibility
+  eq('label associated', v, input.labels.length === 1 && input.labels[0] === label, true);
+  eq('aria-describedby', v, input.getAttribute('aria-describedby').split(' ').every(id => document.getElementById(id)), true);
+  if (state === 'Error') eq('aria-invalid', v, input.getAttribute('aria-invalid'), 'true');
+  if (state === 'Disabled') eq('disabled', v, input.disabled, true);
+  // contrast of placeholder / value against the field fill (documented A16)
+  if (state !== 'Disabled' && S.fill) { const c = ratio(S.text, S.fill); if (c < 4.5) low.add(`${set}/${state} text ${S.text} on ${S.fill}: ${c.toFixed(2)}:1`); }
+}
+// native states on real elements
+const nat = build('filled', 'Default', 48, 8); nat.dataset.v = 'native';
+const ni = nat.querySelector('input'); ni.focus();
+eq(':focus-visible → Focused border', 'native', getComputedStyle(nat.querySelector('.annachy-input__field')).borderTopColor, rgb('#003fbc'));
+eq(':focus-visible → Focused fill', 'native', getComputedStyle(nat.querySelector('.annachy-input__field')).backgroundColor, rgb('#f6f7f9'));
+ni.value = 'typed'; ni.blur();
+eq('value entered → Filled border', 'native', getComputedStyle(nat.querySelector('.annachy-input__field')).borderTopColor, rgb('#bfc4cf'));
+eq('value entered → Filled text', 'native', getComputedStyle(ni).color, rgb('#202d47'));
+const nat2 = build('outline', 'Default', 48, 8); const ni2 = nat2.querySelector('input'); ni2.focus();
+eq('outline :focus-visible → raw #3a6ff7 border', 'native', getComputedStyle(nat2.querySelector('.annachy-input__field')).borderTopColor, rgb('#3a6ff7'));
+eq('outline focus: control outline none (field border is the indicator)', 'native', getComputedStyle(ni2).outlineStyle, 'none');
+ni2.blur();
+// disabled behaviour (Figma State=Disabled) — native semantics + state precedence
+for (const set of ['outline', 'filled']) {
+  const d = build(set, 'Disabled', 48, 8); d.dataset.v = `${set}-disabled-behaviour`;
+  const di = d.querySelector('input'); di.focus();
+  eq('disabled control cannot take focus', d.dataset.v, document.activeElement === di, false);
+  eq('disabled control matches :disabled', d.dataset.v, di.matches(':disabled'), true);
+  eq('disabled cursor', d.dataset.v, getComputedStyle(di).cursor, 'not-allowed');
+  d.classList.add('is-hover', 'is-focus', 'annachy-input--success'); di.setAttribute('aria-invalid', 'true');
+  const S = SPEC[set].Disabled, f = d.querySelector('.annachy-input__field');
+  eq('Disabled wins over Hover/Focus/Error/Success (border)', d.dataset.v, getComputedStyle(f).borderTopColor, rgb(S.border));
+  eq('Disabled wins (fill)', d.dataset.v, getComputedStyle(f).backgroundColor, rgb(S.fill));
+  eq('Disabled wins (label)', d.dataset.v, getComputedStyle(d.querySelector('.annachy-input__label')).color, rgb(S.label));
+}
+// precedence: Error over Focused, Success over Error, Focused over Filled
+const pe = build('filled', 'Error', 48, 8); pe.classList.add('is-focus'); pe.dataset.v = 'prec-error-focus';
+eq('Error wins over Focused', 'prec', getComputedStyle(pe.querySelector('.annachy-input__field')).borderTopColor, rgb('#e72b23'));
+const ps = build('outline', 'Error', 48, 8); ps.classList.add('annachy-input--success');
+eq('Success wins over Error', 'prec', getComputedStyle(ps.querySelector('.annachy-input__field')).borderTopColor, rgb('#276732'));
+const pf = build('outline', 'Filled', 48, 8); pf.classList.add('is-focus');
+eq('Focused wins over Filled', 'prec', getComputedStyle(pf.querySelector('.annachy-input__field')).borderTopColor, rgb('#3a6ff7'));
+// Radius 6 / 10: Figma variables Radius/6 and Radius/10 have no R1 token — exact literal values
+for (const r of [6, 10]) {
+  const rr = build('filled', 'Default', 48, r);
+  eq(`radius-${r} exact value`, 'radius', getComputedStyle(rr.querySelector('.annachy-input__field')).borderTopLeftRadius, `${r}px`);
+  checks++; if (getComputedStyle(document.documentElement).getPropertyValue(`--annachy-radius-${r}`).trim() !== '') fails.push(`unexpected token --annachy-radius-${r} exists`);
+}
+const expectedLow = ['filled/Default text #dcdfe5 on #f6f7f9: 1.25:1', 'filled/Hover text #98a0ae on #f6f7f9: 2.46:1'];
+checks++; if (JSON.stringify([...low]) !== JSON.stringify(expectedLow)) fails.push(`text contrast < 4.5 set ${JSON.stringify([...low])} != expected ${JSON.stringify(expectedLow)}`);
+const imp = [...[...document.styleSheets].find(s => s.href && s.href.endsWith('/src/annachy.css')).cssRules].filter(r => r.href && r.href.startsWith('components/input/'));
+eq('input.css in annachy.components', 'cascade', imp.map(r => r.layerName).join(), 'annachy.components');
+const out = [`STATUS: ${fails.length || n !== 325 ? 'FAIL' : 'PASS'}`, `variants rendered: ${n} (expected 325 = Outline 150 + Filled 175)`, `checks: ${checks} · failures: ${fails.length}`,
+  `text contrast < 4.5:1 on a defined fill (reproduced): ${[...low].join('; ')}`, ...fails.slice(0, 60)];
+const el = document.getElementById('result'); el.textContent = out.join('\n'); el.dataset.status = out[0].endsWith('PASS') ? 'pass' : 'fail';
+</script>
+</body>
+</html>

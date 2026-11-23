@@ -1,0 +1,38 @@
+/*
+ * Annachy Design System — Reset
+ * Layer: annachy.base · Phase R2
+ * Technical normalisation only — introduces no design values.
+ * Focus: browser default focus indicators are intentionally left untouched (D-21 unresolved;
+ * component-specific Figma focus treatments are implemented per component in R3).
+ */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+img,
+picture,
+svg,
+video,
+canvas {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}

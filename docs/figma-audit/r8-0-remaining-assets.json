@@ -1,0 +1,3213 @@
+{
+ "unidentified": [
+  {
+   "file": "pdp/mobile.html",
+   "figmaNode": "1171:9682",
+   "title": "Phone Camara",
+   "layer": "Phone Camara",
+   "classification": "frame (saved metadata)",
+   "evidence": "saved metadata"
+  },
+  {
+   "file": "pdp/mobile.html",
+   "figmaNode": "1171:9687",
+   "title": "Wifi",
+   "layer": "Wifi",
+   "classification": "status-bar glyph",
+   "evidence": "saved metadata"
+  },
+  {
+   "file": "pdp/mobile.html",
+   "figmaNode": "1171:9692",
+   "title": "Signal",
+   "layer": "Signal",
+   "classification": "status-bar glyph",
+   "evidence": "saved metadata"
+  },
+  {
+   "file": "pdp/mobile.html",
+   "figmaNode": "1171:9695",
+   "title": "Battery",
+   "layer": "Battery",
+   "classification": "status-bar glyph",
+   "evidence": "saved metadata"
+  },
+  {
+   "file": "pdp/mobile.html",
+   "figmaNode": "1201:9800",
+   "title": "Star",
+   "layer": "Star",
+   "classification": "local shape: star",
+   "evidence": "saved metadata"
+  },
+  {
+   "file": "pdp/mobile.html",
+   "figmaNode": "1201:9829",
+   "title": "loyalty 1 [Vectorized]",
+   "layer": "loyalty 1 [Vectorized]",
+   "classification": "frame (saved metadata)",
+   "evidence": "saved metadata"
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "I1280:10408;1528:26138;1523:25927",
+   "title": "Star",
+   "layer": "Star",
+   "classification": "local shape: star",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "1280:10436",
+   "title": "loyalty 1 [Vectorized]",
+   "layer": "loyalty 1 [Vectorized]",
+   "classification": "frame (saved metadata)",
+   "evidence": "saved metadata"
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "I1280:10446;1546:27123;1546:27436;1010:22241",
+   "title": "Line (diagonal strike, rotated 43.45 deg)",
+   "layer": "Line 1",
+   "classification": "local shape: line",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "I1280:10449;1546:27825",
+   "title": "Car (Group 1171275299)",
+   "layer": "Group 1171275299",
+   "classification": "empty icon frame (vector content not in metadata)",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "1280:10453",
+   "title": "Group 1171275304 (inset-positioned, approx. 32.7x24.5)",
+   "layer": "Group 1171275304",
+   "classification": "empty icon frame (vector content not in metadata)",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "1280:10467",
+   "title": "Group 1171275306 (inset-positioned, approx. 31x24.3)",
+   "layer": "Group 1171275306",
+   "classification": "empty icon frame (vector content not in metadata)",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "1280:10486",
+   "title": "Group 1171275306 (inset-positioned, approx. 31x24.3)",
+   "layer": "Group 1171275306",
+   "classification": "empty icon frame (vector content not in metadata)",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "I1280:10517;1548:31174",
+   "title": "Icons / Group 1171275310",
+   "layer": "Icons",
+   "classification": "component instance: Icons",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "I1280:10518;1548:31174",
+   "title": "Icons / Group 1171275308",
+   "layer": "Icons",
+   "classification": "component instance: Icons",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "I1280:10520;1548:31174",
+   "title": "Icons / Group 1171275309",
+   "layer": "Icons",
+   "classification": "component instance: Icons",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "I1280:10521;1548:31174",
+   "title": "Icons / Group 1171275312",
+   "layer": "Icons",
+   "classification": "component instance: Icons",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "I1280:10523;1548:31174",
+   "title": "Icons / Group 1171275311",
+   "layer": "Icons",
+   "classification": "component instance: Icons",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "I1280:10524;1548:31174",
+   "title": "Icons / Group 1171275313",
+   "layer": "Icons",
+   "classification": "component instance: Icons",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "I1280:10527;1548:31174",
+   "title": "Icons / Group 1171275310",
+   "layer": "Icons",
+   "classification": "component instance: Icons",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "I1280:10528;1548:31174",
+   "title": "Icons / Group 1171275308",
+   "layer": "Icons",
+   "classification": "component instance: Icons",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "I1280:10530;1548:31174",
+   "title": "Icons / Group 1171275309",
+   "layer": "Icons",
+   "classification": "component instance: Icons",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "I1280:10531;1548:31174",
+   "title": "Icons / Group 1171275312",
+   "layer": "Icons",
+   "classification": "component instance: Icons",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "I1280:10533;1548:31174",
+   "title": "Icons / Group 1171275311",
+   "layer": "Icons",
+   "classification": "component instance: Icons",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "I1280:10534;1548:31174",
+   "title": "Icons / Group 1171275313",
+   "layer": "Icons",
+   "classification": "component instance: Icons",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "1280:10629",
+   "title": "Star",
+   "layer": "Star",
+   "classification": "local shape: star",
+   "evidence": "saved metadata"
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "1280:10656 star",
+   "title": "Star",
+   "layer": "Frame 2121454563",
+   "classification": "component instance",
+   "evidence": "saved metadata"
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "1280:10674",
+   "title": "Frame 2121454395 (genuine product badge, one vector)",
+   "layer": "Frame 2121454395",
+   "classification": "frame (saved metadata)",
+   "evidence": "saved metadata"
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "1281:7272 star",
+   "title": "Star",
+   "layer": "Similar Products- Card",
+   "classification": "frame with instances",
+   "evidence": "saved metadata"
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "1283:2642 star",
+   "title": "Star",
+   "layer": "Similar Products- Card",
+   "classification": "frame with instances",
+   "evidence": "saved metadata"
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "1281:7311 star",
+   "title": "Star",
+   "layer": "Similar Products- Card",
+   "classification": "frame with instances",
+   "evidence": "saved metadata"
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "1280:10699 star",
+   "title": "Star",
+   "layer": "Similar Products- Card",
+   "classification": "component instance",
+   "evidence": "saved metadata"
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "1280:10700 star",
+   "title": "Star",
+   "layer": "Similar Products- Card",
+   "classification": "component instance",
+   "evidence": "saved metadata"
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "1280:10701 star",
+   "title": "Star",
+   "layer": "Similar Products- Card",
+   "classification": "component instance",
+   "evidence": "saved metadata"
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "1280:10702 star",
+   "title": "Star",
+   "layer": "Similar Products- Card",
+   "classification": "component instance",
+   "evidence": "saved metadata"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "1375:31338",
+   "title": "Frame (location)",
+   "layer": "Frame",
+   "classification": "empty icon frame (vector content not in metadata)",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "1375:31344",
+   "title": "Frame (chevron)",
+   "layer": "Frame",
+   "classification": "empty icon frame (vector content not in metadata)",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "1375:31350",
+   "title": "Frame (profile)",
+   "layer": "Frame",
+   "classification": "empty icon frame (vector content not in metadata)",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "1375:31355",
+   "title": "Frame (chevron)",
+   "layer": "Frame",
+   "classification": "empty icon frame (vector content not in metadata)",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "1375:31358",
+   "title": "Frame (cart)",
+   "layer": "Frame",
+   "classification": "empty icon frame (vector content not in metadata)",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "1375:31369",
+   "title": "Frame (category)",
+   "layer": "Frame",
+   "classification": "empty icon frame (vector content not in metadata)",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "I1375:31375;17:1154",
+   "title": "Frame (chevron)",
+   "layer": "Frame",
+   "classification": "empty icon frame (vector content not in metadata)",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "I1375:31376;17:1154",
+   "title": "Frame (chevron)",
+   "layer": "Frame",
+   "classification": "empty icon frame (vector content not in metadata)",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "I1375:31377;17:1154",
+   "title": "Frame (chevron)",
+   "layer": "Frame",
+   "classification": "empty icon frame (vector content not in metadata)",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "I1375:31378;17:1154",
+   "title": "Frame (chevron)",
+   "layer": "Frame",
+   "classification": "empty icon frame (vector content not in metadata)",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "1375:31381",
+   "title": "Frame (deals)",
+   "layer": "Frame",
+   "classification": "empty icon frame (vector content not in metadata)",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "1375:31388",
+   "title": "Frame (offers)",
+   "layer": "Frame",
+   "classification": "empty icon frame (vector content not in metadata)",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "1375:30871",
+   "title": "View More",
+   "layer": "View More",
+   "classification": "frame with frame×1, vector×1",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "1375:30900",
+   "title": "Frame (share)",
+   "layer": "Frame",
+   "classification": "empty icon frame (vector content not in metadata)",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "1375:30902",
+   "title": "Frame (wishlist)",
+   "layer": "Frame",
+   "classification": "empty icon frame (vector content not in metadata)",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "1375:30912",
+   "title": "Frame (star)",
+   "layer": "Frame",
+   "classification": "empty icon frame (vector content not in metadata)",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "1375:30914",
+   "title": "Frame (star)",
+   "layer": "Frame",
+   "classification": "empty icon frame (vector content not in metadata)",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "1375:30916",
+   "title": "Frame (star)",
+   "layer": "Frame",
+   "classification": "empty icon frame (vector content not in metadata)",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "1375:30918",
+   "title": "Frame (star)",
+   "layer": "Frame",
+   "classification": "empty icon frame (vector content not in metadata)",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "1375:30920",
+   "title": "Frame (info)",
+   "layer": "Frame",
+   "classification": "empty icon frame (vector content not in metadata)",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "1375:30940",
+   "title": "Frame (info)",
+   "layer": "Frame",
+   "classification": "empty icon frame (vector content not in metadata)",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "1375:30952",
+   "title": "Frame (previous)",
+   "layer": "Frame",
+   "classification": "empty icon frame (vector content not in metadata)",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "1375:30955",
+   "title": "Frame (next, mirrored)",
+   "layer": "Frame",
+   "classification": "empty icon frame (vector content not in metadata)",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "1375:31010",
+   "title": "badge-percent",
+   "layer": "badge-percent",
+   "classification": "empty icon frame (vector content not in metadata)",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "1375:31020",
+   "title": "badge-percent",
+   "layer": "badge-percent",
+   "classification": "empty icon frame (vector content not in metadata)",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "1375:31051",
+   "title": "Frame (perk icon)",
+   "layer": "Frame",
+   "classification": "empty icon frame (vector content not in metadata)",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "1375:31059",
+   "title": "Frame (perk icon)",
+   "layer": "Frame",
+   "classification": "empty icon frame (vector content not in metadata)",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "1375:31069",
+   "title": "Frame (perk icon)",
+   "layer": "Frame",
+   "classification": "empty icon frame (vector content not in metadata)",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "1375:31082",
+   "title": "Frame (details)",
+   "layer": "Frame",
+   "classification": "empty icon frame (vector content not in metadata)",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "1375:31088",
+   "title": "Frame (collapse, mirrored)",
+   "layer": "Frame",
+   "classification": "empty icon frame (vector content not in metadata)",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "1375:31116",
+   "title": "Frame (specifications)",
+   "layer": "Frame",
+   "classification": "empty icon frame (vector content not in metadata)",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "1375:31159",
+   "title": "Frame (chevron)",
+   "layer": "Frame",
+   "classification": "empty icon frame (vector content not in metadata)",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "1375:31227",
+   "title": "Frame (arrow, rotated -90°)",
+   "layer": "Frame",
+   "classification": "empty icon frame (vector content not in metadata)",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "1375:31283",
+   "title": "Group 1000001479 (previous arrow)",
+   "layer": "Group 1000001479",
+   "classification": "empty icon frame (vector content not in metadata)",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "1375:31286",
+   "title": "Group 1000001482 (next arrow)",
+   "layer": "Group 1000001482",
+   "classification": "empty icon frame (vector content not in metadata)",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "sample-screen/job-listing-page-1629-11987.html",
+   "figmaNode": "1629:11992",
+   "title": "ArrowLeft",
+   "layer": "ArrowLeft",
+   "classification": "frame (saved metadata)",
+   "evidence": "saved metadata"
+  },
+  {
+   "file": "sample-screen/job-listing-page-1629-11987.html",
+   "figmaNode": "1629:12002",
+   "title": "Frame",
+   "layer": "Frame",
+   "classification": "frame (saved metadata)",
+   "evidence": "saved metadata"
+  },
+  {
+   "file": "sample-screen/job-listing-page-1629-11987.html",
+   "figmaNode": "1629:12007",
+   "title": "Ellipse (status dot)",
+   "layer": "Ellipse 1",
+   "classification": "local shape: ellipse",
+   "evidence": "saved metadata"
+  },
+  {
+   "file": "sample-screen/job-listing-page-1629-11987.html",
+   "figmaNode": "1629:12009",
+   "title": "Frame (chevron)",
+   "layer": "Frame",
+   "classification": "frame (saved metadata)",
+   "evidence": "saved metadata"
+  },
+  {
+   "file": "sample-screen/job-listing-page-1629-11987.html",
+   "figmaNode": "1627:11654",
+   "title": "Cellular Signal",
+   "layer": null,
+   "classification": "unreadable (invalid node selection)",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "sample-screen/job-listing-page-1629-11987.html",
+   "figmaNode": "1627:11690",
+   "title": "Wifi",
+   "layer": null,
+   "classification": "unreadable (invalid node selection)",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "sample-screen/job-listing-page-1629-11987.html",
+   "figmaNode": "1627:11720",
+   "title": "Battery",
+   "layer": null,
+   "classification": "unreadable (invalid node selection)",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "1608:7096",
+   "title": "Phone Camara",
+   "layer": "Phone Camara",
+   "classification": "frame (saved metadata)",
+   "evidence": "saved metadata"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "1608:7101",
+   "title": "Wifi",
+   "layer": "Wifi",
+   "classification": "status-bar glyph",
+   "evidence": "saved metadata"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "1608:7106",
+   "title": "Signal",
+   "layer": "Signal",
+   "classification": "status-bar glyph",
+   "evidence": "saved metadata"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "1608:7109",
+   "title": "Battery",
+   "layer": "Battery",
+   "classification": "status-bar glyph",
+   "evidence": "saved metadata"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "1608:7143",
+   "title": "loyalty 1 [Vectorized]",
+   "layer": "loyalty 1 [Vectorized]",
+   "classification": "frame (saved metadata)",
+   "evidence": "saved metadata"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "1608:7186",
+   "title": "Group (perk icon)",
+   "layer": "Group 1171275304",
+   "classification": "empty icon frame (vector content not in metadata)",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "1608:7200",
+   "title": "Group (perk icon)",
+   "layer": "Group 1171275306",
+   "classification": "empty icon frame (vector content not in metadata)",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "1608:7219",
+   "title": "Group (perk icon)",
+   "layer": "Group 1171275306",
+   "classification": "empty icon frame (vector content not in metadata)",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "I1608:7248;1548:31174",
+   "title": "Icons",
+   "layer": "Icons",
+   "classification": "component instance: Icons",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "I1608:7249;1548:31174",
+   "title": "Icons",
+   "layer": "Icons",
+   "classification": "component instance: Icons",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "I1608:7251;1548:31174",
+   "title": "Icons",
+   "layer": "Icons",
+   "classification": "component instance: Icons",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "I1608:7252;1548:31174",
+   "title": "Icons",
+   "layer": "Icons",
+   "classification": "component instance: Icons",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "I1608:7254;1548:31174",
+   "title": "Icons",
+   "layer": "Icons",
+   "classification": "component instance: Icons",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "I1608:7255;1548:31174",
+   "title": "Icons",
+   "layer": "Icons",
+   "classification": "component instance: Icons",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "I1608:7258;1548:31174",
+   "title": "Icons",
+   "layer": "Icons",
+   "classification": "component instance: Icons",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "I1608:7259;1548:31174",
+   "title": "Icons",
+   "layer": "Icons",
+   "classification": "component instance: Icons",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "I1608:7261;1548:31174",
+   "title": "Icons",
+   "layer": "Icons",
+   "classification": "component instance: Icons",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "I1608:7262;1548:31174",
+   "title": "Icons",
+   "layer": "Icons",
+   "classification": "component instance: Icons",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "I1608:7264;1548:31174",
+   "title": "Icons",
+   "layer": "Icons",
+   "classification": "component instance: Icons",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "I1608:7265;1548:31174",
+   "title": "Icons",
+   "layer": "Icons",
+   "classification": "component instance: Icons",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "1608:7360",
+   "title": "Star",
+   "layer": "Star",
+   "classification": "local shape: star",
+   "evidence": "saved metadata"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "I1608:7387;1321:18884",
+   "title": "Star",
+   "layer": "Star",
+   "classification": "local shape: star",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "1608:7439",
+   "title": "Star",
+   "layer": "Star",
+   "classification": "local shape: star",
+   "evidence": "saved metadata"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "1608:7471",
+   "title": "Star",
+   "layer": "Star",
+   "classification": "local shape: star",
+   "evidence": "saved metadata"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "1608:7503",
+   "title": "Star",
+   "layer": "Star",
+   "classification": "local shape: star",
+   "evidence": "saved metadata"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "I1608:7526;1471:37248",
+   "title": "Star",
+   "layer": "Star",
+   "classification": "local shape: star",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "I1608:7527;1471:37248",
+   "title": "Star",
+   "layer": "Star",
+   "classification": "local shape: star",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "I1608:7528;1471:37248",
+   "title": "Star",
+   "layer": "Star",
+   "classification": "local shape: star",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "I1608:7529;1471:37248",
+   "title": "Star",
+   "layer": "Star",
+   "classification": "local shape: star",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "sample-screen/mobile-putaway-1627-11756.html",
+   "figmaNode": "1627:11761",
+   "title": "ArrowLeft",
+   "layer": "ArrowLeft",
+   "classification": "frame (saved metadata)",
+   "evidence": "saved metadata"
+  },
+  {
+   "file": "sample-screen/mobile-putaway-1627-11756.html",
+   "figmaNode": "1627:11771",
+   "title": "Frame",
+   "layer": "Frame",
+   "classification": "frame (saved metadata)",
+   "evidence": "saved metadata"
+  },
+  {
+   "file": "sample-screen/mobile-putaway-1627-11756.html",
+   "figmaNode": "1627:11933",
+   "title": "Vector (minus)",
+   "layer": "Vector",
+   "classification": "local shape: vector",
+   "evidence": "saved metadata"
+  },
+  {
+   "file": "sample-screen/mobile-putaway-1627-11756.html",
+   "figmaNode": "1627:11938",
+   "title": "Vector (plus)",
+   "layer": "Vector",
+   "classification": "local shape: vector",
+   "evidence": "saved metadata"
+  },
+  {
+   "file": "sample-screen/mobile-putaway-1627-11756.html",
+   "figmaNode": "1627:11654",
+   "title": "Cellular Signal",
+   "layer": null,
+   "classification": "unreadable (invalid node selection)",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "sample-screen/mobile-putaway-1627-11756.html",
+   "figmaNode": "1627:11690",
+   "title": "Wifi",
+   "layer": null,
+   "classification": "unreadable (invalid node selection)",
+   "evidence": "get_metadata"
+  },
+  {
+   "file": "sample-screen/mobile-putaway-1627-11756.html",
+   "figmaNode": "1627:11720",
+   "title": "Battery",
+   "layer": null,
+   "classification": "unreadable (invalid node selection)",
+   "evidence": "get_metadata"
+  }
+ ],
+ "images": [
+  {
+   "file": "pdp/desktop-bg-colours.html",
+   "figmaNode": "605:17525",
+   "title": "Screenshot 2026-09-23 at 4.46.29 PM 1",
+   "kind": "image",
+   "tag": "rounded-rectangle",
+   "layer": "Screenshot 2026-09-23 at 4.46.29 PM 1"
+  },
+  {
+   "file": "pdp/mobile.html",
+   "figmaNode": "1201:9772",
+   "title": "Image",
+   "kind": "image",
+   "tag": "rounded-rectangle",
+   "layer": "Image"
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "1280:10399",
+   "title": "YL (product image instance; inner Image I1280:10399;1486:38899 394x524)",
+   "kind": "image",
+   "tag": "instance",
+   "layer": "YL (product image instance; inner Image I1280:10399;1486:38899 394x524)"
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "I1280:10445;1539:30179;1539:28349",
+   "title": "Component 102 / YL (Yellow)",
+   "kind": "image",
+   "tag": "instance",
+   "layer": "Component 102"
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "I1280:10445;1539:30180;1539:28349",
+   "title": "Component 102 / YL (Green)",
+   "kind": "image",
+   "tag": "instance",
+   "layer": "Component 102"
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "I1280:10445;1539:30181;1539:28349",
+   "title": "Component 102 / YL (Blue)",
+   "kind": "image",
+   "tag": "instance",
+   "layer": "Component 102"
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "I1280:10445;1539:30182;1539:28349",
+   "title": "Component 102 / Component 103 / YL",
+   "kind": "image",
+   "tag": "instance",
+   "layer": "Component 102"
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "1280:10636",
+   "title": "Frame 2121454585 (review photo)",
+   "kind": "image",
+   "tag": "frame",
+   "layer": "Frame 2121454585 (review photo)"
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "1280:10640",
+   "title": "Product Image - 1",
+   "kind": "image",
+   "tag": "rounded-rectangle",
+   "layer": "Product Image - 1"
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "1280:10649",
+   "title": "Product Image -2",
+   "kind": "image",
+   "tag": "rounded-rectangle",
+   "layer": "Product Image -2"
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "1281:7272 image",
+   "title": "Similar Products - Images",
+   "kind": "image",
+   "tag": "frame",
+   "layer": "Similar Products - Images"
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "1283:2642 image",
+   "title": "Similar Products - Images",
+   "kind": "image",
+   "tag": "frame",
+   "layer": "Similar Products - Images"
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "1281:7311 image",
+   "title": "Similar Products - Images",
+   "kind": "image",
+   "tag": "frame",
+   "layer": "Similar Products - Images"
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "1280:10699 image",
+   "title": "Similar Products - Images",
+   "kind": "image",
+   "tag": "instance",
+   "layer": "Similar Products - Images"
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "1280:10700 image",
+   "title": "Similar Products - Images",
+   "kind": "image",
+   "tag": "instance",
+   "layer": "Similar Products - Images"
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "1280:10701 image",
+   "title": "Similar Products - Images",
+   "kind": "image",
+   "tag": "instance",
+   "layer": "Similar Products - Images"
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "1280:10702 image",
+   "title": "Similar Products - Images",
+   "kind": "image",
+   "tag": "instance",
+   "layer": "Similar Products - Images"
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "I1280:10723;1519:25227 (slot fill)",
+   "title": "BL / Orginal Image",
+   "kind": "image",
+   "tag": "slot",
+   "layer": "BL / Orginal Image"
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "I1280:10723;1519:25228 (slot fill)",
+   "title": "unnamed (6) 1",
+   "kind": "image",
+   "tag": "slot",
+   "layer": "unnamed (6) 1"
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "I1280:10723;1519:25229 (slot fill)",
+   "title": "unnamed (3) 1",
+   "kind": "image",
+   "tag": "slot",
+   "layer": "unnamed (3) 1"
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "I1280:10723;1519:25230 (slot fill)",
+   "title": "unnamed (7) 1",
+   "kind": "image",
+   "tag": "slot",
+   "layer": "unnamed (7) 1"
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "I1280:10723;1519:25233 (slot fill)",
+   "title": "unnamed (5) 1",
+   "kind": "image",
+   "tag": "slot",
+   "layer": "unnamed (5) 1"
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "I1280:10723;1519:25231 (slot fill)",
+   "title": "unnamed (4) 1",
+   "kind": "image",
+   "tag": "slot",
+   "layer": "unnamed (4) 1"
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "I1280:10736;1519:25227 (slot fill)",
+   "title": "Product Image",
+   "kind": "image",
+   "tag": "slot",
+   "layer": "Product Image"
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "I1280:10736;1519:25228 (slot fill)",
+   "title": "Gemini_Generated_Image_1xd3lh1xd3lh1xd3 (1) 2",
+   "kind": "image",
+   "tag": "slot",
+   "layer": "Gemini_Generated_Image_1xd3lh1xd3lh1xd3 (1) 2"
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "I1280:10736;1519:25229 (slot fill)",
+   "title": "Gemini_Generated_Image_1xd3lh1xd3lh1xd3 1",
+   "kind": "image",
+   "tag": "slot",
+   "layer": "Gemini_Generated_Image_1xd3lh1xd3lh1xd3 1"
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "I1280:10736;1519:25230 (slot fill)",
+   "title": "Gemini_Generated_Image_1xd3lh1xd3lh1xd3 (4) 1",
+   "kind": "image",
+   "tag": "slot",
+   "layer": "Gemini_Generated_Image_1xd3lh1xd3lh1xd3 (4) 1"
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "I1280:10736;1519:25233 (slot fill)",
+   "title": "Gemini_Generated_Image_4h4hcm4h4hcm4h4h 1",
+   "kind": "image",
+   "tag": "slot",
+   "layer": "Gemini_Generated_Image_4h4hcm4h4hcm4h4h 1"
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "I1280:10736;1519:25231 (slot fill)",
+   "title": "unnamed (2) 1",
+   "kind": "image",
+   "tag": "slot",
+   "layer": "unnamed (2) 1"
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "I1280:10749;1519:25227 (slot fill)",
+   "title": "Image",
+   "kind": "image",
+   "tag": "slot",
+   "layer": "Image"
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "I1280:10749;1519:25228 (slot fill)",
+   "title": "Gemini_Generated_Image_1xd3lh1xd3lh1xd3 (1) 2",
+   "kind": "image",
+   "tag": "slot",
+   "layer": "Gemini_Generated_Image_1xd3lh1xd3lh1xd3 (1) 2"
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "I1280:10749;1519:25229 (slot fill)",
+   "title": "Gemini_Generated_Image_cfwholcfwholcfwh 1",
+   "kind": "image",
+   "tag": "slot",
+   "layer": "Gemini_Generated_Image_cfwholcfwholcfwh 1"
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "I1280:10749;1519:25230 (slot fill)",
+   "title": "Gemini_Generated_Image_nwrqcfnwrqcfnwrq 1",
+   "kind": "image",
+   "tag": "slot",
+   "layer": "Gemini_Generated_Image_nwrqcfnwrqcfnwrq 1"
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "I1280:10749;1519:25233 (slot fill)",
+   "title": "Gemini_Generated_Image_4h4hcm4h4hcm4h4h 1",
+   "kind": "image",
+   "tag": "slot",
+   "layer": "Gemini_Generated_Image_4h4hcm4h4hcm4h4h 1"
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "I1280:10749;1519:25231 (slot fill)",
+   "title": "unnamed (2) 1",
+   "kind": "image",
+   "tag": "slot",
+   "layer": "unnamed (2) 1"
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "I1280:10762;1519:25227 (slot fill)",
+   "title": "Product Image",
+   "kind": "image",
+   "tag": "slot",
+   "layer": "Product Image"
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "I1280:10762;1519:25228 (slot fill)",
+   "title": "Gemini_Generated_Image_1xd3lh1xd3lh1xd3 (1) 2",
+   "kind": "image",
+   "tag": "slot",
+   "layer": "Gemini_Generated_Image_1xd3lh1xd3lh1xd3 (1) 2"
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "I1280:10762;1519:25229 (slot fill)",
+   "title": "Gemini_Generated_Image_1xd3lh1xd3lh1xd3 1",
+   "kind": "image",
+   "tag": "slot",
+   "layer": "Gemini_Generated_Image_1xd3lh1xd3lh1xd3 1"
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "I1280:10762;1519:25230 (slot fill)",
+   "title": "Gemini_Generated_Image_1xd3lh1xd3lh1xd3 (4) 1",
+   "kind": "image",
+   "tag": "slot",
+   "layer": "Gemini_Generated_Image_1xd3lh1xd3lh1xd3 (4) 1"
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "I1280:10762;1519:25233 (slot fill)",
+   "title": "Gemini_Generated_Image_4h4hcm4h4hcm4h4h 1",
+   "kind": "image",
+   "tag": "slot",
+   "layer": "Gemini_Generated_Image_4h4hcm4h4hcm4h4h 1"
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "I1280:10762;1519:25231 (slot fill)",
+   "title": "unnamed (2) 1",
+   "kind": "image",
+   "tag": "slot",
+   "layer": "unnamed (2) 1"
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "1280:10772",
+   "title": "_iPhone mockup status bar",
+   "kind": "image",
+   "tag": "instance",
+   "layer": "_iPhone mockup status bar"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "1375:31293",
+   "title": "Logotype (Group)",
+   "kind": "logo",
+   "tag": "frame",
+   "layer": "Group"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "1375:30863",
+   "title": "010834LBLU_1 1",
+   "kind": "image",
+   "tag": "rounded-rectangle",
+   "layer": "010834LBLU_1 1"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "1375:30865",
+   "title": "010834LBLU_2 1",
+   "kind": "image",
+   "tag": "rounded-rectangle",
+   "layer": "010834LBLU_2 1"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "1375:30868",
+   "title": "010834LBLU_3 1",
+   "kind": "image",
+   "tag": "rounded-rectangle",
+   "layer": "010834LBLU_3 1"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "1375:30870",
+   "title": "010834LBLU_4 1",
+   "kind": "image",
+   "tag": "rounded-rectangle",
+   "layer": "010834LBLU_4 1"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "1375:30923",
+   "title": "Line 23 (stroke colour only in SVG asset)",
+   "kind": "image",
+   "tag": "line",
+   "layer": "Line 23"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "1375:30933",
+   "title": "Line 16 (vertical stroke, colour only in SVG asset)",
+   "kind": "image",
+   "tag": "line",
+   "layer": "Line 16"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "1375:30937",
+   "title": "Line 16 (vertical stroke, colour only in SVG asset)",
+   "kind": "image",
+   "tag": "line",
+   "layer": "Line 16"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "1375:30944",
+   "title": "Line 15 (stroke colour only in SVG asset)",
+   "kind": "image",
+   "tag": "line",
+   "layer": "Line 15"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "1375:30961",
+   "title": "010834LBLA_1 1",
+   "kind": "image",
+   "tag": "rounded-rectangle",
+   "layer": "010834LBLA_1 1"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "1375:30965",
+   "title": "010834LOLI_1 1",
+   "kind": "image",
+   "tag": "rounded-rectangle",
+   "layer": "010834LOLI_1 1"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "1375:30969",
+   "title": "010834LGRE_1 1",
+   "kind": "image",
+   "tag": "rounded-rectangle",
+   "layer": "010834LGRE_1 1"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "1375:30974",
+   "title": "010834LBLUGRE_1 1",
+   "kind": "image",
+   "tag": "rounded-rectangle",
+   "layer": "010834LBLUGRE_1 1"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "1375:30978",
+   "title": "010834LRED2_1 1",
+   "kind": "image",
+   "tag": "rounded-rectangle",
+   "layer": "010834LRED2_1 1"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "1375:31002",
+   "title": "Line 21 (stroke colour only in SVG asset)",
+   "kind": "image",
+   "tag": "line",
+   "layer": "Line 21"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "1375:31076",
+   "title": "Line 24 (stroke colour only in SVG asset)",
+   "kind": "image",
+   "tag": "line",
+   "layer": "Line 24"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "1375:31127",
+   "title": "Line (stroke colour only in SVG asset)",
+   "kind": "image",
+   "tag": "line",
+   "layer": "Line 24"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "1375:31132",
+   "title": "Line (stroke colour only in SVG asset)",
+   "kind": "image",
+   "tag": "line",
+   "layer": "Line 21"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "1375:31138",
+   "title": "Line (stroke colour only in SVG asset)",
+   "kind": "image",
+   "tag": "line",
+   "layer": "Line 19"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "1375:31143",
+   "title": "Line (stroke colour only in SVG asset)",
+   "kind": "image",
+   "tag": "line",
+   "layer": "Line 22"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "1375:31149",
+   "title": "Line (stroke colour only in SVG asset)",
+   "kind": "image",
+   "tag": "line",
+   "layer": "Line 20"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "1375:31154",
+   "title": "Line (stroke colour only in SVG asset)",
+   "kind": "image",
+   "tag": "line",
+   "layer": "Line 23"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "1375:31393",
+   "title": "Line 18 (stroke colour only in SVG asset)",
+   "kind": "image",
+   "tag": "line",
+   "layer": "Line 18"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "1375:31231",
+   "title": "003372XLOFFWHI_1 1",
+   "kind": "image",
+   "tag": "rounded-rectangle",
+   "layer": "003372XLOFFWHI_1 1"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "1375:31233",
+   "title": "Vector 1 (offer ribbon)",
+   "kind": "image",
+   "tag": "vector",
+   "layer": "Vector 1"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "1375:31238",
+   "title": "logo 2",
+   "kind": "logo",
+   "tag": "rounded-rectangle",
+   "layer": "logo 2"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "1375:31240",
+   "title": "01135542DARGRE_1 1",
+   "kind": "image",
+   "tag": "rounded-rectangle",
+   "layer": "01135542DARGRE_1 1"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "1375:31242",
+   "title": "Vector 1 (offer ribbon)",
+   "kind": "image",
+   "tag": "vector",
+   "layer": "Vector 1"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "1375:31247",
+   "title": "logo 2",
+   "kind": "logo",
+   "tag": "rounded-rectangle",
+   "layer": "logo 2"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "1375:31249",
+   "title": "01135542MUS_1 1",
+   "kind": "image",
+   "tag": "rounded-rectangle",
+   "layer": "01135542MUS_1 1"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "1375:31251",
+   "title": "Vector 1 (offer ribbon)",
+   "kind": "image",
+   "tag": "vector",
+   "layer": "Vector 1"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "1375:31256",
+   "title": "logo 2",
+   "kind": "logo",
+   "tag": "rounded-rectangle",
+   "layer": "logo 2"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "1375:31258",
+   "title": "010834LOLI_1 1",
+   "kind": "image",
+   "tag": "rounded-rectangle",
+   "layer": "010834LOLI_1 1"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "1375:31260",
+   "title": "Vector 1 (offer ribbon)",
+   "kind": "image",
+   "tag": "vector",
+   "layer": "Vector 1"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "1375:31265",
+   "title": "logo 2",
+   "kind": "logo",
+   "tag": "rounded-rectangle",
+   "layer": "logo 2"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "1375:31267",
+   "title": "01135542DARGRE_1 1",
+   "kind": "image",
+   "tag": "rounded-rectangle",
+   "layer": "01135542DARGRE_1 1"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "1375:31269",
+   "title": "Vector 1 (offer ribbon)",
+   "kind": "image",
+   "tag": "vector",
+   "layer": "Vector 1"
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "1375:31274",
+   "title": "logo 2",
+   "kind": "logo",
+   "tag": "rounded-rectangle",
+   "layer": "logo 2"
+  },
+  {
+   "file": "sample-screen/job-listing-page-1629-11987.html",
+   "figmaNode": "1629:12011",
+   "title": "Line 1 (stroke colour only in SVG asset)",
+   "kind": "image",
+   "tag": "line",
+   "layer": "Line 1 (stroke colour only in SVG asset)"
+  },
+  {
+   "file": "sample-screen/job-listing-page-1629-11987.html",
+   "figmaNode": "1629:12566",
+   "title": "Line (stroke colour only in SVG asset)",
+   "kind": "image",
+   "tag": "line",
+   "layer": "Line (stroke colour only in SVG asset)"
+  },
+  {
+   "file": "sample-screen/job-listing-page-1629-11987.html",
+   "figmaNode": "1629:12126",
+   "title": "Line (stroke colour only in SVG asset)",
+   "kind": "image",
+   "tag": "line",
+   "layer": "Line (stroke colour only in SVG asset)"
+  },
+  {
+   "file": "sample-screen/job-listing-page-1629-11987.html",
+   "figmaNode": "1629:12203",
+   "title": "Line (stroke colour only in SVG asset)",
+   "kind": "image",
+   "tag": "line",
+   "layer": "Line (stroke colour only in SVG asset)"
+  },
+  {
+   "file": "sample-screen/job-listing-page-1629-11987.html",
+   "figmaNode": "1629:12282",
+   "title": "Line (stroke colour only in SVG asset)",
+   "kind": "image",
+   "tag": "line",
+   "layer": "Line (stroke colour only in SVG asset)"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "1608:7124",
+   "title": "YL (product image I1608:7124;1486:38899)",
+   "kind": "image",
+   "tag": "instance",
+   "layer": "YL (product image I1608:7124;1486:38899)"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "I1608:7152;1539:30179;1539:28349",
+   "title": "Component 102 (colour variant image)",
+   "kind": "image",
+   "tag": "instance",
+   "layer": "Component 102"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "I1608:7152;1539:30179;1539:28950",
+   "title": "Line 122 (stroke colour only in SVG asset)",
+   "kind": "image",
+   "tag": "line",
+   "layer": "Line 122"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "I1608:7152;1539:30180;1539:28349",
+   "title": "Component 102 (colour variant image)",
+   "kind": "image",
+   "tag": "instance",
+   "layer": "Component 102"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "I1608:7152;1539:30180;1539:28950",
+   "title": "Line 122 (stroke colour only in SVG asset)",
+   "kind": "image",
+   "tag": "line",
+   "layer": "Line 122"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "I1608:7152;1539:30181;1539:28349",
+   "title": "Component 102 (colour variant image)",
+   "kind": "image",
+   "tag": "instance",
+   "layer": "Component 102"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "I1608:7152;1539:30181;1539:28950",
+   "title": "Line 122 (stroke colour only in SVG asset)",
+   "kind": "image",
+   "tag": "line",
+   "layer": "Line 122"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "I1608:7152;1539:30182;1539:28349",
+   "title": "Component 102 (colour variant image)",
+   "kind": "image",
+   "tag": "instance",
+   "layer": "Component 102"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "I1608:7152;1539:30182;1539:28950",
+   "title": "Line 122 (stroke colour only in SVG asset)",
+   "kind": "image",
+   "tag": "line",
+   "layer": "Line 122"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "I1608:7153;1546:27123;1546:27436;1010:22241",
+   "title": "Line 1 (diagonal 78.518, rotated 43.45°) (stroke colour only in SVG asset)",
+   "kind": "image",
+   "tag": "line",
+   "layer": "Line 1"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "1608:7160",
+   "title": "Car (Group 1171275299)",
+   "kind": "image",
+   "tag": "frame",
+   "layer": "Group 1171275299"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "1608:7168",
+   "title": "AIR - 1 (decorative streaks)",
+   "kind": "image",
+   "tag": "frame",
+   "layer": "AIR - 1 (decorative streaks)"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "1608:7171",
+   "title": "Air - 2 (decorative streaks)",
+   "kind": "image",
+   "tag": "frame",
+   "layer": "Air - 2 (decorative streaks)"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "1608:7174",
+   "title": "Air 3 (decorative streaks)",
+   "kind": "image",
+   "tag": "frame",
+   "layer": "Air 3 (decorative streaks)"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "1608:7182",
+   "title": "Line 122 (stroke colour only in SVG asset)",
+   "kind": "image",
+   "tag": "line",
+   "layer": "Line 122 (stroke colour only in SVG asset)"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "1608:7272",
+   "title": "Line 137 (stroke colour only in SVG asset)",
+   "kind": "image",
+   "tag": "line",
+   "layer": "Line 137 (stroke colour only in SVG asset)"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "I1608:7274;1548:33550",
+   "title": "Line (stroke colour only in SVG asset)",
+   "kind": "image",
+   "tag": "line",
+   "layer": "Line 137"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "I1608:7348;1548:33550",
+   "title": "Line (stroke colour only in SVG asset)",
+   "kind": "image",
+   "tag": "line",
+   "layer": "Line 137"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "1608:7363",
+   "title": "Line (vertical 18, stroke colour only in SVG asset)",
+   "kind": "image",
+   "tag": "line",
+   "layer": "Line (vertical 18, stroke colour only in SVG asset)"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "1608:7367",
+   "title": "Review photo (Frame 2121454585)",
+   "kind": "image",
+   "tag": "frame",
+   "layer": "Review photo (Frame 2121454585)"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "1608:7370",
+   "title": "Images",
+   "kind": "image",
+   "tag": "frame",
+   "layer": "Images"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "1608:7380",
+   "title": "Product Image -2",
+   "kind": "image",
+   "tag": "rounded-rectangle",
+   "layer": "Product Image -2"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "1608:7389",
+   "title": "Line 137 (stroke colour only in SVG asset)",
+   "kind": "image",
+   "tag": "line",
+   "layer": "Line 137 (stroke colour only in SVG asset)"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "1608:7390",
+   "title": "Line 143 (stroke colour only in SVG asset)",
+   "kind": "image",
+   "tag": "line",
+   "layer": "Line 143 (stroke colour only in SVG asset)"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "1608:7405",
+   "title": "Frame 2121454395 (badge tile)",
+   "kind": "image",
+   "tag": "frame",
+   "layer": "Frame 2121454395 (badge tile)"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "1608:7433",
+   "title": "Similar Products - Images",
+   "kind": "image",
+   "tag": "instance",
+   "layer": "Similar Products - Images"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "1608:7465",
+   "title": "Similar Products - Images",
+   "kind": "image",
+   "tag": "instance",
+   "layer": "Similar Products - Images"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "1608:7497",
+   "title": "Similar Products - Images",
+   "kind": "image",
+   "tag": "instance",
+   "layer": "Similar Products - Images"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "I1608:7526;1471:36949",
+   "title": "Similar Products - Images",
+   "kind": "image",
+   "tag": "instance",
+   "layer": "Similar Products - Images"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "I1608:7527;1471:36949",
+   "title": "Similar Products - Images",
+   "kind": "image",
+   "tag": "instance",
+   "layer": "Similar Products - Images"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "I1608:7528;1471:36949",
+   "title": "Similar Products - Images",
+   "kind": "image",
+   "tag": "instance",
+   "layer": "Similar Products - Images"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "I1608:7529;1471:36949",
+   "title": "Similar Products - Images",
+   "kind": "image",
+   "tag": "instance",
+   "layer": "Similar Products - Images"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "I1608:7550;1519:25227",
+   "title": "Images",
+   "kind": "image",
+   "tag": "slot",
+   "layer": "Images"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "I1608:7550;1519:25228",
+   "title": "Image-2",
+   "kind": "image",
+   "tag": "slot",
+   "layer": "Image-2"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "I1608:7550;1519:25229",
+   "title": "Image-3",
+   "kind": "image",
+   "tag": "slot",
+   "layer": "Image-3"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "I1608:7550;1519:25230",
+   "title": "Image-4",
+   "kind": "image",
+   "tag": "slot",
+   "layer": "Image-4"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "I1608:7550;1519:25233",
+   "title": "Image-5",
+   "kind": "image",
+   "tag": "slot",
+   "layer": "Image-5"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "I1608:7550;1519:25231",
+   "title": "Image-6",
+   "kind": "image",
+   "tag": "slot",
+   "layer": "Image-6"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "I1608:7563;1519:25227",
+   "title": "Images",
+   "kind": "image",
+   "tag": "slot",
+   "layer": "Images"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "I1608:7563;1519:25228",
+   "title": "Image-2",
+   "kind": "image",
+   "tag": "slot",
+   "layer": "Image-2"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "I1608:7563;1519:25229",
+   "title": "Image-3",
+   "kind": "image",
+   "tag": "slot",
+   "layer": "Image-3"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "I1608:7563;1519:25230",
+   "title": "Image-4",
+   "kind": "image",
+   "tag": "slot",
+   "layer": "Image-4"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "I1608:7563;1519:25233",
+   "title": "Image-5",
+   "kind": "image",
+   "tag": "slot",
+   "layer": "Image-5"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "I1608:7563;1519:25231",
+   "title": "Image-6",
+   "kind": "image",
+   "tag": "slot",
+   "layer": "Image-6"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "I1608:7576;1519:25227",
+   "title": "Images",
+   "kind": "image",
+   "tag": "slot",
+   "layer": "Images"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "I1608:7576;1519:25228",
+   "title": "Image-2",
+   "kind": "image",
+   "tag": "slot",
+   "layer": "Image-2"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "I1608:7576;1519:25229",
+   "title": "Image-3",
+   "kind": "image",
+   "tag": "slot",
+   "layer": "Image-3"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "I1608:7576;1519:25230",
+   "title": "Image-4",
+   "kind": "image",
+   "tag": "slot",
+   "layer": "Image-4"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "I1608:7576;1519:25233",
+   "title": "Image-5",
+   "kind": "image",
+   "tag": "slot",
+   "layer": "Image-5"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "I1608:7576;1519:25231",
+   "title": "Image-6",
+   "kind": "image",
+   "tag": "slot",
+   "layer": "Image-6"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "I1608:7589;1519:25227",
+   "title": "Images",
+   "kind": "image",
+   "tag": "slot",
+   "layer": "Images"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "I1608:7589;1519:25228",
+   "title": "Image-2",
+   "kind": "image",
+   "tag": "slot",
+   "layer": "Image-2"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "I1608:7589;1519:25229",
+   "title": "Image-3",
+   "kind": "image",
+   "tag": "slot",
+   "layer": "Image-3"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "I1608:7589;1519:25230",
+   "title": "Image-4",
+   "kind": "image",
+   "tag": "slot",
+   "layer": "Image-4"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "I1608:7589;1519:25233",
+   "title": "Image-5",
+   "kind": "image",
+   "tag": "slot",
+   "layer": "Image-5"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "I1608:7589;1519:25231",
+   "title": "Image-6",
+   "kind": "image",
+   "tag": "slot",
+   "layer": "Image-6"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "1608:7092",
+   "title": "Bottom Edge",
+   "kind": "image",
+   "tag": "rounded-rectangle",
+   "layer": "Bottom Edge"
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "1608:7093",
+   "title": "Home Indicator",
+   "kind": "image",
+   "tag": "rounded-rectangle",
+   "layer": "Home Indicator"
+  },
+  {
+   "file": "sample-screen/mobile-putaway-1627-11756.html",
+   "figmaNode": "1627:11780",
+   "title": "Line 1 (stroke colour only in SVG asset)",
+   "kind": "image",
+   "tag": "line",
+   "layer": "Line 1 (stroke colour only in SVG asset)"
+  },
+  {
+   "file": "sample-screen/mobile-putaway-1627-11756.html",
+   "figmaNode": "1627:11792",
+   "title": "Line 1 (stroke colour only in SVG asset)",
+   "kind": "image",
+   "tag": "line",
+   "layer": "Line 1 (stroke colour only in SVG asset)"
+  },
+  {
+   "file": "sample-screen/mobile-putaway-1627-11756.html",
+   "figmaNode": "1627:11860",
+   "title": "🥽 Goggles (Swimming, Diving, Gear)",
+   "kind": "image",
+   "tag": "frame",
+   "layer": "🥽 Goggles (Swimming, Diving, Gear)"
+  },
+  {
+   "file": "sample-screen/mobile-putaway-1627-11756.html",
+   "figmaNode": "1627:11876",
+   "title": "Line (stroke colour only in SVG asset)",
+   "kind": "image",
+   "tag": "line",
+   "layer": "Line (stroke colour only in SVG asset)"
+  }
+ ],
+ "solar": [
+  {
+   "file": "pdp/mobile.html",
+   "figmaNode": "1201:9776",
+   "iconName": "Alt Arrow Left (Line Duotone, 28)",
+   "name": "Alt Arrow Left",
+   "style": "Line Duotone",
+   "screenSize": "28",
+   "origMatch": "NAME_ONLY",
+   "solarSet": "478:96895",
+   "category": "Arrow",
+   "solarVariant": "478:96898",
+   "variantName": "Style=Line Duotone",
+   "mapping": "SCALED_24_TO_28",
+   "scale": 1.1667
+  },
+  {
+   "file": "pdp/mobile.html",
+   "figmaNode": "1201:9780",
+   "iconName": "Magnifer (Linear, 24)",
+   "name": "Magnifer",
+   "style": "Linear",
+   "screenSize": "24",
+   "origMatch": "EXACT",
+   "solarSet": "478:77176",
+   "category": "Search",
+   "solarVariant": "478:77183",
+   "variantName": "Style=Linear",
+   "mapping": "EXACT",
+   "scale": null
+  },
+  {
+   "file": "pdp/mobile.html",
+   "figmaNode": "1201:9784",
+   "iconName": "Cart Large 2 (Outline, 28)",
+   "name": "Cart Large 2",
+   "style": "Outline",
+   "screenSize": "28",
+   "origMatch": "NAME_ONLY",
+   "solarSet": "478:75010",
+   "category": "Shopping, Ecommerce",
+   "solarVariant": "478:75026",
+   "variantName": "Style=Outline",
+   "mapping": "SCALED_24_TO_28",
+   "scale": 1.1667
+  },
+  {
+   "file": "pdp/mobile.html",
+   "figmaNode": "1201:9789",
+   "iconName": "Heart (Linear, 28)",
+   "name": "Heart",
+   "style": "Linear",
+   "screenSize": "28",
+   "origMatch": "NAME_ONLY",
+   "solarSet": "478:84063",
+   "category": "Like",
+   "solarVariant": "478:84069",
+   "variantName": "Style=Linear",
+   "mapping": "SCALED_24_TO_28",
+   "scale": 1.1667
+  },
+  {
+   "file": "pdp/mobile.html",
+   "figmaNode": "1201:9812",
+   "iconName": "Alt Arrow Left (Line Duotone, 16)",
+   "name": "Alt Arrow Left",
+   "style": "Line Duotone",
+   "screenSize": "16",
+   "origMatch": "NAME_ONLY",
+   "solarSet": "478:96895",
+   "category": "Arrow",
+   "solarVariant": "478:96898",
+   "variantName": "Style=Line Duotone",
+   "mapping": "SCALED_24_TO_16",
+   "scale": 0.6667
+  },
+  {
+   "file": "pdp/mobile.html",
+   "figmaNode": "1201:9835",
+   "iconName": "Alt Arrow Left (Line Duotone, 20)",
+   "name": "Alt Arrow Left",
+   "style": "Line Duotone",
+   "screenSize": "20",
+   "origMatch": "NAME_ONLY",
+   "solarSet": "478:96895",
+   "category": "Arrow",
+   "solarVariant": "478:96898",
+   "variantName": "Style=Line Duotone",
+   "mapping": "SCALED_24_TO_20",
+   "scale": 0.8333
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "1280:10402",
+   "iconName": "Heart (Linear, 28)",
+   "name": "Heart",
+   "style": "Linear",
+   "screenSize": "28",
+   "origMatch": "NAME_ONLY",
+   "solarSet": "478:84063",
+   "category": "Like",
+   "solarVariant": "478:84069",
+   "variantName": "Style=Linear",
+   "mapping": "SCALED_24_TO_28",
+   "scale": 1.1667
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "I1280:10417;1508:24970",
+   "iconName": "Heart (Linear, 28)",
+   "name": "Heart",
+   "style": "Linear",
+   "screenSize": "28",
+   "origMatch": "NAME_ONLY",
+   "solarSet": "478:84063",
+   "category": "Like",
+   "solarVariant": "478:84069",
+   "variantName": "Style=Linear",
+   "mapping": "SCALED_24_TO_28",
+   "scale": 1.1667
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "1280:10422",
+   "iconName": "Alt Arrow Left (Line Duotone, 20)",
+   "name": "Alt Arrow Left",
+   "style": "Line Duotone",
+   "screenSize": "20",
+   "origMatch": "NAME_ONLY",
+   "solarSet": "478:96895",
+   "category": "Arrow",
+   "solarVariant": "478:96898",
+   "variantName": "Style=Line Duotone",
+   "mapping": "SCALED_24_TO_20",
+   "scale": 0.8333
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "1280:10442",
+   "iconName": "Alt Arrow Left (Line Duotone, 20)",
+   "name": "Alt Arrow Left",
+   "style": "Line Duotone",
+   "screenSize": "20",
+   "origMatch": "NAME_ONLY",
+   "solarSet": "478:96895",
+   "category": "Arrow",
+   "solarVariant": "478:96898",
+   "variantName": "Style=Line Duotone",
+   "mapping": "SCALED_24_TO_20",
+   "scale": 0.8333
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "I1280:10446;1546:27139",
+   "iconName": "Alt Arrow Left (Line Duotone, 18)",
+   "name": "Alt Arrow Left",
+   "style": "Line Duotone",
+   "screenSize": "18",
+   "origMatch": "NAME_ONLY",
+   "solarSet": "478:96895",
+   "category": "Arrow",
+   "solarVariant": "478:96898",
+   "variantName": "Style=Line Duotone",
+   "mapping": "SCALED_24_TO_18",
+   "scale": 0.75
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "1280:10463",
+   "iconName": "Alt Arrow Left (Line Duotone, 24)",
+   "name": "Alt Arrow Left",
+   "style": "Line Duotone",
+   "screenSize": "24",
+   "origMatch": "EXACT",
+   "solarSet": "478:96895",
+   "category": "Arrow",
+   "solarVariant": "478:96898",
+   "variantName": "Style=Line Duotone",
+   "mapping": "EXACT",
+   "scale": null
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "1280:10482",
+   "iconName": "Alt Arrow Left (Line Duotone, 24)",
+   "name": "Alt Arrow Left",
+   "style": "Line Duotone",
+   "screenSize": "24",
+   "origMatch": "EXACT",
+   "solarSet": "478:96895",
+   "category": "Arrow",
+   "solarVariant": "478:96898",
+   "variantName": "Style=Line Duotone",
+   "mapping": "EXACT",
+   "scale": null
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "1280:10502",
+   "iconName": "Alt Arrow Left (Line Duotone, 18)",
+   "name": "Alt Arrow Left",
+   "style": "Line Duotone",
+   "screenSize": "18",
+   "origMatch": "NAME_ONLY",
+   "solarSet": "478:96895",
+   "category": "Arrow",
+   "solarVariant": "478:96898",
+   "variantName": "Style=Line Duotone",
+   "mapping": "SCALED_24_TO_18",
+   "scale": 0.75
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "1280:10504",
+   "iconName": "Alt Arrow Left (Line Duotone, 24)",
+   "name": "Alt Arrow Left",
+   "style": "Line Duotone",
+   "screenSize": "24",
+   "origMatch": "EXACT",
+   "solarSet": "478:96895",
+   "category": "Arrow",
+   "solarVariant": "478:96898",
+   "variantName": "Style=Line Duotone",
+   "mapping": "EXACT",
+   "scale": null
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "1280:10543 arrow",
+   "iconName": "Alt Arrow Left (Line Duotone, 24)",
+   "name": "Alt Arrow Left",
+   "style": "Line Duotone",
+   "screenSize": "24",
+   "origMatch": "EXACT",
+   "solarSet": "478:96895",
+   "category": "Arrow",
+   "solarVariant": "478:96898",
+   "variantName": "Style=Line Duotone",
+   "mapping": "EXACT",
+   "scale": null
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "1280:10617 arrow",
+   "iconName": "Alt Arrow Left (Line Duotone, 24)",
+   "name": "Alt Arrow Left",
+   "style": "Line Duotone",
+   "screenSize": "24",
+   "origMatch": "EXACT",
+   "solarSet": "478:96895",
+   "category": "Arrow",
+   "solarVariant": "478:96898",
+   "variantName": "Style=Line Duotone",
+   "mapping": "EXACT",
+   "scale": null
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "1280:10643",
+   "iconName": "Gallery Minimalistic",
+   "name": "Gallery Minimalistic",
+   "style": null,
+   "screenSize": null,
+   "origMatch": "NAME_ONLY",
+   "mapping": "UNRESOLVED",
+   "reason": "no style/size recorded on the screen layer"
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "1280:10652",
+   "iconName": "Play Circle (Outline, 18)",
+   "name": "Play Circle",
+   "style": "Outline",
+   "screenSize": "18",
+   "origMatch": "NAME_ONLY",
+   "solarSet": "478:70334",
+   "category": "Video, Audio, Sound",
+   "solarVariant": "478:70344",
+   "variantName": "Style=Outline",
+   "mapping": "SCALED_24_TO_18",
+   "scale": 0.75
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "1280:10656 like",
+   "iconName": "Like (Outline, 18)",
+   "name": "Like",
+   "style": "Outline",
+   "screenSize": "18",
+   "origMatch": "NAME_ONLY",
+   "solarSet": "478:83918",
+   "category": "Like",
+   "solarVariant": "478:83926",
+   "variantName": "Style=Outline",
+   "mapping": "SCALED_24_TO_18",
+   "scale": 0.75
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "1280:10664",
+   "iconName": "Users Group Two Rounded (Outline, 24)",
+   "name": "Users Group Two Rounded",
+   "style": "Outline",
+   "screenSize": "24",
+   "origMatch": "EXACT",
+   "solarSet": "478:71438",
+   "category": "Users",
+   "solarVariant": "478:71460",
+   "variantName": "Style=Outline",
+   "mapping": "EXACT",
+   "scale": null
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "1280:10669",
+   "iconName": "Shield Check (Linear, 24)",
+   "name": "Shield Check",
+   "style": "Linear",
+   "screenSize": "24",
+   "origMatch": "EXACT",
+   "solarSet": "478:76184",
+   "category": "Security",
+   "solarVariant": "478:76191",
+   "variantName": "Style=Linear",
+   "mapping": "EXACT",
+   "scale": null
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "1280:10681",
+   "iconName": "Shop (Linear, 24)",
+   "name": "Shop",
+   "style": "Linear",
+   "screenSize": "24",
+   "origMatch": "EXACT",
+   "solarSet": "478:74878",
+   "category": "Shopping, Ecommerce",
+   "solarVariant": "478:74888",
+   "variantName": "Style=Linear",
+   "mapping": "EXACT",
+   "scale": null
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "1280:10691",
+   "iconName": "Alt Arrow Left (Line Duotone, 24)",
+   "name": "Alt Arrow Left",
+   "style": "Line Duotone",
+   "screenSize": "24",
+   "origMatch": "EXACT",
+   "solarSet": "478:96895",
+   "category": "Arrow",
+   "solarVariant": "478:96898",
+   "variantName": "Style=Line Duotone",
+   "mapping": "EXACT",
+   "scale": null
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "1281:7272 heart",
+   "iconName": "Heart (Linear, 19.2)",
+   "name": "Heart",
+   "style": "Linear",
+   "screenSize": "19.2",
+   "origMatch": "NAME_ONLY",
+   "solarSet": "478:84063",
+   "category": "Like",
+   "solarVariant": "478:84069",
+   "variantName": "Style=Linear",
+   "mapping": "SCALED_24_TO_19.2",
+   "scale": 0.8
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "1283:2642 heart",
+   "iconName": "Heart (Linear, 19.2)",
+   "name": "Heart",
+   "style": "Linear",
+   "screenSize": "19.2",
+   "origMatch": "NAME_ONLY",
+   "solarSet": "478:84063",
+   "category": "Like",
+   "solarVariant": "478:84069",
+   "variantName": "Style=Linear",
+   "mapping": "SCALED_24_TO_19.2",
+   "scale": 0.8
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "1281:7311 heart",
+   "iconName": "Heart (Linear, 19.2)",
+   "name": "Heart",
+   "style": "Linear",
+   "screenSize": "19.2",
+   "origMatch": "NAME_ONLY",
+   "solarSet": "478:84063",
+   "category": "Like",
+   "solarVariant": "478:84069",
+   "variantName": "Style=Linear",
+   "mapping": "SCALED_24_TO_19.2",
+   "scale": 0.8
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "1280:10699 heart",
+   "iconName": "Heart (Linear, 19.2)",
+   "name": "Heart",
+   "style": "Linear",
+   "screenSize": "19.2",
+   "origMatch": "NAME_ONLY",
+   "solarSet": "478:84063",
+   "category": "Like",
+   "solarVariant": "478:84069",
+   "variantName": "Style=Linear",
+   "mapping": "SCALED_24_TO_19.2",
+   "scale": 0.8
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "1280:10700 heart",
+   "iconName": "Heart (Linear, 19.2)",
+   "name": "Heart",
+   "style": "Linear",
+   "screenSize": "19.2",
+   "origMatch": "NAME_ONLY",
+   "solarSet": "478:84063",
+   "category": "Like",
+   "solarVariant": "478:84069",
+   "variantName": "Style=Linear",
+   "mapping": "SCALED_24_TO_19.2",
+   "scale": 0.8
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "1280:10701 heart",
+   "iconName": "Heart (Linear, 19.2)",
+   "name": "Heart",
+   "style": "Linear",
+   "screenSize": "19.2",
+   "origMatch": "NAME_ONLY",
+   "solarSet": "478:84063",
+   "category": "Like",
+   "solarVariant": "478:84069",
+   "variantName": "Style=Linear",
+   "mapping": "SCALED_24_TO_19.2",
+   "scale": 0.8
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "1280:10702 heart",
+   "iconName": "Heart (Linear, 19.2)",
+   "name": "Heart",
+   "style": "Linear",
+   "screenSize": "19.2",
+   "origMatch": "NAME_ONLY",
+   "solarSet": "478:84063",
+   "category": "Like",
+   "solarVariant": "478:84069",
+   "variantName": "Style=Linear",
+   "mapping": "SCALED_24_TO_19.2",
+   "scale": 0.8
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "1280:10707",
+   "iconName": "Arrow Right (Linear, 24)",
+   "name": "Arrow Right",
+   "style": "Linear",
+   "screenSize": "24",
+   "origMatch": "EXACT",
+   "solarSet": "478:96794",
+   "category": "Arrow",
+   "solarVariant": "478:96800",
+   "variantName": "Style=Linear",
+   "mapping": "EXACT",
+   "scale": null
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "I1280:10723;1519:26498;1519:26469",
+   "iconName": "Heart (Linear, 24)",
+   "name": "Heart",
+   "style": "Linear",
+   "screenSize": "24",
+   "origMatch": "EXACT",
+   "solarSet": "478:84063",
+   "category": "Like",
+   "solarVariant": "478:84069",
+   "variantName": "Style=Linear",
+   "mapping": "EXACT",
+   "scale": null
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "I1280:10736;1519:26498;1519:26469",
+   "iconName": "Heart (Linear, 24)",
+   "name": "Heart",
+   "style": "Linear",
+   "screenSize": "24",
+   "origMatch": "EXACT",
+   "solarSet": "478:84063",
+   "category": "Like",
+   "solarVariant": "478:84069",
+   "variantName": "Style=Linear",
+   "mapping": "EXACT",
+   "scale": null
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "I1280:10749;1519:26498;1519:26469",
+   "iconName": "Heart (Linear, 24)",
+   "name": "Heart",
+   "style": "Linear",
+   "screenSize": "24",
+   "origMatch": "EXACT",
+   "solarSet": "478:84063",
+   "category": "Like",
+   "solarVariant": "478:84069",
+   "variantName": "Style=Linear",
+   "mapping": "EXACT",
+   "scale": null
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "I1280:10762;1519:26498;1519:26469",
+   "iconName": "Heart (Linear, 24)",
+   "name": "Heart",
+   "style": "Linear",
+   "screenSize": "24",
+   "origMatch": "EXACT",
+   "solarSet": "478:84063",
+   "category": "Like",
+   "solarVariant": "478:84069",
+   "variantName": "Style=Linear",
+   "mapping": "EXACT",
+   "scale": null
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "1280:10775",
+   "iconName": "Alt Arrow Left (Line Duotone, 28)",
+   "name": "Alt Arrow Left",
+   "style": "Line Duotone",
+   "screenSize": "28",
+   "origMatch": "NAME_ONLY",
+   "solarSet": "478:96895",
+   "category": "Arrow",
+   "solarVariant": "478:96898",
+   "variantName": "Style=Line Duotone",
+   "mapping": "SCALED_24_TO_28",
+   "scale": 1.1667
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "1280:10779",
+   "iconName": "Magnifer (Linear, 24)",
+   "name": "Magnifer",
+   "style": "Linear",
+   "screenSize": "24",
+   "origMatch": "EXACT",
+   "solarSet": "478:77176",
+   "category": "Search",
+   "solarVariant": "478:77183",
+   "variantName": "Style=Linear",
+   "mapping": "EXACT",
+   "scale": null
+  },
+  {
+   "file": "pdp/pdp-v1.html",
+   "figmaNode": "1280:10783",
+   "iconName": "Cart Large 2 (Outline, 28)",
+   "name": "Cart Large 2",
+   "style": "Outline",
+   "screenSize": "28",
+   "origMatch": "NAME_ONLY",
+   "solarSet": "478:75010",
+   "category": "Shopping, Ecommerce",
+   "solarVariant": "478:75026",
+   "variantName": "Style=Outline",
+   "mapping": "SCALED_24_TO_28",
+   "scale": 1.1667
+  },
+  {
+   "file": "sample-screen/desktop-pdp-1375-30858.html",
+   "figmaNode": "1375:31037",
+   "iconName": "Map Point (Outline, 24)",
+   "name": "Map Point",
+   "style": "Outline",
+   "screenSize": "24",
+   "origMatch": "EXACT",
+   "solarSet": "478:82706",
+   "category": "Map & Location",
+   "solarVariant": "478:82716",
+   "variantName": "Style=Outline",
+   "mapping": "EXACT",
+   "scale": null
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "1608:7114",
+   "iconName": "Alt Arrow Left (Line Duotone, 28)",
+   "name": "Alt Arrow Left",
+   "style": "Line Duotone",
+   "screenSize": "28",
+   "origMatch": "NAME_ONLY",
+   "solarSet": "478:96895",
+   "category": "Arrow",
+   "solarVariant": "478:96898",
+   "variantName": "Style=Line Duotone",
+   "mapping": "SCALED_24_TO_28",
+   "scale": 1.1667
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "1608:7118",
+   "iconName": "Magnifer (Linear, 24)",
+   "name": "Magnifer",
+   "style": "Linear",
+   "screenSize": "24",
+   "origMatch": "EXACT",
+   "solarSet": "478:77176",
+   "category": "Search",
+   "solarVariant": "478:77183",
+   "variantName": "Style=Linear",
+   "mapping": "EXACT",
+   "scale": null
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "1608:7122",
+   "iconName": "Cart Large 2 (Outline, 28)",
+   "name": "Cart Large 2",
+   "style": "Outline",
+   "screenSize": "28",
+   "origMatch": "NAME_ONLY",
+   "solarSet": "478:75010",
+   "category": "Shopping, Ecommerce",
+   "solarVariant": "478:75026",
+   "variantName": "Style=Outline",
+   "mapping": "SCALED_24_TO_28",
+   "scale": 1.1667
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "1608:7129",
+   "iconName": "Alt Arrow Left (Line Duotone, 20)",
+   "name": "Alt Arrow Left",
+   "style": "Line Duotone",
+   "screenSize": "20",
+   "origMatch": "NAME_ONLY",
+   "solarSet": "478:96895",
+   "category": "Arrow",
+   "solarVariant": "478:96898",
+   "variantName": "Style=Line Duotone",
+   "mapping": "SCALED_24_TO_20",
+   "scale": 0.8333
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "1608:7149",
+   "iconName": "Alt Arrow Left (Line Duotone, 20)",
+   "name": "Alt Arrow Left",
+   "style": "Line Duotone",
+   "screenSize": "20",
+   "origMatch": "NAME_ONLY",
+   "solarSet": "478:96895",
+   "category": "Arrow",
+   "solarVariant": "478:96898",
+   "variantName": "Style=Line Duotone",
+   "mapping": "SCALED_24_TO_20",
+   "scale": 0.8333
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "I1608:7153;1546:27139",
+   "iconName": "Alt Arrow Left (Line Duotone, 18)",
+   "name": "Alt Arrow Left",
+   "style": "Line Duotone",
+   "screenSize": "18",
+   "origMatch": "NAME_ONLY",
+   "solarSet": "478:96895",
+   "category": "Arrow",
+   "solarVariant": "478:96898",
+   "variantName": "Style=Line Duotone",
+   "mapping": "SCALED_24_TO_18",
+   "scale": 0.75
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "1608:7196",
+   "iconName": "Alt Arrow Left (Line Duotone, 24)",
+   "name": "Alt Arrow Left",
+   "style": "Line Duotone",
+   "screenSize": "24",
+   "origMatch": "EXACT",
+   "solarSet": "478:96895",
+   "category": "Arrow",
+   "solarVariant": "478:96898",
+   "variantName": "Style=Line Duotone",
+   "mapping": "EXACT",
+   "scale": null
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "1608:7215",
+   "iconName": "Alt Arrow Left (Line Duotone, 24)",
+   "name": "Alt Arrow Left",
+   "style": "Line Duotone",
+   "screenSize": "24",
+   "origMatch": "EXACT",
+   "solarSet": "478:96895",
+   "category": "Arrow",
+   "solarVariant": "478:96898",
+   "variantName": "Style=Line Duotone",
+   "mapping": "EXACT",
+   "scale": null
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "1608:7235",
+   "iconName": "Alt Arrow Left (Line Duotone, 18)",
+   "name": "Alt Arrow Left",
+   "style": "Line Duotone",
+   "screenSize": "18",
+   "origMatch": "NAME_ONLY",
+   "solarSet": "478:96895",
+   "category": "Arrow",
+   "solarVariant": "478:96898",
+   "variantName": "Style=Line Duotone",
+   "mapping": "SCALED_24_TO_18",
+   "scale": 0.75
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "1608:7237",
+   "iconName": "Alt Arrow Left (Line Duotone, 24)",
+   "name": "Alt Arrow Left",
+   "style": "Line Duotone",
+   "screenSize": "24",
+   "origMatch": "EXACT",
+   "solarSet": "478:96895",
+   "category": "Arrow",
+   "solarVariant": "478:96898",
+   "variantName": "Style=Line Duotone",
+   "mapping": "EXACT",
+   "scale": null
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "I1608:7274;1548:33548",
+   "iconName": "Alt Arrow Left (Line Duotone, 24)",
+   "name": "Alt Arrow Left",
+   "style": "Line Duotone",
+   "screenSize": "24",
+   "origMatch": "EXACT",
+   "solarSet": "478:96895",
+   "category": "Arrow",
+   "solarVariant": "478:96898",
+   "variantName": "Style=Line Duotone",
+   "mapping": "EXACT",
+   "scale": null
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "I1608:7348;1548:33548",
+   "iconName": "Alt Arrow Left (Line Duotone, 24)",
+   "name": "Alt Arrow Left",
+   "style": "Line Duotone",
+   "screenSize": "24",
+   "origMatch": "EXACT",
+   "solarSet": "478:96895",
+   "category": "Arrow",
+   "solarVariant": "478:96898",
+   "variantName": "Style=Line Duotone",
+   "mapping": "EXACT",
+   "scale": null
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "1608:7383",
+   "iconName": "Play Circle (Outline, 18)",
+   "name": "Play Circle",
+   "style": "Outline",
+   "screenSize": "18",
+   "origMatch": "NAME_ONLY",
+   "solarSet": "478:70334",
+   "category": "Video, Audio, Sound",
+   "solarVariant": "478:70344",
+   "variantName": "Style=Outline",
+   "mapping": "SCALED_24_TO_18",
+   "scale": 0.75
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "I1608:7387;1363:26813;1363:25114",
+   "iconName": "Like (Outline, 18)",
+   "name": "Like",
+   "style": "Outline",
+   "screenSize": "18",
+   "origMatch": "NAME_ONLY",
+   "solarSet": "478:83918",
+   "category": "Like",
+   "solarVariant": "478:83926",
+   "variantName": "Style=Outline",
+   "mapping": "SCALED_24_TO_18",
+   "scale": 0.75
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "1608:7395",
+   "iconName": "Users Group Two Rounded (Outline, 23.1)",
+   "name": "Users Group Two Rounded",
+   "style": "Outline",
+   "screenSize": "23.1",
+   "origMatch": "NAME_ONLY",
+   "solarSet": "478:71438",
+   "category": "Users",
+   "solarVariant": "478:71460",
+   "variantName": "Style=Outline",
+   "mapping": "SCALED_24_TO_23.1",
+   "scale": 0.9625
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "1608:7400",
+   "iconName": "Shield Check (Linear, 23.1)",
+   "name": "Shield Check",
+   "style": "Linear",
+   "screenSize": "23.1",
+   "origMatch": "NAME_ONLY",
+   "solarSet": "478:76184",
+   "category": "Security",
+   "solarVariant": "478:76191",
+   "variantName": "Style=Linear",
+   "mapping": "SCALED_24_TO_23.1",
+   "scale": 0.9625
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "1608:7412",
+   "iconName": "Shop (Linear, 24)",
+   "name": "Shop",
+   "style": "Linear",
+   "screenSize": "24",
+   "origMatch": "EXACT",
+   "solarSet": "478:74878",
+   "category": "Shopping, Ecommerce",
+   "solarVariant": "478:74888",
+   "variantName": "Style=Linear",
+   "mapping": "EXACT",
+   "scale": null
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "1608:7422",
+   "iconName": "Alt Arrow Left (Line Duotone, 24)",
+   "name": "Alt Arrow Left",
+   "style": "Line Duotone",
+   "screenSize": "24",
+   "origMatch": "EXACT",
+   "solarSet": "478:96895",
+   "category": "Arrow",
+   "solarVariant": "478:96898",
+   "variantName": "Style=Line Duotone",
+   "mapping": "EXACT",
+   "scale": null
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "I1608:7443;1548:40450",
+   "iconName": "Heart (Linear, 19.2)",
+   "name": "Heart",
+   "style": "Linear",
+   "screenSize": "19.2",
+   "origMatch": "NAME_ONLY",
+   "solarSet": "478:84063",
+   "category": "Like",
+   "solarVariant": "478:84069",
+   "variantName": "Style=Linear",
+   "mapping": "SCALED_24_TO_19.2",
+   "scale": 0.8
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "I1608:7475;1548:40450",
+   "iconName": "Heart (Linear, 19.2)",
+   "name": "Heart",
+   "style": "Linear",
+   "screenSize": "19.2",
+   "origMatch": "NAME_ONLY",
+   "solarSet": "478:84063",
+   "category": "Like",
+   "solarVariant": "478:84069",
+   "variantName": "Style=Linear",
+   "mapping": "SCALED_24_TO_19.2",
+   "scale": 0.8
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "I1608:7507;1548:40450",
+   "iconName": "Heart (Linear, 19.2)",
+   "name": "Heart",
+   "style": "Linear",
+   "screenSize": "19.2",
+   "origMatch": "NAME_ONLY",
+   "solarSet": "478:84063",
+   "category": "Like",
+   "solarVariant": "478:84069",
+   "variantName": "Style=Linear",
+   "mapping": "SCALED_24_TO_19.2",
+   "scale": 0.8
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "I1608:7526;1548:40637;1548:40450",
+   "iconName": "Heart (Linear, 19.2)",
+   "name": "Heart",
+   "style": "Linear",
+   "screenSize": "19.2",
+   "origMatch": "NAME_ONLY",
+   "solarSet": "478:84063",
+   "category": "Like",
+   "solarVariant": "478:84069",
+   "variantName": "Style=Linear",
+   "mapping": "SCALED_24_TO_19.2",
+   "scale": 0.8
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "I1608:7527;1548:40637;1548:40450",
+   "iconName": "Heart (Linear, 19.2)",
+   "name": "Heart",
+   "style": "Linear",
+   "screenSize": "19.2",
+   "origMatch": "NAME_ONLY",
+   "solarSet": "478:84063",
+   "category": "Like",
+   "solarVariant": "478:84069",
+   "variantName": "Style=Linear",
+   "mapping": "SCALED_24_TO_19.2",
+   "scale": 0.8
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "I1608:7528;1548:40637;1548:40450",
+   "iconName": "Heart (Linear, 19.2)",
+   "name": "Heart",
+   "style": "Linear",
+   "screenSize": "19.2",
+   "origMatch": "NAME_ONLY",
+   "solarSet": "478:84063",
+   "category": "Like",
+   "solarVariant": "478:84069",
+   "variantName": "Style=Linear",
+   "mapping": "SCALED_24_TO_19.2",
+   "scale": 0.8
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "I1608:7529;1548:40637;1548:40450",
+   "iconName": "Heart (Linear, 19.2)",
+   "name": "Heart",
+   "style": "Linear",
+   "screenSize": "19.2",
+   "origMatch": "NAME_ONLY",
+   "solarSet": "478:84063",
+   "category": "Like",
+   "solarVariant": "478:84069",
+   "variantName": "Style=Linear",
+   "mapping": "SCALED_24_TO_19.2",
+   "scale": 0.8
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "1608:7534",
+   "iconName": "Arrow Right (Linear, 24)",
+   "name": "Arrow Right",
+   "style": "Linear",
+   "screenSize": "24",
+   "origMatch": "EXACT",
+   "solarSet": "478:96794",
+   "category": "Arrow",
+   "solarVariant": "478:96800",
+   "variantName": "Style=Linear",
+   "mapping": "EXACT",
+   "scale": null
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "I1608:7550;1519:26498;1519:26469",
+   "iconName": "Heart (Linear, 24)",
+   "name": "Heart",
+   "style": "Linear",
+   "screenSize": "24",
+   "origMatch": "EXACT",
+   "solarSet": "478:84063",
+   "category": "Like",
+   "solarVariant": "478:84069",
+   "variantName": "Style=Linear",
+   "mapping": "EXACT",
+   "scale": null
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "I1608:7563;1519:26498;1519:26469",
+   "iconName": "Heart (Linear, 24)",
+   "name": "Heart",
+   "style": "Linear",
+   "screenSize": "24",
+   "origMatch": "EXACT",
+   "solarSet": "478:84063",
+   "category": "Like",
+   "solarVariant": "478:84069",
+   "variantName": "Style=Linear",
+   "mapping": "EXACT",
+   "scale": null
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "I1608:7576;1519:26498;1519:26469",
+   "iconName": "Heart (Linear, 24)",
+   "name": "Heart",
+   "style": "Linear",
+   "screenSize": "24",
+   "origMatch": "EXACT",
+   "solarSet": "478:84063",
+   "category": "Like",
+   "solarVariant": "478:84069",
+   "variantName": "Style=Linear",
+   "mapping": "EXACT",
+   "scale": null
+  },
+  {
+   "file": "sample-screen/mobile-pdp-1608-7090.html",
+   "figmaNode": "I1608:7589;1519:26498;1519:26469",
+   "iconName": "Heart (Linear, 24)",
+   "name": "Heart",
+   "style": "Linear",
+   "screenSize": "24",
+   "origMatch": "EXACT",
+   "solarSet": "478:84063",
+   "category": "Like",
+   "solarVariant": "478:84069",
+   "variantName": "Style=Linear",
+   "mapping": "EXACT",
+   "scale": null
+  }
+ ],
+ "solarExportList": [
+  {
+   "variantNodeId": "478:70344",
+   "setNodeId": "478:70334",
+   "name": "Play Circle",
+   "style": "Outline",
+   "category": "Video, Audio, Sound"
+  },
+  {
+   "variantNodeId": "478:71460",
+   "setNodeId": "478:71438",
+   "name": "Users Group Two Rounded",
+   "style": "Outline",
+   "category": "Users"
+  },
+  {
+   "variantNodeId": "478:74888",
+   "setNodeId": "478:74878",
+   "name": "Shop",
+   "style": "Linear",
+   "category": "Shopping, Ecommerce"
+  },
+  {
+   "variantNodeId": "478:75026",
+   "setNodeId": "478:75010",
+   "name": "Cart Large 2",
+   "style": "Outline",
+   "category": "Shopping, Ecommerce"
+  },
+  {
+   "variantNodeId": "478:76191",
+   "setNodeId": "478:76184",
+   "name": "Shield Check",
+   "style": "Linear",
+   "category": "Security"
+  },
+  {
+   "variantNodeId": "478:77183",
+   "setNodeId": "478:77176",
+   "name": "Magnifer",
+   "style": "Linear",
+   "category": "Search"
+  },
+  {
+   "variantNodeId": "478:82716",
+   "setNodeId": "478:82706",
+   "name": "Map Point",
+   "style": "Outline",
+   "category": "Map & Location"
+  },
+  {
+   "variantNodeId": "478:83926",
+   "setNodeId": "478:83918",
+   "name": "Like",
+   "style": "Outline",
+   "category": "Like"
+  },
+  {
+   "variantNodeId": "478:84069",
+   "setNodeId": "478:84063",
+   "name": "Heart",
+   "style": "Linear",
+   "category": "Like"
+  },
+  {
+   "variantNodeId": "478:96800",
+   "setNodeId": "478:96794",
+   "name": "Arrow Right",
+   "style": "Linear",
+   "category": "Arrow"
+  },
+  {
+   "variantNodeId": "478:96898",
+   "setNodeId": "478:96895",
+   "name": "Alt Arrow Left",
+   "style": "Line Duotone",
+   "category": "Arrow"
+  }
+ ]
+}

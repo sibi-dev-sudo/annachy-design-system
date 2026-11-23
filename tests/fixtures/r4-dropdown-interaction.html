@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>R4-1 Dropdown interaction fixture — Annachy Design System</title>
+  <link rel="stylesheet" href="../../src/annachy.css">
+  <style>body { padding: 24px; } .row { display: flex; gap: 48px; align-items: flex-start; margin-bottom: 340px; } #dd-bottom { position: fixed; left: 24px; bottom: 8px; }
+    .lbl { display: block; margin-bottom: 4px; }</style>
+</head>
+<body>
+  <!-- Driven by real keyboard / mouse / touch input via the Chrome DevTools Protocol (authoring aid r4_dropdown_cdp.py).
+       Triggers are R3 Buttons: the Select trigger itself is not designed (B4-1 / G13). -->
+  <h1>R4-1 Dropdown interaction fixture</h1>
+  <button type="button" id="before" class="annachy-button annachy-button--tertiary annachy-button--size-40"><span class="annachy-button__label">Before</span></button>
+  <div class="row">
+    <div>
+      <span class="lbl" id="single-lbl">Team</span>
+      <div class="annachy-dropdown" data-annachy-dropdown id="dd-single">
+        <button type="button" id="single-trigger" class="annachy-button annachy-button--secondary-grey annachy-button--size-40"
+                role="combobox" aria-haspopup="listbox" aria-controls="single-menu" aria-labelledby="single-lbl single-trigger"><span class="annachy-button__label">Product design</span></button>
+        <div class="annachy-dropdown-menu annachy-dropdown-menu--desktop" id="single-menu">
+          <ul class="annachy-dropdown-menu__options" role="listbox" id="single-list" aria-labelledby="single-lbl">
+            <li class="annachy-dropdown-item annachy-dropdown-item--desktop" role="option" id="s-1" aria-selected="true" data-value="design"><span class="annachy-dropdown-item__indicator" aria-hidden="true"></span><span class="annachy-dropdown-item__label">Product design</span></li>
+            <li class="annachy-dropdown-item annachy-dropdown-item--desktop" role="option" id="s-2" aria-selected="false" data-value="eng"><span class="annachy-dropdown-item__indicator" aria-hidden="true"></span><span class="annachy-dropdown-item__label">Engineering</span></li>
+            <li class="annachy-dropdown-item annachy-dropdown-item--desktop" role="option" id="s-3" aria-selected="false" data-value="cs"><span class="annachy-dropdown-item__indicator" aria-hidden="true"></span><span class="annachy-dropdown-item__label">Customer success</span></li>
+            <li class="annachy-dropdown-item annachy-dropdown-item--desktop" role="option" id="s-4" aria-selected="false" aria-disabled="true" data-value="fin"><span class="annachy-dropdown-item__indicator" aria-hidden="true"></span><span class="annachy-dropdown-item__label">Finance (unavailable)</span></li>
+            <li class="annachy-dropdown-item annachy-dropdown-item--desktop" role="option" id="s-5" aria-selected="false" data-value="fac"><span class="annachy-dropdown-item__indicator" aria-hidden="true"></span><span class="annachy-dropdown-item__label">Facilities</span></li>
+          </ul>
+          <div class="annachy-dropdown-menu__status" role="status" aria-live="polite"></div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <span class="lbl" id="multi-lbl">Teams</span>
+      <div class="annachy-dropdown" data-annachy-dropdown id="dd-multi">
+        <button type="button" id="multi-trigger" class="annachy-button annachy-button--secondary-grey annachy-button--size-40"
+                role="combobox" aria-haspopup="listbox" aria-controls="multi-menu" aria-labelledby="multi-lbl multi-trigger"><span class="annachy-button__label">2 selected</span></button>
+        <div class="annachy-dropdown-menu annachy-dropdown-menu--desktop" id="multi-menu">
+          <ul class="annachy-dropdown-menu__options" role="listbox" id="multi-list" aria-labelledby="multi-lbl" aria-multiselectable="true">
+            <li class="annachy-dropdown-item annachy-dropdown-item--desktop" role="option" id="m-1" aria-selected="true" data-value="design"><span class="annachy-dropdown-item__indicator" aria-hidden="true"></span><span class="annachy-dropdown-item__label">Product design</span></li>
+            <li class="annachy-dropdown-item annachy-dropdown-item--desktop" role="option" id="m-2" aria-selected="true" data-value="eng"><span class="annachy-dropdown-item__indicator" aria-hidden="true"></span><span class="annachy-dropdown-item__label">Engineering</span></li>
+            <li class="annachy-dropdown-item annachy-dropdown-item--desktop" role="option" id="m-3" aria-selected="false" data-value="cs"><span class="annachy-dropdown-item__indicator" aria-hidden="true"></span><span class="annachy-dropdown-item__label">Customer success</span></li>
+            <li class="annachy-dropdown-item annachy-dropdown-item--desktop" role="option" id="m-4" aria-selected="false" aria-disabled="true" data-value="fin"><span class="annachy-dropdown-item__indicator" aria-hidden="true"></span><span class="annachy-dropdown-item__label">Finance (unavailable)</span></li>
+          </ul>
+          <div class="annachy-dropdown-menu__status" role="status" aria-live="polite"></div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <span class="lbl" id="search-lbl">Search team</span>
+      <div class="annachy-dropdown" data-annachy-dropdown id="dd-search">
+        <button type="button" id="search-trigger" class="annachy-button annachy-button--secondary-grey annachy-button--size-40"
+                aria-haspopup="dialog" aria-controls="search-menu" aria-labelledby="search-lbl search-trigger"><span class="annachy-button__label">Choose</span></button>
+        <div class="annachy-dropdown-menu annachy-dropdown-menu--desktop" id="search-menu" role="dialog" aria-modal="false" aria-labelledby="search-lbl">
+          <div class="annachy-dropdown-menu__search">
+            <div class="annachy-dropdown-menu__search-field"><span class="annachy-dropdown-menu__search-icon" aria-hidden="true"></span>
+              <input class="annachy-dropdown-menu__search-input" id="search-input" type="search" role="combobox" aria-autocomplete="list" aria-expanded="false"
+                     aria-controls="search-list" aria-label="Search" placeholder="Search teams" autocomplete="off"></div>
+            <div class="annachy-dropdown-menu__divider"></div>
+          </div>
+          <ul class="annachy-dropdown-menu__options" role="listbox" id="search-list" aria-labelledby="search-lbl">
+            <li class="annachy-dropdown-item annachy-dropdown-item--desktop" role="option" id="q-1" aria-selected="false" data-value="design"><span class="annachy-dropdown-item__indicator" aria-hidden="true"></span><span class="annachy-dropdown-item__label">Product design</span></li>
+            <li class="annachy-dropdown-item annachy-dropdown-item--desktop" role="option" id="q-2" aria-selected="false" data-value="eng"><span class="annachy-dropdown-item__indicator" aria-hidden="true"></span><span class="annachy-dropdown-item__label">Engineering</span></li>
+            <li class="annachy-dropdown-item annachy-dropdown-item--desktop" role="option" id="q-3" aria-selected="false" data-value="cs"><span class="annachy-dropdown-item__indicator" aria-hidden="true"></span><span class="annachy-dropdown-item__label">Customer success</span></li>
+            <li class="annachy-dropdown-item annachy-dropdown-item--desktop" role="option" id="q-4" aria-selected="false" aria-disabled="true" data-value="fin"><span class="annachy-dropdown-item__indicator" aria-hidden="true"></span><span class="annachy-dropdown-item__label">Finance (unavailable)</span></li>
+          </ul>
+          <div class="annachy-dropdown-menu__status" role="status" aria-live="polite"></div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <span class="lbl" id="dis-lbl">Locked</span>
+      <div class="annachy-dropdown" data-annachy-dropdown id="dd-disabled">
+        <button type="button" id="dis-trigger" class="annachy-button annachy-button--secondary-grey annachy-button--size-40" disabled
+                role="combobox" aria-haspopup="listbox" aria-controls="dis-menu" aria-labelledby="dis-lbl dis-trigger"><span class="annachy-button__label">None</span></button>
+        <div class="annachy-dropdown-menu annachy-dropdown-menu--desktop" id="dis-menu">
+          <ul class="annachy-dropdown-menu__options" role="listbox" aria-labelledby="dis-lbl"><li class="annachy-dropdown-item annachy-dropdown-item--desktop" role="option" id="d-1" aria-selected="false"><span class="annachy-dropdown-item__indicator" aria-hidden="true"></span><span class="annachy-dropdown-item__label">A</span></li></ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button type="button" id="after" class="annachy-button annachy-button--tertiary annachy-button--size-40"><span class="annachy-button__label">After</span></button>
+  <div class="annachy-dropdown" data-annachy-dropdown id="dd-bottom">
+    <button type="button" id="bottom-trigger" class="annachy-button annachy-button--secondary-grey annachy-button--size-40" role="combobox" aria-haspopup="listbox" aria-controls="bottom-menu" aria-label="Bottom"><span class="annachy-button__label">Bottom</span></button>
+    <div class="annachy-dropdown-menu annachy-dropdown-menu--desktop" id="bottom-menu">
+      <ul class="annachy-dropdown-menu__options" role="listbox" aria-label="Bottom"><li class="annachy-dropdown-item annachy-dropdown-item--desktop" role="option" id="b-1" aria-selected="false"><span class="annachy-dropdown-item__indicator" aria-hidden="true"></span><span class="annachy-dropdown-item__label">One</span></li>
+        <li class="annachy-dropdown-item annachy-dropdown-item--desktop" role="option" id="b-2" aria-selected="false"><span class="annachy-dropdown-item__indicator" aria-hidden="true"></span><span class="annachy-dropdown-item__label">Two</span></li></ul>
+    </div>
+  </div>
+  <script type="module">
+    import '../../src/annachy.js';
+    window.__changes = [];
+    document.addEventListener('annachy-change', (e) => window.__changes.push([e.target.id, e.detail.values.join(',')]));
+  </script>
+</body>
+</html>

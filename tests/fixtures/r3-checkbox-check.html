@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>R3-4 Checkbox check — Annachy Design System</title>
+  <link rel="stylesheet" href="../../src/annachy.css">
+  <style>/* geometry fixture: Figma sizes were measured with narrower text than Inter; keep the structural check on the system-ui metrics it was calibrated on. Inter itself is asserted in r2-base-check. */ :root { --annachy-base-font-family-render: system-ui, sans-serif; }</style>
+  <style>#stage { display: flex; flex-wrap: wrap; gap: 16px; padding: 16px; align-items: flex-start; } #stage > div { width: 240px; } pre { white-space: pre-wrap; font: 12px/1.4 monospace; }</style>
+</head>
+<body>
+  <h1>R3-4 Checkbox — Figma parity check</h1>
+  <p>Renders all 126 variants of <code>1504:53300</code> (7 States × 3 Sizes × 2 Positions × 3 Alignments) and compares computed styles and
+     geometry with literal values from <code>docs/figma-audit/r3-0-evidence.md</code> §10, §11, §19, §24. Glyph geometry is unresolved (D-27): only the
+     glyph slot's size, position, colour and visibility are checked. Serve the project root over HTTP.</p>
+  <pre id="result" data-status="running">running…</pre>
+  <div id="stage"></div>
+<script type="module">
+import { initCheckboxes } from '../../src/annachy.js';
+// literal Figma values (evidence §24); shadows are the Figma effect styles as box-shadow
+const FX = {
+  default: '0px 1px 1px 0px #17191c21, -1px 2px 1px 0px #17191c14, -1px 3px 1px 0px #17191c05, -2px 4px 2px 0px #17191c00',
+  hover: '0px 0px 1px 0px #325cb34f, 0px 0px 2px 0px #325cb345, 0px 0px 3px 0px #325cb329, 0px 0px 3px 0px #325cb30d, 0px 0px 3px 0px #325cb303',
+  focus: '0px 1px 3px 0px #1a1a1a14, 0px 0.5px 0px 0px #1a1a1a14, 0px 0px 2px 0px #0141c07d, 0px 1px 3px 0px #0141c06e, -1px 2px 4px 0px #0141c040, -2px 3px 4px 0px #0141c012, -3px 4px 5px 0px #0141c003',
+  none: 'none',
+};
+const STATES = {
+  'Checked':      { fill: '#004feb', bw: 1, bc: '#99b9f7', fx: 'default', glyph: true,  gc: '#fafcff', label: '#0b0c0f', sub: '#707a8f', node: '1504:53701' },
+  'Multi-select': { fill: '#004feb', bw: 1, bc: '#99b9f7', fx: 'default', glyph: true,  gc: '#fafcff', label: '#0b0c0f', sub: '#707a8f', node: '1504:53761' },
+  'Unchecked':    { fill: '#ffffff', bw: 2, bc: '#e1e1e2', fx: 'none',    glyph: false, label: '#0b0c0f', sub: '#707a8f', node: '1504:53819' },
+  'Disabled':     { fill: '#edeff2', bw: 2, bc: '#dcdfe5', fx: 'none',    glyph: false, label: '#dcdfe5', sub: '#dcdfe5', node: '1504:53867' },
+  'Disabled On':  { fill: '#bfc4cf', bw: 0, bc: null,      fx: 'none',    glyph: true,  gc: '#fafcff', label: '#dcdfe5', sub: '#dcdfe5', node: '1504:53917' },
+  'Focus':        { fill: '#ebf2ff', bw: 2, bc: '#004feb', fx: 'focus',   glyph: false, label: '#0b0c0f', sub: '#707a8f', node: '1504:53976' },
+  'Pressed':      { fill: '#3372ef', bw: 1, bc: '#99b9f7', fx: 'hover',   glyph: true,  gc: '#fafcff', label: '#0b0c0f', sub: '#707a8f', node: '1504:54031' },
+};
+const SIZES = { small: { box: 20, glyph: 16 }, medium: { box: 24, glyph: 20 }, large: { box: 28, glyph: 20 } };
+const fails = []; let checks = 0, n = 0;
+const eq = (k, v, got, want) => { checks++; if (got !== want) fails.push(`${v} ${k}: got ${JSON.stringify(got)}, want ${JSON.stringify(want)}`); };
+const rgb = h => h === null ? 'rgba(0, 0, 0, 0)' : `rgb(${[1, 3, 5].map(i => parseInt(h.slice(i, i + 2), 16)).join(', ')})`;
+const probe = document.createElement('div'); document.body.appendChild(probe);
+const shadowOf = lit => { probe.style.boxShadow = lit; return getComputedStyle(probe).boxShadow; };
+const stage = document.getElementById('stage'); let uid = 0;
+function build(state, size, pos, align) {
+  const id = `cb-${++uid}`, wrap = document.createElement('div'), root = document.createElement('div');
+  root.className = `annachy-checkbox annachy-checkbox--${size}` + (pos === 'Right' ? ' annachy-checkbox--control-right' : '') +
+                   (align === 'Top' ? ' annachy-checkbox--align-top' : align === 'Bottom' ? ' annachy-checkbox--align-bottom' : '');
+  root.innerHTML = `<input class="annachy-checkbox__input" type="checkbox" id="${id}" aria-describedby="${id}-s">
+    <span class="annachy-checkbox__box" aria-hidden="true"><span class="annachy-checkbox__glyph"></span></span>
+    <span class="annachy-checkbox__content"><label class="annachy-checkbox__label" for="${id}">Title text goes here</label>
+    <span class="annachy-checkbox__subtext" id="${id}-s">Secondary text line goes here </span></span>`;
+  const input = root.querySelector('input');
+  if (['Checked', 'Pressed', 'Disabled On'].includes(state)) input.checked = true;
+  if (state === 'Multi-select') input.dataset.indeterminate = 'true';
+  if (state.startsWith('Disabled')) input.disabled = true;
+  if (state === 'Focus') root.classList.add('is-focus');
+  if (state === 'Pressed') root.classList.add('is-pressed');
+  root.dataset.v = `${state}/${size}/${pos}/${align}`;
+  wrap.appendChild(root); stage.appendChild(wrap); return root;
+}
+const all = [];
+for (const state of Object.keys(STATES)) for (const size of Object.keys(SIZES)) for (const pos of ['Left', 'Right']) for (const align of ['Top', 'Center', 'Bottom'])
+  all.push([state, size, pos, align, build(state, size, pos, align)]);
+initCheckboxes(stage);
+await document.fonts.ready;
+for (const [state, size, pos, align, root] of all) {
+  n++; const S = STATES[state], Z = SIZES[size], v = root.dataset.v, cs = e => getComputedStyle(e);
+  const box = root.querySelector('.annachy-checkbox__box'), glyph = root.querySelector('.annachy-checkbox__glyph'), input = root.querySelector('input'),
+        label = root.querySelector('.annachy-checkbox__label'), sub = root.querySelector('.annachy-checkbox__subtext'), content = root.querySelector('.annachy-checkbox__content');
+  const rr = root.getBoundingClientRect(), br = box.getBoundingClientRect(), cr = content.getBoundingClientRect();
+  // geometry (Figma META: root W = box + 196, H = 41)
+  eq('root size', v, `${rr.width}x${rr.height}`, `${Z.box + 196}x41`);
+  eq('box size', v, `${br.width}x${br.height}`, `${Z.box}x${Z.box}`);
+  eq('box y (alignment)', v, br.top - rr.top, align === 'Top' ? 0 : align === 'Bottom' ? 41 - Z.box : (41 - Z.box) / 2);
+  eq('box x (position)', v, br.left - rr.left, pos === 'Left' ? 0 : 196);
+  eq('content x', v, cr.left - rr.left, pos === 'Left' ? Z.box : 0);
+  eq('text padding', v, `${cs(label).paddingLeft}/${cs(label).paddingRight}/${cs(sub).paddingLeft}/${cs(sub).paddingRight}`,
+     pos === 'Left' ? '12px/0px/12px/0px' : '0px/12px/0px/12px');
+  eq('subtext width', v, cs(sub).width, '184px');
+  eq('box radius', v, cs(box).borderTopLeftRadius, '4px');
+  // typography
+  eq('label type', v, `${cs(label).fontSize}/${cs(label).lineHeight}/${cs(label).fontWeight}`, '16px/21px/500');
+  eq('subtext type', v, `${cs(sub).fontSize}/${cs(sub).lineHeight}/${cs(sub).fontWeight}`, '14px/20px/400');
+  eq('label nowrap', v, cs(label).whiteSpace, 'nowrap');
+  // paint
+  eq('box fill', v, cs(box).backgroundColor, rgb(S.fill));
+  eq('box border width', v, cs(box).borderTopWidth, `${S.bw}px`);
+  if (S.bw) eq('box border colour', v, cs(box).borderTopColor, rgb(S.bc));
+  eq('box shadow', v, cs(box).boxShadow, shadowOf(FX[S.fx]));
+  eq('label colour', v, cs(label).color, rgb(S.label));
+  eq('subtext colour', v, cs(sub).color, rgb(S.sub));
+  // glyph slot (geometry unresolved — D-27)
+  eq('glyph visible', v, cs(glyph).display !== 'none', S.glyph);
+  if (S.glyph) {
+    const gr = glyph.getBoundingClientRect();
+    eq('glyph slot size', v, `${gr.width}x${gr.height}`, `${Z.glyph}x${Z.glyph}`);
+    eq('glyph slot inset', v, gr.left - br.left, (Z.box - Z.glyph) / 2);
+    eq('glyph colour', v, cs(glyph).color, rgb(S.gc));
+    eq('glyph slot empty (D-27)', v, glyph.childElementCount + glyph.textContent.trim().length, 0);
+  }
+  // native semantics (B-01)
+  eq('native checkbox', v, input.type, 'checkbox');
+  eq('label associated', v, input.labels.length === 1 && input.labels[0] === label, true);
+  eq('subtext described', v, document.getElementById(input.getAttribute('aria-describedby')) === sub, true);
+  eq('input covers box (click target)', v, JSON.stringify(input.getBoundingClientRect()) === JSON.stringify(br), true);
+  if (state === 'Multi-select') eq('indeterminate via checkbox.js', v, input.indeterminate, true);
+  if (state.startsWith('Disabled')) eq('disabled', v, input.disabled, true);
+}
+// D-20 recommendation (not a Figma spec): Focus + Checked keeps checked fill and glyph, adds focus border + shadow
+const f = build('Checked', 'medium', 'Left', 'Center'); f.classList.add('is-focus');
+const fb = f.querySelector('.annachy-checkbox__box');
+eq('D-20 focus+checked fill', 'D-20', getComputedStyle(fb).backgroundColor, rgb('#004feb'));
+eq('D-20 focus+checked border', 'D-20', `${getComputedStyle(fb).borderTopWidth} ${getComputedStyle(fb).borderTopColor}`, `2px ${rgb('#004feb')}`);
+eq('D-20 focus+checked shadow', 'D-20', getComputedStyle(fb).boxShadow, shadowOf(FX.focus));
+eq('D-20 focus+checked glyph', 'D-20', getComputedStyle(f.querySelector('.annachy-checkbox__glyph')).display, 'block');
+// native interaction
+const k = build('Unchecked', 'medium', 'Left', 'Center'), ki = k.querySelector('input');
+ki.focus();
+eq(':focus-visible → Focus fill', 'native', getComputedStyle(k.querySelector('.annachy-checkbox__box')).backgroundColor, rgb('#ebf2ff'));
+ki.click();
+eq('click toggles checked', 'native', ki.checked, true);
+ki.blur();
+eq('checked → Checked fill', 'native', getComputedStyle(k.querySelector('.annachy-checkbox__box')).backgroundColor, rgb('#004feb'));
+k.querySelector('label').click();
+eq('label click toggles', 'native', ki.checked, false);
+const m = build('Multi-select', 'medium', 'Left', 'Center'); initCheckboxes(m.parentElement); m.querySelector('input').click();
+eq('click clears indeterminate', 'native', m.querySelector('input').indeterminate, false);
+const d = build('Disabled', 'medium', 'Left', 'Center'), di = d.querySelector('input'); di.click();
+eq('disabled cannot toggle', 'native', di.checked, false);
+eq('disabled cursor', 'native', getComputedStyle(d).cursor, 'not-allowed');
+const imp = [...[...document.styleSheets].find(s => s.href && s.href.endsWith('/src/annachy.css')).cssRules].filter(r => r.href && r.href.startsWith('components/checkbox/'));
+eq('checkbox.css in annachy.components', 'cascade', imp.map(r => r.layerName).join(), 'annachy.components');
+const out = [`STATUS: ${fails.length || n !== 126 ? 'FAIL' : 'PASS'}`, `variants rendered: ${n} (expected 126)`, `checks: ${checks} · failures: ${fails.length}`, ...fails.slice(0, 60)];
+const el = document.getElementById('result'); el.textContent = out.join('\n'); el.dataset.status = out[0].endsWith('PASS') ? 'pass' : 'fail';
+</script>
+</body>
+</html>

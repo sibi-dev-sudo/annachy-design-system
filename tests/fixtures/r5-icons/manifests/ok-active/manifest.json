@@ -1,0 +1,111 @@
+{
+ "schemaVersion": "1.0.0",
+ "status": "active",
+ "decisions": {
+  "D-12": {
+   "approvedBy": "TEST FIXTURE",
+   "date": "2026-11-20",
+   "reference": "synthetic self-test, not an approval"
+  },
+  "D-13": {
+   "approvedBy": "TEST FIXTURE",
+   "date": "2026-11-20",
+   "reference": "synthetic self-test, not an approval"
+  },
+  "D-14": {
+   "approvedBy": "TEST FIXTURE",
+   "date": "2026-11-20",
+   "reference": "synthetic self-test, not an approval"
+  },
+  "D-15": {
+   "approvedBy": "TEST FIXTURE",
+   "date": "2026-11-20",
+   "reference": "synthetic self-test, not an approval"
+  },
+  "exportApproval": {
+   "approvedBy": "TEST FIXTURE",
+   "date": "2026-11-20",
+   "reference": "synthetic self-test, not an approval"
+  }
+ },
+ "sizeScale": [
+  16,
+  20,
+  24
+ ],
+ "styles": [
+  "linear"
+ ],
+ "categories": [
+  "test"
+ ],
+ "sources": [
+  {
+   "id": "test-source",
+   "name": "Synthetic probes",
+   "kind": "owner-supplied",
+   "owner": "test",
+   "licence": {
+    "name": "TEST-ONLY",
+    "redistribution": "allowed",
+    "attributionRequired": false
+   },
+   "approved": {
+    "approvedBy": "TEST FIXTURE",
+    "date": "2026-11-20",
+    "reference": "synthetic self-test, not an approval"
+   }
+  }
+ ],
+ "icons": [
+  {
+   "name": "probe-square",
+   "category": "test",
+   "style": "linear",
+   "sizes": [
+    20,
+    24
+   ],
+   "source": "test-source",
+   "sourceName": "probe-square",
+   "figmaNodeId": "n/a",
+   "original": {
+    "path": "src/icons/originals/test-source/probe-square.svg",
+    "sha256": "ce1213858047da31db0fb5fbb213c6cda2472f8fa31352f6ab4dec5e37181373"
+   },
+   "normalized": {
+    "path": "src/icons/svg/linear/probe-square.svg",
+    "sha256": "c71627db6e80dc6bad2e1bf6e21082146f2e2a2229025a59010bd78b3f763edb"
+   },
+   "licence": "inherit",
+   "attribution": "",
+   "multicolor": false,
+   "usedBy": []
+  },
+  {
+   "name": "probe-circle",
+   "category": "test",
+   "style": "linear",
+   "sizes": [
+    20,
+    24
+   ],
+   "source": "test-source",
+   "sourceName": "probe-circle",
+   "figmaNodeId": "n/a",
+   "original": {
+    "path": "src/icons/originals/test-source/probe-circle.svg",
+    "sha256": "ce1213858047da31db0fb5fbb213c6cda2472f8fa31352f6ab4dec5e37181373"
+   },
+   "normalized": {
+    "path": "src/icons/svg/linear/probe-circle.svg",
+    "sha256": "e87411d36e2bb5db18fc37d437ad9db186ea7f85a558bab9a8d9ae2a0a9e6698"
+   },
+   "licence": "inherit",
+   "attribution": "",
+   "multicolor": false,
+   "usedBy": []
+  }
+ ],
+ "$expect": []
+}

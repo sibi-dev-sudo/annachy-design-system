@@ -1,0 +1,43 @@
+<!--
+  Annachy Design System — Button canonical markup (R3-1). Figma "All Buttons" 887:2492.
+  Classes: .annachy-button + type modifier + size modifier (see README.md).
+  Native <button type="button">; use <a> only for navigation. Icon-only buttons need aria-label.
+-->
+
+<!-- Default: Type=Primary, Size=40, showLeftIcon, showLabel, showRightIcon -->
+<button type="button" class="annachy-button annachy-button--primary annachy-button--size-40">
+  <span class="annachy-button__icon" aria-hidden="true"><!-- 20×20 inline SVG using currentColor --></span>
+  <span class="annachy-button__label">Button</span>
+  <span class="annachy-button__icon" aria-hidden="true"><!-- 20×20 inline SVG using currentColor --></span>
+  <span class="annachy-button__loading" aria-hidden="true"><span class="annachy-button__dot"></span><span class="annachy-button__dot"></span><span class="annachy-button__dot"></span></span>
+</button>
+
+<!-- Label only (showLeftIcon=false, showRightIcon=false) -->
+<button type="button" class="annachy-button annachy-button--secondary annachy-button--size-32">
+  <span class="annachy-button__label">Button</span>
+  <span class="annachy-button__loading" aria-hidden="true"><span class="annachy-button__dot"></span><span class="annachy-button__dot"></span><span class="annachy-button__dot"></span></span>
+</button>
+
+<!-- Icon only (showLabel=false): accessible name required -->
+<button type="button" class="annachy-button annachy-button--tertiary annachy-button--size-40" aria-label="Home">
+  <span class="annachy-button__icon" aria-hidden="true"><!-- svg --></span>
+  <span class="annachy-button__loading" aria-hidden="true"><span class="annachy-button__dot"></span><span class="annachy-button__dot"></span><span class="annachy-button__dot"></span></span>
+</button>
+
+<!-- State=Disabled -->
+<button type="button" class="annachy-button annachy-button--secondary-grey annachy-button--size-40" disabled>
+  <span class="annachy-button__label">Button</span>
+  <span class="annachy-button__loading" aria-hidden="true"><span class="annachy-button__dot"></span><span class="annachy-button__dot"></span><span class="annachy-button__dot"></span></span>
+</button>
+
+<!-- State=Loading: dots replace label and icons; label remains the accessible name -->
+<button type="button" class="annachy-button annachy-button--primary annachy-button--size-40" aria-busy="true" aria-disabled="true">
+  <span class="annachy-button__label">Saving</span>
+  <span class="annachy-button__loading" aria-hidden="true"><span class="annachy-button__dot"></span><span class="annachy-button__dot"></span><span class="annachy-button__dot"></span></span>
+</button>
+
+<!-- Type=Link used for navigation -->
+<a class="annachy-button annachy-button--link annachy-button--size-40" href="/path">
+  <span class="annachy-button__label">Link</span>
+  <span class="annachy-button__loading" aria-hidden="true"><span class="annachy-button__dot"></span><span class="annachy-button__dot"></span><span class="annachy-button__dot"></span></span>
+</a>

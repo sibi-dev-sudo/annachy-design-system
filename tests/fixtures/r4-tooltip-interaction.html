@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>R4-2 Tooltip interaction fixture — Annachy Design System</title>
+  <link rel="stylesheet" href="../../src/annachy.css">
+  <style>body { padding: 120px 200px; } .row { display: flex; gap: 160px; margin-bottom: 140px; }
+    #edge-right { position: fixed; right: 4px; top: 300px; } #edge-bottom { position: fixed; left: 600px; bottom: 4px; }</style>
+</head>
+<body>
+  <!-- Driven by real mouse / keyboard / touch via the Chrome DevTools Protocol (authoring aid r4_tooltip_cdp.py). -->
+  <div class="row">
+    <button type="button" id="t-top" class="annachy-button annachy-button--secondary annachy-button--size-40" data-annachy-tooltip="tip-top" aria-describedby="tip-top"><span class="annachy-button__label">Top</span></button>
+    <button type="button" id="t-left" class="annachy-button annachy-button--secondary annachy-button--size-40" data-annachy-tooltip="tip-left" aria-describedby="tip-left"><span class="annachy-button__label">Left</span></button>
+    <button type="button" id="t-icon" class="annachy-button annachy-button--tertiary annachy-button--size-40" aria-label="Home" data-annachy-tooltip="tip-icon" aria-describedby="tip-icon"><span class="annachy-button__icon" aria-hidden="true"></span></button>
+    <button type="button" id="t-busy" class="annachy-button annachy-button--primary annachy-button--size-40" aria-disabled="true" data-annachy-tooltip="tip-busy" aria-describedby="tip-busy"><span class="annachy-button__label">Unavailable</span></button>
+    <button type="button" id="other" class="annachy-button annachy-button--tertiary annachy-button--size-40"><span class="annachy-button__label">No tooltip</span></button>
+  </div>
+  <div class="annachy-tooltip annachy-tooltip--desktop annachy-tooltip--dark annachy-tooltip--arrow-top" role="tooltip" id="tip-top" hidden><span class="annachy-tooltip__arrow" aria-hidden="true"></span><span class="annachy-tooltip__text">Opens below the trigger</span></div>
+  <div class="annachy-tooltip annachy-tooltip--desktop annachy-tooltip--light annachy-tooltip--arrow-left" role="tooltip" id="tip-left" hidden><span class="annachy-tooltip__arrow" aria-hidden="true"></span><span class="annachy-tooltip__text">Opens to the right</span></div>
+  <div class="annachy-tooltip annachy-tooltip--mobile annachy-tooltip--dark annachy-tooltip--arrow-bottom annachy-tooltip--heading" role="tooltip" id="tip-icon" hidden><span class="annachy-tooltip__arrow" aria-hidden="true"></span><span class="annachy-tooltip__heading">Home</span><span class="annachy-tooltip__description">Go to the start page</span></div>
+  <div class="annachy-tooltip annachy-tooltip--desktop annachy-tooltip--dark annachy-tooltip--arrow-top" role="tooltip" id="tip-busy" hidden><span class="annachy-tooltip__arrow" aria-hidden="true"></span><span class="annachy-tooltip__text">Available after setup</span></div>
+  <button type="button" id="edge-right" class="annachy-button annachy-button--secondary annachy-button--size-40" data-annachy-tooltip="tip-edge-right" aria-describedby="tip-edge-right"><span class="annachy-button__label">R</span></button>
+  <div class="annachy-tooltip annachy-tooltip--desktop annachy-tooltip--dark annachy-tooltip--arrow-left" role="tooltip" id="tip-edge-right" hidden><span class="annachy-tooltip__arrow" aria-hidden="true"></span><span class="annachy-tooltip__text">Flips when there is no room on the right</span></div>
+  <button type="button" id="edge-bottom" class="annachy-button annachy-button--secondary annachy-button--size-40" data-annachy-tooltip="tip-edge-bottom" aria-describedby="tip-edge-bottom"><span class="annachy-button__label">B</span></button>
+  <div class="annachy-tooltip annachy-tooltip--desktop annachy-tooltip--dark annachy-tooltip--arrow-top" role="tooltip" id="tip-edge-bottom" hidden><span class="annachy-tooltip__arrow" aria-hidden="true"></span><span class="annachy-tooltip__text">Flips above</span></div>
+  <script type="module">import '../../src/annachy.js';</script>
+</body>
+</html>

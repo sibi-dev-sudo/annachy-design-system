@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Icons — Annachy Design System</title>
+  <link rel="stylesheet" href="../../src/annachy.css">
+  <link rel="stylesheet" href="../showcase.css">
+  <link rel="stylesheet" href="icons.css">
+</head>
+<body>
+  <header class="sc-header">
+    <p class="sc-eyebrow">Annachy Design System · Icons</p>
+    <h1>Icons</h1>
+    <nav class="sc-nav" aria-label="Showcase">
+      <a href="../index.html">Overview</a>
+      <a href="../foundations/iconography.html">Iconography</a>
+      <a href="index.html" aria-current="page">Icon catalogue</a>
+    </nav>
+  </header>
+  <main class="sc-main">
+    <p>Every icon component set on the Figma page <code>1801:5142</code> "② Icons": each set × style × size is rendered from the exported artwork, with colour from <code>currentColor</code>. Source: Iconly artwork as catalogued in the Figma file. <strong>Licence: internal use only, not for redistribution.</strong> Data: <code>src/icons/catalogue.json</code>.</p>
+    <p class="sc-note" id="ic-summary" role="status">Loading catalogue…</p>
+
+    <div class="ic-tools">
+      <div class="annachy-input annachy-input--outline annachy-input--size-46 annachy-input--radius-8 ic-search">
+        <div class="annachy-input__top">
+          <div class="annachy-input__label-container"><label class="annachy-input__label" for="ic-q">Search icons</label></div>
+          <div class="annachy-input__field"><input class="annachy-input__control" id="ic-q" type="search" placeholder="Name, category or Figma node ID" autocomplete="off"></div>
+        </div>
+      </div>
+      <label class="ic-field">Category <select id="ic-cat"><option value="">All categories</option></select></label>
+      <label class="ic-field">Style <select id="ic-style"><option value="">Outline + Filled</option><option value="outline">Outline</option><option value="filled">Filled</option></select></label>
+      <label class="ic-field">Size <select id="ic-size"><option value="">All sizes</option><option value="XS">XS 16</option><option value="S">S 20</option><option value="M">M 24</option><option value="L">L 32</option><option value="XL">XL 40</option></select></label>
+      <label class="ic-field ic-check"><input type="checkbox" id="ic-brands"> Show restricted Brands (third-party marks)</label>
+    </div>
+    <p class="sc-note ic-restricted" id="ic-brands-note" hidden>Brands: 624 third-party brand marks. They are kept separately in <code>restricted/brands/</code>, are not part of the library, and must not be redistributed until rights are verified.</p>
+    <p class="sc-note" id="ic-count" aria-live="polite"></p>
+    <ul class="ic-grid" id="ic-grid"></ul>
+    <nav class="ic-pager" aria-label="Pages">
+      <button type="button" class="annachy-button annachy-button--secondary-grey annachy-button--size-32" id="ic-prev"><span class="annachy-button__label">Previous</span></button>
+      <span id="ic-page"></span>
+      <button type="button" class="annachy-button annachy-button--secondary-grey annachy-button--size-32" id="ic-next"><span class="annachy-button__label">Next</span></button>
+    </nav>
+  </main>
+  <script type="module" src="../../src/annachy.js"></script>
+  <script type="module" src="icons.js"></script>
+</body>
+</html>

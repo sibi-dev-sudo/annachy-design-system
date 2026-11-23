@@ -1,0 +1,69 @@
+/*
+ * Annachy Design System — Component tokens
+ * Layer: component · Phase R1 (tokens)
+ * Source of truth: Figma file rM3ixSG6i3DFfKZFWuxzs4 — values copied exactly via
+ * docs/implementation/r1-token-mapping.md and src/tokens/tokens.json. Do not edit values by hand
+ * without updating both documents.
+ */
+
+:root {
+
+  /* Brand/Button/* */
+  --annachy-color-button-primary-background-default: #004feb;
+  --annachy-color-button-primary-background-hover: #003fbc;
+  --annachy-color-button-primary-background-focus: #004feb;
+  --annachy-color-button-primary-background-pressed-active: #3372ef;
+  --annachy-color-button-primary-background-disabled: #bfc4cf;
+  --annachy-color-button-primary-border-focus: #003fbc;
+  --annachy-color-button-primary-content-default: #fafcff;
+  --annachy-color-button-primary-content-disabled: #fafcff;
+  --annachy-color-button-primary-content-loading: #fafcff;
+  --annachy-color-button-secondary-background-default: #fafcff;
+  --annachy-color-button-secondary-background-hover: #f3f7ff;
+  --annachy-color-button-secondary-background-pressed-active: #e8f0ff;
+  --annachy-color-button-secondary-background-loading: #fafcff;  /* R3-0a · BIND 887:2222 */
+  --annachy-color-button-secondary-border-default: #004feb;
+  --annachy-color-button-secondary-border-disabled: #bfc4cf;
+  --annachy-color-button-secondary-content-default: #004feb;
+  --annachy-color-button-secondary-content-disabled: #bfc4cf;
+  --annachy-color-button-secondary-content-loading: #004feb;  /* R3-0a · BIND 887:2222 */
+  --annachy-color-button-secondary-grey-background-hover: #f6f7f9;
+  --annachy-color-button-secondary-grey-background-pressed-active: #dcdfe5;
+  --annachy-color-button-secondary-grey-background-loading: #fafcff;  /* R3-0a · BIND 887:2282 */
+  --annachy-color-button-secondary-grey-border-default: #bfc4cf;
+  --annachy-color-button-secondary-grey-border-focus: #004feb;
+  --annachy-color-button-secondary-grey-border-disabled: #dcdfe5;  /* SUS-03 */
+  --annachy-color-button-secondary-grey-content-default: #1f242e;
+  --annachy-color-button-secondary-grey-content-disabled: #bfc4cf;
+  --annachy-color-button-secondary-grey-content-loading: #1f242e;  /* R3-0a · BIND 887:2282 */
+  --annachy-color-button-tertiary-background-hover: #f3f7ff;
+  --annachy-color-button-tertiary-background-pressed-active: #e8f0ff;
+  --annachy-color-button-tertiary-border-focus: #004feb;
+  --annachy-color-button-tertiary-content-default: #004feb;
+  --annachy-color-button-tertiary-content-pressed-active: #003fbc;
+  --annachy-color-button-tertiary-content-disabled: #bfc4cf;
+  --annachy-color-button-tertiary-content-loading: #004feb;  /* R3-0a · BIND 887:2342 */
+  --annachy-color-button-tertiary-grey-background-hover: #f3f4f7;
+  --annachy-color-button-tertiary-grey-background-pressed-active: #e4e7ec;
+  --annachy-color-button-tertiary-grey-border-focus: #004feb;
+  --annachy-color-button-tertiary-grey-content-default: #1f242e;
+  --annachy-color-button-tertiary-grey-content-disabled: #bfc4cf;
+  --annachy-color-button-tertiary-grey-content-loading: #1f242e;  /* R3-0a · BIND 887:2402 */
+  --annachy-color-button-link-border-focus: #004feb;
+  --annachy-color-button-link-content-default: #004feb;
+  --annachy-color-button-link-content-pressed-active: #003fbc;
+  --annachy-color-button-link-content-disabled: #bfc4cf;
+  --annachy-color-button-link-content-loading: #004feb;  /* R3-0a · BIND 887:2462 */
+  --annachy-color-button-gradient-start: #3a79f7;
+  --annachy-color-button-gradient-end: #1746a2;
+  --annachy-color-button-success: #14a047;
+  --annachy-color-button-warning: #f26e2d;
+  --annachy-color-button-error: #ff614e;
+
+  /* Icon semantic state (non-Brand variables bound by components) */
+  --annachy-color-icon-state-brand: #004feb;
+  --annachy-color-icon-state-disabled: #bfc4cf;
+  --annachy-color-icon-state-error: #e72b23;
+  --annachy-color-icon-state-success: #276732;
+  --annachy-color-icon-state-warning: #b9512e;
+}

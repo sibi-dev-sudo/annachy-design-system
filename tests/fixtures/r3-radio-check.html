@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>R3-5 Radio check — Annachy Design System</title>
+  <link rel="stylesheet" href="../../src/annachy.css">
+  <style>/* geometry fixture: Figma sizes were measured with narrower text than Inter; keep the structural check on the system-ui metrics it was calibrated on. Inter itself is asserted in r2-base-check. */ :root { --annachy-base-font-family-render: system-ui, sans-serif; }</style>
+  <style>#stage { display: flex; flex-wrap: wrap; gap: 16px; padding: 16px; align-items: flex-start; } #stage > div { width: 240px; } pre { white-space: pre-wrap; font: 12px/1.4 monospace; }</style>
+</head>
+<body>
+  <h1>R3-5 Radio Button — Figma parity check</h1>
+  <p>Renders all 108 variants of <code>1504:52363</code> (6 States × 3 Sizes × 2 Positions × 3 Alignments) and compares computed styles and
+     geometry with literal values from <code>docs/figma-audit/r3-0-evidence.md</code> §11, §12, §19, §25. The Selected/Pressed ring width is unresolved
+     (D-27): the test asserts that no ring is drawn. Serve the project root over HTTP.</p>
+  <pre id="result" data-status="running">running…</pre>
+  <div id="stage"></div>
+<script type="module">
+const FX = {
+  default: '0px 1px 1px 0px #17191c21, -1px 2px 1px 0px #17191c14, -1px 3px 1px 0px #17191c05, -2px 4px 2px 0px #17191c00',
+  hover: '0px 0px 1px 0px #325cb34f, 0px 0px 2px 0px #325cb345, 0px 0px 3px 0px #325cb329, 0px 0px 3px 0px #325cb30d, 0px 0px 3px 0px #325cb303',
+  focus: '0px 1px 3px 0px #1a1a1a14, 0px 0.5px 0px 0px #1a1a1a14, 0px 0px 2px 0px #0141c07d, 0px 1px 3px 0px #0141c06e, -1px 2px 4px 0px #0141c040, -2px 3px 4px 0px #0141c012, -3px 4px 5px 0px #0141c003',
+  none: 'none',
+};
+const STATES = {
+  'Selected':            { fill: '#004feb', bw: 0, bc: null,      fx: 'default', dot: true,  dc: '#fafcff', label: '#0b0c0f', sub: '#707a8f' },
+  'Unselected':          { fill: '#ffffff', bw: 2, bc: '#e1e1e2', fx: 'none',    dot: false, label: '#0b0c0f', sub: '#707a8f' },
+  'Disabled Unselected': { fill: '#edeff2', bw: 2, bc: '#dcdfe5', fx: 'none',    dot: false, label: '#dcdfe5', sub: '#dcdfe5' },
+  'Disabled Selected':   { fill: '#bfc4cf', bw: 0, bc: null,      fx: 'none',    dot: true,  dc: '#fafcff', label: '#dcdfe5', sub: '#dcdfe5' },
+  'Focus':               { fill: '#ebf2ff', bw: 2, bc: '#004feb', fx: 'focus',   dot: false, label: '#0b0c0f', sub: '#707a8f' },
+  'Pressed':             { fill: '#3372ef', bw: 0, bc: null,      fx: 'hover',   dot: true,  dc: '#fafcff', label: '#0b0c0f', sub: '#707a8f' },
+};
+const SIZES = { small: { box: 20, r: 10, dot: 8 }, medium: { box: 24, r: 12, dot: 10 }, large: { box: 28, r: 14, dot: 12 } };
+const fails = []; let checks = 0, n = 0;
+const eq = (k, v, got, want) => { checks++; if (got !== want) fails.push(`${v} ${k}: got ${JSON.stringify(got)}, want ${JSON.stringify(want)}`); };
+const rgb = h => h === null ? 'rgba(0, 0, 0, 0)' : `rgb(${[1, 3, 5].map(i => parseInt(h.slice(i, i + 2), 16)).join(', ')})`;
+const probe = document.createElement('div'); document.body.appendChild(probe);
+const shadowOf = lit => { probe.style.boxShadow = lit; return getComputedStyle(probe).boxShadow; };
+const stage = document.getElementById('stage'); let uid = 0;
+function build(state, size, pos, align, name) {
+  const id = `rb-${++uid}`, wrap = document.createElement('div'), root = document.createElement('div');
+  root.className = `annachy-radio annachy-radio--${size}` + (pos === 'Right' ? ' annachy-radio--control-right' : '') +
+                   (align === 'Top' ? ' annachy-radio--align-top' : align === 'Bottom' ? ' annachy-radio--align-bottom' : '');
+  root.innerHTML = `<input class="annachy-radio__input" type="radio" name="${name || id}" id="${id}" aria-describedby="${id}-s">
+    <span class="annachy-radio__circle" aria-hidden="true"><span class="annachy-radio__dot"></span></span>
+    <span class="annachy-radio__content"><label class="annachy-radio__label" for="${id}">Title text goes here</label>
+    <span class="annachy-radio__subtext" id="${id}-s">Secondary text line goes here </span></span>`;
+  const input = root.querySelector('input');
+  if (['Selected', 'Pressed', 'Disabled Selected'].includes(state)) input.checked = true;
+  if (state.startsWith('Disabled')) input.disabled = true;
+  if (state === 'Focus') root.classList.add('is-focus');
+  if (state === 'Pressed') root.classList.add('is-pressed');
+  root.dataset.v = `${state}/${size}/${pos}/${align}`;
+  wrap.appendChild(root); stage.appendChild(wrap); return root;
+}
+const all = [];
+for (const state of Object.keys(STATES)) for (const size of Object.keys(SIZES)) for (const pos of ['Left', 'Right']) for (const align of ['Top', 'Center', 'Bottom'])
+  all.push([state, size, pos, align, build(state, size, pos, align)]);
+await document.fonts.ready;
+for (const [state, size, pos, align, root] of all) {
+  n++; const S = STATES[state], Z = SIZES[size], v = root.dataset.v, cs = e => getComputedStyle(e);
+  const c = root.querySelector('.annachy-radio__circle'), dot = root.querySelector('.annachy-radio__dot'), input = root.querySelector('input'),
+        label = root.querySelector('.annachy-radio__label'), sub = root.querySelector('.annachy-radio__subtext'), content = root.querySelector('.annachy-radio__content');
+  const rr = root.getBoundingClientRect(), br = c.getBoundingClientRect(), cr = content.getBoundingClientRect();
+  eq('root size', v, `${rr.width}x${rr.height}`, `${Z.box + 196}x41`);
+  eq('circle size', v, `${br.width}x${br.height}`, `${Z.box}x${Z.box}`);
+  eq('circle radius (raw half-size)', v, cs(c).borderTopLeftRadius, `${Z.r}px`);
+  eq('circle y (alignment)', v, br.top - rr.top, align === 'Top' ? 0 : align === 'Bottom' ? 41 - Z.box : (41 - Z.box) / 2);
+  eq('circle x (position)', v, br.left - rr.left, pos === 'Left' ? 0 : 196);
+  eq('content x', v, cr.left - rr.left, pos === 'Left' ? Z.box : 0);
+  eq('text padding', v, `${cs(label).paddingLeft}/${cs(label).paddingRight}/${cs(sub).paddingLeft}/${cs(sub).paddingRight}`,
+     pos === 'Left' ? '12px/0px/12px/0px' : '0px/12px/0px/12px');
+  eq('subtext width', v, cs(sub).width, '184px');
+  eq('label type', v, `${cs(label).fontSize}/${cs(label).lineHeight}/${cs(label).fontWeight}`, '16px/21px/500');
+  eq('subtext type', v, `${cs(sub).fontSize}/${cs(sub).lineHeight}/${cs(sub).fontWeight}`, '14px/20px/400');
+  eq('fill', v, cs(c).backgroundColor, rgb(S.fill));
+  eq('border width (ring not drawn when unresolved)', v, cs(c).borderTopWidth, `${S.bw}px`);
+  if (S.bw) eq('border colour', v, cs(c).borderTopColor, rgb(S.bc));
+  eq('shadow', v, cs(c).boxShadow, shadowOf(FX[S.fx]));
+  eq('label colour', v, cs(label).color, rgb(S.label));
+  eq('subtext colour', v, cs(sub).color, rgb(S.sub));
+  eq('dot visible', v, cs(dot).display !== 'none', S.dot);
+  if (S.dot) {
+    const dr = dot.getBoundingClientRect();
+    eq('dot size', v, `${dr.width}x${dr.height}`, `${Z.dot}x${Z.dot}`);
+    eq('dot inset (Figma 6/7/8)', v, `${dr.left - br.left}/${dr.top - br.top}`, `${(Z.box - Z.dot) / 2}/${(Z.box - Z.dot) / 2}`);
+    eq('dot colour', v, cs(dot).backgroundColor, rgb(S.dc));
+  }
+  eq('native radio', v, input.type, 'radio');
+  eq('label associated', v, input.labels.length === 1 && input.labels[0] === label, true);
+  eq('subtext described', v, document.getElementById(input.getAttribute('aria-describedby')) === sub, true);
+  eq('input covers circle', v, JSON.stringify(input.getBoundingClientRect()) === JSON.stringify(br), true);
+  if (state.startsWith('Disabled')) eq('disabled', v, input.disabled, true);
+}
+// D-20 recommendation
+const f = build('Selected', 'medium', 'Left', 'Center'); f.classList.add('is-focus');
+const fc = f.querySelector('.annachy-radio__circle');
+eq('D-20 focus+selected fill', 'D-20', getComputedStyle(fc).backgroundColor, rgb('#004feb'));
+eq('D-20 focus+selected border', 'D-20', `${getComputedStyle(fc).borderTopWidth} ${getComputedStyle(fc).borderTopColor}`, `2px ${rgb('#004feb')}`);
+eq('D-20 focus+selected dot', 'D-20', getComputedStyle(f.querySelector('.annachy-radio__dot')).display, 'block');
+// native group behaviour (B-01)
+const g1 = build('Unselected', 'medium', 'Left', 'Center', 'grp'), g2 = build('Unselected', 'medium', 'Left', 'Center', 'grp');
+const i1 = g1.querySelector('input'), i2 = g2.querySelector('input');
+i1.click(); eq('click selects', 'native', i1.checked, true);
+i2.click(); eq('group exclusivity', 'native', `${i1.checked}/${i2.checked}`, 'false/true');
+eq('deselected → Unselected fill', 'native', getComputedStyle(g1.querySelector('.annachy-radio__circle')).backgroundColor, rgb('#ffffff'));
+g1.querySelector('label').click(); eq('label click selects', 'native', i1.checked, true);
+i1.focus(); eq(':focus-visible + selected (D-20) fill', 'native', getComputedStyle(g1.querySelector('.annachy-radio__circle')).backgroundColor, rgb('#004feb'));
+i1.blur();
+const d = build('Disabled Unselected', 'medium', 'Left', 'Center'); d.querySelector('input').click();
+eq('disabled cannot select', 'native', d.querySelector('input').checked, false);
+eq('disabled cursor', 'native', getComputedStyle(d).cursor, 'not-allowed');
+const imp = [...[...document.styleSheets].find(s => s.href && s.href.endsWith('/src/annachy.css')).cssRules].filter(r => r.href && r.href.startsWith('components/radio/'));
+eq('radio.css in annachy.components', 'cascade', imp.map(r => r.layerName).join(), 'annachy.components');
+const out = [`STATUS: ${fails.length || n !== 108 ? 'FAIL' : 'PASS'}`, `variants rendered: ${n} (expected 108)`, `checks: ${checks} · failures: ${fails.length}`, ...fails.slice(0, 60)];
+const el = document.getElementById('result'); el.textContent = out.join('\n'); el.dataset.status = out[0].endsWith('PASS') ? 'pass' : 'fail';
+</script>
+</body>
+</html>

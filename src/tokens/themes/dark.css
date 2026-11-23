@@ -1,0 +1,21 @@
+/*
+ * Annachy Design System — Dark mode (semantic colour tokens), PARTIAL
+ * Layer: annachy.tokens (assigned by src/annachy.css) · Phase R6
+ * Source of truth: Figma file rM3ixSG6i3DFfKZFWuxzs4. The Brand variable collection has a Dark mode. These are its
+ * values, read from the Dropdown Theme=Dark variants (docs/figma-audit/r6-0-evidence.md §1).
+ *
+ * Only values observed in Figma are overridden. Every other token keeps its Light value. This file adds no new token
+ * names: it re-maps existing ones, so the 464-token inventory is unchanged.
+ * Use: data-annachy-theme="dark" on any element (e.g. a Dropdown menu = Figma Theme=Dark).
+ * Unchanged in Dark (verified, therefore not listed): text-tertiary #707a8f, blue-500, base-white, button-primary-*.
+ */
+
+[data-annachy-theme="dark"] {
+  --annachy-color-text-primary: #fafcff;          /* Brand/Text/Primary      1451:25325 */
+  --annachy-color-text-secondary: #98a0ae;        /* Brand/Text/Secondary    1451:25325 (search placeholder) */
+  --annachy-color-background-secondary: #181b21;  /* Brand/Background/Secondary 1451:25325, 1464:3057 */
+  --annachy-color-background-tertiary: #1f242e;   /* Brand/Background/Tertiary  1464:3061 (item Hover) */
+  --annachy-color-border-primary: #171e2a;        /* Brand/Border/Primary    1451:25325, 1464:3073 */
+  --annachy-color-border-secondary: #1f242e;      /* Brand/Border/Secondary  1451:25325 (dividers) */
+  --annachy-color-icon-secondary: #98a0ae;        /* Brand/Icon/Secondary    1464:3057, 1464:3061, 1464:3065 */
+}
